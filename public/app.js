@@ -175,7 +175,7 @@
         <p>${a.summary ? esc(a.summary) : '이 기사는 언론사가 요약을 제공하지 않았습니다. 원문에서 내용을 확인해 주세요.'}</p>
         <p class="note">언론사 RSS 가 제공한 요약입니다. 전체 내용은 원문에서 확인하세요.</p>
       </section>
-      <a class="cta" href="${esc(a.link)}" target="_blank" rel="noopener noreferrer">${esc(a.source)}에서 원문 보기 ↗</a>
+      <a class="cta" href="${esc(a.link)}" target="_blank" rel="noopener noreferrer" data-out="${esc(a.source)}">${esc(a.source)}에서 원문 보기 ↗</a>
       ${state.storyOf.get(a.id) ? `<a class="story-link" href="#s/${esc(state.storyOf.get(a.id).id)}"><b>뉴스웨이브 정리</b>${esc(state.storyOf.get(a.id).title)} →</a>` : ''}
       ${same.length ? `<section class="rel"><h2>같은 소식, 다른 매체 <span>${same.length}</span></h2><ul>${same.map(relItem).join('')}</ul></section>` : ''}
       ${topic.length ? `<section class="rel"><h2>${esc(a.category)} 최신 기사</h2><ul>${topic.map(relItem).join('')}</ul></section>` : ''}
@@ -210,11 +210,21 @@
     $('#detail').hidden = !reading;
     if (reading) {
       if (st) renderStory(st); else renderDetail(a);
+      // GA4: 상세 화면은 주소의 # 뒤만 바뀌어 페이지 조회로 잡히지 않으므로 기사 조회 이벤트를 따로 보냅니다.
+      if (typeof gtag === 'function') {
+        const x = st || a;
+        gtag('event', st ? 'view_story' : 'view_article', { article_id: x.id, article_title: x.title, source: st ? '뉴스웨이브' : a.source, category: x.category });
+      }
       window.scrollTo({ top: 0 }); document.title = (st || a).title + ' | AI 뉴스웨이브';
     }
     else { document.title = 'AI 뉴스웨이브'; window.scrollTo({ top: listScroll }); }
   }
   window.addEventListener('hashchange', route);
+  // GA4: 원문 보기 클릭을 매체별로 셉니다.
+  document.addEventListener('click', (e) => {
+    const o = e.target.closest('[data-out]');
+    if (o && typeof gtag === 'function') gtag('event', 'open_original', { source: o.dataset.out });
+  });
 
   // 탭에는 상위 5개만 두고, 나머지는 "키워드 전체" 시트에서 상위 30개 중 여러 개를 고릅니다.
   const TAB_TOP = 5;
