@@ -1,0 +1,250 @@
+{
+  "note": "뉴스웨이브가 여러 매체의 보도에서 확인된 사실만 모아 새로 쓴 정리 기사입니다. 수집 스크립트는 이 파일을 건드리지 않습니다.",
+  "stories": [
+    {
+      "id": "s20261006-semco-mlcc",
+      "title": "삼성전기, AI 서버용 MLCC 2900억원 추가 수주…올해 여섯 번째 장기계약",
+      "category": "기업",
+      "published": "2026-10-06T03:10:00.000Z",
+      "body": [
+        "삼성전기가 6일 글로벌 대형기업과 약 2900억원(약 2억1000만달러) 규모의 AI 서버용 적층세라믹커패시터(MLCC) 공급계약을 맺었다고 공시했다. 공급 기간은 2027년 1월 1일부터 12월 31일까지 1년이다. 공시상 정확한 계약 금액은 약 2856억원으로 보도됐다.",
+        "이번 계약은 올해 공시 기준으로 삼성전기의 여섯 번째 장기공급계약(LTA)이다. 일부 매체는 올해 누적 장기계약 규모가 3조9000억원을 넘어섰다고 전했다. 계약 상대방은 공개되지 않았다.",
+        "MLCC는 전기를 잠시 저장했다가 반도체 등 핵심 부품에 안정적으로 공급하고 회로의 전기적 잡음을 줄이는 부품이다. AI 서버는 일반 서버보다 MLCC가 훨씬 많이 들어가 고부가 제품 수요가 커지는 추세이며, 삼성전기는 이를 장기계약으로 묶어 두는 전략을 이어 가고 있다."
+      ],
+      "sources": [
+        {
+          "id": "942466a2a906",
+          "name": "연합뉴스",
+          "title": "삼성전기, 글로벌 기업과 2천900억 AI 서버용 MLCC 공급계약",
+          "link": "https://www.yna.co.kr/view/AKR20261006088900003"
+        },
+        {
+          "id": "278a42d62602",
+          "name": "조선비즈",
+          "title": "삼성전기, 2900억 규모 AI 서버용 MLCC 공급계약 체결",
+          "link": "https://biz.chosun.com/industry/company/2026/10/06/LUCUWQRA5FHNZDKEGZLN6KLC5Y"
+        },
+        {
+          "id": "0ca8165eebab",
+          "name": "헤럴드경제",
+          "title": "삼성전기, 2900억원 규모 AI 서버용 MLCC 추가 수주…장기계약 릴레이",
+          "link": "https://biz.heraldcorp.com/article/10894118"
+        },
+        {
+          "id": "6635d99d8114",
+          "name": "테크월드뉴스",
+          "title": "삼성전기, AI 서버 MLCC 2900억원 수주…장기계약 3.9조원 돌파",
+          "link": "https://www.epnc.co.kr/news/articleView.html?idxno=407814"
+        },
+        {
+          "id": "69b07582f8c7",
+          "name": "EBN",
+          "title": "삼성전기, 글로벌 대형사와 2900억원 규모 AI 서버용 MLCC 공급계약",
+          "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1726801"
+        },
+        {
+          "id": "adf09af0f68a",
+          "name": "이데일리",
+          "title": "[속보]삼성전기, 2900억 규모 AI 서버용 MLCC 공급계약 체결",
+          "link": "https://www.edaily.co.kr/News/Read?newsId=03325926645610296"
+        },
+        {
+          "id": "ff7b44777b45",
+          "name": "노컷뉴스",
+          "title": "삼성전기, '6번째' 2900억원 규모 AI 서버용 MLCC 공급계약",
+          "link": "https://www.nocutnews.co.kr/news/6587428"
+        },
+        {
+          "id": "284b796e5138",
+          "name": "아시아경제",
+          "title": "삼성전기, 글로벌 기업과 2900억 규모 AI 서버용 MLCC 공급계약",
+          "link": "https://view.asiae.co.kr/article/2026100612051410206"
+        }
+      ]
+    },
+    {
+      "id": "s20261006-lge-aidc-cooling",
+      "title": "LG전자, 북미 AI 데이터센터에 5GW 규모 냉각 설비 장기 공급…주가 장중 급등",
+      "category": "반도체",
+      "published": "2026-10-06T02:10:00.000Z",
+      "body": [
+        "LG전자 미국법인이 북미 인프라 플랫폼 기업 에어 컨트롤 콘셉트(AIR Control Concept)와 AI 데이터센터(AIDC)용 칠러 장기 공급계약을 맺었다. 공급 대상은 총 5GW 규모의 데이터센터로, 북미는 AI 데이터센터 최대 시장으로 꼽힌다.",
+        "계약 금액은 공개되지 않았지만 증권가에서는 조 단위에 이를 것으로 추산했다. 소식이 알려진 6일 LG전자 주가는 장 초반 5~7% 오르며 강세를 보였다.",
+        "AI 서버는 발열이 커 냉각 설비가 데이터센터 투자의 주요 항목으로 떠올랐다. LG전자는 이번 계약을 발판으로 AI 데이터센터 냉각 솔루션 사업을 본격적으로 키운다는 계획이다."
+      ],
+      "sources": [
+        {
+          "id": "32cd567db040",
+          "name": "인공지능신문",
+          "title": "LG전자, 5GW 규모 AI 데이터센터 냉각 솔루션 대형 공급... ‘에어’社와 냉각 솔루션 장기 계약 체결",
+          "link": "https://www.aitimes.kr/news/articleView.html?idxno=42188"
+        },
+        {
+          "id": "a2f32042408e",
+          "name": "테크월드뉴스",
+          "title": "LG전자, AI 데이터센터 냉각사업 질주…美 5GW 대형 계약 확보",
+          "link": "https://www.epnc.co.kr/news/articleView.html?idxno=407787"
+        },
+        {
+          "id": "57e3878ceda1",
+          "name": "한국NGO신문",
+          "title": "LG전자, 북미서 5GW 규모 AI 데이터센터 냉각 솔루션 공급 계약",
+          "link": "https://www.ngonews.kr/news/articleView.html?idxno=239874"
+        },
+        {
+          "id": "9a9b7dd8a608",
+          "name": "아이뉴스24",
+          "title": "[특징주] LG전자, AI 데이터센터 냉각 솔루션 공급계약 7%대↑",
+          "link": "https://www.inews24.com/view/2011905"
+        },
+        {
+          "id": "1fd17ae4b326",
+          "name": "연합뉴스",
+          "title": "[특징주] LG전자, 북미향 AI데이터센터 냉각솔루션 계약에 장초반 급등",
+          "link": "https://www.yna.co.kr/view/AKR20261006041600008"
+        },
+        {
+          "id": "1be0d872c725",
+          "name": "한국경제",
+          "title": "LG전자, 美 AI 데이터센터 냉각 솔루션 공급 계약에 '급등'",
+          "link": "https://www.hankyung.com/article/2026100645236"
+        }
+      ]
+    },
+    {
+      "id": "s20261006-yanolja-amux",
+      "title": "야놀자넥스트, 기업 AI 사용량과 비용, 보안을 한곳에서 관리하는 '에이먹스' 출시",
+      "category": "기업",
+      "published": "2026-10-06T01:35:00.000Z",
+      "body": [
+        "야놀자그룹의 기업용 솔루션 개발 법인 야놀자넥스트가 6일 기업용 AI 관리 솔루션 '에이먹스(Amux)'를 내놨다.",
+        "에이먹스는 기업이 여러 AI 서비스를 함께 쓸 때 생기는 API 사용량과 요금을 한 화면에서 확인하고 제어하는 도구다. 부서와 직원 단위로 사용 현황을 실시간으로 보고 한도를 걸 수 있으며, 사내 정보가 외부 AI로 새는 위험을 관리하는 보안 기능도 담았다.",
+        "여러 생성형 AI를 도입한 기업에서 예상보다 큰 요금이 청구되는 이른바 'AI 요금 폭탄'이 문제로 떠오르면서 나온 제품이다. 야놀자는 여행과 숙박 사업자 대상 B2B 솔루션을 만들며 쌓은 역량을 일반 기업의 AI 전환(AX) 시장으로 넓히겠다는 구상이다."
+      ],
+      "sources": [
+        {
+          "id": "8043579d3fff",
+          "name": "디지털투데이",
+          "title": "야놀자넥스트, 기업용 AI 관리 솔루션 '에이먹스' 출시",
+          "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=705091"
+        },
+        {
+          "id": "15957354f27e",
+          "name": "테크M",
+          "title": "'여행 AI' 넘어 기업 AX까지…야놀자넥스트, AI 비용·보안 잡는 '에이먹스' 출격",
+          "link": "https://www.techm.kr/news/articleView.html?idxno=155854"
+        },
+        {
+          "id": "588b2021fa08",
+          "name": "지디넷코리아",
+          "title": "야놀자넥스트, 기업용 AI 비용·보안 통합 관리 솔루션 'Amux' 선보여",
+          "link": "https://zdnet.co.kr/view/?no=20261006095145"
+        },
+        {
+          "id": "5c1bf0501617",
+          "name": "비즈워치",
+          "title": "\"기업 AI 요금 폭탄 막는다\"…야놀자넥스트, '에이먹스' 출시",
+          "link": "http://news.bizwatch.co.kr/article/mobile/2026/10/06/0006"
+        },
+        {
+          "id": "59ab19b7d7c3",
+          "name": "아이뉴스24",
+          "title": "야놀자넥스트, 기업용 AI 관리 솔루션 'Amux' 출시",
+          "link": "https://www.inews24.com/view/2011915"
+        },
+        {
+          "id": "0f88ef272e36",
+          "name": "한국경제",
+          "title": "\"AI 요금 폭탄 막는다\"…야놀자넥스트, 기업용 AI 관리 솔루션 출시",
+          "link": "https://www.hankyung.com/article/202610064353g"
+        }
+      ]
+    },
+    {
+      "id": "s20261006-dokpamo-audit",
+      "title": "배경훈 부총리 \"독파모 계속 간다\"…국감서 프론티어 AI와 병행 추진 재확인",
+      "category": "정책",
+      "published": "2026-10-06T03:00:00.000Z",
+      "body": [
+        "배경훈 부총리 겸 과학기술정보통신부 장관이 6일 국회 과학기술정보방송통신위원회 국정감사에서 '독자 AI 파운데이션 모델(독파모)' 개발 사업을 계속 추진하겠다고 밝혔다. 정부가 프론티어 AI 개발 계획을 발표한 뒤 독파모가 중단되는 것 아니냐는 논란이 일자 이를 정면으로 부인한 것이다.",
+        "정부는 독파모를 당초 계획한 4차 지원까지 이어 간다. 내년 2월 3차 평가로 최종 2개 팀을 고르고, GPU 등 지원도 기존 계획대로 유지한다. 프론티어 AI 사업은 이와 별도로 추진한다.",
+        "배 부총리는 프론티어 AI 역량 확보를 사이버 안보 대응과 연결했다. 최근 금융권을 중심으로 AI를 활용한 해킹이 잇따르는 상황에서, 안보와 직결되는 AI 역량을 외부에 의존할 수 없다는 취지다."
+      ],
+      "sources": [
+        {
+          "id": "b4adda60b552",
+          "name": "연합뉴스",
+          "title": "배경훈 \"독파모 계속 간다…프론티어AI로 사이버안보 대응\"",
+          "link": "https://www.yna.co.kr/view/AKR20261006080000017"
+        },
+        {
+          "id": "d4bf465caae7",
+          "name": "테크M",
+          "title": "[국감 26] 배경훈 \"독파모 계속된다\"...'프론티어AI'와 병행 재확인",
+          "link": "https://www.techm.kr/news/articleView.html?idxno=155865"
+        },
+        {
+          "id": "af1685fafc3b",
+          "name": "디지털데일리",
+          "title": "배경훈 장관 \"사이버안보 AI 역량, 외부 의존 못해\"…독파모·프론티어 AI 병행",
+          "link": "https://www.ddaily.co.kr/page/view/2026100605510464743"
+        },
+        {
+          "id": "3fdc6fa40b8f",
+          "name": "지디넷코리아",
+          "title": "[일문일답] 독파모 끝까지 간다…\"프론티어 AI 사업 별도 추진\"",
+          "link": "https://zdnet.co.kr/view/?no=20261002194119"
+        },
+        {
+          "id": "a98d7a5217ab",
+          "name": "아시아경제",
+          "title": "[2026국감]배경훈 \"독파모 계속된다…프론티어 AI, 사이버 안보 대응\"",
+          "link": "https://view.asiae.co.kr/article/2026100611572778174"
+        }
+      ]
+    },
+    {
+      "id": "s20261006-telco-chatgpt",
+      "title": "챗GPT에 \"내게 맞는 요금제 찾아줘\"…KT·LG유플러스, 챗GPT 플러그인으로 상품 안내",
+      "category": "생성형AI",
+      "published": "2026-10-06T02:40:00.000Z",
+      "body": [
+        "KT와 LG유플러스가 오픈AI의 챗GPT 안에서 자사 요금제와 혜택을 찾아볼 수 있는 플러그인을 내놨다. 이용자가 챗GPT에 나이나 데이터 사용량 같은 조건을 말하면 그에 맞는 요금제를 비교해 준다.",
+        "KT는 6일 공식 상품정보를 챗GPT와 연결한 플러그인을 출시했다. 챗GPT 채팅 사이드바의 플러그인 메뉴에서 KT 플러그인을 추가해 쓰는 방식이다. LG유플러스는 지난 9월 16일 온라인 전용 요금제 '너겟'의 상품과 혜택 정보를 담은 '유플러스' 플러그인을 먼저 선보였다.",
+        "LG유플러스는 우선 요금제와 혜택 탐색 기능을 제공하고, 가입 유형과 유심 선택 등으로 기능을 단계적으로 넓힐 계획이다. 통신사들이 생성형 AI 서비스를 새로운 상품 안내 창구로 쓰기 시작한 셈이다."
+      ],
+      "sources": [
+        {
+          "id": "45835eb71d6a",
+          "name": "테크월드뉴스",
+          "title": "챗GPT 대화창서 요금제 찾는다…KT, 챗GPT에 상품정보 플러그인 출시",
+          "link": "https://www.epnc.co.kr/news/articleView.html?idxno=407795"
+        },
+        {
+          "id": "b18e5887b8ed",
+          "name": "IT조선",
+          "title": "KT·LG유플러스 챗GPT 연동… 요금제·혜택 정보 제공",
+          "link": "https://it.chosun.com/news/articleView.html?idxno=2023092171451"
+        },
+        {
+          "id": "01b89c716ffe",
+          "name": "조선비즈",
+          "title": "“내게 맞는 상품 찾아줘”… LG유플러스, 챗GPT서 ‘너겟’ 요금제 탐색 지원",
+          "link": "https://biz.chosun.com/it-science/ict/2026/10/06/YUB2H2QOBJAMLBOIMP65246TUQ"
+        },
+        {
+          "id": "af3761207899",
+          "name": "인더스트리뉴스",
+          "title": "LG유플러스, 챗GPT서 ‘너겟’ 요금제 확인…플러그인 출시",
+          "link": "https://www.industrynews.co.kr/news/articleView.html?idxno=87059"
+        },
+        {
+          "id": "1350ca6c7e7e",
+          "name": "EBN",
+          "title": "[Telecom & Now] LGU+, 챗GPT서 '너겟' 요금제 정보 확인…상품 탐색 채널 확대",
+          "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1726795"
+        }
+      ]
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-const CACHE = 'ainewswave-v9';
+const CACHE = 'ainewswave-v10';
 const SHELL = ['./', 'index.html', 'style.css', 'app.js', 'manifest.webmanifest', 'icon.svg'];
 
 self.addEventListener('install', (e) => {
@@ -15,7 +15,7 @@ self.addEventListener('fetch', (e) => {
   const url = new URL(req.url);
   if (url.origin !== location.origin) return;
   // 기사 데이터는 네트워크 우선, 오프라인이면 마지막 저장본
-  if (url.pathname.endsWith('/data/articles.json')) {
+  if (url.pathname.includes('/data/')) {
     e.respondWith(
       fetch(req).then((res) => { const copy = res.clone(); caches.open(CACHE).then((c) => c.put(req, copy)); return res; })
         .catch(() => caches.match(req))

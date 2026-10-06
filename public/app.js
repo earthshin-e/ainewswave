@@ -14,6 +14,7 @@
     all: [], sources: [], updatedAt: null,
     topic: '전체', picked: new Set(), q: '', saved: false, shown: PAGE,
     bookmarks: store.get('bm', {}),
+    stories: [], storyOf: new Map(),
   };
 
   const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -133,8 +134,11 @@
     const top = state.q || state.saved ? [] : hot(list);
     box.hidden = !top.length;
     if (!top.length) return;
-    box.innerHTML = `<h2>지금 많이 보도되는 소식 <span>최근 48시간, 보도한 매체 수 기준</span></h2><ol>${top.map((t, i) =>
-      `<li data-cat="${esc(t.lead.category)}"><a href="#a/${esc(t.lead.id)}"><b class="rk">${i + 1}</b><span class="tag">${esc(t.lead.category)}</span><span class="ht">${esc(t.lead.title)}</span><span class="hn">매체 ${t.outlets}곳</span></a></li>`).join('')}</ol>`;
+    box.innerHTML = `<h2>지금 많이 보도되는 소식 <span>최근 48시간, 보도한 매체 수 기준</span></h2><ol>${top.map((t, i) => {
+      const st = t.members.map((m) => state.storyOf.get(m.id)).find(Boolean);
+      const href = st ? `#s/${st.id}` : `#a/${t.lead.id}`;
+      return `<li data-cat="${esc(st ? st.category : t.lead.category)}"><a href="${esc(href)}"><b class="rk">${i + 1}</b><span class="tag">${esc(st ? st.category : t.lead.category)}</span><span class="ht">${st ? '<em class="nw">뉴스웨이브</em>' : ''}${esc(st ? st.title : t.lead.title)}</span><span class="hn">매체 ${t.outlets}곳</span></a></li>`;
+    }).join('')}</ol>`;
   }
 
   function related(a) {
@@ -173,8 +177,22 @@
         <p class="note">언론사 RSS 가 제공한 요약입니다. 전체 내용은 원문에서 확인하세요.</p>
       </section>
       <a class="cta" href="${esc(a.link)}" target="_blank" rel="noopener noreferrer">${esc(a.source)}에서 원문 보기 ↗</a>
+      ${state.storyOf.get(a.id) ? `<a class="story-link" href="#s/${esc(state.storyOf.get(a.id).id)}"><b>뉴스웨이브 정리</b>${esc(state.storyOf.get(a.id).title)} →</a>` : ''}
       ${same.length ? `<section class="rel"><h2>같은 소식, 다른 매체 <span>${same.length}</span></h2><ul>${same.map(relItem).join('')}</ul></section>` : ''}
       ${topic.length ? `<section class="rel"><h2>${esc(a.category)} 최신 기사</h2><ul>${topic.map(relItem).join('')}</ul></section>` : ''}
+    </article>`;
+  }
+
+  function renderStory(st) {
+    const srcs = st.sources.map((x) => `<li><a href="${esc(x.link)}" target="_blank" rel="noopener noreferrer"><span class="r-src">${esc(x.name)}</span><span class="r-title">${esc(x.title)}</span><span class="ext">↗</span></a></li>`).join('');
+    $('#detail').innerHTML = `<article class="read story" data-cat="${esc(st.category)}">
+      <button class="back" type="button" id="btnBack">← 목록으로</button>
+      <span class="tag">${esc(st.category)}</span>
+      <h1>${esc(st.title)}</h1>
+      <div class="meta"><b class="byline">뉴스웨이브</b><span>·</span><time datetime="${esc(st.published)}">${fullDate(st.published)}</time><span>·</span><span>${st.sources.length}개 매체 보도 종합</span></div>
+      <div class="story-body">${st.body.map((p) => `<p>${esc(p)}</p>`).join('')}</div>
+      <section class="rel src"><h2>출처 <span>${st.sources.length}</span></h2><ul>${srcs}</ul></section>
+      <p class="note">이 글은 위 매체들의 보도에서 확인된 사실을 뉴스웨이브가 새로 정리한 것입니다. 자세한 내용은 각 언론사 원문을 확인하세요.</p>
     </article>`;
   }
 
@@ -182,14 +200,18 @@
   let fromList = false;
   let routed = false;
   function route() {
-    const m = location.hash.match(/^#a\/([\w-]+)/);
-    const a = m && (state.all.find((x) => x.id === m[1]) || state.bookmarks[m[1]]);
-    const reading = !!a;
+    const m = location.hash.match(/^#([as])\/([\w-]+)/);
+    const a = m && m[1] === 'a' && (state.all.find((x) => x.id === m[2]) || state.bookmarks[m[2]]);
+    const st = m && m[1] === 's' && state.stories.find((x) => x.id === m[2]);
+    const reading = !!(a || st);
     if (reading && !document.body.classList.contains('reading')) { listScroll = window.scrollY; fromList = routed; }
     routed = true;
     document.body.classList.toggle('reading', reading);
     $('#detail').hidden = !reading;
-    if (reading) { renderDetail(a); window.scrollTo({ top: 0 }); document.title = a.title + ' | AI 뉴스웨이브'; }
+    if (reading) {
+      if (st) renderStory(st); else renderDetail(a);
+      window.scrollTo({ top: 0 }); document.title = (st || a).title + ' | AI 뉴스웨이브';
+    }
     else { document.title = 'AI 뉴스웨이브'; window.scrollTo({ top: listScroll }); }
   }
   window.addEventListener('hashchange', route);
@@ -284,6 +306,15 @@
     }
     render();
   }
+
+  function applyStories(d) {
+    state.stories = (d && d.stories) || [];
+    state.storyOf = new Map();
+    for (const st of state.stories) for (const x of st.sources) state.storyOf.set(x.id, st);
+    if (state.all.length) render();
+    route();
+  }
+  if (!window.__DATA__) fetch('data/stories.json', { cache: 'no-cache' }).then((r) => (r.ok ? r.json() : null)).then(applyStories).catch(() => {});
 
   renderTabs();
   $('#list').innerHTML = '<div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div>';
