@@ -98,7 +98,9 @@
   function similarity(a, b) {
     let n = 0;
     for (const x of a) if (b.has(x)) n++;
-    return n / (Math.min(a.size, b.size) || 1);
+    // 글자가 너무 적은 제목(외국어 제목 등)은 우연히 겹치기 쉬워 비교하지 않습니다.
+    if (a.size < 6 || b.size < 6) return 0;
+    return n / Math.min(a.size, b.size);
   }
   function related(a) {
     const g = grams(a.title);
