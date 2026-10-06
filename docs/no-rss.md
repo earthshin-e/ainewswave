@@ -66,3 +66,8 @@ node scripts/build_feeds.mjs   # 확인된 주소로 feeds.json 다시 작성
 
 주소를 알게 된 매체는 `scripts/probe_pass2.mjs` 의 `KNOWN` 에 추가하면 다음 탐색에서 바로 잡힙니다.
 403 으로 막힌 곳은 해당 언론사에 RSS 또는 콘텐츠 제휴를 문의하는 편이 맞습니다.
+
+
+## 이후 변경
+
+- 2026-10-06 코인데스크코리아(coindeskkorea.com)는 도메인이 AI 뉴스와 무관한 블로그 글을 내보내 `feeds.json` 에서 뺐습니다. 지금 수집 대상은 80곳입니다.
