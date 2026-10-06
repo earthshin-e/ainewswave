@@ -160,6 +160,10 @@ body.reading .kwbar { display: none; }
 .media { order: 2; flex: none; }
 .media img { display: block; width: 84px; height: 63px; border-radius: 0; object-fit: cover; background: var(--line); }
 .ph { display: none; }
+.media.stock { position: relative; }
+.media .credit { position: absolute; left: 4px; bottom: 4px; padding: 1px 5px; font-size: 10px; line-height: 1.4; color: #fff; background: rgba(0,0,0,.55); }
+.hero figcaption { margin-top: 6px; font-size: 12px; color: var(--ink3); }
+.hero figcaption a { color: inherit; }
 .media:has(> .ph) { display: none; }
 .txt { flex: 1; min-width: 0; }
 .tag {

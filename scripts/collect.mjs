@@ -112,6 +112,7 @@ const results = await pooled(feeds, CONCURRENCY, async (f) => {
       image: it.image || old?.image || '',
       ...(old?.imgTried ? { imgTried: true } : {}),
       ...(old?.points ? { points: old.points } : {}),
+      ...(old?.photo ? { photo: old.photo } : {}),
       category: classify(it.title, it.summary),
       kw: keywordsOf(it.title, it.summary),
     }));
@@ -183,6 +184,63 @@ await pooled(needImg, CONCURRENCY, async (a) => {
   if (u) { a.image = u; ogFound++; }
 });
 
+// Unsplash 자료 사진: 그래도 이미지가 없는 기사에 주제에 맞는 무료 사진을 붙입니다(UNSPLASH_ACCESS_KEY 가 있을 때만).
+// 한 번 쓴 사진은 photos-used.json 에 기록해 다른 기사에 다시 쓰지 않습니다. 실제 현장 사진이 아니므로 화면에 "자료 사진"과 작가를 표시합니다.
+// Unsplash 규칙: 이미지는 Unsplash 주소에서 그대로 불러오고, 사용할 때 download_location 을 호출하며, 작가와 Unsplash 를 링크로 밝힙니다.
+const PHOTO_OUT = path.join(root, 'public', 'data', 'photos-used.json');
+const PHOTO_MAX = 20; // 한 번 수집에서 붙이는 최대 수 (무료 등급은 시간당 50회 요청)
+const usedPhotos = new Set((await readJson(PHOTO_OUT, { used: [] })).used || []);
+for (const a of articles) if (a.photo) usedPhotos.add(a.photo.id);
+const QUERY = {
+  '생성형AI': 'artificial intelligence', '반도체': 'semiconductor chip', '로봇': 'robot', '정책': 'government building',
+  '기업': 'office technology', '연구': 'science laboratory', '보안/윤리': 'cyber security', '일반': 'technology',
+};
+const KW_QUERY = {
+  '데이터센터': 'data center', 'GPU': 'gpu', 'HBM': 'memory chip', '엔비디아': 'graphics card', '휴머노이드': 'humanoid robot',
+  '피지컬AI': 'robot arm', '자율주행': 'self driving car', '금융': 'finance', '투자': 'stock market', '의료AI': 'medical technology',
+  '교육': 'classroom technology', '국방': 'military technology', '전력': 'power grid', '클라우드': 'server room', '스마트폰': 'smartphone',
+  '양자': 'quantum computer', '게임': 'video game', '모빌리티': 'electric car', 'AI 에이전트': 'artificial intelligence', '보안': 'cyber security',
+};
+let photoAdded = 0;
+const UKEY = process.env.UNSPLASH_ACCESS_KEY;
+if (UKEY) {
+  const pools = new Map(); // 검색어별 결과를 이번 실행에서 재사용해 요청 수를 줄입니다
+  const search = async (q, page) => {
+    const res = await fetch(`https://api.unsplash.com/search/photos?query=${encodeURIComponent(q)}&per_page=30&page=${page}&orientation=landscape&content_filter=high`, { headers: { authorization: `Client-ID ${UKEY}`, 'accept-version': 'v1' } });
+    if (!res.ok) throw new Error(`Unsplash HTTP ${res.status}`);
+    return (await res.json()).results || [];
+  };
+  const pick = async (q) => {
+    let pool = pools.get(q);
+    if (!pool) { pool = { page: 0, items: [] }; pools.set(q, pool); }
+    for (let tries = 0; tries < 3; tries++) {
+      const p = pool.items.find((x) => !usedPhotos.has(x.id) && !x.premium && !x.plus); // 유료(Unsplash+) 사진 제외
+      if (p) return p;
+      pool.page++;
+      const more = await search(q, pool.page);
+      if (!more.length) return null;
+      pool.items.push(...more);
+    }
+    return null;
+  };
+  const targets = articles.filter((a) => !a.image && !a.photo).slice(0, PHOTO_MAX);
+  try {
+    for (const a of targets) {
+      const kw = (a.kw || []).find((k) => KW_QUERY[k]);
+      const q = kw ? KW_QUERY[kw] : (QUERY[a.category] || 'technology');
+      const p = await pick(q);
+      if (!p) continue;
+      usedPhotos.add(p.id);
+      const ref = '?utm_source=ainewswave&utm_medium=referral';
+      a.photo = { id: p.id, url: `${p.urls.raw}&w=800&q=70&fm=jpg&fit=crop&ar=16:9`, author: p.user.name, authorUrl: p.user.links.html + ref, link: p.links.html + ref };
+      photoAdded++;
+      fetch(`${p.links.download_location}&client_id=${UKEY}`).catch(() => {}); // 사용 알림(Unsplash 규칙)
+    }
+  } catch (e) {
+    console.warn(`Unsplash 자료 사진 중단: ${e.message}`);
+  }
+}
+
 const counts = {};
 for (const a of articles) counts[a.sourceId] = (counts[a.sourceId] || 0) + 1;
 const sources = feeds
@@ -216,6 +274,7 @@ const keywords = Object.entries(total).sort((a, b) => b[1] - a[1]).slice(0, KW_T
 const kwSince = Object.keys(days).sort()[0] || null;
 
 await mkdir(path.dirname(OUT), { recursive: true });
+await writeFile(PHOTO_OUT, JSON.stringify({ updatedAt: now.toISOString(), used: [...usedPhotos] }), 'utf8');
 await writeFile(KW_OUT, JSON.stringify({ updatedAt: now.toISOString(), days }), 'utf8');
 const json = JSON.stringify({ updatedAt: now.toISOString(), keywords, keywordDays: KW_DAYS, keywordSince: kwSince, sources, status, articles });
 await writeFile(OUT, json, 'utf8');
@@ -226,6 +285,7 @@ if (failed.length) {
   for (const f of failed) console.log(`  - ${f.name}: ${f.error}`);
 }
 const secs = ((Date.now() - startedAt) / 1000).toFixed(1);
+console.log(`\nUnsplash 자료 사진: ${UKEY ? `${photoAdded}건 추가, 사용한 사진 ${usedPhotos.size}장` : '키 없음, 건너뜀'}`);
 console.log(`\n대표 이미지 보강: ${needImg.length}건 시도, ${ogFound}건 찾음, 이미지 없는 기사 ${articles.filter((a) => !a.image).length}건`);
 console.log(`\n키워드 상위 ${KW_TOP}: ${keywords.map((k) => `${k.label} ${k.count}`).join(', ')}`);
 console.log(`\n저장 완료: 기사 ${articles.length}건, 매체 ${sources.length}곳 (피드 성공 ${okCount}/${feeds.length})`);

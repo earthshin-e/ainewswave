@@ -53,7 +53,10 @@
   function card(a, i) {
     const on = !!state.bookmarks[a.id];
     const feature = i === 0 && !state.q && !state.saved;
-    const media = a.image
+    // 언론사 이미지가 없으면 Unsplash 자료 사진(있을 때)을, 그것도 없으면 주제 색 블록을 씁니다.
+    const media = !a.image && a.photo
+      ? `<div class="media stock"><img src="${esc(a.photo.url)}" alt="" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;ph&quot; aria-hidden=&quot;true&quot;>${esc(a.category)}</div>'"><span class="credit">자료 사진</span></div>`
+      : a.image
       ? `<div class="media"><img src="${esc(a.image)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.innerHTML='<div class=&quot;ph&quot; aria-hidden=&quot;true&quot;>${esc(a.category)}</div>'"></div>`
       : `<div class="media"><div class="ph" aria-hidden="true">${esc(a.category)}</div></div>`;
     return `<article class="card${feature ? ' feature' : ''}" data-cat="${esc(a.category)}">
@@ -178,7 +181,8 @@
       <h1>${esc(a.title)}</h1>
       <div class="meta"><b>${esc(a.source)}</b><span>·</span><time datetime="${esc(a.published)}">${fullDate(a.published)}</time>
         <button class="bm" data-id="${esc(a.id)}" aria-pressed="${on}" aria-label="북마크">${STAR}</button></div>
-      ${a.image ? `<figure class="hero"><img src="${esc(a.image)}" alt="" referrerpolicy="no-referrer" onerror="this.parentNode.remove()"></figure>` : ''}
+      ${a.image ? `<figure class="hero"><img src="${esc(a.image)}" alt="" referrerpolicy="no-referrer" onerror="this.parentNode.remove()"></figure>`
+        : a.photo ? `<figure class="hero"><img src="${esc(a.photo.url)}" alt="" onerror="this.parentNode.remove()"><figcaption>자료 사진: <a href="${esc(a.photo.authorUrl)}" target="_blank" rel="noopener">${esc(a.photo.author)}</a> / <a href="${esc(a.photo.link)}" target="_blank" rel="noopener">Unsplash</a>. 기사 내용과 직접 관련 없는 참고 이미지입니다.</figcaption></figure>` : ''}
       ${a.points && a.points.length ? `<section class="points"><h2>핵심 요약</h2><ul>${a.points.map((x) => `<li>${esc(x)}</li>`).join('')}</ul></section>` : ''}
       ${a.restricted ? '' : `<section class="sum">
         <h2>언론사 요약</h2>

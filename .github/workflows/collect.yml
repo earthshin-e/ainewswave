@@ -35,10 +35,15 @@ jobs:
       - name: Fetch previous keyword history
         run: curl -fsSL "https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/data/keywords.json" -o public/data/keywords.json || true
       # 자동으로 쓴 정리 기사도 직전 배포본에서 이어 받습니다
+      # 한 번 쓴 Unsplash 사진 기록도 이어서 받습니다(같은 사진을 다시 쓰지 않기 위해)
+      - name: Fetch previous photo history
+        run: curl -fsSL "https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/data/photos-used.json" -o public/data/photos-used.json || true
       - name: Fetch previous stories
         run: curl -fsSL "https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/data/stories.json" -o public/data/stories.prev.json || true
       - name: Collect articles
         run: node scripts/collect.mjs
+        env:
+          UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
       # 정리 기사와 오늘의 AI 브리핑 자동 작성 (ANTHROPIC_API_KEY 시크릿이 없으면 건너뜀)
       - name: Write stories
         run: node scripts/write.mjs || echo "정리 기사 작성 단계 실패, 배포는 계속합니다"
