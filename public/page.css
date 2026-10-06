@@ -18,3 +18,5 @@ th, td { border: 1px solid var(--line); padding: 8px 10px; text-align: left; ver
 th { background: var(--surface); }
 .foot { border-top: 1px solid var(--line); padding: 20px 16px 40px; font-size: 13px; color: var(--ink3); }
 .foot a { color: var(--ink2); margin-right: 14px; }
+h3 { font-size: 15px; margin: 20px 0 4px; color: var(--ink3); font-weight: 600; }
+li .meta { font-size: 12px; margin-left: 4px; }

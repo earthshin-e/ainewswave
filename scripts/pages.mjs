@@ -17,7 +17,7 @@ const kstDate = (iso) => {
   return `${d.getUTCFullYear()}년 ${d.getUTCMonth() + 1}월 ${d.getUTCDate()}일 ${String(d.getUTCHours()).padStart(2, '0')}:${String(d.getUTCMinutes()).padStart(2, '0')}`;
 };
 
-function page(st) {
+function page(st, others) {
   const url = `${SITE}/s/${st.id}.html`;
   const desc = (st.points && st.points.length ? st.points.join('. ') : st.body[0] || '').slice(0, 150);
   const ld = {
@@ -66,9 +66,11 @@ function page(st) {
     <ul>${st.sources.map((x) => `<li>${esc(x.name)}: <a href="${esc(x.link)}" rel="noopener nofollow" target="_blank">${esc(x.title)}</a></li>`).join('')}</ul>
     <p class="meta">이 글은 위 매체들의 보도에서 확인된 사실을 AI 뉴스웨이브가 새로 정리한 것입니다. 자세한 내용은 각 언론사 원문을 확인하세요.</p>
   </article>
-  <p><a href="../#s/${esc(st.id)}">AI 뉴스웨이브에서 최신 AI 뉴스 더 보기</a></p>
+  ${others.length ? `<h2>다른 정리 기사</h2>
+  <ul>${others.map((o) => `<li><a href="${esc(o.id)}.html">${esc(o.title)}</a></li>`).join('')}</ul>` : ''}
+  <p><a href="./">정리 기사 전체 보기</a> | <a href="../">AI 뉴스웨이브에서 최신 AI 뉴스 보기</a></p>
 </main>
-<footer class="wrap foot"><a href="../">홈</a><a href="../about.html">소개</a><a href="../privacy.html">개인정보처리방침</a><a href="../contact.html">문의</a></footer>
+<footer class="wrap foot"><a href="../">홈</a><a href="./">정리 기사</a><a href="../about.html">소개</a><a href="../privacy.html">개인정보처리방침</a><a href="../contact.html">문의</a></footer>
 </body>
 </html>
 `;
@@ -76,13 +78,57 @@ function page(st) {
 
 const dir = path.join(pub, 's');
 await mkdir(dir, { recursive: true });
-const keep = new Set(stories.map((s) => `${s.id}.html`));
+const keep = new Set([...stories.map((s) => `${s.id}.html`), 'index.html']);
 for (const f of await readdir(dir)) if (f.endsWith('.html') && !keep.has(f)) await unlink(path.join(dir, f));
-for (const st of stories) await writeFile(path.join(dir, `${st.id}.html`), page(st));
+const sorted = [...stories].sort((a, b) => new Date(b.published) - new Date(a.published));
+for (const st of sorted) {
+  const others = sorted.filter((o) => o.id !== st.id).slice(0, 5);
+  await writeFile(path.join(dir, `${st.id}.html`), page(st, others));
+}
+
+// 정리 기사 모음 페이지 (/s/): 브리핑과 정리 기사를 날짜별로 모아 보여 줍니다.
+const dayKey = (iso) => { const d = new Date(new Date(iso).getTime() + 9 * 3600000); return `${d.getUTCFullYear()}년 ${d.getUTCMonth() + 1}월 ${d.getUTCDate()}일`; };
+const group = (list) => {
+  const m = new Map();
+  for (const x of list) { const k = dayKey(x.published); if (!m.has(k)) m.set(k, []); m.get(k).push(x); }
+  return [...m.entries()];
+};
+const briefs = sorted.filter((x) => x.type === 'briefing');
+const plain = sorted.filter((x) => x.type !== 'briefing');
+const indexHtml = `<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 브리핑과 정리 기사 | AI 뉴스웨이브</title>
+<meta name="description" content="AI 뉴스웨이브가 여러 매체의 보도를 종합해 새로 쓴 정리 기사와 매일 AI 브리핑 모음입니다.">
+<link rel="canonical" href="${SITE}/s/">
+<link rel="icon" href="../icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../page.css">
+<script async src="https://www.googletagmanager.com/gtag/js?id=${GA}"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${GA}');</script>
+</head>
+<body>
+<header class="top"><div class="wrap"><a class="brand" href="../"><img src="../icon.svg" alt="">AI 뉴스웨이브</a></div></header>
+<main class="wrap">
+  <h1>AI 브리핑과 정리 기사</h1>
+  <p>여러 매체가 함께 보도한 AI 소식을 AI 뉴스웨이브가 사실만 모아 새로 정리한 글입니다. 각 글 아래에 근거가 된 기사 출처를 밝힙니다.</p>
+  <h2>매일 AI 브리핑</h2>
+  ${briefs.length ? `<ul>${briefs.map((b) => `<li><a href="${esc(b.id)}.html">${esc(b.title)}</a></li>`).join('')}</ul>` : '<p class="meta">아직 브리핑이 없습니다.</p>'}
+  <h2>정리 기사</h2>
+  ${group(plain).map(([day, list]) => `<h3>${day}</h3>
+  <ul>${list.map((x) => `<li><a href="${esc(x.id)}.html">${esc(x.title)}</a> <span class="meta">${x.sources.length}개 매체</span></li>`).join('')}</ul>`).join('\n  ')}
+</main>
+<footer class="wrap foot"><a href="../">홈</a><a href="./">정리 기사</a><a href="../about.html">소개</a><a href="../privacy.html">개인정보처리방침</a><a href="../contact.html">문의</a></footer>
+</body>
+</html>
+`;
+await writeFile(path.join(dir, 'index.html'), indexHtml);
 
 const now = new Date().toISOString();
 const urls = [
   { loc: `${SITE}/`, lastmod: now, freq: 'hourly', pri: '1.0' },
+  { loc: `${SITE}/s/`, lastmod: now, freq: 'daily', pri: '0.9' },
   ...['about', 'privacy', 'contact'].map((p) => ({ loc: `${SITE}/${p}.html`, freq: 'monthly', pri: '0.3' })),
   ...stories.map((s) => ({ loc: `${SITE}/s/${s.id}.html`, lastmod: s.published, freq: 'never', pri: s.type === 'briefing' ? '0.8' : '0.7' })),
 ];
