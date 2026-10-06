@@ -75,6 +75,7 @@
   function render() {
     const list = filtered();
     renderHot(list);
+    renderBrief();
     const part = list.slice(0, state.shown);
     $('#count').textContent = list.length ? `기사 ${list.length}건` : '';
     $('#list').innerHTML = part.length
@@ -126,6 +127,14 @@
     }
     groups.sort((p, q) => q.outlets - p.outlets || new Date(q.lead.published) - new Date(p.lead.published));
     return groups.slice(0, 5);
+  }
+
+  // 오늘의 AI 브리핑: 가장 최근 브리핑 하나를 전광판 위에 한 줄로 걸어 둡니다.
+  function renderBrief() {
+    const box = $('#brief');
+    const b = state.stories.filter((s) => s.type === 'briefing').sort((p, q) => new Date(q.published) - new Date(p.published))[0];
+    box.hidden = !b || state.q || state.saved;
+    if (b) box.innerHTML = `<a href="#s/${esc(b.id)}"><b>AI 브리핑</b><span>${esc(b.title)}</span><i aria-hidden="true">→</i></a>`;
   }
 
   function renderHot(list) {
@@ -373,7 +382,8 @@
   function applyStories(d) {
     state.stories = (d && d.stories) || [];
     state.storyOf = new Map();
-    for (const st of state.stories) for (const x of st.sources) state.storyOf.set(x.id, st);
+    for (const st of state.stories) if (st.type !== 'briefing') for (const x of st.sources) if (!state.storyOf.has(x.id)) state.storyOf.set(x.id, st);
+    renderBrief();
     if (state.all.length) render();
     route();
   }

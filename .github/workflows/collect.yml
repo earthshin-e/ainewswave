@@ -34,8 +34,18 @@ jobs:
       # 키워드 순위의 날짜별 기록도 이어서 누적합니다
       - name: Fetch previous keyword history
         run: curl -fsSL "https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/data/keywords.json" -o public/data/keywords.json || true
+      # 자동으로 쓴 정리 기사도 직전 배포본에서 이어 받습니다
+      - name: Fetch previous stories
+        run: curl -fsSL "https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/data/stories.json" -o public/data/stories.prev.json || true
       - name: Collect articles
         run: node scripts/collect.mjs
+      # 정리 기사와 오늘의 AI 브리핑 자동 작성 (ANTHROPIC_API_KEY 시크릿이 없으면 건너뜀)
+      - name: Write stories
+        run: node scripts/write.mjs || echo "정리 기사 작성 단계 실패, 배포는 계속합니다"
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      - name: Remove temp files
+        run: rm -f public/data/stories.prev.json
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

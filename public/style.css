@@ -209,6 +209,13 @@ dialog#kwSheet::backdrop, dialog#sheet::backdrop { background: rgba(0,0,0,.45); 
 .row span.n { margin-left: auto; color: var(--ink3); font-size: 13px; }
 .done { display: block; width: calc(100% - 32px); margin: 12px 16px calc(16px + env(safe-area-inset-bottom)); height: 48px; border: 0; border-radius: 0; background: var(--accent); color: var(--accent-ink); font-weight: 700; font-size: 16px; }
 
+/* ---------- 오늘의 AI 브리핑 한 줄 ---------- */
+.brief { margin-top: 8px; }
+.brief a { display: flex; align-items: center; gap: 10px; min-height: 40px; padding: 0 14px; background: var(--surface); border: 1px solid var(--line); border-left: 3px solid var(--accent); color: var(--ink); text-decoration: none; }
+.brief b { flex: none; font-size: 12px; font-weight: 700; color: var(--accent); }
+.brief span { flex: 1; min-width: 0; font-size: 14.5px; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.brief i { flex: none; font-style: normal; color: var(--ink3); }
+
 /* ---------- 상단 전광판: 많이 보도되는 소식 5건 ---------- */
 .hot { margin-top: 8px; background: var(--foot-bg); color: #fff; }
 .hot h2 { margin: 0; padding: 8px 14px; font-size: 13px; font-weight: 700; letter-spacing: 0.02em; border-bottom: 1px solid rgba(255,255,255,.12); display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
