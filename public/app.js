@@ -74,6 +74,7 @@
 
   function render() {
     const list = filtered();
+    renderHot(list);
     const part = list.slice(0, state.shown);
     $('#count').textContent = list.length ? `기사 ${list.length}건` : '';
     $('#list').innerHTML = part.length
@@ -102,13 +103,47 @@
     if (a.size < 6 || b.size < 6) return 0;
     return n / Math.min(a.size, b.size);
   }
+  const gramCache = new Map();
+  const gramsOf = (x) => { let g = gramCache.get(x.id); if (!g) { g = grams(x.title); gramCache.set(x.id, g); } return g; };
+
+  // 최근 48시간 기사를 같은 소식끼리 묶고, 보도한 매체 수가 많은 순으로 5개를 뽑습니다.
+  function hot(list) {
+    const since = Date.now() - 48 * 3600000;
+    const recent = list.filter((x) => new Date(x.published).getTime() >= since);
+    const used = new Set();
+    const groups = [];
+    for (const a of recent) {
+      if (used.has(a.id)) continue;
+      const g = gramsOf(a);
+      const members = [a];
+      for (const b of recent) {
+        if (b === a || used.has(b.id)) continue;
+        if (similarity(g, gramsOf(b)) >= 0.45) members.push(b);
+      }
+      members.forEach((m) => used.add(m.id));
+      const outlets = new Set(members.map((m) => m.sourceId)).size;
+      if (outlets >= 2) groups.push({ lead: a, outlets, members });
+    }
+    groups.sort((p, q) => q.outlets - p.outlets || new Date(q.lead.published) - new Date(p.lead.published));
+    return groups.slice(0, 5);
+  }
+
+  function renderHot(list) {
+    const box = $('#hot');
+    const top = state.q || state.saved ? [] : hot(list);
+    box.hidden = !top.length;
+    if (!top.length) return;
+    box.innerHTML = `<h2>지금 많이 보도되는 소식 <span>최근 48시간, 보도한 매체 수 기준</span></h2><ol>${top.map((t, i) =>
+      `<li data-cat="${esc(t.lead.category)}"><a href="#a/${esc(t.lead.id)}"><b class="rk">${i + 1}</b><span class="tag">${esc(t.lead.category)}</span><span class="ht">${esc(t.lead.title)}</span><span class="hn">매체 ${t.outlets}곳</span></a></li>`).join('')}</ol>`;
+  }
+
   function related(a) {
-    const g = grams(a.title);
+    const g = gramsOf(a);
     const same = [];
     const topic = [];
     for (const x of state.all) {
       if (x.id === a.id) continue;
-      const s = similarity(g, grams(x.title));
+      const s = similarity(g, gramsOf(x));
       if (s >= 0.45) same.push([s, x]);
       else if (x.category === a.category && topic.length < 6) topic.push(x);
     }
