@@ -133,7 +133,7 @@
 ## Unsplash 자료 사진
 
 - 언론사 이미지가 없는 기사(주로 이용 제한 매체)에 수집 때 Unsplash 무료 사진을 붙입니다(`photo: {id, url, author, authorUrl, link}`). GitHub 시크릿 `UNSPLASH_ACCESS_KEY` 가 있을 때만 작동하고, 없으면 주제 색 블록입니다.
-- 검색어는 기사 키워드(KW_QUERY)나 주제(QUERY)를 영어로 바꾼 것입니다. 한 번 실행에 최대 20건(무료 등급 시간당 50회 요청).
+- 검색어는 기사 키워드(KW_QUERY)나 주제(QUERY)를 영어로 바꾼 것입니다. 한 번 실행에 최대 15건(무료 등급 시간당 50회 요청, 30분마다 실행).
 - 한 번 쓴 사진은 `public/data/photos-used.json` 에 기록해 다시 쓰지 않습니다(Actions 가 직전 배포본을 받아 누적, 저장소에는 넣지 않음). 유료(Unsplash+) 사진은 고르지 않습니다.
 - Unsplash 규칙: images.unsplash.com 주소를 그대로 쓰고, 사용할 때 download_location 을 호출하며, 작가와 Unsplash 를 링크로 밝힙니다. 카드에는 "자료 사진" 표시, 상세 화면에는 "자료 사진: 작가 / Unsplash. 기사 내용과 직접 관련 없는 참고 이미지입니다." 를 둡니다.
 

@@ -188,7 +188,7 @@ await pooled(needImg, CONCURRENCY, async (a) => {
 // 한 번 쓴 사진은 photos-used.json 에 기록해 다른 기사에 다시 쓰지 않습니다. 실제 현장 사진이 아니므로 화면에 "자료 사진"과 작가를 표시합니다.
 // Unsplash 규칙: 이미지는 Unsplash 주소에서 그대로 불러오고, 사용할 때 download_location 을 호출하며, 작가와 Unsplash 를 링크로 밝힙니다.
 const PHOTO_OUT = path.join(root, 'public', 'data', 'photos-used.json');
-const PHOTO_MAX = 20; // 한 번 수집에서 붙이는 최대 수 (무료 등급은 시간당 50회 요청)
+const PHOTO_MAX = 15; // 한 번 수집에서 붙이는 최대 수. 무료 등급은 시간당 50회 요청이고 30분마다 돌기 때문에 검색과 사용 알림을 합쳐 한도 안에 들도록 15건으로 둡니다
 const usedPhotos = new Set((await readJson(PHOTO_OUT, { used: [] })).used || []);
 for (const a of articles) if (a.photo) usedPhotos.add(a.photo.id);
 const QUERY = {
