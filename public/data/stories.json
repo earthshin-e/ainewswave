@@ -2,6 +2,412 @@
   "note": "뉴스웨이브가 여러 매체의 보도에서 확인된 사실만 모아 새로 쓴 정리 기사입니다. 수집 스크립트는 이 파일을 건드리지 않습니다.",
   "stories": [
     {
+      "id": "b20261006",
+      "type": "briefing",
+      "title": "10월 6일 AI 브리핑: 국방 AX와 피지컬 AI 수주 잇따라, 나스닥은 AI 힘입어 최고치",
+      "category": "일반",
+      "published": "2026-10-06T05:26:57.590Z",
+      "points": [
+        "피지컬 AI 국책과제 수주와 참여 발표 이어짐",
+        "국방 분야에 AI 참모 기술 도입 확산",
+        "AI 기술주 강세와 AI 통제 위험 경고 공존"
+      ],
+      "body": [
+        "두산로보틱스가 국산 AI 반도체를 탑재한 협동로봇과 지능형 용접 솔루션 개발을 담은 국책과제 2건을 수주했다. 헤럴드경제와 이데일리는 규모를 989억원으로 전했다.",
+        "원프레딕트는 총 7368억원 규모의 국가 피지컬AI 연구개발사업에 공동연구개발기관으로 참여해 제조 범용 AI 프레임워크를 개발한다. 전북대 주관 약 720억원 규모 세부과제에 속한다.",
+        "SK텔레콤은 1일부터 5일까지 열린 지상군페스티벌에서 AI로 전장 데이터를 분석해 지휘관의 판단을 돕는 'AI 참모'와 저궤도 위성, 양자암호 기술을 선보였다.",
+        "마키나락스는 해군 포항함에 함포 기술교범을 학습한 '장비운용 AI 참모'를 탑재하고 실증 운용에 들어갔다. 국방기술진흥연구소가 주관하는 사업의 일환이다.",
+        "카카오모빌리티는 고려대 C5ISRT융합연구원과 국방 AI 협력 MOU를 맺고 드론과 로봇의 통합 관제에 모빌리티 기술을 접목하기로 했다.",
+        "뉴욕증시에서 나스닥 종합지수가 사상 최고치를 경신했다. 미국 국채 금리가 크게 올랐지만 AI 중심 대형 기술주 강세가 이를 상쇄했다.",
+        "앤트로픽 전 연구원 제이컵 콕슨은 뉴욕시의회 청문회에서 AI 개발 속도가 안전장치를 앞서고 있으며 통제권을 잃을 위험이 있다고 경고했다."
+      ],
+      "sources": [
+        {
+          "id": "f3378bda8a59",
+          "name": "디일렉",
+          "title": "두산로보틱스, 피지컬 AI 협동로봇 개발",
+          "link": "https://www.thelec.kr/news/articleView.html?idxno=63268"
+        },
+        {
+          "id": "dc0165228f57",
+          "name": "조선비즈",
+          "title": "두산로보틱스, 국산 반도체로 로봇 개발… 국책과제 2건 수주",
+          "link": "https://biz.chosun.com/industry/company/2026/10/06/I5556JQWUZGP7JFTNRM4TAJLXI"
+        },
+        {
+          "id": "de86485c5454",
+          "name": "헤럴드경제",
+          "title": "두산로보틱스, 국산 AI칩 기반 ‘피지컬 AI’ 개발…총 989억원 규모",
+          "link": "https://biz.heraldcorp.com/article/10893767"
+        },
+        {
+          "id": "c98db1fd6c15",
+          "name": "연합뉴스",
+          "title": "두산로보틱스, 국산 AI칩 기반 '피지컬 AI' 개발…989억 규모",
+          "link": "https://www.yna.co.kr/view/AKR20261006048200003"
+        },
+        {
+          "id": "9899fe18d15a",
+          "name": "벤처스퀘어",
+          "title": "원프레딕트, 공장마다 다시 만들던 AI ‘공통 모듈’로…7368억원 국가 피지컬AI 사업 참여",
+          "link": "https://www.venturesquare.net/1117936"
+        },
+        {
+          "id": "b48e61975515",
+          "name": "이데일리",
+          "title": "원프레딕트, 7368억 피지컬AI 사업 참여…제조 AI 총괄",
+          "link": "https://www.edaily.co.kr/News/Read?newsId=03070086645610296"
+        },
+        {
+          "id": "511ae551fc32",
+          "name": "디지털데일리",
+          "title": "원프레딕트, 국가 피지컬AI 사업 참여 “제조AI 프레임워크 개발”",
+          "link": "https://www.ddaily.co.kr/page/view/2026100610174089255"
+        },
+        {
+          "id": "6ab9ab0f018b",
+          "name": "아이뉴스24",
+          "title": "원프레딕트, 7368억 규모 국가 피지컬AI 사업 참여",
+          "link": "https://www.inews24.com/view/2011957"
+        },
+        {
+          "id": "d169606b9cd1",
+          "name": "한국NGO신문",
+          "title": "SKT, 지상군페스티벌 참가…‘AI 참모’ 등 국방 AX 기술 선봬",
+          "link": "https://www.ngonews.kr/news/articleView.html?idxno=239907"
+        },
+        {
+          "id": "581af91bcd78",
+          "name": "테크월드뉴스",
+          "title": "SKT, ‘지상군페스티벌’ 참가…AI 참모·저궤도 위성 등 국방 AX 기술 선봬",
+          "link": "https://www.epnc.co.kr/news/articleView.html?idxno=407786"
+        },
+        {
+          "id": "4d6c2bceb7c2",
+          "name": "지디넷코리아",
+          "title": "SKT 국방 AX 공략…전술 판단 돕는 ‘AI 참모’ 선봬",
+          "link": "https://zdnet.co.kr/view/?no=20261006085004"
+        },
+        {
+          "id": "846ac7f663df",
+          "name": "인공지능신문",
+          "title": "SKT, 지상군페스티벌 유일 민간기업 참가...AI 참모·저궤도 위성 등 국방 AX 기술 선봬",
+          "link": "https://www.aitimes.kr/news/articleView.html?idxno=42187"
+        },
+        {
+          "id": "65ade75d6083",
+          "name": "조선비즈",
+          "title": "마키나락스, 해군 포항함에 ‘장비운용 AI 참모’ 탑재",
+          "link": "https://biz.chosun.com/it-science/ict/2026/10/06/43DWVYHILFEAXJ4Q7GNS2STBXM"
+        },
+        {
+          "id": "71541386a737",
+          "name": "디지털데일리",
+          "title": "마키나락스, 포항함에 AI 참모 탑재… 함포 교범 학습",
+          "link": "https://www.ddaily.co.kr/page/view/2026100610092401909"
+        },
+        {
+          "id": "cee1b7a83ae3",
+          "name": "연합뉴스",
+          "title": "[테크스냅] 마키나락스, 해군 포항함에 '장비운용 AI 참모' 탑재",
+          "link": "https://www.yna.co.kr/view/AKR20261006034900017"
+        },
+        {
+          "id": "e67e5195b539",
+          "name": "EBN",
+          "title": "[Tech & Now] 마키나락스, 해군 포항함에 '장비운용 AI 참모' 탑재·실증 운용 등",
+          "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1726741"
+        },
+        {
+          "id": "6be441168059",
+          "name": "아이뉴스24",
+          "title": "카카오모빌리티, 고려대 C5ISRT융합연구원과 국방 AI 연구 협력",
+          "link": "https://www.inews24.com/view/2012074"
+        },
+        {
+          "id": "21126ab2e65d",
+          "name": "아시아경제",
+          "title": "카카오모빌리티, 고려대와 국방 AX MOU…모빌리티 기술 접목",
+          "link": "https://view.asiae.co.kr/article/2026100611402534010"
+        },
+        {
+          "id": "113ab74e498d",
+          "name": "매일경제",
+          "title": "카카오모빌리티, 택시 배차 AI로 ‘국방 AX’ 진출",
+          "link": "https://www.mk.co.kr/news/it/12169049"
+        },
+        {
+          "id": "91413a9fc4d9",
+          "name": "이코노미스트",
+          "title": "카카오모빌리티, 고려대와 국방 AI 협력 MOU…유·무인 통합 관제 구축",
+          "link": "https://economist.co.kr/article/view/ecn202610060013"
+        },
+        {
+          "id": "a7c05691b9ab",
+          "name": "프라임경제",
+          "title": "[해외시황] 뉴욕증시, 국채금리 급등에도 AI·빅테크 강세에 '상승'…나스닥 '사상 최고치'",
+          "link": "http://www.newsprime.co.kr/news/article.html?no=749929"
+        },
+        {
+          "id": "fb7f6f618266",
+          "name": "EBN",
+          "title": "나스닥 '사상 최고'…AI가 금리 공포 눌렀다",
+          "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1726729"
+        },
+        {
+          "id": "86f56637c829",
+          "name": "디지털데일리",
+          "title": "나스닥 사상 최고 마감…미 국채 금리 최고치 경신에도 AI 기술주 강세",
+          "link": "https://www.ddaily.co.kr/page/view/2026100605401834349"
+        },
+        {
+          "id": "bf8818c61878",
+          "name": "블록미디어",
+          "title": "[뉴욕증시 마감] AI가 깬 금리 공포…나스닥 장중 사상 최고치",
+          "link": "https://www.blockmedia.co.kr/archives/1147901"
+        },
+        {
+          "id": "a263dc63b965",
+          "name": "세계일보",
+          "title": "‘AI 통제 방법 아직 몰라’…앤트로픽 전 연구원, ‘인류 멸종 위험’ 경고",
+          "link": "https://www.segye.com/newsView/20261006506075"
+        },
+        {
+          "id": "1a7c14b93880",
+          "name": "조선비즈",
+          "title": "앤트로픽 前 연구원 “AI 통제법 몰라…인류 멸종될 수도”",
+          "link": "https://biz.chosun.com/it-science/ict/2026/10/06/HERJ3CKJNFB5PLQN2BWEQARXBU"
+        },
+        {
+          "id": "88e5992f8f52",
+          "name": "아이뉴스24",
+          "title": "앤트로픽 전 연구원 \"이대로면 인류가 AI 통제 못할 수도\"",
+          "link": "https://www.inews24.com/view/2011871"
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "s20261006-a263dc63b965",
+      "title": "앤트로픽 전 연구원, 뉴욕시의회 청문회서 AI 통제 위험 경고",
+      "category": "보안/윤리",
+      "published": "2026-10-06T04:51:27.000Z",
+      "points": [
+        "앤트로픽 전 연구원 제이컵 콕슨이 청문회 출석",
+        "AI 통제 방법을 아직 모른다고 주장",
+        "개발 속도가 안전장치를 앞선다고 경고"
+      ],
+      "body": [
+        "앤트로픽 전 연구원 제이컵 콕슨이 5일(현지시간) 뉴욕시의회 AI 청문회에 출석해 AI 개발 속도가 안전장치 마련을 앞서고 있다고 경고했다. 매체들은 블룸버그통신과 CNBC 보도를 인용했다.",
+        "그는 현재와 같은 경쟁이 이어지면 인류가 AI에 대한 통제권을 잃을 가능성이 크고, 최악의 경우 인류 멸종으로 이어질 수 있다고 주장했다. 조선비즈는 그가 아직 어떤 AI 시스템도 통제하는 방법을 모른다는 취지로 발언했다고 전했다."
+      ],
+      "sources": [
+        {
+          "id": "a263dc63b965",
+          "name": "세계일보",
+          "title": "‘AI 통제 방법 아직 몰라’…앤트로픽 전 연구원, ‘인류 멸종 위험’ 경고",
+          "link": "https://www.segye.com/newsView/20261006506075"
+        },
+        {
+          "id": "1a7c14b93880",
+          "name": "조선비즈",
+          "title": "앤트로픽 前 연구원 “AI 통제법 몰라…인류 멸종될 수도”",
+          "link": "https://biz.chosun.com/it-science/ict/2026/10/06/HERJ3CKJNFB5PLQN2BWEQARXBU"
+        },
+        {
+          "id": "88e5992f8f52",
+          "name": "아이뉴스24",
+          "title": "앤트로픽 전 연구원 \"이대로면 인류가 AI 통제 못할 수도\"",
+          "link": "https://www.inews24.com/view/2011871"
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "s20261006-6be441168059",
+      "title": "카카오모빌리티, 고려대 연구원과 국방 AI 협력 MOU",
+      "category": "기업",
+      "published": "2026-10-06T04:39:10.000Z",
+      "points": [
+        "카카오모빌리티와 고려대 C5ISRT융합연구원 MOU",
+        "국방 AI 분야 상호 발전이 목적",
+        "유무인 통합 관제에 모빌리티 기술 접목"
+      ],
+      "body": [
+        "카카오모빌리티가 고려대학교 C5ISRT융합연구원과 국방 AI 분야 상호 발전을 위한 협력 양해각서(MOU)를 체결했다고 6일 밝혔다. 연구원은 지휘, 통제, 통신, 컴퓨터, 사이버, 정보, 감시, 정찰 분야를 아우르는 곳으로 소개됐다.",
+        "매일경제는 이번 협력을 드론과 로봇의 통합 관제에 모빌리티 기술을 접목하는 것으로 정리했고, 이코노미스트는 유인과 무인 체계를 함께 관제하는 구축 방안을 제목에 담았다. 매일경제는 카카오모빌리티가 용산 '군산학 협력센터' 사업에도 공동으로 참여한다고 덧붙였다.",
+        "아시아경제는 제목에서 이 MOU를 '국방 AX' 분야와 연결했고, 매일경제는 택시 배차 AI 기술이 국방 분야로 확장되는 것으로 해석했다."
+      ],
+      "sources": [
+        {
+          "id": "6be441168059",
+          "name": "아이뉴스24",
+          "title": "카카오모빌리티, 고려대 C5ISRT융합연구원과 국방 AI 연구 협력",
+          "link": "https://www.inews24.com/view/2012074"
+        },
+        {
+          "id": "21126ab2e65d",
+          "name": "아시아경제",
+          "title": "카카오모빌리티, 고려대와 국방 AX MOU…모빌리티 기술 접목",
+          "link": "https://view.asiae.co.kr/article/2026100611402534010"
+        },
+        {
+          "id": "113ab74e498d",
+          "name": "매일경제",
+          "title": "카카오모빌리티, 택시 배차 AI로 ‘국방 AX’ 진출",
+          "link": "https://www.mk.co.kr/news/it/12169049"
+        },
+        {
+          "id": "91413a9fc4d9",
+          "name": "이코노미스트",
+          "title": "카카오모빌리티, 고려대와 국방 AI 협력 MOU…유·무인 통합 관제 구축",
+          "link": "https://economist.co.kr/article/view/ecn202610060013"
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "s20261006-0fc226123aad",
+      "title": "유락, AI 디지털 포렌식 앞세워 일본 시장 공략 확대",
+      "category": "보안/윤리",
+      "published": "2026-10-06T04:26:52.000Z",
+      "points": [
+        "AI 디지털 포렌식 기업 유락의 일본 확장",
+        "도쿄 리스콘 2026에 참가",
+        "AI 데이터 분석과 리스크 관리로 영역 확대"
+      ],
+      "body": [
+        "AI 디지털 포렌식 전문기업 유락이 일본 사업 확대에 나선다. 유락은 지난 2일까지 일본 도쿄 빅사이트에서 열린 종합 위기관리 산업박람회 '리스콘 도쿄 2026'에 참가했다.",
+        "보안뉴스와 테크월드뉴스에 따르면 유락은 기존 일본 사업을 발판으로 AI 데이터 분석과 데이터 리스크 관리 영역까지 사업 범위를 넓히고 현지 파트너십을 강화한다는 전략이다. 디지털데일리는 이 박람회에 주력 제품군인 '디파스(DFAS)' 시리즈를 선보였다고 전했다.",
+        "디지털투데이는 유락이 박람회에서 AI 기반 데이터 분석과 현장형 포렌식 솔루션을 소개했다고 밝혔다."
+      ],
+      "sources": [
+        {
+          "id": "0fc226123aad",
+          "name": "보안뉴스",
+          "title": "유락, ‘AI 디지털 포렌식’ 앞세워 일본 시장 공략 가속",
+          "link": "https://www.boannews.com/news/articleView.html?idxno=146209"
+        },
+        {
+          "id": "e307bd058793",
+          "name": "디지털투데이",
+          "title": "유락, AI 디지털 포렌식 시장 공략 속도 낸다",
+          "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=705144"
+        },
+        {
+          "id": "d9e437e46832",
+          "name": "디지털데일리",
+          "title": "유락, AI 디지털 포렌식으로 일본 시장 공략",
+          "link": "https://www.ddaily.co.kr/page/view/2026100610534734438"
+        },
+        {
+          "id": "95b420a0bb75",
+          "name": "테크월드뉴스",
+          "title": "유락, ‘AI 디지털 포렌식’ 기반 일본 시장 공략 가속",
+          "link": "https://www.epnc.co.kr/news/articleView.html?idxno=407784"
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "s20261006-f3378bda8a59",
+      "title": "두산로보틱스, 국산 AI칩 탑재 협동로봇 등 국책과제 2건 수주",
+      "category": "로봇",
+      "published": "2026-10-06T04:03:27.000Z",
+      "points": [
+        "국산 AI 반도체 탑재 협동로봇 개발",
+        "원전 기자재용 지능형 용접 솔루션",
+        "국책과제 2건 총 989억원 규모"
+      ],
+      "body": [
+        "두산로보틱스가 피지컬 AI 관련 국책과제 2건을 수주했다고 6일 밝혔다. 산업통상부와 한국산업기술기획평가원이 공동 주관하는 'K-온디바이스 AI 반도체 기술개발사업'과 '로봇산업 기술개발사업'에 제안한 과제가 각각 선정됐다. 헤럴드경제와 이데일리는 두 과제를 합친 규모를 989억원으로 전했다.",
+        "첫 과제는 국산 AI 반도체를 탑재해 외부 클라우드 연결 없이 스스로 판단하고 제어하는 협동로봇을 만드는 것이다. 디일렉은 이를 온디바이스 AI 협동로봇이라고 설명하며 '한국형 피지컬 AI 협동로봇 통합 플랫폼'을 마련한다고 전했다.",
+        "다른 과제는 숙련공 수준의 용접 기술을 구현하는 AI 기반 지능형 용접 솔루션이다. 디일렉은 이 솔루션이 원전 기자재용이라고 밝혔다."
+      ],
+      "sources": [
+        {
+          "id": "f3378bda8a59",
+          "name": "디일렉",
+          "title": "두산로보틱스, 피지컬 AI 협동로봇 개발",
+          "link": "https://www.thelec.kr/news/articleView.html?idxno=63268"
+        },
+        {
+          "id": "dc0165228f57",
+          "name": "조선비즈",
+          "title": "두산로보틱스, 국산 반도체로 로봇 개발… 국책과제 2건 수주",
+          "link": "https://biz.chosun.com/industry/company/2026/10/06/I5556JQWUZGP7JFTNRM4TAJLXI"
+        },
+        {
+          "id": "de86485c5454",
+          "name": "헤럴드경제",
+          "title": "두산로보틱스, 국산 AI칩 기반 ‘피지컬 AI’ 개발…총 989억원 규모",
+          "link": "https://biz.heraldcorp.com/article/10893767"
+        },
+        {
+          "id": "c98db1fd6c15",
+          "name": "연합뉴스",
+          "title": "두산로보틱스, 국산 AI칩 기반 '피지컬 AI' 개발…989억 규모",
+          "link": "https://www.yna.co.kr/view/AKR20261006048200003"
+        },
+        {
+          "id": "50645ae9f75a",
+          "name": "이데일리",
+          "title": "두산로보틱스, 국산 AI칩 품은 협동로봇 개발…‘피지컬 AI’ 속도",
+          "link": "https://www.edaily.co.kr/News/Read?newsId=02850326645610296"
+        },
+        {
+          "id": "af12f7906d82",
+          "name": "EBN",
+          "title": "국산 AI칩 품은 협동로봇 나온다...두산로보틱스, '피지컬 AI' 개발",
+          "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1726752"
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "s20261006-9899fe18d15a",
+      "title": "원프레딕트, 7368억원 규모 국가 피지컬AI 사업 참여",
+      "category": "정책",
+      "published": "2026-10-06T03:55:03.904Z",
+      "points": [
+        "과기정통부와 NIPA의 피지컬AI 연구개발사업",
+        "총 사업 규모 7368억원",
+        "제조 AI 공통 프레임워크 개발 참여"
+      ],
+      "body": [
+        "제조 AI 기업 원프레딕트가 과학기술정보통신부와 정보통신산업진흥원(NIPA)이 추진하는 총 7368억원 규모의 국가 피지컬AI 연구개발사업에 공동연구개발기관으로 참여한다. 사업명은 '협업지능 피지컬AI 기반 SW 플랫폼 연구개발 생태계 조성'이다.",
+        "벤처스퀘어는 원프레딕트가 전북대가 주관하는 약 720억원 규모 세부과제에 참여한다고 전했다. 이 과제에서 이상진단, 예지보전, 생산계획, 공정제어 등을 포함하는 제조 범용 AI 프레임워크를 개발한다.",
+        "이데일리는 원프레딕트가 제조 AI 공통 프레임워크 개발을 총괄한다고 썼고, 디지털데일리는 제조 현장에서 공통으로 쓸 수 있는 프레임워크라고 설명했다. 매체별로 참여 역할의 표현에 차이가 있다."
+      ],
+      "sources": [
+        {
+          "id": "9899fe18d15a",
+          "name": "벤처스퀘어",
+          "title": "원프레딕트, 공장마다 다시 만들던 AI ‘공통 모듈’로…7368억원 국가 피지컬AI 사업 참여",
+          "link": "https://www.venturesquare.net/1117936"
+        },
+        {
+          "id": "b48e61975515",
+          "name": "이데일리",
+          "title": "원프레딕트, 7368억 피지컬AI 사업 참여…제조 AI 총괄",
+          "link": "https://www.edaily.co.kr/News/Read?newsId=03070086645610296"
+        },
+        {
+          "id": "511ae551fc32",
+          "name": "디지털데일리",
+          "title": "원프레딕트, 국가 피지컬AI 사업 참여 “제조AI 프레임워크 개발”",
+          "link": "https://www.ddaily.co.kr/page/view/2026100610174089255"
+        },
+        {
+          "id": "6ab9ab0f018b",
+          "name": "아이뉴스24",
+          "title": "원프레딕트, 7368억 규모 국가 피지컬AI 사업 참여",
+          "link": "https://www.inews24.com/view/2011957"
+        }
+      ],
+      "auto": true
+    },
+    {
       "id": "s20261006-semco-mlcc",
       "title": "삼성전기, AI 서버용 MLCC 2900억원 추가 수주…올해 여섯 번째 장기계약",
       "category": "기업",
@@ -116,6 +522,48 @@
       ]
     },
     {
+      "id": "s20261006-d79b9dc3a56d",
+      "title": "에스넷시스템, 상반기 매출 약 2배…델 사업이 성장 견인",
+      "category": "기업",
+      "published": "2026-10-06T03:00:00.000Z",
+      "points": [
+        "상반기 별도 매출 전년 대비 약 2배",
+        "델테크놀로지스 관련 사업이 실적 견인",
+        "GPU 서버 등 AI 인프라 포트폴리오 강화"
+      ],
+      "body": [
+        "에스넷시스템이 올해 상반기 별도 기준 매출이 전년 동기 대비 약 2배로 늘었다고 6일 밝혔다. 회사는 델테크놀로지스 관련 사업이 큰 폭으로 성장해 실적 확대를 이끌었다고 설명했다.",
+        "고성능 GPU 서버 등 컴퓨팅 사업이 늘었고, 주요 엔터프라이즈 고객의 델 파워플렉스 증설도 성장 요인으로 꼽혔다. 아이뉴스24와 테크월드뉴스는 이를 바탕으로 AI 인프라 포트폴리오를 강화한다고 전했다."
+      ],
+      "sources": [
+        {
+          "id": "d79b9dc3a56d",
+          "name": "테크월드뉴스",
+          "title": "에스넷시스템 “델 사업 성장세…AI 인프라 포트폴리오 강화”",
+          "link": "https://www.epnc.co.kr/news/articleView.html?idxno=407807"
+        },
+        {
+          "id": "a83b85476343",
+          "name": "디지털투데이",
+          "title": "에스넷시스템 \"델 솔루션이 성장 견인\"...AI 인프라 사업 확장",
+          "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=705118"
+        },
+        {
+          "id": "89d894dd0216",
+          "name": "데이터넷",
+          "title": "에스넷, ‘델’ 사업 성장세 가속 ··· AI 인프라 시장 공략 박차",
+          "link": "https://www.datanet.co.kr/news/articleView.html?idxno=214901"
+        },
+        {
+          "id": "9ae52ab4af8d",
+          "name": "아이뉴스24",
+          "title": "에스넷시스템, 델 사업 성장세⋯AI 인프라 포트폴리오 강화",
+          "link": "https://www.inews24.com/view/2011956"
+        }
+      ],
+      "auto": true
+    },
+    {
       "id": "s20261006-telco-chatgpt",
       "title": "챗GPT에 \"내게 맞는 요금제 찾아줘\"…KT·LG유플러스, 챗GPT 플러그인으로 상품 안내",
       "category": "생성형AI",
@@ -162,6 +610,133 @@
         "나이, 데이터 사용량 같은 조건을 말하면 맞는 요금제를 비교",
         "LG유플러스는 가입 유형, 유심 선택 등으로 기능 단계적 확대"
       ]
+    },
+    {
+      "id": "s20261006-41b97bbf7821",
+      "title": "NHN클라우드, AI 페스타 참가해 GPU 인프라 선보여",
+      "category": "기업",
+      "published": "2026-10-06T02:39:45.000Z",
+      "points": [
+        "AI FESTA 2026이 6일부터 8일까지 코엑스 개최",
+        "NHN클라우드가 AI 풀스택 NHN FactoryX 공개",
+        "B200 4080장 규모 GPU 클러스터 소개"
+      ],
+      "body": [
+        "NHN클라우드가 6일부터 8일까지 서울 코엑스에서 열리는 'AI FESTA 2026'에 참가한다고 밝혔다. AI 페스타는 국가 공식 '인공지능주간'의 대표 행사로, 과학기술정보통신부가 주최하고 한국인공지능소프트웨어산업협회가 주관한다.",
+        "NHN클라우드는 AI 인프라 구축과 운영 경험을 담은 AI 풀스택 브랜드 'NHN FactoryX'를 선보인다. 인벤은 이 브랜드에 세계 20위 성능의 B200 4,080장 규모 GPU 클러스터가 갖춰져 있다고 전했고, 부스에서 GPUaaS 등을 소개한다고 밝혔다."
+      ],
+      "sources": [
+        {
+          "id": "41b97bbf7821",
+          "name": "조선비즈",
+          "title": "NHN클라우드, ‘AI 페스타’서 AI 인프라 역량 소개",
+          "link": "https://biz.chosun.com/it-science/ict/2026/10/06/JFLPXO4Z2FFIRFUW23EJX5Y354"
+        },
+        {
+          "id": "1f68526c5c36",
+          "name": "아이뉴스24",
+          "title": "NHN클라우드, 'AI 페스타' 참가⋯AI 인프라 역량 소개",
+          "link": "https://www.inews24.com/view/2012024"
+        },
+        {
+          "id": "2ad6fb5415ee",
+          "name": "데이터넷",
+          "title": "NHN클라우드, ‘AI 페스타 2026’서 AI 풀스택 ‘NHN FactoryX’ 선봬",
+          "link": "https://www.datanet.co.kr/news/articleView.html?idxno=214897"
+        },
+        {
+          "id": "a89261f9d435",
+          "name": "인벤",
+          "title": "NHN클라우드, AI페스타서 GPU 인프라 공개",
+          "link": "https://www.inven.co.kr/webzine/news/?news=321786"
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "s20261006-d169606b9cd1",
+      "title": "SK텔레콤, 지상군페스티벌서 'AI 참모' 등 국방 AX 기술 공개",
+      "category": "기업",
+      "published": "2026-10-06T02:30:29.000Z",
+      "points": [
+        "SKT가 2026 지상군페스티벌에 참가",
+        "AI 전장 데이터 분석 지원 'AI 참모' 공개",
+        "저궤도 위성과 양자암호 기술도 전시"
+      ],
+      "body": [
+        "SK텔레콤이 지난 1일부터 5일까지 충남 계룡대 활주로에서 열린 '2026 지상군페스티벌'에 참가해 AI와 통신 기술 기반의 국방 AX 기술을 선보였다고 6일 밝혔다. 행사는 육군본부가 주관했으며, 인공지능신문은 SK텔레콤이 유일한 민간기업으로 참가했다고 전했다.",
+        "지디넷코리아에 따르면 'AI 참모'는 AI로 전장 데이터를 분석해 지휘관의 전술 판단을 지원하는 기술이다. SK텔레콤은 저궤도 위성과 양자암호 등 통신과 보안 기술도 함께 공개했다."
+      ],
+      "sources": [
+        {
+          "id": "d169606b9cd1",
+          "name": "한국NGO신문",
+          "title": "SKT, 지상군페스티벌 참가…‘AI 참모’ 등 국방 AX 기술 선봬",
+          "link": "https://www.ngonews.kr/news/articleView.html?idxno=239907"
+        },
+        {
+          "id": "581af91bcd78",
+          "name": "테크월드뉴스",
+          "title": "SKT, ‘지상군페스티벌’ 참가…AI 참모·저궤도 위성 등 국방 AX 기술 선봬",
+          "link": "https://www.epnc.co.kr/news/articleView.html?idxno=407786"
+        },
+        {
+          "id": "4d6c2bceb7c2",
+          "name": "지디넷코리아",
+          "title": "SKT 국방 AX 공략…전술 판단 돕는 ‘AI 참모’ 선봬",
+          "link": "https://zdnet.co.kr/view/?no=20261006085004"
+        },
+        {
+          "id": "846ac7f663df",
+          "name": "인공지능신문",
+          "title": "SKT, 지상군페스티벌 유일 민간기업 참가...AI 참모·저궤도 위성 등 국방 AX 기술 선봬",
+          "link": "https://www.aitimes.kr/news/articleView.html?idxno=42187"
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "s20261006-65ade75d6083",
+      "title": "마키나락스, 해군 포항함에 '장비운용 AI 참모' 탑재",
+      "category": "기업",
+      "published": "2026-10-06T02:25:29.000Z",
+      "points": [
+        "해군 제1함대 포항함에 AI 참모 탑재",
+        "국방기술진흥연구소 주관 실증 사업",
+        "함포 기술교범을 학습한 AI 에이전트"
+      ],
+      "body": [
+        "산업용 AI 기업 마키나락스가 해군 제1함대사령부 소속 포항함(호위함)에 '장비운용 AI 참모'를 탑재하고 실증 운용에 들어갔다고 6일 밝혔다.",
+        "조선비즈에 따르면 마키나락스는 자사 AI 운영체제 '런웨이' 기반으로 AI 에이전트 프레임워크 기술을 적용해 함포 기술교범을 학습시켰다. 디지털데일리는 이 AI가 장병의 장비 운용을 돕는다고 전했다.",
+        "실증은 국방기술진흥연구소가 주관하는 '방산혁신기업 100' 기술개발 사업의 일환이다."
+      ],
+      "sources": [
+        {
+          "id": "65ade75d6083",
+          "name": "조선비즈",
+          "title": "마키나락스, 해군 포항함에 ‘장비운용 AI 참모’ 탑재",
+          "link": "https://biz.chosun.com/it-science/ict/2026/10/06/43DWVYHILFEAXJ4Q7GNS2STBXM"
+        },
+        {
+          "id": "71541386a737",
+          "name": "디지털데일리",
+          "title": "마키나락스, 포항함에 AI 참모 탑재… 함포 교범 학습",
+          "link": "https://www.ddaily.co.kr/page/view/2026100610092401909"
+        },
+        {
+          "id": "cee1b7a83ae3",
+          "name": "연합뉴스",
+          "title": "[테크스냅] 마키나락스, 해군 포항함에 '장비운용 AI 참모' 탑재",
+          "link": "https://www.yna.co.kr/view/AKR20261006034900017"
+        },
+        {
+          "id": "e67e5195b539",
+          "name": "EBN",
+          "title": "[Tech & Now] 마키나락스, 해군 포항함에 '장비운용 AI 참모' 탑재·실증 운용 등",
+          "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1726741"
+        }
+      ],
+      "auto": true
     },
     {
       "id": "s20261006-lge-aidc-cooling",
@@ -270,6 +845,49 @@
         "여러 AI 서비스의 사용량과 요금을 부서, 직원 단위로 통합 관리",
         "정보 유출을 막는 보안 기능 포함, 일반 기업 AX 시장 공략"
       ]
+    },
+    {
+      "id": "s20261006-a7c05691b9ab",
+      "title": "나스닥 사상 최고 마감…국채금리 급등에도 AI 기술주 강세",
+      "category": "기업",
+      "published": "2026-10-05T23:35:49.000Z",
+      "points": [
+        "뉴욕증시 3대 지수 일제히 상승",
+        "나스닥 종합지수 사상 최고치 경신",
+        "AI 중심 대형 기술주가 금리 부담 상쇄"
+      ],
+      "body": [
+        "5일(현지시간) 뉴욕증시 3대 지수가 일제히 상승 마감했다. 미국 국채 금리가 크게 올라 부담이 됐지만 AI를 중심으로 한 대형 기술주에 매수세가 몰리며 나스닥 종합지수는 사상 최고치를 경신했다.",
+        "국채 금리 수준은 매체마다 표현이 다르다. EBN은 22년여 만의 최고 수준이라고 썼고, 디지털데일리는 2002년 이후 최고치를 다시 경신했다고 전했다. 블록미디어는 수년 만의 고점이라고만 표현했다. 한편 블록미디어는 국제유가 하락이 인플레이션 우려를 일부 덜어 투자 심리를 뒷받침했다고 전했다.",
+        "프라임경제는 고금리 장기화 우려에도 기업들의 견조한 실적 성장 기대가 투자 심리를 지지했다고 분석했다."
+      ],
+      "sources": [
+        {
+          "id": "a7c05691b9ab",
+          "name": "프라임경제",
+          "title": "[해외시황] 뉴욕증시, 국채금리 급등에도 AI·빅테크 강세에 '상승'…나스닥 '사상 최고치'",
+          "link": "http://www.newsprime.co.kr/news/article.html?no=749929"
+        },
+        {
+          "id": "fb7f6f618266",
+          "name": "EBN",
+          "title": "나스닥 '사상 최고'…AI가 금리 공포 눌렀다",
+          "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1726729"
+        },
+        {
+          "id": "86f56637c829",
+          "name": "디지털데일리",
+          "title": "나스닥 사상 최고 마감…미 국채 금리 최고치 경신에도 AI 기술주 강세",
+          "link": "https://www.ddaily.co.kr/page/view/2026100605401834349"
+        },
+        {
+          "id": "bf8818c61878",
+          "name": "블록미디어",
+          "title": "[뉴욕증시 마감] AI가 깬 금리 공포…나스닥 장중 사상 최고치",
+          "link": "https://www.blockmedia.co.kr/archives/1147901"
+        }
+      ],
+      "auto": true
     }
   ]
 }
