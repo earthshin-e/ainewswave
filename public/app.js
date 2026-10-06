@@ -176,7 +176,7 @@
         <p class="note">언론사 RSS 가 제공한 요약입니다. 전체 내용은 원문에서 확인하세요.</p>
       </section>
       <a class="cta" href="${esc(a.link)}" target="_blank" rel="noopener noreferrer" data-out="${esc(a.source)}">${esc(a.source)}에서 원문 보기 ↗</a>
-      ${state.storyOf.get(a.id) ? `<a class="story-link" href="#s/${esc(state.storyOf.get(a.id).id)}"><b>뉴스웨이브 정리</b>${esc(state.storyOf.get(a.id).title)} →</a>` : ''}
+      ${state.storyOf.get(a.id) ? `<a class="story-link" href="#s/${esc(state.storyOf.get(a.id).id)}">${esc(state.storyOf.get(a.id).title)} →</a>` : ''}
       ${same.length ? `<section class="rel"><h2>같은 소식, 다른 매체 <span>${same.length}</span></h2><ul>${same.map(relItem).join('')}</ul></section>` : ''}
       ${topic.length ? `<section class="rel"><h2>${esc(a.category)} 최신 기사</h2><ul>${topic.map(relItem).join('')}</ul></section>` : ''}
     </article>`;

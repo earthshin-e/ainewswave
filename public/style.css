@@ -233,7 +233,6 @@ dialog#kwSheet::backdrop, dialog#sheet::backdrop { background: rgba(0,0,0,.45); 
 @media (min-width: 960px) { .hot .ht { font-size: 15.5px; } .hot a { min-height: 44px; } }
 
 /* ---------- 뉴스웨이브 정리 기사 ---------- */
-.story .byline { color: var(--accent); }
 .points { margin-top: 20px; padding: 18px 20px; background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--accent); }
 .points h2 { margin: 0 0 10px; font-size: 11.5px; font-weight: 700; letter-spacing: 0.08em; color: var(--accent); }
 .points ul { margin: 0; padding: 0; list-style: none; }
@@ -244,8 +243,7 @@ dialog#kwSheet::backdrop, dialog#sheet::backdrop { background: rgba(0,0,0,.45); 
 .story-body p { margin: 0 0 18px; font-size: 17px; line-height: 1.8; color: var(--ink); word-break: keep-all; }
 .rel.src .ext { color: var(--ink3); font-size: 13px; }
 .story > .note { margin-top: 20px; font-size: 12.5px; color: var(--ink3); line-height: 1.6; }
-.story-link { display: block; margin-top: 12px; padding: 14px 16px; border: 1px solid var(--accent); color: var(--ink); text-decoration: none; font-size: 14.5px; line-height: 1.5; }
-.story-link b { display: block; font-size: 11.5px; letter-spacing: 0.06em; color: var(--accent); margin-bottom: 2px; }
+.story-link { display: block; margin-top: 12px; padding: 12px 14px; border: 1px solid var(--line); color: var(--ink); text-decoration: none; font-size: 14.5px; line-height: 1.5; }
 
 /* ---------- 기사 상세 ---------- */
 body.reading .toolbar, body.reading .listwrap { display: none; }
