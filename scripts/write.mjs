@@ -39,7 +39,8 @@ if (!key) {
   process.exit(0);
 }
 
-const { articles = [] } = await readJson(ARTICLES, {});
+const artData = await readJson(ARTICLES, {});
+const { articles = [] } = artData;
 
 // ---------- 같은 소식 묶기 (public/app.js 의 전광판과 같은 규칙) ----------
 const grams = (t) => {
@@ -189,6 +190,53 @@ if (now.getUTCHours() >= BRIEFING_HOUR && !stories.some((s) => s.id === briefId)
     }
   }
 }
+
+// ---------- 기사별 핵심 요약 ----------
+// 상세 화면 위에 보여 줄 3~5줄 요약을 기사마다 씁니다. 원문 문장을 옮기지 않고 사실만 새 문장으로 씁니다.
+// 25건씩 묶어 한 번에 요청하고, 한 번 실행에 최대 POINTS_MAX 건까지 씁니다(최신 기사부터).
+const POINTS_BATCH = 25;
+const POINTS_MAX = 200;
+const POINTS_SCHEMA = {
+  type: 'object',
+  additionalProperties: false,
+  required: ['items'],
+  properties: {
+    items: {
+      type: 'array',
+      items: {
+        type: 'object',
+        additionalProperties: false,
+        required: ['id', 'points'],
+        properties: { id: { type: 'string' }, points: { type: 'array', items: { type: 'string' } } },
+      },
+    },
+  },
+};
+const POINTS_RULES = `당신은 AI 산업 뉴스 사이트 "AI 뉴스웨이브"의 편집자입니다. 기사마다 핵심 요약을 씁니다.
+- 기사마다 3~5개, 각 45자 안쪽의 짧은 명사형 문장(~함, ~ 계획, ~ 공개 등)입니다. 자료가 적어 3개를 채울 수 없으면 있는 사실만큼만 씁니다.
+- 주어진 제목과 요약에 나온 사실만 씁니다. 자료에 없는 수치, 배경, 전망은 지어내지 않습니다.
+- 원문 문장을 그대로 옮기거나 어순만 바꾸지 말고, 사실을 뽑아 새 문장으로 씁니다. 기자 이름, 매체명, 사진 설명은 넣지 않습니다.
+- 줄표(—, –)와 가운뎃점(·)은 쓰지 않습니다.`;
+const need = articles.filter((a) => !a.points).slice(0, POINTS_MAX);
+let pointed = 0;
+for (let i = 0; i < need.length; i += POINTS_BATCH) {
+  const batch = need.slice(i, i + POINTS_BATCH);
+  try {
+    const out = await ask(POINTS_RULES,
+      '다음 기사마다 핵심 요약을 써 주세요. id 는 그대로 돌려주세요.\n\n' +
+      batch.map((a) => `id: ${a.id}\n제목: ${a.title}\n요약: ${a.summary || '(요약 없음)'}`).join('\n\n'),
+      POINTS_SCHEMA);
+    const got = new Map((out.items || []).map((x) => [x.id, x.points]));
+    for (const a of batch) {
+      const p = (got.get(a.id) || []).map((x) => String(x).trim()).filter(Boolean).slice(0, 5);
+      if (p.length) { a.points = p; pointed++; }
+    }
+  } catch (e) {
+    console.warn(`핵심 요약 실패 (${batch.length}건): ${e.message}`);
+  }
+}
+if (pointed) await writeFile(ARTICLES, JSON.stringify(artData), 'utf8');
+console.log(`핵심 요약 새로 ${pointed}건, 요약 없는 기사 ${articles.filter((a) => !a.points).length}건`);
 
 await save();
 console.log(`정리 기사 새로 ${made}건, 전체 ${stories.length}건`);

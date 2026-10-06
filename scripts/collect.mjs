@@ -108,6 +108,7 @@ const results = await pooled(feeds, CONCURRENCY, async (f) => {
       summary: it.summary,
       image: it.image || old?.image || '',
       ...(old?.imgTried ? { imgTried: true } : {}),
+      ...(old?.points ? { points: old.points } : {}),
       category: classify(it.title, it.summary),
       kw: keywordsOf(it.title, it.summary),
     });

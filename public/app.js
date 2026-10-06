@@ -179,8 +179,9 @@
       <div class="meta"><b>${esc(a.source)}</b><span>·</span><time datetime="${esc(a.published)}">${fullDate(a.published)}</time>
         <button class="bm" data-id="${esc(a.id)}" aria-pressed="${on}" aria-label="북마크">${STAR}</button></div>
       ${a.image ? `<figure class="hero"><img src="${esc(a.image)}" alt="" referrerpolicy="no-referrer" onerror="this.parentNode.remove()"></figure>` : ''}
+      ${a.points && a.points.length ? `<section class="points"><h2>핵심 요약</h2><ul>${a.points.map((x) => `<li>${esc(x)}</li>`).join('')}</ul></section>` : ''}
       <section class="sum">
-        <h2>요약</h2>
+        <h2>언론사 요약</h2>
         <p>${a.summary ? esc(a.summary) : '이 기사는 언론사가 요약을 제공하지 않았습니다. 원문에서 내용을 확인해 주세요.'}</p>
         <p class="note">언론사 RSS 가 제공한 요약입니다. 전체 내용은 원문에서 확인하세요.</p>
       </section>
