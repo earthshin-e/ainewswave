@@ -72,7 +72,22 @@ a { color: inherit; }
 .icon { background: none; border: 0; width: 44px; height: 44px; display: grid; place-items: center; border-radius: 0; color: var(--ink); }
 .icon:active, .icon:hover { background: var(--line); }
 
-.tabs { grid-area: tabs; display: flex; gap: 6px; overflow-x: auto; padding: 6px 16px 10px; margin-inline: -16px; scrollbar-width: none; }
+.tabbar { grid-area: tabs; position: relative; margin-inline: -16px; }
+.tabs { display: flex; gap: 6px; overflow-x: auto; padding: 6px 16px 10px; scrollbar-width: none; scroll-behavior: smooth; }
+/* 넘칠 때 양 끝을 흐리게 하고 화살표를 띄워 좌우로 더 있다는 것을 보여 줍니다 */
+.tabbar::before, .tabbar::after {
+  content: ""; position: absolute; top: 0; bottom: 4px; width: 56px; pointer-events: none; opacity: 0; transition: opacity .15s; z-index: 1;
+}
+.tabbar::before { left: 0; background: linear-gradient(90deg, var(--bg) 30%, transparent); }
+.tabbar::after { right: 0; background: linear-gradient(270deg, var(--bg) 30%, transparent); }
+.tabbar.can-l::before, .tabbar.can-r::after { opacity: 1; }
+.tscroll {
+  position: absolute; top: 6px; z-index: 2; width: 36px; height: 36px; padding: 0; border: 1px solid var(--line-strong);
+  background: var(--surface); color: var(--ink); font-size: 22px; line-height: 1; display: none; place-items: center;
+}
+.tscroll.prev { left: 6px; } .tscroll.next { right: 6px; }
+.tabbar.can-l .prev, .tabbar.can-r .next { display: grid; }
+.tscroll:hover { border-color: var(--ink); }
 .tabs::-webkit-scrollbar { display: none; }
 .tab {
   flex: none; height: 36px; padding: 0 14px; border-radius: 0; border: 1px solid var(--line);
@@ -258,7 +273,7 @@ body.reading .toolbar, body.reading .listwrap { display: none; }
 /* ---------- 태블릿: 2열 세로 카드 ---------- */
 @media (min-width: 640px) {
   .wrap { padding-inline: 24px; }
-  .tabs { padding-inline: 24px; margin-inline: -24px; }
+  .tabbar { margin-inline: -24px; } .tabs { padding-inline: 24px; }
   .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; padding-top: 16px; }
   .card a.body { flex-direction: column; gap: 0; padding: 0; }
   .media { order: 0; width: 100%; }
@@ -277,11 +292,14 @@ body.reading .toolbar, body.reading .listwrap { display: none; }
 /* ---------- PC: 한 줄 헤더, 3열, 첫 기사는 크게 ---------- */
 @media (min-width: 960px) {
   .head {
-    grid-template-columns: auto minmax(0, 1fr) 260px auto;
-    grid-template-areas: "brand tabs search actions"; column-gap: 20px; padding-block: 8px;
+    grid-template-columns: auto minmax(0, 1fr) 300px auto;
+    grid-template-areas: "brand . search actions" "tabs tabs tabs tabs"; column-gap: 20px; padding-top: 10px;
   }
   .brand { padding: 0; }
-  .tabs { padding: 0; margin: 0; }
+  .tabbar { margin: 0; }
+  .tabs { padding: 10px 0 12px; }
+  .tscroll { top: 10px; }
+  .tscroll.prev { left: 0; } .tscroll.next { right: 0; }
   .search, .search[hidden] { display: block; padding: 0; }
   .search input { height: 40px; font-size: 14px; }
   .actions { padding-top: 0; margin-right: -10px; }

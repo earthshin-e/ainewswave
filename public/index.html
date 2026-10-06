@@ -23,7 +23,11 @@
       <svg class="mark" viewBox="0 0 512 512" aria-hidden="true"><rect width="512" height="512" fill="currentColor"/><path d="M56 372C132 372 150 300 182 236C218 166 284 120 356 128C424 136 462 196 452 252C444 296 404 316 374 300C348 286 352 252 378 242C336 222 296 246 282 300C266 362 238 404 180 404H56Z" fill="var(--accent-ink)"/><path d="M56 444Q120 406 184 444T312 444T456 444" fill="none" stroke="var(--accent-ink)" stroke-width="28" stroke-linecap="square"/><circle cx="412" cy="92" r="22" fill="var(--accent-ink)"/></svg>
       <h1>AI 뉴스웨이브</h1>
     </a>
-    <nav class="tabs" id="tabs" role="tablist" aria-label="주제"></nav>
+    <div class="tabbar" id="tabbar">
+      <button class="tscroll prev" type="button" aria-label="키워드 왼쪽으로 넘기기" tabindex="-1">‹</button>
+      <nav class="tabs" id="tabs" role="tablist" aria-label="키워드"></nav>
+      <button class="tscroll next" type="button" aria-label="키워드 오른쪽으로 넘기기" tabindex="-1">›</button>
+    </div>
     <form id="searchWrap" class="search" role="search" hidden>
       <input id="q" type="search" placeholder="제목, 요약, 매체명 검색" autocomplete="off" enterkeyhint="search" aria-label="기사 검색">
     </form>

@@ -218,6 +218,7 @@
 
   // 상단 탭: 최근 30일 AI 기사에서 많이 언급된 키워드 상위 10개 (수집 스크립트가 계산)
   function renderTabs() {
+    queueMicrotask(() => typeof updateTabEdges === 'function' && updateTabEdges());
     const tabs = [{ label: '전체' }, ...state.keywords];
     $('#tabs').innerHTML = tabs.map((t, i) =>
       `<button class="tab" role="tab" data-t="${esc(t.label)}" aria-selected="${t.label === state.topic}"${t.count ? ` title="최근 기사 ${t.count}건에서 언급"` : ''}>${i ? `<i class="rk">${i}</i>` : ''}${esc(t.label)}</button>`).join('');
@@ -229,6 +230,21 @@
   }
 
   function resetPage() { state.shown = PAGE; }
+
+  // 키워드 탭이 넘칠 때 양 끝 흐림과 화살표를 켭니다.
+  const tabbar = $('#tabbar');
+  const tabsEl = $('#tabs');
+  function updateTabEdges() {
+    const max = tabsEl.scrollWidth - tabsEl.clientWidth;
+    tabbar.classList.toggle('can-l', tabsEl.scrollLeft > 4);
+    tabbar.classList.toggle('can-r', tabsEl.scrollLeft < max - 4);
+  }
+  tabsEl.addEventListener('scroll', updateTabEdges, { passive: true });
+  window.addEventListener('resize', updateTabEdges);
+  tabbar.addEventListener('click', (e) => {
+    const b = e.target.closest('.tscroll'); if (!b) return;
+    tabsEl.scrollBy({ left: (b.classList.contains('next') ? 1 : -1) * tabsEl.clientWidth * 0.7 });
+  });
 
   // ---- 이벤트 ----
   $('#tabs').addEventListener('click', (e) => {
