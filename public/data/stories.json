@@ -5,6 +5,474 @@
   ],
   "stories": [
     {
+      "id": "s20261006-7fec205dcf33",
+      "title": "인포시즈, 그래프 기반 AI 보안 솔루션 GOS 출시",
+      "category": "보안/윤리",
+      "published": "2026-10-06T08:58:54.000Z",
+      "points": [
+        "인포시즈, 그래프 기반 AI 보안 솔루션 출시",
+        "국내 반도체 대기업에 전사 공급",
+        "로그 관계 분석으로 이상행위 탐지"
+      ],
+      "body": [
+        "온톨로지 기반 엔터프라이즈 AI 기업 인포시즈가 그래프 기반 AI 보안 솔루션 '고스(GOS, Graph Optimized Security)'를 정식 출시했다. 회사는 6일 출시와 동시에 국내 반도체 대기업에 전사 규모로 공급했다고 밝혔다.",
+        "고스는 조직의 업무 패턴을 학습하고 데이터 간 관계를 그래프로 만들어, 평소와 다른 행동을 보안 위협으로 식별하는 방식이다. 보안 로그 사이의 관계를 AI로 분석해 이상행위와 공격 경로를 추적한다.",
+        "일부 매체는 대규모 로그에서 위협 가능성이 높은 행위만 골라 분석해 탐지 정확도를 높이고 운영 비용을 줄인다고 전했다. 또 다른 매체는 대규모 언어모델(LLM)을 활용한 대용량 로그 분석을 지원한다는 점을 함께 짚었다."
+      ],
+      "sources": [
+        {
+          "id": "7fec205dcf33",
+          "name": "헬로티",
+          "title": "인포시즈, 그래프 기반 AI 보안 솔루션 GOS 출시…반도체 대기업 전사 공급",
+          "link": "https://www.hellot.net/news/article.html?no=115307"
+        },
+        {
+          "id": "41bd849e8317",
+          "name": "IT조선",
+          "title": "“AI로 공격 경로 추적”…인포시즈, 반도체 대기업에 보안 솔루션 공급",
+          "link": "https://it.chosun.com/news/articleView.html?idxno=2023092171475"
+        },
+        {
+          "id": "266cce773acf",
+          "name": "디지털투데이",
+          "title": "인포시즈, AI 보안 솔루션 ‘GOS’ 출시...LLM 활용 대용량 로그 분석 지원",
+          "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=705134"
+        },
+        {
+          "id": "fb431943aacc",
+          "name": "인더스트리뉴스",
+          "title": "인포시즈, 그래프 기반 AI 보안 솔루션 ‘GOS’ 정식 출시… 대기업 전사 도입으로 기술력 입증",
+          "link": "https://www.industrynews.co.kr/news/articleView.html?idxno=87030"
+        },
+        {
+          "id": "438ee596f311",
+          "name": "디지털데일리",
+          "title": "인포시즈, AI 보안 솔루션 'GOS' 출시…반도체 대기업 공급",
+          "link": "https://www.ddaily.co.kr/page/view/2026100609220433830"
+        },
+        {
+          "id": "690dd057464b",
+          "name": "테크월드뉴스",
+          "title": "인포시즈, 그래프 기반 AI 보안 솔루션 ‘GOS’ 출시…“대기업 전사 도입으로 기술력 입증”",
+          "link": "https://www.epnc.co.kr/news/articleView.html?idxno=407774"
+        },
+        {
+          "id": "c8bd19cda8bd",
+          "name": "데이터넷",
+          "title": "인포시즈, 그래프 AI 보안 솔루션 ‘고스’ 출시 ··· 국내 반도체 대기업 전사 공급",
+          "link": "https://www.datanet.co.kr/news/articleView.html?idxno=214893"
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "s20261006-a5d17e32d035",
+      "title": "헨켈, 반도체대전 SEDEX 2026서 AI와 HBM용 패키징 소재 공개",
+      "category": "반도체",
+      "published": "2026-10-06T08:49:16.000Z",
+      "points": [
+        "헨켈, 14~16일 반도체대전 참가",
+        "AI와 HBM용 첨단 패키징 소재 공개",
+        "발열과 휨을 잡는 소재 기술 강조"
+      ],
+      "body": [
+        "독일 헨켈의 접착 테크놀러지스 사업부가 오는 14일부터 16일까지 서울 코엑스에서 열리는 'SEDEX 2026(제28회 반도체대전)'에 참가한다고 6일 밝혔다.",
+        "헨켈은 'Advanced Packaging for AI'를 주제로 인공지능, 고대역폭메모리(HBM), 고성능컴퓨팅(HPC)용 첨단 패키징 소재 기술을 선보일 계획이다.",
+        "한 매체는 칩을 수직과 수평으로 연결하는 2.5D, 3D 패키징과 칩렛 같은 고집적 기술이 확산하면서 발열과 기계적 응력을 다루는 소재의 중요성이 커지고 있다고 설명했다."
+      ],
+      "sources": [
+        {
+          "id": "a5d17e32d035",
+          "name": "헬로티",
+          "title": "헨켈, SEDEX 2026서 AI·HBM 시대 첨단 패키징 소재 솔루션 선보여",
+          "link": "https://www.hellot.net/news/article.html?no=115304"
+        },
+        {
+          "id": "07b8fb394a54",
+          "name": "디일렉",
+          "title": "헨켈, HBM 등 첨단 패키징 소재 한자리에 소개",
+          "link": "https://www.thelec.kr/news/articleView.html?idxno=63275"
+        },
+        {
+          "id": "366fbf070951",
+          "name": "AI타임스",
+          "title": "헨켈, SEDEX 2026서 AI·HBM 시대 위한 첨단 패키징 소재 솔루션 선보여",
+          "link": "https://www.aitimes.com/news/articleView.html?idxno=215996"
+        },
+        {
+          "id": "d74f6ce6a53b",
+          "name": "아이뉴스24",
+          "title": "헨켈, 반도체대전서 AI·HBM용 첨단 패키징 소재 선봬",
+          "link": "https://www.inews24.com/view/2012053"
+        },
+        {
+          "id": "2ff00e5f6848",
+          "name": "디지털데일리",
+          "title": "헨켈, SEDEX 2026서 AI·HBM용 첨단 패키징 소재 공개",
+          "link": "https://www.ddaily.co.kr/page/view/2026100609313260712"
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "s20261006-8478565e0a4b",
+      "title": "딥엑스와 두산로보틱스, 원전 제조용 AI 용접 로봇 공동 개발",
+      "category": "로봇",
+      "published": "2026-10-06T08:42:38.000Z",
+      "points": [
+        "딥엑스와 두산로보틱스, 원전용 AI 용접 협력",
+        "로봇산업기술개발사업 과제로 선정",
+        "숙련 용접공 부족 문제 해소 목표"
+      ],
+      "body": [
+        "AI 반도체 기업 딥엑스와 두산로보틱스가 원자력발전소 제조 현장의 숙련 용접공 부족 문제를 해결하기 위해 AI 기반 지능형 용접 로봇 솔루션을 함께 개발한다. 6일 알려진 이번 협력은 산업통상부 '2026년도 로봇산업기술개발사업' 과제로 선정된 데 따른 것이다.",
+        "핵심은 비전 AI와 협동로봇을 결합해 용접 공정을 지능화하는 것이다. 용접 대상과 경로를 AI가 인식해 보정하고, 용접 중 수집한 비전과 열화상 데이터를 활용하는 방식이 소개됐다.",
+        "두산로보틱스는 컨소시엄 총괄과 시스템 통합 아키텍처 설계를 맡는다. 매체에 따라 산업통상자원부와 산업통상부로 부처 명칭 표기가 엇갈렸다."
+      ],
+      "sources": [
+        {
+          "id": "8478565e0a4b",
+          "name": "헬로티",
+          "title": "딥엑스-두산로보틱스, 원전 제조 현장 AI 용접 솔루션 공동개발 착수",
+          "link": "https://www.hellot.net/news/article.html?no=115302"
+        },
+        {
+          "id": "93e6939f2c4c",
+          "name": "AI타임스",
+          "title": "[게시판] 딥엑스-두산로보틱스, 원전 제조 ‘AI 용접 솔루션’ 공동개발 협력 등 단신",
+          "link": "https://www.aitimes.com/news/articleView.html?idxno=216017"
+        },
+        {
+          "id": "facc53773f26",
+          "name": "인더스트리뉴스",
+          "title": "딥엑스·두산로보틱스, 원전 제조 현장 위한 ‘AI 용접 솔루션’ 공동개발",
+          "link": "https://www.industrynews.co.kr/news/articleView.html?idxno=87086"
+        },
+        {
+          "id": "5797190eeede",
+          "name": "디지털투데이",
+          "title": "딥엑스·두산로보틱스, 원전 용접 AI 로봇 공동 개발",
+          "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=705227"
+        },
+        {
+          "id": "764e32be4f04",
+          "name": "EBN",
+          "title": "딥엑스·두산로보틱스, 원전 제조 현장용 'AI 용접 솔루션' 공동 개발",
+          "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1726822"
+        },
+        {
+          "id": "a2078c37ff81",
+          "name": "테크월드뉴스",
+          "title": "딥엑스, 두산로보틱스와 원전 제조 현장 ‘AI 용접’ 개발",
+          "link": "https://www.epnc.co.kr/news/articleView.html?idxno=407819"
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "s20261006-147a9993c7fc",
+      "title": "카카오모빌리티, 고려대 C5ISRT융합연구원과 국방 AI 협력 MOU",
+      "category": "기업",
+      "published": "2026-10-06T08:33:21.000Z",
+      "points": [
+        "카카오모빌리티, 고려대와 국방 AI MOU",
+        "지휘통제와 감시정찰 AI 플랫폼 협력",
+        "모빌리티 기술을 국방 분야에 접목"
+      ],
+      "body": [
+        "카카오모빌리티가 고려대학교 C5ISRT융합연구원과 국방 인공지능 분야 상호 발전을 위한 협력 양해각서(MOU)를 체결했다고 6일 밝혔다. C5ISRT는 지휘, 통제, 통신, 컴퓨터, 사이버, 정보, 감시, 정찰, 표적처리가 통합된 첨단 지휘통제 및 전장인식 체계를 뜻한다.",
+        "양측은 국방 AI 기반 지휘통제와 감시정찰, 유무인 복합 관제 플랫폼 개발 등에서 협력한다. 카카오모빌리티의 모빌리티 핵심 기술을 국방 분야에 접목해 국방 AX를 앞당기겠다는 취지다."
+      ],
+      "sources": [
+        {
+          "id": "147a9993c7fc",
+          "name": "로봇신문",
+          "title": "카카오모빌리티-고려대, 모빌리티 플랫폼 기술로 국방 AX 가속화 나서",
+          "link": "https://www.irobotnews.com/news/articleView.html?idxno=48862"
+        },
+        {
+          "id": "d60b9ea518ff",
+          "name": "AI타임스",
+          "title": "카카오모빌리티, 고려대와 AX 협력…모빌리티 핵심 기술 국방 분야 접목",
+          "link": "https://www.aitimes.com/news/articleView.html?idxno=216011"
+        },
+        {
+          "id": "a782794672e7",
+          "name": "EBN",
+          "title": "[Digital & Now] 카카오모빌리티, 고려대와 국방 AI 협력",
+          "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1726836"
+        },
+        {
+          "id": "b8c791bed4f3",
+          "name": "테크월드뉴스",
+          "title": "카카오모빌리티-고려대, 모빌리티 플랫폼 기술로 국방 AX 가속화 앞장",
+          "link": "https://www.epnc.co.kr/news/articleView.html?idxno=407810"
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "s20261006-ff48d30b9b3e",
+      "title": "조선대, 과기정통부 AI 중심대학 선정…최대 8년간 212억원",
+      "category": "정책",
+      "published": "2026-10-06T08:12:52.000Z",
+      "points": [
+        "조선대, 2026년 AI 중심대학 사업 선정",
+        "비수도권 최종 8개 대학에 포함",
+        "최대 8년간 국비 약 212억원 지원"
+      ],
+      "body": [
+        "조선대학교가 과학기술정보통신부와 정보통신기획평가원(IITP)이 주관하는 '2026년도 인공지능(AI) 중심대학 사업'에서 비수도권 최종 8개 대학에 선정됐다. 최대 8년간 약 212억원의 국비를 지원받는다.",
+        "이 사업은 대학 교육체계를 AI 중심으로 개편하고 AI 전문인력과 AX(AI 전환) 융합인재를 양성하는 정부 지원사업이다.",
+        "조선대는 AI 교육을 대학 전체로 확장하기 위해 총장 직속 'AI SW융합원' 등을 운영하고, 한 매체에 따르면 AI 교원 100명 채용 계획도 내놨다."
+      ],
+      "sources": [
+        {
+          "id": "ff48d30b9b3e",
+          "name": "교수신문",
+          "title": "조선대, AI 중심대학 선정…8년간 212억 국비 지원·AI교원 100명 채용",
+          "link": "https://www.kyosu.net/news/articleView.html?idxno=210959"
+        },
+        {
+          "id": "3a1d2e48da89",
+          "name": "국민일보",
+          "title": "조선대, 비수도권 ‘AI 중심대학’ 선정… 사업비 212억 확보",
+          "link": "https://www.kmib.co.kr/article/view.asp?arcid=9000020261"
+        },
+        {
+          "id": "09baddea882d",
+          "name": "베리타스알파",
+          "title": "조선대 과기부 'AI중심대학' 최종 선정... 8년간 212억 확보",
+          "link": "https://www.veritas-a.com/news/articleView.html?idxno=630720"
+        },
+        {
+          "id": "2903b1e5a89b",
+          "name": "베타뉴스",
+          "title": "조선대, 과기부 'AI중심대학' 최종 선정... 최대 8년간 국비 212억원 확보",
+          "link": "https://www.betanews.net/article/view/beta202610060043"
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "s20261006-aec26b6c46be",
+      "title": "오픈AI, EU에서 챗GPT와 코덱스 텍스트에 보이지 않는 워터마크 도입",
+      "category": "정책",
+      "published": "2026-10-06T07:55:40.000Z",
+      "points": [
+        "오픈AI, 생성 텍스트에 투명 워터마크 도입",
+        "EU AI법 투명성 규정에 대응",
+        "우선 EU에 적용, 전 세계 일괄 적용 아님"
+      ],
+      "body": [
+        "오픈AI가 챗GPT와 코덱스가 생성하는 텍스트에 보이지 않는 워터마크를 넣기 시작한다. 5일(현지시간) 공개된 이 조치는 사람이 읽을 때는 일반 문장과 차이가 없지만, 기계가 AI 생성물임을 확인할 수 있게 하는 방식이다.",
+        "워터마크는 앞으로 몇 주 안에 EU 내 챗GPT 모든 요금제 등에 적용된다. 8월 2일 발효된 EU AI법의 생성형 AI 투명성 규정을 따르기 위한 조치로, 전 세계에 일괄 적용하는 것은 아니라고 보도됐다.",
+        "AI타임스는 앤트로픽에 이어 오픈AI도 비슷한 방식을 도입한다고 전했다."
+      ],
+      "sources": [
+        {
+          "id": "aec26b6c46be",
+          "name": "테크M",
+          "title": "[글로벌] 챗GPT가 쓴 글, 이제 '흔적' 남는다...오픈AI, '보이지 않는 워터마크' 도입",
+          "link": "https://www.techm.kr/news/articleView.html?idxno=155880"
+        },
+        {
+          "id": "22c015290df4",
+          "name": "AI타임스",
+          "title": "오픈AI, 챗GPT에 '투명 워터마크' 도입… EU만 우선 적용",
+          "link": "https://www.aitimes.com/news/articleView.html?idxno=215984"
+        },
+        {
+          "id": "8e4c9db590dc",
+          "name": "아이뉴스24",
+          "title": "\"AI가 쓴 글 식별한다\"⋯오픈AI, EU 규제 맞춰 워터마크 도입",
+          "link": "https://www.inews24.com/view/2011917"
+        },
+        {
+          "id": "6006b3b7cae4",
+          "name": "디지털투데이",
+          "title": "오픈AI, EU서 챗GPT 텍스트 워터마킹 도입",
+          "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=705021"
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "s20261006-d4fa643234b5",
+      "title": "레드햇, AI 트레이닝 인증 프로그램 확대 운영",
+      "category": "기업",
+      "published": "2026-10-06T07:30:00.000Z",
+      "points": [
+        "레드햇, 트레이닝 인증 프로그램 확대",
+        "기업의 AI 활용 역량 강화 지원",
+        "AI 애플리케이션 전 주기 관리 과정 포함"
+      ],
+      "body": [
+        "레드햇이 기업의 AI 활용 역량을 높이기 위해 '레드햇 트레이닝 인증(Red Hat Training and Certification)' 프로그램을 확대 운영한다고 6일 밝혔다.",
+        "프로그램에는 AI 애플리케이션의 전체 라이프사이클 관리 방법을 다루는 과정이 포함된다. 핵심 과정으로는 레드햇 오픈시프트 AI 기반의 AI/ML 애플리케이션 관련 과정이 소개됐다."
+      ],
+      "sources": [
+        {
+          "id": "d4fa643234b5",
+          "name": "테크월드뉴스",
+          "title": "레드햇, AI 트레이닝·인증 프로그램 확대…기업 AI 실무 역량 지원",
+          "link": "https://www.epnc.co.kr/news/articleView.html?idxno=407828"
+        },
+        {
+          "id": "9a84933f49d7",
+          "name": "데이터넷",
+          "title": "레드햇, AI 트레이닝·인증 프로그램 확대 ··· AI 역량 강화 지원",
+          "link": "https://www.datanet.co.kr/news/articleView.html?idxno=214902"
+        },
+        {
+          "id": "9445db84eeb5",
+          "name": "디지털투데이",
+          "title": "레드햇, AI 교육 ·인증 프로그램 확대 운영",
+          "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=705110"
+        },
+        {
+          "id": "c660a7cb62bb",
+          "name": "인공지능신문",
+          "title": "레드햇, AI 트레이닝·인증 프로그램으로 기업 AI 역량 강화 지원",
+          "link": "https://www.aitimes.kr/news/articleView.html?idxno=42190"
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "s20261006-33d8e9ddbfc1",
+      "title": "서울아산병원 연구팀, 난치성 간암 새 바이오마커와 AI 진단 모델 제시",
+      "category": "연구",
+      "published": "2026-10-06T07:29:33.000Z",
+      "points": [
+        "난치성 간암의 새 바이오마커 규명",
+        "RB1 유전자 결손 환자군의 위험 확인",
+        "병리 영상 AI 진단과 병용치료 전략 제시"
+      ],
+      "body": [
+        "서울아산병원 연구팀이 난치성 간암의 예후를 가르는 새로운 유전적 특징을 규명했다. 종양억제 유전자 RB1이 양쪽 모두 결손되거나 비활성화된 환자군에서 질환 진행과 사망 위험이 크게 높아진다는 내용이다.",
+        "연구팀은 이를 병리 영상으로 판별하는 인공지능 진단 모델과 표적 병용치료 전략도 함께 제시했다. 서울아산병원 소화기내과와 병리과 교수진을 비롯해 마카오대, 포스텍, 한양대 구리병원 연구진이 참여한 것으로 전해졌다."
+      ],
+      "sources": [
+        {
+          "id": "33d8e9ddbfc1",
+          "name": "EBN",
+          "title": "서울아산병원, 간암 새 바이오마커 발견…AI 진단 제시",
+          "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1726880"
+        },
+        {
+          "id": "9faaf62adaa2",
+          "name": "베리타스알파",
+          "title": "난치성 간암의 새 바이오마커 규명… AI 진단 및 치료법 첫 제시",
+          "link": "https://www.veritas-a.com/news/articleView.html?idxno=630614"
+        },
+        {
+          "id": "19f430ac5607",
+          "name": "인공지능신문",
+          "title": "난치성 간암의 새 바이오마커 규명… 서울아산병원, AI 진단 및 치료법 첫 제시",
+          "link": "https://www.aitimes.kr/news/articleView.html?idxno=42191"
+        },
+        {
+          "id": "75c7d38d84bc",
+          "name": "의학신문",
+          "title": "AI 활용 난치성 간암 새 바이오마커 규명",
+          "link": "https://www.bosa.co.kr/news/articleView.html?idxno=3013316"
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "s20261006-35e966a5bfe0",
+      "title": "메가존클라우드, 엔터프라이즈 AI OS 에어 스튜디오 v3 출시",
+      "category": "기업",
+      "published": "2026-10-06T06:47:08.000Z",
+      "points": [
+        "메가존클라우드, 에어 스튜디오 v3 출시",
+        "데이터와 AI 에이전트, 운영 통합 관리",
+        "기능을 모듈화해 선택 도입 가능"
+      ],
+      "body": [
+        "메가존클라우드가 엔터프라이즈 AI 운영체제(OS) '에어 스튜디오(AIR Studio) v3'를 출시했다고 6일 밝혔다. 기업의 기존 AI 환경을 유지하면서 데이터와 AI 에이전트, 운영, 보안, 비용을 통합 관리할 수 있도록 설계됐다.",
+        "새 버전은 핵심 기능을 네 개 영역으로 모듈화해, 기업이 각자의 AI 도입 단계에 맞춰 필요한 부분만 골라 쓸 수 있게 했다. 데이터 정비부터 AI 에이전트 개발과 운영, 보안과 비용 통제까지 전 과정을 다룬다는 설명이다."
+      ],
+      "sources": [
+        {
+          "id": "35e966a5bfe0",
+          "name": "IT조선",
+          "title": "메가존클라우드, AI OS ‘에어 스튜디오 v3’ 출시… “모듈화로 부분활용도 가능”",
+          "link": "https://it.chosun.com/news/articleView.html?idxno=2023092171482"
+        },
+        {
+          "id": "d9f11ef89cd4",
+          "name": "아이뉴스24",
+          "title": "메가존클라우드, 기업 AI 운영·통제하는 '에어 스튜디오 v3' 출시",
+          "link": "https://www.inews24.com/view/2012235"
+        },
+        {
+          "id": "7a272d3c4df2",
+          "name": "데이터넷",
+          "title": "메가존클라우드, 엔터프라이즈 AI OS ‘에어 스튜디오 v3’ 출시",
+          "link": "https://www.datanet.co.kr/news/articleView.html?idxno=214906"
+        },
+        {
+          "id": "90184f2d34b1",
+          "name": "디지털투데이",
+          "title": "메가존클라우드, 엔터프라이즈 AI OS ‘AIR 스튜디오 v3’ 출시...모듈식 설계 적용",
+          "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=705090"
+        },
+        {
+          "id": "1bf817a231f3",
+          "name": "디지털데일리",
+          "title": "메가존클라우드, ‘에어 스튜디오 v3’ 출시…AI 관리 기능 모듈화",
+          "link": "https://www.ddaily.co.kr/page/view/2026100609162273482"
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "s20261006-08d0f12b4a40",
+      "title": "엔비디아 투자 리플렉션 AI, 첫 오픈웨이트 모델 빔 공개",
+      "category": "생성형AI",
+      "published": "2026-10-06T06:37:34.000Z",
+      "points": [
+        "리플렉션 AI, 첫 오픈웨이트 모델 빔 공개",
+        "미국과 중국 주요 모델에 필적 주장",
+        "코딩과 추론, 에이전트 작업 겨냥"
+      ],
+      "body": [
+        "엔비디아가 투자한 미국 AI 스타트업 리플렉션 AI가 5일(현지시간) 첫 오픈웨이트 모델 '빔(Beam)'을 공개했다. 오픈웨이트 모델은 학습을 마친 모델의 가중치를 내려받을 수 있게 풀어, 기업이 자체 서버에서 직접 돌리고 고쳐 쓸 수 있게 한 모델이다.",
+        "회사는 새 모델이 미국과 중국의 주요 오픈웨이트 모델에 필적하는 성능을 갖췄다고 주장했다. 모델은 코딩과 추론, AI 에이전트 작업을 겨냥했으며, 테크월드뉴스는 이달 중 모델 가중치를 공개할 예정이라고 전했다.",
+        "디지털투데이는 4일 악시오스 보도를 인용해 리플렉션이 미국산 고성능 오픈웨이트 모델 출시를 준비 중이라고 앞서 전한 바 있다."
+      ],
+      "sources": [
+        {
+          "id": "08d0f12b4a40",
+          "name": "조선비즈",
+          "title": "엔비디아가 투자한 리플렉션 AI, 첫 오픈웨이트 모델 공개…中 AI에 도전",
+          "link": "https://biz.chosun.com/it-science/ict/2026/10/06/JFENPHFG3FGYFLIUP6OSJADJM4"
+        },
+        {
+          "id": "7b61686b5ff1",
+          "name": "플래텀",
+          "title": "엔비디아가 투자한 리플렉션 AI, 첫 오픈 모델 ‘빔’ 선보여",
+          "link": "https://platum.kr/archives/295771"
+        },
+        {
+          "id": "10f9cda9160a",
+          "name": "테크월드뉴스",
+          "title": "리플렉션AI, 첫 오픈웨이트 모델 ‘빔’ 공개…중국 모델과 경쟁",
+          "link": "https://www.epnc.co.kr/news/articleView.html?idxno=407782"
+        },
+        {
+          "id": "031c26042ce3",
+          "name": "디지털투데이",
+          "title": "리플렉션, 미국산 오픈 웨이트 모델로 AI판 대공세 예고",
+          "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=705010"
+        }
+      ],
+      "auto": true
+    },
+    {
       "id": "b20261006",
       "type": "briefing",
       "title": "10월 6일 AI 브리핑: 국방 AX와 피지컬 AI 수주 잇따라, 나스닥은 AI 힘입어 최고치",
