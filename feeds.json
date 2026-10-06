@@ -32,7 +32,6 @@
     { "id": "startuprecipe", "name": "스타트업레시피", "url": "https://startuprecipe.co.kr/rss", "type": "general", "home": "https://startuprecipe.co.kr" },
     { "id": "hankyungit", "name": "한국경제", "url": "https://www.hankyung.com/feed/all-news", "type": "general", "home": "https://www.hankyung.com" },
     { "id": "mk", "name": "매일경제", "url": "https://www.mk.co.kr/rss/30000001/", "type": "general", "home": "https://www.mk.co.kr" },
-    { "id": "mt", "name": "머니투데이", "url": "https://rss.mt.co.kr/mt_news.xml", "type": "general", "home": "https://www.mt.co.kr" },
     { "id": "edaily", "name": "이데일리", "url": "http://rss.edaily.co.kr/edaily_news.xml", "type": "general", "home": "https://www.edaily.co.kr" },
     { "id": "asiae", "name": "아시아경제", "url": "https://www.asiae.co.kr/news/rss/asia_rss.htm", "type": "general", "home": "https://www.asiae.co.kr" },
     { "id": "heraldcorp", "name": "헤럴드경제", "url": "https://biz.heraldcorp.com/rss/google/newsAll", "type": "general", "home": "https://biz.heraldcorp.com" },

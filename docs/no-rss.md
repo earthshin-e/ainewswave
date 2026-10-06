@@ -1,7 +1,7 @@
-# RSS 를 확보하지 못한 매체 18곳
+# RSS 를 확보하지 못한 매체 19곳
 
-`docs/outlets100.txt` 의 후보 100곳 가운데 82곳은 RSS 응답을 확인해 `feeds.json` 에 등록했습니다.
-남은 18곳은 아래와 같은 이유로 등록하지 않았습니다. 확인 방법은 `node scripts/probe_feeds.mjs` 와
+`docs/outlets100.txt` 의 후보 100곳 가운데 81곳은 RSS 응답을 확인해 `feeds.json` 에 등록했습니다.
+남은 19곳은 아래와 같은 이유로 등록하지 않았습니다. 확인 방법은 `node scripts/probe_feeds.mjs` 와
 `node scripts/probe_pass2.mjs` 이며, 시도한 주소와 응답은 `docs/probe-result.json`,
 `docs/probe-pass2.json` 에 그대로 남아 있습니다.
 
@@ -32,6 +32,22 @@
 | 뉴스1 | https://www.news1.kr | 모든 후보 주소가 HTML 응답 |
 | 메디게이트뉴스 | https://www.medigatenews.com | 모든 후보 주소가 HTML 응답 |
 | 프레시안 | https://www.pressian.com | HTML 응답 또는 접속 실패 |
+
+## GitHub Actions 러너에서 접속이 막히는 곳
+
+| 매체 | 홈페이지 | 확인 결과 |
+| --- | --- | --- |
+| 머니투데이 | https://www.mt.co.kr | 아래 설명 참고 |
+
+머니투데이의 유일한 피드는 `https://rss.mt.co.kr/mt_news.xml` 이고 국내망에서는 200 으로 정상 응답합니다.
+그런데 GitHub Actions 러너에서는 이 호스트만 연결 자체가 타임아웃됩니다 (curl exit 28,
+Node `UND_ERR_CONNECT_TIMEOUT`). 같은 도메인의 `www.mt.co.kr` 은 200 이므로 `rss.` 호스트만
+해외망에서 차단된 것으로 보입니다. 대체 주소도 없습니다 (`news.mt.co.kr` 계열은 410 Gone, `/rss/` 는 403).
+
+CI 에서 영구히 실패하면서 타임아웃과 재시도로 실행 시간만 30초가량 늘리므로 feeds.json 에서 제외했습니다.
+국내망에서 돌리는 환경이라면 아래 한 줄을 feeds.json 에 다시 넣으면 그대로 수집됩니다.
+
+    { "id": "mt", "name": "머니투데이", "url": "https://rss.mt.co.kr/mt_news.xml", "type": "general", "home": "https://www.mt.co.kr" },
 
 ## 봇 접근을 막는 곳 (403)
 
