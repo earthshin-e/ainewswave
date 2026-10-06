@@ -1,4 +1,4 @@
-const CACHE = 'ainewswave-v6';
+const CACHE = 'ainewswave-v7';
 const SHELL = ['./', 'index.html', 'style.css', 'app.js', 'manifest.webmanifest', 'icon.svg'];
 
 self.addEventListener('install', (e) => {

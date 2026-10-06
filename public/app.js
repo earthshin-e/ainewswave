@@ -57,7 +57,7 @@
       ? `<div class="media"><img src="${esc(a.image)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.innerHTML='<div class=&quot;ph&quot; aria-hidden=&quot;true&quot;>${esc(a.category)}</div>'"></div>`
       : `<div class="media"><div class="ph" aria-hidden="true">${esc(a.category)}</div></div>`;
     return `<article class="card${feature ? ' feature' : ''}" data-cat="${esc(a.category)}">
-      <a class="body" href="${esc(a.link)}" target="_blank" rel="noopener noreferrer">
+      <a class="body" href="#a/${esc(a.id)}">
         ${media}
         <div class="txt">
           <span class="tag">${esc(a.category)}</span>
@@ -87,6 +87,76 @@
     $('#btnSource').classList.toggle('on', n > 0);
   }
 
+  // ---- 기사 상세 ----
+  // 제목을 두 글자 단위로 쪼개 겹치는 비율로 같은 사건을 다룬 다른 매체 기사를 찾습니다.
+  const grams = (t) => {
+    const s = t.replace(/\[[^\]]*\]|[^0-9A-Za-z가-힣]/g, '').toLowerCase();
+    const g = new Set();
+    for (let i = 0; i < s.length - 1; i++) g.add(s.slice(i, i + 2));
+    return g;
+  };
+  function similarity(a, b) {
+    let n = 0;
+    for (const x of a) if (b.has(x)) n++;
+    return n / (Math.min(a.size, b.size) || 1);
+  }
+  function related(a) {
+    const g = grams(a.title);
+    const same = [];
+    const topic = [];
+    for (const x of state.all) {
+      if (x.id === a.id) continue;
+      const s = similarity(g, grams(x.title));
+      if (s >= 0.45) same.push([s, x]);
+      else if (x.category === a.category && topic.length < 6) topic.push(x);
+    }
+    same.sort((p, q) => q[0] - p[0]);
+    return { same: same.slice(0, 8).map((p) => p[1]), topic };
+  }
+  function fullDate(iso) {
+    const d = new Date(iso);
+    const p = (n) => String(n).padStart(2, '0');
+    return `${d.getFullYear()}.${p(d.getMonth() + 1)}.${p(d.getDate())} ${p(d.getHours())}:${p(d.getMinutes())}`;
+  }
+  const relItem = (x) => `<li><a href="#a/${esc(x.id)}"><span class="r-src">${esc(x.source)}</span><span class="r-title">${esc(x.title)}</span><time>${ago(x.published)}</time></a></li>`;
+
+  function renderDetail(a) {
+    const on = !!state.bookmarks[a.id];
+    const { same, topic } = related(a);
+    $('#detail').innerHTML = `<article class="read" data-cat="${esc(a.category)}">
+      <button class="back" type="button" id="btnBack">← 목록으로</button>
+      <span class="tag">${esc(a.category)}</span>
+      <h1>${esc(a.title)}</h1>
+      <div class="meta"><b>${esc(a.source)}</b><span>·</span><time datetime="${esc(a.published)}">${fullDate(a.published)}</time>
+        <button class="bm" data-id="${esc(a.id)}" aria-pressed="${on}" aria-label="북마크">${STAR}</button></div>
+      ${a.image ? `<figure class="hero"><img src="${esc(a.image)}" alt="" referrerpolicy="no-referrer" onerror="this.parentNode.remove()"></figure>` : ''}
+      <section class="sum">
+        <h2>요약</h2>
+        <p>${a.summary ? esc(a.summary) : '이 기사는 언론사가 요약을 제공하지 않았습니다. 원문에서 내용을 확인해 주세요.'}</p>
+        <p class="note">언론사 RSS 가 제공한 요약입니다. 전체 내용은 원문에서 확인하세요.</p>
+      </section>
+      <a class="cta" href="${esc(a.link)}" target="_blank" rel="noopener noreferrer">${esc(a.source)}에서 원문 보기 ↗</a>
+      ${same.length ? `<section class="rel"><h2>같은 소식, 다른 매체 <span>${same.length}</span></h2><ul>${same.map(relItem).join('')}</ul></section>` : ''}
+      ${topic.length ? `<section class="rel"><h2>${esc(a.category)} 최신 기사</h2><ul>${topic.map(relItem).join('')}</ul></section>` : ''}
+    </article>`;
+  }
+
+  let listScroll = 0;
+  let fromList = false;
+  let routed = false;
+  function route() {
+    const m = location.hash.match(/^#a\/([\w-]+)/);
+    const a = m && (state.all.find((x) => x.id === m[1]) || state.bookmarks[m[1]]);
+    const reading = !!a;
+    if (reading && !document.body.classList.contains('reading')) { listScroll = window.scrollY; fromList = routed; }
+    routed = true;
+    document.body.classList.toggle('reading', reading);
+    $('#detail').hidden = !reading;
+    if (reading) { renderDetail(a); window.scrollTo({ top: 0 }); document.title = a.title + ' | AI 뉴스웨이브'; }
+    else { document.title = 'AI 뉴스웨이브'; window.scrollTo({ top: listScroll }); }
+  }
+  window.addEventListener('hashchange', route);
+
   function renderTabs() {
     $('#tabs').innerHTML = TOPICS.map((t) =>
       `<button class="tab" role="tab" data-t="${esc(t)}" aria-selected="${t === state.topic}">${esc(t)}</button>`).join('');
@@ -102,9 +172,10 @@
   // ---- 이벤트 ----
   $('#tabs').addEventListener('click', (e) => {
     const b = e.target.closest('.tab'); if (!b) return;
+    if (location.hash) location.hash = '';
     state.topic = b.dataset.t; resetPage(); renderTabs(); render(); window.scrollTo({ top: 0 });
   });
-  $('#list').addEventListener('click', (e) => {
+  function toggleBookmark(e) {
     const b = e.target.closest('.bm'); if (!b) return;
     const id = b.dataset.id;
     if (state.bookmarks[id]) delete state.bookmarks[id];
@@ -115,7 +186,17 @@
     store.set('bm', state.bookmarks);
     if (state.saved) render();
     else { b.setAttribute('aria-pressed', String(!!state.bookmarks[id])); $('#savedCount').textContent = Object.keys(state.bookmarks).length; }
+  }
+  $('#list').addEventListener('click', toggleBookmark);
+  $('#detail').addEventListener('click', (e) => {
+    if (e.target.closest('#btnBack')) {
+      // 목록에서 들어왔으면 뒤로 가기, 링크로 바로 들어왔으면 목록으로 이동
+      if (fromList) history.back(); else location.hash = '';
+      return;
+    }
+    toggleBookmark(e);
   });
+
   $('#btnSaved').addEventListener('click', () => { state.saved = !state.saved; resetPage(); render(); window.scrollTo({ top: 0 }); });
   $('#more').addEventListener('click', () => { state.shown += PAGE; render(); });
 
@@ -155,6 +236,7 @@
   // ---- 데이터 로드 ----
   function apply(data) {
     state.all = data.articles || [];
+    queueMicrotask(route);
     state.sources = data.sources || [];
     state.updatedAt = data.updatedAt;
     $('#updated').textContent = data.updatedAt ? ago(data.updatedAt) + ' 업데이트' : '';
