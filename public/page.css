@@ -20,3 +20,4 @@ th { background: var(--surface); }
 .foot a { color: var(--ink2); margin-right: 14px; }
 h3 { font-size: 15px; margin: 20px 0 4px; color: var(--ink3); font-weight: 600; }
 li .meta { font-size: 12px; margin-left: 4px; }
+.big404 { margin: 8px 0 0; font-size: 72px; line-height: 1; font-weight: 700; letter-spacing: -0.04em; color: var(--accent); }

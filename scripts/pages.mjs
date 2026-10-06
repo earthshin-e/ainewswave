@@ -1,4 +1,4 @@
-// 정리 기사와 브리핑마다 검색엔진이 읽을 수 있는 정적 페이지(public/s/<id>.html)와 sitemap.xml 을 만듭니다.
+// 정리 기사와 브리핑마다 검색엔진이 읽을 수 있는 정적 페이지(public/recap/<id>.html)와 sitemap.xml 을 만듭니다.
 // 사용법: node scripts/pages.mjs  (수집과 정리 기사 작성이 끝난 뒤 워크플로에서 실행)
 // 메인 화면은 한 페이지 안에서 # 주소로 화면만 바꾸기 때문에 검색엔진이 정리 기사를 따로 색인하지 못합니다.
 import { readFile, writeFile, mkdir, readdir, unlink } from 'node:fs/promises';
@@ -18,7 +18,7 @@ const kstDate = (iso) => {
 };
 
 function page(st, others) {
-  const url = `${SITE}/s/${st.id}.html`;
+  const url = `${SITE}/recap/${st.id}.html`;
   const desc = (st.points && st.points.length ? st.points.join('. ') : st.body[0] || '').slice(0, 150);
   const ld = {
     '@context': 'https://schema.org',
@@ -76,7 +76,7 @@ function page(st, others) {
 `;
 }
 
-const dir = path.join(pub, 's');
+const dir = path.join(pub, 'recap');
 await mkdir(dir, { recursive: true });
 const keep = new Set([...stories.map((s) => `${s.id}.html`), 'index.html']);
 for (const f of await readdir(dir)) if (f.endsWith('.html') && !keep.has(f)) await unlink(path.join(dir, f));
@@ -86,7 +86,7 @@ for (const st of sorted) {
   await writeFile(path.join(dir, `${st.id}.html`), page(st, others));
 }
 
-// 정리 기사 모음 페이지 (/s/): 브리핑과 정리 기사를 날짜별로 모아 보여 줍니다.
+// 정리 기사 모음 페이지 (/recap/): 브리핑과 정리 기사를 날짜별로 모아 보여 줍니다.
 const dayKey = (iso) => { const d = new Date(new Date(iso).getTime() + 9 * 3600000); return `${d.getUTCFullYear()}년 ${d.getUTCMonth() + 1}월 ${d.getUTCDate()}일`; };
 const group = (list) => {
   const m = new Map();
@@ -102,7 +102,7 @@ const indexHtml = `<!doctype html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>AI 브리핑과 정리 기사 | AI 뉴스웨이브</title>
 <meta name="description" content="AI 뉴스웨이브가 여러 매체의 보도를 종합해 새로 쓴 정리 기사와 매일 AI 브리핑 모음입니다.">
-<link rel="canonical" href="${SITE}/s/">
+<link rel="canonical" href="${SITE}/recap/">
 <link rel="icon" href="../icon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="../page.css">
 <script async src="https://www.googletagmanager.com/gtag/js?id=${GA}"></script>
@@ -125,12 +125,20 @@ const indexHtml = `<!doctype html>
 `;
 await writeFile(path.join(dir, 'index.html'), indexHtml);
 
+// 예전 주소(/s/)로 들어온 방문자와 검색엔진을 새 주소(/recap/)로 보냅니다.
+const old = path.join(pub, 's');
+await mkdir(old, { recursive: true });
+for (const f of await readdir(old)) await unlink(path.join(old, f));
+const redirect = (to) => `<!doctype html><html lang="ko"><head><meta charset="utf-8"><title>AI 뉴스웨이브</title><link rel="canonical" href="${to}"><meta http-equiv="refresh" content="0; url=${to}"><meta name="robots" content="noindex"></head><body><a href="${to}">${to}</a></body></html>\n`;
+await writeFile(path.join(old, 'index.html'), redirect(`${SITE}/recap/`));
+for (const st of stories) await writeFile(path.join(old, `${st.id}.html`), redirect(`${SITE}/recap/${st.id}.html`));
+
 const now = new Date().toISOString();
 const urls = [
   { loc: `${SITE}/`, lastmod: now, freq: 'hourly', pri: '1.0' },
-  { loc: `${SITE}/s/`, lastmod: now, freq: 'daily', pri: '0.9' },
+  { loc: `${SITE}/recap/`, lastmod: now, freq: 'daily', pri: '0.9' },
   ...['about', 'privacy', 'contact'].map((p) => ({ loc: `${SITE}/${p}.html`, freq: 'monthly', pri: '0.3' })),
-  ...stories.map((s) => ({ loc: `${SITE}/s/${s.id}.html`, lastmod: s.published, freq: 'never', pri: s.type === 'briefing' ? '0.8' : '0.7' })),
+  ...stories.map((s) => ({ loc: `${SITE}/recap/${s.id}.html`, lastmod: s.published, freq: 'never', pri: s.type === 'briefing' ? '0.8' : '0.7' })),
 ];
 const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
