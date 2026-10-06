@@ -180,11 +180,12 @@
         <button class="bm" data-id="${esc(a.id)}" aria-pressed="${on}" aria-label="북마크">${STAR}</button></div>
       ${a.image ? `<figure class="hero"><img src="${esc(a.image)}" alt="" referrerpolicy="no-referrer" onerror="this.parentNode.remove()"></figure>` : ''}
       ${a.points && a.points.length ? `<section class="points"><h2>핵심 요약</h2><ul>${a.points.map((x) => `<li>${esc(x)}</li>`).join('')}</ul></section>` : ''}
-      <section class="sum">
+      ${a.restricted ? '' : `<section class="sum">
         <h2>언론사 요약</h2>
         <p>${a.summary ? esc(a.summary) : '이 기사는 언론사가 요약을 제공하지 않았습니다. 원문에서 내용을 확인해 주세요.'}</p>
         <p class="note">언론사 RSS 가 제공한 요약입니다. 전체 내용은 원문에서 확인하세요.</p>
-      </section>
+      </section>`}
+      ${a.restricted ? '<p class="note-only">이 매체 기사는 제목만 소개합니다. 내용은 원문에서 확인해 주세요.</p>' : ''}
       <a class="cta" href="${esc(a.link)}" target="_blank" rel="noopener noreferrer" data-out="${esc(a.source)}">${esc(a.source)}에서 원문 보기 ↗</a>
       ${state.storyOf.get(a.id) ? `<a class="story-link" href="#s/${esc(state.storyOf.get(a.id).id)}">${esc(state.storyOf.get(a.id).title)} →</a>` : ''}
       ${same.length ? `<section class="rel"><h2>같은 소식, 다른 매체 <span>${same.length}</span></h2><ul>${same.map(relItem).join('')}</ul></section>` : ''}

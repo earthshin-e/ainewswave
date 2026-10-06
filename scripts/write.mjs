@@ -56,7 +56,8 @@ const similarity = (a, b) => {
   return n / Math.min(a.size, b.size);
 };
 const since = Date.now() - 48 * 3600000;
-const recent = articles.filter((a) => new Date(a.published).getTime() >= since);
+// 이용 제한 매체(restricted)는 정리 기사의 자료로 쓰지 않습니다.
+const recent = articles.filter((a) => !a.restricted && new Date(a.published).getTime() >= since);
 const G = new Map(recent.map((a) => [a.id, grams(a.title)]));
 const used = new Set();
 const groups = [];
@@ -217,7 +218,7 @@ const POINTS_RULES = `당신은 AI 산업 뉴스 사이트 "AI 뉴스웨이브"�
 - 주어진 제목과 요약에 나온 사실만 씁니다. 자료에 없는 수치, 배경, 전망은 지어내지 않습니다.
 - 원문 문장을 그대로 옮기거나 어순만 바꾸지 말고, 사실을 뽑아 새 문장으로 씁니다. 기자 이름, 매체명, 사진 설명은 넣지 않습니다.
 - 줄표(—, –)와 가운뎃점(·)은 쓰지 않습니다.`;
-const need = articles.filter((a) => !a.points).slice(0, POINTS_MAX);
+const need = articles.filter((a) => !a.points && !a.restricted).slice(0, POINTS_MAX);
 let pointed = 0;
 for (let i = 0; i < need.length; i += POINTS_BATCH) {
   const batch = need.slice(i, i + POINTS_BATCH);

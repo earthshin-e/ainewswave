@@ -75,6 +75,9 @@ const now = new Date();
 const cutoff = now.getTime() - MAX_AGE_DAYS * 86400000;
 
 const typeOf = new Map(feeds.map((f) => [f.id, f.type]));
+// 이용약관상 상업적 이용이 막힌 매체(feeds.json 의 restricted). 제목과 원문 링크만 남기고 요약과 이미지는 저장하지 않습니다(docs/rss-terms.md).
+const restricted = new Set(feeds.filter((f) => f.restricted).map((f) => f.id));
+const strip = (a) => (restricted.has(a.sourceId) ? { ...a, summary: '', image: '', restricted: true, points: undefined, imgTried: true } : a);
 const keep = (type, it) => isKoreanTitle(it.title) && (type === 'ai' || isAiRelated(it.title, it.summary));
 
 // 이전 결과 유지 (샘플 데이터는 버림). 필터와 분류 규칙을 바꾸면 보관분에도 바로 반영되도록 다시 적용한다.
@@ -83,7 +86,7 @@ for (const a of prev.articles || []) {
   if (a.sample) continue;
   if (new Date(a.published).getTime() < cutoff) continue;
   if (!keep(typeOf.get(a.sourceId), a)) continue;
-  byId.set(a.id, { ...a, category: classify(a.title, a.summary), kw: keywordsOf(a.title, a.summary) });
+  byId.set(a.id, strip({ ...a, category: classify(a.title, a.summary), kw: keywordsOf(a.title, a.summary) }));
 }
 
 const status = [];
@@ -98,7 +101,7 @@ const results = await pooled(feeds, CONCURRENCY, async (f) => {
     if (!keep(f.type, it)) continue;
     const id = makeId(it.link);
     const old = byId.get(id);
-    byId.set(id, {
+    byId.set(id, strip({
       id,
       title: it.title,
       link: it.link,
@@ -111,7 +114,7 @@ const results = await pooled(feeds, CONCURRENCY, async (f) => {
       ...(old?.points ? { points: old.points } : {}),
       category: classify(it.title, it.summary),
       kw: keywordsOf(it.title, it.summary),
-    });
+    }));
     kept++;
   }
   return { id: f.id, name: f.name, fetched: items.length, kept };
