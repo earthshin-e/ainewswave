@@ -21,3 +21,6 @@ th { background: var(--surface); }
 h3 { font-size: 15px; margin: 20px 0 4px; color: var(--ink3); font-weight: 600; }
 li .meta { font-size: 12px; margin-left: 4px; }
 .big404 { margin: 8px 0 0; font-size: 72px; line-height: 1; font-weight: 700; letter-spacing: -0.04em; color: var(--accent); }
+.btns { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
+.btn { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 0 20px; border: 1px solid var(--accent); color: var(--accent); text-decoration: none; font-size: 15px; font-weight: 600; }
+.btn.primary { background: var(--accent); color: #fff; }
