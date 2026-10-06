@@ -1,0 +1,45 @@
+name: collect and deploy
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      # 직전에 배포된 기사 데이터를 가져와 이어서 누적합니다 (처음에는 없어도 괜찮습니다)
+      - name: Fetch previous data
+        run: curl -fsS "https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/data/articles.json" -o public/data/articles.json || true
+      - name: Collect articles
+        run: node scripts/collect.mjs
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

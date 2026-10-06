@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>AI 인사이드</title>
+<meta name="description" content="국내 AI 관련 기사만 모아 보는 뉴스 큐레이션">
+<meta name="theme-color" content="#f7f7f5" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#101214" media="(prefers-color-scheme: dark)">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="AI 인사이드">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="bar">
+    <h1>AI 인사이드</h1>
+    <div class="actions">
+      <button id="btnSearch" class="icon" aria-label="검색" aria-expanded="false">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+      </button>
+      <button id="btnTheme" class="icon" aria-label="다크 모드 전환">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1111.2 3a7 7 0 009.8 9.8z"/></svg>
+      </button>
+    </div>
+  </div>
+  <form id="searchWrap" class="search" role="search" hidden>
+    <input id="q" type="search" placeholder="제목, 요약, 매체명 검색" autocomplete="off" enterkeyhint="search">
+  </form>
+  <nav class="tabs" id="tabs" role="tablist" aria-label="주제"></nav>
+  <div class="sub">
+    <button id="btnSource" class="chip" type="button">전체 매체</button>
+    <button id="btnSaved" class="chip" type="button" aria-pressed="false">북마크 <b id="savedCount">0</b></button>
+    <span id="updated" class="updated"></span>
+  </div>
+</header>
+
+<div id="notice" class="notice" hidden></div>
+<main id="list" aria-live="polite"></main>
+<div class="more-wrap"><button id="more" class="more" hidden>기사 더 보기</button></div>
+<footer class="foot">
+  기사 제목과 요약만 보여 드리며, 본문은 각 언론사 원문 페이지에서 확인하세요.<br>
+  기사의 저작권은 각 언론사에 있습니다.
+</footer>
+
+<dialog id="sheet" aria-label="매체 선택">
+  <div class="sheet-head">
+    <strong>매체 선택</strong>
+    <button id="sheetReset" class="link" type="button">전체 보기</button>
+  </div>
+  <div id="sheetList" class="sheet-list"></div>
+  <button id="sheetClose" class="done" type="button">확인</button>
+</dialog>
+
+<script src="app.js"></script>
+</body>
+</html>
