@@ -85,6 +85,7 @@ const byId = new Map();
 for (const a of prev.articles || []) {
   if (a.sample) continue;
   if (new Date(a.published).getTime() < cutoff) continue;
+  if (!typeOf.has(a.sourceId)) continue; // feeds.json 에서 뺀 매체의 기사는 보관분에서도 지웁니다
   if (!keep(typeOf.get(a.sourceId), a)) continue;
   byId.set(a.id, strip({ ...a, category: classify(a.title, a.summary), kw: keywordsOf(a.title, a.summary) }));
 }
