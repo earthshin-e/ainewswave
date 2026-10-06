@@ -8,13 +8,17 @@ import { parseFeed, isAiRelated, classify, makeId } from './lib.mjs';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const OUT = path.join(root, 'public', 'data', 'articles.json');
 const MAX_AGE_DAYS = 14;
-const MAX_ITEMS = 1500;
+const MAX_ITEMS = 3000;
+// 매체 80곳 이상을 한꺼번에 때리면 실패율이 올라가므로 동시 요청 수를 묶어 둔다
+const CONCURRENCY = 12;
+const TIMEOUT_MS = 15000;
+const RETRIES = 1; // 일시적인 네트워크 오류는 한 번 더 시도
 const UA = 'AIInsideBot/1.0 (RSS reader; links back to original publishers)';
 
-async function fetchText(url) {
+async function fetchOnce(url) {
   const res = await fetch(url, {
     headers: { 'user-agent': UA, accept: 'application/rss+xml, application/atom+xml, application/xml, text/xml, */*' },
-    signal: AbortSignal.timeout(20000),
+    signal: AbortSignal.timeout(TIMEOUT_MS),
     redirect: 'follow',
   });
   if (!res.ok) throw new Error('HTTP ' + res.status);
@@ -26,6 +30,35 @@ async function fetchText(url) {
   }
   try { return new TextDecoder((charset || 'utf-8').toLowerCase()).decode(buf); }
   catch { return new TextDecoder('utf-8').decode(buf); }
+}
+
+async function fetchText(url) {
+  let last;
+  for (let i = 0; i <= RETRIES; i++) {
+    try { return await fetchOnce(url); }
+    catch (e) {
+      last = e;
+      // 404 처럼 주소가 틀린 경우는 다시 시도해도 같다
+      if (/HTTP 4\d\d/.test(String(e.message))) break;
+      if (i < RETRIES) await new Promise((r) => setTimeout(r, 1500));
+    }
+  }
+  throw last;
+}
+
+/** 작업 목록을 동시 limit 개까지만 돌린다 (결과 순서는 입력 순서와 같다) */
+async function pooled(items, limit, worker) {
+  const out = new Array(items.length);
+  let next = 0;
+  await Promise.all(Array.from({ length: Math.min(limit, items.length) }, async () => {
+    while (true) {
+      const i = next++;
+      if (i >= items.length) return;
+      try { out[i] = { status: 'fulfilled', value: await worker(items[i]) }; }
+      catch (reason) { out[i] = { status: 'rejected', reason }; }
+    }
+  }));
+  return out;
 }
 
 async function readJson(file, fallback) {
@@ -45,7 +78,8 @@ for (const a of prev.articles || []) {
 }
 
 const status = [];
-const results = await Promise.allSettled(feeds.map(async (f) => {
+const startedAt = Date.now();
+const results = await pooled(feeds, CONCURRENCY, async (f) => {
   const xml = await fetchText(f.url);
   const items = parseFeed(xml, now);
   if (!items.length) throw new Error('기사 0건 (피드 형식 확인 필요)');
@@ -69,7 +103,7 @@ const results = await Promise.allSettled(feeds.map(async (f) => {
     kept++;
   }
   return { id: f.id, name: f.name, fetched: items.length, kept };
-}));
+});
 
 results.forEach((r, i) => {
   const f = feeds[i];
@@ -108,5 +142,14 @@ if (okCount === 0 && (prev.articles || []).some((a) => !a.sample)) {
 }
 
 await mkdir(path.dirname(OUT), { recursive: true });
-await writeFile(OUT, JSON.stringify({ updatedAt: now.toISOString(), sources, status, articles }), 'utf8');
-console.log(`저장 완료: 기사 ${articles.length}건, 매체 ${sources.length}곳 (피드 성공 ${okCount}/${feeds.length})`);
+const json = JSON.stringify({ updatedAt: now.toISOString(), sources, status, articles });
+await writeFile(OUT, json, 'utf8');
+
+const failed = status.filter((s) => !s.ok);
+if (failed.length) {
+  console.log(`\n실패 ${failed.length}곳 (주소 확인 필요):`);
+  for (const f of failed) console.log(`  - ${f.name}: ${f.error}`);
+}
+const secs = ((Date.now() - startedAt) / 1000).toFixed(1);
+console.log(`\n저장 완료: 기사 ${articles.length}건, 매체 ${sources.length}곳 (피드 성공 ${okCount}/${feeds.length})`);
+console.log(`수집 소요 ${secs}초, 동시 요청 ${CONCURRENCY}개, articles.json ${(json.length / 1024).toFixed(0)}KB`);

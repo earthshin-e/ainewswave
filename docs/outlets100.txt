@@ -1,0 +1,123 @@
+# AI 인사이드 수집 대상 매체 100곳 (이름|홈페이지|분류)
+# 분류: ai = AI/로봇 전문 매체(필터 없이 전부 수집), general = 일반 매체(AI 키워드 필터)
+# scripts/probe_feeds.mjs 가 이 목록의 RSS 주소를 자동으로 찾아 검증합니다.
+
+# --- AI, 로봇, 데이터 전문 ---
+AI타임스|https://www.aitimes.com|ai
+인공지능신문|https://www.aitimes.kr|ai
+로봇신문|https://www.irobotnews.com|general
+테크M|https://www.techm.kr|general
+디지털투데이|https://www.digitaltoday.co.kr|general
+데이터넷|https://www.datanet.co.kr|general
+CIO Korea|https://www.ciokorea.com|general
+ITWorld|https://www.itworld.co.kr|general
+컴퓨터월드|https://www.comworld.co.kr|general
+테크42|https://www.tech42.co.kr|general
+
+# --- IT, 전자, 통신 전문 ---
+전자신문|https://www.etnews.com|general
+지디넷코리아|https://zdnet.co.kr|general
+블로터|https://www.bloter.net|general
+디지털데일리|https://www.ddaily.co.kr|general
+아이뉴스24|https://www.inews24.com|general
+IT조선|https://it.chosun.com|general
+디지털타임스|https://www.dt.co.kr|general
+바이라인네트워크|https://byline.network|general
+베타뉴스|https://www.betanews.net|general
+케이벤치|https://kbench.com|general
+더기어|https://www.thegear.co.kr|general
+테크월드뉴스|https://www.epnc.co.kr|general
+e4ds 뉴스|https://www.e4ds.com|general
+디일렉|https://www.thelec.kr|general
+GeekNews|https://news.hada.io|general
+보안뉴스|https://www.boannews.com|general
+
+# --- 스타트업, 벤처 ---
+벤처스퀘어|https://www.venturesquare.net|general
+플래텀|https://platum.kr|general
+아웃스탠딩|https://outstanding.kr|general
+스타트업투데이|https://www.startuptoday.kr|general
+스타트업레시피|https://startuprecipe.co.kr|general
+
+# --- 경제, 산업 종합 ---
+한국경제|https://www.hankyung.com|general
+매일경제|https://www.mk.co.kr|general
+머니투데이|https://www.mt.co.kr|general
+이데일리|https://www.edaily.co.kr|general
+서울경제|https://www.sedaily.com|general
+파이낸셜뉴스|https://www.fnnews.com|general
+아시아경제|https://www.asiae.co.kr|general
+헤럴드경제|https://biz.heraldcorp.com|general
+조선비즈|https://biz.chosun.com|general
+아주경제|https://www.ajunews.com|general
+뉴스핌|https://www.newspim.com|general
+이코노미스트|https://economist.co.kr|general
+더벨|https://www.thebell.co.kr|general
+시사저널e|https://www.sisajournal-e.com|general
+데일리안|https://www.dailian.co.kr|general
+비즈워치|https://news.bizwatch.co.kr|general
+EBN|https://www.ebn.co.kr|general
+프라임경제|https://www.newsprime.co.kr|general
+더스쿠프|https://www.thescoop.co.kr|general
+이코노미조선|https://economychosun.com|general
+
+# --- 종합 일간, 통신사 ---
+연합뉴스|https://www.yna.co.kr|general
+뉴시스|https://www.newsis.com|general
+뉴스1|https://www.news1.kr|general
+중앙일보|https://www.joongang.co.kr|general
+동아일보|https://www.donga.com|general
+한겨레|https://www.hani.co.kr|general
+경향신문|https://www.khan.co.kr|general
+한국일보|https://www.hankookilbo.com|general
+서울신문|https://www.seoul.co.kr|general
+국민일보|https://www.kmib.co.kr|general
+세계일보|https://www.segye.com|general
+문화일보|https://www.munhwa.com|general
+노컷뉴스|https://www.nocutnews.co.kr|general
+오마이뉴스|https://www.ohmynews.com|general
+프레시안|https://www.pressian.com|general
+미디어오늘|https://www.mediatoday.co.kr|general
+시사IN|https://www.sisain.co.kr|general
+한국NGO신문|https://www.ngonews.kr|general
+
+# --- 과학, 연구, 학술 ---
+동아사이언스|https://www.dongascience.com|general
+사이언스타임즈|https://www.sciencetimes.co.kr|general
+헬로디디|https://www.hellodd.com|general
+교수신문|https://www.kyosu.net|general
+대학지성|https://www.unipress.co.kr|general
+베리타스알파|https://www.veritas-a.com|general
+
+# --- 산업, 제조, 에너지 ---
+인더스트리뉴스|https://www.industrynews.co.kr|general
+헬로티|https://www.hellot.net|general
+산업일보|https://www.kidd.co.kr|general
+전기신문|https://www.electimes.com|general
+에너지경제|https://www.ekn.kr|general
+이포커스|https://www.e-focus.co.kr|general
+가스신문|https://www.gasnews.com|general
+철강금속신문|https://www.snmnews.com|general
+물류신문|https://www.klnews.co.kr|general
+교통신문|https://www.gyotongn.com|general
+
+# --- 의료, 바이오 (AI 의료 보도) ---
+메디컬타임즈|https://www.medicaltimes.com|general
+청년의사|https://www.docdocdoc.co.kr|general
+메디게이트뉴스|https://www.medigatenews.com|general
+히트뉴스|https://www.hitnews.co.kr|general
+데일리팜|https://www.dailypharm.com|general
+의학신문|https://www.bosa.co.kr|general
+바이오스펙테이터|https://www.biospectator.com|general
+
+# --- 블록체인, 핀테크 (AI 접점 보도) ---
+블록미디어|https://www.blockmedia.co.kr|general
+코인데스크코리아|https://www.coindeskkorea.com|general
+토큰포스트|https://www.tokenpost.kr|general
+디센터|https://decenter.kr|general
+
+# --- 게임, 콘텐츠 (생성형 AI 보도) ---
+게임메카|https://www.gamemeca.com|general
+디스이즈게임|https://www.thisisgame.com|general
+인벤|https://www.inven.co.kr|general
+게임톡|https://www.gametoc.co.kr|general
