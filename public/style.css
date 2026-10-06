@@ -1,19 +1,19 @@
 :root {
-  /* 마스터카드 디자인 문서 기반: 크림 바탕, 웜 블랙 잉크, 오렌지 포인트 */
-  --bg: #f3f0ee;
-  --surface: #fcfbfa;
-  --ink: #141413;
-  --ink2: #555555;
-  --ink3: #696969;
-  --line: #e2ddd7;
-  --accent: #141413;
-  --accent-ink: #f3f0ee;
-  --accent-soft: #e8e2da;
-  --signal: #cf4500;
-  --orbit: #f37338;
-  --star: #f37338;
-  --foot-bg: #141413;
-  --foot-ink: #d1cdc7;
+  /* Cursor 디자인 문서 기반: 웜 크림 바탕, 웜 잉크, Cursor 오렌지는 로고와 주요 버튼에만 */
+  --bg: #f7f7f4;
+  --surface: #ffffff;
+  --ink: #26251e;
+  --ink2: #5a5852;
+  --ink3: #807d72;
+  --line: #e6e5e0;
+  --line-strong: #cfcdc4;
+  --accent: #f54e00;
+  --accent-ink: #ffffff;
+  --accent-soft: #fdeee6;
+  --signal: #f54e00;
+  --star: #f54e00;
+  --foot-bg: #f7f7f4;
+  --foot-ink: #5a5852;
   --radius: 0;
   /* 주제 태그와 이미지 없는 카드의 색: 주제마다 색상(h)만 다르고 밝기는 테마가 정합니다 */
   --tag-bg: 85% 93%;
@@ -25,17 +25,17 @@
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: #141413; --surface: #1c1b19; --ink: #f3f0ee; --ink2: #bdb7b0; --ink3: #8f8982;
-    --line: #2e2c29; --accent: #f3f0ee; --accent-ink: #141413; --accent-soft: #2a2723; --star: #f37338;
-    --signal: #f37338; --orbit: #f37338; --foot-bg: #0c0c0b; --foot-ink: #a8a29b;
+    --bg: #1b1a16; --surface: #23221d; --ink: #f0efe9; --ink2: #b8b5aa; --ink3: #8c897e;
+    --line: #33322c; --line-strong: #4a4840; --accent: #f54e00; --accent-ink: #ffffff; --accent-soft: #3a2418; --star: #ff7a33;
+    --signal: #ff7a33; --foot-bg: #1b1a16; --foot-ink: #b8b5aa;
     --tag-bg: 40% 22%; --tag-fg: 90% 80%; --ph-a: 35% 19%; --ph-b: 40% 26%; --ph-fg: 80% 76%;
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
-  --bg: #141413; --surface: #1c1b19; --ink: #f3f0ee; --ink2: #bdb7b0; --ink3: #8f8982;
-  --line: #2e2c29; --accent: #f3f0ee; --accent-ink: #141413; --accent-soft: #2a2723; --star: #f37338;
-  --signal: #f37338; --orbit: #f37338; --foot-bg: #0c0c0b; --foot-ink: #a8a29b;
+  --bg: #1b1a16; --surface: #23221d; --ink: #f0efe9; --ink2: #b8b5aa; --ink3: #8c897e;
+  --line: #33322c; --line-strong: #4a4840; --accent: #f54e00; --accent-ink: #ffffff; --accent-soft: #3a2418; --star: #ff7a33;
+  --signal: #ff7a33; --foot-bg: #1b1a16; --foot-ink: #b8b5aa;
   --tag-bg: 40% 22%; --tag-fg: 90% 80%; --ph-a: 35% 19%; --ph-b: 40% 26%; --ph-fg: 80% 76%;
   color-scheme: dark;
 }
@@ -44,8 +44,8 @@
 html { -webkit-text-size-adjust: 100%; }
 body {
   margin: 0; background: var(--bg); color: var(--ink);
-  font-family: "Sofia Sans", Pretendard, "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", system-ui, sans-serif;
-  line-height: 1.4; padding-bottom: env(safe-area-inset-bottom);
+  font-family: Inter, Pretendard, "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", system-ui, sans-serif;
+  line-height: 1.5; padding-bottom: env(safe-area-inset-bottom);
 }
 button { font: inherit; color: inherit; cursor: pointer; }
 a { color: inherit; }
@@ -66,7 +66,7 @@ a { color: inherit; }
 }
 .brand { grid-area: brand; display: flex; align-items: center; gap: 9px; text-decoration: none; padding: 10px 0 4px; color: var(--accent); }
 .brand .mark { width: 28px; height: 28px; flex: none; }
-.brand h1 { margin: 0; font-size: 19px; font-weight: 700; letter-spacing: -0.03em; color: var(--ink); }
+.brand h1 { margin: 0; font-size: 19px; font-weight: 500; letter-spacing: -0.02em; color: var(--ink); }
 .actions { grid-area: actions; display: flex; gap: 2px; margin-right: -10px; padding-top: 6px; }
 .icon { background: none; border: 0; width: 44px; height: 44px; display: grid; place-items: center; border-radius: 0; color: var(--ink); }
 .icon:active, .icon:hover { background: var(--line); }
@@ -77,7 +77,7 @@ a { color: inherit; }
   flex: none; height: 36px; padding: 0 14px; border-radius: 0; border: 1px solid var(--line);
   background: transparent; color: var(--ink2); font-size: 14px; font-weight: 500; letter-spacing: -0.02em;
 }
-.tab:hover { border-color: var(--ink3); }
+.tab:hover { border-color: var(--line-strong); }
 .tab[aria-selected="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
 
 .search { grid-area: search; padding: 0 0 10px; }
@@ -85,7 +85,7 @@ a { color: inherit; }
   width: 100%; height: 44px; border-radius: 0; border: 1px solid var(--line);
   background: var(--surface); color: var(--ink); padding: 0 14px; font-size: 16px; outline: none;
 }
-.search input:focus { border-color: var(--ink); }
+.search input:focus { border-color: var(--line-strong); }
 
 /* ---------- 도구 줄 ---------- */
 .toolbar { display: flex; align-items: center; gap: 8px; padding-block: 12px 2px; flex-wrap: wrap; }
@@ -96,7 +96,8 @@ a { color: inherit; }
 }
 .chip:hover { border-color: var(--ink3); }
 .chip.on, .chip[aria-pressed="true"] { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); }
-.muted { font-size: 12px; color: var(--ink3); }
+.muted { font-size: 12px; color: var(--ink3); font-family: "JetBrains Mono", ui-monospace, monospace; }
+.cfoot time, .cfoot .ago { font-family: "JetBrains Mono", ui-monospace, monospace; font-size: 11.5px; }
 
 .notice { margin: 10px 0 0; padding: 10px 12px; border-radius: 0; background: var(--accent-soft); color: var(--accent); font-size: 13px; }
 
@@ -116,7 +117,7 @@ a { color: inherit; }
 .card[data-cat="연구"] { --h: 268; }
 .card[data-cat="보안/윤리"] { --h: 6; }
 .card[data-cat="일반"] { --h: 215; }
-@media (hover: hover) { .card:hover { border-color: var(--ink3); } }
+@media (hover: hover) { .card:hover { border-color: var(--line-strong); } }
 /* 터치 기기용 누름 피드백 (이전 버전에서 가져옴) */
 .card a.body:active { background: color-mix(in srgb, var(--line) 40%, transparent); }
 
@@ -127,12 +128,12 @@ a { color: inherit; }
 .media:has(> .ph) { display: none; }
 .txt { flex: 1; min-width: 0; }
 .tag {
-  display: inline-flex; align-items: center; gap: 6px; padding: 0; font-size: 12px; font-weight: 700;
-  letter-spacing: 0.04em; color: hsl(var(--h) var(--tag-fg));
+  display: inline-flex; align-items: center; gap: 6px; padding: 0; font-size: 11.5px; font-weight: 600;
+  letter-spacing: 0.06em; color: var(--ink3);
 }
-.tag::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: var(--orbit); }
+.tag::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: hsl(var(--h) 55% 62%); }
 .card h2 {
-  margin: 8px 0 4px; font-size: 16px; line-height: 1.35; font-weight: 600; letter-spacing: -0.02em; word-break: keep-all;
+  margin: 8px 0 4px; font-size: 16px; line-height: 1.4; font-weight: 600; letter-spacing: -0.01em; word-break: keep-all;
   display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
 }
 .card p {
@@ -152,9 +153,9 @@ a { color: inherit; }
 @media (prefers-reduced-motion: reduce) { .skeleton { animation: none; } .card { transition: none; } }
 
 .more-wrap { display: grid; place-items: center; padding: 16px 0 6px; }
-.more { height: 44px; padding: 0 28px; border-radius: 0; border: 1.5px solid var(--ink); background: var(--ink); color: var(--bg); font-weight: 500; font-size: 15px; letter-spacing: -0.02em; }
+.more { height: 44px; padding: 0 28px; border-radius: 0; border: 0; background: var(--ink); color: var(--bg); font-weight: 500; font-size: 14px; }
 .more:active { transform: translateY(1px); }
-.foot { margin-top: 32px; padding: 40px 20px calc(56px + env(safe-area-inset-bottom)); text-align: center; font-size: 12px; background: var(--foot-bg); color: var(--foot-ink); }
+.foot { margin-top: 32px; padding: 40px 20px calc(56px + env(safe-area-inset-bottom)); text-align: center; font-size: 13px; background: var(--foot-bg); color: var(--foot-ink); border-top: 1px solid var(--line); }
 
 /* ---------- 매체 선택 시트 ---------- */
 dialog#sheet {
@@ -182,7 +183,7 @@ dialog#sheet::backdrop { background: rgba(0,0,0,.45); }
   .ph {
     display: flex; align-items: flex-end; aspect-ratio: 16 / 7; padding: 12px 16px;
     background: linear-gradient(135deg, hsl(var(--h) var(--ph-a)), hsl(var(--h) var(--ph-b)));
-    color: hsl(var(--h) var(--ph-fg)); font-size: 20px; font-weight: 600; letter-spacing: -0.02em;
+    color: hsl(var(--h) var(--ph-fg)); font-size: 22px; font-weight: 400; letter-spacing: -0.02em;
   }
   .txt { padding: 14px 16px 0; }
   .cfoot { padding-left: 16px; }
@@ -207,7 +208,7 @@ dialog#sheet::backdrop { background: rgba(0,0,0,.45); }
   .card.feature .media { width: 56%; }
   .card.feature .media img, .card.feature .ph { height: 100%; min-height: 240px; aspect-ratio: auto; }
   .card.feature .txt { padding: 22px 22px 0; }
-  .card.feature h2 { font-size: 24px; font-weight: 500; letter-spacing: -0.02em; -webkit-line-clamp: 4; }
+  .card.feature h2 { font-size: 26px; font-weight: 400; letter-spacing: -0.0125em; -webkit-line-clamp: 4; }
   .card.feature p { font-size: 14.5px; -webkit-line-clamp: 4; }
   .card.feature .cfoot { padding-left: 22px; }
 }
