@@ -30,6 +30,7 @@ function page(st, others) {
     mainEntityOfPage: url,
     author: { '@type': 'Organization', name: 'AI 뉴스웨이브', url: SITE },
     publisher: { '@type': 'Organization', name: 'AI 뉴스웨이브', logo: { '@type': 'ImageObject', url: `${SITE}/icon512.png` } },
+    image: `${SITE}/og.png`,
   };
   return `<!doctype html>
 <html lang="ko">
@@ -44,7 +45,10 @@ function page(st, others) {
 <meta property="og:title" content="${esc(st.title)}">
 <meta property="og:description" content="${esc(desc)}">
 <meta property="og:url" content="${url}">
-<meta property="og:image" content="${SITE}/icon512.png">
+<meta property="og:image" content="${SITE}/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
 <meta property="article:published_time" content="${esc(st.published)}">
 <link rel="icon" href="../icon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="../page.css">
