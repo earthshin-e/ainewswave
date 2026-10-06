@@ -49,26 +49,33 @@
 
   const STAR = '<svg viewBox="0 0 24 24" width="22" height="22"><path d="M12 3.5l2.6 5.4 5.9.8-4.3 4.1 1 5.9L12 16.9 6.8 19.7l1-5.9L3.5 9.7l5.9-.8z"/></svg>';
 
-  function card(a) {
+  // 이미지가 없으면 넓은 화면에서는 주제 색상 블록을, 좁은 화면에서는 아무것도 보여주지 않습니다.
+  function card(a, i) {
     const on = !!state.bookmarks[a.id];
-    const img = a.image
-      ? `<img class="thumb" src="${esc(a.image)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`
-      : '';
-    return `<article class="card">
+    const feature = i === 0 && !state.q && !state.saved;
+    const media = a.image
+      ? `<div class="media"><img src="${esc(a.image)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.innerHTML='<div class=&quot;ph&quot; aria-hidden=&quot;true&quot;>${esc(a.category)}</div>'"></div>`
+      : `<div class="media"><div class="ph" aria-hidden="true">${esc(a.category)}</div></div>`;
+    return `<article class="card${feature ? ' feature' : ''}" data-cat="${esc(a.category)}">
       <a class="body" href="${esc(a.link)}" target="_blank" rel="noopener noreferrer">
+        ${media}
         <div class="txt">
-          <div class="meta"><span class="src">${esc(a.source)}</span><span>·</span><time datetime="${esc(a.published)}">${ago(a.published)}</time><span class="tag">${esc(a.category)}</span></div>
+          <span class="tag">${esc(a.category)}</span>
           <h2>${esc(a.title)}</h2>
           ${a.summary ? `<p>${esc(a.summary)}</p>` : ''}
-        </div>${img}
+        </div>
       </a>
-      <button class="bm" data-id="${esc(a.id)}" aria-pressed="${on}" aria-label="북마크">${STAR}</button>
+      <div class="cfoot">
+        <span class="src">${esc(a.source)}</span><span>·</span><time datetime="${esc(a.published)}">${ago(a.published)}</time>
+        <button class="bm" data-id="${esc(a.id)}" aria-pressed="${on}" aria-label="북마크">${STAR}</button>
+      </div>
     </article>`;
   }
 
   function render() {
     const list = filtered();
     const part = list.slice(0, state.shown);
+    $('#count').textContent = list.length ? `기사 ${list.length}건` : '';
     $('#list').innerHTML = part.length
       ? part.map(card).join('')
       : `<div class="empty">${state.saved ? '저장한 기사가 없습니다.<br>기사 카드의 별을 눌러 북마크해 보세요.' : '조건에 맞는 기사가 없습니다.'}</div>`;

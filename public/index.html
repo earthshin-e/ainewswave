@@ -16,8 +16,15 @@
 </head>
 <body>
 <header class="top">
-  <div class="bar">
-    <h1>AI 인사이드</h1>
+  <div class="wrap head">
+    <a class="brand" href="./" aria-label="AI 인사이드 홈">
+      <svg class="mark" viewBox="0 0 512 512" aria-hidden="true"><rect width="512" height="512" rx="112" fill="currentColor"/><path d="M150 372l82-232h48l82 232h-48l-16-48H214l-16 48zm76-88h60l-30-90z" fill="var(--accent-ink)"/><circle cx="392" cy="150" r="22" fill="#ffd24a"/></svg>
+      <h1>AI 인사이드</h1>
+    </a>
+    <nav class="tabs" id="tabs" role="tablist" aria-label="주제"></nav>
+    <form id="searchWrap" class="search" role="search" hidden>
+      <input id="q" type="search" placeholder="제목, 요약, 매체명 검색" autocomplete="off" enterkeyhint="search" aria-label="기사 검색">
+    </form>
     <div class="actions">
       <button id="btnSearch" class="icon" aria-label="검색" aria-expanded="false">
         <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
@@ -27,20 +34,21 @@
       </button>
     </div>
   </div>
-  <form id="searchWrap" class="search" role="search" hidden>
-    <input id="q" type="search" placeholder="제목, 요약, 매체명 검색" autocomplete="off" enterkeyhint="search">
-  </form>
-  <nav class="tabs" id="tabs" role="tablist" aria-label="주제"></nav>
-  <div class="sub">
-    <button id="btnSource" class="chip" type="button">전체 매체</button>
-    <button id="btnSaved" class="chip" type="button" aria-pressed="false">북마크 <b id="savedCount">0</b></button>
-    <span id="updated" class="updated"></span>
-  </div>
 </header>
 
-<div id="notice" class="notice" hidden></div>
-<main id="list" aria-live="polite"></main>
-<div class="more-wrap"><button id="more" class="more" hidden>기사 더 보기</button></div>
+<div class="wrap toolbar">
+  <button id="btnSource" class="chip" type="button">전체 매체</button>
+  <button id="btnSaved" class="chip" type="button" aria-pressed="false">북마크 <b id="savedCount">0</b></button>
+  <span class="grow"></span>
+  <span id="count" class="muted"></span>
+  <span id="updated" class="muted"></span>
+</div>
+
+<div class="wrap">
+  <div id="notice" class="notice" hidden></div>
+  <main id="list" class="grid" aria-live="polite"></main>
+  <div class="more-wrap"><button id="more" class="more" hidden>기사 더 보기</button></div>
+</div>
 <footer class="foot">
   기사 제목과 요약만 보여 드리며, 본문은 각 언론사 원문 페이지에서 확인하세요.<br>
   기사의 저작권은 각 언론사에 있습니다.
