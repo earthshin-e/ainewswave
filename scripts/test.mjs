@@ -1,6 +1,6 @@
 // 사용법: node scripts/test.mjs  (네트워크 없이 파서와 분류기를 검사합니다)
 import assert from 'node:assert/strict';
-import { parseFeed, isAiRelated, classify, normalizeUrl } from './lib.mjs';
+import { parseFeed, isAiRelated, isKoreanTitle, classify, normalizeUrl } from './lib.mjs';
 
 const now = new Date('2026-10-06T03:00:00Z');
 
@@ -52,6 +52,13 @@ assert.equal(isAiRelated('AI 기본법 공개', ''), true);
 assert.equal(isAiRelated('MAIN 서비스 개편', ''), false, '단어 일부로 들어간 AI 는 제외');
 assert.equal(isAiRelated('게임 업계 소식', '엔비디아와 생성형 기술을 활용'), true, '요약에 키워드 2종');
 assert.equal(isAiRelated('신제품 발표', '제미나이 연동'), false, '요약에 키워드 1종만 있으면 제외');
+assert.equal(isAiRelated('갤럭시 탭 출시', '인공지능(AI) 기능을 강화했다'), false, '인공지능(AI) 는 한 종류로 센다');
+assert.equal(isAiRelated('신제품 발표', '오픈AI 와 엔비디아가 협력'), true);
+assert.equal(isAiRelated('제조사 AX 전환 지원', ''), true, 'AX 는 AI 전환');
+assert.equal(isKoreanTitle('AI 기본법 공개'), true);
+assert.equal(isKoreanTitle('AWS seeks to automate cloud with AI'), false, '한글 없는 제목 제외');
+assert.equal(isKoreanTitle('オープンAIが300億ドル調達'), false, '일본어판 제외');
+assert.equal(isKoreanTitle('오픈AI・AWS도 참전'), true, '가나 가운뎃점만 있는 한국어 제목은 유지');
 
 // 분류
 assert.equal(classify('HBM4 양산 돌입', ''), '반도체');
@@ -60,6 +67,8 @@ assert.equal(classify('AI 기본법 시행령 공개', ''), '정책');
 assert.equal(classify('딥페이크 악용 급증', ''), '보안/윤리');
 assert.equal(classify('오픈AI, 새 GPT 모델 공개', ''), '생성형AI');
 assert.equal(classify('오늘의 날씨', ''), '일반');
+assert.equal(classify('나스닥 사상 최고…AI 기술주 강세', ''), '기업');
+assert.equal(classify('AI로 간암 바이오마커 규명', ''), '연구');
 
 assert.equal(normalizeUrl('https://a.com/x/?fbclid=1#top'), 'https://a.com/x');
 console.log('모든 테스트 통과');

@@ -3,18 +3,36 @@ import { createHash } from 'node:crypto';
 
 export const TOPICS = ['생성형AI', '반도체', '로봇', '정책', '기업', '연구', '보안/윤리', '일반'];
 
-const AI_LATIN_CS = /(?<![A-Za-z])(AI|A\.I\.|AGI|LLM|sLLM|GPU|NPU|HBM)(?![A-Za-z])/;
+const AI_LATIN_CS = /(?<![A-Za-z])(AI|A\.I\.|AGI|AX|LLM|sLLM|GPU|NPU|HBM)(?![A-Za-z])/;
 const AI_LATIN_CI = /(?<![A-Za-z])(ChatGPT|GPT|OpenAI|Anthropic|Claude|Gemini|Copilot|Llama|Sora|DeepSeek|Nvidia|Perplexity)(?![A-Za-z])/i;
-const AI_KO = /인공지능|생성형|챗GPT|챗지피티|오픈AI|딥러닝|머신러닝|거대언어모델|대규모언어모델|언어모델|엔비디아|제미나이|클로드|딥시크|에이전트|파운데이션 ?모델|온디바이스|휴머노이드|로보틱스|딥페이크|하이퍼클로바|피지컬 ?AI/;
+const AI_KO = /인공지능|초지능|생성형|챗GPT|챗지피티|딥러닝|머신러닝|거대언어모델|대규모언어모델|언어모델|엔비디아|제미나이|클로드|딥시크|에이전트|파운데이션 ?모델|온디바이스|휴머노이드|로보틱스|딥페이크|하이퍼클로바|피지컬 ?AI/;
 
 const g = (re) => new RegExp(re.source, re.flags.includes('g') ? re.flags : re.flags + 'g');
 const ALL = [g(AI_LATIN_CS), g(AI_LATIN_CI), g(AI_KO)];
 
+// 같은 대상을 가리키는 표기는 한 종류로 센다. '인공지능(AI)' 처럼 한 번 언급하고 괄호로 풀어 쓴 경우가 2종으로 잡히지 않게 한다.
+const SAME = [
+  [/^(ai|a\.i\.|인공지능)$/, 'ai'],
+  [/^(openai|오픈ai)$/, 'openai'],
+  [/^(chatgpt|챗gpt|챗지피티|gpt)$/, 'chatgpt'],
+  [/^(nvidia|엔비디아)$/, 'nvidia'],
+  [/^(claude|클로드|anthropic)$/, 'claude'],
+  [/^(gemini|제미나이)$/, 'gemini'],
+  [/^(deepseek|딥시크)$/, 'deepseek'],
+  [/^(로보틱스|휴머노이드)$/, 'robot'],
+];
+const canon = (k) => (SAME.find(([re]) => re.test(k)) || [, k])[1];
+
 /** 서로 다른 AI 키워드가 몇 종류 나오는지 센다 */
 export function aiHits(text) {
   const found = new Set();
-  for (const re of ALL) for (const m of text.matchAll(re)) found.add(m[0].toLowerCase());
+  for (const re of ALL) for (const m of text.matchAll(re)) found.add(canon(m[0].toLowerCase().replace(/\s/g, '')));
   return found.size;
+}
+
+/** 제목에 한글이 없거나 일본어 가나가 섞이면 해외판 기사로 보고 뺀다 */
+export function isKoreanTitle(title) {
+  return /[\uac00-\ud7a3]/.test(title) && !/[\u3041-\u3096\u30a1-\u30fa]/.test(title);
 }
 
 /** general 매체용: 제목에 AI 키워드가 있거나, 요약에 둘 이상 종류의 키워드가 있으면 통과 */
@@ -29,8 +47,8 @@ const RULES = [
   ['정책', /정부|과기정통부|과학기술정보통신부|규제|법안|기본법|정책|국회|위원회|국가AI|공공|지원사업|EU|백악관|청와대/],
   ['보안/윤리', /보안|해킹|딥페이크|개인정보|사이버|악용|저작권|윤리|편향|사기|피싱/],
   ['생성형AI', /생성형|챗GPT|ChatGPT|GPT|오픈AI|OpenAI|클로드|Claude|제미나이|Gemini|LLM|언어모델|에이전트|딥시크|DeepSeek|라마|Llama|코파일럿|Copilot|하이퍼클로바|Sora|이미지 ?생성|AI 모델|Anthropic/i],
-  ['연구', /연구|논문|카이스트|KAIST|서울대|대학|학회|벤치마크|알고리즘|개발했다|연구팀/],
-  ['기업', /투자|인수|스타트업|매출|실적|출시|협약|MOU|제휴|계약|상장|IPO|유니콘|공개했다|선보|도입/],
+  ['연구', /연구|논문|카이스트|KAIST|서울대|대학|학회|벤치마크|알고리즘|개발했다|연구팀|규명|바이오마커|진단|신약|임상/],
+  ['기업', /투자|인수|스타트업|매출|실적|출시|협약|MOU|제휴|계약|상장|IPO|유니콘|공개했다|선보|도입|증시|주가|나스닥|코스피|코스닥|특징주|상한가|시총|주식/],
 ];
 
 export function classify(title, summary) {

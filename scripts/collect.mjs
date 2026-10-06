@@ -3,7 +3,7 @@
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
-import { parseFeed, isAiRelated, classify, makeId } from './lib.mjs';
+import { parseFeed, isAiRelated, isKoreanTitle, classify, makeId } from './lib.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const OUT = path.join(root, 'public', 'data', 'articles.json');
@@ -70,11 +70,16 @@ const prev = await readJson(OUT, { articles: [] });
 const now = new Date();
 const cutoff = now.getTime() - MAX_AGE_DAYS * 86400000;
 
-// 이전 결과 유지 (샘플 데이터는 버림)
+const typeOf = new Map(feeds.map((f) => [f.id, f.type]));
+const keep = (type, it) => isKoreanTitle(it.title) && (type === 'ai' || isAiRelated(it.title, it.summary));
+
+// 이전 결과 유지 (샘플 데이터는 버림). 필터와 분류 규칙을 바꾸면 보관분에도 바로 반영되도록 다시 적용한다.
 const byId = new Map();
 for (const a of prev.articles || []) {
   if (a.sample) continue;
-  if (new Date(a.published).getTime() >= cutoff) byId.set(a.id, a);
+  if (new Date(a.published).getTime() < cutoff) continue;
+  if (!keep(typeOf.get(a.sourceId), a)) continue;
+  byId.set(a.id, { ...a, category: classify(a.title, a.summary) });
 }
 
 const status = [];
@@ -86,7 +91,7 @@ const results = await pooled(feeds, CONCURRENCY, async (f) => {
   let kept = 0;
   for (const it of items) {
     if (new Date(it.published).getTime() < cutoff) continue;
-    if (f.type !== 'ai' && !isAiRelated(it.title, it.summary)) continue;
+    if (!keep(f.type, it)) continue;
     const id = makeId(it.link);
     const old = byId.get(id);
     byId.set(id, {
