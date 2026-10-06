@@ -28,10 +28,12 @@ const readJson = async (f, d) => { try { return JSON.parse(await readFile(f, 'ut
 const local = await readJson(STORIES, { stories: [] });
 const prev = await readJson(PREV_STORIES, { stories: [] });
 const byId = new Map();
-for (const s of [...(prev.stories || []), ...(local.stories || [])]) byId.set(s.id, s);
+// deleted 목록의 id 는 직전 배포본에 남아 있어도 되살리지 않습니다.
+const deleted = new Set(local.deleted || []);
+for (const s of [...(prev.stories || []), ...(local.stories || [])]) if (!deleted.has(s.id)) byId.set(s.id, s);
 const keepFrom = Date.now() - KEEP_DAYS * 86400000;
 let stories = [...byId.values()].filter((s) => new Date(s.published).getTime() >= keepFrom);
-const save = () => writeFile(STORIES, JSON.stringify({ note: local.note, stories: stories.sort((a, b) => new Date(b.published) - new Date(a.published)) }, null, 2) + '\n');
+const save = () => writeFile(STORIES, JSON.stringify({ note: local.note, deleted: local.deleted || [], stories: stories.sort((a, b) => new Date(b.published) - new Date(a.published)) }, null, 2) + '\n');
 
 if (!key) {
   await save();
