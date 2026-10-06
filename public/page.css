@@ -1,6 +1,6 @@
 /* 소개, 개인정보처리방침, 문의 등 정적 안내 페이지 */
-:root { --bg: #f7f7f7; --surface: #fff; --ink: #1a1a1a; --ink2: #3d3d3d; --ink3: #636363; --line: #e8e8e8; --accent: #024ad8; color-scheme: light; }
-@media (prefers-color-scheme: dark) { :root { --bg: #121212; --surface: #1a1a1a; --ink: #fff; --ink2: #c2c2c2; --ink3: #8e8e8e; --line: #292929; --accent: #296ef9; color-scheme: dark; } }
+:root { --bg: #f7f7f7; --surface: #fff; --ink: #1a1a1a; --ink2: #3d3d3d; --ink3: #636363; --line: #e8e8e8; --accent: #0071e3; color-scheme: light; }
+@media (prefers-color-scheme: dark) { :root { --bg: #121212; --surface: #1a1a1a; --ink: #fff; --ink2: #c2c2c2; --ink3: #8e8e8e; --line: #292929; --accent: #2997ff; color-scheme: dark; } }
 * { box-sizing: border-box; }
 body { margin: 0; background: var(--bg); color: var(--ink); font-family: Inter, Pretendard, "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", system-ui, sans-serif; line-height: 1.7; }
 .top { border-bottom: 1px solid var(--line); background: var(--bg); }

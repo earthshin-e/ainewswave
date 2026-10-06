@@ -43,9 +43,9 @@
     css.textContent =
       '#consentBar{position:fixed;left:0;right:0;bottom:0;z-index:50;display:flex;flex-wrap:wrap;align-items:center;gap:8px 16px;justify-content:center;' +
       'padding:10px 16px calc(10px + env(safe-area-inset-bottom));background:#1a1a1a;color:#fff;font:13px/1.5 Inter,Pretendard,"Apple SD Gothic Neo",system-ui,sans-serif;box-shadow:0 -1px 0 rgba(255,255,255,.12)}' +
-      '#consentBar p{margin:0;color:#e8e8e8}#consentBar a{color:#9ec2ff}#consentBar div{display:flex;gap:6px}' +
+      '#consentBar p{margin:0;color:#e8e8e8}#consentBar a{color:#7cb9ff}#consentBar div{display:flex;gap:6px}' +
       '#consentBar button{height:34px;padding:0 14px;border:1px solid #636363;background:transparent;color:#fff;font:inherit;cursor:pointer}' +
-      '#consentBar button.ok{background:#296ef9;border-color:#296ef9;font-weight:600}';
+      '#consentBar button.ok{background:#2997ff;border-color:#2997ff;font-weight:600}';
     document.head.appendChild(css);
     document.body.appendChild(bar);
   }

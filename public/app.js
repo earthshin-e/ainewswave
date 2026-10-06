@@ -80,7 +80,6 @@
     renderHot(list);
     renderBrief();
     const part = list.slice(0, state.shown);
-    $('#count').textContent = list.length ? `${state.full ? '' : '최근 48시간 '}기사 ${list.length}건` : '';
     $('#list').innerHTML = part.length
       ? part.map(card).join('')
       : `<div class="empty">${state.saved ? '저장한 기사가 없습니다.<br>기사 카드의 별을 눌러 북마크해 보세요.' : '조건에 맞는 기사가 없습니다.'}</div>`;
@@ -379,7 +378,6 @@
     queueMicrotask(route);
     state.sources = data.sources || [];
     state.updatedAt = data.updatedAt;
-    $('#updated').textContent = data.updatedAt ? ago(data.updatedAt) + ' 업데이트' : '';
     if (state.all.some((a) => a.sample)) {
       const n = $('#notice');
       n.hidden = false;
