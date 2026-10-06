@@ -3,7 +3,7 @@
 국내 언론사 RSS에서 AI 관련 기사만 골라 모아 보여 주는 모바일웹입니다.
 서버 없이 GitHub Pages 한 곳에서 돌아가며, 30분마다 81곳의 매체에서 기사를 새로 수집합니다.
 
-주소: https://earthshin-e.github.io/ainewswave/
+주소: https://ainewswave.com/
 
 ## 구성
 
