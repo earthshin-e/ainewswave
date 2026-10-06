@@ -107,6 +107,7 @@ const results = await pooled(feeds, CONCURRENCY, async (f) => {
       published: old?.published ?? it.published,
       summary: it.summary,
       image: it.image || old?.image || '',
+      ...(old?.imgTried ? { imgTried: true } : {}),
       category: classify(it.title, it.summary),
       kw: keywordsOf(it.title, it.summary),
     });
@@ -137,6 +138,46 @@ let articles = [...byId.values()]
     return true;
   })
   .slice(0, MAX_ITEMS);
+
+// 이미지 보강: RSS 에 썸네일이 없는 기사는 원문 페이지의 공유용 대표 이미지(og:image, twitter:image) 주소를 찾아 붙입니다.
+// 본문은 읽지 않고 <head> 의 메타 태그만 봅니다. 한 번 시도한 기사는 imgTried 로 표시해 다시 받지 않습니다.
+const OG_MAX = 400; // 한 번 수집에서 새로 찾아보는 최대 기사 수
+const OG_TIMEOUT = 8000;
+async function ogImage(link) {
+  const ctrl = new AbortController();
+  const t = setTimeout(() => ctrl.abort(), OG_TIMEOUT);
+  try {
+    const res = await fetch(link, { signal: ctrl.signal, redirect: 'follow', headers: { 'user-agent': UA, accept: 'text/html' } });
+    if (!res.ok || !res.body) return '';
+    // 메타 태그는 문서 앞부분에 있으므로 최대 200KB 까지만 읽고 끊습니다.
+    const reader = res.body.getReader();
+    const chunks = [];
+    let size = 0;
+    while (size < 200000) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      chunks.push(value); size += value.length;
+      if (Buffer.concat(chunks).toString('latin1').includes('</head>')) break;
+    }
+    reader.cancel().catch(() => {});
+    const head = Buffer.concat(chunks).toString('utf8');
+    const m = head.match(/<meta[^>]+(?:property|name)=["'](?:og:image|og:image:url|twitter:image)["'][^>]*>/i);
+    const c = m && m[0].match(/content=["']([^"']+)["']/i);
+    if (!c) return '';
+    let u = c[1].trim().replace(/&amp;/g, '&');
+    if (u.startsWith('//')) u = 'https:' + u;
+    else if (u.startsWith('/')) u = new URL(u, link).href;
+    if (u.startsWith('http://')) u = 'https://' + u.slice(7);
+    return /^https:\/\//.test(u) ? u : '';
+  } catch { return ''; } finally { clearTimeout(t); }
+}
+const needImg = articles.filter((a) => !a.image && !a.imgTried).slice(0, OG_MAX);
+let ogFound = 0;
+await pooled(needImg, CONCURRENCY, async (a) => {
+  const u = await ogImage(a.link);
+  a.imgTried = true;
+  if (u) { a.image = u; ogFound++; }
+});
 
 const counts = {};
 for (const a of articles) counts[a.sourceId] = (counts[a.sourceId] || 0) + 1;
@@ -181,6 +222,7 @@ if (failed.length) {
   for (const f of failed) console.log(`  - ${f.name}: ${f.error}`);
 }
 const secs = ((Date.now() - startedAt) / 1000).toFixed(1);
+console.log(`\n대표 이미지 보강: ${needImg.length}건 시도, ${ogFound}건 찾음, 이미지 없는 기사 ${articles.filter((a) => !a.image).length}건`);
 console.log(`\n키워드 상위 ${KW_TOP}: ${keywords.map((k) => `${k.label} ${k.count}`).join(', ')}`);
 console.log(`\n저장 완료: 기사 ${articles.length}건, 매체 ${sources.length}곳 (피드 성공 ${okCount}/${feeds.length})`);
 console.log(`수집 소요 ${secs}초, 동시 요청 ${CONCURRENCY}개, articles.json ${(json.length / 1024).toFixed(0)}KB`);

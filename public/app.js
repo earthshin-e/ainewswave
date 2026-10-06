@@ -136,7 +136,7 @@
     box.innerHTML = `<h2>지금 많이 보도되는 소식 <span>최근 48시간, 보도한 매체 수 기준</span></h2><ol>${top.map((t, i) => {
       const st = t.members.map((m) => state.storyOf.get(m.id)).find(Boolean);
       const href = st ? `#s/${st.id}` : `#a/${t.lead.id}`;
-      return `<li data-cat="${esc(st ? st.category : t.lead.category)}"><a href="${esc(href)}"><b class="rk">${i + 1}</b><span class="tag">${esc(st ? st.category : t.lead.category)}</span><span class="ht">${st ? '<em class="nw">뉴스웨이브</em>' : ''}${esc(st ? st.title : t.lead.title)}</span><span class="hn">매체 ${t.outlets}곳</span></a></li>`;
+      return `<li data-cat="${esc(st ? st.category : t.lead.category)}"><a href="${esc(href)}"><b class="rk">${i + 1}</b><span class="tag">${esc(st ? st.category : t.lead.category)}</span><span class="ht">${esc(st ? st.title : t.lead.title)}</span><span class="hn">매체 ${t.outlets}곳</span></a></li>`;
     }).join('')}</ol>`;
   }
 
