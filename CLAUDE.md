@@ -121,6 +121,11 @@
 
 - RSS 에 썸네일이 없는 기사는 수집 때 원문 페이지 `<head>` 의 og:image(또는 twitter:image) 주소를 찾아 `image` 에 넣습니다. 본문은 읽지 않고 최대 200KB 까지만 받아 메타 태그만 봅니다. 한 번에 최대 400건, 시도한 기사는 `imgTried: true` 로 표시해 다시 받지 않습니다. 첫 시험에서 400건 중 385건을 찾았습니다.
 
+## 검색 노출
+
+- `scripts/pages.mjs` 가 배포 때마다 정리 기사와 브리핑마다 정적 페이지 `public/s/<id>.html`(제목, 핵심 요약, 본문, 출처, NewsArticle 구조화 데이터, canonical)와 `public/sitemap.xml` 을 만듭니다. 생성물이라 저장소에는 넣지 않습니다(.gitignore).
+- `public/robots.txt` 는 전체 허용, `/data/` 만 제외하고 사이트맵 주소를 알립니다. 메인 `index.html` 에 description, canonical, og 태그가 있습니다.
+
 ## 분석 (GA4)
 
 - Google Analytics 4 측정 ID `G-TPL7MTLPRB` (계정 "AI 뉴스웨이브", 속성 ainewswave.com, 대한민국 시간대, 원화). Google 계정은 hazelyuu@gmail.com.

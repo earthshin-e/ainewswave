@@ -46,6 +46,9 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
       - name: Remove temp files
         run: rm -f public/data/stories.prev.json
+      # 정리 기사마다 검색엔진용 정적 페이지와 sitemap.xml 생성
+      - name: Build story pages
+        run: node scripts/pages.mjs
       # 클라우드 예약 작업(정리 기사 작성)은 사이트 주소에 접속할 수 없어서, 최신 기사 데이터를 저장소의 data 브랜치에도 올려 둡니다.
       # 히스토리가 쌓이지 않도록 매번 커밋 하나짜리 브랜치로 덮어씁니다.
       - name: Publish data branch
