@@ -4,9 +4,13 @@ import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 import { parseFeed, isAiRelated, isKoreanTitle, classify, makeId } from './lib.mjs';
+import { keywordsOf } from './keywords.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const OUT = path.join(root, 'public', 'data', 'articles.json');
+const KW_OUT = path.join(root, 'public', 'data', 'keywords.json');
+const KW_DAYS = 30; // 상단 탭 키워드 순위를 계산하는 기간
+const KW_TOP = 10;
 const MAX_AGE_DAYS = 14;
 const MAX_ITEMS = 3000;
 // 매체 80곳 이상을 한꺼번에 때리면 실패율이 올라가므로 동시 요청 수를 묶어 둔다
@@ -79,7 +83,7 @@ for (const a of prev.articles || []) {
   if (a.sample) continue;
   if (new Date(a.published).getTime() < cutoff) continue;
   if (!keep(typeOf.get(a.sourceId), a)) continue;
-  byId.set(a.id, { ...a, category: classify(a.title, a.summary) });
+  byId.set(a.id, { ...a, category: classify(a.title, a.summary), kw: keywordsOf(a.title, a.summary) });
 }
 
 const status = [];
@@ -104,6 +108,7 @@ const results = await pooled(feeds, CONCURRENCY, async (f) => {
       summary: it.summary,
       image: it.image || old?.image || '',
       category: classify(it.title, it.summary),
+      kw: keywordsOf(it.title, it.summary),
     });
     kept++;
   }
@@ -146,8 +151,28 @@ if (okCount === 0 && (prev.articles || []).some((a) => !a.sample)) {
   process.exit(1);
 }
 
+// 키워드 순위: 날짜(KST)별로 키워드가 언급된 기사 수를 남겨 두고 최근 30일을 합산합니다.
+// 기사는 14일만 보관하므로, 보관 중인 날짜는 매번 다시 세고 그보다 오래된 날짜는 이전 기록을 그대로 씁니다.
+const kwPrev = await readJson(KW_OUT, { days: {} });
+const dayOf = (iso) => new Date(new Date(iso).getTime() + 9 * 3600000).toISOString().slice(0, 10);
+const fresh = {};
+for (const a of articles) {
+  const d = (fresh[dayOf(a.published)] ??= {});
+  for (const k of a.kw) d[k] = (d[k] || 0) + 1;
+}
+const kwFrom = dayOf(new Date(now.getTime() - KW_DAYS * 86400000).toISOString());
+const oldestKept = dayOf(new Date(cutoff).toISOString());
+const days = {};
+for (const [d, c] of Object.entries(kwPrev.days || {})) if (d >= kwFrom && d < oldestKept) days[d] = c;
+for (const [d, c] of Object.entries(fresh)) if (d >= kwFrom) days[d] = c;
+const total = {};
+for (const c of Object.values(days)) for (const [k, n] of Object.entries(c)) total[k] = (total[k] || 0) + n;
+const keywords = Object.entries(total).sort((a, b) => b[1] - a[1]).slice(0, KW_TOP).map(([label, count]) => ({ label, count }));
+const kwSince = Object.keys(days).sort()[0] || null;
+
 await mkdir(path.dirname(OUT), { recursive: true });
-const json = JSON.stringify({ updatedAt: now.toISOString(), sources, status, articles });
+await writeFile(KW_OUT, JSON.stringify({ updatedAt: now.toISOString(), days }), 'utf8');
+const json = JSON.stringify({ updatedAt: now.toISOString(), keywords, keywordDays: KW_DAYS, keywordSince: kwSince, sources, status, articles });
 await writeFile(OUT, json, 'utf8');
 
 const failed = status.filter((s) => !s.ok);
@@ -156,5 +181,6 @@ if (failed.length) {
   for (const f of failed) console.log(`  - ${f.name}: ${f.error}`);
 }
 const secs = ((Date.now() - startedAt) / 1000).toFixed(1);
+console.log(`\n키워드 상위 ${KW_TOP}: ${keywords.map((k) => `${k.label} ${k.count}`).join(', ')}`);
 console.log(`\n저장 완료: 기사 ${articles.length}건, 매체 ${sources.length}곳 (피드 성공 ${okCount}/${feeds.length})`);
 console.log(`수집 소요 ${secs}초, 동시 요청 ${CONCURRENCY}개, articles.json ${(json.length / 1024).toFixed(0)}KB`);

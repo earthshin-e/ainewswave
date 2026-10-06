@@ -1,6 +1,5 @@
 (() => {
   'use strict';
-  const TOPICS = ['전체', '생성형AI', '반도체', '로봇', '정책', '기업', '연구', '보안/윤리', '일반'];
   const PAGE = 30;
   const $ = (s) => document.querySelector(s);
 
@@ -12,7 +11,7 @@
 
   const state = {
     all: [], sources: [], updatedAt: null,
-    topic: '전체', picked: new Set(), q: '', saved: false, shown: PAGE,
+    topic: '전체', keywords: [], picked: new Set(), q: '', saved: false, shown: PAGE,
     bookmarks: store.get('bm', {}),
     stories: [], storyOf: new Map(),
   };
@@ -38,7 +37,7 @@
       : state.all;
     const terms = state.q.toLowerCase().split(/\s+/).filter(Boolean);
     return base.filter((a) => {
-      if (state.topic !== '전체' && a.category !== state.topic) return false;
+      if (state.topic !== '전체' && !(a.kw || []).includes(state.topic)) return false;
       if (state.picked.size && !state.picked.has(a.sourceId)) return false;
       if (terms.length) {
         const hay = (a.title + ' ' + (a.summary || '') + ' ' + a.source).toLowerCase();
@@ -190,6 +189,7 @@
       <span class="tag">${esc(st.category)}</span>
       <h1>${esc(st.title)}</h1>
       <div class="meta"><b class="byline">뉴스웨이브</b><span>·</span><time datetime="${esc(st.published)}">${fullDate(st.published)}</time><span>·</span><span>${st.sources.length}개 매체 보도 종합</span></div>
+      ${st.points && st.points.length ? `<section class="points"><h2>핵심 요약</h2><ul>${st.points.map((x) => `<li>${esc(x)}</li>`).join('')}</ul></section>` : ''}
       <div class="story-body">${st.body.map((p) => `<p>${esc(p)}</p>`).join('')}</div>
       <section class="rel src"><h2>출처 <span>${st.sources.length}</span></h2><ul>${srcs}</ul></section>
       <p class="note">이 글은 위 매체들의 보도에서 확인된 사실을 뉴스웨이브가 새로 정리한 것입니다. 자세한 내용은 각 언론사 원문을 확인하세요.</p>
@@ -216,9 +216,11 @@
   }
   window.addEventListener('hashchange', route);
 
+  // 상단 탭: 최근 30일 AI 기사에서 많이 언급된 키워드 상위 10개 (수집 스크립트가 계산)
   function renderTabs() {
-    $('#tabs').innerHTML = TOPICS.map((t) =>
-      `<button class="tab" role="tab" data-t="${esc(t)}" aria-selected="${t === state.topic}">${esc(t)}</button>`).join('');
+    const tabs = [{ label: '전체' }, ...state.keywords];
+    $('#tabs').innerHTML = tabs.map((t, i) =>
+      `<button class="tab" role="tab" data-t="${esc(t.label)}" aria-selected="${t.label === state.topic}"${t.count ? ` title="최근 기사 ${t.count}건에서 언급"` : ''}>${i ? `<i class="rk">${i}</i>` : ''}${esc(t.label)}</button>`).join('');
   }
 
   function renderSheet() {
@@ -295,6 +297,15 @@
   // ---- 데이터 로드 ----
   function apply(data) {
     state.all = data.articles || [];
+    state.keywords = data.keywords || [];
+    if (state.topic !== '전체' && !state.keywords.some((k) => k.label === state.topic)) state.topic = '전체';
+    renderTabs();
+    const kwNote = $('#kwNote');
+    if (kwNote) {
+      const days = data.keywordSince ? Math.min(data.keywordDays || 30, Math.max(1, Math.round((Date.now() - new Date(data.keywordSince)) / 86400000) + 1)) : 0;
+      kwNote.hidden = !state.keywords.length;
+      kwNote.textContent = `상단 탭은 최근 ${days}일 AI 기사에서 많이 언급된 키워드 순위입니다`;
+    }
     queueMicrotask(route);
     state.sources = data.sources || [];
     state.updatedAt = data.updatedAt;
