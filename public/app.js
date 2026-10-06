@@ -395,8 +395,11 @@
   $('#list').innerHTML = '<div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div>';
   if (window.__DATA__) apply(window.__DATA__);
   else {
-    fetch('data/articles.json', { cache: 'no-cache' })
+    // 배포 직후처럼 일시적으로 실패하는 경우가 있어 2초 간격으로 두 번 더 시도합니다.
+    const load = (n) => fetch('data/articles.json', { cache: 'no-cache' })
       .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .catch((e) => { if (n > 0) return new Promise((ok) => setTimeout(ok, 2000)).then(() => load(n - 1)); throw e; });
+    load(2)
       .then(apply)
       .catch(() => { $('#list').innerHTML = '<div class="empty">기사를 불러오지 못했습니다.<br>잠시 후 다시 시도해 주세요.</div>'; });
   }
