@@ -79,6 +79,7 @@
 ### 뉴스웨이브 정리 기사
 
 - 자동 작성: `scripts/write.mjs` 가 수집 직후 돌며, 최근 48시간에 2곳 이상 매체가 함께 보도한 소식 중 아직 정리 기사가 없는 묶음을 한 번에 최대 6건 씁니다(Claude API, `claude-opus-5-5`, effort low, 구조화 출력, 거절 시 서버 폴백). 한국 시간 18시 이후 첫 실행에서 "오늘의 AI 브리핑"(`type: "briefing"`, id `bYYYYMMDD`)을 하루 한 건 씁니다. 자동 글에는 `auto: true` 가 붙습니다.
+- 현재 운영(API 키 없음): Claude Code 클라우드 예약 작업 "AI 뉴스웨이브 정리 기사와 브리핑"(https://claude.ai/code/routines/trig_015PWzXq9y6NnXmAjTWuGsXH)이 매일 한국 시간 18:30 에 전광판 순서로 정리 기사 최대 10건과 브리핑 1건을 써서 `public/data/stories.json` 에 넣고 main 에 바로 push 합니다. 클라우드 환경은 ainewswave.com 에 접속할 수 없어서, 수집 워크플로가 최신 articles.json, stories.json 을 `data` 브랜치(커밋 하나짜리, 매번 강제 덮어쓰기)에 올려 두고 예약 작업이 거기서 읽습니다. Claude GitHub 앱이 earthshin-e 계정에 설치돼 있어야 push 됩니다.
 - GitHub 저장소 시크릿 `ANTHROPIC_API_KEY` 가 없으면 이 단계는 건너뛰고, 실패해도 배포는 계속됩니다. 자동 글은 저장소에 커밋되지 않으므로 Actions 가 직전 배포본의 stories.json 을 받아 저장소의 stories.json 과 합칩니다(같은 id 는 저장소 쪽 우선). 60일 지난 글은 지웁니다.
 - 브리핑은 전광판 위 한 줄(`#brief`)로 걸리고, 브리핑의 출처 기사는 상세 화면의 정리 기사 링크 대상에서 뺍니다.
 - 기사별 핵심 요약: 같은 단계에서 `points` 가 없는 기사를 최신순으로 25건씩 묶어 3~5줄 요약을 씁니다(한 번 실행 최대 200건). 원문 문장을 옮기지 않고 RSS 제목과 요약의 사실만 새 문장으로 씁니다. 수집 스크립트는 기존 `points` 를 유지합니다. 상세 화면에서 "핵심 요약" 으로 언론사 요약 위에 보입니다.
