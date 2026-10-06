@@ -279,6 +279,12 @@ await writeFile(PHOTO_OUT, JSON.stringify({ updatedAt: now.toISOString(), used: 
 await writeFile(KW_OUT, JSON.stringify({ updatedAt: now.toISOString(), days }), 'utf8');
 const json = JSON.stringify({ updatedAt: now.toISOString(), keywords, keywordDays: KW_DAYS, keywordSince: kwSince, sources, status, articles });
 await writeFile(OUT, json, 'utf8');
+// 첫 화면용 가벼운 파일: 최근 48시간 기사(최대 400건)만 담습니다. 검색, 키워드, 매체 선택, 더 보기에서 전체 파일을 이어 받습니다.
+const recentFrom = now.getTime() - 48 * 3600000;
+const recent = articles.filter((a) => new Date(a.published).getTime() >= recentFrom).slice(0, 400);
+const recentJson = JSON.stringify({ updatedAt: now.toISOString(), keywords, keywordDays: KW_DAYS, keywordSince: kwSince, sources, partial: true, total: articles.length, articles: recent });
+await writeFile(path.join(path.dirname(OUT), 'articles-recent.json'), recentJson, 'utf8');
+console.log(`첫 화면용 articles-recent.json: ${recent.length}건, ${(recentJson.length / 1024).toFixed(0)}KB`);
 
 const failed = status.filter((s) => !s.ok);
 if (failed.length) {

@@ -80,11 +80,11 @@
     renderHot(list);
     renderBrief();
     const part = list.slice(0, state.shown);
-    $('#count').textContent = list.length ? `기사 ${list.length}건` : '';
+    $('#count').textContent = list.length ? `${state.full ? '' : '최근 48시간 '}기사 ${list.length}건` : '';
     $('#list').innerHTML = part.length
       ? part.map(card).join('')
       : `<div class="empty">${state.saved ? '저장한 기사가 없습니다.<br>기사 카드의 별을 눌러 북마크해 보세요.' : '조건에 맞는 기사가 없습니다.'}</div>`;
-    $('#more').hidden = list.length <= state.shown;
+    $('#more').hidden = list.length <= state.shown && state.full;
     $('#savedCount').textContent = Object.keys(state.bookmarks).length;
     $('#btnSaved').setAttribute('aria-pressed', String(state.saved));
     const n = state.picked.size;
@@ -219,6 +219,7 @@
     const a = m && m[1] === 'a' && (state.all.find((x) => x.id === m[2]) || state.bookmarks[m[2]]);
     const st = m && m[1] === 's' && state.stories.find((x) => x.id === m[2]);
     const reading = !!(a || st);
+    if (m && m[1] === 'a' && !a && !state.full) { ensureFull().then(route); return; }
     if (reading && !document.body.classList.contains('reading')) { listScroll = window.scrollY; fromList = routed; }
     routed = true;
     document.body.classList.toggle('reading', reading);
@@ -291,6 +292,7 @@
     if (b.id === 'btnKw') { renderKwSheet(); $('#kwSheet').showModal(); return; }
     if (location.hash) location.hash = '';
     state.kws = new Set(b.dataset.t ? [b.dataset.t] : []); resetPage(); renderTabs(); render(); window.scrollTo({ top: 0 });
+    if (state.kws.size) ensureFull();
   });
   function toggleBookmark(e) {
     const b = e.target.closest('.bm'); if (!b) return;
@@ -315,7 +317,7 @@
   });
 
   $('#btnSaved').addEventListener('click', () => { state.saved = !state.saved; resetPage(); render(); window.scrollTo({ top: 0 }); });
-  $('#more').addEventListener('click', () => { state.shown += PAGE; render(); });
+  $('#more').addEventListener('click', () => { state.shown += PAGE; if (state.shown >= filtered().length) ensureFull(); render(); });
 
   $('#btnSearch').addEventListener('click', () => {
     const w = $('#searchWrap'); w.hidden = !w.hidden;
@@ -326,7 +328,7 @@
   let timer;
   $('#q').addEventListener('input', (e) => {
     clearTimeout(timer);
-    timer = setTimeout(() => { state.q = e.target.value.trim(); resetPage(); render(); }, 150);
+    timer = setTimeout(() => { state.q = e.target.value.trim(); resetPage(); render(); if (state.q) ensureFull(); }, 150);
   });
 
   const kwSheet = $('#kwSheet');
@@ -337,7 +339,7 @@
   $('#kwList').addEventListener('change', (e) => {
     const c = e.target; if (c.type !== 'checkbox') return;
     c.checked ? state.kws.add(c.value) : state.kws.delete(c.value);
-    resetPage(); render();
+    resetPage(); render(); ensureFull();
   });
 
   const sheet = $('#sheet');
@@ -348,7 +350,7 @@
   $('#sheetList').addEventListener('change', (e) => {
     const c = e.target; if (c.type !== 'checkbox') return;
     c.checked ? state.picked.add(c.value) : state.picked.delete(c.value);
-    resetPage(); render();
+    resetPage(); render(); ensureFull();
   });
 
   // 다크 모드: 기본은 기기 설정을 따르고, 버튼으로 직접 바꾸면 기억합니다.
@@ -364,6 +366,7 @@
   // ---- 데이터 로드 ----
   function apply(data) {
     state.all = data.articles || [];
+    state.full = !data.partial;
     state.keywords = data.keywords || [];
     for (const k of state.kws) if (!state.keywords.some((x) => x.label === k)) state.kws.delete(k);
     renderTabs();
@@ -393,6 +396,16 @@
     if (state.all.length) render();
     route();
   }
+  // 첫 화면은 최근 48시간 기사만 받고, 전체가 필요할 때(검색, 키워드, 매체 선택, 더 보기, 오래된 기사 주소) 전체 파일을 받습니다.
+  let loadFull = null;
+  let fullPromise = null;
+  function ensureFull() {
+    if (state.full || !loadFull) return Promise.resolve();
+    if (!fullPromise) fullPromise = loadFull().then((d) => apply(d)).catch(() => { fullPromise = null; });
+    return fullPromise;
+  }
+  window.__ensureFull = ensureFull;
+
   if (!window.__DATA__) fetch('data/stories.json', { cache: 'no-cache' }).then((r) => (r.ok ? r.json() : null)).then(applyStories).catch(() => {});
 
   renderTabs();
@@ -400,9 +413,10 @@
   if (window.__DATA__) apply(window.__DATA__);
   else {
     // 배포 직후처럼 일시적으로 실패하는 경우가 있어 2초 간격으로 두 번 더 시도합니다.
-    const load = (n) => fetch('data/articles.json', { cache: 'no-cache' })
+    const load = (n, file = 'data/articles-recent.json') => fetch(file, { cache: 'no-cache' })
       .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
-      .catch((e) => { if (n > 0) return new Promise((ok) => setTimeout(ok, 2000)).then(() => load(n - 1)); throw e; });
+      .catch((e) => { if (n > 0) return new Promise((ok) => setTimeout(ok, 2000)).then(() => load(n - 1, n === 1 ? 'data/articles.json' : file)); throw e; });
+    loadFull = () => load(1, 'data/articles.json');
     load(2)
       .then(apply)
       .catch(() => { $('#list').innerHTML = '<div class="empty">기사를 불러오지 못했습니다.<br>잠시 후 다시 시도해 주세요.</div>'; });
@@ -415,7 +429,7 @@
   // 앱을 다시 열었을 때 오래된 화면이면 새로 불러오기
   document.addEventListener('visibilitychange', () => {
     if (document.visibilityState === 'visible' && state.updatedAt && !window.__DATA__ && Date.now() - new Date(state.updatedAt) > 20 * 60000) {
-      fetch('data/articles.json', { cache: 'no-cache' }).then((r) => r.json()).then(apply).catch(() => {});
+      fetch(state.full ? 'data/articles.json' : 'data/articles-recent.json', { cache: 'no-cache' }).then((r) => r.json()).then(apply).catch(() => {});
     }
   });
 })();
