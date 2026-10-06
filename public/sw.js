@@ -1,4 +1,4 @@
-const CACHE = 'aiinside-v2';
+const CACHE = 'aiinside-v3';
 const SHELL = ['./', 'index.html', 'style.css', 'app.js', 'manifest.webmanifest', 'icon.svg'];
 
 self.addEventListener('install', (e) => {
