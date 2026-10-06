@@ -11,7 +11,7 @@
 
   const state = {
     all: [], sources: [], updatedAt: null,
-    topic: '전체', keywords: [], picked: new Set(), q: '', saved: false, shown: PAGE,
+    kws: new Set(), keywords: [], picked: new Set(), q: '', saved: false, shown: PAGE,
     bookmarks: store.get('bm', {}),
     stories: [], storyOf: new Map(),
   };
@@ -37,7 +37,7 @@
       : state.all;
     const terms = state.q.toLowerCase().split(/\s+/).filter(Boolean);
     return base.filter((a) => {
-      if (state.topic !== '전체' && !(a.kw || []).includes(state.topic)) return false;
+      if (state.kws.size && !(a.kw || []).some((k) => state.kws.has(k))) return false;
       if (state.picked.size && !state.picked.has(a.sourceId)) return false;
       if (terms.length) {
         const hay = (a.title + ' ' + (a.summary || '') + ' ' + a.source).toLowerCase();
@@ -216,12 +216,26 @@
   }
   window.addEventListener('hashchange', route);
 
-  // 상단 탭: 최근 30일 AI 기사에서 많이 언급된 키워드 상위 10개 (수집 스크립트가 계산)
+  // 탭에는 상위 5개만 두고, 나머지는 "키워드 전체" 시트에서 상위 30개 중 여러 개를 고릅니다.
+  const TAB_TOP = 5;
   function renderTabs() {
     queueMicrotask(() => typeof updateTabEdges === 'function' && updateTabEdges());
-    const tabs = [{ label: '전체' }, ...state.keywords];
-    $('#tabs').innerHTML = tabs.map((t, i) =>
-      `<button class="tab" role="tab" data-t="${esc(t.label)}" aria-selected="${t.label === state.topic}"${t.count ? ` title="최근 기사 ${t.count}건에서 언급"` : ''}>${i ? `<i class="rk">${i}</i>` : ''}${esc(t.label)}</button>`).join('');
+    const one = state.kws.size === 1 ? [...state.kws][0] : null;
+    const top = state.keywords.slice(0, TAB_TOP);
+    const extra = state.kws.size && !(one && top.some((t) => t.label === one));
+    const tabs = [`<button class="tab" role="tab" data-t="" aria-selected="${!state.kws.size}">전체</button>`]
+      .concat(top.map((t, i) => `<button class="tab" role="tab" data-t="${esc(t.label)}" aria-selected="${t.label === one}" title="최근 기사 ${t.count}건에서 언급"><i class="rk">${i + 1}</i>${esc(t.label)}</button>`));
+    if (state.keywords.length > TAB_TOP) {
+      tabs.push(`<button class="tab more-kw" type="button" id="btnKw" aria-pressed="${!!extra}">${extra ? `키워드 ${state.kws.size}개 선택` : `키워드 전체 ${state.keywords.length}`} <span aria-hidden="true">＋</span></button>`);
+    }
+    $('#tabs').innerHTML = tabs.join('');
+    // 여러 키워드를 골랐으면 맨 끝의 선택 표시가 보이도록 탭 줄을 끝으로 넘깁니다.
+    if (extra) requestAnimationFrame(() => { const t = $('#tabs'); t.scrollLeft = t.scrollWidth; });
+  }
+
+  function renderKwSheet() {
+    $('#kwList').innerHTML = state.keywords.map((k, i) =>
+      `<label class="kw-item"><input type="checkbox" value="${esc(k.label)}" ${state.kws.has(k.label) ? 'checked' : ''}><i class="rk">${i + 1}</i><span>${esc(k.label)}</span><em>${k.count}</em></label>`).join('');
   }
 
   function renderSheet() {
@@ -249,8 +263,9 @@
   // ---- 이벤트 ----
   $('#tabs').addEventListener('click', (e) => {
     const b = e.target.closest('.tab'); if (!b) return;
+    if (b.id === 'btnKw') { renderKwSheet(); $('#kwSheet').showModal(); return; }
     if (location.hash) location.hash = '';
-    state.topic = b.dataset.t; resetPage(); renderTabs(); render(); window.scrollTo({ top: 0 });
+    state.kws = new Set(b.dataset.t ? [b.dataset.t] : []); resetPage(); renderTabs(); render(); window.scrollTo({ top: 0 });
   });
   function toggleBookmark(e) {
     const b = e.target.closest('.bm'); if (!b) return;
@@ -289,6 +304,17 @@
     timer = setTimeout(() => { state.q = e.target.value.trim(); resetPage(); render(); }, 150);
   });
 
+  const kwSheet = $('#kwSheet');
+  $('#kwClose').addEventListener('click', () => kwSheet.close());
+  kwSheet.addEventListener('click', (e) => { if (e.target === kwSheet) kwSheet.close(); });
+  kwSheet.addEventListener('close', () => { if (location.hash) location.hash = ''; renderTabs(); });
+  $('#kwReset').addEventListener('click', () => { state.kws.clear(); renderKwSheet(); resetPage(); render(); });
+  $('#kwList').addEventListener('change', (e) => {
+    const c = e.target; if (c.type !== 'checkbox') return;
+    c.checked ? state.kws.add(c.value) : state.kws.delete(c.value);
+    resetPage(); render();
+  });
+
   const sheet = $('#sheet');
   $('#btnSource').addEventListener('click', () => { renderSheet(); sheet.showModal(); });
   $('#sheetClose').addEventListener('click', () => sheet.close());
@@ -314,7 +340,7 @@
   function apply(data) {
     state.all = data.articles || [];
     state.keywords = data.keywords || [];
-    if (state.topic !== '전체' && !state.keywords.some((k) => k.label === state.topic)) state.topic = '전체';
+    for (const k of state.kws) if (!state.keywords.some((x) => x.label === k)) state.kws.delete(k);
     renderTabs();
     const kwNote = $('#kwNote');
     if (kwNote) {

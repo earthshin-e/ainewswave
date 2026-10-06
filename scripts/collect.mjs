@@ -10,7 +10,7 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const OUT = path.join(root, 'public', 'data', 'articles.json');
 const KW_OUT = path.join(root, 'public', 'data', 'keywords.json');
 const KW_DAYS = 30; // 상단 탭 키워드 순위를 계산하는 기간
-const KW_TOP = 10;
+const KW_TOP = 30;
 const MAX_AGE_DAYS = 14;
 const MAX_ITEMS = 3000;
 // 매체 80곳 이상을 한꺼번에 때리면 실패율이 올라가므로 동시 요청 수를 묶어 둔다
