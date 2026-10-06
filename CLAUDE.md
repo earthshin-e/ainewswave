@@ -3,8 +3,8 @@
 국내 언론사 RSS에서 AI 관련 기사만 모아 보여 주는 일반 공개 서비스입니다.
 서버 없이 GitHub Pages 한 곳에서 돌아가고, GitHub Actions 가 30분마다 수집해 다시 배포합니다.
 
-- 공개 주소: https://earthshin-e.github.io/aiinside/ (GitHub Pages 무료 기본 주소, 나중에 도메인 연결 가능)
-- 저장소: https://github.com/earthshin-e/aiinside
+- 공개 주소: https://earthshin-e.github.io/ainewswave/ (GitHub Pages 무료 기본 주소, 나중에 도메인 연결 가능)
+- 저장소: https://github.com/earthshin-e/ainewswave
 - 외부 패키지 없이 Node 20 이상에서 동작합니다. 빌드 단계도 없습니다.
 
 사람이 읽는 사용 설명과 배포 절차는 `README.md` 에 있습니다. 이 문서는 작업할 때 지켜야 할 결정과 현재 상태를 적어 둔 것입니다.
