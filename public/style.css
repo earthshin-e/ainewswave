@@ -1,34 +1,41 @@
 :root {
-  --bg: #f7f7f5;
-  --surface: #ffffff;
-  --ink: #16181d;
-  --ink2: #565c66;
-  --ink3: #858b95;
-  --line: #e6e6e1;
-  --accent: #2f5bff;
-  --accent-ink: #ffffff;
-  --accent-soft: #e8edff;
-  --star: #f2a900;
+  /* 마스터카드 디자인 문서 기반: 크림 바탕, 웜 블랙 잉크, 오렌지 포인트 */
+  --bg: #f3f0ee;
+  --surface: #fcfbfa;
+  --ink: #141413;
+  --ink2: #555555;
+  --ink3: #696969;
+  --line: #e2ddd7;
+  --accent: #141413;
+  --accent-ink: #f3f0ee;
+  --accent-soft: #e8e2da;
+  --signal: #cf4500;
+  --orbit: #f37338;
+  --star: #f37338;
+  --foot-bg: #141413;
+  --foot-ink: #d1cdc7;
   --radius: 0;
   /* 주제 태그와 이미지 없는 카드의 색: 주제마다 색상(h)만 다르고 밝기는 테마가 정합니다 */
   --tag-bg: 85% 93%;
-  --tag-fg: 60% 36%;
-  --ph-a: 85% 94%;
-  --ph-b: 70% 86%;
-  --ph-fg: 55% 36%;
+  --tag-fg: 55% 34%;
+  --ph-a: 40% 90%;
+  --ph-b: 45% 82%;
+  --ph-fg: 45% 32%;
   color-scheme: light;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: #101214; --surface: #181b1f; --ink: #eef0f3; --ink2: #aab0ba; --ink3: #767d88;
-    --line: #262a30; --accent: #7a96ff; --accent-ink: #0b1030; --accent-soft: #1d2440; --star: #ffc53d;
+    --bg: #141413; --surface: #1c1b19; --ink: #f3f0ee; --ink2: #bdb7b0; --ink3: #8f8982;
+    --line: #2e2c29; --accent: #f3f0ee; --accent-ink: #141413; --accent-soft: #2a2723; --star: #f37338;
+    --signal: #f37338; --orbit: #f37338; --foot-bg: #0c0c0b; --foot-ink: #a8a29b;
     --tag-bg: 40% 22%; --tag-fg: 90% 80%; --ph-a: 35% 19%; --ph-b: 40% 26%; --ph-fg: 80% 76%;
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
-  --bg: #101214; --surface: #181b1f; --ink: #eef0f3; --ink2: #aab0ba; --ink3: #767d88;
-  --line: #262a30; --accent: #7a96ff; --accent-ink: #0b1030; --accent-soft: #1d2440; --star: #ffc53d;
+  --bg: #141413; --surface: #1c1b19; --ink: #f3f0ee; --ink2: #bdb7b0; --ink3: #8f8982;
+  --line: #2e2c29; --accent: #f3f0ee; --accent-ink: #141413; --accent-soft: #2a2723; --star: #f37338;
+  --signal: #f37338; --orbit: #f37338; --foot-bg: #0c0c0b; --foot-ink: #a8a29b;
   --tag-bg: 40% 22%; --tag-fg: 90% 80%; --ph-a: 35% 19%; --ph-b: 40% 26%; --ph-fg: 80% 76%;
   color-scheme: dark;
 }
@@ -37,8 +44,8 @@
 html { -webkit-text-size-adjust: 100%; }
 body {
   margin: 0; background: var(--bg); color: var(--ink);
-  font-family: Pretendard, "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", system-ui, sans-serif;
-  line-height: 1.5; padding-bottom: env(safe-area-inset-bottom);
+  font-family: "Sofia Sans", Pretendard, "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", system-ui, sans-serif;
+  line-height: 1.4; padding-bottom: env(safe-area-inset-bottom);
 }
 button { font: inherit; color: inherit; cursor: pointer; }
 a { color: inherit; }
@@ -59,7 +66,7 @@ a { color: inherit; }
 }
 .brand { grid-area: brand; display: flex; align-items: center; gap: 9px; text-decoration: none; padding: 10px 0 4px; color: var(--accent); }
 .brand .mark { width: 28px; height: 28px; flex: none; }
-.brand h1 { margin: 0; font-size: 19px; font-weight: 800; letter-spacing: -0.02em; color: var(--ink); }
+.brand h1 { margin: 0; font-size: 19px; font-weight: 700; letter-spacing: -0.03em; color: var(--ink); }
 .actions { grid-area: actions; display: flex; gap: 2px; margin-right: -10px; padding-top: 6px; }
 .icon { background: none; border: 0; width: 44px; height: 44px; display: grid; place-items: center; border-radius: 0; color: var(--ink); }
 .icon:active, .icon:hover { background: var(--line); }
@@ -68,7 +75,7 @@ a { color: inherit; }
 .tabs::-webkit-scrollbar { display: none; }
 .tab {
   flex: none; height: 36px; padding: 0 14px; border-radius: 0; border: 1px solid var(--line);
-  background: var(--surface); color: var(--ink2); font-size: 14px; font-weight: 600;
+  background: transparent; color: var(--ink2); font-size: 14px; font-weight: 500; letter-spacing: -0.02em;
 }
 .tab:hover { border-color: var(--ink3); }
 .tab[aria-selected="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
@@ -78,7 +85,7 @@ a { color: inherit; }
   width: 100%; height: 44px; border-radius: 0; border: 1px solid var(--line);
   background: var(--surface); color: var(--ink); padding: 0 14px; font-size: 16px; outline: none;
 }
-.search input:focus { border-color: var(--accent); }
+.search input:focus { border-color: var(--ink); }
 
 /* ---------- 도구 줄 ---------- */
 .toolbar { display: flex; align-items: center; gap: 8px; padding-block: 12px 2px; flex-wrap: wrap; }
@@ -120,11 +127,12 @@ a { color: inherit; }
 .media:has(> .ph) { display: none; }
 .txt { flex: 1; min-width: 0; }
 .tag {
-  display: inline-block; padding: 1px 8px; border-radius: 0; font-size: 12px; font-weight: 700;
-  background: hsl(var(--h) var(--tag-bg)); color: hsl(var(--h) var(--tag-fg));
+  display: inline-flex; align-items: center; gap: 6px; padding: 0; font-size: 12px; font-weight: 700;
+  letter-spacing: 0.04em; color: hsl(var(--h) var(--tag-fg));
 }
+.tag::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: var(--orbit); }
 .card h2 {
-  margin: 8px 0 4px; font-size: 16px; line-height: 1.4; font-weight: 700; letter-spacing: -0.01em; word-break: keep-all;
+  margin: 8px 0 4px; font-size: 16px; line-height: 1.35; font-weight: 600; letter-spacing: -0.02em; word-break: keep-all;
   display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
 }
 .card p {
@@ -144,9 +152,9 @@ a { color: inherit; }
 @media (prefers-reduced-motion: reduce) { .skeleton { animation: none; } .card { transition: none; } }
 
 .more-wrap { display: grid; place-items: center; padding: 16px 0 6px; }
-.more { height: 44px; padding: 0 24px; border-radius: 0; border: 1px solid var(--line); background: var(--surface); font-weight: 600; font-size: 14px; }
-.more:hover { border-color: var(--ink3); }
-.foot { padding: 20px 20px 40px; text-align: center; font-size: 12px; color: var(--ink3); }
+.more { height: 44px; padding: 0 28px; border-radius: 0; border: 1.5px solid var(--ink); background: var(--ink); color: var(--bg); font-weight: 500; font-size: 15px; letter-spacing: -0.02em; }
+.more:active { transform: translateY(1px); }
+.foot { margin-top: 32px; padding: 40px 20px calc(56px + env(safe-area-inset-bottom)); text-align: center; font-size: 12px; background: var(--foot-bg); color: var(--foot-ink); }
 
 /* ---------- 매체 선택 시트 ---------- */
 dialog#sheet {
@@ -155,7 +163,7 @@ dialog#sheet {
 }
 dialog#sheet::backdrop { background: rgba(0,0,0,.45); }
 .sheet-head { display: flex; justify-content: space-between; align-items: center; padding: 16px 20px 8px; }
-.link { background: none; border: 0; color: var(--accent); font-size: 14px; padding: 8px; }
+.link { background: none; border: 0; color: var(--signal); font-size: 14px; padding: 8px; }
 .sheet-list { overflow-y: auto; max-height: 56vh; padding: 0 12px; }
 .row { display: flex; align-items: center; gap: 12px; padding: 12px 8px; border-bottom: 1px solid var(--line); font-size: 15px; }
 .row input { width: 20px; height: 20px; accent-color: var(--accent); }
@@ -174,7 +182,7 @@ dialog#sheet::backdrop { background: rgba(0,0,0,.45); }
   .ph {
     display: flex; align-items: flex-end; aspect-ratio: 16 / 7; padding: 12px 16px;
     background: linear-gradient(135deg, hsl(var(--h) var(--ph-a)), hsl(var(--h) var(--ph-b)));
-    color: hsl(var(--h) var(--ph-fg)); font-size: 20px; font-weight: 800; letter-spacing: -0.02em;
+    color: hsl(var(--h) var(--ph-fg)); font-size: 20px; font-weight: 600; letter-spacing: -0.02em;
   }
   .txt { padding: 14px 16px 0; }
   .cfoot { padding-left: 16px; }
@@ -199,7 +207,7 @@ dialog#sheet::backdrop { background: rgba(0,0,0,.45); }
   .card.feature .media { width: 56%; }
   .card.feature .media img, .card.feature .ph { height: 100%; min-height: 240px; aspect-ratio: auto; }
   .card.feature .txt { padding: 22px 22px 0; }
-  .card.feature h2 { font-size: 22px; -webkit-line-clamp: 4; }
+  .card.feature h2 { font-size: 24px; font-weight: 500; letter-spacing: -0.02em; -webkit-line-clamp: 4; }
   .card.feature p { font-size: 14.5px; -webkit-line-clamp: 4; }
   .card.feature .cfoot { padding-left: 22px; }
 }
