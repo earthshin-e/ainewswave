@@ -48,6 +48,7 @@ function page(st, others) {
 <meta property="article:published_time" content="${esc(st.published)}">
 <link rel="icon" href="../icon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="../page.css">
+<link rel="alternate" type="application/rss+xml" title="AI 뉴스웨이브 정리 기사" href="/recap/feed.xml">
 <script type="application/ld+json">${JSON.stringify(ld).replace(/</g, '\\u003c')}</script>
 <script src="/consent.js"></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=${GA}"></script>
@@ -79,7 +80,7 @@ function page(st, others) {
 
 const dir = path.join(pub, 'recap');
 await mkdir(dir, { recursive: true });
-const keep = new Set([...stories.map((s) => `${s.id}.html`), 'index.html']);
+const keep = new Set([...stories.map((s) => `${s.id}.html`), 'index.html', 'feed.xml']);
 for (const f of await readdir(dir)) if (f.endsWith('.html') && !keep.has(f)) await unlink(path.join(dir, f));
 const sorted = [...stories].sort((a, b) => new Date(b.published) - new Date(a.published));
 for (const st of sorted) {
@@ -106,6 +107,7 @@ const indexHtml = `<!doctype html>
 <link rel="canonical" href="${SITE}/recap/">
 <link rel="icon" href="../icon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="../page.css">
+<link rel="alternate" type="application/rss+xml" title="AI 뉴스웨이브 정리 기사" href="/recap/feed.xml">
 <script src="/consent.js"></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=${GA}"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${GA}');</script>
@@ -115,6 +117,7 @@ const indexHtml = `<!doctype html>
 <main class="wrap">
   <h1>AI 브리핑과 정리 기사</h1>
   <p>여러 매체가 함께 보도한 AI 소식을 AI 뉴스웨이브가 사실만 모아 새로 정리한 글입니다. 각 글 아래에 근거가 된 기사 출처를 밝힙니다.</p>
+  <p class="meta"><a href="feed.xml">RSS 로 구독하기</a></p>
   <h2>매일 AI 브리핑</h2>
   ${briefs.length ? `<ul>${briefs.map((b) => `<li><a href="${esc(b.id)}.html">${esc(b.title)}</a></li>`).join('')}</ul>` : '<p class="meta">아직 브리핑이 없습니다.</p>'}
   <h2>정리 기사</h2>
@@ -148,4 +151,29 @@ ${urls.map((u) => `  <url><loc>${u.loc}</loc>${u.lastmod ? `<lastmod>${u.lastmod
 </urlset>
 `;
 await writeFile(path.join(pub, 'sitemap.xml'), xml);
+
+// 자체 RSS 피드(/recap/feed.xml): 정리 기사와 브리핑 최신 50건. 본문 대신 핵심 요약을 설명으로 넣고 전문은 사이트로 연결합니다.
+const rfc822 = (iso) => new Date(iso).toUTCString();
+const cdata = (t) => `<![CDATA[${String(t).replace(/]]>/g, ']]&gt;')}]]>`;
+const feed = `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>AI 뉴스웨이브: AI 브리핑과 정리 기사</title>
+  <link>${SITE}/recap/</link>
+  <atom:link href="${SITE}/recap/feed.xml" rel="self" type="application/rss+xml"/>
+  <description>여러 매체가 함께 보도한 AI 소식을 사실만 모아 새로 정리한 글과 매일 AI 브리핑</description>
+  <language>ko</language>
+  <lastBuildDate>${rfc822(now)}</lastBuildDate>
+${sorted.slice(0, 50).map((st) => `  <item>
+    <title>${cdata(st.title)}</title>
+    <link>${SITE}/recap/${st.id}.html</link>
+    <guid isPermaLink="true">${SITE}/recap/${st.id}.html</guid>
+    <pubDate>${rfc822(st.published)}</pubDate>
+    <category>${cdata(st.type === 'briefing' ? 'AI 브리핑' : st.category)}</category>
+    <description>${cdata((st.points || []).join(' / ') || st.body[0] || '')}</description>
+  </item>`).join('\n')}
+</channel>
+</rss>
+`;
+await writeFile(path.join(dir, 'feed.xml'), feed);
 console.log(`정적 페이지 ${stories.length}건, sitemap.xml ${urls.length}개 주소`);

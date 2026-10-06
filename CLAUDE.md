@@ -115,7 +115,7 @@
 - 한 번에 30건을 그리고 "기사 더 보기" 로 30건씩 늘립니다. 주제, 매체, 검색어가 바뀌면 다시 30건으로 돌아갑니다.
 - 북마크는 `localStorage` 의 `bm` 키에 기사 스냅샷을 저장하므로 원본이 보관 기간을 넘겨 사라져도 남습니다.
 - 다크 모드는 기기 설정을 따르고 버튼으로 바꾸면 `localStorage` 의 `theme` 키에 고정됩니다. 색 토큰은 `:root`, `@media (prefers-color-scheme: dark)` 안의 `:root:not([data-theme="light"])`, `:root[data-theme="dark"]` 세 곳에 같은 값을 둡니다. 새 토큰을 추가할 때 세 곳을 함께 고쳐야 합니다.
-- PWA 는 `sw.js` 의 캐시 이름(`ainewswave-v27`)을 씁니다. 기사 데이터는 네트워크 우선에 오프라인이면 마지막 저장본, 화면 파일은 캐시 우선에 뒤에서 갱신합니다. 화면 파일을 고쳤는데 반영이 안 보이면 캐시 이름의 숫자를 올립니다.
+- PWA 는 `sw.js` 의 캐시 이름(`ainewswave-v28`)을 씁니다. 기사 데이터는 네트워크 우선에 오프라인이면 마지막 저장본, 화면 파일은 캐시 우선에 뒤에서 갱신합니다. 화면 파일을 고쳤는데 반영이 안 보이면 캐시 이름의 숫자를 올립니다.
 - 화면을 다시 열었을 때 데이터가 20분보다 오래되었으면 자동으로 다시 불러옵니다.
 - `localStorage` 접근은 모두 try/catch 로 감싸 저장소가 막힌 환경에서도 화면이 동작합니다.
 
@@ -130,6 +130,7 @@
 ## 검색 노출
 
 - `scripts/pages.mjs` 가 배포 때마다 정리 기사 모음 페이지(`/recap/`, 브리핑과 날짜별 정리 기사), 정리 기사와 브리핑마다(아래에 다른 정리 기사 5개 링크) 정적 페이지 `public/recap/<id>.html`(제목, 핵심 요약, 본문, 출처, NewsArticle 구조화 데이터, canonical)와 `public/sitemap.xml` 을 만듭니다. 생성물이라 저장소에는 넣지 않습니다(.gitignore).
+- 자체 RSS 피드 `/recap/feed.xml`: 정리 기사와 브리핑 최신 50건, 설명에는 핵심 요약만 넣고 본문은 사이트로 연결합니다. 메인과 정리 기사 페이지 head 에 alternate 링크가 있습니다.
 - 예전 주소 `/s/` 와 `/s/<id>.html` 은 `/recap/` 으로 바로 넘어가는 안내 페이지(canonical, noindex)로 남깁니다.
 - `public/404.html` 은 없는 주소일 때 GitHub Pages 가 보여 주는 안내 페이지입니다. 메인 도구 줄과 하단에 정리 기사 모음 링크가 있습니다.
 - `public/robots.txt` 는 전체 허용, `/data/` 만 제외하고 사이트맵 주소를 알립니다. 메인 `index.html` 에 description, canonical, og 태그와 네이버 서치어드바이저 소유 확인 태그(naver-site-verification)가 있습니다. Google Search Console 은 GA 코드로 소유 확인되어 있어 gtag 를 지우면 확인이 풀립니다.
