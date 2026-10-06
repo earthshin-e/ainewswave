@@ -1,6 +1,6 @@
 {
-  "name": "AI 인사이드",
-  "short_name": "AI 인사이드",
+  "name": "AI 뉴스웨이브",
+  "short_name": "AI 뉴스웨이브",
   "description": "국내 AI 관련 기사만 모아 보는 뉴스 큐레이션",
   "lang": "ko",
   "start_url": "./",
