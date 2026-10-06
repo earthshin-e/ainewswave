@@ -224,9 +224,9 @@
     const top = state.keywords.slice(0, TAB_TOP);
     const extra = state.kws.size && !(one && top.some((t) => t.label === one));
     const tabs = [`<button class="tab" role="tab" data-t="" aria-selected="${!state.kws.size}">전체</button>`]
-      .concat(top.map((t, i) => `<button class="tab" role="tab" data-t="${esc(t.label)}" aria-selected="${t.label === one}" title="최근 기사 ${t.count}건에서 언급"><i class="rk">${i + 1}</i>${esc(t.label)}</button>`));
+      .concat(top.map((t, i) => `<button class="tab" role="tab" data-t="${esc(t.label)}" aria-selected="${t.label === one}"><i class="rk">${i + 1}</i>${esc(t.label)}</button>`));
     if (state.keywords.length > TAB_TOP) {
-      tabs.push(`<button class="tab more-kw" type="button" id="btnKw" aria-pressed="${!!extra}">${extra ? `키워드 ${state.kws.size}개 선택` : `키워드 전체 ${state.keywords.length}`} <span aria-hidden="true">＋</span></button>`);
+      tabs.push(`<button class="tab more-kw" type="button" id="btnKw" aria-pressed="${!!extra}">${extra ? `키워드 ${state.kws.size}개 선택` : '키워드 전체'} <span aria-hidden="true">＋</span></button>`);
     }
     $('#tabs').innerHTML = tabs.join('');
     // 여러 키워드를 골랐으면 맨 끝의 선택 표시가 보이도록 탭 줄을 끝으로 넘깁니다.
@@ -235,7 +235,7 @@
 
   function renderKwSheet() {
     $('#kwList').innerHTML = state.keywords.map((k, i) =>
-      `<label class="kw-item"><input type="checkbox" value="${esc(k.label)}" ${state.kws.has(k.label) ? 'checked' : ''}><i class="rk">${i + 1}</i><span>${esc(k.label)}</span><em>${k.count}</em></label>`).join('');
+      `<label class="kw-item"><input type="checkbox" value="${esc(k.label)}" ${state.kws.has(k.label) ? 'checked' : ''}><i class="rk">${i + 1}</i><span>${esc(k.label)}</span></label>`).join('');
   }
 
   function renderSheet() {
