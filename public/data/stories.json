@@ -5,6 +5,682 @@
   ],
   "stories": [
     {
+      "id": "b20261007",
+      "type": "briefing",
+      "title": "10월 7일 AI 브리핑: 보스턴다이내믹스 새 수장과 AI 인프라 확장",
+      "category": "일반",
+      "published": "2026-10-07T09:38:55.695Z",
+      "points": [
+        "보스턴다이내믹스, AI 전문가를 CEO로 영입",
+        "AI 데이터센터와 전력 확보 경쟁 계속",
+        "기업 현장의 AI 전환과 보안 관제 확대"
+      ],
+      "body": [
+        "보스턴다이내믹스가 아마존에서 알렉사와 AI 연구를 이끈 로히트 프라사드를 신임 CEO로 영입했다. 피지컬 AI의 산업 현장 적용과 상용화를 앞당기려는 인사로, 8개 매체가 이 소식을 전했다.",
+        "kt클라우드는 인천 청라의 50MW급 AI 데이터센터 사업에 설계, 구축, 운영 파트너로 참여한다. 올해 4분기 착공해 2030년 1분기 준공을 목표로 하며, 7개 매체가 보도했다.",
+        "세일즈포스는 인스파이어 엔터테인먼트 리조트의 MICE 영업 AI 전환을 지원한다. 영업 데이터를 통합하는 데서 시작해 AI 기반 의사결정 체계로 단계적으로 넓힐 계획이다.",
+        "롯데글로벌로지스는 산업통상부 산하 한국산업기술기획평가원이 주관하는 2026년도 로봇산업기술개발사업 국책과제에 선정돼 물류용 휴머노이드 개발에 나선다. 조선비즈는 향후 5년간 전국 물류센터에서 피킹과 포장, 검수 등 6개 공정을 실증한다고 전했다.",
+        "한컴이노스트림은 AI와 AX 교육 브랜드 한컴 AX 랩을 공개하고 로봇 제어와 시뮬레이션 중심의 피지컬 AI 교육을 강화한다. 스마트라이프위크 2026에서 선보인 브랜드다.",
+        "로그프레소는 SIEM 플랫폼의 모니터링 범위를 챗GPT 엔터프라이즈 사용 기록까지 넓혔다. 기업이 생성형 AI 이용 기록을 기존 보안 로그와 함께 분석해 기밀정보 유출 정황을 살필 수 있게 하는 연동 앱이다.",
+        "구글은 컨스텔레이션 에너지와 총 3590MW 규모의 원전 전력 공급 계약을 맺었다. AI타임스에 따르면 전체 물량의 약 4분의 1은 기존 원전의 발전 용량을 늘려 확보한다. 디일렉은 와이오밍 데이터센터용 2.7GW 계약을 포함해 6GW 이상 규모의 전력 계약이 잇따랐다고 전했다.",
+        "지멘스 EDA 사업부와 TSMC는 AI 에이전트를 반도체 설계에 적용하는 협력을 강화한다. 설계 규칙 검사 오류 수정을 자동화해 테이프아웃까지의 기간을 줄이는 것이 목표다."
+      ],
+      "sources": [
+        {
+          "id": "a6bf7bcd588b",
+          "name": "국민일보",
+          "title": "보스턴다이내믹스 신임 CEO에 ‘알렉사’ 이끈 프라사드",
+          "link": "https://www.kmib.co.kr/article/view.asp?arcid=9000020691"
+        },
+        {
+          "id": "3bef293a346a",
+          "name": "로봇신문",
+          "title": "보스턴 다이나믹스, 아마존 AI 수장 출신 '로히트 프라사드' CEO 선임",
+          "link": "https://www.irobotnews.com/news/articleView.html?idxno=48868"
+        },
+        {
+          "id": "73afeca8029e",
+          "name": "디지털데일리",
+          "title": "‘아마존 AI 주역’ 로히트 프라사드, 보스턴다이나믹스 이끈다",
+          "link": "https://www.ddaily.co.kr/page/view/2026100707164415771"
+        },
+        {
+          "id": "6e1f73e3eed0",
+          "name": "테크월드뉴스",
+          "title": "보스턴다이나믹스, 신임 CEO에 로히트 프라사드 선임",
+          "link": "https://www.epnc.co.kr/news/articleView.html?idxno=407859"
+        },
+        {
+          "id": "5d7ec1a67a61",
+          "name": "디일렉",
+          "title": "kt클라우드, 50MW급 청라 AI 데이터센터 구축 참여…2030년 1분기 준공",
+          "link": "https://www.thelec.kr/news/articleView.html?idxno=63429"
+        },
+        {
+          "id": "fe51ddbc8a4c",
+          "name": "테크월드뉴스",
+          "title": "KT클라우드, 50MW급 ‘청라 AI 데이터센터’ 구축 참여",
+          "link": "https://www.epnc.co.kr/news/articleView.html?idxno=407890"
+        },
+        {
+          "id": "d86596257875",
+          "name": "IT조선",
+          "title": "KT클라우드, 인천 청라에 50MW AI 데이터센터 구축…2030년 준공",
+          "link": "https://it.chosun.com/news/articleView.html?idxno=2023092171538"
+        },
+        {
+          "id": "b01aca354368",
+          "name": "디지털투데이",
+          "title": "KT클라우드, 50MW급 ‘청라 AI 데이터센터’ 구축에 DBO 파트너로 참여",
+          "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=705502"
+        },
+        {
+          "id": "21d8a8caab75",
+          "name": "IT조선",
+          "title": "세일즈포스, 인스파이어 MICE 영업 AX 지원",
+          "link": "https://it.chosun.com/news/articleView.html?idxno=2023092171583"
+        },
+        {
+          "id": "a08949c30534",
+          "name": "디일렉",
+          "title": "세일즈포스-인스파이어, MICE 산업 AX 전략적 협력",
+          "link": "https://www.thelec.kr/news/articleView.html?idxno=63422"
+        },
+        {
+          "id": "33b6552d6c7c",
+          "name": "디지털데일리",
+          "title": "세일즈포스, 인스파이어 MICE 영업 시스템 구축…AI 기반 영업 확대",
+          "link": "https://www.ddaily.co.kr/page/view/2026100715074774915"
+        },
+        {
+          "id": "ad33d923318f",
+          "name": "조선비즈",
+          "title": "세일즈포스·인스파이어, MICE 영업 AX 협력",
+          "link": "https://biz.chosun.com/it-science/ict/2026/10/07/F24WETKSDFDRHOO5MVKJNGIPLE"
+        },
+        {
+          "id": "64d77a175f86",
+          "name": "로봇신문",
+          "title": "롯데글로벌로지스, 2026년 ‘휴머노이드 로봇’ 국책과제 선정",
+          "link": "https://www.irobotnews.com/news/articleView.html?idxno=48875"
+        },
+        {
+          "id": "1f0a6dc50955",
+          "name": "디지털데일리",
+          "title": "롯데글로벌로지스, ‘피지컬 AI’ 물류로봇 개발…휴머노이드가 피킹·포장까지",
+          "link": "https://www.ddaily.co.kr/page/view/2026100714032155843"
+        },
+        {
+          "id": "0a29fd6579cb",
+          "name": "아이뉴스24",
+          "title": "롯데글로벌로지스, 물류용 휴머노이드 국책과제 선정",
+          "link": "https://www.inews24.com/view/2012499"
+        },
+        {
+          "id": "684e8c0e875c",
+          "name": "조선비즈",
+          "title": "롯데글로벌로지스, 휴머노이드로 상품 선별·포장 자동화… 5년간 전국 센터서 실증",
+          "link": "https://biz.chosun.com/industry/company/2026/10/07/VODXGAFJ7VD3ZMGOFC6QLGY7WA"
+        },
+        {
+          "id": "d26913086ef6",
+          "name": "IT조선",
+          "title": "한컴이노스트림, AI·로봇 인력양성 위한 ‘한컴 AX 랩’ 브랜드 공개",
+          "link": "https://it.chosun.com/news/articleView.html?idxno=2023092171571"
+        },
+        {
+          "id": "036ca5eaa292",
+          "name": "테크월드뉴스",
+          "title": "한컴이노스트림, AI·AX 교육 브랜드 ‘한컴 AX 랩’ 선봬",
+          "link": "https://www.epnc.co.kr/news/articleView.html?idxno=407895"
+        },
+        {
+          "id": "5cb8d1ec580c",
+          "name": "디지털투데이",
+          "title": "한컴이노스트림, SLW 2026서 AI·AX 교육 브랜드 선봬",
+          "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=705520"
+        },
+        {
+          "id": "11528d0772fb",
+          "name": "테크M",
+          "title": "한컴이노스트림, 'SLW2026'서 AI·AX 교육 브랜드 '한컴 AX 랩' 띄웠다",
+          "link": "https://www.techm.kr/news/articleView.html?idxno=155898"
+        },
+        {
+          "id": "9d7831a20f6c",
+          "name": "IT조선",
+          "title": "로그프레소 SIEM, 챗GPT 대화·코덱스 사용까지 관제 범위 확대",
+          "link": "https://it.chosun.com/news/articleView.html?idxno=2023092171567"
+        },
+        {
+          "id": "33598038a4de",
+          "name": "디지털투데이",
+          "title": "로그프레소, SIEM 모니터링 범위 생성형 AI로 확대...챗GPT 엔터프라이즈부터",
+          "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=705528"
+        },
+        {
+          "id": "e6904278b004",
+          "name": "데이터넷",
+          "title": "로그프레소, 챗GPT 엔터프라이즈 감사 로그 SIEM 연동",
+          "link": "https://www.datanet.co.kr/news/articleView.html?idxno=214945"
+        },
+        {
+          "id": "370e43dd6f61",
+          "name": "디지털데일리",
+          "title": "로그프레소, '챗GPT 엔터프라이즈' 연동 앱 출시",
+          "link": "https://www.ddaily.co.kr/page/view/2026100709542135358"
+        },
+        {
+          "id": "a915b7b191df",
+          "name": "테크M",
+          "title": "[글로벌] 구글, AI 데이터센터 전력 3.6GW 확보.. 원전까지 키운다",
+          "link": "https://www.techm.kr/news/articleView.html?idxno=155908"
+        },
+        {
+          "id": "7a5717fa067c",
+          "name": "AI타임스",
+          "title": "구글, AI 데이터센터 전력 확보 위해 3.6GW 규모 원전 계약 체결",
+          "link": "https://www.aitimes.com/news/articleView.html?idxno=216038"
+        },
+        {
+          "id": "fe38b1905546",
+          "name": "디일렉",
+          "title": "구글, 6GW 이상 전력 잇따라 계약...AI 데이터센터 전력 수요 확보",
+          "link": "https://www.thelec.kr/news/articleView.html?idxno=63387"
+        },
+        {
+          "id": "9c6794341911",
+          "name": "디일렉",
+          "title": "지멘스-TSMC, 반도체 설계에 에이전틱 AI 적용",
+          "link": "https://www.thelec.kr/news/articleView.html?idxno=63389"
+        },
+        {
+          "id": "d4164b631d06",
+          "name": "헬로티",
+          "title": "지멘스·TSMC, AI 에이전트로 반도체 DRC 오류 수정 자동화…테이프아웃 기간 단축",
+          "link": "https://www.hellot.net/news/article.html?no=115330"
+        },
+        {
+          "id": "c121f71c862c",
+          "name": "테크월드뉴스",
+          "title": "지멘스·TSMC, ‘AI 에이전트’로 반도체 설계 판 바꾼다",
+          "link": "https://www.epnc.co.kr/news/articleView.html?idxno=407860"
+        },
+        {
+          "id": "a6ed860b2294",
+          "name": "디지털데일리",
+          "title": "지멘스 EDA-TSMC, 'AI 에이전트' 협력 확대… 첨단 반도체 설계 자동화 가속",
+          "link": "https://www.ddaily.co.kr/page/view/2026100709305321891"
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "s20261007-5d7ec1a67a61",
+      "title": "kt클라우드, 인천 청라 50MW급 AI 데이터센터 구축에 참여",
+      "category": "기업",
+      "published": "2026-10-07T09:00:56.000Z",
+      "points": [
+        "청라 50MW급 AI 데이터센터 사업 참여",
+        "설계 구축 운영을 맡는 DBO 파트너",
+        "올해 4분기 착공, 2030년 1분기 준공 목표"
+      ],
+      "body": [
+        "kt클라우드가 인천 청라 지역에 들어서는 50MW급 AI 데이터센터 사업에 참여한다. 회사는 7일 설계, 구축, 운영(DBO) 파트너로 참여한다고 밝혔다. 데이터센터는 지하 2층에서 지상 11층 규모이고 수전용량은 50MW다.",
+        "일정은 올해 4분기 착공해 2030년 1분기 준공을 목표로 한다. 디일렉과 테크M, 디지털투데이 등 여러 매체가 같은 일정을 전했다.",
+        "kt클라우드는 이번 참여로 수도권 AI 데이터센터 공급 기반을 넓힌다는 계획이다. IT조선은 회사가 2031년까지 1GW 이상의 AI 데이터센터 공급 역량을 확보하려 한다고 전했고, 조선비즈는 수도권 서부에 새 거점을 확보해 늘어나는 AI와 클라우드 인프라 수요에 대응하려는 구상이라고 설명했다."
+      ],
+      "sources": [
+        {
+          "id": "5d7ec1a67a61",
+          "name": "디일렉",
+          "title": "kt클라우드, 50MW급 청라 AI 데이터센터 구축 참여…2030년 1분기 준공",
+          "link": "https://www.thelec.kr/news/articleView.html?idxno=63429"
+        },
+        {
+          "id": "fe51ddbc8a4c",
+          "name": "테크월드뉴스",
+          "title": "KT클라우드, 50MW급 ‘청라 AI 데이터센터’ 구축 참여",
+          "link": "https://www.epnc.co.kr/news/articleView.html?idxno=407890"
+        },
+        {
+          "id": "d86596257875",
+          "name": "IT조선",
+          "title": "KT클라우드, 인천 청라에 50MW AI 데이터센터 구축…2030년 준공",
+          "link": "https://it.chosun.com/news/articleView.html?idxno=2023092171538"
+        },
+        {
+          "id": "b01aca354368",
+          "name": "디지털투데이",
+          "title": "KT클라우드, 50MW급 ‘청라 AI 데이터센터’ 구축에 DBO 파트너로 참여",
+          "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=705502"
+        },
+        {
+          "id": "a1e1394c8d94",
+          "name": "테크M",
+          "title": "KT클라우드, 50MW 청라 AI 데이터센터 사업 참여...2030년 준공 목표",
+          "link": "https://www.techm.kr/news/articleView.html?idxno=155893"
+        },
+        {
+          "id": "612dc1556783",
+          "name": "데이터넷",
+          "title": "kt 클라우드, 청라 50MW급 AI 데이터센터 구축 참가 ··· 수도권 AIDC 공급 확대",
+          "link": "https://www.datanet.co.kr/news/articleView.html?idxno=214936"
+        },
+        {
+          "id": "c759fbd27f44",
+          "name": "조선비즈",
+          "title": "KT클라우드, 청라 50MW AI 데이터센터 설계·구축·운영 파트너로 참여",
+          "link": "https://biz.chosun.com/it-science/ict/2026/10/07/MEPGNN4MTFBEZJMW5OWCIZPI4I"
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "s20261007-a6bf7bcd588b",
+      "title": "보스턴다이내믹스, 아마존 출신 로히트 프라사드를 신임 CEO로 영입",
+      "category": "로봇",
+      "published": "2026-10-07T08:38:00.000Z",
+      "points": [
+        "아마존 알렉사 이끈 AI 전문가 CEO 선임",
+        "피지컬 AI 상용화 가속이 영입 목적",
+        "아틀라스 양산 준비와 맞물린 인사"
+      ],
+      "body": [
+        "현대자동차그룹의 로봇 계열사 보스턴다이내믹스가 아마존에서 알렉사와 AI 연구를 이끌었던 로히트 프라사드를 신임 최고경영자(CEO)로 영입했다. 프라사드는 대화형 AI, 생성형 AI, 멀티모달 AI, 범용인공지능(AGI) 분야의 기술 발전을 이끌어온 전문가로 소개됐다.",
+        "보도들은 이번 인사의 목적을 피지컬 AI 경쟁력 강화로 설명했다. 로봇 하드웨어에 AI를 결합해 산업 현장 적용과 상용화를 앞당긴다는 구상이다. 발표 시점은 매체마다 표현이 달랐다. 대부분은 회사가 7일 밝혔다고 전했고, 로봇신문은 6일(현지 시간) 발표했으며 7일부터 임기를 시작한다고 적었다.",
+        "블로터는 보스턴다이내믹스가 로봇공학자가 아닌 AI 플랫폼 전문가를 CEO로 맞았다는 점에 주목했다. 휴머노이드 로봇 아틀라스의 현대차그룹 제조 현장 투입과 양산 준비가 본격화되는 만큼, 운동 성능 못지않게 AI 학습과 사업화 역량이 중요해졌다는 판단이 깔려 있다고 분석했다."
+      ],
+      "sources": [
+        {
+          "id": "a6bf7bcd588b",
+          "name": "국민일보",
+          "title": "보스턴다이내믹스 신임 CEO에 ‘알렉사’ 이끈 프라사드",
+          "link": "https://www.kmib.co.kr/article/view.asp?arcid=9000020691"
+        },
+        {
+          "id": "3bef293a346a",
+          "name": "로봇신문",
+          "title": "보스턴 다이나믹스, 아마존 AI 수장 출신 '로히트 프라사드' CEO 선임",
+          "link": "https://www.irobotnews.com/news/articleView.html?idxno=48868"
+        },
+        {
+          "id": "73afeca8029e",
+          "name": "디지털데일리",
+          "title": "‘아마존 AI 주역’ 로히트 프라사드, 보스턴다이나믹스 이끈다",
+          "link": "https://www.ddaily.co.kr/page/view/2026100707164415771"
+        },
+        {
+          "id": "6e1f73e3eed0",
+          "name": "테크월드뉴스",
+          "title": "보스턴다이나믹스, 신임 CEO에 로히트 프라사드 선임",
+          "link": "https://www.epnc.co.kr/news/articleView.html?idxno=407859"
+        },
+        {
+          "id": "05bc6aa7dc77",
+          "name": "블로터",
+          "title": "보스턴다이내믹스, 아틀라스 사업화 승부…‘알렉사 주역’ CEO 선임",
+          "link": "https://www.bloter.net/news/articleView.html?idxno=675139"
+        },
+        {
+          "id": "99e80950c586",
+          "name": "IT조선",
+          "title": "보스턴다이나믹스, 아마존 핵심 인물 '로히트 프라사드' 영입",
+          "link": "https://it.chosun.com/news/articleView.html?idxno=2023092171529"
+        },
+        {
+          "id": "2a5a45cf972a",
+          "name": "EBN",
+          "title": "'아마존 AGI 총괄 출신' 로히트 프라사드, 보스턴다이나믹스 CEO로",
+          "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1726911"
+        },
+        {
+          "id": "d834da993499",
+          "name": "조선비즈",
+          "title": "보스턴다이내믹스, 신임 CEO에 아마존 출신 AI 전문가 영입",
+          "link": "https://biz.chosun.com/industry/car/2026/10/07/FXM3JDL2JBB3TBMWVJNV5L2DFI"
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "s20261007-21d8a8caab75",
+      "title": "세일즈포스, 인스파이어 MICE 사업 영업의 AI 전환 지원",
+      "category": "기업",
+      "published": "2026-10-07T08:06:16.000Z",
+      "points": [
+        "세일즈포스와 인스파이어, MICE 영업 협력",
+        "영업 데이터 통합에서 AI 의사결정까지",
+        "세일즈 클라우드를 B2B 영업 조직에 도입"
+      ],
+      "body": [
+        "세일즈포스가 인스파이어 엔터테인먼트 리조트와 전략적 협력을 맺고 회의, 포상관광, 컨벤션, 전시(MICE) 사업 부문의 AI 전환(AX)을 추진한다. 양사는 7일 영업 데이터 통합부터 AI 기반 의사결정 체계 구축까지 단계적으로 협력한다고 밝혔다.",
+        "조선비즈에 따르면 인스파이어는 세일즈포스의 영업 특화 솔루션 세일즈 클라우드를 MICE B2B 영업 조직 전체에 도입해 데이터 기반 영업 관리 체계를 구축한다. IT조선은 분산된 영업 데이터를 통합해 고객 관리와 매출 예측에 활용한다고 전했다.",
+        "디지털데일리와 IT조선은 AI를 활용한 영업 지원 체계가 당장 도입되는 것이 아니라 향후 확대될 계획이라고 짚었다."
+      ],
+      "sources": [
+        {
+          "id": "21d8a8caab75",
+          "name": "IT조선",
+          "title": "세일즈포스, 인스파이어 MICE 영업 AX 지원",
+          "link": "https://it.chosun.com/news/articleView.html?idxno=2023092171583"
+        },
+        {
+          "id": "a08949c30534",
+          "name": "디일렉",
+          "title": "세일즈포스-인스파이어, MICE 산업 AX 전략적 협력",
+          "link": "https://www.thelec.kr/news/articleView.html?idxno=63422"
+        },
+        {
+          "id": "33b6552d6c7c",
+          "name": "디지털데일리",
+          "title": "세일즈포스, 인스파이어 MICE 영업 시스템 구축…AI 기반 영업 확대",
+          "link": "https://www.ddaily.co.kr/page/view/2026100715074774915"
+        },
+        {
+          "id": "ee091ca6a39b",
+          "name": "테크월드뉴스",
+          "title": "세일즈포스-인스파이어, MICE 산업 혁신 앞장…AI 기반 차세대 B2B 영업 모델 구축",
+          "link": "https://www.epnc.co.kr/news/articleView.html?idxno=407866"
+        },
+        {
+          "id": "ad33d923318f",
+          "name": "조선비즈",
+          "title": "세일즈포스·인스파이어, MICE 영업 AX 협력",
+          "link": "https://biz.chosun.com/it-science/ict/2026/10/07/F24WETKSDFDRHOO5MVKJNGIPLE"
+        },
+        {
+          "id": "f734893dec6c",
+          "name": "디지털투데이",
+          "title": "세일즈포스, 인스파이어와 MICE 부문 AX 협력",
+          "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=705526"
+        },
+        {
+          "id": "e4c2f2c294b6",
+          "name": "데이터넷",
+          "title": "세일즈포스·인스파이어, MICE 영업 AX 맞손 ··· 데이터 통합 AI 의사결정 강화",
+          "link": "https://www.datanet.co.kr/news/articleView.html?idxno=214931"
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "s20261007-d26913086ef6",
+      "title": "한컴이노스트림, AI와 AX 교육 브랜드 한컴 AX 랩 공개",
+      "category": "기업",
+      "published": "2026-10-07T08:05:55.000Z",
+      "points": [
+        "한컴이노스트림, 교육 브랜드 한컴 AX 랩 공개",
+        "로봇 제어와 시뮬레이션 중심 피지컬 AI 교육",
+        "스마트라이프위크 2026에서 선보임"
+      ],
+      "body": [
+        "한컴 자회사 한컴이노스트림이 AI와 AI 전환(AX) 교육 전문 브랜드 한컴 AX 랩(HANCOM AX LAB)을 공개했다. 서울 코엑스에서 6일부터 8일까지 열리는 스마트라이프위크(SLW) 2026에서 선보였다.",
+        "한컴 AX 랩은 한컴이노스트림이 오토모티브와 임베디드 분야에서 쌓아온 기술과 교육 경험을 AI와 AX 전문교육으로 확장한 브랜드다. 로봇 제어와 시뮬레이션을 중심으로 피지컬 AI 교육을 강화한다.",
+        "IT조선은 엔비디아, 퓨리오사AI 등과 연계해 기업과 기관의 AX에 필요한 인력 양성을 지원한다고 전했다."
+      ],
+      "sources": [
+        {
+          "id": "d26913086ef6",
+          "name": "IT조선",
+          "title": "한컴이노스트림, AI·로봇 인력양성 위한 ‘한컴 AX 랩’ 브랜드 공개",
+          "link": "https://it.chosun.com/news/articleView.html?idxno=2023092171571"
+        },
+        {
+          "id": "036ca5eaa292",
+          "name": "테크월드뉴스",
+          "title": "한컴이노스트림, AI·AX 교육 브랜드 ‘한컴 AX 랩’ 선봬",
+          "link": "https://www.epnc.co.kr/news/articleView.html?idxno=407895"
+        },
+        {
+          "id": "5cb8d1ec580c",
+          "name": "디지털투데이",
+          "title": "한컴이노스트림, SLW 2026서 AI·AX 교육 브랜드 선봬",
+          "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=705520"
+        },
+        {
+          "id": "11528d0772fb",
+          "name": "테크M",
+          "title": "한컴이노스트림, 'SLW2026'서 AI·AX 교육 브랜드 '한컴 AX 랩' 띄웠다",
+          "link": "https://www.techm.kr/news/articleView.html?idxno=155898"
+        },
+        {
+          "id": "4c1bf85cb7c9",
+          "name": "EBN",
+          "title": "[Tech & Now] 한컴이노스트림, AI·AX 교육 브랜드 '한컴 AX 랩' 출범 등",
+          "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1726936"
+        },
+        {
+          "id": "020f62f90b8e",
+          "name": "디지털데일리",
+          "title": "한컴이노스트림, AI·AX 교육 브랜드 ‘한컴 AX 랩’ 공개",
+          "link": "https://www.ddaily.co.kr/page/view/2026100709032712023"
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "s20261007-9d7831a20f6c",
+      "title": "로그프레소, SIEM 관제 범위를 챗GPT 엔터프라이즈까지 확대",
+      "category": "보안/윤리",
+      "published": "2026-10-07T08:05:49.000Z",
+      "points": [
+        "SIEM 모니터링을 생성형 AI 이용까지 확대",
+        "챗GPT 엔터프라이즈 연동 앱 출시",
+        "AI 사용 기록을 기존 보안 로그와 통합 분석"
+      ],
+      "body": [
+        "보안정보이벤트관리(SIEM) 기업 로그프레소가 자사 플랫폼의 모니터링 범위를 기업의 생성형 AI 이용 활동까지 넓혔다. 우선 오픈AI의 챗GPT 엔터프라이즈 사용 기록을 기존 보안 로그와 통합 분석하는 연동 앱을 출시했다고 7일 밝혔다.",
+        "데이터넷에 따르면 이 앱은 챗GPT 컴플라이언스 API와 연동해 챗GPT 엔터프라이즈 워크스페이스에서 발생하는 대화 기록을 수집한다. IT조선은 고객정보나 소스코드 같은 기밀정보의 유출 정황을 보안 로그와 함께 분석할 수 있다고 전했다.",
+        "관제 대상은 매체별로 조금 다르게 소개됐다. 다른 매체들은 챗GPT 엔터프라이즈 연동을 중심으로 보도한 반면, IT조선은 챗GPT 대화와 코덱스 사용까지 관제 범위가 늘었다고 제목에서 밝혔다."
+      ],
+      "sources": [
+        {
+          "id": "9d7831a20f6c",
+          "name": "IT조선",
+          "title": "로그프레소 SIEM, 챗GPT 대화·코덱스 사용까지 관제 범위 확대",
+          "link": "https://it.chosun.com/news/articleView.html?idxno=2023092171567"
+        },
+        {
+          "id": "33598038a4de",
+          "name": "디지털투데이",
+          "title": "로그프레소, SIEM 모니터링 범위 생성형 AI로 확대...챗GPT 엔터프라이즈부터",
+          "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=705528"
+        },
+        {
+          "id": "e6904278b004",
+          "name": "데이터넷",
+          "title": "로그프레소, 챗GPT 엔터프라이즈 감사 로그 SIEM 연동",
+          "link": "https://www.datanet.co.kr/news/articleView.html?idxno=214945"
+        },
+        {
+          "id": "370e43dd6f61",
+          "name": "디지털데일리",
+          "title": "로그프레소, '챗GPT 엔터프라이즈' 연동 앱 출시",
+          "link": "https://www.ddaily.co.kr/page/view/2026100709542135358"
+        },
+        {
+          "id": "e6f914ddff53",
+          "name": "테크월드뉴스",
+          "title": "로그프레소, '챗GPT 엔터프라이즈' 연동 앱으로 AI 사용 활동까지 관리",
+          "link": "https://www.epnc.co.kr/news/articleView.html?idxno=407850"
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "s20261007-a901850f3b4e",
+      "title": "트웰브랩스, 로봇 학습용 영상 이해 모델 페가수스 1.6 출시",
+      "category": "로봇",
+      "published": "2026-10-07T08:05:23.000Z",
+      "points": [
+        "1인칭 영상을 로봇 학습 데이터로 정제",
+        "비전언어모델 페가수스 1.6 출시",
+        "미디어에서 피지컬 AI로 사업 확대"
+      ],
+      "body": [
+        "트웰브랩스가 사람 시선에서 촬영한 1인칭 영상, 이른바 에고센트릭 데이터를 이해하도록 설계한 비전언어모델(VLM) 페가수스 1.6을 출시했다고 7일 밝혔다.",
+        "이 모델은 영상 속 행동과 사물, 작업 순서를 자동으로 파악해 로봇 학습 데이터로 정제한다. IT조선은 데이터 가공에 필요한 시간과 인력을 줄일 수 있다고 전했다.",
+        "AI타임스는 트웰브랩스가 엔터테인먼트, 스포츠, 공공 분야에 적용해온 영상 이해 기술을 로봇 등 피지컬 AI 분야로 넓힌다고 설명했다."
+      ],
+      "sources": [
+        {
+          "id": "a901850f3b4e",
+          "name": "IT조선",
+          "title": "1인칭 영상 분석 AI로 로봇 학습 가속…트웰브랩스, ‘페가수스 1.6’ 공개",
+          "link": "https://it.chosun.com/news/articleView.html?idxno=2023092171556"
+        },
+        {
+          "id": "97703442747a",
+          "name": "AI타임스",
+          "title": "\"1인칭 영상을 로봇 학습 데이터로\"...트웰브랩스 '페가수스 1.6' 출시",
+          "link": "https://www.aitimes.com/news/articleView.html?idxno=216022"
+        },
+        {
+          "id": "69d3acfa8247",
+          "name": "디지털데일리",
+          "title": "트웰브랩스, 로봇 학습용 영상 AI 출시",
+          "link": "https://www.ddaily.co.kr/page/view/2026100709272609763"
+        },
+        {
+          "id": "5592b939a6d2",
+          "name": "디지털투데이",
+          "title": "트웰브랩스, 영상 이해 모델 페가수스 1.6 출시...미디어 넘어 피지컬AI로 확장",
+          "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=705411"
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "s20261007-fc8992673ea1",
+      "title": "한양대 ERICA, 과기정통부 AX대학원 사업에 선정",
+      "category": "정책",
+      "published": "2026-10-07T07:25:09.000Z",
+      "points": [
+        "한양대 ERICA, AX대학원 사업 선정",
+        "AI 로봇 기반 산업 AX 인재 양성",
+        "석박사급 인재 240명 이상 양성 목표"
+      ],
+      "body": [
+        "한양대 ERICA가 과학기술정보통신부와 정보통신기획평가원의 2026 인공지능혁신인재양성사업(AX대학원)에 선정됐다. AI와 로봇 기술을 산업 현장에 적용해 산업의 AI 전환(AX)을 이끌 석박사급 고급인재를 기른다는 계획이다.",
+        "교수신문과 베리타스알파는 실무형 고급인재 240명 이상 양성을 목표로 한다고 전했다. 교수신문은 연평균 6명 이상의 글로벌 인턴십 기회를 제공하고 산학공동프로젝트 113건을 추진한다고 덧붙였다.",
+        "보도 시점은 매체마다 달랐다. 교수신문과 베리타스알파는 6일에, 로봇신문은 7일에 이 소식을 전했다."
+      ],
+      "sources": [
+        {
+          "id": "fc8992673ea1",
+          "name": "로봇신문",
+          "title": "한양대 ERICA, ‘AX대학원’ 선정… AI·로봇 기반 산업AX 인재 양성 본격화",
+          "link": "https://www.irobotnews.com/news/articleView.html?idxno=48876"
+        },
+        {
+          "id": "75d46f25a7ad",
+          "name": "교수신문",
+          "title": "한양대 ERICA, 2026 인공지능혁신인재양성사업 선정…AI·로봇 석박사 240명 양성",
+          "link": "https://www.kyosu.net/news/articleView.html?idxno=210954"
+        },
+        {
+          "id": "093fc551fea9",
+          "name": "베리타스알파",
+          "title": "한양대 ERICA 2026 인공지능혁신인재양성사업(AX대학원) 선정.. 'AI로봇 기반 산업 AX 이끌 석/박사급 인재 240명 이상 양성'",
+          "link": "https://www.veritas-a.com/news/articleView.html?idxno=630734"
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "s20261007-9c6794341911",
+      "title": "지멘스와 TSMC, 반도체 설계에 에이전틱 AI 적용 확대",
+      "category": "반도체",
+      "published": "2026-10-07T07:00:03.000Z",
+      "points": [
+        "지멘스 EDA와 TSMC의 AI 설계 협력 강화",
+        "AI 에이전트로 DRC 오류 수정 자동화",
+        "테이프아웃까지 설계 생산성 향상 목표"
+      ],
+      "body": [
+        "지멘스 디지털 인더스트리 소프트웨어의 EDA 사업부가 TSMC와 에이전틱 AI 기반 반도체 설계 자동화 협력을 강화한다고 7일 밝혔다. 양사는 TSMC 오픈 이노베이션 플랫폼(OIP) 생태계를 바탕으로 설계 워크플로 전반의 생산성을 높인다.",
+        "헬로티와 테크월드뉴스는 AI 에이전트가 설계 규칙 검사(DRC) 오류 수정을 자동화해 테이프아웃 기간을 줄인다고 전했다. 테크월드뉴스는 배치와 배선, 3D IC, 실리콘 포토닉스 설계에도 AI와 에이전틱 워크플로를 적용한다고 설명했다.",
+        "디지털데일리는 3DFabric과 CoWoS-L 같은 패키징 기술 고도화와 함께 A14, A16, 2나노, 3나노 공정 인증을 획득했다고 덧붙였다."
+      ],
+      "sources": [
+        {
+          "id": "9c6794341911",
+          "name": "디일렉",
+          "title": "지멘스-TSMC, 반도체 설계에 에이전틱 AI 적용",
+          "link": "https://www.thelec.kr/news/articleView.html?idxno=63389"
+        },
+        {
+          "id": "d4164b631d06",
+          "name": "헬로티",
+          "title": "지멘스·TSMC, AI 에이전트로 반도체 DRC 오류 수정 자동화…테이프아웃 기간 단축",
+          "link": "https://www.hellot.net/news/article.html?no=115330"
+        },
+        {
+          "id": "c121f71c862c",
+          "name": "테크월드뉴스",
+          "title": "지멘스·TSMC, ‘AI 에이전트’로 반도체 설계 판 바꾼다",
+          "link": "https://www.epnc.co.kr/news/articleView.html?idxno=407860"
+        },
+        {
+          "id": "a6ed860b2294",
+          "name": "디지털데일리",
+          "title": "지멘스 EDA-TSMC, 'AI 에이전트' 협력 확대… 첨단 반도체 설계 자동화 가속",
+          "link": "https://www.ddaily.co.kr/page/view/2026100709305321891"
+        },
+        {
+          "id": "1de71ce4ab08",
+          "name": "인공지능신문",
+          "title": "지멘스·TSMC, AI 기반 반도체 설계 자동화 고도화...공동 혁신 통해 설계부터 테이프아웃까지 생산성 향상",
+          "link": "https://www.aitimes.kr/news/articleView.html?idxno=42200"
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "s20261007-449c64423950",
+      "title": "SKT, 한글날 100주년 맞아 AI로 우리말 기록 되살리는 말모이 캠페인",
+      "category": "일반",
+      "published": "2026-10-07T05:40:08.000Z",
+      "points": [
+        "SKT, 국립국어원 등과 2026 말모이 진행",
+        "AI로 100년 전 우리말 기록을 되살림",
+        "글꼴과 책자로 재구성"
+      ],
+      "body": [
+        "SK텔레콤이 국립국어원, 국립한글박물관과 함께 한글날 제정 100주년 기념 캠페인 2026 말모이를 진행한다고 7일 밝혔다. 우리말 기록을 AI로 되살리는 캠페인이다.",
+        "말모이는 주시경 선생과 제자들이 우리말을 모아 정리한 최초의 우리말 사전 원고다. 한국NGO신문은 이 기록을 AI로 분석해 글꼴과 책자로 재구성했다고 전했다.",
+        "EBN은 SK텔레콤이 자체 개발한 AI 모델을 활용해 100여 년 전 모은 우리말을 누구나 쓸 수 있는 글꼴과 말로 되살렸다고 소개했다."
+      ],
+      "sources": [
+        {
+          "id": "449c64423950",
+          "name": "EBN",
+          "title": "[Telecom & Now] SKT, 자체 개발 AI로 100년 전 우리말·글 되살렸다 등",
+          "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1726995"
+        },
+        {
+          "id": "1634af3beefb",
+          "name": "디지털데일리",
+          "title": "SKT, AI로 100년 전 우리말 되살린다",
+          "link": "https://www.ddaily.co.kr/page/view/2026100711475937293"
+        },
+        {
+          "id": "6e0025eb7b0d",
+          "name": "아이뉴스24",
+          "title": "SKT, AI로 100년 전 우리말 되살린다…한글날 '2026 말모이' 캠페인",
+          "link": "https://www.inews24.com/view/2012547"
+        },
+        {
+          "id": "7484dd6106b2",
+          "name": "한국NGO신문",
+          "title": "SKT, 한글날 100주년 맞아 ‘말모이’ AI로 잇는다…글꼴·우리말 책자 공개",
+          "link": "https://www.ngonews.kr/news/articleView.html?idxno=239978"
+        }
+      ],
+      "auto": true
+    },
+    {
       "id": "s20261006-7fec205dcf33",
       "title": "인포시즈, 그래프 기반 AI 보안 솔루션 GOS 출시",
       "category": "보안/윤리",
@@ -468,6 +1144,49 @@
           "name": "디지털투데이",
           "title": "리플렉션, 미국산 오픈 웨이트 모델로 AI판 대공세 예고",
           "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=705010"
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "s20261007-928badc57f1b",
+      "title": "엔비디아, 개인용 AI 슈퍼컴퓨터 DGX 스파크 64GB 구성 공개",
+      "category": "반도체",
+      "published": "2026-10-06T05:35:00.000Z",
+      "points": [
+        "DGX 스파크 64GB 구성 공개",
+        "1000억 매개변수 모델을 로컬에서 구동",
+        "4999달러, 두 대 연결 시 2000억 파라미터"
+      ],
+      "body": [
+        "엔비디아가 콤팩트한 개인용 AI 슈퍼컴퓨터 DGX 스파크의 64GB 구성을 6일 공개했다. 인공지능신문과 디지털투데이는 이 구성으로 최대 1000억 파라미터 규모의 AI 모델을 로컬에서 실행할 수 있다고 전했다.",
+        "인공지능신문은 가격이 4999달러이며 두 대를 연결하면 2000억 파라미터까지 다룰 수 있다고 보도했다. 이 가격과 연결 구성은 다른 매체 요약에서는 확인되지 않았다.",
+        "디지털투데이는 디바이스에서 로컬 에이전트를 실행할 수 있어 클라우드에 의존하는 정도를 줄일 수 있다고 설명했다."
+      ],
+      "sources": [
+        {
+          "id": "928badc57f1b",
+          "name": "테크월드뉴스",
+          "title": "엔비디아, 개인용 AI 슈퍼컴퓨터 확장…DGX 스파크 64GB 공개",
+          "link": "https://www.epnc.co.kr/news/articleView.html?idxno=407799"
+        },
+        {
+          "id": "414c4d41478d",
+          "name": "인공지능신문",
+          "title": "엔비디아, 4999달러 개인용 AI 슈퍼컴퓨터 공개…두 대 연결해 2000억 파라미터까지",
+          "link": "https://www.aitimes.kr/news/articleView.html?idxno=42197"
+        },
+        {
+          "id": "7176543fbd78",
+          "name": "케이벤치",
+          "title": "엔비디아, DGX 스파크 64GB 공개.. 로컬 AI 구축 확장 지원",
+          "link": "https://kbench.com/?q=node/282350"
+        },
+        {
+          "id": "5b1be4b6d63b",
+          "name": "디지털투데이",
+          "title": "엔비디아, DGX 스파크 64GB 공개...1000억 매개변수 모델 로컬 구동",
+          "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=705107"
         }
       ],
       "auto": true
