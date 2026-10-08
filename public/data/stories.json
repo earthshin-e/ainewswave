@@ -5,6 +5,646 @@
   ],
   "stories": [
     {
+      "id": "b20261008",
+      "type": "briefing",
+      "title": "10월 8일 AI 브리핑: 삼성전자 영업이익 100조원과 GPT-6 확대",
+      "category": "일반",
+      "published": "2026-10-08T09:38:56.558Z",
+      "points": [
+        "AI 반도체 수요가 삼성전자와 TSMC 실적으로 확인",
+        "GPT-6와 클로드 하이쿠 5.5 등 모델 경쟁 계속",
+        "독자 AI 협력과 보안 위협 대응 움직임"
+      ],
+      "body": [
+        "삼성전자가 올해 3분기 잠정 영업이익 107조4000억원을 기록했다. 국내 기업 최초의 분기 영업이익 100조원 돌파로, 시장 전망치인 약 106조원을 웃돌았다. 3개 매체가 전했다.",
+        "TSMC도 3분기 매출이 전년 동기 대비 50% 넘게 늘었다. 9월 단월 매출은 5118억6000만 대만달러로 54.6% 증가했다. AI 반도체 수요가 실적으로 이어지고 있다는 해석이 나왔다.",
+        "오픈AI는 GPT-6를 무료 이용자를 포함한 챗GPT 전반으로 넓히고, 질문에 따라 답변 화면을 구성하는 인텔리전트 UI를 도입한다. 앤트로픽은 7일(현지시간) 소형 모델 클로드 하이쿠 5.5를 내놨다. 비용 절감 폭은 평균 75%라는 보도와 최대 90%라는 보도가 엇갈린다.",
+        "SK텔레콤과 업스테이지는 보안기업 6곳, 대학 3곳과 독자 AI 사이버보안 협의체를 출범했다. 보안 데이터를 독자 AI 모델에 학습시켜 악성코드 탐지와 취약점 분석에 쓸 계획이다. 같은 날 크라우드스트라이크는 국내 금융권 해킹의 배후로 중국 광둥성 거주 26세 인물을 추정했다.",
+        "델은 엔비디아 RTX 스파크를 탑재한 XPS 16 크리에이터 에디션을 공개했고 국내에는 16일 출시한다. 한컴은 AWS와 AI 워크포스 플랫폼 노마디안의 미국 진출을 추진하며, 12월 말 베타 공개를 앞두고 있다."
+      ],
+      "sources": [
+        {
+          "id": "1a56cc8f5285",
+          "name": "AI타임스",
+          "title": "삼성전자, 3분기 영업익 107조...애플·엔비디아도 못 넘은 '100조' 첫 달성",
+          "link": "https://www.aitimes.com/news/articleView.html?idxno=216062"
+        },
+        {
+          "id": "62ed1dd146ba",
+          "name": "아이뉴스24",
+          "title": "삼성전자, 엔비디아도 넘은 '영업익 100조'...2028년에도 좋다[종합]",
+          "link": "https://www.inews24.com/view/2012989"
+        },
+        {
+          "id": "ff406c5ab422",
+          "name": "국민일보",
+          "title": "‘3분기 영업이익 100조원’ 삼성, 엔비디아까지 제칠까",
+          "link": "https://www.kmib.co.kr/article/view.asp?arcid=9000020878"
+        },
+        {
+          "id": "3a833819166b",
+          "name": "디지털투데이",
+          "title": "AI 칩 주문 폭주…TSMC 3분기 매출 또 '사상 최대'",
+          "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=705995"
+        },
+        {
+          "id": "c38994bd9751",
+          "name": "IT조선",
+          "title": "TSMC 3분기 매출 51% 급증…AI 인프라 수요 지속 입증",
+          "link": "https://it.chosun.com/news/articleView.html?idxno=2023092171683"
+        },
+        {
+          "id": "d98f9e3785db",
+          "name": "EBN",
+          "title": "TSMC 3분기 매출 51% 급증…AI 인프라 투자 지속성에 청신호",
+          "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1727205"
+        },
+        {
+          "id": "19bccccef9e1",
+          "name": "시사저널e",
+          "title": "답변 화면도 ‘맞춤형’으로···오픈AI, GPT-6에 ‘인텔리전트 UI’ 적용",
+          "link": "https://www.sisajournal-e.com/news/articleView.html?idxno=424195"
+        },
+        {
+          "id": "305a23f732bc",
+          "name": "디지털투데이",
+          "title": "오픈AI, GPT-6 무료 이용자에도 공개…'인텔리전트 UI' 도입",
+          "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=705805"
+        },
+        {
+          "id": "8e725bcf381d",
+          "name": "테크월드뉴스",
+          "title": "오픈AI, GPT-6 챗GPT 전반 확대…‘인텔리전트 UI’ 도입",
+          "link": "https://www.epnc.co.kr/news/articleView.html?idxno=407924"
+        },
+        {
+          "id": "d259d92c7cd5",
+          "name": "디지털데일리",
+          "title": "앤트로픽, 소형 AI 모델 ‘하이쿠 5.5’ 공개",
+          "link": "https://www.ddaily.co.kr/page/view/2026100817252376604"
+        },
+        {
+          "id": "a2e99d335906",
+          "name": "테크월드뉴스",
+          "title": "앤트로픽, 저비용 AI 모델 ‘클로드 하이쿠 5.5’ 출시",
+          "link": "https://www.epnc.co.kr/news/articleView.html?idxno=407930"
+        },
+        {
+          "id": "e56e085c34f4",
+          "name": "디지털투데이",
+          "title": "앤트로픽, 고속·저비용 AI '하이쿠5.5' 선봬…비용 75% 줄였다",
+          "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=705754"
+        },
+        {
+          "id": "a0293a23ea06",
+          "name": "EBN",
+          "title": "[Telecom & Now] SKT-업스테이지, '독자 AI 사이버보안 협의체' 출범 등",
+          "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1727170"
+        },
+        {
+          "id": "085dce22e7c5",
+          "name": "보안뉴스",
+          "title": "SKT·업스테이지, 산학연 11개 기관 연합한 ‘독자 AI 사이버보안 협의체’ 출범",
+          "link": "https://www.boannews.com/news/articleView.html?idxno=146264"
+        },
+        {
+          "id": "6979e6ad226d",
+          "name": "IT조선",
+          "title": "SKT·업스테이지, 보안기업·대학과 사이버보안 AI 개발",
+          "link": "https://it.chosun.com/news/articleView.html?idxno=2023092171630"
+        },
+        {
+          "id": "c8760e9bf4ea",
+          "name": "인더스트리뉴스",
+          "title": "금융권 해킹 배후 단서 포착…중국 광둥성 26세 인물 추정",
+          "link": "https://www.industrynews.co.kr/news/articleView.html?idxno=87217"
+        },
+        {
+          "id": "9cb14a5aae82",
+          "name": "조선비즈",
+          "title": "韓 금융권 공격한 해커, 中 광둥성 거주 26세 인물 추정…홍콩 서버·딥시크 활용",
+          "link": "https://biz.chosun.com/it-science/ict/2026/10/08/7KXG4WMYPJGLFI7GLDXGBD2WIY"
+        },
+        {
+          "id": "0bee3c01e9a6",
+          "name": "한국NGO신문",
+          "title": "한국 금융권 해킹 공격 배후, 중국 광둥성 거주 26세 인물로 추정",
+          "link": "https://www.ngonews.kr/news/articleView.html?idxno=240096"
+        },
+        {
+          "id": "c4c250247313",
+          "name": "인공지능신문",
+          "title": "델 테크놀로지스, 엔비디아 RTX 스파크 탑재한 첫 XPS 제품... ‘델 XPS 16 크리에이터 에디션’ 공개",
+          "link": "https://www.aitimes.kr/news/articleView.html?idxno=42232"
+        },
+        {
+          "id": "13a6a54e75fc",
+          "name": "테크M",
+          "title": "델, 엔비디아 RTX 스파크 탑재 'XPS 16' 공개...노트북서 AI 모델 직접 구동",
+          "link": "https://www.techm.kr/news/articleView.html?idxno=155945"
+        },
+        {
+          "id": "bf80e18cd29a",
+          "name": "베타뉴스",
+          "title": "델 테크놀로지스, 엔비디아 RTX 스파크 탑재 '델 XPS 16 크리에이터 에디션' 16일 국내 출시",
+          "link": "https://www.betanews.net/article/view/beta202610080086"
+        },
+        {
+          "id": "d8e846cacd82",
+          "name": "조선비즈",
+          "title": "한컴, AWS와 손잡고 AI 플랫폼 ‘노마디안’ 12월 美 출시",
+          "link": "https://biz.chosun.com/it-science/ict/2026/10/08/M7ZY3GWPCZC3ZLHM4RBVAAF5ZM"
+        },
+        {
+          "id": "7784844547b1",
+          "name": "디지털투데이",
+          "title": "한컴, AWS와 AI 워크포스 플랫폼 '노마디안' 미국 시장 공략 협력",
+          "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=705859"
+        },
+        {
+          "id": "a4c31a52cc57",
+          "name": "디지털데일리",
+          "title": "한컴, AWS와 AI 직원 플랫폼 ‘노마디안’ 미국 출시 추진",
+          "link": "https://www.ddaily.co.kr/page/view/2026100809120009460"
+        }
+      ]
+    },
+    {
+      "id": "s20261008-afecc284d202",
+      "title": "모빌린트 국산 NPU, 누리호 5차 부탑재위성에 실려 우주 검증",
+      "category": "반도체",
+      "published": "2026-10-08T08:57:35.000Z",
+      "points": [
+        "모빌린트 NPU 보드 2종이 위성에 탑재",
+        "누리호 5차 부탑재위성 BEE-1012",
+        "국내 설계 NPU의 첫 위성 탑재 사례"
+      ],
+      "body": [
+        "AI 반도체 기업 모빌린트의 신경망처리장치(NPU)가 7일 발사된 누리호 5차의 부탑재위성 BEE-1012에 실렸다. 회사의 REGULUS 기반 NPU 보드 2종이 탑재됐다.",
+        "국내 기업이 자체 설계와 개발을 거친 NPU가 실제 위성에 탑재된 것은 이번이 처음이라고 회사는 밝혔다. 테크월드뉴스는 우주 환경에서 성능 검증에 나서는 첫 사례라고 전했다."
+      ],
+      "sources": [
+        {
+          "id": "afecc284d202",
+          "name": "헬로티",
+          "title": "모빌린트 NPU, 누리호 5차 타고 우주로…국산 AI 반도체 최초 위성 탑재",
+          "link": "https://www.hellot.net/news/article.html?no=115351"
+        },
+        {
+          "id": "2897d85f21c1",
+          "name": "디지털투데이",
+          "title": "모빌린트, 누리호 5차 발사 위성에 자사 NPU 보드 탑재",
+          "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=705881"
+        },
+        {
+          "id": "12aacc2028e9",
+          "name": "보안뉴스",
+          "title": "모빌린트 AI 반도체, 누리호 5차 타고 우주 진출",
+          "link": "https://www.boannews.com/news/articleView.html?idxno=146262"
+        },
+        {
+          "id": "f1ec263912e8",
+          "name": "테크월드뉴스",
+          "title": "모빌린트, 국산 NPU 우주 검증…누리호 5차 부탑재위성에 탑재",
+          "link": "https://www.epnc.co.kr/news/articleView.html?idxno=407913"
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "s20261008-c4c250247313",
+      "title": "델, 엔비디아 RTX 스파크 탑재한 XPS 16 크리에이터 에디션 공개",
+      "category": "기업",
+      "published": "2026-10-08T08:32:41.000Z",
+      "points": [
+        "델이 XPS 16 크리에이터 에디션 공개",
+        "XPS 시리즈에 RTX 스파크 슈퍼칩 첫 적용",
+        "국내 출시는 10월 16일"
+      ],
+      "body": [
+        "델 테크놀로지스가 8일 엔비디아 RTX 스파크 슈퍼칩을 탑재한 프리미엄 크리에이터 노트북 델 XPS 16 크리에이터 에디션을 공개했다. XPS 시리즈에 이 칩을 적용한 것은 처음이며, 국내에는 10월 16일 출시한다.",
+        "RTX 스파크는 엔비디아의 AI와 그래픽, 메모리를 단일 실리콘에 결합한 칩이다. 인벤은 블랙웰 RTX GPU와 그레이스 CPU를 결합한 구성이라고 설명했다.",
+        "델은 고해상도 영상 편집과 3D 렌더링은 물론 대형 AI 모델의 개발과 추론을 PC에서 직접 수행하도록 설계했다고 밝혔다. 데이터넷은 로컬 AI 개발 지원을 앞세웠다고 전했다."
+      ],
+      "sources": [
+        {
+          "id": "c4c250247313",
+          "name": "인공지능신문",
+          "title": "델 테크놀로지스, 엔비디아 RTX 스파크 탑재한 첫 XPS 제품... ‘델 XPS 16 크리에이터 에디션’ 공개",
+          "link": "https://www.aitimes.kr/news/articleView.html?idxno=42232"
+        },
+        {
+          "id": "13a6a54e75fc",
+          "name": "테크M",
+          "title": "델, 엔비디아 RTX 스파크 탑재 'XPS 16' 공개...노트북서 AI 모델 직접 구동",
+          "link": "https://www.techm.kr/news/articleView.html?idxno=155945"
+        },
+        {
+          "id": "bf80e18cd29a",
+          "name": "베타뉴스",
+          "title": "델 테크놀로지스, 엔비디아 RTX 스파크 탑재 '델 XPS 16 크리에이터 에디션' 16일 국내 출시",
+          "link": "https://www.betanews.net/article/view/beta202610080086"
+        },
+        {
+          "id": "bf8f1ddd7ecd",
+          "name": "디지털데일리",
+          "title": "[뉴템] 델, 엔비디아 RTX 스파크 탑재 'XPS 16 크리에이터 에디션' 공개",
+          "link": "https://www.ddaily.co.kr/page/view/2026100810083520797"
+        },
+        {
+          "id": "eb56321da229",
+          "name": "데이터넷",
+          "title": "델, RTX 스파크 탑재 ‘XPS 16 크리에이터 에디션’ 공개 ··· 로컬 AI 개발 지원",
+          "link": "https://www.datanet.co.kr/news/articleView.html?idxno=214964"
+        },
+        {
+          "id": "9f27c028c4ca",
+          "name": "인벤",
+          "title": "RTX 스파크 탑재, 델 XPS 16 크리에이터 에디션 16일 출시",
+          "link": "https://www.inven.co.kr/webzine/news/?news=321867"
+        },
+        {
+          "id": "ccf54f20e9d8",
+          "name": "디지털투데이",
+          "title": "델 XPS 16 크리에이터 에디션 공개…엔비디아 'RTX 스파크' 탑재",
+          "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=705775"
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "s20261008-d259d92c7cd5",
+      "title": "앤트로픽, 소형 AI 모델 클로드 하이쿠 5.5 출시",
+      "category": "생성형AI",
+      "published": "2026-10-08T08:31:19.000Z",
+      "points": [
+        "앤트로픽이 소형 모델 하이쿠 5.5 출시",
+        "대량 반복 업무용 저비용 모델",
+        "비용 절감 폭은 매체별 보도가 다름"
+      ],
+      "body": [
+        "앤트로픽이 7일(현지시간) 소형 AI 모델 클로드 하이쿠 5.5를 출시했다. 기존 하이쿠 4.5를 대체하는 모델로, 디지털투데이는 하이쿠 계열 업그레이드가 약 1년 만이라고 전했다.",
+        "모델은 요약과 정보 압축, 데이터베이스 조회, 분류처럼 처리량이 많은 반복 업무를 겨냥했다. 기업용 AI 에이전트의 대량 작업 시장을 공략하려는 제품이라는 설명이다.",
+        "비용 절감 폭은 보도마다 다르다. 디지털데일리와 디지털투데이는 전작보다 운영비를 평균 75% 줄였다고 전했고, AI타임스는 API 비용을 최대 90% 낮췄다고 보도했다. AI타임스는 앤트로픽이 기업공개를 앞두고 AI 라인업을 넓히는 흐름이라고 짚었다."
+      ],
+      "sources": [
+        {
+          "id": "d259d92c7cd5",
+          "name": "디지털데일리",
+          "title": "앤트로픽, 소형 AI 모델 ‘하이쿠 5.5’ 공개",
+          "link": "https://www.ddaily.co.kr/page/view/2026100817252376604"
+        },
+        {
+          "id": "a2e99d335906",
+          "name": "테크월드뉴스",
+          "title": "앤트로픽, 저비용 AI 모델 ‘클로드 하이쿠 5.5’ 출시",
+          "link": "https://www.epnc.co.kr/news/articleView.html?idxno=407930"
+        },
+        {
+          "id": "e56e085c34f4",
+          "name": "디지털투데이",
+          "title": "앤트로픽, 고속·저비용 AI '하이쿠5.5' 선봬…비용 75% 줄였다",
+          "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=705754"
+        },
+        {
+          "id": "60deb84dd99d",
+          "name": "AI타임스",
+          "title": "앤트로픽, API 비용 최대 90% 낮춘 '클로드 하이쿠 5.5' 공개",
+          "link": "https://www.aitimes.com/news/articleView.html?idxno=216044"
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "s20261008-ae354c05e8eb",
+      "title": "카카오, 언어모델링 학회 COLM 2026에서 학습 최적화와 경량화 연구 발표",
+      "category": "연구",
+      "published": "2026-10-08T08:24:36.000Z",
+      "points": [
+        "카카오가 COLM 2026에서 연구 성과 발표",
+        "MoE 모델 학습 효율을 높이는 기술",
+        "모델 크기를 줄이면서 성능을 개선하는 경량화"
+      ],
+      "body": [
+        "카카오가 언어모델링 국제학회 COLM 2026에서 AI 모델의 학습 비용과 크기를 줄이는 연구 성과를 8일 밝혔다. COLM은 2024년 신설된 학회로 대규모 언어모델(LLM)을 다룬다.",
+        "발표 내용은 대규모 전문가 혼합(MoE) 모델의 학습 효율을 높이는 기술과, 모델 크기를 줄이면서도 성능을 개선하는 경량화 기술이다. 테크월드뉴스는 메인 콘퍼런스와 토크나이제이션 워크숍 TokShop에서 각각 발표했다고 전했다."
+      ],
+      "sources": [
+        {
+          "id": "ae354c05e8eb",
+          "name": "디지털데일리",
+          "title": "카카오, 'COLM 2026'서 AI 학습 최적화·경량화 연구 기법 발표",
+          "link": "https://www.ddaily.co.kr/page/view/2026100817235310709"
+        },
+        {
+          "id": "f85f33544f87",
+          "name": "테크월드뉴스",
+          "title": "카카오, ‘COLM 2026’서 AI 모델 학습 최적화·경량화 연구 공개",
+          "link": "https://www.epnc.co.kr/news/articleView.html?idxno=407957"
+        },
+        {
+          "id": "55946e3a5e03",
+          "name": "아이뉴스24",
+          "title": "카카오, 언어모델링 국제학회 'COLM 2026'서 AI 연구 성과 발표",
+          "link": "https://www.inews24.com/view/2013076"
+        },
+        {
+          "id": "dd04d3c9de0e",
+          "name": "디지털투데이",
+          "title": "카카오, 'COLM 2026'서 AI 학습 최적화·경량화 연구 공개",
+          "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=705788"
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "s20261008-3a833819166b",
+      "title": "TSMC 3분기 매출 50% 넘게 증가, AI 칩 수요 이어져",
+      "category": "반도체",
+      "published": "2026-10-08T06:48:06.000Z",
+      "points": [
+        "TSMC 3분기 매출 50% 넘게 증가",
+        "9월 단월 매출은 전년 대비 54.6% 증가",
+        "AI 인프라 투자 지속 신호로 해석"
+      ],
+      "body": [
+        "대만 TSMC의 올해 3분기 매출이 AI 반도체 수요에 힘입어 사상 최대 수준으로 늘었다. 블룸버그 계산을 인용한 IT조선과 EBN은 3분기 매출이 약 1조4900억 대만달러로 전년 동기보다 51% 안팎 증가했다고 전했다. EBN은 이를 약 467억 달러로 환산했다.",
+        "디지털투데이는 CNBC와 TSMC 발표를 근거로 9월 연결 매출이 5118억6000만 대만달러로 전년 동월보다 54.6% 늘었다고 보도했다. 분기와 월 기준 증가율이 서로 다른 수치다.",
+        "매체들은 이를 글로벌 AI 인프라 투자 열기가 이어지는 신호로 풀이했다. IT조선은 AI 인프라 구축의 지속 가능성을 가늠하려는 투자자에게 긍정적인 신호라고 전했다."
+      ],
+      "sources": [
+        {
+          "id": "3a833819166b",
+          "name": "디지털투데이",
+          "title": "AI 칩 주문 폭주…TSMC 3분기 매출 또 '사상 최대'",
+          "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=705995"
+        },
+        {
+          "id": "c38994bd9751",
+          "name": "IT조선",
+          "title": "TSMC 3분기 매출 51% 급증…AI 인프라 수요 지속 입증",
+          "link": "https://it.chosun.com/news/articleView.html?idxno=2023092171683"
+        },
+        {
+          "id": "d98f9e3785db",
+          "name": "EBN",
+          "title": "TSMC 3분기 매출 51% 급증…AI 인프라 투자 지속성에 청신호",
+          "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1727205"
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "s20261008-d8e846cacd82",
+      "title": "한컴, AWS와 AI 워크포스 플랫폼 노마디안 미국 출시 추진",
+      "category": "기업",
+      "published": "2026-10-08T06:16:36.000Z",
+      "points": [
+        "한컴이 AWS와 노마디안 미국 진출 협력",
+        "10주 공동 구축 프로그램으로 출시 준비",
+        "12월 말 미국 베타 공개 예정"
+      ],
+      "body": [
+        "한컴이 아마존웹서비스(AWS)와 협력해 AI 워크포스 플랫폼 노마디안(Nomadian)을 미국 시장에 선보인다고 8일 밝혔다. 양사는 10주 공동 구축 프로그램 한컴 × AWS CoLab을 통해 제품 개발부터 가격 정책, 마케팅 전략까지 함께 설계한다.",
+        "출시 시점은 매체마다 표현이 다르다. 조선비즈는 12월 미국 출시라고 전했고, 디지털투데이와 EBN, IT조선은 12월 말 미국 베타 공개를 앞두고 있다고 보도했다.",
+        "한컴은 AWS 마켓플레이스와 AWS의 유통망을 통한 판로 확보와 초기 고객 확보에도 나선다. 디지털데일리는 노마디안을 AI 직원으로 팀을 구성하는 플랫폼이라고 소개했다."
+      ],
+      "sources": [
+        {
+          "id": "d8e846cacd82",
+          "name": "조선비즈",
+          "title": "한컴, AWS와 손잡고 AI 플랫폼 ‘노마디안’ 12월 美 출시",
+          "link": "https://biz.chosun.com/it-science/ict/2026/10/08/M7ZY3GWPCZC3ZLHM4RBVAAF5ZM"
+        },
+        {
+          "id": "7784844547b1",
+          "name": "디지털투데이",
+          "title": "한컴, AWS와 AI 워크포스 플랫폼 '노마디안' 미국 시장 공략 협력",
+          "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=705859"
+        },
+        {
+          "id": "a4c31a52cc57",
+          "name": "디지털데일리",
+          "title": "한컴, AWS와 AI 직원 플랫폼 ‘노마디안’ 미국 출시 추진",
+          "link": "https://www.ddaily.co.kr/page/view/2026100809120009460"
+        },
+        {
+          "id": "77683c58f467",
+          "name": "EBN",
+          "title": "한컴, AWS 손잡고 美 공략…AI 워크포스 '노마디안' 12월 베타 공개",
+          "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1727102"
+        },
+        {
+          "id": "f0088f9ce177",
+          "name": "IT조선",
+          "title": "AI 워크포스 ‘노마디안’ 美 진출 노리는 한컴, AWS와 밀착 협력",
+          "link": "https://it.chosun.com/news/articleView.html?idxno=2023092171640"
+        },
+        {
+          "id": "d6d7124a9355",
+          "name": "헬로티",
+          "title": "한컴, AWS와 노마디안 미국 진출 협력...AI 워크포스 사업 확대",
+          "link": "https://www.hellot.net/news/article.html?no=115342"
+        },
+        {
+          "id": "65f2bd756418",
+          "name": "인공지능신문",
+          "title": "한컴, AWS와 함께 미국 공략…'노마디안' 사업화 협력",
+          "link": "https://www.aitimes.kr/news/articleView.html?idxno=42214"
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "s20261008-a0293a23ea06",
+      "title": "SKT와 업스테이지, 보안기업 대학과 독자 AI 사이버보안 협의체 출범",
+      "category": "보안/윤리",
+      "published": "2026-10-08T05:24:01.000Z",
+      "points": [
+        "SKT와 업스테이지가 AI 사이버보안 협의체 출범",
+        "보안기업 6곳과 대학 3곳 등 11개 기관 참여",
+        "보안 데이터를 독자 AI 모델에 학습시켜 검증"
+      ],
+      "body": [
+        "SK텔레콤과 업스테이지가 국내 주요 정보보호 기업, 대학과 함께 독자 AI 사이버보안 협의체를 출범하고 AI 정보보호 기술 협력을 위한 업무협약을 맺었다. 협약식은 7일 오후 서울 SKT타워에서 열렸고, 회사들은 8일 이를 밝혔다.",
+        "협의체에는 SK쉴더스, 시큐아이, 안랩, 라온시큐어, 지니언스, 파이오링크 등 보안기업 6곳과 고려대, 숭실대, 부산대 등 대학 3곳이 이름을 올렸다. 보안뉴스와 한국NGO신문은 SKT와 업스테이지를 포함해 11개 기관이 참여한다고 전했다.",
+        "협력의 바탕은 정부의 독자 AI 파운데이션 모델 프로젝트 3단계에 진출한 SKT의 A.X K 시리즈와 업스테이지의 솔라 모델이다. 이 모델에 실제 보안 현장 데이터를 학습시켜 악성코드 탐지, 소프트웨어 취약점 분석, 사고 대응에 쓰고, 상용 보안 솔루션에 적용해 성능과 안전성을 검증한다는 구상이다."
+      ],
+      "sources": [
+        {
+          "id": "a0293a23ea06",
+          "name": "EBN",
+          "title": "[Telecom & Now] SKT-업스테이지, '독자 AI 사이버보안 협의체' 출범 등",
+          "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1727170"
+        },
+        {
+          "id": "085dce22e7c5",
+          "name": "보안뉴스",
+          "title": "SKT·업스테이지, 산학연 11개 기관 연합한 ‘독자 AI 사이버보안 협의체’ 출범",
+          "link": "https://www.boannews.com/news/articleView.html?idxno=146264"
+        },
+        {
+          "id": "6979e6ad226d",
+          "name": "IT조선",
+          "title": "SKT·업스테이지, 보안기업·대학과 사이버보안 AI 개발",
+          "link": "https://it.chosun.com/news/articleView.html?idxno=2023092171630"
+        },
+        {
+          "id": "52542cc6f413",
+          "name": "베타뉴스",
+          "title": "SKT·업스테이지, 국내 보안기업·대학과 ‘독자 AI 사이버보안 협의체’ 출범",
+          "link": "https://www.betanews.net/article/view/beta202610080016"
+        },
+        {
+          "id": "e75cca968b05",
+          "name": "디지털데일리",
+          "title": "국산 AI에 보안 현장 데이터 입힌다…SKT·업스테이지 협의체 출범",
+          "link": "https://www.ddaily.co.kr/page/view/2026100810145775667"
+        },
+        {
+          "id": "100e1dd0bd62",
+          "name": "조선비즈",
+          "title": "독파모 경쟁 SKT·업스테이지, ‘보안 AI’ 손잡았다… 안랩·대학 등과 협의체 출범",
+          "link": "https://biz.chosun.com/it-science/ict/2026/10/08/IRFRKDWUIJDDFHNI2IRWGWQGRE"
+        },
+        {
+          "id": "b9d5811d7181",
+          "name": "한국NGO신문",
+          "title": "SKT·업스테이지, 11개 기관과 ‘AI 사이버보안 협의체’ 출범",
+          "link": "https://www.ngonews.kr/news/articleView.html?idxno=240097"
+        },
+        {
+          "id": "9d54f52cdf21",
+          "name": "인공지능신문",
+          "title": "SKT·업스테이지, 국내 대표 보안기업·대학과 ‘독자 AI 사이버보안 협의체’ 출범",
+          "link": "https://www.aitimes.kr/news/articleView.html?idxno=42216"
+        },
+        {
+          "id": "e9dc08a42c35",
+          "name": "디지털투데이",
+          "title": "SKT·업스테이지, ‘독자 AI 사이버보안 협의체’ 출범...국내 보안 기업·대학도 참여",
+          "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=705765"
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "s20261008-19bccccef9e1",
+      "title": "오픈AI, GPT-6 챗GPT 전반으로 확대하고 인텔리전트 UI 도입",
+      "category": "생성형AI",
+      "published": "2026-10-08T04:55:25.000Z",
+      "points": [
+        "GPT-6를 무료 이용자 포함 챗GPT 전반에 확대",
+        "질문에 따라 답변 화면을 AI가 구성",
+        "내부 모델의 수학 연구 결과도 공개"
+      ],
+      "body": [
+        "오픈AI가 8일 최신 모델 GPT-6를 무료 이용자를 포함한 챗GPT 전반으로 확대한다고 밝혔다. 유료 요금제로는 플러스, 프로, 비즈니스 등이 포함된다.",
+        "함께 도입하는 인텔리전트 UI는 질문에 따라 답변 화면을 실시간으로 구성하는 기능이다. 텍스트로 답할지, 비교표나 지도를 띄울지, 계산기 같은 도구를 만들어 보여줄지를 AI가 판단한다고 시사저널e는 설명했다.",
+        "테크월드뉴스는 오픈AI가 내부 프런티어 AI 모델이 생성한 수학 연구 결과도 공개했다고 전했다."
+      ],
+      "sources": [
+        {
+          "id": "19bccccef9e1",
+          "name": "시사저널e",
+          "title": "답변 화면도 ‘맞춤형’으로···오픈AI, GPT-6에 ‘인텔리전트 UI’ 적용",
+          "link": "https://www.sisajournal-e.com/news/articleView.html?idxno=424195"
+        },
+        {
+          "id": "305a23f732bc",
+          "name": "디지털투데이",
+          "title": "오픈AI, GPT-6 무료 이용자에도 공개…'인텔리전트 UI' 도입",
+          "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=705805"
+        },
+        {
+          "id": "8e725bcf381d",
+          "name": "테크월드뉴스",
+          "title": "오픈AI, GPT-6 챗GPT 전반 확대…‘인텔리전트 UI’ 도입",
+          "link": "https://www.epnc.co.kr/news/articleView.html?idxno=407924"
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "s20261008-1a56cc8f5285",
+      "title": "삼성전자 3분기 영업이익 107조원, 국내 기업 첫 분기 100조원 돌파",
+      "category": "기업",
+      "published": "2026-10-08T03:10:32.000Z",
+      "points": [
+        "3분기 잠정 영업이익 107조4000억원",
+        "국내 기업 최초 분기 영업이익 100조원 돌파",
+        "시장 전망치 약 106조원 웃돌아"
+      ],
+      "body": [
+        "삼성전자가 8일 올해 3분기 연결 기준 잠정 실적으로 매출 195조원, 영업이익 107조4000억원을 공시했다. 국내 기업이 단일 분기에 영업이익 100조원을 넘긴 것은 처음이다. AI타임스는 영업이익이 시장 전망치인 약 106조원을 웃돌았다고 전했다.",
+        "아이뉴스24는 최근 분기 85조원대 영업이익을 낸 엔비디아와 애플, 알파벳, 마이크로소프트 등 글로벌 빅테크의 분기 영업이익도 넘어섰다고 보도했다. 국민일보는 메모리 반도체 슈퍼사이클과 고대역폭메모리(HBM) 경쟁력 강화가 실적의 밑바탕이라는 분석을 전했다."
+      ],
+      "sources": [
+        {
+          "id": "1a56cc8f5285",
+          "name": "AI타임스",
+          "title": "삼성전자, 3분기 영업익 107조...애플·엔비디아도 못 넘은 '100조' 첫 달성",
+          "link": "https://www.aitimes.com/news/articleView.html?idxno=216062"
+        },
+        {
+          "id": "62ed1dd146ba",
+          "name": "아이뉴스24",
+          "title": "삼성전자, 엔비디아도 넘은 '영업익 100조'...2028년에도 좋다[종합]",
+          "link": "https://www.inews24.com/view/2012989"
+        },
+        {
+          "id": "ff406c5ab422",
+          "name": "국민일보",
+          "title": "‘3분기 영업이익 100조원’ 삼성, 엔비디아까지 제칠까",
+          "link": "https://www.kmib.co.kr/article/view.asp?arcid=9000020878"
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "s20261008-c8760e9bf4ea",
+      "title": "한국 금융권 해킹 배후 중국 광둥성 26세 추정, 크라우드스트라이크 보고서",
+      "category": "보안/윤리",
+      "published": "2026-10-08T02:06:08.000Z",
+      "points": [
+        "금융권 연쇄 해킹 배후로 중국 거주 26세 추정",
+        "홍콩 서버를 주 통제 인프라로 사용",
+        "딥시크 등 AI 도구 활용 정황"
+      ],
+      "body": [
+        "국내 금융권을 잇달아 공격한 해커가 중국 광둥성에 거주하는 26세 인물일 가능성이 제기됐다. 사이버보안 기업 크라우드스트라이크가 7일(현지시간) 공개한 보고서의 분석이다.",
+        "조선비즈에 따르면 공격자는 홍콩 소재 서버를 주 통제 인프라로 삼고, 별도 서버에서 실제 공격을 수행했다. 한국NGO신문과 조선비즈는 중국 AI 모델 딥시크 등을 활용한 것으로 확인됐다고 전했다.",
+        "EBN은 공격에 쓴 생성형 AI 도구에 개인 정보를 남긴 흔적이 추적의 실마리가 됐다고 보도했고, 인더스트리뉴스는 텔레그램 계정도 활용한 정황이 드러났다고 전했다. 신원은 단정이 아닌 추정 단계다."
+      ],
+      "sources": [
+        {
+          "id": "c8760e9bf4ea",
+          "name": "인더스트리뉴스",
+          "title": "금융권 해킹 배후 단서 포착…중국 광둥성 26세 인물 추정",
+          "link": "https://www.industrynews.co.kr/news/articleView.html?idxno=87217"
+        },
+        {
+          "id": "9cb14a5aae82",
+          "name": "조선비즈",
+          "title": "韓 금융권 공격한 해커, 中 광둥성 거주 26세 인물 추정…홍콩 서버·딥시크 활용",
+          "link": "https://biz.chosun.com/it-science/ict/2026/10/08/7KXG4WMYPJGLFI7GLDXGBD2WIY"
+        },
+        {
+          "id": "0bee3c01e9a6",
+          "name": "한국NGO신문",
+          "title": "한국 금융권 해킹 공격 배후, 중국 광둥성 거주 26세 인물로 추정",
+          "link": "https://www.ngonews.kr/news/articleView.html?idxno=240096"
+        },
+        {
+          "id": "f83ab9c13b5c",
+          "name": "EBN",
+          "title": "韓 금융권 해킹 배후 윤곽…中 20대 추정 인물 포착",
+          "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1727096"
+        }
+      ],
+      "auto": true
+    },
+    {
       "id": "b20261007",
       "type": "briefing",
       "title": "10월 7일 AI 브리핑: 보스턴다이내믹스 새 수장과 AI 인프라 확장",
