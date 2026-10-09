@@ -50,6 +50,11 @@ jobs:
         run: node scripts/write.mjs || echo "정리 기사 작성 단계 실패, 배포는 계속합니다"
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      # Slack 운영 로그: 새로 공개된 정리 기사와 브리핑, 오전 9시대 하루 요약 (SLACK_WEBHOOK_URL 시크릿이 없으면 건너뜀)
+      - name: Slack log
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: node scripts/slack.mjs || true
       - name: Remove temp files
         run: rm -f public/data/stories.prev.json
       # 정리 기사마다 검색엔진용 정적 페이지와 sitemap.xml 생성
@@ -74,6 +79,7 @@ jobs:
           out=$(node scripts/health.mjs)
           if [ -n "$out" ]; then
             echo "$out"
+            SLACK_WEBHOOK_URL="${{ secrets.SLACK_WEBHOOK_URL }}" node scripts/slack.mjs --warn "$out" || true
             title="운영 점검 경고"
             num=$(gh issue list -R "${{ github.repository }}" --state open --search "$title in:title" --json number -q '.[0].number')
             if [ -n "$num" ]; then gh issue comment "$num" -R "${{ github.repository }}" -b "$out" || true
@@ -110,3 +116,6 @@ jobs:
           num=$(gh issue list -R "${{ github.repository }}" --state open --search "$title in:title" --json number -q '.[0].number')
           if [ -n "$num" ]; then gh issue comment "$num" -R "${{ github.repository }}" -b "$body"
           else gh issue create -R "${{ github.repository }}" -t "$title" -b "$body"; fi
+          if [ -n "${{ secrets.SLACK_WEBHOOK_URL }}" ]; then
+            curl -s -X POST -H 'content-type: application/json' -d "{\"text\":\":rotating_light: *수집 또는 배포 실패* $body\"}" "${{ secrets.SLACK_WEBHOOK_URL }}" || true
+          fi
