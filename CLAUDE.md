@@ -156,7 +156,7 @@
 ## 의견 보내기
 
 - `public/feedback.js` 가 모든 페이지 하단의 "의견 보내기"(data-feedback 링크, 또는 주소 #feedback)로 사이트 안 입력창을 엽니다. 보내는 분(독자, 언론사, 제휴 희망 기업, 광고 문의, 기타 중 하나), 내용(필수), 답장받을 이메일(선택)을 받아 FormSubmit(formsubmit.co) AJAX 로 hazelyuu@gmail.com 에 메일로 보냅니다. 스팸 방지용 숨은 칸(_honey)이 있습니다. GA 이벤트 `send_feedback`(feedback_type) 를 보냅니다.
-- FormSubmit 은 처음 한 번 받는 메일 주소로 확인(Activate) 메일을 보내고, 그 링크를 눌러야 이후 의견이 전달됩니다. 개인정보처리방침 3항 표와 1항에 안내가 있습니다.
+- FormSubmit 은 처음 한 번 받는 메일 주소로 확인(Activate) 메일을 보내고, 그 링크를 눌러야 이후 의견이 전달됩니다. 2026-10-09 확인 완료, 시험 전송 성공. 개인정보처리방침 3항 표와 1항에 안내가 있습니다.
 - 처음에 Google 설문지로 저장하려다 편집기 자동 조작이 불안정해 그만뒀습니다. hazelyuu@gmail.com 드라이브에 빈 설문지("Untitled form" 또는 뒤섞인 제목) 하나가 남아 있으니 지워도 됩니다.
 
 ## 애드센스
