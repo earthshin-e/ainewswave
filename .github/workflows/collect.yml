@@ -50,6 +50,7 @@ jobs:
         run: node scripts/collect.mjs
         env:
           UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
       # 정리 기사와 오늘의 AI 브리핑 자동 작성 (ANTHROPIC_API_KEY 시크릿이 없으면 건너뜀)
       - name: Write stories
         run: node scripts/write.mjs || echo "정리 기사 작성 단계 실패, 배포는 계속합니다"

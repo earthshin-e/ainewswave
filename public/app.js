@@ -181,7 +181,7 @@
       <div class="meta"><b>${esc(a.source)}</b><span>·</span><time datetime="${esc(a.published)}">${fullDate(a.published)}</time>
         <button class="bm" data-id="${esc(a.id)}" aria-pressed="${on}" aria-label="북마크">${STAR}</button></div>
       ${a.image ? `<figure class="hero"><img src="${esc(a.image)}" alt="" referrerpolicy="no-referrer" onerror="this.parentNode.remove()"></figure>`
-        : a.photo ? `<figure class="hero"><img src="${esc(a.photo.url)}" alt="" onerror="this.parentNode.remove()"><figcaption>자료 사진: <a href="${esc(a.photo.authorUrl)}" target="_blank" rel="noopener">${esc(a.photo.author)}</a> / <a href="${esc(a.photo.link)}" target="_blank" rel="noopener">Unsplash</a>. 기사 내용과 직접 관련 없는 참고 이미지입니다.</figcaption></figure>` : ''}
+        : a.photo ? `<figure class="hero"><img src="${esc(a.photo.url)}" alt="" onerror="this.parentNode.remove()"><figcaption>자료 사진: <a href="${esc(a.photo.authorUrl)}" target="_blank" rel="noopener">${esc(a.photo.author)}</a> / <a href="${esc(a.photo.link)}" target="_blank" rel="noopener">${a.photo.source === 'pexels' ? 'Pexels' : 'Unsplash'}</a>. 기사 내용과 직접 관련 없는 참고 이미지입니다.</figcaption></figure>` : ''}
       ${a.points && a.points.length ? `<section class="points"><h2>핵심 요약</h2><ul>${a.points.map((x) => `<li>${esc(x)}</li>`).join('')}</ul></section>` : ''}
       ${a.restricted ? '' : `<section class="sum">
         <h2>언론사 요약</h2>
