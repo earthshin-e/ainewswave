@@ -17,6 +17,10 @@ const kstDate = (iso) => {
   return `${d.getUTCFullYear()}년 ${d.getUTCMonth() + 1}월 ${d.getUTCDate()}일 ${String(d.getUTCHours()).padStart(2, '0')}:${String(d.getUTCMinutes()).padStart(2, '0')}`;
 };
 
+// 주제별 정리 기사 모음 페이지 주소(/recap/topic-<slug>.html)
+const TOPICS = { '생성형AI': 'genai', '반도체': 'chip', '로봇': 'robot', '정책': 'policy', '기업': 'company', '연구': 'research', '보안/윤리': 'security', '일반': 'general' };
+const topicFile = (c) => `topic-${TOPICS[c] || 'general'}.html`;
+
 function page(st, others) {
   const url = `${SITE}/recap/${st.id}.html`;
   const desc = (st.points && st.points.length ? st.points.join('. ') : st.body[0] || '').slice(0, 150);
@@ -65,7 +69,7 @@ function page(st, others) {
 <header class="top"><div class="wrap"><a class="brand" href="../"><img src="../icon.svg" alt="">AI 뉴스웨이브</a></div></header>
 <main class="wrap">
   <article>
-    <p class="meta">${esc(st.type === 'briefing' ? 'AI 브리핑' : st.category)}</p>
+    <p class="meta">${st.type === 'briefing' ? 'AI 브리핑' : `<a href="${topicFile(st.category)}">${esc(st.category)}</a>`}</p>
     <h1>${esc(st.title)}</h1>
     <p class="meta">AI 뉴스웨이브 | ${kstDate(st.published)} | ${st.sources.length}개 매체 보도 종합</p>
     ${st.points && st.points.length ? `<h2>핵심 요약</h2>\n    <ul>${st.points.map((p) => `<li>${esc(p)}</li>`).join('')}</ul>` : ''}
@@ -87,7 +91,7 @@ function page(st, others) {
 
 const dir = path.join(pub, 'recap');
 await mkdir(dir, { recursive: true });
-const keep = new Set([...stories.map((s) => `${s.id}.html`), 'index.html', 'feed.xml']);
+const keep = new Set([...stories.map((s) => `${s.id}.html`), 'index.html', 'feed.xml', ...Object.keys(TOPICS).map(topicFile)]);
 for (const f of await readdir(dir)) if (f.endsWith('.html') && !keep.has(f)) await unlink(path.join(dir, f));
 const sorted = [...stories].sort((a, b) => new Date(b.published) - new Date(a.published));
 for (const st of sorted) {
@@ -104,14 +108,14 @@ const group = (list) => {
 };
 const briefs = sorted.filter((x) => x.type === 'briefing');
 const plain = sorted.filter((x) => x.type !== 'briefing');
-const indexHtml = `<!doctype html>
+const listPage = ({ title, desc, canon, main }) => `<!doctype html>
 <html lang="ko">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>AI 브리핑과 정리 기사 | AI 뉴스웨이브</title>
-<meta name="description" content="AI 뉴스웨이브가 여러 매체의 보도를 종합해 새로 쓴 정리 기사와 매일 AI 브리핑 모음입니다.">
-<link rel="canonical" href="${SITE}/recap/">
+<title>${esc(title)} | AI 뉴스웨이브</title>
+<meta name="description" content="${esc(desc)}">
+<link rel="canonical" href="${SITE}/recap/${canon}">
 <link rel="icon" href="../icon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="../page.css">
 <link rel="alternate" type="application/rss+xml" title="AI 뉴스웨이브 정리 기사" href="/recap/feed.xml">
@@ -125,19 +129,42 @@ const indexHtml = `<!doctype html>
 <body>
 <header class="top"><div class="wrap"><a class="brand" href="../"><img src="../icon.svg" alt="">AI 뉴스웨이브</a></div></header>
 <main class="wrap">
-  <h1>AI 브리핑과 정리 기사</h1>
-  <p>여러 매체가 함께 보도한 AI 소식을 AI 뉴스웨이브가 사실만 모아 새로 정리한 글입니다. 각 글 아래에 근거가 된 기사 출처를 밝힙니다.</p>
-  <p class="meta"><a href="feed.xml">RSS 로 구독하기</a></p>
-  <h2>매일 AI 브리핑</h2>
-  ${briefs.length ? `<ul>${briefs.map((b) => `<li><a href="${esc(b.id)}.html">${esc(b.title)}</a></li>`).join('')}</ul>` : '<p class="meta">아직 브리핑이 없습니다.</p>'}
-  <h2>정리 기사</h2>
-  ${group(plain).map(([day, list]) => `<h3>${day}</h3>
-  <ul>${list.map((x) => `<li><a href="${esc(x.id)}.html">${esc(x.title)}</a> <span class="meta">${x.sources.length}개 매체</span></li>`).join('')}</ul>`).join('\n  ')}
+${main}
 </main>
 <footer class="wrap foot"><a href="../">홈</a><a href="./">정리 기사</a><a href="../about.html">소개</a><a href="../privacy.html">개인정보처리방침</a><a href="../contact.html">문의</a><a href="#feedback" data-feedback>의견 보내기</a></footer>
 </body>
 </html>
 `;
+const plainCats = Object.keys(TOPICS).filter((c) => plain.some((x) => x.category === c));
+const topicNav = (cur) => `<p class="topics">${[['', '전체', plain.length], ...plainCats.map((c) => [topicFile(c), c, plain.filter((x) => x.category === c).length])]
+  .map(([href, label, n]) => label === cur ? `<strong>${esc(label)} ${n}</strong>` : `<a href="${href || './'}">${esc(label)} ${n}</a>`).join('')}</p>`;
+const dayList = (list) => group(list).map(([day, l]) => `<h3>${day}</h3>
+  <ul>${l.map((x) => `<li><a href="${esc(x.id)}.html">${esc(x.title)}</a> <span class="meta">${x.sources.length}개 매체</span></li>`).join('')}</ul>`).join('\n  ');
+const indexHtml = listPage({
+  title: 'AI 브리핑과 정리 기사',
+  desc: 'AI 뉴스웨이브가 여러 매체의 보도를 종합해 새로 쓴 정리 기사와 매일 AI 브리핑 모음입니다.',
+  canon: '',
+  main: `  <h1>AI 브리핑과 정리 기사</h1>
+  <p>여러 매체가 함께 보도한 AI 소식을 AI 뉴스웨이브가 사실만 모아 새로 정리한 글입니다. 각 글 아래에 근거가 된 기사 출처를 밝힙니다.</p>
+  <p class="meta"><a href="feed.xml">RSS 로 구독하기</a></p>
+  <h2>매일 AI 브리핑</h2>
+  ${briefs.length ? `<ul>${briefs.map((b) => `<li><a href="${esc(b.id)}.html">${esc(b.title)}</a></li>`).join('')}</ul>` : '<p class="meta">아직 브리핑이 없습니다.</p>'}
+  <h2>정리 기사</h2>
+  ${topicNav('전체')}
+  ${dayList(plain)}`,
+});
+for (const c of Object.keys(TOPICS)) {
+  const list = plain.filter((x) => x.category === c);
+  await writeFile(path.join(dir, topicFile(c)), listPage({
+    title: `${c} 정리 기사`,
+    desc: `AI 뉴스웨이브가 여러 매체 보도를 종합해 정리한 ${c} 분야 AI 소식 모음입니다.`,
+    canon: topicFile(c),
+    main: `  <h1>${esc(c)} 정리 기사</h1>
+  <p>여러 매체가 함께 보도한 ${esc(c)} 분야 AI 소식을 사실만 모아 새로 정리한 글입니다. <a href="./">전체 정리 기사</a></p>
+  ${topicNav(c)}
+  ${list.length ? dayList(list) : '<p class="meta">아직 이 주제의 정리 기사가 없습니다.</p>'}`,
+  }));
+}
 await writeFile(path.join(dir, 'index.html'), indexHtml);
 
 // 예전 주소(/s/)로 들어온 방문자와 검색엔진을 새 주소(/recap/)로 보냅니다.
@@ -152,6 +179,7 @@ const now = new Date().toISOString();
 const urls = [
   { loc: `${SITE}/`, lastmod: now, freq: 'hourly', pri: '1.0' },
   { loc: `${SITE}/recap/`, lastmod: now, freq: 'daily', pri: '0.9' },
+  ...plainCats.map((c) => ({ loc: `${SITE}/recap/${topicFile(c)}`, lastmod: now, freq: 'daily', pri: '0.6' })),
   ...['about', 'privacy', 'contact'].map((p) => ({ loc: `${SITE}/${p}.html`, freq: 'monthly', pri: '0.3' })),
   ...stories.map((s) => ({ loc: `${SITE}/recap/${s.id}.html`, lastmod: s.published, freq: 'never', pri: s.type === 'briefing' ? '0.8' : '0.7' })),
 ];

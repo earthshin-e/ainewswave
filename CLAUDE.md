@@ -136,7 +136,7 @@
 
 ## 검색 노출
 
-- `scripts/pages.mjs` 가 배포 때마다 정리 기사 모음 페이지(`/recap/`, 브리핑과 날짜별 정리 기사), 정리 기사와 브리핑마다(아래에 다른 정리 기사 5개 링크) 정적 페이지 `public/recap/<id>.html`(제목, 핵심 요약, 본문, 출처, NewsArticle 구조화 데이터, canonical)와 `public/sitemap.xml` 을 만듭니다. 생성물이라 저장소에는 넣지 않습니다(.gitignore).
+- `scripts/pages.mjs` 가 배포 때마다 정리 기사 모음 페이지(`/recap/`, 브리핑과 날짜별 정리 기사, 주제 버튼), 주제별 모음 페이지(`/recap/topic-<slug>.html`, 2026-10-10 추가, 정리 기사 상단 주제 라벨이 여기로 연결), 정리 기사와 브리핑마다(아래에 다른 정리 기사 5개 링크) 정적 페이지 `public/recap/<id>.html`(제목, 핵심 요약, 본문, 출처, NewsArticle 구조화 데이터, canonical)와 `public/sitemap.xml` 을 만듭니다. 생성물이라 저장소에는 넣지 않습니다(.gitignore).
 - 자체 RSS 피드 `/recap/feed.xml`: 정리 기사와 브리핑 최신 50건, 설명에는 핵심 요약만 넣고 본문은 사이트로 연결합니다. 메인과 정리 기사 페이지 head 에 alternate 링크가 있습니다.
 - 예전 주소 `/s/` 와 `/s/<id>.html` 은 `/recap/` 으로 바로 넘어가는 안내 페이지(canonical, noindex)로 남깁니다.
 - `public/404.html` 은 없는 주소일 때 GitHub Pages 가 보여 주는 안내 페이지입니다. 메인 도구 줄과 하단에 정리 기사 모음 링크가 있습니다.
