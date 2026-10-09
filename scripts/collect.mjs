@@ -201,7 +201,7 @@ const QUERY = {
 };
 const KW_QUERY = {
   '데이터센터': 'data center', 'GPU': 'gpu', 'HBM': 'memory chip', '엔비디아': 'graphics card', '휴머노이드': 'humanoid robot',
-  '피지컬AI': 'robot arm', '자율주행': 'self driving car', '금융': 'finance', '투자': 'stock market', '의료AI': 'medical technology',
+  '피지컬AI': 'robot arm', '자율주행': 'self driving car', '금융': 'bank building',  '의료AI': 'medical technology',
   '교육': 'classroom technology', '국방': 'military technology', '전력': 'power grid', '클라우드': 'server room', '스마트폰': 'smartphone',
   '양자': 'quantum computer', '게임': 'video game', '모빌리티': 'electric car', 'AI 에이전트': 'artificial intelligence', '보안': 'cyber security',
   '투자 유치': 'startup team', '증시': 'stock market chart', 'AI 인재': 'students coding', 'AI 정책': 'parliament', '해킹': 'hacker',
