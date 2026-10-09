@@ -3,7 +3,7 @@
 // 처음 한 번은 FormSubmit 이 운영자 메일로 확인 링크를 보내고, 그 링크를 눌러야 이후 의견이 전달됩니다.
 (function () {
   'use strict';
-  var ENDPOINT = 'https://formsubmit.co/ajax/hazelyuu@gmail.com';
+  var ENDPOINT = 'https://formsubmit.co/ajax/appealrequested@gmail.com';
   var TYPES = ['독자', '언론사', '제휴 희망 기업', '광고 문의', '기타'];
 
   var css = document.createElement('style');

@@ -122,7 +122,7 @@
 - 한 번에 30건을 그리고 "기사 더 보기" 로 30건씩 늘립니다. 주제, 매체, 검색어가 바뀌면 다시 30건으로 돌아갑니다.
 - 북마크는 `localStorage` 의 `bm` 키에 기사 스냅샷을 저장하므로 원본이 보관 기간을 넘겨 사라져도 남습니다.
 - 다크 모드는 기기 설정을 따르고 버튼으로 바꾸면 `localStorage` 의 `theme` 키에 고정됩니다. 색 토큰은 `:root`, `@media (prefers-color-scheme: dark)` 안의 `:root:not([data-theme="light"])`, `:root[data-theme="dark"]` 세 곳에 같은 값을 둡니다. 새 토큰을 추가할 때 세 곳을 함께 고쳐야 합니다.
-- PWA 는 `sw.js` 의 캐시 이름(`ainewswave-v35`)을 씁니다. 기사 데이터는 네트워크 우선에 오프라인이면 마지막 저장본, 화면 파일은 캐시 우선에 뒤에서 갱신합니다. 화면 파일을 고쳤는데 반영이 안 보이면 캐시 이름의 숫자를 올립니다.
+- PWA 는 `sw.js` 의 캐시 이름(`ainewswave-v36`)을 씁니다. 기사 데이터는 네트워크 우선에 오프라인이면 마지막 저장본, 화면 파일은 캐시 우선에 뒤에서 갱신합니다. 화면 파일을 고쳤는데 반영이 안 보이면 캐시 이름의 숫자를 올립니다.
 - 화면을 다시 열었을 때 데이터가 20분보다 오래되었으면 자동으로 다시 불러옵니다.
 - `localStorage` 접근은 모두 try/catch 로 감싸 저장소가 막힌 환경에서도 화면이 동작합니다.
 
@@ -157,7 +157,7 @@
 
 ## 의견 보내기
 
-- `public/feedback.js` 가 모든 페이지 하단의 "의견 보내기"(data-feedback 링크, 또는 주소 #feedback)로 사이트 안 입력창을 엽니다. 보내는 분(독자, 언론사, 제휴 희망 기업, 광고 문의, 기타 중 하나), 내용(필수), 답장받을 이메일(선택)을 받아 FormSubmit(formsubmit.co) AJAX 로 hazelyuu@gmail.com 에 메일로 보냅니다. 스팸 방지용 숨은 칸(_honey)이 있습니다. GA 이벤트 `send_feedback`(feedback_type) 를 보냅니다.
+- `public/feedback.js` 가 모든 페이지 하단의 "의견 보내기"(data-feedback 링크, 또는 주소 #feedback)로 사이트 안 입력창을 엽니다. 보내는 분(독자, 언론사, 제휴 희망 기업, 광고 문의, 기타 중 하나), 내용(필수), 답장받을 이메일(선택)을 받아 FormSubmit(formsubmit.co) AJAX 로 appealrequested@gmail.com 에(2026-10-10 hazelyuu@gmail.com 에서 변경) 메일로 보냅니다. 스팸 방지용 숨은 칸(_honey)이 있습니다. GA 이벤트 `send_feedback`(feedback_type) 를 보냅니다.
 - FormSubmit 은 처음 한 번 받는 메일 주소로 확인(Activate) 메일을 보내고, 그 링크를 눌러야 이후 의견이 전달됩니다. 2026-10-09 확인 완료, 시험 전송 성공. 개인정보처리방침 3항 표와 1항에 안내가 있습니다.
 - 처음에 Google 설문지로 저장하려다 편집기 자동 조작이 불안정해 그만뒀습니다. hazelyuu@gmail.com 드라이브에 빈 설문지("Untitled form" 또는 뒤섞인 제목) 하나가 남아 있으니 지워도 됩니다.
 
