@@ -190,7 +190,10 @@ await pooled(needImg, CONCURRENCY, async (a) => {
 // Unsplash 규칙: 이미지는 Unsplash 주소에서 그대로 불러오고, 사용할 때 download_location 을 호출하며, 작가와 Unsplash 를 링크로 밝힙니다.
 const PHOTO_OUT = path.join(root, 'public', 'data', 'photos-used.json');
 const PHOTO_MAX = 60; // 한 번 수집에서 붙이는 최대 수. 실제로는 Unsplash 가 알려 주는 남은 요청 수(X-Ratelimit-Remaining)가 바닥나기 전에 멈춥니다(무료 등급 시간당 50회)
-const usedPhotos = new Set((await readJson(PHOTO_OUT, { used: [] })).used || []);
+const photoPrev = await readJson(PHOTO_OUT, { used: [], pages: {} });
+const usedPhotos = new Set(photoPrev.used || []);
+// 검색어별로 어디까지 넘겨 봤는지 기억합니다. 매번 1쪽부터 다시 보면 이미 쓴 사진만 확인하느라 시간당 요청 한도를 다 씁니다.
+const photoPages = { ...(photoPrev.pages || {}) };
 for (const a of articles) if (a.photo) usedPhotos.add(a.photo.id);
 const QUERY = {
   '생성형AI': 'artificial intelligence', '반도체': 'semiconductor chip', '로봇': 'robot', '정책': 'parliament',
@@ -213,18 +216,20 @@ if (UKEY) {
   const search = async (q, page) => {
     const res = await fetch(`https://api.unsplash.com/search/photos?query=${encodeURIComponent(q)}&per_page=30&page=${page}&orientation=landscape&content_filter=high`, { headers: { authorization: `Client-ID ${UKEY}`, 'accept-version': 'v1' } });
     noteLimit(res);
+    if (res.status === 403) remaining = 0; // 시간당 한도 초과
     if (!res.ok) throw new Error(`Unsplash HTTP ${res.status}`);
     return (await res.json()).results || [];
   };
   const pick = async (q) => {
     let pool = pools.get(q);
-    if (!pool) { pool = { page: 0, items: [] }; pools.set(q, pool); }
+    if (!pool) { pool = { page: photoPages[q] || 0, items: [] }; pools.set(q, pool); }
     for (let tries = 0; tries < 3; tries++) {
       const p = pool.items.find((x) => !usedPhotos.has(x.id) && !x.premium && !x.plus); // 유료(Unsplash+) 사진 제외
       if (p) return p;
       pool.page++;
       const more = await search(q, pool.page);
-      if (!more.length) return null;
+      photoPages[q] = pool.page;
+      if (!more.length) { photoPages[q] = 0; return null; } // 결과 끝까지 봤으면 다음에는 처음부터(새로 올라온 사진)
       pool.items.push(...more);
     }
     return null;
@@ -281,7 +286,7 @@ const keywords = Object.entries(total).sort((a, b) => b[1] - a[1]).slice(0, KW_T
 const kwSince = Object.keys(days).sort()[0] || null;
 
 await mkdir(path.dirname(OUT), { recursive: true });
-await writeFile(PHOTO_OUT, JSON.stringify({ updatedAt: now.toISOString(), used: [...usedPhotos] }), 'utf8');
+await writeFile(PHOTO_OUT, JSON.stringify({ updatedAt: now.toISOString(), pages: photoPages, used: [...usedPhotos] }), 'utf8');
 await writeFile(KW_OUT, JSON.stringify({ updatedAt: now.toISOString(), days }), 'utf8');
 const json = JSON.stringify({ updatedAt: now.toISOString(), keywords, keywordDays: KW_DAYS, keywordSince: kwSince, sources, status, articles });
 await writeFile(OUT, json, 'utf8');
