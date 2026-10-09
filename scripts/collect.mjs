@@ -262,7 +262,15 @@ function provider(name, key, opts) {
 // 그 이전에 국방, 휴머노이드, 게임 검색어로 붙은 사진(검색어 기록 q 가 없는 사진)은 한 번 떼어 새 검색어로 다시 붙입니다.
 const REPHOTO_KW = new Set(['국방', '휴머노이드', '게임']);
 for (const a of articles) {
-  if (a.photo && !a.photo.q && (a.kw || []).find((k) => KW_QUERY[k] && REPHOTO_KW.has(k)) === (a.kw || []).find((k) => KW_QUERY[k])) delete a.photo;
+  const first = (a.kw || []).find((k) => KW_QUERY[k]);
+  if (a.photo && !a.photo.q && first && REPHOTO_KW.has(first)) delete a.photo;
+}
+// 2026-10-10 복구: 위 규칙의 버그로 잘못 떼어 낸 사진을 photo-restore.json 에서 되돌립니다(한 번 쓰고 파일은 지움).
+const restore = await readJson(path.join(root, 'public', 'data', 'photo-restore.json'), null);
+if (restore) {
+  let n = 0;
+  for (const a of articles) if (!a.image && !a.photo && restore[a.id]) { a.photo = restore[a.id]; n++; }
+  console.log(`자료 사진 복구: ${n}건`);
 }
 const providers = [];
 const ref = '?utm_source=ainewswave&utm_medium=referral';
