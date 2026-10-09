@@ -55,6 +55,7 @@ function page(st, others) {
 <link rel="alternate" type="application/rss+xml" title="AI 뉴스웨이브 정리 기사" href="/recap/feed.xml">
 <script type="application/ld+json">${JSON.stringify(ld).replace(/</g, '\\u003c')}</script>
 <script src="/consent.js"></script>
+<script src="/feedback.js" defer></script>
 <meta name="google-adsense-account" content="ca-pub-2376619512263295">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2376619512263295" crossorigin="anonymous"></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=${GA}"></script>
@@ -78,7 +79,7 @@ function page(st, others) {
   <ul>${others.map((o) => `<li><a href="${esc(o.id)}.html">${esc(o.title)}</a></li>`).join('')}</ul>` : ''}
   <p><a href="./">정리 기사 전체 보기</a> | <a href="../">AI 뉴스웨이브에서 최신 AI 뉴스 보기</a></p>
 </main>
-<footer class="wrap foot"><a href="../">홈</a><a href="./">정리 기사</a><a href="../about.html">소개</a><a href="../privacy.html">개인정보처리방침</a><a href="../contact.html">문의</a></footer>
+<footer class="wrap foot"><a href="../">홈</a><a href="./">정리 기사</a><a href="../about.html">소개</a><a href="../privacy.html">개인정보처리방침</a><a href="../contact.html">문의</a><a href="#feedback" data-feedback>의견 보내기</a></footer>
 </body>
 </html>
 `;
@@ -115,6 +116,7 @@ const indexHtml = `<!doctype html>
 <link rel="stylesheet" href="../page.css">
 <link rel="alternate" type="application/rss+xml" title="AI 뉴스웨이브 정리 기사" href="/recap/feed.xml">
 <script src="/consent.js"></script>
+<script src="/feedback.js" defer></script>
 <meta name="google-adsense-account" content="ca-pub-2376619512263295">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2376619512263295" crossorigin="anonymous"></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=${GA}"></script>
@@ -132,7 +134,7 @@ const indexHtml = `<!doctype html>
   ${group(plain).map(([day, list]) => `<h3>${day}</h3>
   <ul>${list.map((x) => `<li><a href="${esc(x.id)}.html">${esc(x.title)}</a> <span class="meta">${x.sources.length}개 매체</span></li>`).join('')}</ul>`).join('\n  ')}
 </main>
-<footer class="wrap foot"><a href="../">홈</a><a href="./">정리 기사</a><a href="../about.html">소개</a><a href="../privacy.html">개인정보처리방침</a><a href="../contact.html">문의</a></footer>
+<footer class="wrap foot"><a href="../">홈</a><a href="./">정리 기사</a><a href="../about.html">소개</a><a href="../privacy.html">개인정보처리방침</a><a href="../contact.html">문의</a><a href="#feedback" data-feedback>의견 보내기</a></footer>
 </body>
 </html>
 `;
