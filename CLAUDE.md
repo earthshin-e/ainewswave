@@ -148,7 +148,7 @@
 
 ## 애드센스
 
-- 2026-10-09 가입(hazelyuu@gmail.com). 게시자 ID `ca-pub-2376619512263295`. 모든 페이지 head 에 consent.js 다음으로 애드센스 스크립트와 `google-adsense-account` 메타 태그를 넣었고 `public/ads.txt` 가 있습니다. 승인 전에는 광고가 나오지 않습니다. 자동 광고는 승인 뒤 애드센스 화면에서 켭니다.
+- 2026-10-09 가입(hazelyuu@gmail.com). 게시자 ID `ca-pub-2376619512263295`. 모든 페이지 head 에 consent.js 다음으로 애드센스 스크립트와 `google-adsense-account` 메타 태그를 넣었고 `public/ads.txt` 가 있습니다. 2026-10-09 지급 정보 입력, 사이트 소유 확인, 검토 요청 완료(상태: Getting ready). 승인 전에는 광고가 나오지 않습니다. 승인 뒤 자동 광고를 켜고, 유럽 방문자용 Google 인증 동의 메시지(Privacy & messaging)를 설정합니다.
 
 ## 쿠키 동의
 
