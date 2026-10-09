@@ -189,7 +189,7 @@ await pooled(needImg, CONCURRENCY, async (a) => {
 // 한 번 쓴 사진은 photos-used.json 에 기록해 다른 기사에 다시 쓰지 않습니다. 실제 현장 사진이 아니므로 화면에 "자료 사진"과 작가를 표시합니다.
 // Unsplash 규칙: 이미지는 Unsplash 주소에서 그대로 불러오고, 사용할 때 download_location 을 호출하며, 작가와 Unsplash 를 링크로 밝힙니다.
 const PHOTO_OUT = path.join(root, 'public', 'data', 'photos-used.json');
-const PHOTO_MAX = 15; // 한 번 수집에서 붙이는 최대 수. 무료 등급은 시간당 50회 요청이고 30분마다 돌기 때문에 검색과 사용 알림을 합쳐 한도 안에 들도록 15건으로 둡니다
+const PHOTO_MAX = 60; // 한 번 수집에서 붙이는 최대 수. 실제로는 Unsplash 가 알려 주는 남은 요청 수(X-Ratelimit-Remaining)가 바닥나기 전에 멈춥니다(무료 등급 시간당 50회)
 const usedPhotos = new Set((await readJson(PHOTO_OUT, { used: [] })).used || []);
 for (const a of articles) if (a.photo) usedPhotos.add(a.photo.id);
 const QUERY = {
@@ -208,8 +208,11 @@ let photoAdded = 0;
 const UKEY = process.env.UNSPLASH_ACCESS_KEY;
 if (UKEY) {
   const pools = new Map(); // 검색어별 결과를 이번 실행에서 재사용해 요청 수를 줄입니다
+  let remaining = Infinity; // Unsplash 가 응답 헤더로 알려 주는 이번 시간 남은 요청 수
+  const noteLimit = (res) => { const r = Number(res.headers.get('x-ratelimit-remaining')); if (Number.isFinite(r)) remaining = r; };
   const search = async (q, page) => {
     const res = await fetch(`https://api.unsplash.com/search/photos?query=${encodeURIComponent(q)}&per_page=30&page=${page}&orientation=landscape&content_filter=high`, { headers: { authorization: `Client-ID ${UKEY}`, 'accept-version': 'v1' } });
+    noteLimit(res);
     if (!res.ok) throw new Error(`Unsplash HTTP ${res.status}`);
     return (await res.json()).results || [];
   };
@@ -229,6 +232,7 @@ if (UKEY) {
   const targets = articles.filter((a) => !a.image && !a.photo).slice(0, PHOTO_MAX);
   try {
     for (const a of targets) {
+      if (remaining <= 3) { console.log('Unsplash 시간당 요청 한도에 가까워 이번 실행은 여기서 멈춥니다.'); break; }
       const kw = (a.kw || []).find((k) => KW_QUERY[k]);
       const q = kw ? KW_QUERY[kw] : (QUERY[a.category] || 'technology');
       const p = await pick(q);
@@ -237,7 +241,7 @@ if (UKEY) {
       const ref = '?utm_source=ainewswave&utm_medium=referral';
       a.photo = { id: p.id, url: `${p.urls.raw}&w=800&q=70&fm=jpg&fit=crop&ar=16:9`, author: p.user.name, authorUrl: p.user.links.html + ref, link: p.links.html + ref };
       photoAdded++;
-      fetch(`${p.links.download_location}&client_id=${UKEY}`).catch(() => {}); // 사용 알림(Unsplash 규칙)
+      try { noteLimit(await fetch(`${p.links.download_location}&client_id=${UKEY}`)); } catch { /* 사용 알림 실패는 무시 */ } // 사용 알림(Unsplash 규칙)
     }
   } catch (e) {
     console.warn(`Unsplash 자료 사진 중단: ${e.message}`);
@@ -294,7 +298,7 @@ if (failed.length) {
   for (const f of failed) console.log(`  - ${f.name}: ${f.error}`);
 }
 const secs = ((Date.now() - startedAt) / 1000).toFixed(1);
-console.log(`\nUnsplash 자료 사진: ${UKEY ? `${photoAdded}건 추가, 사용한 사진 ${usedPhotos.size}장` : '키 없음, 건너뜀'}`);
+console.log(`\nUnsplash 자료 사진: ${UKEY ? `${photoAdded}건 추가, 사용한 사진 ${usedPhotos.size}장, 사진도 이미지도 없는 기사 ${articles.filter((a) => !a.image && !a.photo).length}건` : '키 없음, 건너뜀'}`);
 console.log(`\n대표 이미지 보강: ${needImg.length}건 시도, ${ogFound}건 찾음, 이미지 없는 기사 ${articles.filter((a) => !a.image).length}건`);
 console.log(`\n키워드 상위 ${KW_TOP}: ${keywords.map((k) => `${k.label} ${k.count}`).join(', ')}`);
 console.log(`\n저장 완료: 기사 ${articles.length}건, 매체 ${sources.length}곳 (피드 성공 ${okCount}/${feeds.length})`);
