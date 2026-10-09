@@ -6,6 +6,11 @@ on:
   schedule:
     - cron: "*/30 * * * *"
   workflow_dispatch:
+    inputs:
+      slack_test:
+        description: "Slack 시험 알림 보내기"
+        type: boolean
+        default: false
   push:
     branches: [main]
 
@@ -51,6 +56,12 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
       # Slack 운영 로그: 새로 공개된 정리 기사와 브리핑, 오전 9시대 하루 요약 (SLACK_WEBHOOK_URL 시크릿이 없으면 건너뜀)
+      - name: Slack test
+        if: ${{ github.event.inputs.slack_test == 'true' }}
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: |
+          node scripts/slack.mjs --text ":wave: AI 뉴스웨이브 운영 로그 연결 시험입니다. 앞으로 새 정리 기사 공개, 오전 9시 하루 요약, 문제 경고가 이 채널로 옵니다."
       - name: Slack log
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
