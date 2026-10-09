@@ -60,7 +60,7 @@
           form.reset();
           if (typeof window.gtag === 'function') window.gtag('event', 'send_feedback', { feedback_type: type });
         })
-        .catch(function () { msg.hidden = false; msg.textContent = '보내지 못했어요. 잠시 뒤 다시 시도하거나 hazelyuu@gmail.com 으로 메일 주세요.'; })
+        .catch(function () { msg.hidden = false; msg.textContent = '보내지 못했어요. 잠시 뒤 다시 시도해 주세요.'; })
         .then(function () { btn.disabled = false; btn.textContent = '보내기'; });
     });
   }
