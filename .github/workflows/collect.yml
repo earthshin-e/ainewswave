@@ -129,5 +129,6 @@ jobs:
           if [ -n "$num" ]; then gh issue comment "$num" -R "${{ github.repository }}" -b "$body"
           else gh issue create -R "${{ github.repository }}" -t "$title" -b "$body"; fi
           if [ -n "${{ secrets.SLACK_WEBHOOK_URL }}" ]; then
-            curl -s -X POST -H 'content-type: application/json' -d "{\"text\":\":rotating_light: *수집 또는 배포 실패* $body\"}" "${{ secrets.SLACK_WEBHOOK_URL }}" || true
+            stamp=$(TZ=Asia/Seoul date +"%m/%d %H:%M")
+            curl -s -X POST -H 'content-type: application/json' -d "{\"text\":\"*$stamp*\\n:rotating_light: *수집 또는 배포 실패* $body\"}" "${{ secrets.SLACK_WEBHOOK_URL }}" || true
           fi

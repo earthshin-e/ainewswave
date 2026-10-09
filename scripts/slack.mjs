@@ -14,7 +14,15 @@ const SITE = 'https://ainewswave.com';
 const args = process.argv.slice(2);
 const argOf = (k) => { const i = args.indexOf(k); return i >= 0 ? args[i + 1] : null; };
 
-async function post(text) {
+// 모든 메시지 맨 앞에 한국 시간 날짜와 시각을 한 번 적습니다(예: 10/10 09:00).
+const stamp = () => {
+  const d = new Date(Date.now() + 9 * 3600000);
+  const p2 = (n) => String(n).padStart(2, '0');
+  return `${p2(d.getUTCMonth() + 1)}/${p2(d.getUTCDate())} ${p2(d.getUTCHours())}:${p2(d.getUTCMinutes())}`;
+};
+
+async function post(body) {
+  const text = `*${stamp()}*\n${body}`;
   const res = await fetch(hook, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ text, unfurl_links: false }) });
   if (!res.ok) console.warn(`Slack 전송 실패 HTTP ${res.status}`);
 }

@@ -172,7 +172,7 @@
 
 ## 운영 알림
 
-- Slack 운영 로그: `scripts/slack.mjs` 가 배포 때마다 새로 공개된 정리 기사와 브리핑(직전 배포본 stories.prev.json 과 비교), 한국 시간 오전 9시대 첫 수집에서 하루 요약, 점검 경고, 수집 실패를 Slack 으로 보냅니다. GitHub 시크릿 `SLACK_WEBHOOK_URL`(hazelyu.slack.com 의 #ainewswave 채널 Incoming Webhook)이 없으면 보내지 않습니다.
+- Slack 운영 로그: `scripts/slack.mjs` 가 배포 때마다 새로 공개된 정리 기사와 브리핑(직전 배포본 stories.prev.json 과 비교), 한국 시간 오전 9시대 첫 수집에서 하루 요약, 점검 경고, 수집 실패를 Slack 으로 보냅니다. GitHub 시크릿 `SLACK_WEBHOOK_URL`(hazelyu.slack.com 의 #ainewswave 채널 Incoming Webhook)이 없으면 보내지 않습니다. 모든 메시지 맨 앞에 한국 시간 "MM/DD HH:MM" 을 굵게 한 줄 적습니다.
 
 - `scripts/health.mjs` 가 배포 때마다 점검합니다: 피드 30% 넘게 실패, 최근 기사가 12시간 넘게 없음, 한국 시간 21시 이후인데 오늘 브리핑도 없고 30시간 동안 새 정리 기사도 없음. 문제가 있으면 "운영 점검 경고" 이슈를 열거나(이미 열려 있으면 댓글) 메일로 알립니다.
 - 워크플로가 실패하면 notify-failure 잡이 "수집 실패" 이슈를 엽니다. 문제를 해결하면 이슈를 닫아야 다음 알림이 새 이슈로 옵니다.
