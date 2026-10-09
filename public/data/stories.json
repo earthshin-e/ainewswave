@@ -5,6 +5,252 @@
   ],
   "stories": [
     {
+      "id": "b20261009",
+      "type": "briefing",
+      "title": "10월 9일 AI 브리핑: 구글 에이전트와 TSMC 실적, 앤트로픽 보안 도구",
+      "category": "일반",
+      "published": "2026-10-09T09:39:39.781Z",
+      "points": [
+        "구글이 기업용 AI 에이전트를 공개하며 경쟁 가세",
+        "TSMC 3분기 매출이 AI 수요로 사상 최고",
+        "AI 성장 우려에 뉴욕증시 기술주는 약세"
+      ],
+      "body": [
+        "구글 클라우드가 8일(현지시간) 기업 업무용 AI 에이전트 '제미나이 에이전트'를 공개했다. 이메일과 문서 작성, 일정 관리, 코딩을 하나로 처리하며 제미나이와 함께 앤트로픽의 클로드도 쓰는 멀티모델 구조다. 오픈AI의 '닷', 메타의 '뮤즈'에 이은 에이전트 경쟁의 연장선이라는 평가가 나왔다.",
+        "앤트로픽은 8일 오픈소스 소프트웨어의 보안 취약점을 찾는 무료 서비스 'OSS 스캐너'를 공개했다. 프로젝트 글래스윙에서 클로드로 취약점을 찾은 경험을 바탕으로 했고, 오픈소스 개발자가 문제를 더 빨리 파악하고 대응하도록 돕는다. 앞서 7일에는 반복 업무용 소형 모델 '클로드 하이쿠 5.5'도 내놓았다.",
+        "TSMC의 올해 3분기 매출은 1조4942억 대만달러(약 62조8700억원)로 사상 최고를 기록했다. 뉴시스는 전년 동기 대비 50.95% 증가라고 전했고 조선비즈는 50% 증가로 적었다. 9월 단일 매출은 5118억6000만 대만달러로 전년 동월보다 54.6% 늘었다.",
+        "뉴욕증시는 8일 혼조로 마감했다. 다우지수는 0.10% 올랐지만 나스닥은 1.25% 내렸다. 오픈AI의 연환산 매출을 둘러싼 보도로 반도체주가 급락했고, 미국의 대이란 추가 공격 가능성에 국제유가가 오르면서 기술주 투자심리가 위축됐다.",
+        "생성형 AI 솔루션 기업 제논은 8일 금융위원회에 증권신고서를 내고 코스닥 공모 절차에 들어갔다. 공모 주식은 220만 주, 희망 공모가는 9700원에서 1만2200원이다.",
+        "서울 AI 허브는 9일 시민과 개발자가 만든 생활문제 해결 AI 서비스 13개를 발굴했다고 밝혔다. 지난달 18일 열린 해커톤과 정책토론에서 나온 수어 데이터 위키 같은 프로토타입이 서울시 정책 논의 의제로 올랐다."
+      ],
+      "sources": [
+        {
+          "id": "fb480a15a2b7",
+          "name": "디일렉",
+          "title": "구글, 업무용 에이전틱 AI '제미나이 에이전트' 공개",
+          "link": "https://www.thelec.kr/news/articleView.html?idxno=63507"
+        },
+        {
+          "id": "4c8a36e6393e",
+          "name": "디지털데일리",
+          "title": "구글, 기업용 ‘제미나이 에이전트’ 공개… 오픈AI ‘닷’에 맞불",
+          "link": "https://www.ddaily.co.kr/page/view/2026100909440875305"
+        },
+        {
+          "id": "3d69d85f2cce",
+          "name": "테크월드뉴스",
+          "title": "구글클라우드, 업무용 ‘제미나이 에이전트’ 선봬",
+          "link": "https://www.epnc.co.kr/news/articleView.html?idxno=407974"
+        },
+        {
+          "id": "5fe0368c1420",
+          "name": "인공지능신문",
+          "title": "범용 AI 에이전트 ‘제미나이 에이전트’ 공개…구글 클라우드, 기업 업무 전 과정 자동화",
+          "link": "https://www.aitimes.kr/news/articleView.html?idxno=42241"
+        },
+        {
+          "id": "d9ef445dee77",
+          "name": "AI타임스",
+          "title": "\"오픈소스 취약점 AI가 잡는다\"...앤트로픽, 무료 보안 검사 도구 공개",
+          "link": "https://www.aitimes.com/news/articleView.html?idxno=216101"
+        },
+        {
+          "id": "cf4c03764947",
+          "name": "인공지능신문",
+          "title": "앤트로픽, 오픈소스 보안 취약점 무료 탐지 서비스 공개…최강 AI 모델로 코드 보안 진단",
+          "link": "https://www.aitimes.kr/news/articleView.html?idxno=42243"
+        },
+        {
+          "id": "5ec5ca9beb13",
+          "name": "인공지능신문",
+          "title": "앤트로픽, ‘클로드 하이쿠 5.5’ 출시…실행 비용 75% 낮춘 고속 AI 모델",
+          "link": "https://www.aitimes.kr/news/articleView.html?idxno=42242"
+        },
+        {
+          "id": "fbac1457769d",
+          "name": "뉴시스",
+          "title": "[올댓차이나] TSMC 3분기 매출 62.8조원·50.9%↑…AI 수요에 사상 최고",
+          "link": "https://www.newsis.com/view/NISX20261009_0003820077"
+        },
+        {
+          "id": "13a2a0d48ad6",
+          "name": "조선비즈",
+          "title": "TSMC, AI 반도체 수요에 3분기 매출 63조원…전년比 50% 증가 ‘역대 최대’",
+          "link": "https://biz.chosun.com/it-science/ict/2026/10/08/EU3X5PCVMVHFBAATFELNZY7WAY"
+        },
+        {
+          "id": "3a833819166b",
+          "name": "디지털투데이",
+          "title": "AI 칩 주문 폭주…TSMC 3분기 매출 또 '사상 최대'",
+          "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=705995"
+        },
+        {
+          "id": "f31d9be790a4",
+          "name": "뉴시스",
+          "title": "뉴욕증시, AI주 약세·유가 상승에 혼조…나스닥, 1.25% ↓",
+          "link": "https://www.newsis.com/view/NISX20261009_0003820020"
+        },
+        {
+          "id": "5a7e9d878e14",
+          "name": "프라임경제",
+          "title": "[해외시황] 뉴욕증시, AI 성장 우려·중동 긴장에 '혼조'…나스닥 1.25%↓",
+          "link": "http://www.newsprime.co.kr/news/article.html?no=750430"
+        },
+        {
+          "id": "628fbcbbafe2",
+          "name": "디지털데일리",
+          "title": "제논, 증권신고서 제출… 상장 절차 돌입",
+          "link": "https://www.ddaily.co.kr/page/view/2026100909351928565"
+        },
+        {
+          "id": "c9c6fa57d093",
+          "name": "데이터넷",
+          "title": "제논, 증권신고서 제출 ··· 코스닥 상장 공모 절차 본격화",
+          "link": "https://www.datanet.co.kr/news/articleView.html?idxno=214991"
+        },
+        {
+          "id": "e4ba4dc8cb5f",
+          "name": "디지털데일리",
+          "title": "시민 AI 해법, 정책으로 잇는다… 서울 AI 허브, AI 서비스 13개 발굴",
+          "link": "https://www.ddaily.co.kr/page/view/2026100909310891552"
+        },
+        {
+          "id": "79fa343bb470",
+          "name": "플래텀",
+          "title": "시민이 만든 AI 해법, 서울 AI 허브 정책토론 의제로",
+          "link": "https://platum.kr/archives/295977"
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "s20261009-fb480a15a2b7",
+      "title": "구글 클라우드, 업무용 AI 에이전트 '제미나이 에이전트' 공개",
+      "category": "생성형AI",
+      "published": "2026-10-09T08:11:56.000Z",
+      "points": [
+        "구글 클라우드가 기업용 통합 AI 에이전트 공개",
+        "이메일, 문서, 일정, 코딩을 하나로 처리",
+        "제미나이와 클로드 등 멀티모델 구조 적용"
+      ],
+      "body": [
+        "구글 클라우드가 8일(현지시간) 기업 업무 전반을 수행하는 AI 에이전트 '제미나이 에이전트'를 공식 발표했다. 질문 답변에 그치지 않고 업무 처리, 콘텐츠 제작, 코드 작성까지 지원하며, 이메일과 문서 작성, 일정 관리, 코딩을 하나의 인터페이스에서 처리한다고 매체들은 전했다.",
+        "테크월드는 이 에이전트가 구글의 제미나이뿐 아니라 앤트로픽의 클로드까지 활용해 업무 성격에 맞는 모델을 고르는 멀티모델 구조를 적용했다고 보도했다. 디지털투데이는 테크크런치를 인용해 구글이 이를 기업 시장에 먼저 적용하기로 했다고 전했다.",
+        "디지털데일리는 오픈AI가 앞서 상시 실행형 에이전트 '닷'을 공개했고 메타도 개인용 '뮤즈'를 내놓은 흐름 속에서 나온 맞불 성격의 발표라고 평가했다. 디일렉은 지난 5월 구글 I/O에서 발표한 제미나이 스파크보다 기능이 확장됐다고 소개했다."
+      ],
+      "sources": [
+        {
+          "id": "fb480a15a2b7",
+          "name": "디일렉",
+          "title": "구글, 업무용 에이전틱 AI '제미나이 에이전트' 공개",
+          "link": "https://www.thelec.kr/news/articleView.html?idxno=63507"
+        },
+        {
+          "id": "4c8a36e6393e",
+          "name": "디지털데일리",
+          "title": "구글, 기업용 ‘제미나이 에이전트’ 공개… 오픈AI ‘닷’에 맞불",
+          "link": "https://www.ddaily.co.kr/page/view/2026100909440875305"
+        },
+        {
+          "id": "3d69d85f2cce",
+          "name": "테크월드뉴스",
+          "title": "구글클라우드, 업무용 ‘제미나이 에이전트’ 선봬",
+          "link": "https://www.epnc.co.kr/news/articleView.html?idxno=407974"
+        },
+        {
+          "id": "5fe0368c1420",
+          "name": "인공지능신문",
+          "title": "범용 AI 에이전트 ‘제미나이 에이전트’ 공개…구글 클라우드, 기업 업무 전 과정 자동화",
+          "link": "https://www.aitimes.kr/news/articleView.html?idxno=42241"
+        },
+        {
+          "id": "951ef5070d78",
+          "name": "디지털투데이",
+          "title": "구글, 제미나이에 에이전틱 AI 투입...기업 시장부터 공략",
+          "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=706143"
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "s20261009-628fbcbbafe2",
+      "title": "생성형 AI 기업 제논, 증권신고서 제출하고 코스닥 공모 착수",
+      "category": "기업",
+      "published": "2026-10-09T00:39:36.000Z",
+      "points": [
+        "제논이 금융위에 증권신고서 제출",
+        "일반상장 방식, 공모 220만 주",
+        "희망 공모가 9700원에서 1만2200원"
+      ],
+      "body": [
+        "생성형 AI 솔루션 기업 제논이 8일 금융위원회에 증권신고서를 제출하고 코스닥 상장을 위한 공모 절차에 들어갔다. 제논은 지난 9월 한국거래소의 상장예비심사를 통과했으며 기술특례가 아닌 일반상장 방식으로 상장을 추진한다.",
+        "공모 주식은 220만 주이고 희망 공모가는 주당 9700원에서 1만2200원이다. 디지털투데이는 이를 기준으로 최대 268억 원을 공모한다고 전했다."
+      ],
+      "sources": [
+        {
+          "id": "628fbcbbafe2",
+          "name": "디지털데일리",
+          "title": "제논, 증권신고서 제출… 상장 절차 돌입",
+          "link": "https://www.ddaily.co.kr/page/view/2026100909351928565"
+        },
+        {
+          "id": "c9c6fa57d093",
+          "name": "데이터넷",
+          "title": "제논, 증권신고서 제출 ··· 코스닥 상장 공모 절차 본격화",
+          "link": "https://www.datanet.co.kr/news/articleView.html?idxno=214991"
+        },
+        {
+          "id": "fb92ee66ddbd",
+          "name": "인공지능신문",
+          "title": "생성 AI 플랫폼 '제논', 증권신고서 제출…코스닥 상장 공모 절차 본격화",
+          "link": "https://www.aitimes.kr/news/articleView.html?idxno=42233"
+        },
+        {
+          "id": "d72371bc243c",
+          "name": "디지털투데이",
+          "title": "제논, 코스닥 상장 증권신고서 제출…최대 268억원 공모",
+          "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=705796"
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "s20261009-5f5d4e821376",
+      "title": "KOSA와 한국벤처투자, AI와 SW 기업 투자 연계 협약",
+      "category": "정책",
+      "published": "2026-10-08T11:42:53.586Z",
+      "points": [
+        "KOSA와 한국벤처투자가 업무협약 체결",
+        "모태펀드 운용사와 AI 기업을 직접 연결",
+        "공동 IR과 투자상담회 추진"
+      ],
+      "body": [
+        "AI와 SW 업계 단체 KOSA와 한국벤처투자가 8일 서울 서초구 한국벤처투자 본사에서 유망 AI와 SW 기업의 투자와 성장 지원을 위한 업무협약을 맺었다.",
+        "두 기관은 KOSA의 산업 네트워크와 한국벤처투자의 모태펀드 투자 네트워크를 연결해 공동 IR과 투자상담회를 추진한다. 테크월드는 투자 유치와 실증, 해외 진출 지원도 강화한다고 전했다."
+      ],
+      "sources": [
+        {
+          "id": "5f5d4e821376",
+          "name": "벤처스퀘어",
+          "title": "KOSA·한국벤처투자, AI 기업과 모태펀드 운용사 직접 연결…공동 IR·투자상담 추진",
+          "link": "https://www.venturesquare.net/1118598"
+        },
+        {
+          "id": "58c8411e9de9",
+          "name": "테크월드뉴스",
+          "title": "KOSA-한국벤처투자, AI·SW 기업 투자 연계 강화 ‘맞손’",
+          "link": "https://www.epnc.co.kr/news/articleView.html?idxno=407962"
+        },
+        {
+          "id": "b2c1f226551f",
+          "name": "데이터넷",
+          "title": "KOSA·한국벤처투자, 유망 AI·SW 기업 투자·성장 지원 맞손",
+          "link": "https://www.datanet.co.kr/news/articleView.html?idxno=214974"
+        }
+      ],
+      "auto": true
+    },
+    {
       "id": "b20261008",
       "type": "briefing",
       "title": "10월 8일 AI 브리핑: 삼성전자 영업이익 100조원과 GPT-6 확대",
@@ -170,6 +416,60 @@
       ]
     },
     {
+      "id": "s20261009-8244b33e40c9",
+      "title": "인텔리빅스, 방사청 62억 원 국방 AI 영상감시 개발 착수",
+      "category": "연구",
+      "published": "2026-10-08T09:01:39.000Z",
+      "points": [
+        "방산혁신기업 R&D 과제 주관기관 선정",
+        "총 연구비 62억 원 규모",
+        "악천후에서 500m 밖 객체 탐지 목표"
+      ],
+      "body": [
+        "AI 딥테크 기업 인텔리빅스가 방위사업청의 방산혁신기업 R&D 과제 주관기관으로 선정돼 차세대 국방 AI 영상감시 플랫폼 개발에 착수했다고 8일 밝혔다. 총 연구비는 62억 원이다.",
+        "과제는 울산과학기술원(UNIST), 성균관대학교와 공동으로 추진한다. 목표는 눈, 비, 안개 같은 악천후에서도 500m 밖 객체를 탐지하는 시스템으로, 일부 매체는 최전방 GOP 경계를 맡는 'AI 경계병'으로 소개했다."
+      ],
+      "sources": [
+        {
+          "id": "8244b33e40c9",
+          "name": "테크월드뉴스",
+          "title": "인텔리빅스, 차세대 국방 AI 영상감시 플랫폼 개발 착수",
+          "link": "https://www.epnc.co.kr/news/articleView.html?idxno=407969"
+        },
+        {
+          "id": "685d34c22fa2",
+          "name": "디지털데일리",
+          "title": "인텔리빅스, AI 경계병 개발 착수",
+          "link": "https://www.ddaily.co.kr/page/view/2026100817091708471"
+        },
+        {
+          "id": "e4f7edb1d1a6",
+          "name": "헬로티",
+          "title": "인텔리빅스, 62억 규모 국방 AI 개발 착수...GOP 경계체계 고도화",
+          "link": "https://www.hellot.net/news/article.html?no=115348"
+        },
+        {
+          "id": "24458fbd6e51",
+          "name": "인공지능신문",
+          "title": "인텔리빅스, GOP 지키는 ‘AI 경계병’ 만든다…방사청 62억원 규모 R&D 착수",
+          "link": "https://www.aitimes.kr/news/articleView.html?idxno=42234"
+        },
+        {
+          "id": "9fe70f4f39d7",
+          "name": "로봇신문",
+          "title": "인텔리빅스, GOP ‘AI 경계병’ 만든다…방사청 62억원 규모 R&D 착수",
+          "link": "https://www.irobotnews.com/news/articleView.html?idxno=48902"
+        },
+        {
+          "id": "c01be9007f2e",
+          "name": "EBN",
+          "title": "[Tech & Now] 인텔리빅스, 'AI 경계병' 만든다…62억 규모 방사청 R&D 착수 등",
+          "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1727177"
+        }
+      ],
+      "auto": true
+    },
+    {
       "id": "s20261008-afecc284d202",
       "title": "모빌린트 국산 NPU, 누리호 5차 부탑재위성에 실려 우주 검증",
       "category": "반도체",
@@ -207,6 +507,42 @@
           "name": "테크월드뉴스",
           "title": "모빌린트, 국산 NPU 우주 검증…누리호 5차 부탑재위성에 탑재",
           "link": "https://www.epnc.co.kr/news/articleView.html?idxno=407913"
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "s20261009-453b1f324735",
+      "title": "베슬AI, 업스테이지 '솔라 프로4' 글로벌 추론 인프라 제공",
+      "category": "생성형AI",
+      "published": "2026-10-08T08:40:00.000Z",
+      "points": [
+        "베슬AI가 솔라 프로4 추론 인프라 담당",
+        "한국, 유럽, 미국 GPU 서버로 요청 처리",
+        "자체 최적화로 속도 향상과 비용 절감"
+      ],
+      "body": [
+        "네오클라우드 기업 베슬AI는 8일 업스테이지의 거대언어모델 '솔라 프로4'에 글로벌 인퍼런스 인프라를 제공한다고 밝혔다. 학습을 마친 모델을 실제 서비스에서 돌려 이용자 질문에 답하는 과정이 추론이다.",
+        "플래텀에 따르면 베슬AI는 한국과 유럽, 미국 데이터센터의 GPU 서버로 전 세계 이용자의 요청을 처리했다. 데이터넷은 자체 최적화 기술로 처리 속도를 높이고 비용을 낮췄다고 전했고, 테크월드는 솔라 프로4가 글로벌 LLM 마켓플레이스 오픈라우터에서 9월 사용량이 많았다고 소개했다."
+      ],
+      "sources": [
+        {
+          "id": "453b1f324735",
+          "name": "테크월드뉴스",
+          "title": "베슬에이아이, 업스테이지 ‘솔라 프로 4’ 글로벌 인퍼런스 운영 지원",
+          "link": "https://www.epnc.co.kr/news/articleView.html?idxno=407961"
+        },
+        {
+          "id": "77d99a073119",
+          "name": "데이터넷",
+          "title": "베슬AI, 업스테이지 ‘솔라 프로4’ 글로벌 인퍼런스 인프라 맡아",
+          "link": "https://www.datanet.co.kr/news/articleView.html?idxno=214986"
+        },
+        {
+          "id": "9216fddde6a6",
+          "name": "플래텀",
+          "title": "베슬AI, 업스테이지 ‘솔라 프로4’ 글로벌 추론 운영 맡아",
+          "link": "https://platum.kr/archives/295941"
         }
       ],
       "auto": true
@@ -358,6 +694,157 @@
       "auto": true
     },
     {
+      "id": "s20261009-80d17c9e8749",
+      "title": "SK쉴더스 분석 \"금융권 해킹, AI가 기존 공격을 자동화\"",
+      "category": "보안/윤리",
+      "published": "2026-10-08T08:00:00.000Z",
+      "points": [
+        "금융권 해킹은 기존 공격의 자동화와 고도화",
+        "관리 사각지대 Shadow IT와 API가 표적",
+        "에버스핀 등 업계가 AI 자동화 공격 경고"
+      ],
+      "body": [
+        "SK쉴더스는 8일 AI 자동화 공격 시대의 Shadow IT를 노린 침해사고 분석 및 대응 가이드를 공개했다. 회사의 화이트해커 조직 EQST는 최근 금융권 해킹 사태를 AI가 새로운 공격 기법을 만들어낸 사례가 아니라 기존 공격을 자동화하고 고도화한 사례로 분석했다.",
+        "분석에 따르면 해커들은 AI 기반 도구를 악용해 기업의 관리가 취약한 사각지대인 Shadow IT와 API 보안 약점을 공략했다. 데이터넷은 AI가 기존 공격을 더 빠르고 대규모로 탐색하는 역할을 한 만큼 비슷한 사고가 더 자주 발생하고 피해 규모도 커질 수 있다는 우려를 전했다.",
+        "보안 업계의 경고도 이어졌다. 에버스핀은 자사 고객사 서비스에서 브라우저 없이 API를 직접 호출하는 방식의 AI 자율형 공격을 탐지했다고 밝혔고, 기존 인증과 접근 통제를 유지하면서 이런 공격에 대응하는 방안이 필요하다고 설명했다. 테크월드는 신한은행과 KB국민은행 등 금융권에서 보안사고가 잇따르면서 AI 공격에 대응할 보안 강화 요구가 커지고 있다고 전했다."
+      ],
+      "sources": [
+        {
+          "id": "80dd2da6818b",
+          "name": "테크월드뉴스",
+          "title": "“AI 자동화 공격 시작됐나”…잇따른 금융권 보안사고에 업계 경고",
+          "link": "https://www.epnc.co.kr/news/articleView.html?idxno=407966"
+        },
+        {
+          "id": "f364459e7c3e",
+          "name": "보안뉴스",
+          "title": "SK쉴더스, AI 자동화 공격 시대 ‘Shadow IT’ 대응 가이드 공개",
+          "link": "https://www.boannews.com/news/articleView.html?idxno=146267"
+        },
+        {
+          "id": "845b7aced767",
+          "name": "헬로티",
+          "title": "에버스핀 “금융권 노린 AI 자동화 공격 시도 탐지”…보조 업무서비스 보안 취약성 부각",
+          "link": "https://www.hellot.net/news/article.html?no=115347"
+        },
+        {
+          "id": "9753ea3dfe8f",
+          "name": "조선비즈",
+          "title": "韓 금융권 ‘보안 사각지대’ 파고든 AI… “자동화로 해킹 규모·속도 키워”",
+          "link": "https://biz.chosun.com/it-science/ict/2026/10/08/Q6ACJOC7SZCJRPJ5OFW7ACMVSY"
+        },
+        {
+          "id": "80d17c9e8749",
+          "name": "디지털투데이",
+          "title": "\"최근 금융권 AI 해킹, 기존 공격 기법 자동화·고도화\"...SK쉴더스 분석",
+          "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=705838"
+        },
+        {
+          "id": "42afc2969dcf",
+          "name": "데이터넷",
+          "title": "SK쉴더스 “금융권 해킹, AI가 기존 공격 자동화·고도화”",
+          "link": "https://www.datanet.co.kr/news/articleView.html?idxno=214966"
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "s20261009-fe6ae0caffa5",
+      "title": "버티브 2.3MW 냉각수 분배장치, 엔비디아 DSX 레디 요건 충족",
+      "category": "반도체",
+      "published": "2026-10-08T07:45:23.000Z",
+      "points": [
+        "버티브 2.3MW 쿨칩 CDU가 요건 충족",
+        "엔비디아 DSX 레디 CDU 프로그램 적용",
+        "AI 데이터센터 냉각 시장 공략 강화"
+      ],
+      "body": [
+        "디지털 인프라 기업 버티브는 8일 자사의 2.3MW 쿨칩 냉각수 분배장치(CDU) 모델이 '엔비디아 DSX 레디 CDU' 요건을 충족했다고 밝혔다.",
+        "엔비디아 DSX 레디 프로그램은 AI 팩토리 구축 사업자가 엔비디아 DSX의 요구사항에 맞는 전력과 냉각 제품을 고르도록 돕는 제도다. 버티브의 최고제품기술책임자는 컴퓨팅과 전력, 냉각이 더 이상 개별적으로 설계할 영역이 아니라고 말했다."
+      ],
+      "sources": [
+        {
+          "id": "fe6ae0caffa5",
+          "name": "디일렉",
+          "title": "버티브 2.3MW CDU, '엔비디아 DSX 레디' 요건 충족",
+          "link": "https://www.thelec.kr/news/articleView.html?idxno=63496"
+        },
+        {
+          "id": "58d206367d76",
+          "name": "데이터넷",
+          "title": "버티브 2.3MW 쿨칩 CDU, 엔비디아 DSX 레디 요건 충족",
+          "link": "https://www.datanet.co.kr/news/articleView.html?idxno=214981"
+        },
+        {
+          "id": "55bf2ed23608",
+          "name": "테크월드뉴스",
+          "title": "버티브, 2.3MW CDU ‘엔비디아 DSX 레디’ 요건 충족",
+          "link": "https://www.epnc.co.kr/news/articleView.html?idxno=407921"
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "s20261009-a91c1fec5a8c",
+      "title": "최태원 SK 회장, EBS '위대한 수업' 시즌6 첫 강연자로",
+      "category": "일반",
+      "published": "2026-10-08T07:31:05.000Z",
+      "points": [
+        "EBS 위대한 수업 시즌6 첫 강연자",
+        "12일부터 16일까지 평일 오후 11시 45분",
+        "주제는 AI와 새로운 자본주의 그리고 청년"
+      ],
+      "body": [
+        "최태원 SK그룹 회장이 EBS '위대한 수업, 그레이트 마인즈' 시즌6의 첫 강연자로 나선다. 8일 EBS와 SK그룹에 따르면 강연은 12일부터 16일까지 평일 오후 11시 45분 EBS1에서 방송되며, 주제는 'AI와 새로운 자본주의 그리고 청년'이다.",
+        "매체들은 최 회장이 AI 시대의 경제와 사회 변화, 청년 세대의 생존 전략과 국가 차원의 대응을 다룰 것이라고 전했다. 이티조선은 강연에서 사회비용을 낮춰야 AI 효과를 얻을 수 있다는 취지의 발언이 나온다고 보도했다."
+      ],
+      "sources": [
+        {
+          "id": "ced0fc23e169",
+          "name": "인공지능신문",
+          "title": "EBS ‘위대한 수업’, 세계 석학들과 함께한 5년…최태원 회장 시즌6 첫 문 연다",
+          "link": "https://www.aitimes.kr/news/articleView.html?idxno=42228"
+        },
+        {
+          "id": "a91c1fec5a8c",
+          "name": "조선비즈",
+          "title": "최태원 SK 회장, EBS ‘위대한 수업’ 첫 강연자로…AI 시대 생존 전략 제시",
+          "link": "https://biz.chosun.com/industry/company/2026/10/08/EEPKZZSKXFGATOYMFQJ5DMSLMA"
+        },
+        {
+          "id": "969326577c9c",
+          "name": "IT조선",
+          "title": "최태원, EBS ‘위대한 수업’ 강연…“사회비용 낮춰야 AI 효과 얻어”",
+          "link": "https://it.chosun.com/news/articleView.html?idxno=2023092171631"
+        },
+        {
+          "id": "6f98d48908d8",
+          "name": "디지털투데이",
+          "title": "최태원 SK 회장, EBS '위대한 수업' 첫 강연자로...AI 사회 문제의식 제기",
+          "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=705797"
+        },
+        {
+          "id": "378b53b7ea28",
+          "name": "디지털데일리",
+          "title": "최태원 SK 회장 EBS '위대한 수업' 출격… AI 시대 '새 자본주의' 해법 제시",
+          "link": "https://www.ddaily.co.kr/page/view/2026100810020878638"
+        },
+        {
+          "id": "44fad5ee9dc0",
+          "name": "인더스트리뉴스",
+          "title": "최태원 회장, EBS ‘위대한 수업’서 AI 시대 생존 전략 제시",
+          "link": "https://www.industrynews.co.kr/news/articleView.html?idxno=87209"
+        },
+        {
+          "id": "cd22aa6fbc58",
+          "name": "테크월드뉴스",
+          "title": "최태원 회장, EBS ‘위대한 수업’ 출연…“AI로 사회 난제 풀어야”",
+          "link": "https://www.epnc.co.kr/news/articleView.html?idxno=407915"
+        }
+      ],
+      "auto": true
+    },
+    {
       "id": "s20261008-3a833819166b",
       "title": "TSMC 3분기 매출 50% 넘게 증가, AI 칩 수요 이어져",
       "category": "반도체",
@@ -390,6 +877,48 @@
           "name": "EBN",
           "title": "TSMC 3분기 매출 51% 급증…AI 인프라 투자 지속성에 청신호",
           "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1727205"
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "s20261009-d6d39c128151",
+      "title": "LG전자 자회사 하이엠솔루텍, AI 데이터센터 냉각 유지보수 확대",
+      "category": "기업",
+      "published": "2026-10-08T06:28:26.000Z",
+      "points": [
+        "칠러 중심에서 액체냉각까지 범위 확대",
+        "냉각과 공조 설비 통합 유지보수",
+        "AI 서버 발열 증가에 데이터센터 대응"
+      ],
+      "body": [
+        "LG전자의 냉난방공조(HVAC) 유지보수 전문 자회사 하이엠솔루텍이 8일 AI 데이터센터 시장 확대에 맞춰 냉각과 공조 설비 통합 유지보수 체계를 강화한다고 밝혔다. 그동안 칠러 설비 중심이던 유지보수 영역을 냉각수 분배장치와 액체냉각 설비까지 넓힌다.",
+        "조선비즈에 따르면 AI 서버의 발열량이 커지면서 데이터센터 냉각설비 유지보수 현장도 2021년과 비교해 올해 기준 약 71% 늘었다. 하이엠솔루텍은 냉각과 공조 설비 전반을 아우르는 원스톱 관리 체계로 대응한다는 계획이다."
+      ],
+      "sources": [
+        {
+          "id": "d6dfcd6c4a23",
+          "name": "아이뉴스24",
+          "title": "하이엠솔루텍, AI 데이터센터 냉각·공조 통합 유지보수 강화",
+          "link": "https://www.inews24.com/view/2013207"
+        },
+        {
+          "id": "712ea623097a",
+          "name": "가스신문",
+          "title": "하이엠솔루텍, AI 데이터센터 HVAC 통합 유지보수 강화",
+          "link": "https://www.gasnews.com/news/articleView.html?idxno=127100"
+        },
+        {
+          "id": "d6d39c128151",
+          "name": "조선비즈",
+          "title": "LG전자 하이엠솔루텍, AI 데이터센터 냉각 유지보수 확대… 칠러 넘어 액체냉각까지",
+          "link": "https://biz.chosun.com/it-science/ict/2026/10/08/CCO6KTY2MZB65ECCACX2H5VMP4"
+        },
+        {
+          "id": "cfaec69aa075",
+          "name": "테크월드뉴스",
+          "title": "하이엠솔루텍, AI 데이터센터 냉각설비 ‘원스톱 관리’ 나선다",
+          "link": "https://www.epnc.co.kr/news/articleView.html?idxno=407925"
         }
       ],
       "auto": true
