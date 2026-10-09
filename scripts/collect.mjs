@@ -196,16 +196,16 @@ const usedPhotos = new Set(photoPrev.used || []);
 const photoPages = { ...(photoPrev.pages || {}) };
 for (const a of articles) if (a.photo) usedPhotos.add(a.photo.id);
 const QUERY = {
-  '생성형AI': 'artificial intelligence', '반도체': 'semiconductor chip', '로봇': 'robot', '정책': 'parliament',
-  '기업': 'modern office', '연구': 'science laboratory', '보안/윤리': 'cyber security', '일반': 'artificial intelligence',
+  '생성형AI': 'ai chatbot interface', '반도체': 'semiconductor chip', '로봇': 'robot', '정책': 'policy documents',
+  '기업': 'modern office', '연구': 'science laboratory', '보안/윤리': 'padlock security', '일반': 'abstract technology',
 };
 const KW_QUERY = {
-  '데이터센터': 'data center', 'GPU': 'gpu', 'HBM': 'memory chip', '엔비디아': 'graphics card', '휴머노이드': 'humanoid robot',
+  '데이터센터': 'data center', 'GPU': 'gpu', 'HBM': 'memory chip', '엔비디아': 'graphics card', '휴머노이드': 'robot hand',
   '피지컬AI': 'robot arm', '자율주행': 'self driving car', '금융': 'bank building',  '의료AI': 'medical technology',
-  '교육': 'classroom technology', '국방': 'military technology', '전력': 'power grid', '클라우드': 'server room', '스마트폰': 'smartphone',
-  '양자': 'quantum computer', '게임': 'video game', '모빌리티': 'electric car', 'AI 에이전트': 'artificial intelligence', '보안': 'cyber security',
-  '투자 유치': 'startup team', '증시': 'stock market chart', 'AI 인재': 'students coding', 'AI 정책': 'parliament', '해킹': 'hacker',
-  'AMD': 'computer processor', '로봇': 'industrial robot', '반도체': 'semiconductor wafer', '생성형AI': 'chatbot', 'GPU': 'graphics card',
+  '교육': 'classroom technology', '국방': 'radar antenna', '전력': 'power grid', '클라우드': 'server room', '스마트폰': 'smartphone',
+  '양자': 'quantum computer', '게임': 'game controller', '모빌리티': 'electric car', 'AI 에이전트': 'laptop workspace', '보안': 'padlock security',
+  '투자 유치': 'startup team', '증시': 'stock market chart', 'AI 인재': 'students coding', 'AI 정책': 'policy documents', '해킹': 'hacker laptop',
+  'AMD': 'computer processor', '로봇': 'industrial robot', '반도체': 'semiconductor wafer', '생성형AI': 'ai chatbot interface', 'GPU': 'graphics card',
 };
 let photoAdded = 0;
 const UKEY = process.env.UNSPLASH_ACCESS_KEY;
@@ -249,7 +249,7 @@ function provider(name, key, opts) {
       const p = await pick(queryOf(a));
       if (!p) return false;
       usedPhotos.add(opts.prefix + p.id);
-      a.photo = opts.photo(p);
+      a.photo = { ...opts.photo(p), q: queryOf(a) };
       photoBy[name] = (photoBy[name] || 0) + 1;
       photoAdded++;
       if (opts.after) { try { noteLimit(await opts.after(p)); } catch { /* 무시 */ } }
@@ -258,6 +258,12 @@ function provider(name, key, opts) {
   };
 }
 
+// 2026-10-10 사진 점검: 실제 군인과 무기 사진, 캐릭터(마리오, 월E 등) 사진, 외국 의회 건물 사진이 붙던 검색어를 바꿨습니다.
+// 그 이전에 국방, 휴머노이드, 게임 검색어로 붙은 사진(검색어 기록 q 가 없는 사진)은 한 번 떼어 새 검색어로 다시 붙입니다.
+const REPHOTO_KW = new Set(['국방', '휴머노이드', '게임']);
+for (const a of articles) {
+  if (a.photo && !a.photo.q && (a.kw || []).find((k) => KW_QUERY[k] && REPHOTO_KW.has(k)) === (a.kw || []).find((k) => KW_QUERY[k])) delete a.photo;
+}
 const providers = [];
 const ref = '?utm_source=ainewswave&utm_medium=referral';
 if (UKEY) providers.push(provider('Unsplash', UKEY, {
