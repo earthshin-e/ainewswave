@@ -193,14 +193,16 @@ const PHOTO_MAX = 15; // 한 번 수집에서 붙이는 최대 수. 무료 등�
 const usedPhotos = new Set((await readJson(PHOTO_OUT, { used: [] })).used || []);
 for (const a of articles) if (a.photo) usedPhotos.add(a.photo.id);
 const QUERY = {
-  '생성형AI': 'artificial intelligence', '반도체': 'semiconductor chip', '로봇': 'robot', '정책': 'government building',
-  '기업': 'office technology', '연구': 'science laboratory', '보안/윤리': 'cyber security', '일반': 'technology',
+  '생성형AI': 'artificial intelligence', '반도체': 'semiconductor chip', '로봇': 'robot', '정책': 'parliament',
+  '기업': 'modern office', '연구': 'science laboratory', '보안/윤리': 'cyber security', '일반': 'artificial intelligence',
 };
 const KW_QUERY = {
   '데이터센터': 'data center', 'GPU': 'gpu', 'HBM': 'memory chip', '엔비디아': 'graphics card', '휴머노이드': 'humanoid robot',
   '피지컬AI': 'robot arm', '자율주행': 'self driving car', '금융': 'finance', '투자': 'stock market', '의료AI': 'medical technology',
   '교육': 'classroom technology', '국방': 'military technology', '전력': 'power grid', '클라우드': 'server room', '스마트폰': 'smartphone',
   '양자': 'quantum computer', '게임': 'video game', '모빌리티': 'electric car', 'AI 에이전트': 'artificial intelligence', '보안': 'cyber security',
+  '투자 유치': 'startup team', '증시': 'stock market chart', 'AI 인재': 'students coding', 'AI 정책': 'parliament', '해킹': 'hacker',
+  'AMD': 'computer processor', '로봇': 'industrial robot', '반도체': 'semiconductor wafer', '생성형AI': 'chatbot', 'GPU': 'graphics card',
 };
 let photoAdded = 0;
 const UKEY = process.env.UNSPLASH_ACCESS_KEY;
