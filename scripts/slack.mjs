@@ -40,14 +40,12 @@ const prev = await read('public/data/stories.prev.json');
 if (!only && now && prev) {
   const before = new Set((prev.stories || []).map((s) => s.id));
   const added = (now.stories || []).filter((s) => !before.has(s.id));
-  if (added.length) {
-    const briefs = added.filter((s) => s.type === 'briefing');
-    const plain = added.filter((s) => s.type !== 'briefing');
-    const link = (s) => `<${SITE}/recap/${s.id}.html|${s.title}>`;
-    lines.push(`:newspaper: *새 글 ${added.length}건 공개*` +
-      (briefs.length ? `\n${briefs.map((s) => `• :sunrise: ${link(s)}`).join('\n')}` : '') +
-      (plain.length ? `\n${plain.map((s) => `• ${link(s)} (${s.sources.length}개 매체)`).join('\n')}` : ''));
+  // 글마다 메시지 한 건: 글 제목에 사이트 글 주소를 하이퍼링크로 겁니다.
+  for (const st of added) {
+    const tag = st.type === 'briefing' ? ':sunrise: AI 브리핑' : `:newspaper: 정리 기사 | ${st.category}`;
+    await post(`${tag}\n*<${SITE}/recap/${st.id}.html|${st.title}>*\n${st.sources.length}개 매체 보도 종합`);
   }
+  if (added.length) console.log(`Slack: 새 글 ${added.length}건 전송`);
 }
 
 // 2. 하루 요약: 한국 시간 오전 9시대 첫 수집에서 한 번
