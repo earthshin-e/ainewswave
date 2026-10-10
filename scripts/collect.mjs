@@ -336,6 +336,10 @@ for (const c of Object.values(days)) for (const [k, n] of Object.entries(c)) tot
 const keywords = Object.entries(total).sort((a, b) => b[1] - a[1]).slice(0, KW_TOP).map(([label, count]) => ({ label, count }));
 const kwSince = Object.keys(days).sort()[0] || null;
 
+// 기업 뉴스룸(feeds.json 의 newsroom: true): 언론 기사와 구분해 화면에 "기업 뉴스룸" 표시를 붙입니다.
+const newsroomIds = new Set(feeds.filter((f) => f.newsroom).map((f) => f.id));
+for (const a of articles) { if (newsroomIds.has(a.sourceId)) a.newsroom = true; else delete a.newsroom; }
+
 // 핵심 요약: 매일 예약 작업이 저장소의 public/data/points.json({ points: { 기사id: [문장] } })에 써 넣은 것을 기사에 붙입니다.
 const pointsMap = (await readJson(path.join(path.dirname(OUT), 'points.json'), { points: {} })).points || {};
 let pointsAdded = 0;

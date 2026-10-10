@@ -69,7 +69,7 @@
         </div>
       </a>
       <div class="cfoot">
-        <span class="src">${esc(a.source)}</span><span>·</span><time datetime="${esc(a.published)}">${ago(a.published)}</time>
+        <span class="src">${esc(a.source)}</span>${a.newsroom ? '<span class="nr">기업 뉴스룸</span>' : ''}<span>·</span><time datetime="${esc(a.published)}">${ago(a.published)}</time>
         <button class="bm" data-id="${esc(a.id)}" aria-pressed="${on}" aria-label="북마크">${STAR}</button>
       </div>
     </article>`;
@@ -178,7 +178,7 @@
       <button class="back" type="button" id="btnBack">← 목록으로</button>
       <span class="tag">${esc(a.category)}</span>
       <h1>${esc(a.title)}</h1>
-      <div class="meta"><b>${esc(a.source)}</b><span>·</span><time datetime="${esc(a.published)}">${fullDate(a.published)}</time>
+      <div class="meta"><b>${esc(a.source)}</b>${a.newsroom ? '<span class="nr">기업 뉴스룸</span>' : ''}<span>·</span><time datetime="${esc(a.published)}">${fullDate(a.published)}</time>
         <button class="bm" data-id="${esc(a.id)}" aria-pressed="${on}" aria-label="북마크">${STAR}</button></div>
       ${a.image ? `<figure class="hero"><img src="${esc(a.image)}" alt="" referrerpolicy="no-referrer" onerror="this.parentNode.remove()"></figure>`
         : a.photo ? `<figure class="hero"><img src="${esc(a.photo.url)}" alt="" onerror="this.parentNode.remove()"><figcaption>자료 사진: <a href="${esc(a.photo.authorUrl)}" target="_blank" rel="noopener">${esc(a.photo.author)}</a> / <a href="${esc(a.photo.link)}" target="_blank" rel="noopener">${a.photo.source === 'pexels' ? 'Pexels' : 'Unsplash'}</a>. 기사 내용과 직접 관련 없는 참고 이미지입니다.</figcaption></figure>` : ''}

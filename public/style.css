@@ -340,3 +340,4 @@ body.reading .toolbar, body.reading .listwrap { display: none; }
   .card.feature p { font-size: 14.5px; -webkit-line-clamp: 4; }
   .card.feature .cfoot { padding-left: 16px; }
 }
+.nr { display: inline-block; margin-left: 6px; padding: 0 5px; border: 1px solid var(--line-strong, #c2c2c2); font-size: 11px; line-height: 16px; font-weight: 600; color: var(--ink3, #636363); vertical-align: 1px; }
