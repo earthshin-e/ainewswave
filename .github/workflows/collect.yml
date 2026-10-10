@@ -1,7 +1,7 @@
 name: collect and deploy
 
 on:
-  # 매체 80곳 수집에 걸리는 시간은 10초 안쪽이라 30분 주기를 유지한다.
+  # 매체 47곳 수집에 걸리는 시간은 10초 안쪽이라 30분 주기를 유지한다.
   # 주기를 바꾸려면 이 줄만 고치면 된다 (예: 1시간은 "0 * * * *")
   schedule:
     - cron: "*/30 * * * *"
@@ -20,7 +20,7 @@ permissions:
   pages: write
   id-token: write
 
-# 매체가 80곳으로 늘어 한 번의 실행이 길어졌으므로, 다음 수집이 배포 중인 작업을 죽이지 않도록 큐에 넣는다
+# 매체가 많아 한 번의 실행이 길어졌으므로, 다음 수집이 배포 중인 작업을 죽이지 않도록 큐에 넣는다
 concurrency:
   group: pages
   cancel-in-progress: false

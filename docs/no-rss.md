@@ -71,3 +71,4 @@ node scripts/build_feeds.mjs   # 확인된 주소로 feeds.json 다시 작성
 ## 이후 변경
 
 - 2026-10-06 코인데스크코리아(coindeskkorea.com)는 도메인이 AI 뉴스와 무관한 블로그 글을 내보내 `feeds.json` 에서 뺐습니다. 지금 수집 대상은 80곳입니다.
+- 2026-10-10 RSS 약관상 이용 제한 24곳과 약관을 확인하지 못한 9곳, 모두 33곳을 수집에서 뺐습니다(`docs/excluded-feeds.json`). 지금 수집 대상은 47곳입니다.
