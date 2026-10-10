@@ -47,6 +47,9 @@
     { "id": "dailypharm", "name": "데일리팜", "url": "https://www.dailypharm.com/rss/news.xml", "type": "general", "home": "https://www.dailypharm.com" },
     { "id": "bosa", "name": "의학신문", "url": "https://www.bosa.co.kr/rss/allArticle.xml", "type": "general", "home": "https://www.bosa.co.kr" },
     { "id": "inven", "name": "인벤", "url": "https://feeds.feedburner.com/inven", "type": "general", "home": "https://www.inven.co.kr" },
-    { "id": "gametoc", "name": "게임톡", "url": "https://www.gametoc.co.kr/rss/allArticle.xml", "type": "general", "home": "https://www.gametoc.co.kr" }
+    { "id": "gametoc", "name": "게임톡", "url": "https://www.gametoc.co.kr/rss/allArticle.xml", "type": "general", "home": "https://www.gametoc.co.kr" },
+    { "id": "byline", "name": "바이라인네트워크", "url": "https://byline.network/rss", "type": "general", "home": "https://byline.network" },
+    { "id": "thegear", "name": "더기어", "url": "https://feeds.feedburner.com/thegear", "type": "general", "home": "https://www.thegear.co.kr" },
+    { "id": "platum", "name": "플래텀", "url": "https://platum.kr/rss", "type": "general", "home": "https://platum.kr" }
   ]
 }

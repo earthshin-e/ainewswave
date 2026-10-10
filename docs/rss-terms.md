@@ -103,6 +103,8 @@ B로 분류된 매체는 없다. "개인 비상업 용도만 허용"이라고 �
 
 ### E. 확인 못함
 
+2026-10-10 3차 확인(크롬): 바이라인네트워크(푸터에 이용 제한 문구 없음), 더기어(엔디소프트 RSS 안내문, 일반 무단 전재 금지 문구), 플래텀(제휴사용 약관뿐, 일반 저작권 표기)은 D. 오마이뉴스는 RSS 안내에 개인적 이용 한정, 허락 없는 배포나 재RSS 서비스 금지(https://www.ohmynews.com/NWS_Web/Help/srv/h_help_rss.aspx), 더벨은 약관에 계약 없는 자동화 수집 금지와 AI 영리 활용 계약 필요(https://www.thebell.co.kr/company/ServiceInfo.asp?lcode=23), 메디컬타임즈는 약관에 서비스 자료 상업적 이용 금지(https://www.medicaltimes.com/Main/Company/service.html), CIO Korea 는 약관에 동의 없는 영리 목적 서비스 사용 금지(https://www.cio.com/kr/terms-of-use/)로 A. 프라임경제(약관 페이지에 본문 없음), 케이벤치(약관, RSS 안내 링크 없음)는 여전히 E 라 제외 유지. 참고: ITWorld 약관에도 CIO Korea 와 같은 영리 목적 사용 금지 문구가 있다.
+
 CIO Korea, 바이라인네트워크, 케이벤치, 더기어, 플래텀, 더벨, 프라임경제, 오마이뉴스, 메디컬타임즈, 코인데스크코리아 (10곳).
 
 2차 조사(2026-10-06)에서 시도한 것: 홈 푸터, `/rss`, `/rss.html`, `/rssIndex.html`, `/com/rss.html`, `/help/rss`, `/terms`, `/policy`, `/copyright`, `/com/copyright.html`, `/member/agreement`를 curl로 읽고, 푸터의 약관 링크를 따라가고, WebFetch와 웹 검색을 했다.
