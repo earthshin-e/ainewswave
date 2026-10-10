@@ -63,6 +63,7 @@ if (!only && kst.getUTCHours() === 9 && kst.getUTCMinutes() < 30) {
       `• 최근 24시간 수집 기사 ${last24.length}건 (보관 ${a.length}건)\n` +
       `• 최근 24시간 정리 기사와 브리핑 ${stories.length}건 (전체 ${(now?.stories || []).length}건)\n` +
       `• 키워드 상위 5: ${(art.keywords || []).slice(0, 5).map((k) => k.label).join(', ')}\n` +
+      `• 핵심 요약이 붙은 기사 ${a.filter((x) => x.points && x.points.length).length}건 (최근 24시간 ${last24.filter((x) => x.points && x.points.length).length}건)\n` +
       `• 이미지 없는 기사 ${noImg}건\n` +
       `• 수집 실패 매체 ${failed.length}곳${failed.length ? `: ${failed.slice(0, 8).join(', ')}` : ''}\n` +
       `<${SITE}|사이트 열기> | <${SITE}/recap/|정리 기사>`);

@@ -29,4 +29,11 @@ if (autos.length && kstHour >= 21) {
   if (!briefToday && now - last > 30 * 3600000) problems.push('오늘 AI 브리핑이 없고 최근 30시간 동안 새 정리 기사도 없습니다. 예약 작업(https://claude.ai/code/routines/trig_015PWzXq9y6NnXmAjTWuGsXH)을 확인하세요.');
 }
 
+// 매일 예약 작업이 쓰는 기사별 핵심 요약이 끊기지 않았는지 봅니다. 최근 24시간 기사 중 요약이 붙은 비율이 저녁 9시 이후 20% 미만이면 경고합니다.
+if (art && kstHour >= 21) {
+  const day = (art.articles || []).filter((x) => now - new Date(x.published) < 24 * 3600000);
+  const withP = day.filter((x) => x.points && x.points.length).length;
+  if (day.length >= 20 && withP / day.length < 0.2) problems.push(`최근 24시간 기사 ${day.length}건 중 핵심 요약이 붙은 기사가 ${withP}건뿐입니다. 예약 작업(https://claude.ai/code/routines/trig_015PWzXq9y6NnXmAjTWuGsXH)과 public/data/points.json 을 확인하세요.`);
+}
+
 for (const p of problems) console.log(`- ${p}`);
