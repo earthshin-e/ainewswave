@@ -146,6 +146,7 @@
 - 자체 RSS 피드 `/recap/feed.xml`: 정리 기사와 브리핑 최신 50건, 설명에는 핵심 요약만 넣고 본문은 사이트로 연결합니다. 메인과 정리 기사 페이지 head 에 alternate 링크가 있습니다.
 - 예전 주소 `/s/` 와 `/s/<id>.html` 은 `/recap/` 으로 바로 넘어가는 안내 페이지(canonical, noindex)로 남깁니다.
 - `public/404.html` 은 없는 주소일 때 GitHub Pages 가 보여 주는 안내 페이지입니다. 메인 도구 줄과 하단에 정리 기사 모음 링크가 있습니다.
+- 2026-10-10 Search Console 점검: /recap/feed.xml(RSS 로 제출)은 Success, 정리 기사 51개 페이지 발견. /sitemap.xml 은 여전히 Couldn't fetch(파일은 정상, 새 사이트 지연으로 판단). /recap/ 은 색인됨, 주제 버튼 추가 후 재색인 요청. 색인 보고서는 아직 처리 중.
 - `public/robots.txt` 는 전체 허용, `/data/` 만 제외하고 사이트맵 주소를 알립니다. 메인 `index.html` 에 description, canonical, og 태그(공유 이미지 /og.png 1200x630, 정리 기사 페이지도 같은 이미지)와 네이버 서치어드바이저 소유 확인 태그(naver-site-verification)가 있습니다. Google Search Console 은 GA 코드로 소유 확인되어 있어 gtag 를 지우면 확인이 풀립니다.
 
 ## 자료 사진 (Unsplash, Pexels)
