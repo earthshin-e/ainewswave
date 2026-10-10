@@ -336,6 +336,15 @@ for (const c of Object.values(days)) for (const [k, n] of Object.entries(c)) tot
 const keywords = Object.entries(total).sort((a, b) => b[1] - a[1]).slice(0, KW_TOP).map(([label, count]) => ({ label, count }));
 const kwSince = Object.keys(days).sort()[0] || null;
 
+// 핵심 요약: 매일 예약 작업이 저장소의 public/data/points.json({ points: { 기사id: [문장] } })에 써 넣은 것을 기사에 붙입니다.
+const pointsMap = (await readJson(path.join(path.dirname(OUT), 'points.json'), { points: {} })).points || {};
+let pointsAdded = 0;
+for (const a of articles) {
+  const p = pointsMap[a.id];
+  if (!a.restricted && Array.isArray(p) && p.length) { if (!a.points) pointsAdded++; a.points = p; }
+}
+console.log(`핵심 요약: ${articles.filter((a) => a.points).length}건 (이번에 새로 ${pointsAdded}건)`);
+
 await mkdir(path.dirname(OUT), { recursive: true });
 await writeFile(PHOTO_OUT, JSON.stringify({ updatedAt: now.toISOString(), pages: photoPages, used: [...usedPhotos] }), 'utf8');
 await writeFile(KW_OUT, JSON.stringify({ updatedAt: now.toISOString(), days }), 'utf8');
