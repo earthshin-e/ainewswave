@@ -151,6 +151,8 @@
 - 한 번 쓴 사진은 `public/data/photos-used.json` 에 기록해 다시 쓰지 않습니다(Actions 가 직전 배포본을 받아 누적, 저장소에는 넣지 않음). 유료(Unsplash+) 사진은 고르지 않습니다.
 - Unsplash 규칙: images.unsplash.com 주소를 그대로 쓰고, 사용할 때 download_location 을 호출하며, 작가와 Unsplash 를 링크로 밝힙니다. 카드에는 "자료 사진" 표시, 상세 화면에는 "자료 사진: 작가 / Unsplash. 기사 내용과 직접 관련 없는 참고 이미지입니다." 를 둡니다.
 
+- 2026-10-10 Unsplash Production 신청 완료(앱 "AI NewsWave", 상태 In Review, 심사 영업일 5~10일). 승인되면 시간당 1,000회로 늘고 코드 변경은 필요 없습니다.
+
 ## 첫 화면 속도
 
 - 수집 스크립트가 전체 `articles.json` 과 함께 첫 화면용 `articles-recent.json`(최근 48시간, 최대 400건, `partial: true`)을 만듭니다. 화면은 가벼운 파일을 먼저 받고, 검색, 키워드 탭, 매체 선택, 더 보기 끝, 목록에 없는 기사 주소일 때만 전체 파일을 이어 받습니다(`ensureFull`). 예약 작업과 data 브랜치는 전체 파일을 씁니다.
