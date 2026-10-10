@@ -50,7 +50,6 @@
     { "id": "byline", "name": "바이라인네트워크", "url": "https://byline.network/rss", "type": "general", "home": "https://byline.network" },
     { "id": "thegear", "name": "더기어", "url": "https://feeds.feedburner.com/thegear", "type": "general", "home": "https://www.thegear.co.kr" },
     { "id": "platum", "name": "플래텀", "url": "https://platum.kr/rss", "type": "general", "home": "https://platum.kr" },
-    { "id": "skhynix", "name": "SK하이닉스 뉴스룸", "url": "https://news.skhynix.co.kr/feed/", "type": "general", "home": "https://news.skhynix.co.kr", "newsroom": true },
     { "id": "samsungnews", "name": "삼성전자 뉴스룸", "url": "https://news.samsung.com/kr/feed", "type": "general", "home": "https://news.samsung.com/kr", "newsroom": true }
   ]
 }

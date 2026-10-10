@@ -1,5 +1,5 @@
 {
-  "note": "2026-10-10 수집에서 뺀 매체. RSS 약관상 상업적 이용 금지나 사전 허락 필요(24곳)와 약관 확인 못함(9곳, unverified). 다시 넣으려면 feeds.json 으로 옮기고 restricted 처리를 확인합니다. 2026-10-10 크롬으로 재확인: 바이라인네트워크, 더기어, 플래텀은 제한 안내가 없어(D) 다시 수집. 오마이뉴스(RSS 개인 이용 한정), 더벨(자동 수집 금지, AI 영리 이용 계약 필요), 메디컬타임즈(약관상 상업 이용 금지), CIO Korea(약관상 동의 없는 영리 사용 금지)는 A. 프라임경제, 케이벤치는 약관 본문을 찾지 못해 계속 제외. 같은 날 ITWorld 도 CIO Korea 와 같은 약관 문구(동의 없는 영리 목적 사용 금지)라 제외. 같은 날 SKT 뉴스룸도 콘텐츠 이용 안내(https://news.sktelecom.com/information-use)에 \"모든 콘텐츠는 상업적인 목적으로 사용할 수 없습니다\"가 있어 추가 직후 제외.",
+  "note": "2026-10-10 수집에서 뺀 매체. RSS 약관상 상업적 이용 금지나 사전 허락 필요(24곳)와 약관 확인 못함(9곳, unverified). 다시 넣으려면 feeds.json 으로 옮기고 restricted 처리를 확인합니다. 2026-10-10 크롬으로 재확인: 바이라인네트워크, 더기어, 플래텀은 제한 안내가 없어(D) 다시 수집. 오마이뉴스(RSS 개인 이용 한정), 더벨(자동 수집 금지, AI 영리 이용 계약 필요), 메디컬타임즈(약관상 상업 이용 금지), CIO Korea(약관상 동의 없는 영리 사용 금지)는 A. 프라임경제, 케이벤치는 약관 본문을 찾지 못해 계속 제외. 같은 날 ITWorld 도 CIO Korea 와 같은 약관 문구(동의 없는 영리 목적 사용 금지)라 제외. 같은 날 SKT 뉴스룸도 콘텐츠 이용 안내(https://news.sktelecom.com/information-use)에 \"모든 콘텐츠는 상업적인 목적으로 사용할 수 없습니다\"가 있어 추가 직후 제외. 2026-10-11 SK하이닉스 뉴스룸은 이용 조건은 문제없지만 GitHub Actions 러너에서 매번 HTTP 403(국내망에서는 정상)이라 머니투데이처럼 제외. 러너 접속이 풀리면 되살림.",
   "feeds": [
     {"id": "ciokorea", "name": "CIO Korea", "url": "https://www.ciokorea.com/rss", "type": "general", "home": "https://www.ciokorea.com", "restricted": true},
     {"id": "etnews", "name": "전자신문", "url": "https://rss.etnews.com/Section901.xml", "type": "general", "home": "https://www.etnews.com", "restricted": true},
@@ -32,6 +32,7 @@
     {"id": "tokenpost", "name": "토큰포스트", "url": "https://www.tokenpost.kr/rss.xml", "type": "general", "home": "https://www.tokenpost.kr", "restricted": true},
     {"id": "gamemeca", "name": "게임메카", "url": "https://www.gamemeca.com/rss.php", "type": "general", "home": "https://www.gamemeca.com", "restricted": true},
     {"id": "itworld", "name": "ITWorld", "url": "https://www.itworld.co.kr/rss", "type": "general", "home": "https://www.itworld.co.kr", "restricted": true},
-    {"id": "sktnews", "name": "SKT 뉴스룸", "url": "https://news.sktelecom.com/feed", "type": "general", "home": "https://news.sktelecom.com", "newsroom": true, "restricted": true}
+    {"id": "sktnews", "name": "SKT 뉴스룸", "url": "https://news.sktelecom.com/feed", "type": "general", "home": "https://news.sktelecom.com", "newsroom": true, "restricted": true},
+    {"id": "skhynix", "name": "SK하이닉스 뉴스룸", "url": "https://news.skhynix.co.kr/feed/", "type": "general", "home": "https://news.skhynix.co.kr", "newsroom": true, "blockedOnRunner": true}
   ]
 }

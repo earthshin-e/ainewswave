@@ -22,7 +22,7 @@
 | `scripts/probe_pass2.mjs` | 1차 탐색에서 못 찾은 곳을 다른 패턴으로 재시도 |
 | `scripts/build_feeds.mjs` | 검증된 주소만 모아 feeds.json 재작성 |
 | `scripts/make_sample.mjs` | 화면 확인용 샘플 데이터 생성 |
-| `feeds.json` | 실제 수집 대상 51곳 (2026-10-10 이용 제한과 약관 미확인 31곳 제외, 목록은 `docs/excluded-feeds.json`) |
+| `feeds.json` | 실제 수집 대상 50곳 (2026-10-10 이용 제한과 약관 미확인 31곳 제외, 목록은 `docs/excluded-feeds.json`) |
 | `docs/outlets100.txt` | 후보 매체 목록 (이름\|홈페이지\|분류) |
 | `docs/no-rss.md` | RSS 를 확보하지 못한 19곳과 그 이유 |
 | `docs/probe-result.json`, `docs/probe-pass2.json` | 탐색 시도와 응답 기록 |
@@ -30,7 +30,7 @@
 
 ## 현재 수집 상태
 
-- 후보 100곳 가운데 RSS 응답이 확인된 81곳을 등록했다가 코인데스크코리아(도메인이 무관한 블로그로 바뀜)를 빼 80곳, 2026-10-10 이용 제한과 약관 미확인 33곳을 뺀 뒤 3곳을 되살리고 ITWorld 를 빼고 기업 뉴스룸 3곳을 더했다가 SKT 를 빼 지금은 51곳입니다. 미확보 19곳은 `docs/no-rss.md` 에 이유가 적혀 있습니다.
+- 후보 100곳 가운데 RSS 응답이 확인된 81곳을 등록했다가 코인데스크코리아(도메인이 무관한 블로그로 바뀜)를 빼 80곳, 2026-10-10 이용 제한과 약관 미확인 33곳을 뺀 뒤 3곳을 되살리고 ITWorld 를 빼고 기업 뉴스룸 3곳을 더했다가 SKT 를 빼고, 러너에서 403 이 나는 SK하이닉스도 빼 지금은 50곳입니다. 미확보 19곳은 `docs/no-rss.md` 에 이유가 적혀 있습니다.
 - 매체 분류는 두 가지입니다. `type: "ai"` 는 AI 전문 매체 2곳(AI타임스, 인공지능신문)이고 나머지 79곳은 `type: "general"` 입니다.
 - 머니투데이는 제외 상태입니다. `https://rss.mt.co.kr/mt_news.xml` 은 국내망에서 정상 응답하지만 GitHub Actions 러너에서 접속이 되지 않아 빼 두었습니다. 되살리는 방법은 `docs/no-rss.md` 아래쪽에 정리해 두었습니다.
 
