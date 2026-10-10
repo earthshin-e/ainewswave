@@ -175,12 +175,102 @@ const redirect = (to) => `<!doctype html><html lang="ko"><head><meta charset="ut
 await writeFile(path.join(old, 'index.html'), redirect(`${SITE}/recap/`));
 for (const st of stories) await writeFile(path.join(old, `${st.id}.html`), redirect(`${SITE}/recap/${st.id}.html`));
 
+// 기사별 검색용 페이지(/a/<id>.html): 뉴스웨이브가 쓴 핵심 요약이 있는 기사만 만듭니다.
+// 언론사 요약 전문 대신 우리 핵심 요약을 중심에 두고, 원문 링크와 같은 소식 다른 매체, 관련 정리 기사를 붙입니다.
+let artData = { articles: [] };
+try { artData = JSON.parse(await readFile(path.join(pub, 'data', 'articles.json'), 'utf8')); } catch { /* 수집 전 */ }
+const withPoints = (artData.articles || []).filter((a) => !a.restricted && Array.isArray(a.points) && a.points.length);
+const adir = path.join(pub, 'a');
+await mkdir(adir, { recursive: true });
+const akeep = new Set(withPoints.map((a) => `${a.id}.html`));
+for (const f of await readdir(adir)) if (f.endsWith('.html') && !akeep.has(f)) await unlink(path.join(adir, f));
+const bigrams = (t) => { const s = String(t).replace(/\[[^\]]*\]/g, '').replace(/[^가-힣a-zA-Z0-9]/g, '').toLowerCase(); const r = new Set(); for (let i = 0; i < s.length - 1; i++) r.add(s.slice(i, i + 2)); return r; };
+const grams = new Map((artData.articles || []).map((a) => [a.id, bigrams(a.title)]));
+const sim = (x, y) => { if (x.size < 6 || y.size < 6) return 0; let n = 0; for (const g of x) if (y.has(g)) n++; return n / Math.min(x.size, y.size); };
+const storyOf = new Map(); for (const st of stories) for (const s of st.sources || []) if (!storyOf.has(s.id)) storyOf.set(s.id, st);
+const pointIds = new Set(withPoints.map((a) => a.id));
+function articlePage(a) {
+  const url = `${SITE}/a/${a.id}.html`;
+  const desc = a.points.join('. ').slice(0, 150);
+  const g = grams.get(a.id);
+  const same = (artData.articles || []).filter((b) => b.id !== a.id && !b.restricted && b.sourceId !== a.sourceId && sim(g, grams.get(b.id)) >= 0.45).slice(0, 6);
+  const st = storyOf.get(a.id);
+  const ld = { '@context': 'https://schema.org', '@type': 'Article', headline: a.title, datePublished: a.published, description: desc, mainEntityOfPage: url, isBasedOn: a.link,
+    author: { '@type': 'Organization', name: 'AI 뉴스웨이브', url: SITE }, publisher: { '@type': 'Organization', name: 'AI 뉴스웨이브', logo: { '@type': 'ImageObject', url: `${SITE}/icon512.png` } } };
+  const link = (b) => pointIds.has(b.id) ? `/a/${esc(b.id)}.html` : esc(b.link);
+  return `<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>${esc(a.title)} | AI 뉴스웨이브</title>
+<meta name="description" content="${esc(desc)}">
+<link rel="canonical" href="${url}">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="AI 뉴스웨이브">
+<meta property="og:title" content="${esc(a.title)}">
+<meta property="og:description" content="${esc(desc)}">
+<meta property="og:url" content="${url}">
+<meta property="og:image" content="${SITE}/og.png">
+<link rel="icon" href="../icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../page.css">
+<script type="application/ld+json">${JSON.stringify(ld).replace(/</g, '\\u003c')}</script>
+<script src="/consent.js"></script>
+<script src="/feedback.js" defer></script>
+<meta name="google-adsense-account" content="ca-pub-2376619512263295">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2376619512263295" crossorigin="anonymous"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=${GA}"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${GA}');</script>
+</head>
+<body>
+<header class="top"><div class="wrap"><a class="brand" href="../"><img src="../icon.svg" alt="">AI 뉴스웨이브</a></div></header>
+<main class="wrap">
+  <article>
+    <p class="meta">${esc(a.category || '')}</p>
+    <h1>${esc(a.title)}</h1>
+    <p class="meta">${esc(a.source)}${a.newsroom ? ' (기업 뉴스룸)' : ''} | ${kstDate(a.published)}</p>
+    <h2>핵심 요약</h2>
+    <ul>${a.points.map((p) => `<li>${esc(p)}</li>`).join('')}</ul>
+    <p class="meta">핵심 요약은 AI 뉴스웨이브가 기사 제목과 언론사 요약을 바탕으로 정리했습니다. 자세한 내용은 원문에서 확인하세요.</p>
+    <p class="btns"><a class="btn primary" href="${esc(a.link)}" rel="noopener" target="_blank">${esc(a.source)}에서 원문 보기</a><a class="btn" href="../#a/${esc(a.id)}">AI 뉴스웨이브에서 보기</a></p>
+  </article>
+  ${st ? `<h2>뉴스웨이브 정리 기사</h2>\n  <ul><li><a href="../recap/${esc(st.id)}.html">${esc(st.title)}</a></li></ul>` : ''}
+  ${same.length ? `<h2>같은 소식, 다른 매체</h2>\n  <ul>${same.map((b) => `<li><a href="${link(b)}">${esc(b.title)}</a> <span class="meta">${esc(b.source)}</span></li>`).join('')}</ul>` : ''}
+</main>
+<footer class="wrap foot"><a href="../">홈</a><a href="../recap/">정리 기사</a><a href="../about.html">소개</a><a href="../privacy.html">개인정보처리방침</a><a href="../contact.html">문의</a><a href="#feedback" data-feedback>의견 보내기</a></footer>
+</body>
+</html>
+`;
+}
+for (const a of withPoints) await writeFile(path.join(adir, `${a.id}.html`), articlePage(a));
+// 기사 페이지 RSS(/a/feed.xml): 최신 100건. Search Console 에 사이트맵 대신 제출해 새 페이지를 빨리 알립니다.
+const afeedItems = [...withPoints].sort((x, y) => new Date(y.published) - new Date(x.published)).slice(0, 100);
+const acdata = (t) => `<![CDATA[${String(t).replace(/]]>/g, ']]&gt;')}]]>`;
+await writeFile(path.join(adir, 'feed.xml'), `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+  <title>AI 뉴스웨이브: 기사 핵심 요약</title>
+  <link>${SITE}/</link>
+  <description>국내 AI 기사마다 AI 뉴스웨이브가 정리한 3줄 핵심 요약</description>
+  <language>ko</language>
+${afeedItems.map((a) => `  <item>
+    <title>${acdata(a.title)}</title>
+    <link>${SITE}/a/${a.id}.html</link>
+    <guid isPermaLink="true">${SITE}/a/${a.id}.html</guid>
+    <pubDate>${new Date(a.published).toUTCString()}</pubDate>
+    <description>${acdata(a.points.join(' / '))}</description>
+  </item>`).join('\n')}
+</channel>
+</rss>
+`);
+
 const now = new Date().toISOString();
 const urls = [
   { loc: `${SITE}/`, lastmod: now, freq: 'hourly', pri: '1.0' },
   { loc: `${SITE}/recap/`, lastmod: now, freq: 'daily', pri: '0.9' },
   ...plainCats.map((c) => ({ loc: `${SITE}/recap/${topicFile(c)}`, lastmod: now, freq: 'daily', pri: '0.6' })),
   ...['about', 'privacy', 'contact'].map((p) => ({ loc: `${SITE}/${p}.html`, freq: 'monthly', pri: '0.3' })),
+  ...withPoints.map((a) => ({ loc: `${SITE}/a/${a.id}.html`, lastmod: a.published, freq: 'weekly', pri: '0.5' })),
   ...stories.map((s) => ({ loc: `${SITE}/recap/${s.id}.html`, lastmod: s.published, freq: 'never', pri: s.type === 'briefing' ? '0.8' : '0.7' })),
 ];
 const xml = `<?xml version="1.0" encoding="UTF-8"?>
@@ -214,4 +304,4 @@ ${sorted.slice(0, 50).map((st) => `  <item>
 </rss>
 `;
 await writeFile(path.join(dir, 'feed.xml'), feed);
-console.log(`정적 페이지 ${stories.length}건, sitemap.xml ${urls.length}개 주소`);
+console.log(`기사 페이지 ${withPoints.length}건, 정적 페이지 ${stories.length}건, sitemap.xml ${urls.length}개 주소`);
