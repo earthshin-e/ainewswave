@@ -88,7 +88,7 @@ B로 분류된 매체는 없다. "개인 비상업 용도만 허용"이라고 �
 | 국민일보 | D | RSS 목록에 이용 조건 없음 | https://www.kmib.co.kr/rss/index.asp | 언급 없음 |
 | 디지털데일리 | D | 사전허가 없이 변조, 복사, 배포 금지(일반), RSS 조건 없음 | https://www.ddaily.co.kr/member | 언급 없음 |
 | 데일리팜 | D | 푸터 "무단 전재 및 재배포 금지"만 | https://www.dailypharm.com/ | 언급 없음 |
-| ITWorld | D | 약관에 RSS 관련 조항 없음(Foundry 저작권 고지) | https://www.itworld.co.kr/terms-of-use/ | 언급 없음 |
+| ITWorld | A | 약관에 동의 없는 영리 목적 서비스 사용 금지(2026-10-10 재분류, 수집 제외) | https://www.itworld.co.kr/terms-of-use/ | 언급 없음 |
 | GeekNews | D | "원문 링크를 존중"하는 운영 방향만 | https://news.hada.io/about | 해당 없음 |
 | 테크42 | D | 약관에 사전 승낙 없는 "영리행위" 금지, 저작물 무단 이용 금지(엔디소프트형 일반 약관), RSS 조건 없음 | https://www.tech42.co.kr/terms/ | 언급 없음 |
 | 아이뉴스24 | D | 푸터 "Copyright(c) inews24.com. All Rights Reserved."만, RSS 조건 못 찾음 | https://www.inews24.com/ | 언급 없음 |

@@ -7,7 +7,6 @@
     { "id": "techm", "name": "테크M", "url": "https://www.techm.kr/rss/allArticle.xml", "type": "general", "home": "https://www.techm.kr" },
     { "id": "digitaltoday", "name": "디지털투데이", "url": "https://www.digitaltoday.co.kr/rss/allArticle.xml", "type": "general", "home": "https://www.digitaltoday.co.kr" },
     { "id": "datanet", "name": "데이터넷", "url": "https://www.datanet.co.kr/rss/allArticle.xml", "type": "general", "home": "https://www.datanet.co.kr" },
-    { "id": "itworld", "name": "ITWorld", "url": "https://www.itworld.co.kr/rss", "type": "general", "home": "https://www.itworld.co.kr" },
     { "id": "comworld", "name": "컴퓨터월드", "url": "https://www.comworld.co.kr/rss/allArticle.xml", "type": "general", "home": "https://www.comworld.co.kr" },
     { "id": "tech42", "name": "테크42", "url": "https://feeds.feedburner.com/tech42", "type": "general", "home": "https://www.tech42.co.kr" },
     { "id": "bloter", "name": "블로터", "url": "https://www.bloter.net/rss/allArticle.xml", "type": "general", "home": "https://www.bloter.net" },
