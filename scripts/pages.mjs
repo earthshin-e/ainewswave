@@ -88,7 +88,7 @@ ${digestOf.has(st.id) ? '<meta name="robots" content="noindex,follow">\n' : ''}$
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${GA}');</script>
 </head>
 <body>
-<header class="top"><div class="wrap"><a class="brand" href="../"><img src="../icon.svg" alt="">AI 뉴스웨이브</a></div></header>
+<header class="top"><div class="wrap"><a class="brand" href="../"><img src="../icon.svg" alt="">AI 뉴스웨이브</a><a class="enlink" href="${st.en && st.en.title ? `/en/recap/${st.id}.html` : '/en/'}" hreflang="en">EN</a></div></header>
 <main class="wrap">
   <article>
     <p class="meta">${st.type === 'briefing' ? 'AI 브리핑' : `<a href="${topicFile(st.category)}">${esc(st.category)}</a>`}</p>
@@ -192,7 +192,7 @@ const listPage = ({ title, desc, canon, main }) => `<!doctype html>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${GA}');</script>
 </head>
 <body>
-<header class="top"><div class="wrap"><a class="brand" href="../"><img src="../icon.svg" alt="">AI 뉴스웨이브</a></div></header>
+<header class="top"><div class="wrap"><a class="brand" href="../"><img src="../icon.svg" alt="">AI 뉴스웨이브</a><a class="enlink" href="/en/" hreflang="en">EN</a></div></header>
 <main class="wrap">
 ${main}
 </main>
@@ -337,7 +337,7 @@ function articlePage(a) {
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${GA}');</script>
 </head>
 <body>
-<header class="top"><div class="wrap"><a class="brand" href="../"><img src="../icon.svg" alt="">AI 뉴스웨이브</a></div></header>
+<header class="top"><div class="wrap"><a class="brand" href="../"><img src="../icon.svg" alt="">AI 뉴스웨이브</a><a class="enlink" href="/en/" hreflang="en">EN</a></div></header>
 <main class="wrap">
   <article>
     <p class="meta">${esc(a.category || '')}</p>
