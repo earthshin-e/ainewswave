@@ -253,15 +253,16 @@ dialog#kwSheet::backdrop, dialog#sheet::backdrop { background: rgba(0,0,0,.45); 
 .hot li:last-child { border-bottom: 0; }
 .hot li[data-cat="생성형AI"] { --h: 228; } .hot li[data-cat="반도체"] { --h: 188; } .hot li[data-cat="로봇"] { --h: 150; }
 .hot li[data-cat="정책"] { --h: 32; } .hot li[data-cat="기업"] { --h: 338; } .hot li[data-cat="연구"] { --h: 268; } .hot li[data-cat="보안/윤리"] { --h: 6; }
-.hot a { display: flex; align-items: center; gap: 12px; min-height: 40px; padding: 0 14px; color: inherit; text-decoration: none; }
+.hot a { display: flex; align-items: center; gap: 12px; min-height: 40px; padding: 6px 14px; color: inherit; text-decoration: none; }
 .hot a:hover, .hot a:active { background: rgba(255,255,255,.06); }
 .hot .rk { flex: none; width: 22px; font-size: 18px; font-weight: 700; color: rgba(255,255,255,.45); font-variant-numeric: tabular-nums; }
 .hot li:first-child .rk { color: #fff; }
 .hot .tag { flex: none; color: rgba(255,255,255,.6); }
-.hot .ht { flex: 1; min-width: 0; font-size: 14.5px; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.hot .ht { flex: 1; min-width: 0; font-size: 14.5px; line-height: 1.4; font-weight: 500; word-break: keep-all; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
 .hot .hn { flex: none; font-size: 12px; color: rgba(255,255,255,.6); font-variant-numeric: tabular-nums; }
 @media (max-width: 639px) {
-  .hot a { gap: 10px; padding: 0 12px; }
+  .hot a { gap: 10px; padding: 6px 12px; }
+  .hot .hn { font-size: 11px; line-height: 1.3; text-align: right; }
   .hot .tag { display: none; }
   .hot .ht { font-size: 14.5px; }
 }
