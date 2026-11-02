@@ -97,9 +97,9 @@ ${digestOf.has(st.id) ? '<meta name="robots" content="noindex,follow">\n' : ''}$
     <p class="meta">${st.author ? `글 <a href="author/${authorFile(st.author)}">${esc(st.author)}</a>` : 'AI 뉴스웨이브'} | ${kstDate(st.published)} | ${st.sources.length}개 매체 보도 종합</p>
     ${st.points && st.points.length ? `<h2>핵심 요약</h2>\n    <ul>${st.points.map((p) => `<li>${esc(p)}</li>`).join('')}</ul>` : ''}
     <h2>본문</h2>
-    ${st.body.map((p) => `<p>${esc(p)}</p>`).join('\n    ')}
+    ${st.body.map(bodyP).join('\n    ')}
     <h2>출처</h2>
-    <ul>${st.sources.map((x) => `<li>${esc(x.name)}: <a href="${esc(x.link)}" rel="noopener nofollow" target="_blank">${esc(x.title)}</a></li>`).join('')}</ul>
+    <details class="srcs"${st.sources.length <= 3 ? ' open' : ''}><summary>출처 ${st.sources.length}곳${st.sources.length <= 3 ? '' : ' 펼치기'}</summary><ul>${st.sources.map((x) => `<li><strong>${esc(x.name)}</strong> <a href="${esc(x.link)}" rel="noopener nofollow" target="_blank">${esc(x.title)}</a></li>`).join('')}</ul></details>
     <p class="meta">이 글은 위 매체들의 보도에서 확인된 사실을 AI 뉴스웨이브가 새로 정리한 것입니다. 자세한 내용은 각 언론사 원문을 확인하세요.</p>
   </article>
   ${(storyKw.get(st.id) || []).filter((k) => kwStories.has(k)).length ? `<h2>관련 키워드</h2>
@@ -132,6 +132,13 @@ for (const [k, l] of digestGroups) for (const s of l) digestOf.set(s.id, k);
 const digestFile = (k) => `d${k}.html`;
 const digestKeys = [...digestGroups.keys()].sort().reverse();
 
+// 본문 문단: "최근 흐름:", "용어 풀이:" 같은 라벨은 굵게, 용어 풀이는 박스로 분리 (2026-11-02)
+const bodyP = (p) => {
+  const m = /^(최근 흐름|용어 풀이|Recent developments|Glossary): ?([\s\S]*)$/.exec(p);
+  if (!m) return `<p>${esc(p)}</p>`;
+  const gloss = m[1] === '용어 풀이' || m[1] === 'Glossary';
+  return `<p${gloss ? ' class="gloss"' : ''}><strong>${esc(m[1])}</strong> ${esc(m[2])}</p>`;
+};
 const dir = path.join(pub, 'recap');
 await mkdir(dir, { recursive: true });
 const keep = new Set([...stories.map((s) => `${s.id}.html`), 'index.html', 'feed.xml', ...Object.keys(TOPICS).map(topicFile), ...digestKeys.map(digestFile)]);
@@ -151,8 +158,8 @@ for (let i = 0; i < sorted.length; i++) {
     if (st.author && o.author === st.author) sc += 1;
     return { o, sc };
   }).filter((x) => x.sc > 0).sort((a, b) => b.sc - a.sc || new Date(b.o.published) - new Date(a.o.published));
-  const others = scored.slice(0, 6).map((x) => x.o);
-  if (others.length < 5) for (const o of sorted) { if (others.length >= 5) break; if (o.id !== st.id && !others.includes(o)) others.push(o); }
+  const others = scored.slice(0, 4).map((x) => x.o);
+  if (others.length < 4) for (const o of sorted) { if (others.length >= 4) break; if (o.id !== st.id && !others.includes(o)) others.push(o); }
   const nav = { next: i > 0 ? sorted[i - 1] : null, prev: i < sorted.length - 1 ? sorted[i + 1] : null };
   await writeFile(path.join(dir, `${st.id}.html`), page(st, others, nav));
 }
@@ -433,7 +440,7 @@ for (const st of enStories) {
     <h1>${esc(e.title)}</h1>
     <p class="meta">${st.author ? `By <a href="/en/author/${authorFile(st.author)}">${esc(st.author)}</a>` : 'AI NewsWave'} | ${enDate(st.published)} | Based on ${st.sources.length} Korean news reports</p>
     ${e.points && e.points.length ? `<h2>Key points</h2>\n    <ul>${e.points.map((p) => `<li>${esc(p)}</li>`).join('')}</ul>` : ''}
-    ${e.body.map((p) => `<p>${esc(p)}</p>`).join('\n    ')}
+    ${e.body.map(bodyP).join('\n    ')}
     <h2>Sources (in Korean)</h2>
     <ul>${st.sources.map((s) => `<li><a href="${esc(s.link)}" rel="noopener" target="_blank">${esc(s.name)}</a></li>`).join('')}</ul>
     <p class="meta">${st.author ? `Drafted with AI writing tools and published first; ${esc(st.author)} reviews it after publication.` : 'Compiled by AI NewsWave from facts confirmed across the Korean reports above.'} Translated from the <a href="/recap/${esc(st.id)}.html">Korean version</a>.</p>
@@ -528,7 +535,7 @@ for (let i = 0; i < digestKeys.length; i++) {
   ${l.filter((s) => s.category === c).map((s) => `<article>
     <h3><a href="${esc(s.id)}.html">${esc(s.title)}</a></h3>
     ${s.points && s.points.length ? `<ul>${s.points.map((p) => `<li>${esc(p)}</li>`).join('')}</ul>` : ''}
-    ${s.body.map((p) => `<p>${esc(p)}</p>`).join('\n    ')}
+    ${s.body.map(bodyP).join('\n    ')}
     <p class="meta">출처: ${s.sources.map((x) => `${esc(x.name)}(<a href="${esc(x.link)}" rel="noopener nofollow" target="_blank">${esc(x.title)}</a>)`).join(', ')}</p>
   </article>`).join('\n  ')}`).join('\n');
   await writeFile(path.join(dir, digestFile(k)), listPage({

@@ -42,3 +42,13 @@ li .meta { font-size: 12px; margin-left: 4px; }
 .cards li a { font-weight: 600; text-decoration: none; }
 .cards .sum { font-size: 14px; color: var(--ink2); }
 .cards li .meta { margin-left: 0; }
+/* 본문 라벨, 용어 풀이 박스, 출처 접기 (2026-11-02) */
+article p strong { color: var(--ink); }
+article p.gloss { padding: 10px 14px; background: var(--surface); border: 1px solid var(--line); border-left: 3px solid var(--line); font-size: 15px; line-height: 1.7; color: var(--ink3); }
+details.srcs { margin: 6px 0; }
+details.srcs summary { cursor: pointer; font-weight: 600; color: var(--ink); padding: 6px 0; }
+details.srcs ul { margin: 4px 0 0; padding-left: 18px; }
+details.srcs li { font-size: 14px; line-height: 1.6; }
+details.srcs li a { color: var(--ink3); }
+main > ul a, .topics a { text-decoration: none; }
+main > ul li { margin-bottom: 4px; }

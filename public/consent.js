@@ -37,7 +37,7 @@
     bar.innerHTML = en
       ? '<p>We use cookies for visitor statistics and ads. Reading articles is not affected. <a href="/privacy.html" hreflang="ko">Privacy policy (Korean)</a></p>' +
         '<div><button type="button" data-v="essential">Essential only</button><button type="button" data-v="all" class="ok">Accept all</button></div>'
-      : '<p>방문 통계와 광고를 위해 쿠키를 씁니다. 기사 읽기에는 영향이 없어요. <a href="/privacy.html">자세히</a></p>' +
+      : '<p>방문 통계와 광고를 위해 쿠키를 씁니다. <span class="cn">기사 읽기에는 영향이 없어요. </span><a href="/privacy.html">자세히</a></p>' +
         '<div><button type="button" data-v="essential">필수만</button><button type="button" data-v="all" class="ok">모두 허용</button></div>';
     bar.addEventListener('click', function (e) {
       var b = e.target.closest('button');
@@ -49,7 +49,8 @@
       'padding:10px 16px calc(10px + env(safe-area-inset-bottom));background:#1a1a1a;color:#fff;font:13px/1.5 Inter,Pretendard,"Apple SD Gothic Neo",system-ui,sans-serif;box-shadow:0 -1px 0 rgba(255,255,255,.12)}' +
       '#consentBar p{margin:0;color:#e8e8e8}#consentBar a{color:#7cb9ff}#consentBar div{display:flex;gap:6px}' +
       '#consentBar button{height:34px;padding:0 14px;border:1px solid #636363;background:transparent;color:#fff;font:inherit;cursor:pointer}' +
-      '#consentBar button.ok{background:#2997ff;border-color:#2997ff;font-weight:600}';
+      '#consentBar button.ok{background:#2997ff;border-color:#2997ff;font-weight:600}' +
+      '@media(max-width:639px){#consentBar{flex-wrap:nowrap;justify-content:space-between;gap:8px;padding:8px 12px calc(8px + env(safe-area-inset-bottom));font-size:12px;line-height:1.4}#consentBar .cn{display:none}#consentBar button{height:30px;padding:0 10px;white-space:nowrap}}';
     document.head.appendChild(css);
     document.body.appendChild(bar);
   }
