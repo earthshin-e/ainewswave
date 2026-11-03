@@ -819,7 +819,23 @@
           "link": "https://www.aitimes.kr/news/articleView.html?idxno=42546"
         }
       ],
-      "author": "Chloe Park"
+      "author": "Chloe Park",
+      "en": {
+        "title": "Samsung SDS Breaks Ground on AI-Only Data Center in Gumi",
+        "points": [
+          "Samsung SDS breaks ground on AI data center in Gumi, North Gyeongsang Province",
+          "Designed to start at 60MW and expand to up to 120MW",
+          "First result of the 60 trillion won Yeongnam investment plan"
+        ],
+        "body": [
+          "Samsung SDS has broken ground on the Gumi AI Data Center, an AI-only data center in Gumi, North Gyeongsang Province, and is starting full-scale construction. The company announced it on Nov. 2. AI Newspaper (인공지능신문), Digital Today, Kukmin Ilbo, Digital Daily, iNews24, Datanet, Tech M, Chosun Biz, The Elec and EBN reported the news.",
+          "The data center will sit on a site of about 14,000 pyeong in Gongdan-dong, Gumi. Chosun Biz and Datanet reported that the initial power capacity is 60MW (megawatts) and that it can expand to up to 120MW to meet growing AI demand. iNews24 wrote that it is designed to expand in stages to up to 120MW after completion at the end of 2028. AI Newspaper and iNews24 gave the completion date as the end of 2028 in their headlines, while Digital Today, Chosun Biz and Tech M gave it as 2028 in theirs. The investment figure of 427.3 billion won appears in the headlines of AI Newspaper and EBN (AI Newspaper writes it as 4,273 hundred million won), and Tech M described it as a data center backed by 427.3 billion won in funding.",
+          "Outlets stressed different purposes. AI Newspaper and Digital Daily reported that the facility targets the large computing demand needed for manufacturing and robot AI training. AI Newspaper explained that the strategy is to secure large-scale GPU (graphics processing unit) computing resources to meet demand for enterprise AI services and for robot training and automation at manufacturing sites. EBN wrote that the plan is to secure high-performance GPU-based computing infrastructure to serve outside customers and also support the manufacturing and robot automation businesses of Samsung affiliates. Datanet noted in its headline that the groundbreaking will accelerate the expansion of the cloud business.",
+          "On the investment background, Kukmin Ilbo and The Elec linked the project to the 60 trillion won Yeongnam investment plan the Samsung Group announced last July. Kukmin Ilbo described the data center as the first visible result of that plan, and The Elec wrote that the plan has taken its first step. Kukmin Ilbo reported that a groundbreaking ceremony for the Samsung SDS Gumi AI Data Center was held in Gumi, North Gyeongsang Province, on the 2nd.",
+          "Recent developments: On the 29th, Samsung SDS reported preliminary third-quarter results for this year, with revenue of 3.7725 trillion won and operating profit of 241 billion won. According to Datanet, revenue rose 11.2% and operating profit rose 3.7% from a year earlier, with the external cloud business and the air and sea logistics business growing together. Chosun Biz reported that Samsung SDS will launch a GPU subscription service (GPUaaS) based on Nvidia's next-generation GPU \"Vera Rubin\" in Asia for the first time in March next year, and will also release a platform next year that manages robot training and operation in one place. Separately, LG CNS announced the same day that it completed construction of a 30MW AI data center in Jakarta, Indonesia. AI Newspaper reported that LG CNS secured customers equal to the full capacity before completion and is also pursuing a plan to expand to 400MW in the future.",
+          "Glossary: MW (megawatt) is a unit of power, and 1MW equals 1,000kW. For data centers, it expresses the power capacity the facility can use. GPUaaS refers to a service that rents out GPUs on a subscription basis."
+        ]
+      }
     },
     {
       "id": "h20261102-65c25775fa88",
@@ -913,7 +929,23 @@
           "link": "https://www.industrynews.co.kr/news/articleView.html?idxno=88454"
         }
       ],
-      "author": "Kevin Wong"
+      "author": "Kevin Wong",
+      "en": {
+        "title": "Krafton's Ludo Robotics Unveils Robot AI Ludi 0.2",
+        "points": [
+          "Krafton's Ludo Robotics unveils robot AI Ludi 0.2",
+          "Strengthened social intelligence to recognize human intent and gestures",
+          "Presented at a UC Berkeley symposium on Oct. 30"
+        ],
+        "body": [
+          "Ludo Robotics, Krafton's robotics research subsidiary, has unveiled \"Ludi 0.2,\" an AI system for robots that communicate and cooperate with people. Krafton announced it on Nov. 2. Kukmin Ilbo, EBN, Digital Daily, AI Times, VentureSquare, IT Chosun, Digital Today, Inven, Industry News and iNews24 reported the same news.",
+          "The unveiling took place at the 2026 Bay Area Robotics Symposium, a robotics academic event at UC Berkeley in the United States. Digital Today, iNews24 and IT Chosun wrote that the presentation was on Oct. 30 (local time). Inven reported that Lee Kang-wook, Krafton's CAIO and Ludo Robotics' CTO, presented Ludi 0.2 there. AI Times also announced the opening of a Palo Alto research lab in its headline, and Digital Daily wrote that the company has set up a research base in the United States. Kukmin Ilbo ran a commemorative photo of Krafton CEO and Ludo Robotics CEO Kim Chang-han and CAIO and CTO Lee Kang-wook at the Ludo Robotics headquarters research lab in Palo Alto, U.S.",
+          "The technical descriptions were similar but worded slightly differently. VentureSquare reported that Ludi 0.2 builds on the language understanding and object manipulation functions of the earlier model and strengthens social intelligence, recognizing human intent and gestures and responding to changing situations. Digital Today also wrote that it is a system that understands human intent and gestures and acts according to changes in the situation. Digital Daily said the company is expanding research into robot AI that grasps human intent and body language, and described the system as a follow-up version that complements the interaction functions of the existing system. IT Chosun introduced it as a model that grasps human intent and flexibly handles unexpected situations.",
+          "Interpretations of the business direction also differed by outlet. IT Chosun saw the unveiling as a move to speed up the expansion of the \"physical AI\" ecosystem beyond games. Industry News wrote that it is an attempt to extend AI capabilities built in the game industry to the real world, and put targeting the global robotics market in its headline. EBN explained that Krafton is widening its business into entertainment and robotics with AI technology accumulated in game development, and also covered the domestic launch of the K-pop AI character chat service \"Kiff\" the same day.",
+          "Recent developments: Krafton Chairman Jang Byung-gyu gave a keynote on the theme \"Expanding Toward Infinity\" at the demo day of the 2026 Chung Ju-yung Startup Competition at COEX in Seoul on the 28th. Digital Daily reported that the speech indicated Krafton is pursuing new AI businesses in addition to games and physical AI, and Industry News reported that Krafton is formally expanding beyond its core game business into physical AI and new AI businesses.",
+          "Glossary: Physical AI refers to artificial intelligence applied to machines that move in real physical spaces, such as robots. A symposium is an academic gathering where researchers present and discuss a specific topic."
+        ]
+      }
     },
     {
       "id": "h20261102-a80386381d42",
@@ -1001,7 +1033,23 @@
           "link": "https://www.ddaily.co.kr/page/view/2026103009455795338"
         }
       ],
-      "author": "Ashley Yang"
+      "author": "Ashley Yang",
+      "en": {
+        "title": "Naver CEO Choi Soo-yeon Discusses Industrial AI Cooperation With Siemens Chief",
+        "points": [
+          "Naver CEO Choi Soo-yeon holds industrial AI talk with Siemens chief",
+          "AI use must spread to small businesses for a true industrial transformation",
+          "Possible cooperation on robot AI and digital twins discussed"
+        ],
+        "body": [
+          "Naver CEO Choi Soo-yeon discussed the direction of industrial AI with Roland Busch, president and CEO of Siemens. Naver announced it on Nov. 2. Digital Daily, VentureSquare, AI Newspaper (인공지능신문), Digital Today, Chosun Biz, iNews24 and EBN reported the news.",
+          "Digital Today, Chosun Biz and EBN reported that the conversation took place on Oct. 31 at the 19th Asia-Pacific Conference of German Business (APK 2026), held at the Grand InterContinental Seoul Parnas. Chosun Biz explained that the talk centered on the spread of AI into physical industrial sites such as manufacturing, energy and mobility, and AI Newspaper also wrote that the remarks came as AI use widens into physical industrial sites such as manufacturing, energy and mobility.",
+          "Choi's key message is that the base for using AI must widen to small businesses and partner companies. VentureSquare reported that Choi said the transformation is only real when it spreads to small businesses, while Digital Today and EBN wrote that she stressed the need for a base that lets not only large companies but also small businesses and partners use AI easily. iNews24 quoted Choi as using the phrase \"when even small companies can easily use AI.\"",
+          "Outlets worded the possibility of cooperation differently. Digital Daily reported that Naver and Siemens discussed the possibility of applying robot AI and digital twin technology at industrial sites. According to the same report, the two companies checked actual technology operation cases at Naver's second headquarters, 1784, and looked at points of contact with industrial solutions. AI Newspaper wrote in its headline that they are exploring physical AI cooperation. Chosun Biz, by contrast, described the talk as a discussion on industrial AI, and the summary contains nothing about a concrete cooperation agreement.",
+          "Recent developments: Naver disclosed on the 30th that the payment date for its third-party allotment rights offering to Nvidia has been set for Nov. 6. According to AI Times, the investment is worth $1 billion (about 1.34 trillion won) and the new shares are scheduled to be listed on Nov. 27. The Elec reported that Nvidia will become Naver's third-largest shareholder, overtaking board chairman Lee Hae-jin, and Digital Daily wrote that most of the funds raised will go to the AI factory business from next year onward. The investment amount was given differently by outlet: about 1.3 trillion won (IT Chosun), 1.34 trillion won (AI Times) and 1.4 trillion won (iNews24 headline).",
+          "Glossary: A digital twin is a technology that replicates real equipment or spaces in a virtual space and runs simulations. Physical AI refers to artificial intelligence applied to machines that move in real physical spaces, such as robots."
+        ]
+      }
     },
     {
       "id": "h20261102-2b12b9f3fa61",
@@ -1089,7 +1137,23 @@
           "link": "https://www.kmib.co.kr/article/20261031500165"
         }
       ],
-      "author": "Haley Yun"
+      "author": "Haley Yun",
+      "en": {
+        "title": "Samsung Executives Discuss AI Management Strategy With Sam Altman",
+        "points": [
+          "About 50 Samsung executives meet OpenAI CEO Sam Altman",
+          "Topic: the next decade AI will change and the choices facing companies",
+          "Altman also lunches with SK Chairman Chey Tae-won the same day"
+        ],
+        "body": [
+          "Samsung invited OpenAI CEO Sam Altman to discuss management strategy for the AI era with the heads of its major affiliates. Samsung said it held the meeting on the 31st at the Samsung Human Resources Development Center in Yongin, Gyeonggi Province. Samsung Electronics Newsroom (company announcement), The Elec, Betanews, Kukmin Ilbo, Industry News and EBN covered the news.",
+          "Samsung Electronics Newsroom said the meeting was held for the heads of Samsung Electronics and other major affiliates, with executives from electronics, finance, bio and other affiliates attending. The Elec and Betanews put the attendance at about 50 executives. Betanews and Kukmin Ilbo reported that the meeting's topic was \"The Next Decade AI Will Change: The Choices of Companies.\" Betanews wrote that Altman arrived in Korea on the 31st.",
+          "Outlets conveyed his remarks and the mood differently. Kukmin Ilbo quoted Altman in its headline as saying \"Using AI alone is not enough,\" while Betanews introduced the remark \"AI alone gives no advantage\" in its headline and wrote that Altman gave Samsung executives a \"Codex keyboard.\" Industry News reported, in essence, that the executives practiced with generative AI themselves to improve their understanding of the technology, and that Samsung aims to widen its strategic partnership with OpenAI across semiconductor supply and data center construction.",
+          "Samsung's AI transformation plans were also reported. Digital Daily reported that Samsung is continuing cooperation with OpenAI on semiconductors and data centers and aims to provide AI training to all employees by February 2027. iNews24 wrote that, following Samsung Electronics Chairman Lee Jae-yong's visit to OpenAI headquarters last July, the two sides are expanding exchanges, while AI training is being provided from executives down to rank-and-file employees.",
+          "Recent developments: On the same day, the 31st, Altman also had lunch in Seoul with SK Group Chairman Chey Tae-won. Chosun Biz and EBN reported, citing business circles, that senior executives of SK hynix and SK Telecom were also said to have attended. Betanews wrote that the two met again in Seoul after one year and that attention is focused on whether follow-up cooperation will come on the HBM supply and AI data center projects agreed last year. Kukmin Ilbo said in a photo caption that the two signed a letter of intent (LOI) for memory supply and a memorandum of understanding (MOU) on AI data center cooperation in the southwestern Seoul area at SK Seorin Building in Seoul on Oct. 1 last year. EBN noted that Altman met Samsung executives and Chairman Chey in succession and focused on whether AI cooperation relationships in Korea are widening.",
+          "Glossary: AX is short for AI transformation, meaning companies adopt AI in their work and business to change how they operate. HBM is high-bandwidth memory, a type of memory for AI chips that stacks DRAM in multiple layers to speed up data transfer."
+        ]
+      }
     },
     {
       "id": "h20261102-4cf9073b2dda",
@@ -1141,7 +1205,23 @@
           "link": "https://www.kmib.co.kr/article/20261026501890"
         }
       ],
-      "author": "Ethan Chen"
+      "author": "Ethan Chen",
+      "en": {
+        "title": "Gyeonggi Province Steps Up Bid for Government's Global AI Hub",
+        "points": [
+          "Gyeonggi holds forum on strategy to attract the Global AI Hub",
+          "Cooperation system linking 31 cities and counties, companies and research institutes",
+          "Busan and the Goyang city council also move to bid"
+        ],
+        "body": [
+          "Gyeonggi Province has begun a full-scale bid to host the \"Global AI Hub\" that the government is pushing to build in Korea. Techworld News and Betanews reported the news. Both outlets wrote that Gyeonggi is fleshing out its bid strategy ahead of the government's open call for candidate sites and site selection.",
+          "Techworld News reported that Gyeonggi has set up a cooperation system connecting its 31 cities and counties with companies, public institutions and research institutes, and plans to respond to the government's call for candidate sites on that basis. Betanews wrote that Gyeonggi is fleshing out a bid strategy that links the province's industries, research institutes and cities and counties in preparation for the government's site selection for the Global AI Hub.",
+          "The two outlets also gave the same venue and date for the event. Gyeonggi held a forum on its Global AI Hub bid strategy on Oct. 30 at G-Fair Korea 2026 at KINTEX in Goyang. According to Betanews, Gyeonggi announced this on the 1st. Techworld News' headline highlighted building a cooperation system among the 31 cities and counties, while Betanews' headline stressed that the forum discussed a plan involving the 31 cities and counties and companies. Both summaries are cut off before the list of forum attendees, so this article does not cover it.",
+          "Recent developments: Other local governments and councils are also moving to attract the same hub. According to Kukmin Ilbo, Busan held a vision declaration ceremony titled \"Busan, Future City Opened by AI\" on the 28th at Nurimaru APEC House in Haeundae District and announced its AI transformation strategy and its plan to bid for the Global AI Hub. Kukmin Ilbo explained that Busan has set out to attract the Global AI Hub, a base for AI research and policy cooperation among international organizations such as the United Nations, and said in a photo caption that a joint cooperation agreement for the bid was signed that day. The same report said in its headline that site selection is at the end of the year. Kukmin Ilbo also reported that the Goyang City Council in Gyeonggi Province unanimously passed a resolution at its regular session plenary on the 26th, with no split between ruling and opposition parties, urging the Global AI Hub to be brought in and calling on the government and Gyeonggi Province to select the site and give active support.",
+          "What can be confirmed from this news is that the government is about to open a call for candidate sites for the Global AI Hub and that several local governments have expressed their intent to host it. The specific schedule and evaluation criteria for the call are not in the collected summaries.",
+          "Glossary: G-Fair Korea is an event held at KINTEX in Goyang, Gyeonggi Province, and this forum took place at the event. A resolution is a document of decision with which a local council formally states its opinion or demands."
+        ]
+      }
     },
     {
       "id": "b20261102",
@@ -1383,7 +1463,26 @@
           "link": "https://www.newsis.com/view/NISX20261102_0003850466"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "Nov. 2 AI Briefing: Data Centers and Power, Robot AI and Corporate AI Transformation Lead the Day",
+        "points": [
+          "AI data centers break ground and open, and power solutions follow",
+          "Robot AI unveiled and industrial AI cooperation discussed",
+          "Companies adopt AI agents and speed up AI transformation"
+        ],
+        "body": [
+          "Samsung SDS said on Nov. 2 that it has broken ground on an AI-only data center in Gumi, North Gyeongsang Province. It will be built on a site of about 14,000 pyeong in Gongdan-dong, Gumi, starting at 60MW and expandable to up to 120MW, and AI Newspaper (인공지능신문) and iNews24 gave the completion date as the end of 2028. AI Newspaper and EBN reported the investment at 427.3 billion won.",
+          "LG CNS said on Nov. 2 that it has completed construction of a 30MW hyperscale AI data center in Jakarta, Indonesia. The company describes it as the first case of a Korean company directly building an AI data center for an overseas client on site, and Digital Daily and Chosun Biz reported that it secured customers equal to the full capacity before completion.",
+          "LS Electric Chairman Koo Ja-kyun presented a direct current (DC)-based intelligent power grid as a solution to AI power demand in a keynote speech at the International Conference on Electricity Distribution (CIRED) workshop on Nov. 2. According to Blotter, the idea is to combine DC technology with the existing AC-centered supply system and use AI to raise the operating efficiency of the grid.",
+          "Ludo Robotics, Krafton's robotics research subsidiary, unveiled \"Ludi 0.2,\" a robot AI that recognizes human intent and gestures. Krafton said on Nov. 2 that it was presented at a robotics symposium at UC Berkeley on Oct. 30 (local time).",
+          "Naver CEO Choi Soo-yeon held a conversation with Siemens CEO Roland Busch on industrial AI at the Asia-Pacific Conference of German Business on Oct. 31, Naver said on Nov. 2. Choi stressed that the base for using AI must widen to small businesses and partner companies.",
+          "On Oct. 31, Samsung invited OpenAI CEO Sam Altman to a meeting with the heads of its major affiliates at the Samsung Human Resources Development Center in Yongin, Gyeonggi Province. Samsung Electronics Newsroom said, in a company announcement, that executives from electronics, finance, bio and other affiliates attended, and Betanews and Kukmin Ilbo reported that the topic was \"The Next Decade AI Will Change: The Choices of Companies.\"",
+          "Samsung Electro-Mechanics held its 53rd founding anniversary ceremony at its Suwon campus on Nov. 2. President Chang Duck-hyun said, \"The AI industry is only at 'January 1' now,\" and according to Chosun Biz and IT Chosun, he stressed that opportunities in the MLCC and semiconductor package substrate businesses must be turned into results.",
+          "Naver Cloud said on Nov. 2 that it signed a \"business agreement to strengthen practical AI logistics capabilities\" with the Army Logistics Command in Daejeon on Oct. 30. They will build a system that applies AI across all areas of military logistics, including procurement, maintenance and distribution.",
+          "SK ecoplant said on Nov. 2 that it is formally launching a \"one AI agent per person\" system, in which it analyzes employees' actual work data to develop and deploy job-specific AI agents. According to EBN, it will first apply the system at semiconductor and AI data center construction sites to automate repetitive tasks such as data gathering and report writing."
+        ]
+      }
     },
     {
       "id": "s20261102-a9ebf6f69b3f",
@@ -1453,7 +1552,23 @@
           "link": "https://it.chosun.com/news/articleView.html?idxno=2023092173098"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "Krafton Launches K-pop AI Character Chat Service Kiff in Korea",
+        "points": [
+          "Krafton launches K-pop AI character chat service Kiff",
+          "FIFTY FIFTY is the first participating artist",
+          "Chat with characters conceived by the artists themselves"
+        ],
+        "body": [
+          "Krafton has launched \"Kiff,\" a K-pop AI character chat service, in Korea, moving to commercialize its AI business. Krafton said it started the service on Nov. 2. Kukmin Ilbo, Digital Daily, iNews24, Digital Today and Inven reported the news.",
+          "Kiff is a service that lets users chat about K-pop with characters conceived by the artists themselves. iNews24 wrote that Krafton develops and operates the service. Digital Daily explained that users talk with a character created by the girl group FIFTY FIFTY, expanding Krafton's AI business aimed at K-pop fans. According to Inven, FIFTY FIFTY is the first participating artist and co-created the official character \"Wenny.\"",
+          "Inven gave the most detail on how it is used. Inven wrote that Kiff launched in Korea at 2 p.m. on Nov. 2, is available to users 14 and older, and can remember and respond to conversations with users. A day's conversations are recorded as a picture diary. Digital Today introduced Kiff as a service aimed at K-pop fans.",
+          "EBN explained that Krafton is widening its business into entertainment and robotics with AI technology accumulated in game development. The same day, Ludo Robotics, Krafton's robotics research subsidiary, unveiled the robot AI system \"Ludi 0.2.\"",
+          "Recent developments: On the 29th, Digital Daily and IT Chosun reported that Kakao Games and Krafton invested a total of 20 billion won in Eyes Entertainment, an AI content startup led by former Kakao CEO Namkoong Whon. Eyes Entertainment is preparing to release an AI chatbot game messenger it is developing with the funds.",
+          "Glossary: Character chat is a type of service in which a real person's or fictional character's persona is applied to an AI and users chat with that character."
+        ]
+      }
     },
     {
       "id": "s20261102-59343b6a700b",
@@ -1522,7 +1637,22 @@
           "link": "https://www.aitimes.com/news/articleView.html?idxno=216917"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "Naver Cloud and Army Logistics Command Build Practical AI Logistics",
+        "points": [
+          "Naver Cloud signs agreement with Army Logistics Command",
+          "AI to be applied across procurement, maintenance and logistics",
+          "Military-specific procurement platform and digital twin logistics to be developed"
+        ],
+        "body": [
+          "Naver Cloud will work with the Army Logistics Command to build a \"practical AI logistics\" system that applies AI across all areas of military logistics, including procurement, maintenance and distribution. Naver Cloud announced it on Nov. 2. iNews24, Techworld News, The Elec, Digital Daily, Datanet, Chosun Biz, Tech M and AI Times reported the news.",
+          "The two sides signed the \"Business Agreement to Optimize the Future Battlefield Environment and Strengthen Practical AI Logistics Capabilities\" at the Army Logistics Command in Daejeon on Oct. 30, according to Techworld News, The Elec, Digital Daily, Datanet and Tech M. AI Times and Datanet wrote that Naver Cloud's CEO who signed the agreement is Kim Yu-won.",
+          "AI Times gave the most specific account of the areas of cooperation. The two organizations will jointly develop and test AI services for military logistics sites, including an AI-based military-specific procurement platform, condition-based maintenance (CBM+) and digital twin-based smart logistics. Digital Daily explained that they will push for field application to the procurement platform, weapon system maintenance and logistics management. Datanet mentioned as background an environment in which new weapon systems such as manned-unmanned teaming systems and drones are rapidly increasing.",
+          "Chosun Biz wrote that the plan is to apply AI and cloud technology to actual logistics sites to support the military's AI transformation (AX). Tech M highlighted in its headline that AI is being attached to the military supply system. AI Times covered the news within a roundup of brief items under \"[Bulletin Board].\" The term of the agreement and the investment size are not in the collected summaries.",
+          "Glossary: Condition-based maintenance (CBM+) is a method of deciding when to service equipment based on information about its condition. A digital twin is a technology that replicates real equipment or spaces in a virtual space and runs simulations."
+        ]
+      }
     },
     {
       "id": "s20261102-fee8e3f0e54b",
@@ -1616,7 +1746,23 @@
           "link": "https://www.epnc.co.kr/news/articleView.html?idxno=409014"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "LG CNS Completes 30MW AI Data Center in Indonesia",
+        "points": [
+          "LG CNS completes AI data center in Jakarta, Indonesia",
+          "First case of a Korean company directly building a facility for an overseas client",
+          "Customers secured for full capacity before completion"
+        ],
+        "body": [
+          "LG CNS has completed construction of a 30MW hyperscale AI data center in Jakarta, Indonesia. The company announced it on Nov. 2. Tech M, Sisa Journal e, Blotter, Digital Today, iNews24, Digital Daily, Chosun Biz, The Elec and EBN reported the news.",
+          "Digital Today, Chosun Biz and EBN relayed the company's explanation that it is the first case of a Korean company directly building an AI data center for an overseas client on site. Sisa Journal e described it as the first in the domestic IT services industry. Digital Daily, The Elec and Chosun Biz wrote that it had already secured customers equal to the full capacity before completion. Blotter said in its headline that the leasing demand has been fully filled.",
+          "Some details of the project were also reported. The Elec said LG CNS bore fruit a little over a year after winning a project worth 100 billion won last year, and Blotter explained that the project worth about 100 billion won won last year led to actual completion. Digital Today wrote that the project was carried out with a joint venture of Indonesia's Sinar Mas Group and Korea Investment Real Asset Management. Tech M explained that the group's power, cooling and energy infrastructure capabilities were put into the local customer's project.",
+          "Outlets worded future plans differently. Tech M and EBN reported that LG CNS plans to expand the scope of its AI data center business across the Asia-Pacific region. AI Newspaper (인공지능신문) wrote that it is also pursuing a plan to expand to 400MW in the future. Sisa Journal e pointed out that a considerable part of LG CNS's overseas sales has so far come from overseas subsidiaries of group affiliates.",
+          "Recent developments: LG CNS said on the 30th that it posted third-quarter revenue of 1.6643 trillion won and operating profit of 138.2 billion won. According to Techworld News, revenue rose 9.3% and operating profit rose 15.0% from a year earlier, and AI Newspaper reported that about 58% of total revenue came from the AI and cloud businesses.",
+          "Glossary: A hyperscale data center is an ultra-large data center designed to hold a large number of servers and scale up capacity as needed. MW (megawatt) is a unit of power capacity."
+        ]
+      }
     },
     {
       "id": "s20261102-2b9f8130c995",
@@ -1679,7 +1825,22 @@
           "link": "https://www.hellot.net/news/article.html?no=115838"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "LS Electric Chairman Koo Ja-kyun Proposes DC Intelligent Power Grid as Answer to AI Power Crunch",
+        "points": [
+          "Chairman Koo gives keynote at CIRED workshop",
+          "DC-based intelligent power grid proposed as a solution to AI power shortages",
+          "Stresses a virtuous cycle between AI data centers and the power grid"
+        ],
+        "body": [
+          "LS Electric Chairman Koo Ja-kyun proposed a direct current (DC)-based intelligent power grid as a solution to meet power demand in the AI era. Koo gave the keynote speech on Nov. 2 at the 2026 International Conference on Electricity Distribution (CIRED) Workshop at the JW Marriott Dongdaemun Square Seoul. Hellot, Chosun Biz, The Elec, iNews24, Blotter and Digital Daily reported the news.",
+          "Digital Daily reported that Koo named a DC-based intelligent power grid as the sure solution to meet AI power demand. Blotter explained that the idea is to combine DC technology with the existing AC (alternating current)-centered power supply system and use AI to raise the operating efficiency of the grid. The Elec wrote that Koo spoke about raising the reliability of the grid for stable operation of AI data centers while also using AI to operate the grid efficiently. Hellot reported that Koo stressed a virtuous cycle between AI data centers and the power grid.",
+          "There were also explanations on the business side. Hellot introduced that LS Electric has won orders for ultra-high-efficiency PCS and data center power solutions in the United States and that the distribution infrastructure market is expected to grow. Blotter reported, in essence, that LS Electric is going after the global distribution market, including North American data centers, with the related technology. Neither outlet gave the order value or the counterparty in its summary.",
+          "Recent developments: Hellot reported on the 28th that LS Electric will take part in the Bitgaram International Electric Technology Expo (BIXPO) 2026, held at Kim Dae-jung Convention Center in Gwangju from Nov. 4 to 6, and will unveil high-voltage direct current (HVDC) and AI data center power solutions. The same report explained that it will focus on its HVDC converter equipment supply strategy aimed at expanding the national power grid, and will also show solutions for the future power market such as E-STATCOM and K-EMS.",
+          "Glossary: Direct current (DC) is a way in which current flows in one direction, while alternating current (AC) is a way in which the direction of current changes periodically. HVDC stands for high-voltage direct current, a technology that sends power over long distances using high-voltage DC."
+        ]
+      }
     },
     {
       "id": "s20261102-e14b2aaaa8fa",
@@ -1772,7 +1933,22 @@
           "link": "https://biz.chosun.com/it-science/ict/2026/10/30/PHKYWCZ62JECRA22ZSBX262YRY"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "Samsung Electro-Mechanics Marks 53rd Anniversary; President Chang Duck-hyun: \"The AI Industry Is Only at 'January 1' Now\"",
+        "points": [
+          "Samsung Electro-Mechanics marks 53rd anniversary; President Chang gives address",
+          "Diagnosis that the AI industry is only at \"January 1\"",
+          "Turn MLCC and package substrate opportunities into results through execution"
+        ],
+        "body": [
+          "Samsung Electro-Mechanics held its 53rd founding anniversary ceremony at its Suwon campus on Nov. 2. President Chang Duck-hyun said in his address, \"The AI industry is only at 'January 1' now.\" Digital Today, iNews24, Chosun Biz, Digital Daily, EBN, IT Chosun, Techworld News and Tech M reported the news.",
+          "Tech M reported that Chang said demand and technical difficulty for key components are surging as AI servers and data centers expand. Chosun Biz and IT Chosun wrote that Chang stressed that opportunities in core businesses such as multilayer ceramic capacitors (MLCC) and semiconductor package substrates must be turned into results. iNews24 reported, in essence, that execution is needed in all areas, including development, production, quality and safety and environment.",
+          "He also made requests about ways of working. Digital Daily reported that Chang asked all employees to adopt AI agents, urging them to cut simple repetitive work and focus on what is essential. According to the same report, the ceremony was held online and offline at the same time at the Suwon campus. EBN explained that employees at all sites at home and abroad, including Sejong and Busan, took part in real time through the company's internal broadcast network.",
+          "Recent developments: Samsung Electro-Mechanics said on the 30th that it signed an MLCC supply contract worth about 879.3 billion won for AI servers with a large global company. According to Chosun Biz, the contract period is one year, from Dec. 21 to Dec. 21 next year, and it is the second-largest of the long-term MLCC supply contracts disclosed this year. It is the company's eighth long-term supply contract this year, bringing the cumulative total above 5 trillion won. The cumulative amount was given as about 5.18 trillion won by iNews24 and 5.2 trillion won by Digital Daily. Digital Daily also wrote the contract as worth 880 billion won, so rounding differs by outlet.",
+          "Glossary: MLCC (multilayer ceramic capacitor) is a small component that helps current flow stably in electronic devices, made by stacking layers of ceramic and electrodes. A package substrate is a board that connects a semiconductor chip to the main board."
+        ]
+      }
     },
     {
       "id": "s20261103-68138c560832",
