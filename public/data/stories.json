@@ -77,7 +77,22 @@
           "link": "https://www.aitimes.kr/news/articleView.html?idxno=42553"
         }
       ],
-      "author": "Ethan Chen"
+      "author": "Ethan Chen",
+      "en": {
+        "title": "Upstage's Solar Pro 4 Formally Added to Government-Wide AI Common Platform",
+        "points": [
+          "Solar Pro 4 added to the government-wide AI common platform",
+          "Usable inside the administrative network without separate GPUs",
+          "Wider choice of homegrown LLMs for civil servants"
+        ],
+        "body": [
+          "Upstage has loaded its in-house large language model (LLM) \"Solar Pro 4\" onto the government-wide AI common platform and started formal service. The company announced it on Nov. 3. Tech M, Datanet, Techworld News, iNews24, AI Times, Digital Today, Digital Daily, EBN and AI Newspaper (인공지능신문) reported the same news.",
+          "The government-wide AI common platform is an AI infrastructure dedicated to the administrative network that the Ministry of the Interior and Safety and the Ministry of Science and ICT provide to central ministries and local governments. Tech M, Datanet and Digital Today explained that the platform provides AI models, data, development environments and more in common.",
+          "Outlets pointed to the significance of the addition in slightly different ways. Techworld News and Digital Daily reported that central ministries and local governments can now use a homegrown large language model for work inside the administrative network without building separate GPU infrastructure. AI Newspaper noted that AI adoption has so far been constrained by the administrative network's security requirements and the burden of securing high-performance GPUs, and wrote that use is expanding through a common infrastructure provided by the government, beyond individual agencies building their own systems.",
+          "AI Times said Upstage's LLM has joined the lineup of AI models available on the government-wide administrative network, and put weight on the wider choice of LLMs civil servants can pick from for their work. Digital Daily said in its headline that the system blocks external transmission of public data. iNews24 wrote in its headline that formal service has begun on the government administrative network, and EBN wrote that it can be used right away on the administrative network.",
+          "Glossary: A large language model (LLM) is an AI model that learns from vast amounts of text to understand and generate sentences. A GPU (graphics processing unit) is a computing chip widely used for training and running AI models."
+        ]
+      }
     },
     {
       "id": "h20261103-c1c3a509ff56",
@@ -164,7 +179,22 @@
           "link": "https://www.ddaily.co.kr/page/view/2026110210565354007"
         }
       ],
-      "author": "Kevin Wong"
+      "author": "Kevin Wong",
+      "en": {
+        "title": "NC AI Develops Ultra-Light Vision-Language Model VAETKI Vision 3B for Robots",
+        "points": [
+          "NC AI develops ultra-light VLM VAETKI Vision 3B",
+          "About 3 billion parameters, for robots and edge devices",
+          "Game companies continue their push into physical AI"
+        ],
+        "body": [
+          "NC AI has developed \"VAETKI Vision 3B,\" an ultra-light vision-language model (VLM) that can be installed directly in robots and industrial equipment. The company announced it on Nov. 3. Techworld News, AI Times, Chosun Biz, Industry News, Digital Today, iNews24, AI Newspaper (인공지능신문), EBN and Digital Daily reported it.",
+          "Chosun Biz and Digital Today reported that the model is designed to be installed directly in robots or industrial edge devices with limited computing resources. AI Times and AI Newspaper wrote that the model has about 3 billion parameters. Industry News introduced it as a model installed directly in robots at industrial sites without an external communication network.",
+          "Outlets described its performance differently. AI Times wrote in its headline that it outperformed 8B-class models, AI Newspaper said it beat six large global models, and EBN said it outperformed six global models. EBN explained that its distinguishing feature is high performance on major benchmarks of robot and spatial understanding while using fewer computing resources than existing publicly available global models. Only Industry News described the model as the world's highest-performing ultra-light vision AI. Digital Daily said in its headline that a welding-specialized model was developed together with it.",
+          "Tech M pointed out that NC and Krafton are expanding into industries beyond games by adding research and development capabilities to the AI technology they built up in game development. Earlier, on the 2nd, Digital Daily reported that Krafton unveiled the robot AI \"Ludi 0.2,\" which was introduced as having stronger ability to recognize human intent and body language.",
+          "Glossary: A vision-language model (VLM) is an AI model that understands images and text together. Parameters are values an AI model adjusts through training, and are used as a measure of the model's size."
+        ]
+      }
     },
     {
       "id": "h20261103-a59a5d8e8822",
@@ -233,7 +263,22 @@
           "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=710240"
         }
       ],
-      "author": "Haley Yun"
+      "author": "Haley Yun",
+      "en": {
+        "title": "Bespin Global Launches Action-Taking AI Agent HelpNow Computer",
+        "points": [
+          "Bespin Global launches action-taking AI agent",
+          "Operates browsers and apps directly to carry out work",
+          "Goes beyond Q&A to entering and filing requests in internal systems"
+        ],
+        "body": [
+          "Bespin Global has launched \"HelpNow Computer,\" an action-taking AI agent for enterprises. The company announced it on Nov. 3. Digital Daily, AI Times, Techworld News, Hellot, Digital Today, iNews24 and Industry News reported the same news.",
+          "AI Times, Hellot, iNews24 and Industry News reported that HelpNow Computer carries out work by directly operating browsers, applications, terminals and more. Several outlets stressed that it goes beyond the question-and-answer service that existing AI assistants provided. Digital Daily specifically wrote that it handles everything from writing documents to looking up, entering and filing requests in internal systems.",
+          "AI Times introduced the agent as one that breaks a user's goal into execution steps and controls the execution, retry and interruption of each task. Digital Today, citing the company, described HelpNow Computer as an action-taking agent added to the enterprise AI workspace. AI Times named Heo Yang-ho as Bespin Global's CEO. Industry News relayed the company's ambition in its headline, saying it opens an era of AI that acts, beyond AI that answers.",
+          "Earlier, Digital Today reported that Bespin Global won an Oracle Partner Award. It reported that the award reflected the company's case of building an AI-ready data platform for Samsung Securities.",
+          "Glossary: An AI agent is an AI that, when given a goal by the user, breaks the work into necessary steps on its own and carries it out using various tools. A terminal is a screen for operating a computer by typing commands."
+        ]
+      }
     },
     {
       "id": "h20261103-9b85c738d90e",
@@ -302,7 +347,22 @@
           "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1730264"
         }
       ],
-      "author": "Ashley Yang"
+      "author": "Ashley Yang",
+      "en": {
+        "title": "Weaverbrain Unveils Action-Driving AI Platform AgentMAX",
+        "points": [
+          "Weaverbrain unveils AI AgentMAX",
+          "Targets the enterprise market with data from its language-learning service",
+          "The AI speaks first and suggests actions"
+        ],
+        "body": [
+          "Conversational AI company Weaverbrain held a press conference for its \"2027 Tech Day\" at L-Tower in Yangjae, Seoul, on Nov. 3 and unveiled the AI agent platform \"AgentMAX.\" Chosun Biz, VentureSquare, Techworld News, Datanet, Betanews, EBN and Blotter reported from the event.",
+          "AgentMAX is a platform focused on drawing out human action. VentureSquare explained that it detects a user's hesitation, speaks first and suggests an action, and reported that it is based on data from 1.23 million members gained while running Speaking Max and more than 10 years of counseling experience. Blotter reported that the company uses the utterances and call-sales data it has built up over 18 years of running language services since its founding in 2008 for product sales and care services beyond education.",
+          "Chosun Biz and EBN described demonstration scenes. According to Chosun Biz, when CEO Cho Se-won took an incoming call and said he was in an important meeting, the AI replied that he had hung up saying he was busy yesterday too, and urged him to spare just 30 seconds to practice one sentence. EBN reported that when a demonstrator who was considering buying an electric bike said it was expensive, the AI sales agent set out to persuade, saying it comes to 2,900 won a day.",
+          "Explanations of the business direction followed. Datanet and EBN reported that Weaverbrain is expanding its business-to-business (B2B) AI solutions business on the back of this unveiling. Betanews said in its headline that the company is shifting from a language service to an AI agent supplier, and Techworld News wrote that it is targeting the enterprise market beyond education. Datanet named Cho Se-won and Lee Yong-guk as CEOs.",
+          "Glossary: B2B (business-to-business) is a model in which a company sells products and services to other companies rather than to individual consumers. An AI agent is an AI that takes a goal and decides the steps on its own to carry out a task."
+        ]
+      }
     },
     {
       "id": "h20261103-29b407e9c800",
@@ -372,7 +432,23 @@
           "link": "https://www.aitimes.com/news/articleView.html?idxno=216907"
         }
       ],
-      "author": "Chloe Park"
+      "author": "Chloe Park",
+      "en": {
+        "title": "Anthropic Reports Surging Q3 Revenue Amid Operating Loss and $895.4 Billion in Spending Commitments",
+        "points": [
+          "Anthropic discloses Q3 results in IPO filing",
+          "Revenue grew but the company swung to an operating loss",
+          "Compute spending commitments total $895.4 billion"
+        ],
+        "body": [
+          "U.S. AI company Anthropic disclosed its third-quarter results and the size of its spending commitments ahead of its initial public offering (IPO). Blotter reported that Anthropic disclosed on the 2nd (local time) that its third-quarter revenue jumped 12-fold from a year earlier. AI Times, AI Newspaper (인공지능신문) and Digital Daily also reported the results.",
+          "The figures were presented differently by outlet. AI Times reported that third-quarter revenue was $17 billion (about 23 trillion won) and that the company swung to an operating loss. Digital Daily noted that although revenue rose 47% from the previous quarter, the company swung to an operating loss, and that compute and infrastructure costs as a share of revenue rose from 48% to 58%. The same outlet reported that non-cash valuation losses on bonds and other items totaled 29.5 trillion won, accounting for 94% of the net loss. AI Newspaper wrote that quarterly revenue grew more than 12-fold in a year as Claude's enterprise customers increased.",
+          "Contractual spending commitments for compute and infrastructure were reported at around $895 billion. Blotter wrote about $895 billion (about 1,200 trillion won), AI Times $895.4 billion (about 1,154 trillion won) and AI Newspaper about $895.4 billion (about 1,199 trillion won), so the won conversions differ.",
+          "Other reports on the IPO also appeared. Citing the Wall Street Journal, Chosun Biz reported that, as the slide in U.S. tech stocks continues, major institutional investors planning to take part in the IPO told Anthropic and its listing advisers that the company's valuation should be lowered from earlier expectations. Its headline says the valuation should be cut to $1.5 trillion. Digital Today reported that in its listing filing Anthropic raised the possibility that it is approaching the stage of recursive self-improvement, in which AI itself accelerates development of subsequent AI models, but that no model has crossed that threshold so far and the company intends to keep human control.",
+          "Recent developments: AI Times reported that Business Insider, citing the IPO filing on the 1st (local time), reported that the value of Anthropic's internal AI services has exceeded its employee payroll costs, and wrote that usage jumped 250-fold in nine months. AI Times also reported that, ahead of the IPO, Anthropic has put life sciences and drug discovery forward as its next growth engine.",
+          "Glossary: An initial public offering (IPO) is the process by which an unlisted company first offers its shares to the general public so they can trade on a stock market. An operating loss is a state in which the costs spent exceed the profit earned from operations."
+        ]
+      }
     },
     {
       "id": "b20261103",
@@ -506,7 +582,26 @@
           "link": "https://biz.chosun.com/it-science/ict/2026/11/03/VD2OJRVKLBBKHNUJNR2M66NP4Y"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "Nov. 3 AI Briefing: Anthropic Results and AI Investment Worries, Government Network and Robot AI Spread",
+        "points": [
+          "Anthropic results disclosed, AI investment burden in focus",
+          "LLM added to government network and humanoid data facility opens",
+          "Robot AI and AI agents expand into corporate settings"
+        ],
+        "body": [
+          "Anthropic disclosed its third-quarter results and spending commitments ahead of its IPO. AI Times reported that third-quarter revenue was $17 billion (about 23 trillion won) and that the company swung to an operating loss. Spending commitments for compute and infrastructure were reported at around $895 billion, and Digital Daily noted that compute and infrastructure costs as a share of revenue rose from 48% to 58%. Citing the Wall Street Journal, Chosun Biz reported that major institutional investors said the company's valuation should be lowered.",
+          "Worries about the profitability of AI investment also showed up in stock markets. IT Chosun reported that the Nasdaq fell 1.07% on the New York market on the 2nd (local time) and that the funding burden from big tech companies' AI infrastructure investment and borrowing came into focus. According to EBN, the KOSPI fell 210.29 points (3.59%) to 5,648.79 on the 3rd, with large semiconductor stocks such as Samsung Electronics and SK hynix weakening together. EBN wrote in its headline that foreign investors sold 1.5 trillion won.",
+          "Upstage said on Nov. 3 that it has loaded its in-house LLM \"Solar Pro 4\" onto the government-wide AI common platform and started formal service. Techworld News and Digital Daily reported that central ministries and local governments can now use a homegrown LLM inside the administrative network without building separate GPU infrastructure.",
+          "The Ministry of Science and ICT held an opening ceremony for the \"AI Humanoid Data Factory\" with the Korea Institute of Machinery and Materials and ETRI. According to Chosun Biz, it collects data on various tasks, such as picking up and moving objects, using 12 robots, and will open to outside users at the end of next year.",
+          "NC AI said on Nov. 3 that it has developed \"VAETKI Vision 3B,\" an ultra-light vision-language model that can be installed directly in robots and industrial equipment. AI Times and AI Newspaper (인공지능신문) reported that it has about 3 billion parameters, and AI Times wrote in its headline that it outperformed 8B-class models.",
+          "Bespin Global said on Nov. 3 that it has launched \"HelpNow Computer,\" an action-taking AI agent that carries out work by directly operating browsers, applications and terminals. Datanet reported that Weaverbrain unveiled \"AgentMAX,\" an AI agent platform focused on drawing out human action, and is moving to expand its business-to-business solutions business.",
+          "SK Telecom said on Nov. 3 that it held the finals of \"AX Spark,\" an in-house contest for AI agents developed by its members, and awarded the top entries. AI Times reported that 173 entries were submitted over three months from August, and Digital Today wrote that about 5,000 AI agents have been developed in-house this year.",
+          "Naver said on Nov. 3 that its search-based agentic AI service \"AI Tab\" has received the ISO/IEC 42001:2023 certification, the international standard for AI management systems. Chosun Biz reported that Naver plans to extend its safety management system to other agentic AI services on that basis.",
+          "U.S. power semiconductor company onsemi announced on Nov. 3 that third-quarter revenue was $1.7223 billion (about 2.31 trillion won), Digital Daily reported. Chosun Biz reported that AI data center-related revenue rose 175% and operating profit rose 43%."
+        ]
+      }
     },
     {
       "id": "s20261103-310ff9e3a98b",
@@ -550,7 +645,21 @@
           "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=712052"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "Naver's AI Tab Earns ISO 42001 International Standard for AI Management Systems",
+        "points": [
+          "Naver's AI Tab earns ISO/IEC 42001 certification",
+          "AI safety management system verified against the international standard",
+          "Plans to extend it to other agentic AI services"
+        ],
+        "body": [
+          "Naver said on Nov. 3 that it has earned the ISO/IEC 42001:2023 certification, the international standard for AI management systems, for \"AI Tab,\" its search-based agentic AI service. Techworld News, Chosun Biz, iNews24 and Digital Today reported the same news.",
+          "According to iNews24 and Techworld News, ISO/IEC 42001 is an international standard in the AI field established by the International Organization for Standardization (ISO) and the International Electrotechnical Commission (IEC). Chosun Biz explained that the safety management system of AI Tab, which links everything from search to reservations and purchases, was verified against the international standard. Chosun Biz reported that Naver plans to extend its safety management system to other agentic AI services on that basis.",
+          "Digital Today, citing the company, introduced AI Tab as a search-based agentic AI service used by a large number of users.",
+          "Glossary: Agentic AI refers to AI that carries out multi-step tasks on its own according to the user's goal. An AI management system is a framework for managing the risks and responsibilities that arise when an organization develops and operates AI."
+        ]
+      }
     },
     {
       "id": "s20261103-d8da637854f7",
@@ -607,7 +716,22 @@
           "link": "https://www.irobotnews.com/news/articleView.html?idxno=49297"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "Ministry of Science and ICT Opens Korea's First Dedicated Humanoid Data Factory",
+        "points": [
+          "Korea's first facility dedicated to bipedal humanoids opens",
+          "Collects task-learning data with 12 robots",
+          "Scheduled to open to outside users at the end of next year"
+        ],
+        "body": [
+          "The Ministry of Science and ICT, together with the Korea Institute of Machinery and Materials and the Electronics and Telecommunications Research Institute (ETRI), held an opening ceremony for the \"AI Humanoid Data Factory.\" iNews24 and Digital Today reported that the event was held on the 3rd at the headquarters of the Korea Institute of Machinery and Materials. Industry News introduced it in its headline as Korea's first data factory dedicated to bipedal humanoids.",
+          "According to Chosun Biz, the facility plans to collect data on various tasks, such as picking up and moving objects, using 12 robots, and use it to improve humanoids' work abilities. Chosun Biz said in its headline that it will open to outside users at the end of next year. Digital Today reported that Korea's first dedicated facility for collecting work data from humanoid robots has opened.",
+          "Industry News explained that the \"Autonomous-Growth AI Humanoid Global TOP Strategic Research Group\" (led by Park Chan-hoon), overseen by the Korea Institute of Machinery and Materials, built the data factory inside the institute in cooperation with ETRI.",
+          "Recent developments: Data facilities for humanoid development are being pursued elsewhere as well. EBN reported that LG Electronics said on its third-quarter earnings call on the 28th that it will fully start up the \"LG Data Factory\" for robot learning and data collection in the fourth quarter, speeding up humanoid development. Robot Newspaper reported that Italy's Generative Bionics plans to build its own physical AI data factory in Italy, citing a report by The Robot Report on the 23rd (local time).",
+          "Glossary: A humanoid is a robot with a body structure similar to a human's. Bipedal refers to walking on two legs."
+        ]
+      }
     },
     {
       "id": "s20261103-58beb1e8aabf",
@@ -663,7 +787,21 @@
           "link": "https://www.inews24.com/view/2021400"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "Kakao's AI Dot Chulhang Season 2 Draws 122 Teams From Korea's Four Science and Technology Institutes",
+        "points": [
+          "122 teams apply to AI Dot Chulhang Season 2",
+          "About 85% more than the 66 teams in Season 1",
+          "12 teams to present in the finals, 8 teams to win awards"
+        ],
+        "body": [
+          "Kakao Investment said on the 2nd that a total of 122 teams applied to Season 2 of \"Kakao AI Dot Chulhang,\" a program that links AI technology from Korea's four science and technology institutes to startups and commercialization. EBN and iNews24 reported that this is about 85% more than the 66 teams that applied in Season 1.",
+          "The program targets teams from the Korea Advanced Institute of Science and Technology (KAIST), Gwangju Institute of Science and Technology (GIST), Daegu Gyeongbuk Institute of Science and Technology (DGIST) and Ulsan National Institute of Science and Technology (UNIST). Digital Daily reported that 12 of the applicant teams will present in the finals, from which the final eight winning teams will be chosen.",
+          "Digital Daily explained that, with actual investment results coming from Season 1 winners, Season 2 expanded both the scale of participation and the prize money. iNews24 gave the total prize money as 75 million won in its headline. Startup Today reported that the scale of the awards was greatly expanded and pointed out that more than 100 research teams applied for Season 2. In its headline, that outlet asked whether the larger prizes would lead to a year-end main investment agreement, and it named Kim Do-young as Kakao Investment's CEO.",
+          "Glossary: Commercialization means turning research results or technology into products and services that earn money in the market."
+        ]
+      }
     },
     {
       "id": "s20261103-81b5063671b1",
@@ -713,7 +851,21 @@
           "link": "https://www.industrynews.co.kr/news/articleView.html?idxno=88690"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "90% of Food and Beverage Manufacturers Plan AI Adoption, but Only 45% Use Their Data Effectively",
+        "points": [
+          "About 90% of food and beverage manufacturers use or plan to adopt AI",
+          "About 45% of collected data is used effectively",
+          "More than 60% of processes expected to use AI by 2030"
+        ],
+        "body": [
+          "Rockwell Automation looked at the state of AI adoption in food and beverage manufacturing based on its \"11th Annual State of Smart Manufacturing Report.\" AI Newspaper (인공지능신문), Hellot, Techworld News, Datanet and Industry News reported the findings on the 2nd.",
+          "There are two key figures. About 90% of food and beverage manufacturers already use or plan to adopt AI and machine learning. By contrast, only about 45% of the data they collect is used effectively. Techworld News put it as nine out of 10 manufacturers having adopted or planning to adopt AI, and wrote that data use falls short of half.",
+          "Hellot and Techworld News reported that the share of manufacturing processes using AI is expected to exceed 60% by 2030, and Hellot also named retraining the workforce as a challenge. Datanet reported that Rockwell stressed that data use, system integration and stronger workforce capabilities are needed to turn AI adoption into real business results. AI Newspaper described the findings as covering food and beverage manufacturing worldwide and pointed out that a gap is opening between AI investment and actual business results. Industry News pointed out that to turn AI investment into real results, companies must move beyond individual pilot projects.",
+          "Glossary: Machine learning is an AI technique in which a computer is trained to find rules in data on its own."
+        ]
+      }
     },
     {
       "id": "h20261102-7ad1d768b838",
@@ -1998,7 +2150,21 @@
           "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=710450"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "KT and Samsung Electronics Verify Autonomous AI Wireless Network Operation at a Ballpark",
+        "points": [
+          "KT and Samsung Electronics verify the technology at a Suwon ballpark",
+          "Autonomous wireless network operation based on AI Cell Twin",
+          "Traffic imbalance between base stations improved by up to 34%"
+        ],
+        "body": [
+          "KT said on the 2nd that it worked with Samsung Electronics at KT Wiz Park in Suwon to verify an autonomous wireless network operation technology based on its digital twin platform \"AI Cell Twin.\" EBN, Digital Today, Digital Daily and iNews24 reported it.",
+          "AI Cell Twin is KT's network digital twin platform that recreates a real wireless network in a virtual space. According to Digital Daily, in this verification, traffic that had been concentrated on a particular base station was spread to surrounding base stations, improving the imbalance between base stations by up to 34%. Digital Today also said in its headline that the traffic imbalance improved by 34%, and iNews24 put \"fall baseball\" in its headline, pointing to the fall baseball setting.",
+          "Separately, Digital Today, citing foreign media, reported that on the 27th (local time) T-Mobile, together with Nokia and Nvidia, succeeded in the world's first AI radio access network (AI-RAN) call on a commercial 5G base station.",
+          "Glossary: A digital twin is a technology that recreates real equipment or systems in a virtual space to test and analyze them. A base station is wireless equipment that connects mobile phones to the communications network."
+        ]
+      }
     },
     {
       "id": "h20261101-d4ecd035f1d4",
