@@ -102,7 +102,23 @@
           "link": "https://www.inews24.com/view/2022452"
         }
       ],
-      "author": "Kevin Wong"
+      "author": "Kevin Wong",
+      "en": {
+        "title": "AMD Teams With FuriosaAI and MangoBoost on Heterogeneous AI Infrastructure in Seoul",
+        "points": [
+          "AMD signs heterogeneous AI infrastructure agreement with two Korean firms",
+          "Plan to build demonstration infrastructure in Seoul next spring",
+          "Ministry of Science and ICT starts demonstration combining domestic NPUs"
+        ],
+        "body": [
+          "AMD said at an event in Seoul on the 4th that it will work with Korean AI chip companies FuriosaAI and MangoBoost to build open heterogeneous AI infrastructure that links different types of processors. AI Newspaper (인공지능신문), Digital Daily, IT Chosun, iNews24, Bloter, The Elec and AI Times reported the same news. Digital Daily, Bloter and AI Times wrote that the cooperation was formalized as a memorandum of understanding (MOU).",
+          "Descriptions of the setup differed slightly by outlet. Bloter wrote that it combines AMD's central processing units (CPUs) and graphics processing units (GPUs) with Korean companies' neural processing units (NPUs) and data processing units (DPUs). AI Newspaper (인공지능신문) also reported that the partners will develop computing infrastructure suited to AI inference by combining AMD's CPU and GPU technology with Korean NPU and DPU technology. IT Chosun described it as open infrastructure combining GPUs, NPUs and DPUs. Digital Daily introduced MangoBoost as a DPU specialist, while Bloter described it as a data center infrastructure company.",
+          "Expressions about timing and scale also varied. iNews24 reported that the companies plan to build AI infrastructure in Seoul next spring and verify performance and efficiency by linking different chips into one system. AI Times wrote that a demonstration infrastructure for a heterogeneous AI cluster will be built in Seoul next spring. The Elec reported that the companies will jointly build a heterogeneous AI computing infrastructure cluster in Seoul next year, adding that Keith Strier, AMD's senior vice president for global AI markets, said so at the event held on the 4th at the Westin Seoul Parnas in Samseong-dong. The event name was written differently: The Elec called it \"AMD Advancing AI Seoul 2026,\" while AI Times called it \"AMD Advancing AI World Tour Seoul 2026.\"",
+          "The government and Korean companies also made moves at the same event. Digital Daily reported that the Ministry of Science and ICT will launch a large-scale demonstration project with AMD that combines domestic NPUs, in order to break the monopoly of specific foreign GPUs and secure national AI infrastructure sovereignty. The same outlet conveyed in a headline that Vice Minister Ryu Je-myeong of the ministry said he would use a successful case of combining AMD and domestic NPUs next year. Moreh unveiled \"Token Factory\" software that lowers AI inference costs on AMD GPUs. According to iNews24, Moreh said it secured more than twice the AI inference throughput of Nvidia's B200 using AMD's Instinct MI355X. This figure is what Moreh stated.",
+          "Recent developments: Lisa Su, AMD's chief executive officer (CEO), said at the third-quarter earnings call on the 3rd (local time) that she expects next year's annual revenue to grow more than 80% from this year, according to The Elec. Server CPU revenue is expected to double, and AI GPU revenue is expected to grow faster than that. Chosun Biz reported that AMD posted record third-quarter results on rising demand for AI data center chips, with operating profit up 123% from a year earlier. iNews24 reported that Lisa Su called Korea a key partner in the AI industry and said AMD will expand investment and cooperation.",
+          "Terms explained: Heterogeneous computing is a method of using processors with different characteristics, such as CPUs, GPUs and NPUs, together in one system. An NPU is a chip specialized for AI computation, and a DPU is a chip that handles data movement and processing between the network and storage devices."
+        ]
+      }
     },
     {
       "id": "h20261104-0efb37b87801",
@@ -184,7 +200,23 @@
           "link": "https://www.hellot.net/news/article.html?no=115864"
         }
       ],
-      "author": "Chloe Park"
+      "author": "Chloe Park",
+      "en": {
+        "title": "Snowflake Expands Autonomous Execution and Control for Enterprise AI Agents",
+        "points": [
+          "Snowflake expands autonomous execution for AI agents",
+          "Business ontology unifies the standards for terms and metrics",
+          "CoCo agents automate data pipeline management"
+        ],
+        "body": [
+          "Snowflake has unveiled a series of features to help enterprise AI agents handle work on their own. Techworld News, Digital Today, Byline Network, iNews24, Chosun Biz and Datanet reported on it over the 3rd and 4th. Techworld News wrote that the company is strengthening data management, real-time analytics and governance features to support autonomous task execution by AI agents.",
+          "Each outlet stressed a different point. Digital Today reported that Snowflake unveiled a \"business ontology\" that manages business terms and metric definitions scattered across a company under a common standard and helps AI agents give consistent answers. iNews24 introduced it as an agent feature that manages data definitions, access rights and task history in one place. Digital Daily reported that, under the slogan \"same data, same answer,\" the company put its understanding of enterprise data and control over execution forward as its differentiating strategy.",
+          "On autonomous execution, Chosun Biz reported that Snowflake unveiled an AI agent that plans and handles tasks in the background without separate instructions, and explained in its headline that the agent calls on the user only when approval is needed. Digital Today wrote that Snowflake said on the 3rd (local time) that it is expanding its coding AI agent platform \"CoCo\" with \"CoCo Cloud Agent\" and \"CoCo Automation,\" which monitors and fixes data pipelines. Byline Network named the Cortex AI Gateway, sandboxes and the business ontology, among others, as control strategies against data leaks, misuse of permissions and rising costs as agents spread.",
+          "On the company's place in the market, Bloter noted that while OpenAI and Anthropic build the models that serve as the AI \"brain,\" Snowflake put forward the enterprise data that brain will handle and the mechanisms to control it. Datanet explained that as AI agents begin to carry out real work beyond answering questions, the ability to understand business context and control agents so they operate under security and governance policies is becoming more important.",
+          "Recent developments: Hellot reported that Oracle and Snowflake announced they will offer the Snowflake AI Data Cloud on Oracle Cloud Infrastructure (OCI) as a native first-party service. The announcement was made at Oracle AI World 2026.",
+          "Terms explained: An ontology is a framework that systematically defines concepts, such as business terms and metrics, and the relationships among them. Data governance refers to the rules and systems that manage data access rights, quality and security."
+        ]
+      }
     },
     {
       "id": "h20261104-b5aa7f96460e",
@@ -259,7 +291,22 @@
           "link": "https://www.aitimes.com/news/articleView.html?idxno=216763"
         }
       ],
-      "author": "Haley Yun"
+      "author": "Haley Yun",
+      "en": {
+        "title": "LG AI Research's EXAONE Nexus Wins National IP Commission Chair Award",
+        "points": [
+          "EXAONE Nexus wins National IP Commission Chair Award",
+          "Automatically analyzes copyright and privacy risks in training data",
+          "Applied to in-house model development, with overseas supply to expand"
+        ],
+        "body": [
+          "LG AI Research received the National Intellectual Property Commission Chair Award on the 4th for its AI compliance agent \"EXAONE Nexus\" at the Copyright Technology Awards of the \"2026 International Copyright Technology Conference (ICOTEC),\" hosted by the Ministry of Culture, Sports and Tourism. AI Times, Techworld News, IT Chosun, Digital Today, iNews24, EBN and Digital Daily reported the same news.",
+          "What EXAONE Nexus does is automatically examine the legal risks tied to AI training data. Techworld News wrote that it automatically analyzes copyright, license and privacy risks. IT Chosun said it analyzes the risk of copyright and privacy infringement, and iNews24 and EBN described it as technology that automatically analyzes legal risks related to copyright and personal information. Digital Daily described it as agent technology that automatically verifies legal risk factors.",
+          "IT Chosun gave specifics on usage plans. LG AI Research is applying the technology to its own AI model development and plans to expand supply to the global market. EBN summarized that the company is solving the data copyright issue, which has emerged as a major challenge for the AI industry, with AI technology while also pursuing entry into global markets. Digital Daily included in its headline a remark by Koo Kwang-mo that the company will \"continue to advance it.\"",
+          "Recent developments: The \"independent AI foundation model\" project led by LG AI Research also appeared in recent reports. According to iNews24 and AI Times, Webcash said on the 28th that it is joining the project to develop and demonstrate a K-EXAONE-based financial AI agent. iNews24 reported that the project is a national AI initiative promoted by the Ministry of Science and ICT and the National IT Industry Promotion Agency, and AI Times wrote that Webcash is joining the LG AI Research consortium.",
+          "Terms explained: Compliance means following laws and regulations. A foundation model is a large-scale AI model trained on vast amounts of data that can be adapted for many uses."
+        ]
+      }
     },
     {
       "id": "h20261104-dec62db56efe",
@@ -329,7 +376,23 @@
           "link": "https://www.bloter.net/news/articleView.html?idxno=677252"
         }
       ],
-      "author": "Ashley Yang"
+      "author": "Ashley Yang",
+      "en": {
+        "title": "Hyundai Steel Launches Steel-X, an Integrated Generative AI Platform",
+        "points": [
+          "Hyundai Steel launches in-house generative AI platform Steel-X",
+          "Integrated search and analysis of scattered internal documents and data",
+          "Employees can build and use their own AI agents"
+        ],
+        "body": [
+          "Hyundai Steel has launched \"Steel-X,\" an integrated generative AI platform that turns internal documents and data into assets and offers integrated search, analysis and a variety of AI services. The company said on the 4th that it recently began operating it. AI Times, Korea NGO News (한국NGO신문), Chosun Biz, Digital Daily, iNews24 and Steel & Metal News (철강금속신문) reported the same news.",
+          "The platform's name was written differently by outlet. AI Times wrote \"Steel-X\" with the Korean transliteration of \"Steel,\" Digital Daily wrote \"Steel X\" in Korean, and Chosun Biz, iNews24 and Steel & Metal News wrote \"Steel-X\" in English. This article uses \"Steel-X.\"",
+          "On features, Steel & Metal News put forward that employees can build their own AI agents and use them in their work. The explanation is that documents and data scattered across the company are integrated, and users can choose from various AI services according to the purpose of their work. iNews24 focused on collecting scattered internal knowledge in one place for search and analysis, while Chosun Biz reported that the company is speeding up company-wide AI transformation around the platform.",
+          "Digital Daily reported the partner. According to the outlet, Hyundai Steel introduced the next-generation integrated AI platform in cooperation with Hyundai AutoEver. Korea NGO News (한국NGO신문) explained AX as the full-scale adoption of AI by a company or organization into its existing work methods, products and services to fundamentally change its constitution.",
+          "Recent developments: Hyundai AutoEver also appeared in other recent reports. According to Chosun Biz and Bloter, Hyundai AutoEver decided on the 30th to invest about 114.6 billion won in a joint venture for Hyundai Motor Group's Saemangeum AI data center project. Chosun Biz reported that it is moving beyond its existing GPU server supply and cloud service business into directly operating AI computing infrastructure, and Bloter wrote that it will invest in stages through 2031.",
+          "Terms explained: AX means AI transformation, in which a company introduces AI into its work methods, products and services to change the way it works. Generative AI refers to AI that creates new output such as text and images."
+        ]
+      }
     },
     {
       "id": "h20261104-190c9c7532e7",
@@ -415,7 +478,21 @@
           "link": "https://www.datanet.co.kr/news/articleView.html?idxno=215493"
         }
       ],
-      "author": "Ethan Chen"
+      "author": "Ethan Chen",
+      "en": {
+        "title": "KOSA and KDIA Sign Agreement to Spread AX in Display Manufacturing",
+        "points": [
+          "KOSA and KDIA sign agreement on AX in display manufacturing",
+          "Lowering the barrier to AI adoption for small suppliers of materials, parts and equipment",
+          "Matching AI companies with display companies"
+        ],
+        "body": [
+          "The Korea Artificial Intelligence Software Industry Association (KOSA) and the Korea Display Industry Association (KDIA) signed a memorandum of understanding on the 3rd to spread AI transformation (AX) at display manufacturing sites. Techworld News, VentureSquare, iNews24, The Elec, Datanet and EBN reported the same news. Datanet wrote that the agreement was signed at the KDIA building in Songpa District, Seoul, and that KOSA's chairman is Cho Jun-hee and KDIA's chairman is Lee Chung.",
+          "The agreement is aimed at supporting companies in materials, parts and equipment. iNews24 reported that it will support AI adoption by small and mid-sized display materials, parts and equipment companies, and described a method of identifying challenges at manufacturing sites and connecting them with companies that have AI technology suited to the process. EBN summarized the goal as lowering the barrier to AI adoption for these companies. VentureSquare wrote that the cooperation includes technology matching between AI and software companies and display companies, training of specialists, and advancement of converged technologies.",
+          "Recent developments: KOSA also announced other cooperation news recently. Datanet reported that KOSA said on the 28th it signed an MOU with the Korea Testing & Research Institute for Chemical Industry (KTR) to support the growth of small AI and software companies and the spread of physical AI. VentureSquare reported that KOSA is recruiting companies year-round for the \"AI Innovation Accelerator (AIIA),\" linked with NYU Stern School of Business, and Techworld News wrote that it is accepting pre-applications year-round from companies preparing to enter the U.S. East Coast market. Techworld News and Datanet reported that on the 30th KOSA signed an MOU with the German AI Association (KI Bundesverband) to expand cooperation including industrial AI and physical AI. Datanet explained that the agreement includes support for Korean industrial AI companies' entry into Europe.",
+          "Terms explained: \"Sobujang\" is short for materials, parts and equipment, and refers to the fields that form the supply base of manufacturing. AX is AI transformation, in which AI is introduced to change work and production methods."
+        ]
+      }
     },
     {
       "id": "b20261104",
@@ -576,7 +653,23 @@
           "link": "https://www.ddaily.co.kr/page/view/2026110410215247057"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "Nov. 4 AI Briefing: AMD's Seoul Event and Corporate AI Transformation",
+        "points": [
+          "Cooperation widens between domestic AI chips and global companies",
+          "Companies keep unveiling AI agents and in-house platforms",
+          "AI used for training data and communications protection"
+        ],
+        "body": [
+          "AMD signed an agreement on the 4th at an event in Seoul with FuriosaAI and MangoBoost to build heterogeneous AI infrastructure. iNews24 and AI Times reported that the companies plan to build demonstration infrastructure in Seoul next spring. AI Newspaper (인공지능신문) explained that AMD's CPU and GPU technology will be combined with Korean NPU and DPU technology.",
+          "LG AI Research received the National Intellectual Property Commission Chair Award for \"EXAONE Nexus,\" which automatically analyzes copyright and privacy risks in AI training data. It was given at the Copyright Technology Awards of the \"2026 International Copyright Technology Conference\" hosted by the Ministry of Culture, Sports and Tourism. IT Chosun reported that the technology is already applied to the company's own AI model development and that it plans to expand supply to the global market.",
+          "Hyundai Steel said on the 4th that it has launched \"Steel-X,\" a generative AI platform that turns internal documents and data into assets and provides integrated search, analysis and AI services. Steel & Metal News (철강금속신문) pointed out that employees can build their own AI agents for their work, and Digital Daily reported that it was introduced in cooperation with Hyundai AutoEver.",
+          "Snowflake released features to help enterprise AI agents run autonomously. Digital Today introduced a \"business ontology\" that manages business terms and metric definitions under a common standard, while Chosun Biz introduced an agent that works in the background and calls on the user only when approval is needed.",
+          "Lee Jong-won, head of the Humanoid Research Division at KIST, was selected as a recipient of the Korea Science and Technology Award for November. AI Newspaper (인공지능신문) reported that he developed a Korean AI humanoid that can carry objects of more than 20 kg while keeping its balance and moving, and that core components were built with domestic technology, raising energy efficiency more than twofold.",
+          "KT said on the 4th that it has merged its customer protection services against spam, smishing, voice phishing and more under the \"Ansim 365\" brand. Boannews, citing KT's explanation, reported that multimodal AI was applied for the first time in Korea, and Digital Daily reported that the service helps users check their protection records themselves."
+        ]
+      }
     },
     {
       "id": "s20261104-6625e8004802",
@@ -644,7 +737,21 @@
           "link": "https://www.klnews.co.kr/news/articleView.html?idxno=323245"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "Deeply Supplies Acoustic AI Predictive Maintenance Solution to Busan Port Operator",
+        "points": [
+          "Deeply supplies Listen AI to a global port operator",
+          "Sound-based predictive maintenance for automated crane equipment",
+          "AI use cases continue to emerge at port sites"
+        ],
+        "body": [
+          "Deeply, an acoustic AI company, said on the 4th that it is supplying \"Listen AI\" to a large global port operator that runs port facilities in Busan and will carry out sound-based predictive maintenance of automated crane equipment. Industry News, Hellot, Digital Daily, Techworld News, EBN and Datanet reported the same news. Industry News wrote the product name as \"ListenAI\" and the other outlets wrote it as \"Listen AI.\"",
+          "Digital Daily reported that the aim is to prevent failures and close operational gaps in automated yard cranes at Busan New Port, and Datanet also said in its headline that the product is being supplied to Busan New Port. Techworld News introduced Deeply as a company that uses an industrial acoustic analysis AI solution for quality inspection of industrial parts, tightening-sound inspection of connectors and bolts, and predictive maintenance. Datanet described Listen AI as a solution that analyzes sounds at industrial sites.",
+          "Recent developments: Uses of AI at ports were also reported elsewhere. Korea NGO News (한국NGO신문) reported that the Incheon Port Authority has begun demonstrating automated AI pre-risk assessment technology to prevent safety accidents at port sites where large equipment and workers mix. The explanation is that once basic information such as work procedures and site photos is entered, AI automatically identifies risk factors for each step. Logistics Newspaper (물류신문) reported that the Ulsan Port Authority said on the 26th it has started a project to build a port information-sharing AI service that supports optimizing vessel operation plans.",
+          "Terms explained: Predictive maintenance is a method of analyzing signals such as the sound or vibration of equipment to predict failures in advance and carry out maintenance."
+        ]
+      }
     },
     {
       "id": "s20261104-f367646ba8cd",
@@ -719,7 +826,22 @@
           "link": "https://www.techm.kr/news/articleView.html?idxno=156914"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "Kakao Mobility and Army Cooperate on AI Integrated Control Technology",
+        "points": [
+          "Kakao Mobility and Army sign advanced science and technology agreement",
+          "Cooperation on integrated control for manned-unmanned combat systems",
+          "Taxi and logistics dispatch technology applied to defense"
+        ],
+        "body": [
+          "Kakao Mobility signed a memorandum of understanding (MOU) with the Army on the 3rd at Army Headquarters in Gyeryong, South Chungcheong Province, for cooperation on advanced science and technology, including integrated control technology for manned-unmanned combat systems. Logistics Newspaper (물류신문), Techworld News, EBN, iNews24 and The Elec reported the same news, and Datanet also reported on the agreement.",
+          "Logistics Newspaper (물류신문) reported that the cooperation extends AI and control technology built in the private mobility sector into defense. The Elec wrote that the companies will develop AI technology for integrated control of drones, robots and unmanned ground vehicles, and apply the dispatch and route optimization technology built in taxi and logistics services to the military. Techworld News described it as extending the physical AI and mobility platform technology that has transformed everyday travel into defense.",
+          "iNews24 reported that the Army aims to build a foundation for cooperation with private companies in defense AI transformation (AX), and EBN wrote that the two sides will build an AI-based integrated defense control system.",
+          "Recent developments: Cooperation between the Army and private AI companies continues. Digital Today and iNews24 reported that Naver Cloud signed an MOU with the Army Logistics Command in Daejeon on the 30th of last month, and iNews24 wrote that they will build a \"real-combat AI logistics\" system that applies AI to all areas of military logistics, including procurement, maintenance and distribution. Tech M reported that Naver Cloud CEO Kim Yu-won gave a keynote speech on the 3rd at the International Army M&S Conference and Exhibition at Daejeon Convention Center, stressing the AI infrastructure the military needs and the importance of civil-military cooperation.",
+          "Terms explained: Integrated control means monitoring and operating the positions and status of multiple pieces of equipment from one place. An unmanned ground vehicle is a vehicle that moves on the ground without anyone aboard."
+        ]
+      }
     },
     {
       "id": "s20261104-8c06c19499eb",
@@ -776,7 +898,22 @@
           "link": "https://www.irobotnews.com/news/articleView.html?idxno=49371"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "KIST's Lee Jong-won Wins Science and Technology Award for Domestic Humanoid",
+        "points": [
+          "KIST's Lee Jong-won selected for November science and technology award",
+          "Developed a Korean AI humanoid that walks while carrying 20 kg",
+          "Core components localized, with energy efficiency more than doubled"
+        ],
+        "body": [
+          "The Ministry of Science and ICT and the National Research Foundation of Korea selected Lee Jong-won, head of the Humanoid Research Division at the Korea Institute of Science and Technology (KIST), who developed a Korean AI humanoid robot platform, as a recipient of the Korea Science and Technology Award for November. AI Newspaper (인공지능신문), Digital Today and Chosun Biz reported this on the 4th.",
+          "AI Newspaper (인공지능신문) introduced it as a robot that can carry objects of more than 20 kg while keeping its balance and moving. The explanation is that its key feature is that core elements, from actuators to joints, sensors and control technology, were built with domestic technology and energy efficiency was raised more than twofold. Chosun Biz described it as a domestic humanoid that can walk while carrying objects of more than 20 kg, and Digital Today named the robot \"K-Pex\" (케이펙스) in its headline.",
+          "An article on industry trends also appeared. In a Robo World feature, Robot Newspaper noted that as humanoids expand their field of activity from laboratories and exhibition halls to industrial sites such as manufacturing and logistics, the focus of competition is shifting from appearance and motion to task performance, stable operation and production cost.",
+          "Recent developments: AI Times reported on the 4th that the Ministry of Science and ICT opened the \"AI Humanoid Data Factory\" with the Korea Institute of Machinery and Materials and the Electronics and Telecommunications Research Institute (ETRI). It is Korea's first facility dedicated to producing data for bipedal humanoids. In its headline, Robot Newspaper said that the Ministry of Trade, Industry and Energy's 2027 robot budget will put 147.7 billion won into three major robot projects, pursuing the rollout of 200 humanoids and localization of core components.",
+          "Terms explained: A humanoid is a robot built with a human-like body structure to walk and use its arms. An actuator is a component that produces the force that moves a robot's joints."
+        ]
+      }
     },
     {
       "id": "s20261104-f1991ddbaa15",
@@ -839,7 +976,22 @@
           "link": "https://www.newsis.com/view/NISX20261104_0003853950"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "Industry Ministry Announces Four-Stage Strategy to Spread Manufacturing AI",
+        "points": [
+          "Industry ministry announces four-stage strategy to spread manufacturing AI",
+          "Expanding factory-level AI results to supply chains and industrial complexes",
+          "Reusing developed AI models to reduce duplicate investment"
+        ],
+        "body": [
+          "The Ministry of Trade, Industry and Resources held an \"AI Factory Strategy Meeting\" on the 3rd at the Seoul Press Center and announced the \"AI Factory Expansion Strategy.\" AI Newspaper (인공지능신문), Hellot, Industry News, EBN, Digital Daily and Newsis reported the same news. According to Hellot, about 200 business leaders and experts attended, including Lee Gyu-seok, CEO of Hyundai Mobis; Kim Hyeong-gwan, president of HD Korea Shipbuilding & Offshore Engineering; Shin Jae-ho, CEO of LS Mtron; and Kim Young-oh, dean of the College of Engineering at Seoul National University.",
+          "The core is to spread manufacturing AI innovation results that had stayed within individual factories and production processes. Industry News wrote that it is a blueprint to extend them to supply chains and regional industrial complexes, and eventually to the national industry as a whole. Newsis reported that AI models whose effect has been verified at one factory will be spread to other factories with similar processes, partner companies and industrial complexes to reduce duplicate investment. Digital Daily reported that the ministry will support joint AI development by large companies and their partners and build a usage system for each regional industrial complex.",
+          "AI Newspaper (인공지능신문) said in its headline that it is a four-stage strategy based on the results of 245 AI factories. EBN explained that the ministry will build a technology diffusion system so that already developed AI models can be used at other manufacturing sites, and ultimately move to an autonomous manufacturing system in which AI controls the entire factory.",
+          "Recent developments: Criticism over the manufacturing AI budget also emerged. In a separate article, Newsis reported that in drawing up the budget for a large manufacturing AI project exempted from the preliminary feasibility study, the government did not reflect the results of the statutory review of the project plan's adequacy. The project's scale is said to approach 2 trillion won.",
+          "Terms explained: A preliminary feasibility study is a government procedure that assesses economic viability and policy effect in advance for projects requiring large public spending. Autonomous manufacturing means a manufacturing method in which AI decides and runs the production process on its own."
+        ]
+      }
     },
     {
       "id": "s20261104-621aa9cfb9c4",
@@ -896,7 +1048,22 @@
           "link": "https://www.venturesquare.net/1124241"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "Megazone Cloud and KAIST Cooperate on Physical AI Standardization",
+        "points": [
+          "Megazone Cloud and KAIST sign physical AI agreement",
+          "Pursuing industrial application, standardization and global expansion",
+          "Applying the robot orchestration platform KAIROS 37"
+        ],
+        "body": [
+          "Megazone Cloud signed a memorandum of understanding (MOU) with the KAIST Manufacturing Physical AI Research Institute for cooperation in physical AI. VentureSquare, Tech M, Datanet, Digital Today and Techworld News reported the same news. Tech M and Techworld News gave the date of the agreement as the 2nd, and the company announced it on the 3rd.",
+          "VentureSquare wrote that the two sides will apply KAIST's robot orchestration platform \"KAIROS 37\" to industrial sites and build a common technology base for linking robots, equipment, AI and data systems. Tech M reported that the aim is to spread technical results confirmed in the research and demonstration stages into a standardized structure that can be applied repeatedly in different manufacturing environments.",
+          "Datanet pointed to technology commercialization and revitalizing the industrial ecosystem as pillars of the agreement, and said the institute's director is Jang Young-jae. Digital Today and Techworld News put forward both standardization and entry into global markets.",
+          "Recent developments: VentureSquare reported that Megazone Cloud co-hosted \"Quantum × AI: The Next Frontier 2026\" with the Korea Institute of Science and Technology Information (KISTI) and discussed industrial uses combining AI, supercomputing and quantum computing.",
+          "Terms explained: Physical AI refers to technology that combines AI with machines that move real objects, such as robots, so they operate in real-world environments. Orchestration means coordinating multiple devices and systems so they work together."
+        ]
+      }
     },
     {
       "id": "h20261103-66f534072cdf",
