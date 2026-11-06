@@ -53,7 +53,22 @@
           "link": "https://www.bloter.net/news/articleView.html?idxno=677737"
         }
       ],
-      "author": "Kevin Wong"
+      "author": "Kevin Wong",
+      "en": {
+        "title": "SK hynix's US AI Investment Entity Confirmed as HYAICO, With Chey Tae-won as Chairman",
+        "points": [
+          "US AI investment entity name confirmed as HYAICO Corporation",
+          "Chairman Chey Tae-won to serve as board chair",
+          "He is expected to oversee the project, worth up to $10 billion, personally"
+        ],
+        "body": [
+          "SK Group Chairman Chey Tae-won has been confirmed as chairman of the board of 'HYAICO Corporation,' the artificial intelligence (AI) investment entity SK hynix is setting up in the United States. Bloter first reported the entity's name in an exclusive on the 4th, then reported Chey's appointment as chairman. Chosun Biz, EBN and iNews24 also followed with the same news.",
+          "The document cited as evidence appears in Chosun Biz's report. Chosun Biz wrote that a filing SK hynix submitted to the U.S. Securities and Exchange Commission (SEC) on the 3rd (local time) lists Chey as HYAICO's board chairman. Bloter reported that the entity had been referred to by the tentative name 'AI Co.' and that its name was confirmed as 'HYAICO Corporation.'",
+          "On the scale of the investment, iNews24 reported on the 5th, citing industry accounts, that Chey is expected to personally oversee the AI investment project, which will put in up to $10 billion (about 14 trillion won). Bloter also described it as a U.S. AI investment entity involving up to $10 billion, while noting that Chey is not a registered director of SK hynix in Korea.",
+          "Each outlet stressed different points. EBN explained that SK hynix has settled on 'HYAICO Corporation' as the name of its U.S. AI investment entity and is moving to target the global AI infrastructure market. EBN also offered the interpretation that Chey personally handling investment strategy and key decisions lends weight to the group's AI business expansion. Bloter described the news as following progress on restructuring Solidigm, the existing NAND flash subsidiary, into an AI investment entity. Chosun Biz's article also contains information about the entity's chief executive officer (CEO), but it is cut off in the summary and is not carried in this article.",
+          "Glossary: The board chairman is the person who leads board meetings and is distinct from the chief executive officer (CEO), who runs the company. The U.S. Securities and Exchange Commission (SEC) is the American financial regulator to which listed companies and others submit filings disclosing management information."
+        ]
+      }
     },
     {
       "id": "h20261105-eb4dd617000b",
@@ -110,7 +125,22 @@
           "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=712019"
         }
       ],
-      "author": "Chloe Park"
+      "author": "Chloe Park",
+      "en": {
+        "title": "OpenAI Says ChatGPT Search Volume Has Reached 20% of Google's",
+        "points": [
+          "ChatGPT search volume is about 20% of Google's total",
+          "Weekly active users have passed 1.2 billion",
+          "Signs that AI search is replacing traditional search"
+        ],
+        "body": [
+          "OpenAI said that the volume of web search requests made through ChatGPT amounts to about 20% of Google's total search volume. Tech M, AI Times and Digital Today reported the news on the 4th. Digital Today explained that as generative AI takes hold as a new means of finding information, the competitive environment for Google, which has long led the search market, is also changing.",
+          "Wording differed slightly by outlet. Tech M wrote that an analysis had been released showing web search requests from ChatGPT amount to about 20% of Google's total search volume. AI Times wrote that OpenAI said it had reached this figure, and its headline also reported that weekly active users have passed 1.2 billion. The AI Times article, which cited a Business Insider report, names OpenAI's Adam Fry, but what he said is cut off in the summary and is not carried in this article.",
+          "AI Times interpreted the shift as chatbot use, once centered on writing and coding, expanding into information seeking that replaces traditional search engines. Tech M also reported that users are moving from looking up information on search engines to getting answers by talking with AI.",
+          "Recent developments: Other reports on the same topic have followed. AI Times reported on the 31st of last month that AI search has begun to weigh on Google's core revenue source, its advertising business, and its headline said $500 billion in market capitalization had evaporated. Digital Today reported on the 29th of last month that answer engine optimization (AEO), which makes a company's information appear in the search results of generative AI such as ChatGPT, has emerged as a new area of investment in the global finance and fintech industries, but that performance measurement and organization-wide integration strategies are still lacking. Digital Today also reported on the 2nd, citing TechCrunch, that OpenAI is merging ChatGPT's chat tab and work tab into one. Codex will be kept separate.",
+          "Glossary: Weekly active users is the number of users who used a service at least once during a week. Answer engine optimization (AEO) refers to refining content so that a company's information appears in answers produced by AI."
+        ]
+      }
     },
     {
       "id": "h20261105-8f2e47654220",
@@ -186,7 +216,23 @@
           "link": "https://www.techm.kr/news/articleView.html?idxno=156957"
         }
       ],
-      "author": "Haley Yun"
+      "author": "Haley Yun",
+      "en": {
+        "title": "Kakao Sets 2028 Break-Even for AI Business, Previews AI Crew and Kanvas",
+        "points": [
+          "Kakao projects AI business break-even in 2028",
+          "Third-quarter operating profit of 240.3 billion won, up 7% year on year",
+          "AI Crew to be tested in December; Kanvas previewed for launch this year"
+        ],
+        "body": [
+          "Kakao said on the 5th, at its third-quarter earnings conference call, that its artificial intelligence (AI) business will reach break-even point (BEP) in 2028. Digital Daily, IT Chosun and The Elec put this in their headlines. Their wording differed. Digital Daily wrote that Kakao is pursuing break-even for its AI business in 2028, while IT Chosun wrote that it laid out a blueprint for reaching that level in 2028. The Elec reported that Kakao expects to reach break-even in 2028.",
+          "EBN laid out the earnings figures. Kakao posted consolidated revenue of 2.0867 trillion won and operating profit of 240.3 billion won in the third quarter of 2026, up 6% and 7%, respectively, from a year earlier. Revenue in the platform segment rose 17% year on year to 1.235 trillion won.",
+          "The explanation of its monetization direction is as follows. Digital Daily reported that Kakao has fleshed out a strategy of linking the growth of its platform business, centered on advertising and commerce, to AI monetization. The plan is to extend KakaoTalk as a base for running AI agents and secure new advertising and commerce revenue. IT Chosun presented the company's explanation that it will grow overall revenue with new AI services while controlling AI operating costs through flexible use of infrastructure and optimized external integration. The Elec reported that Kakao is also managing the rise in investment and costs that comes with expanding the user base of AI services.",
+          "A schedule for new services was also announced. IT Chosun and Digital Daily reported that Kakao will unveil next month 'AI Crew,' a B2B AI agent that helps advertisers choose and manage products. IT Chosun described it as a closed beta test (CBT), while Digital Daily wrote that it is a trial run in December. Advertisers enter their business goals in a chat window and the AI proposes suitable ad products and operating strategies, which was presented as aimed at lowering the barrier to entry for small and midsize businesses that lack advertising expertise. In a separate article, IT Chosun reported that Kakao will add a computer use agent (CUA) approach, in which AI directly operates a screen browser on the user's behalf, to its external service integrations, and will launch 'Kanvas' within the year, as the headline states.",
+          "Tech M reported that Kakao will launch within the year 'Kanana Space,' where AI agents carry out various KakaoTalk functions on users' behalf, and 'Kanvas,' an AI service based on browser control. The same outlet reported that Kakao is pitching the user network and conversational context accumulated on KakaoTalk as a differentiator in the AI era, with a strategy of building an environment where agents collaborate with one another, beyond communication between users and AI agents. Remarks by CEO Chung Shin-ah appeared in the headlines of Tech M and IT Chosun.",
+          "Glossary: Break-even point (BEP) is the point at which revenue and costs are equal, so there is neither profit nor loss. A computer use agent (CUA) is an approach in which AI looks at the screen like a person and directly operates programs such as a browser to get work done."
+        ]
+      }
     },
     {
       "id": "h20261105-824fe600961a",
@@ -255,7 +301,22 @@
           "link": "https://www.techm.kr/news/articleView.html?idxno=156806"
         }
       ],
-      "author": "Ashley Yang"
+      "author": "Ashley Yang",
+      "en": {
+        "title": "NC AI to Run VARCO Experience Cafe at G-Star 2026",
+        "points": [
+          "NC AI to run a VARCO experience cafe during G-Star",
+          "Runs Nov. 19 to 21 in Busan",
+          "Visitors can try making 3D assets and sound firsthand"
+        ],
+        "body": [
+          "NC AI will run an experience cafe for its generative AI platform 'VARCO' during 'G-Star 2026,' Korea's largest game show. VentureSquare, Chosun Biz, Digital Today, iNews24 and BetaNews reported the same news on the 5th. The cafe will run for three days, from Nov. 19 to 21.",
+          "Descriptions of the location differed slightly by outlet. VentureSquare wrote that it is near BEXCO in Busan. Chosun Biz and Digital Today specified the Chacha Coffeeco Centum Leaders Mark branch near BEXCO's Exhibition Hall 2, and BetaNews wrote that it is the same store in front of Exhibition Hall 2. Only iNews24 rendered the company's name as 'NC AI' in Korean as 'Enssi AI.'",
+          "On what visitors can try, VentureSquare reported that they can experience creating and editing 3D assets from text and images, as well as making creature sounds using voice. Chosun Biz described the space as a place to experience VARCO's 3D modeling and sound production technology. iNews24 introduced VARCO as a generative AI platform developed by NC AI and said it is used to create the 3D models and sound needed for games and video production. BetaNews reported that NC AI aims to showcase VARCO's 3D and sound generation technology through this event. The VentureSquare article goes on to discuss game developers, but it is cut off in the summary and is not covered in this article.",
+          "Recent developments: On the 3rd, NC AI said it had developed 'Vicky Vision 3B,' a lightweight vision-language model (VLM) that can be installed in robots and industrial edge devices. AI Times reported that the model has 3 billion parameters, and VentureSquare reported that, in evaluation results released by the company, it scored an average of 63.8 across three global benchmarks related to robotics and spatial understanding, higher than six major publicly available models used for comparison. Tech M reported that NC and Krafton are expanding into physical AI and robotics businesses on the strength of AI technology built up through game development.",
+          "Glossary: A 3D asset is a production element, such as a three-dimensional model, used in a game or video. A vision-language model (VLM) is an AI model that understands images and text together."
+        ]
+      }
     },
     {
       "id": "h20261105-3345b9ed5f22",
@@ -293,7 +354,21 @@
           "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=712401"
         }
       ],
-      "author": "Ethan Chen"
+      "author": "Ethan Chen",
+      "en": {
+        "title": "Jobplanet Discusses AI Hiring Innovation With LinkedIn Global Executives",
+        "points": [
+          "Jobplanet meets LinkedIn executives in Seoul",
+          "Discussed Korea's hiring market and AI-based hiring innovation",
+          "About 20 global executives attended, including LinkedIn's CPO"
+        ],
+        "body": [
+          "Jobplanet, a career platform run by Worksphere, met with LinkedIn executives to discuss Korea's hiring market and the direction of artificial intelligence (AI)-based hiring innovation. Jobplanet announced this on the 4th, and Bloter, VentureSquare and Digital Today reported it.",
+          "The outlets worded the timing of the meeting differently. Bloter wrote that they met at its headquarters in Seocho-gu, Seoul, on the 19th of last month, and VentureSquare also wrote Oct. 19 at Jobplanet's headquarters in Seocho-gu. Digital Today gave no date and reported that they recently exchanged views at the headquarters in Seocho-gu, Seoul.",
+          "On attendees, VentureSquare reported that about 20 global executives, including LinkedIn Chief Product Officer (CPO) Hari Srinivasan, attended along with Worksphere officials such as Jobplanet CEO Lee Jun. The same outlet cited AI talent matching and changes in Korea's hiring market as topics of discussion that day. Bloter introduced Jobplanet as a platform with more than 10 million company reviews, but what follows is cut off in the summary and is not covered in this article.",
+          "Glossary: Chief product officer (CPO) is a title for the executive who oversees a company's product strategy and development."
+        ]
+      }
     },
     {
       "id": "b20261105",
@@ -474,7 +549,25 @@
           "link": "https://www.epnc.co.kr/news/articleView.html?idxno=409296"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "Nov. 5 AI Briefing: From Kakao's 2028 AI Break-Even to SK hynix's US Entity",
+        "points": [
+          "Kakao projects AI business break-even in 2028",
+          "SK hynix's US AI investment entity confirmed as HYAICO",
+          "News of AI agent adoption at companies continues"
+        ],
+        "body": [
+          "In reports on the 5th (Korea time), plans to monetize AI businesses, the outline of a large investment entity and news of AI adoption at companies stood out.",
+          "Kakao said at its third-quarter earnings conference call on the 5th that its AI business will reach break-even in 2028. Digital Daily reported that the strategy links platform growth centered on advertising and commerce to AI monetization, and IT Chosun reported that CEO Chung Shin-ah said the company will unveil 'AI Crew,' a B2B AI agent, next month as a closed beta test. The Elec wrote that third-quarter operating profit rose 7% from a year earlier.",
+          "The name of SK hynix's U.S. AI investment entity has been confirmed as 'HYAICO Corporation.' Bloter reported the entity's name and the appointment of SK Group Chairman Chey Tae-won as board chairman in an exclusive on the 4th, and Chosun Biz reported that it is based on a filing SK hynix submitted to the U.S. Securities and Exchange Commission on the 3rd (local time). EBN explained that Chey personally oversees investment strategy and key decisions, and iNews24 reported the scale of up to $10 billion (about 14 trillion won).",
+          "NC AI will run an experience cafe for its generative AI platform 'VARCO' from Nov. 19 to 21, during G-Star 2026. VentureSquare reported that visitors can experience creating and editing 3D assets and making creature sounds using voice. Chosun Biz and Digital Today wrote that the location is the Chacha Coffeeco Centum Leaders Mark branch near BEXCO's Exhibition Hall 2.",
+          "Playd, an SOOP affiliate, said on the 5th that it has built 'P.AI,' an in-house AI agent platform. iNews24 reported that it comes loaded with 21 AI agents used for advertising and marketing work, and BetaNews described it as an in-house platform where employees use, in one place, agents and tools they discovered and developed themselves during actual work.",
+          "On the 5th, Infosys unveiled results of its AI-based virtual power grid demonstration project with Korea Electric Power Corporation at 'BIXPO 2026,' an international power and energy technology exhibition. Digital Daily reported that it developed an AI agent that reviews connection relationships and operating criteria of transmission and distribution equipment using ontology-based data modeling. VentureSquare's headline said it recorded 100% accuracy.",
+          "KT said on the 5th that it developed, with Samsung Electronics, wireless network optimization technology that reduces degraded communication quality on high-speed trains. Digital Daily and EBN reported that in a demonstration where AI analyzed communication quality data and adjusted the timing of base station handovers, the rate of dropped connections fell by about 29%.",
+          "Woori Bank is introducing 'Foreign Exchange AI Smart Compliance,' an AI-based review support system, for overseas remittance work starting on the 5th. Digital Today explained that the AI analyzes supporting documents, recommends the payment reason code that fits the purpose of the remittance, and automatically enters transaction information. Techworld News wrote that it is the first to introduce it in the financial sector."
+        ]
+      }
     },
     {
       "id": "s20261105-ccf41bb179b0",
@@ -537,7 +630,22 @@
           "link": "https://www.thelec.kr/news/articleView.html?idxno=64801"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "LLMjacking, Which Steals Companies' AI Access, Spreads, Costing $100,000 a Day",
+        "points": [
+          "LLMjacking, which uses and resells stolen AI access, is spreading",
+          "Victim companies bear charges of more than $100,000 a day",
+          "Google and Mandiant researchers warn of the threat"
+        ],
+        "body": [
+          "Reports continued that 'LLMjacking,' an attack that steals companies' artificial intelligence (AI) model access, uses it without authorization and resells it, is spreading. Techworld News, Digital Today and AI Newspaper (인공지능신문) reported that hackers use stolen API keys or cloud credentials to call high-performance AI models without authorization and pass the charges on to the victim companies. AI Newspaper wrote that the stolen AI services are resold on the black market, and Techworld News explained that they are resold to third parties at low prices.",
+          "The scale of damage was expressed differently by outlet. Techworld News and AI Newspaper stressed in their headlines a charge shock of around $100,000 a day. Datanet reported that damage is occurring at $100,000 a day (about 130 million won), reaching cumulative losses of $1 million. Boan News wrote that the attack ran up charges of more than $100,000 in a single day, and its headline said victim companies bear up to $1 million. Chosun Biz's headline said companies are hit with a charge shock of up to 1.3 billion won.",
+          "Google's Threat Intelligence Group (GTIG) and Mandiant researchers were named as sources. Datanet and Boan News reported that the findings were investigated by the two organizations, and AI Newspaper wrote in its headline that Google warned of the attack's spread. Digital Today explained that hackers make money by using stolen cloud credentials to call expensive large language models (LLMs) without authorization or by reselling access. The Elec reported on the 3rd that attackers steal LLM API keys and authentication tokens, and Boan News's headline covered the identity of a 'month-$60 unlimited AI.'",
+          "Techworld News pointed out that these threats make it necessary for companies to strengthen management of their AI resources, but the specific countermeasures are cut off in the summary and are not covered in this article.",
+          "Glossary: An API key is a string a program uses to prove its identity when calling an outside service. LLMjacking refers to an attack that steals this kind of access to use large language models without authorization."
+        ]
+      }
     },
     {
       "id": "h20261104-d450390fe411",
@@ -1445,7 +1553,22 @@
           "link": "https://www.irobotnews.com/news/articleView.html?idxno=49385"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "RLWRLD Appoints Former IBM Korea Consulting Head Kim Min-jung as COO",
+        "points": [
+          "RLWRLD appoints Kim Min-jung, former head of IBM Korea Consulting, as COO",
+          "Speeding up commercialization of its robotics foundation model",
+          "Pursuing global business expansion"
+        ],
+        "body": [
+          "RLWRLD, a physical AI company, said on the 4th that it is appointing Kim Min-jung, former head of IBM Korea Consulting, as chief operating officer (COO). Logistics Newspaper (물류신문), Datanet, Techworld News, Digital Daily, Digital Today, AI Times and Tech M reported the news. Wording differed by outlet. Digital Daily and Digital Today wrote that it appointed her, while Logistics Newspaper and AI Times wrote that it is appointing her. Logistics Newspaper and Tech M described her as the incoming COO, and Digital Daily used the word 'recruitment' in its headline.",
+          "On RLWRLD's direction, Datanet, Techworld News and Tech M reported that it is speeding up commercialization of its robotics foundation model (RFM) technology and global business expansion. Logistics Newspaper introduced RLWRLD as a company that develops RFMs based on real industrial site data and applies five-fingered robot hands to manufacturing and logistics sites. Datanet and AI Times wrote that RLWRLD's CEO is Ryu Jung-hee.",
+          "The new COO's career was presented as follows. Digital Today and Datanet reported that after serving as head of IBM Korea Consulting, she served as vice president for corporate strategy in IBM Consulting's Asia-Pacific region. AI Times reported that she holds a doctorate in chemistry and has worked at IBM Korea Consulting, McKinsey & Company, and the SK and Hanwha groups, and Tech M's headline said she comes from IBM and McKinsey. Digital Daily introduced her as an expert who handled management strategy and business innovation at a global consulting firm and major Korean conglomerates. AI Times also mentioned a career as CEO of LF Foods before joining RLWRLD, but what follows is cut off in the summary.",
+          "Recent developments: Robot Newspaper (로봇신문) reported on the 4th that Clobot, a robot AI software company, was selected as the lead research and development institution for a government project on a spatial intelligence robot foundation model (Spatial-RFM). Its headline carried both the 7.3 billion won scale and the recruitment of Dr. Park Soon-yong, formerly of Naver Labs.",
+          "Glossary: A robotics foundation model (RFM) is an AI model for robots trained on large-scale data so it can be used broadly across many types of robots and tasks. Physical AI refers to technology that combines AI with devices that move in the real world, such as robots."
+        ]
+      }
     },
     {
       "id": "s20261105-32555bf3f597",
@@ -1502,7 +1625,22 @@
           "link": "https://www.epnc.co.kr/news/articleView.html?idxno=409237"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "CrowdStrike Acquires Two AI Security Startups and Unveils AI Kill Switch",
+        "points": [
+          "CrowdStrike to acquire two AI security startups",
+          "Unveils a kill switch that stops AI agents",
+          "Tech M reports about $500 million for the acquisitions"
+        ],
+        "body": [
+          "Global cybersecurity company CrowdStrike said it will acquire two AI security startups and also unveiled an 'AI kill switch' feature that stops AI agents that have slipped out of control. Chosun Biz, Tech M and Digital Today reported the news. Tech M reported that CrowdStrike announced it at its security conference being held in Barcelona, Spain, on the 3rd (local time).",
+          "The size of the acquisitions appears only in Tech M. Tech M reported that CrowdStrike is putting in about $500 million to secure technology that tracks the behavior of AI agents and scans them for vulnerabilities. Chosun Biz wrote that it decided to acquire two startups to strengthen its AI security capabilities.",
+          "On the kill switch, Chosun Biz wrote that it is a feature that blocks the behavior of AI agents that have slipped out of control, while Digital Today, citing CNBC's report on the 3rd, said it is a feature that stops in-house AI agents. According to Digital Today, security teams can use the feature to stop an AI agent that has caused problems and prevent it from running again. Chosun Biz described it as 'unveiled,' and Digital Today as 'released.'",
+          "Recent developments: Findings from CrowdStrike on attacks abusing AI were also reported. Boan News reported on the 4th that CrowdStrike's threat hunting team OverWatch detected signs that the cyberattack group VAPOR PANDA abused Chinese AI tools such as DeepSeek and ARTEX to simultaneously attack many institutions, including a European country's presidential office. Datanet's headline said China used AI to attack 200 institutions over 11 days, and Techworld News reported that signs were confirmed of simultaneous attacks on multiple organizations through AI agents.",
+          "Glossary: A kill switch is an emergency stop device that immediately halts a system when it behaves abnormally. An AI agent refers to AI that carries out tasks on a user's behalf by using various tools."
+        ]
+      }
     },
     {
       "id": "s20261105-d0d8fcbe6739",
@@ -1564,7 +1702,21 @@
           "link": "https://www.venturesquare.net/1125415"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "onsemi to Acquire AI Processor Power Firm Ferric for $600 Million",
+        "points": [
+          "onsemi signs deal to acquire Ferric for $600 million in cash",
+          "Up to $175 million more if revenue targets are met",
+          "Strengthens push into the AI processor power supply market"
+        ],
+        "body": [
+          "U.S. semiconductor company onsemi will acquire Ferric, an integrated voltage regulator (IVR) technology company. onsemi announced on the 4th that it signed a deal to acquire it for $600 million in cash. Hellot, Techworld News and Digital Daily reported the news. Hellot wrote that up to $175 million in contingent consideration will be paid in addition if certain revenue targets are met, and Digital Daily reported that the company aims to complete the acquisition at the end of 2026.",
+          "On the purpose of the acquisition, Techworld News explained that it is meant to strengthen onsemi's push into the power supply market for next-generation AI processors. Hellot's headline put forward capturing the IVR market for AI processors, and Digital Daily described it as an acquisition aimed squarely at AI power semiconductors. Techworld News interpreted it as a sign that the power race in AI semiconductors is intensifying.",
+          "Recent developments: The acquisition talks had been reported earlier. Digital Today reported on the 28th of last month that The Information said on the 27th (local time) that onsemi was in talks to acquire Ferric in a deal valued at $1 billion. That report carried a caveat that terms could change or the talks could fall through. The announced amount is structured as $600 million in cash plus contingent consideration. onsemi also announced third-quarter results on the 3rd. Digital Daily reported revenue of $1.7223 billion, up 11% from a year earlier, and Chosun Biz reported that operating profit rose 43% from the same period last year. VentureSquare and Chosun Biz wrote that AI data center revenue rose 175% from a year earlier.",
+          "Glossary: A voltage regulator is a component that converts incoming voltage into the stable voltage a processor uses, and an integrated voltage regulator (IVR) refers to a form that integrates this function. Contingent consideration is acquisition payment made additionally if conditions set after the contract are met."
+        ]
+      }
     },
     {
       "id": "s20261104-8c06c19499eb",
@@ -1777,7 +1929,22 @@
           "link": "https://www.inews24.com/view/2021261"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "Binance's $6.3 Billion Hack Exploited Fake Job Interviews and In-House AI Tools",
+        "points": [
+          "Binance releases preliminary investigation report on $6.3 billion hack",
+          "Fake hiring interviews and in-house AI tools were exploited",
+          "Reported as a five-month multistage attack by North Korea-linked hackers"
+        ],
+        "body": [
+          "Binance, the world's largest cryptocurrency exchange, released on the 3rd (local time) a preliminary investigation report on the large-scale hacking incident that occurred on Oct. 29. Digital Daily reported that the report defined the incident as a multistage attack combining a supply chain attack, social engineering using fake hiring interviews, and a compromise of in-house AI tools. Digital Today and EBN also reported that fake interviews and in-house AI tools were exploited.",
+          "The scale of the loss and the length of the attack differed by outlet. Digital Today and Digital Daily wrote that $6.3 billion was stolen, while EBN wrote $6.34 billion (about 8.4 trillion won). On the duration, Digital Daily and EBN reported that the attack was prepared over about five months, while Digital Today said only that it was prepared over several months. EBN explained that a development tool planted with malware, fake hiring interviews and an internal AI system were used in the attack.",
+          "Wording also split on who was behind it. Digital Daily wrote 'North Korean hackers' in its headline, while EBN described them as 'North Korea-linked hackers.' Media Today reported that the U.S. Federal Bureau of Investigation (FBI) named North Korea as being behind the incident in a press release on the 31st of last month (local time). Datanet reported on the 2nd that the possible involvement of a North Korean hacking group had been raised in the Binance hack.",
+          "Recent developments: Chosun Biz reported that Binance founder Changpeng Zhao said in a CoinDesk interview on the 3rd that advances in AI will increase cyberattacks targeting exchanges and banks. iNews24 reported in a Nov. 1 article that a single engineer's laptop was identified as the starting point from which more than 8 trillion won in assets drained out.",
+          "Glossary: A supply chain attack is an attack that infiltrates through business relationships, such as software development tools or delivery channels. Social engineering refers to techniques that trick people into giving up information or access."
+        ]
+      }
     },
     {
       "id": "s20261104-621aa9cfb9c4",
