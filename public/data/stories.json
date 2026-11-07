@@ -159,7 +159,25 @@
           "link": "https://www.venturesquare.net/1126117"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "Nov. 6 AI Briefing: Post-Midterm AI Regulation Fears and the Release of GPT-6 Cyber",
+        "points": [
+          "U.S. AI regulation fears spread to the South Korean stock market",
+          "OpenAI releases a security-focused model and addresses data center costs",
+          "South Korean firms such as SK Biopharm keep announcing AI results"
+        ],
+        "body": [
+          "Reports on Nov. 6 (Korea time) were dominated by AI regulation fears after the U.S. midterm elections rattling markets, a string of announcements from OpenAI, and AI results unveiled by South Korean companies.",
+          "U.S. stocks plunged on Nov. 5 (local time) over fears of tougher AI regulation. EBN reported that Democrats took control of both the Senate and the House, sparking a sell-off centered on tech and semiconductor shares, and that the Nasdaq fell 5.5%. iNews24 reported that the semiconductor index plunged more than 12%. South Korea's market was affected as well. EBN reported that the KOSPI dropped more than 5% on Nov. 5 as foreign investors sold 3.4 trillion won worth of shares, and iNews24 reported that Deputy Prime Minister and Finance Minister Lee Hyung-il said on Nov. 6 that the government would take preemptive measures so the domestic market does not overreact.",
+          "OpenAI unveiled GPT-6 Cyber, an AI model specialized for cybersecurity. Datanet and Digital Daily reported that it was released on Nov. 6, while Digital Today, citing Axios, reported that it was first offered to some vetted users. AI Times wrote that the attack success rate was 51% higher than that of earlier models and that the model found 81 new high-severity vulnerabilities in Firefox.",
+          "OpenAI also stated its position on data center costs. Digital Daily reported that on Nov. 5 (local time) OpenAI said it would fully cover the electricity and related infrastructure costs of the data centers it owns and operates. EBN, citing The New York Times, wrote that OpenAI would fully cover the cost of expanding the power grid, and AI Newspaper (인공지능신문) reported that it set out a principle that developers should bear power costs themselves rather than pass them on to local residents.",
+          "SK Biopharm said on Nov. 6 that it had completed building and validating a drug-discovery AI model through the \"AI Foundation Model Project,\" led by the Ministry of Science and ICT. Digital Daily and HitNews reported that about 7.14 million items of bio data were used, while IT Chosun reported that training data on the scale of 4.4 billion tokens was built.",
+          "The Ministry of Science and ICT and the Korea Internet & Security Agency (KISA) published the \"Agentic AI Zero Trust Guide\" on Nov. 6. Digital Today reported that it was produced with experts from industry, academia and research institutes, and Boannews reported that it recommends enforcing policies by verifying behavior at multiple points where AI agents operate.",
+          "Airbnb will launch its own AI travel agent in the first half of 2027. Digital Today, citing TechCrunch, reported that the company disclosed the timing in its third-quarter shareholder letter, and Digital Daily described it as an agent that supports everything from searching for lodging to comparing and booking.",
+          "In robotics, XYZ showcased the robot barista \"Barista Brew Max\" and the semi-humanoid \"Deus\" at Robo World 2026. Tech M and VentureSquare reported that Barista Brew Max is designed to make up to 250 cups per hour, and VentureSquare introduced Deus as combining voice conversation with gestures, expressions and sounds."
+        ]
+      }
     },
     {
       "id": "h20261106-c4c0c263b7ff",
@@ -223,7 +241,23 @@
           "link": "https://www.dailypharm.com/user/news/344265"
         }
       ],
-      "author": "Ashley Yang"
+      "author": "Ashley Yang",
+      "en": {
+        "title": "SK Biopharm Builds Drug-Discovery AI Through Government AI Foundation Model Project",
+        "points": [
+          "SK Biopharm completes a drug-discovery AI model",
+          "7.14 million data items used; usefulness checked across 66 tasks",
+          "AI transformation accelerates from candidate discovery to clinical trials"
+        ],
+        "body": [
+          "SK Biopharm took part in a government-led AI project and completed building and validating an AI model specialized for drug discovery. Medical Newspaper (의학신문), EBN, HitNews and IT Chosun reported that on Nov. 6 SK Biopharm announced the results of the \"AI Foundation Model Project\" led by the Ministry of Science and ICT. Medical Newspaper reported that the project ran for about 10 months.",
+          "Outlets described the scale in different units. Digital Daily and HitNews wrote that about 7.14 million items of bio data were used, while IT Chosun reported that drug-discovery training data on the scale of 4.4 billion tokens was built. Item counts and tokens are different units, so they may count the same data differently, but the available material does not allow the relationship between the two figures to be confirmed.",
+          "The validation details are specific. Digital Daily reported that the model's usefulness was checked through 66 tasks, including predicting drug toxicity, reactivity and clinical trial results. IT Chosun explained that it confirmed the usefulness of an AI model that predicts items such as drug toxicity and clinical trial results.",
+          "The scope of use extends across research and development. EBN reported that SK Biopharm is accelerating AI transformation across R&D, from candidate substance discovery to clinical development. Medical Newspaper reported that building R&D and clinical development scenarios confirmed the potential for using AI in the medical and bio industries. HitNews summarized that taking part in the government project let the company build drug-discovery training data and validate model performance.",
+          "There was another result from a similarly named project run by the same ministry. Techworld News and Dailypharm reported that Lunit completed the ministry's AI foundation model project and unveiled \"Learning Unit 2.0,\" a medical foundation model, on Nov. 6. Dailypharm described the model as one that supports medical care and hospital administrative work. In effect, results of government projects in the medical and bio fields were released one after another on the same day.",
+          "Glossary: A foundation model is an AI model pretrained on large amounts of data and then adapted for many uses. A token is the basic unit AI uses to process text, roughly corresponding to a word or part of a word."
+        ]
+      }
     },
     {
       "id": "h20261106-c861c6191641",
@@ -305,7 +339,23 @@
           "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=712767"
         }
       ],
-      "author": "Haley Yun"
+      "author": "Haley Yun",
+      "en": {
+        "title": "OpenAI Releases Images 2.6, With 50% Faster Generation and GIF Support",
+        "points": [
+          "OpenAI releases the image generation model Images 2.6",
+          "Generation is 50% faster and editing is more consistent",
+          "ChatGPT can create GIFs and turn sketches into characters"
+        ],
+        "body": [
+          "OpenAI released Images 2.6, which speeds up image generation and strengthens editing features. Techworld News, IT Chosun and Datanet reported that OpenAI said it released the model on Nov. 5, while AI Times wrote that OpenAI announced it on its official blog on Nov. 4 (local time) and AI Newspaper (인공지능신문) also reported that it was released on Nov. 4 (local time). The difference in dates appears to come from the time difference.",
+          "The key points are speed and editing consistency. Several outlets reported in common that image generation is 50% faster than before. Techworld News explained that the model strengthens the ability to keep characters, products and brand elements consistent during editing, and IT Chosun said users can change only the parts they want while keeping the features of characters and products in an image. AI Newspaper said in its headline that one image takes just 6 seconds.",
+          "Moving images are a new feature. Digital Daily and IT Chosun reported that it supports GIF animations and character creation based on sketches. AI Times reported that ChatGPT's image generation, which had centered on still images, has expanded into animation, and AI Newspaper reported that the new model is applied to ChatGPT, Codex and other products. GeekNews said it was introduced in ChatGPT, Codex and the API.",
+          "Accounts differ on how it was made public. Digital Today, citing foreign outlets such as Decrypt and The Verge, said ChatGPT is gradually rolling out a feature that creates GIFs from text prompts or uploaded photos, and that this is a new model for which OpenAI has made no separate official announcement. AI Times, by contrast, cited the official blog announcement. The gap may reflect outlets seeing different information as the feature rolled out in stages, but the cause cannot be confirmed from the available material.",
+          "OpenAI's product expansion does not stop at images. AI Times and Digital Today reported that OpenAI is acquiring Pierre Computer Company, a startup with technology for storing and managing code. AI Times reported that the aim is to integrate code storage and change-history management into the coding agent Codex so developers can handle the whole process of building software with AI in one environment. Both the report that Images 2.6 is applied to Codex and the report on the Pierre acquisition relate to Codex.",
+          "Glossary: GIF is a file format for short, looping moving images made by stringing together several pictures. An API is a set of connection rules that lets one program call on the functions of another."
+        ]
+      }
     },
     {
       "id": "h20261106-4fbc7a4e0f8d",
@@ -387,7 +437,23 @@
           "link": "https://www.electimes.com/news/articleView.html?idxno=374332"
         }
       ],
-      "author": "Chloe Park"
+      "author": "Chloe Park",
+      "en": {
+        "title": "Infineon and Solum Expand Cooperation on HVDC Power Solutions for AI Data Centers",
+        "points": [
+          "Infineon and Solum sign an HVDC agreement for data centers",
+          "Cooperation expands across three areas: IBC, BBU and PSU",
+          "Infineon presents its \"from grid to core\" power semiconductor strategy"
+        ],
+        "body": [
+          "German power semiconductor company Infineon Technologies will expand cooperation with South Korean power solutions company Solum on high-voltage direct current (HVDC) power solutions for AI data centers. Betanews and The Elec reported that Infineon Korea said it signed a memorandum of understanding (MOU) with Solum on Nov. 5. AI Newspaper (인공지능신문) explained that the two companies plan to jointly develop HVDC power equipment.",
+          "The cooperation covers three power applications. VentureSquare, Betanews and The Elec named the intermediate bus converter (IBC), the battery backup unit (BBU) and the server power supply unit (PSU). Betanews reported that the two companies are widening the scope on the basis of technical cooperation they had already been carrying out. Digital Daily described the move as an effort to control the surging power consumption of high-performance computing environments, and its headline called the three pillars a way to cut power loss.",
+          "Infineon's strategy was also presented at a press briefing held the same day. According to The Elec, Adam White, president of Infineon's Power Systems division, said at a press conference at Infineon Korea's headquarters in Samseong-dong, Seoul, that Infineon chips go into the entire process of supplying power to AI data centers, and he introduced the \"From Grid to Core\" strategy. Techworld News reported that at the briefing, themed \"Power Innovation in the AI Era,\" Infineon is targeting the market with semiconductor solutions across the power supply chain, from the grid to server racks and AI processors. Both outlets placed the venue at the company's headquarters in Seoul's Gangnam area.",
+          "Rising GPU power consumption is cited as background to the move. Byline Network reported that the power consumption of a single GPU used for large language models and AI computation is trending up from the previous 1,000W to 2,000W and further to 3,000W to 4,000W or more, and that Infineon unveiled power technology aimed at the era of 1MW data centers. Sisa Journal e reported that Infineon is widening cooperation with major South Korean power equipment and electronic components companies, and that the areas of cooperation are expanding to next-generation solid-state transformers (SST), solid-state circuit breakers (SSCB) and server power supplies.",
+          "A recent related event was the Bitgaram International Electric Power Technology Expo (BIXPO) 2026 in Gwangju. The Electric Times reported that at the event, held Nov. 4 to 6, South Korean power infrastructure companies including LS Electric showed new transmission, substation and distribution technologies including HVDC. The exhibition covered by The Electric Times concerned grid-side technology, while the Infineon and Solum cooperation concerns power equipment inside data centers, so the scope differs, but HVDC was mentioned at both venues.",
+          "Glossary: HVDC is a technology for transmitting and using power as high-voltage direct current. A BBU is a battery backup unit that supplies electricity to cover power outages or fluctuations."
+        ]
+      }
     },
     {
       "id": "h20261106-0ebd617424e7",
@@ -463,7 +529,23 @@
           "link": "https://www.venturesquare.net/1126066"
         }
       ],
-      "author": "Kevin Wong"
+      "author": "Kevin Wong",
+      "en": {
+        "title": "OpenAI Releases Cybersecurity-Focused GPT-6 Cyber to Help Find and Patch Vulnerabilities",
+        "points": [
+          "OpenAI releases the cybersecurity-focused GPT-6 Cyber",
+          "Separately trained to stay within approved task scope",
+          "948 Linux exploits and 81 Firefox vulnerabilities"
+        ],
+        "body": [
+          "OpenAI unveiled GPT-6 Cyber, a cybersecurity-focused AI model that finds and verifies software vulnerabilities and helps develop security patches. Datanet and Digital Daily reported that OpenAI said it released the model on Nov. 6. Digital Today, citing an Axios report on Nov. 5 (local time), reported that OpenAI first offered it to some vetted users.",
+          "Several outlets describe the model's character in similar terms. Betanews and Hellot reported that it is distinguished by separate training to follow the task scope and restrictions approved by security researchers, and that it is offered first to a group of approved users. Datanet explained that it strengthens the ability to identify vulnerabilities in large codebases and verify whether they can actually be exploited, and Digital Daily described it as a model used to find software vulnerabilities before attackers do.",
+          "Each outlet picked different examples for performance figures. AI Times reported that the attack success rate against security vulnerabilities was 51% higher than that of earlier models, that the model developed 948 working exploits on the Linux operating system, and that it found 81 new high-severity vulnerabilities in Firefox. Betanews put the 81 Firefox vulnerabilities in its headline. Boannews reported that OpenAI said the model, which is about to be released, found and verified Linux kernel flaws and produced 948 working privilege escalation exploits along with patches. Digital Today wrote in its headline that 1,724 Linux vulnerabilities were found at a cost of $1.2 million. The 948 is a count of exploits and the 1,724 is a count of discovered vulnerabilities, so they appear to count different things.",
+          "The wording also differs. Boannews called it a model about to be released, while Datanet and Digital Daily reported that it was released on Nov. 6. Because outlets used \"unveiled\" and \"released\" differently for the same model, OpenAI's official guidance should be checked separately for who can use it and to what extent. What most outlets reported in common is that it is offered first to approved users.",
+          "Recent developments are linked as well. According to AI Times, citing Reuters, the Japanese government plans to ask U.S. AI companies and others for information on undisclosed software vulnerabilities on Nov. 4 (local time) to respond to cyberattacks. It also reported that Japan had earlier asked OpenAI and Anthropic to expand access to high-performance AI models. Separately, Amazon Web Services (AWS) said on Nov. 5 that it officially launched Continuum, a security service that uses AI to detect code vulnerabilities, verify whether they can actually be exploited, and then propose fixes.",
+          "Glossary: A privilege escalation vulnerability is a security flaw that lets an attacker who has entered a system with ordinary user rights gain administrator rights. A patch is a fix released to repair a discovered flaw."
+        ]
+      }
     },
     {
       "id": "h20261106-1151dc3c21e4",
@@ -600,7 +682,24 @@
           "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=713302"
         }
       ],
-      "author": "Ethan Chen"
+      "author": "Ethan Chen",
+      "en": {
+        "title": "Wall Street Plunges on AI Regulation Fears After Midterms, Shaking KOSPI",
+        "points": [
+          "Democrats' midterm win spreads AI regulation fears",
+          "Nasdaq drops 5.5%, semiconductor index falls 12%",
+          "KOSPI triggers a circuit breaker on Nov. 6; government hints at preemptive measures"
+        ],
+        "body": [
+          "The U.S. midterm election results fueled fears of tougher regulation of the AI industry, sending Wall Street plunging on Nov. 5 (local time) and hitting South Korean stocks on both Nov. 5 and 6. Chosun Biz, EBN and iNews24 reported that the backdrop was growing concern that Democratic wins in the midterms could lead to stricter regulation of AI and data centers. EBN wrote that Democrats took control of both the Senate and the House. iNews24 reported that Deputy Prime Minister and Finance Minister Lee Hyung-il said on Nov. 6 that the government would take preemptive measures so the domestic market does not overreact.",
+          "Outlets described the size of the New York declines in slightly different terms. Newsis, citing CNBC, wrote that the Dow Jones Industrial Average closed at 51,522.58, down 1,833.54 points (3.44%) from the previous session, and that the Nasdaq fell 5.52%. EBN put the Dow's decline at 1,833.06 points, and the Korea NGO Times and EBN reported that the Nasdaq fell 5.5%. iNews24 reported that the semiconductor index plunged more than 12%, and Chosun Biz explained that selling intensified, centered on chip stocks. Digital Daily pointed out that the Nasdaq fell more than 10% from its peak, entering a correction.",
+          "The shock to individual stocks was also large. Gametoc reported that Tesla and SpaceX fell 10.8% and 9.3%, respectively, and IT Chosun reported that Nvidia shares plunged 9%, pushing CEO Jensen Huang out of the world's top 10 richest people. IT Chosun wrote that about 22 trillion won in wealth vanished in a single day. IT Chosun also reported that on Nov. 4 the Nasdaq rose 1.4% but chip stocks had already plunged, and the analysis that Democratic control of both the Senate and the House could tighten regulation of AI data center construction was presented as the same backdrop.",
+          "South Korean stocks were also caught up. According to EBN, the KOSPI fell more than 5% on Nov. 5, foreign investors sold 3.4 trillion won worth of shares, and large chip stocks such as Samsung Electronics and SK hynix fell together. IT Chosun reported that as of 9:40 a.m. on Nov. 5, the KOSPI was trading at 5,489.20, down 3.42% from the previous day's 5,683.80. On Nov. 6, iNews24 reported that a circuit breaker was triggered as the KOSPI opened and the 5,000 level collapsed, and that KOSDAQ semiconductor parts and equipment stocks also fell sharply early in the session.",
+          "Market assessments are split. Newsis reported that some on Wall Street warned this could be more than a short-term correction and a sign of an AI bubble bursting and a long bear market. EBN, by contrast, reported an analysis that concern is excessive, since Democratic winners are also positive about economic development and job creation through data centers and a large share of the supply scheduled for next year has already broken ground. Digital Today, citing the South China Morning Post, presented an analysis that delays in U.S. AI infrastructure expansion could change the U.S.-China AI competition, and Digital Daily, citing Bloomberg, forecast that congressional oversight of tech companies, AI safety regulation and state-level data center regulation would all tighten together.",
+          "Recent developments connect as well. According to AI Times, of 41 data center referendums put on ballots in 10 U.S. states alongside the midterms on the 3rd, results were confirmed for 40, and 39 of those came out in favor of limiting construction or against allowing development. Digital Daily reported that OpenAI said on the 5th it would fully cover the electricity and related infrastructure costs of data centers it owns and operates, writing that this came just two days after voters cast ballots against data center expansion.",
+          "Glossary: A circuit breaker is a system that briefly halts market trading when stock prices fall sharply. A correction refers to a state in which prices have fallen significantly from a recent peak, commonly a decline of around 10% or more."
+        ]
+      }
     },
     {
       "id": "s20261106-0653f65b7e60",
@@ -656,7 +755,21 @@
           "link": "https://www.ddaily.co.kr/page/view/2026110609053814027"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "AWS Launches Continuum, Which Uses AI to Verify Code Vulnerabilities and Propose Fixes",
+        "points": [
+          "AWS launches Continuum, an AI code vulnerability service",
+          "Verifies and prioritizes only truly exploitable vulnerabilities",
+          "Automates proposing fixes as well"
+        ],
+        "body": [
+          "Amazon Web Services (AWS) officially launched AWS Continuum, a security service that uses AI to detect code vulnerabilities, confirm whether they can actually be exploited, and then propose fixes. Techworld News and Datanet reported that AWS said so on Nov. 5. Datanet gave the official name as AWS Continuum for code vulnerabilities.",
+          "VentureSquare explained that the service analyzes code and the cloud operating environment together to verify truly exploitable vulnerabilities and sets response priorities according to business impact. Digital Daily reported that the core feature is to pick out, from the flood of results produced by security scanners, only the problems that could actually be used in an attack in a customer's environment and rank them by business impact.",
+          "As a recent development, there are reports that OpenAI unveiled GPT-6 Cyber, a cybersecurity-focused AI model, on Nov. 6. Datanet reported that the model strengthens capabilities in discovering and verifying software vulnerabilities and supporting security patch development, and Digital Daily described it as a model used to find software vulnerabilities before attackers do. Both items concern tools that use AI to find and verify vulnerabilities.",
+          "Glossary: A sandbox is a safe environment separated from the outside, used to run suspicious code without affecting the system. A security scanner is a tool that automatically finds known flaws in software."
+        ]
+      }
     },
     {
       "id": "h20261105-586a38958286",
@@ -1277,7 +1390,21 @@
           "link": "https://biz.chosun.com/stock/finance/2026/10/31/AKB7EFK24ZDRNNEX5B55MNRNRY"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "Webcash to Launch Kyungri Nara MCP in December for Querying Corporate Data From ChatGPT and Claude",
+        "points": [
+          "Webcash to launch Kyungri Nara MCP in December",
+          "Query funds and tax invoices from ChatGPT and Claude",
+          "Trial users recruited through the 13th before the official launch"
+        ],
+        "body": [
+          "Webcash will launch \"Kyungri Nara MCP\" in December, letting users query and analyze corporate data accumulated on its small-business management platform Kyungri Nara from generative AI apps. iNews24, AI Times, Digital Today and Datanet reported that Webcash disclosed the plan on Nov. 5. It is recruiting trial users through the 13th ahead of the official launch.",
+          "The data that can be queried includes funds and tax invoices. Digital Daily explained that users can query and analyze funds and tax invoice data from generative AI apps such as ChatGPT and Claude, and that once a company administrator sets the scope of data access, users can find transaction records or check changes in spending through conversation. Digital Today wrote that account transaction records and tax invoices can be queried and analyzed.",
+          "Outlets reported the scope of the trial differently. Digital Today wrote that it is recruiting trial users among existing customers, while other outlets mentioned only the 13th, the deadline for recruiting trial users. Recently, Chosun Biz interviewed Webcash Group Chairman Seok Chang-kyu under a headline to the effect that the company is aiming for an AI-equipped B2E platform.",
+          "Glossary: MCP (Model Context Protocol) is an open standard for connecting AI apps to external tools and data. Following the standard lets an AI app call on data accumulated in a service in a defined way."
+        ]
+      }
     },
     {
       "id": "s20261106-44ee6c80b354",
@@ -1351,7 +1478,21 @@
           "link": "https://www.hellot.net/news/article.html?no=115933"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "AIVEX Builds Physical AI Inspection and Logistics Automation at Hwaseong Precision's Production Site",
+        "points": [
+          "AIVEX selected as a smart factory supplier by the Ministry of SMEs and Startups",
+          "AI inspection and logistics built at Hwaseong Precision's hot forging site",
+          "Quality inspection automated with AI vision and robotic bin picking"
+        ],
+        "body": [
+          "AIVEX, an industrial physical AI company, was selected as a supplier for the Ministry of SMEs and Startups' \"2026 R&D Results Diffusion Smart Factory Support Program\" and signed an agreement. Hellot, Datanet and Industry News reported the news on Nov. 5. Under the program, AIVEX will build an AI-based inspection and logistics automation system at the hot forging scroll production site of auto parts company Hwaseong Precision.",
+          "The specific target is automotive hot forging scroll parts. VentureSquare reported that part inspection and logistics will be automated using AI vision, robotic bin picking and inspection posture control technology. Industry News said in its headline that closed-loop physical AI will be used to build automated inspection and bin picking for Hwaseong Precision.",
+          "There are also recent developments. Hellot, Datanet and Techworld News reported on the 2nd that AIVEX won the gold prize (Korean Society of Professional Engineers president's award) in the smart factory machine vision software category at the 20th Science and Technology Innovation Awards 2026, held on Oct. 27, for its AI robotics platform AIVot. VentureSquare wrote that AIVEX, which won a Minister of Science and ICT award in 2022 for AI vision inspection technology, was honored this time for physical AI technology combining AI vision and robot control. Hellot also reported on the 30th that AIVEX will hold AIVEX FRONTIER 2026 in November.",
+          "Glossary: Physical AI refers to technology in which AI does not stay with on-screen data but judges and acts in the real world through devices such as robots. Bin picking is the task of picking up parts, one by one, from a box where they are piled in a jumble."
+        ]
+      }
     },
     {
       "id": "s20261105-ccf41bb179b0",
