@@ -90,7 +90,23 @@
           "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=712287"
         }
       ],
-      "author": "Haley Yun"
+      "author": "Haley Yun",
+      "en": {
+        "title": "Palantir Partners With Shoemaker Changshin INC to Link AI-Based Development and Production",
+        "points": [
+          "Palantir and Changshin INC sign a manufacturing AI partnership",
+          "Foundry and AIP to be applied across development and production",
+          "Q3 revenue up 96%; Palantir also working with HD Hyundai Robotics"
+        ],
+        "body": [
+          "U.S. data analytics company Palantir Technologies has signed a partnership with global footwear maker Changshin INC. Hellot, AI Times and Techworld News reported that the two companies announced the deal on the 6th, while EBN reported it was announced on the 6th. Datanet and The Elec also covered the story. The core of the partnership is applying Palantir's data platform Foundry and AI platform AIP across Changshin's development and production operations.",
+          "The scope runs from shoe development and sample planning to factory production. The Elec wrote that Changshin will adopt Palantir's AI and data platforms, and explained that the aim is to let each Changshin department see the whole process at a glance. Techworld News summed it up as a partnership that connects the entire process, from development to production, through data and AI.",
+          "The outlets' summaries of the partnership differ slightly. Hellot's headline described it as a partnership to transform the AI-based manufacturing value chain, while Datanet called it manufacturing value-chain innovation. AI Times called it manufacturing process innovation, The Elec described it as innovation in shoe development and manufacturing, and EBN used wording about linking shoe development to production with AI. Hellot and AI Times also noted Palantir's Nasdaq ticker, PLTR.",
+          "More recent news about Palantir followed. AI Newspaper (인공지능신문) reported that Palantir raised its third-quarter 2026 revenue 96% from a year earlier, and that U.S. commercial revenue grew 148% to surpass U.S. government revenue for the first time. On the industrial side, HD Hyundai Robotics said on the 1st that it would work with Palantir to advance physical AI solutions. According to The Elec and EBN, HD Hyundai Robotics took part in a keynote at Palantir's Sovereignty Bootcamp in New York. Industry News highlighted a 63% cut in programming time in the headline of its article on this collaboration.",
+          "Digital Today, citing Nikkei Asia, reported on the 2nd (local time) that Palantir CEO Alex Karp said Japan could gain an advantage if it develops an AI stack tailored to its own defense. Palantir's name has thus come up in succession across different fields, including manufacturing, robotics and defense.",
+          "Glossary: A value chain is the series of activities that run from planning and making a product to delivering it to customers. Physical AI is technology that lets AI move and perform tasks in the real world through physical devices such as robots."
+        ]
+      }
     },
     {
       "id": "h20261107-dfc1b8c79a6c",
@@ -178,7 +194,23 @@
           "link": "https://www.bloter.net/news/articleView.html?idxno=677780"
         }
       ],
-      "author": "Chloe Park"
+      "author": "Chloe Park",
+      "en": {
+        "title": "Kakao Open-Sources Kanana-2-v-decide, a Multimodal Model for AI Agent Decisions",
+        "points": [
+          "Kakao releases a multimodal model for decision-making",
+          "Delivers results as probabilities, choices and scores instead of sentences",
+          "Posted as open source on Hugging Face"
+        ],
+        "body": [
+          "Kakao has released Kanana-2-v-decide, a multimodal model that helps AI agents make judgments and choices, as open source. Datanet, Techworld News, AI Times, Kukmin Ilbo and iNews24 reported that Kakao posted the model on Hugging Face on the 6th. Kukmin Ilbo described Hugging Face as a global open-source platform.",
+          "Instead of answering questions in natural-language sentences, the model is a decision-making model that returns results as probabilities, choices and scores. Datanet and iNews24 reported Kakao's explanation that models that quickly and efficiently handle the judgments repeated while AI agents carry out tasks have recently drawn attention. The Elec said the model analyzes text and images to classify customer inquiries or help AI agents choose which tools to use. Platum summed it up as a decision-making model that understands text and images together.",
+          "Models of this type have already appeared elsewhere. AI Times reported that Kakao has released a decision-making model for AI agents, following TypeSafe AI's Zeb and Upstage's Solar Decide. Spellings varied by outlet. The Elec rendered the Korean name differently from the others, but wrote the English name as Kanana-2-v-decide, the same as the other outlets.",
+          "Kakao's recent open-source releases and AI service news have continued. AI Newspaper (인공지능신문) reported that on the 1st Kakao open-sourced two Korean-specialized embedding models that analyze the semantic connection between a user's question and past information. The technology is described as finding relevant information even when words do not match exactly. After the third-quarter earnings announcement on the 5th, AI Newspaper reported that Kakao will unveil its AI assistant Kanana Space in December. Bloter reported that a Kanana Space pilot service will begin in the fourth quarter, so the timing wording differs slightly.",
+          "Digital Daily reported that Kakao is diversifying how Kanana Space connects with outside services. The plan adds a CUA (Computer-Using Agent) approach, in which AI controls a browser to carry out tasks, to the existing direct integration based on partnerships.",
+          "Glossary: A multimodal model is an AI model that understands different forms of data, such as text and images, together. Open source is a way of releasing the contents of a model or software so that anyone can download and use it."
+        ]
+      }
     },
     {
       "id": "h20261107-6ce4ec086c82",
@@ -278,7 +310,23 @@
           "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=712750"
         }
       ],
-      "author": "Ethan Chen"
+      "author": "Ethan Chen",
+      "en": {
+        "title": "National AI Strategy Committee Shifts to Seven Task Forces, Finalizes AI Legislation Standards",
+        "points": [
+          "AI legislation to prioritize the Framework Act and amendments to existing laws",
+          "Seven task forces replace subcommittees for results-focused operation",
+          "Roughly 477 AI bills introduced in the 22nd National Assembly"
+        ],
+        "body": [
+          "The National AI Strategy Committee held its third plenary meeting on the 6th, finalized the government's AI legislation standards and decided to restructure its operations around task forces (TFs). Digital Today reported that the committee met at Seoul Square in Seoul's Jung District and is shifting from its existing subcommittee-based setup to a results-focused TF structure. It plans to select seven core tasks and deliver concrete results by next year.",
+          "On legislative direction, tidying up existing laws comes first. Digital Daily reported that when preparing AI-related laws, the government will first consider the AI Framework Act or amendments to existing individual laws, and will pass common legislative standards across ministries to clarify the criteria applied to businesses. The same outlet reported that separate legislation will be pursued for defense and security. The number of bills differs slightly by outlet. Digital Daily and Bloter put the number of bills mentioning artificial intelligence in the 22nd National Assembly at 477, while Tech M reported 479 AI-related bills introduced. Both Digital Daily and Tech M noted that the monthly average of introduced bills has grown sharply from the 21st National Assembly, with Digital Daily saying 4.7 times and Tech M saying more than 4 times.",
+          "Details of the TFs were also reported. Digital Daily reported that seven TFs will be formed to handle areas such as superintelligence and global cooperation, and that data sharing among 848 institutions will be expanded. Techworld News reported that TFs will be set up to take charge of seven core tasks, including responding to superintelligence and building a domestic AI ecosystem. Tech M introduced a K-AI Full-Stack TF that will verify more than 10 technology combinations pairing domestic AI models with NPUs and develop AI services using them, and reported that a national superintelligence response strategy and a recovery system for AI data center failures will also be prepared.",
+          "Remarks in and around the meeting were also reported. According to Tech M, Jeon Jong-hong, a member of the global cooperation subcommittee, pointed out that the government, which is trying to build a cross-government data pipeline, urgently needs security measures. The reason given is that AI-powered cyberattacks are targeting infrastructure closely tied to people's daily lives. Digital Daily reported that Minister Bae Kyung-hoon said the Frontier AI project will not end as a one-off development effort and that the establishment of a public-private joint venture is under consideration. The same outlet reported that Bae announced the \"AI for Everyone\" service will launch around mid-December.",
+          "There was also recent related coverage. Digital Daily exclusively reported on the 2nd that the AI Strategy Committee is discussing a plan to set terms for its advisory group, which had been operating without a separate term provision, and to reorganize its role and composition. iNews24 reported that the government is consulting on a plan to specify in the terms of service that participating companies are responsible for handling damages in the \"AI for Everyone\" project, to reduce the burden on users of proving harm. Digital Today reported on the 4th that Song Sang-hoon, former head of the National AI Strategy Committee's support group, was appointed the new president of the Telecommunications Technology Association. Bloter reported on the same day that Deputy Prime Minister and Minister of Science and ICT Bae Kyung-hoon said investment in AI infrastructure must continue to expand.",
+          "Glossary: A task force (TF) is a dedicated team formed temporarily to solve a specific task. An NPU (neural processing unit) is a semiconductor specialized for AI computation."
+        ]
+      }
     },
     {
       "id": "h20261107-0c22418ce7b8",
@@ -359,7 +407,22 @@
           "link": "https://www.techm.kr/news/articleView.html?idxno=156712"
         }
       ],
-      "author": "Ashley Yang"
+      "author": "Ashley Yang",
+      "en": {
+        "title": "Nvidia Completes Payment for New Naver Shares Worth 1.3412 Trillion Won, Becomes Third-Largest Shareholder",
+        "points": [
+          "Nvidia completes its $1 billion payment to Naver",
+          "Secures a 4.13% stake and becomes the third-largest shareholder",
+          "Naver and Brookfield speed up their AI factory business"
+        ],
+        "body": [
+          "Nvidia has completed the $1 billion payment for its investment in Naver. iNews24, EBN, Tech M and Digital Daily reported on the 6th, citing Naver's disclosure, that payment for new shares worth about 1.3412 trillion won had been made. According to EBN, Naver issued 6,558,435 common shares, and Nvidia secured a 4.13% stake.",
+          "With this payment, Nvidia became Naver's third-largest shareholder. The Elec reported earlier, on the 30th of last month, that Naver board chairman Lee Hae-jin, previously the third-largest shareholder, would drop one place to fourth. iNews24 reported that the investment is expected to put into full swing the AI infrastructure business that Naver, Nvidia and alternative asset manager Brookfield are pursuing together. Digital Daily assessed that Naver has completed the funding process for its AI factory business, and Tech M described it as the AI factory business of the three-way alliance.",
+          "The amount was also finalized through a process. Chosun Biz and EBN reported that on the 3rd Naver fixed the won amount raised at 1.3412 trillion won in a corrected disclosure. Chosun Biz wrote that Nvidia will acquire 6,558,435 new shares at 204,500 won per share. EBN explained that exchange-rate movements reduced the won-denominated investment and the number of new shares from the earlier provisional figures, while the dollar-denominated investment is unchanged. Digital Daily summed up that after finalizing the issuance size on the 3rd, Naver disclosed on the 6th that the new shares and payment had actually been issued and paid.",
+          "On the 30th of last month, AI Times reported that the payment date was set for Nov. 6 and the new shares' listing date for Nov. 27. The same day, Tech M reported that Naver is speeding up its global AI factory business based on Nvidia's $1 billion strategic equity investment and Brookfield's contract to secure $9 billion in computing infrastructure. Tech M added that the first operation and revenue next year are becoming visible.",
+          "Glossary: A third-party allotment rights offering is a way of raising funds by issuing new shares to a specific investor rather than to existing shareholders. A disclosure is a system by which a company formally informs investors of important information."
+        ]
+      }
     },
     {
       "id": "h20261107-ebd7b3b96d59",
@@ -458,7 +521,22 @@
           "link": "https://news.hada.io/topic?id=36589"
         }
       ],
-      "author": "Kevin Wong"
+      "author": "Kevin Wong",
+      "en": {
+        "title": "Nvidia Unveils RTX Spark in Korea, Touts Twice the Power Efficiency for Local AI Agent Laptops",
+        "points": [
+          "Nvidia holds an RTX Spark press event in Seoul",
+          "Claims twice the power efficiency of laptops with discrete GPUs",
+          "Answers criticism of high price by saying demand has been confirmed"
+        ],
+        "body": [
+          "Nvidia held an RTX Spark press conference at the JW Marriott Hotel Seoul in Seoul's Seocho District on the 6th and introduced a next-generation PC platform specialized for running local AI agents. Inven reported that the product carries a superchip based on a Blackwell RTX GPU and a Grace CPU. Digital Daily reported that Nvidia held a hands-on demo where attendees could directly experience AI development, content creation and gaming performance, built around a 1-petaflop AI superchip.",
+          "The event's core message was local AI. According to Tech M, Jeff Yen, Nvidia's Asia-Pacific technical marketing director, explained the background of the launch by saying this year has been an inflection point for local agents. Tech M's card news summarized that it emphasized an era in which AI can be used without an internet connection, backed by up to 128GB of memory and strong AI computing performance. Chosun Biz reported that in a demo, picking only the needed scenes out of three hours of video and cutting them down to three minutes took about one minute. iNews24 introduced a video-editing demo that kept the dance moves of the original footage and changed only the person and background.",
+          "Explanations of performance figures and price were also given. The Elec reported that Nvidia said RTX Spark, which combines its own CPU and GPU, delivered twice the performance of a laptop with a discrete GPU at the same power. Nvidia also revealed plans to work with major game companies to increase the number of games that run natively on Arm. On price, Director Yen acknowledged the criticism that it is high but said demand is being confirmed. Chosun Biz and Tech M described the laptop as a 10 million won machine in their headlines, and Chosun Biz raised questions about its versatility.",
+          "Competitors and user reactions also emerged. The Elec reported that on the 4th AMD claimed at an event in Seoul that its Ryzen AI beats RTX Spark in gaming performance, power and price. GeekNews introduced a post on the 4th saying that Linux can be installed on an RTX Spark laptop to use CUDA acceleration, but that when plugged in the GPU clock is limited to about 780MHz, sharply reducing inference performance. This is the post's claim, not Nvidia's official position.",
+          "Glossary: Local AI is a method of processing AI computation directly on the user's device without going through a cloud server. Power efficiency means performance relative to the power consumed."
+        ]
+      }
     },
     {
       "id": "b20261107",
@@ -682,7 +760,26 @@
           "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1730758"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "Nov. 7 AI Briefing: Rebound Attempt After AI Sell-Off and Government Finalizes AI Legislation Standards",
+        "points": [
+          "Markets rebound a day after AI sell-off, but regulatory worries remain",
+          "Government finalizes AI legislation standards and launches seven task forces",
+          "Nvidia chips become a point of contention for PCs, China and domestic investment"
+        ],
+        "body": [
+          "The New York stock market rebounded on the 6th (local time), a day after the AI sell-off. According to Chosun Biz, the Nasdaq Composite rose 1.09% from the previous day to 24,579.42, and Digital Daily reported that the Nasdaq, which had plunged 5.52% the day before, rose 1.1% but could not avoid a fourth straight weekly decline. Newsis reported in its intraday coverage that gains were limited as Treasury yields rose on strong jobs data.",
+          "The National AI Strategy Committee finalized AI legislation standards at its third plenary meeting on the 6th. According to Digital Daily, when preparing AI-related laws the government will first consider the AI Framework Act or amendments to existing individual laws, and will pursue separate legislation for defense and security. Digital Today reported that the committee shifted from a subcommittee-centered setup to a TF-centered structure and selected seven core tasks.",
+          "A dispute over data center regulation continues after the U.S. midterm elections. Bloter, citing Reuters, reported that if Democrats take control of Congress in January next year they plan to push through a large amount of legislation targeting AI systems and data center development, while the Trump administration says it will continue its stance of investing in AI infrastructure. AI Times and Newsis reported that OpenAI CFO Sarah Friar said on the 6th that it will keep investing in data centers.",
+          "Newsis, citing the Financial Times (FT) of the U.K., reported that Anthropic will go ahead with its Nasdaq listing as planned despite the AI sell-off. According to multiple investors, Anthropic plans to pursue its initial public offering before the Thanksgiving holiday on the 26th. EBN, citing Nikkei, reported that about $3.5 trillion in market capitalization vanished from global stock markets in a single day.",
+          "Nvidia held an RTX Spark press conference in Seoul on the 6th and introduced a PC platform for local AI agents. According to The Elec, Nvidia said it delivered twice the performance of a laptop with a discrete GPU at the same power, and answered criticism that the price is high by saying demand is being confirmed. Tech M reported that it emphasized an era of using AI without an internet connection, backed by up to 128GB of memory.",
+          "News about China's AI chips continued. Digital Today, citing the SCMP, reported that Chinese homegrown AI chip makers have returned to profit one after another since the third quarter, but whether profitability will last is uncertain because of HBM supply shortages, soaring memory prices, and production and adoption delays. Digital Daily and AI Times reported that Chinese authorities have put on hold approval of large-scale imports of Nvidia's H200, leaving 600,000 chips stuck in Hong Kong.",
+          "Nvidia has completed its $1 billion (about 1.3412 trillion won) investment payment to Naver. According to EBN, Nvidia secured a 4.13% stake and became Naver's third-largest shareholder. Digital Daily reported that Naver has completed the funding process for its AI factory business.",
+          "On the 6th, Kakao released Kanana-2-v-decide, a multimodal model that helps AI agents make judgments and choices, as open source on Hugging Face. Techworld News and Kukmin Ilbo reported that the model delivers results as probabilities, choices and scores instead of sentences. AI Times reported that Kakao has joined TypeSafe AI and Upstage in releasing a decision-making model.",
+          "Palantir has formed a partnership with footwear maker Changshin INC to apply Foundry and AIP across development and production operations. Hellot and AI Times reported that the two companies announced the deal on the 6th. The Elec explained that the aim is to let each Changshin department see the whole process at a glance."
+        ]
+      }
     },
     {
       "id": "s20261107-ee05a10bbe49",
@@ -750,7 +847,21 @@
           "link": "https://www.newsis.com/view/NISX20261107_0003858833"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "New York Stocks Calm a Day After AI Sell-Off, Nasdaq Rebounds About 1%",
+        "points": [
+          "Nasdaq rebounds more than 1% a day after plunging 5.52%",
+          "Dip buying in semiconductor and data center stocks",
+          "Strong jobs data lifts Treasury yields, limiting gains"
+        ],
+        "body": [
+          "U.S. stocks in New York rebounded on the 6th (local time), led by AI-related tech shares. Chosun Biz reported that the Nasdaq Composite rose 264.43 points, or 1.09%, from the previous day to close at 24,579.42. Digital Daily reported that the Nasdaq, which had plunged 5.52% the day before, rose 1.1% but could not avoid a fourth straight weekly decline. The same outlet reported that international oil prices fell about 13% over the week.",
+          "Descriptions of the close differed by outlet. Chosun Biz wrote that the rebound was led by AI-related tech stocks, while Digital Daily wrote that AI semiconductor and data center stocks rebounded but the index closed mixed. In its intraday coverage, Newsis reported that dip buying flowed in, led by semiconductor stocks, and the Nasdaq rose more than 1%, but that, according to CNBC, gains were limited as Treasury yields rose on stronger-than-expected jobs data.",
+          "Recent developments: On the previous day, the 5th, Korea NGO News reported that the Nasdaq fell more than 5%, and iNews24 reported that the semiconductor index plunged more than 12%. Newsis reported that some on Wall Street diagnosed the episode as a possible sign of an AI bubble burst and a prolonged bear market. EBN, citing Nikkei on the 7th, reported that about $3.5 trillion in market capitalization vanished from global stock markets in a single day. Newsis relayed an FT report that Anthropic is pursuing an IPO before the Thanksgiving holiday on the 26th despite the AI sell-off.",
+          "Glossary: Dip buying is the act of purchasing an asset that has fallen sharply because one judges it to be cheap."
+        ]
+      }
     },
     {
       "id": "s20261107-7c9185899ccb",
@@ -788,7 +899,21 @@
           "link": "https://www.ddaily.co.kr/page/view/2026110611152489109"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "EDB Acquires Real-Time Analytics Firm Altinity to Expand AI Data Platform",
+        "points": [
+          "EDB acquires real-time analytics firm Altinity",
+          "Combines PostgreSQL and ClickHouse to target AI data",
+          "Supports AI agent workloads in a single environment"
+        ],
+        "body": [
+          "Database company EDB has acquired Altinity, a company specializing in real-time data analytics. VentureSquare, Techworld News and Digital Daily reported the news. VentureSquare reported that EDB has moved to expand its AI data platform by combining PostgreSQL and ClickHouse.",
+          "The purpose of the acquisition is to strengthen analytics capabilities. VentureSquare reported that the deal will let EDB support transaction processing, large-scale real-time analytics and AI agent workloads in a single data environment. Techworld News explained that the plan is to combine large-scale real-time analytics with existing database technology to reduce companies' data management burden and support AI agent operations. Digital Daily reported that EDB, which is strong at recording constantly changing data such as orders and payments, has acquired a real-time analytics software company.",
+          "The outlets' emphases differed slightly. VentureSquare introduced Altinity as a ClickHouse specialist, while Digital Daily's headline said it would strengthen real-time analytics for Postgres AI. Techworld News headlined its article with wording about accelerating the push into the AI data market.",
+          "Glossary: PostgreSQL is a widely used open-source relational database. Transaction processing refers to routine business processing that records and modifies data, such as orders or payments."
+        ]
+      }
     },
     {
       "id": "s20261107-26c226da224a",
@@ -844,7 +969,21 @@
           "link": "https://it.chosun.com/news/articleView.html?idxno=3000000000476"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "China Holds Up Approval of Nvidia H200 Imports, 600,000 Chips Stuck in Hong Kong",
+        "points": [
+          "China puts large-scale Nvidia H200 import approval on hold",
+          "About 600,000 chips stuck in Hong Kong",
+          "Chinese firms keep trying to obtain Blackwell by workarounds"
+        ],
+        "body": [
+          "Reports emerged that the Chinese government has put approval of large-scale imports of Nvidia H200 chips on hold, leaving about 600,000 chips stuck in Hong Kong. AI Times reported that China is restricting imports of Nvidia chips to reduce its dependence on advanced U.S. semiconductors, and that although Chinese companies' demand for AI computing is growing quickly, authorities' hold on approvals has blocked supply. Digital Daily reported that the news came out on the 5th (local time), citing foreign media such as Reuters and Global Finance.",
+          "The unit of quantity differs by outlet. AI Times and Digital Daily wrote 600,000 chips, while EBN wrote 600,000 units. EBN explained that there is analysis that Chinese authorities are wary of growing dependence on U.S. technology and are putting the brakes on imports.",
+          "Recent developments: On the 5th, AI Times reported that Alibaba, Tencent, ByteDance and others ordered $70 billion worth of workstation GPUs from Nvidia as a workaround for export controls, but are expected to receive only about 1% of the total volume over four months. The same outlet reported on the 6th that China's Moonshot AI is pursuing a lease of 8,000 GPUs through a European data center to obtain Blackwell chips. IT Chosun, citing Bloomberg, reported that Nvidia is stepping up tracking of AI semiconductors for customers in Southeast Asia.",
+          "Glossary: A GPU (graphics processing unit) is a semiconductor that handles large volumes of parallel computation and is widely used for training and running AI models."
+        ]
+      }
     },
     {
       "id": "b20261106",
@@ -1591,7 +1730,21 @@
           "link": "https://www.hellot.net/news/article.html?no=116097"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "Ministry of Trade, Industry and Resources Launches Sixth Business Restructuring Plan Review Committee, Strengthening Response to AI Transformation and Supply Chains",
+        "points": [
+          "Ministry launches sixth Business Restructuring Plan Review Committee",
+          "Experts from AI, law, finance and other fields make up the panel",
+          "Reflects the amended Corporate Vitality Act in force Oct. 22"
+        ],
+        "body": [
+          "The Ministry of Trade, Industry and Resources has launched the sixth Business Restructuring Plan Review Committee. Hellot reported that the ministry formed the committee with experts from various fields, including AI, law and finance, reflecting the amendment to the Corporate Vitality Act that took effect on Oct. 22. EBN reported that the ministry held a ceremony on the 6th at Lotte Hotel Seoul to appoint the private-sector members, and Electric Times reported that it is appointing experts and strengthening business restructuring support programs in line with the enforcement of the amended Corporate Vitality Act.",
+          "The explanations of the launch's background are similar. EBN wrote that it is to respond to a rapidly changing industrial environment, including AI transformation and the reshaping of global supply chains, while Hellot reported that it supports companies' proactive business restructuring amid AI transformation and supply chain threats. Hellot reported that Vice Minister Park Dong-il said proactive business restructuring is how companies survive.",
+          "Recent developments: Hellot reported that the same day the ministry announced an AI factory expansion strategy that extends manufacturing AI results, which had stayed at the level of individual processes, to entire ecosystems such as supply chains and industrial complexes. The outlet explained that 245 AI factories and 541 AI models were analyzed. It also reported that the Ministry of National Defense and the Ministry of Trade, Industry and Resources have begun developing technology for RAM-C, a military AI agent, in a project worth 30 billion won over 48 months.",
+          "Glossary: Business restructuring refers to activities in which a company changes its business structure or core areas to raise its competitiveness. An AI agent is an AI program that, given a goal, plans and carries out multiple steps of work on its own."
+        ]
+      }
     },
     {
       "id": "s20261106-0653f65b7e60",
