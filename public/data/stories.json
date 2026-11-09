@@ -91,7 +91,24 @@
           "title": "엔비디아 주가 9% 급락… 젠슨 황, 세계 부자 10위권 밖으로",
           "link": "https://it.chosun.com/news/articleView.html?idxno=3000000000396"
         }
-      ]
+      ],
+      "en": {
+        "title": "FT-Cited Report on Jensen Huang and Madison Huang's Canceled Korea Trip",
+        "points": [
+          "Citing the FT, report says US intelligence judged the relationship romantic",
+          "US Congress asks Huang for a closed-door briefing",
+          "Madison Huang cancels Korea visit; official reason is family matters"
+        ],
+        "body": [
+          "US intelligence reportedly concluded that Nvidia CEO Jensen Huang had a romantic relationship with a female businessperson suspected of being a Chinese spy. AI Times and iNews24 reported this, citing the Financial Times (FT). This article summarizes what the two outlets relayed from the FT report.",
+          "The two outlets emphasized slightly different points. Reporting on the 7th, iNews24 also covered the claim that Chinese intelligence tried to collect information on US AI chips through the woman. In its report on the 8th, AI Times said that, following earlier reports that Chinese intelligence had targeted Huang for information gathering, it newly came to light that an internal US government document included a judgment about the two people's personal relationship.",
+          "US Congress had moved earlier. Digital Daily, citing CNBC and The New York Times, reported that on the 5th (US time), the chairs of key US congressional committees formally demanded that Huang attend a closed-door briefing over allegations of contact with an IT executive identified as an agent of Chinese intelligence. In its report on the 6th, AI Times wrote that Republican House members requested a closed-door congressional briefing on his relationship with a Chinese businesswoman and the alleged leak of information. The outlets describe who made the demand differently: Digital Daily says committee chairs, while AI Times says Republican House members. AI Times also said concern grew over the impact on US advanced AI chip technology and national security after reports that the woman passed information to Beijing.",
+          "In Korea, the canceled visit by Madison Huang, Jensen Huang's eldest daughter and Nvidia's senior director of product marketing for Omniverse and robotics, drew attention. According to Chosun Biz, the cancellation became known on the 7th through the government and the IT industry, and she had been scheduled to visit Korea to attend Nvidia AI Day Seoul 2026 at COEX in Seoul on the 9th and 10th and to hold consultations with relevant ministries. Chosun Biz said in its headline that the Nvidia event will go ahead as planned. EBN reported that major meetings planned with the government and Korean companies fell through, and that industry attention is high because she had visited Korea several times this year to expand cooperation on physical AI. Kukmin Ilbo also wrote in its headline that the meeting with the government fell through.",
+          "The outlets spoke at different levels about the reason for the cancellation. iNews24 reported it as a family matter, and Korea NGO Times wrote that the official reason was reported to be a family issue. However, Korea NGO Times also raised the recent allegations of Huang's ties to Chinese intelligence and the congressional inquiry, and IT Chosun likewise wrote that the officially known reason is family circumstances but attention is focused on the background given the timing of the allegations. Kukmin Ilbo put a question mark in its headline, asking whether it was the fallout from the Chinese spy theory. What has been reported as the official reason is a family matter.",
+          "There was other Nvidia news the same week. IT Chosun, citing Bloomberg on the 5th (US time), reported that AI-related stocks plunged in the wake of the Democrats' landslide in the midterm elections, pushing Huang out of the world's top 10 richest people and wiping out about 22 trillion won of his wealth in a single day. The article cited the midterm results as the backdrop for the decline.",
+          "Glossary: Physical AI refers to AI that moves and performs tasks through physical devices in the real world, such as robots or self-driving cars."
+        ]
+      }
     },
     {
       "id": "h20261108-8ac63dc94ebd",
@@ -143,7 +160,23 @@
           "title": "美 AI 쇼크에 아시아 증시 와르르…반도체 투매 후 낙폭 축소",
           "link": "https://www.newsis.com/view/NISX20261106_0003858130"
         }
-      ]
+      ],
+      "en": {
+        "title": "Report on TSMC Weighing 3D DRAM and Its Foundry-Focus Stance",
+        "points": [
+          "Report says TSMC is weighing 3D DRAM production at Nvidia's request",
+          "The Information reported it, citing two sources",
+          "TSMC says it will focus on foundry, without directly denying it"
+        ],
+        "body": [
+          "A report said TSMC is considering producing 3D DRAM at Nvidia's request. Digital Today, AI Times and E-Focus said the US tech outlet The Information reported this on the 6th (US time). Digital Today wrote that TSMC began reviewing 3D DRAM production plans at the request of Nvidia, its largest customer, and AI Times said The Information cited two people familiar with the matter.",
+          "E-Focus noted that TSMC is the world's largest contract maker of chips designed by other companies but has not made memory chips until now. In its headline, E-Focus put it as Nvidia asking TSMC to produce memory, with DRAM following the base layer of HBM. AI Times said that if TSMC actually enters the business, a new competitor will appear in a memory market led by Samsung Electronics, SK hynix and Micron.",
+          "TSMC's position was covered by AI Times in a separate article on the 8th. TSMC said in response to the reports that it will focus on its existing foundry business, and the article noted that it takes several years for the related technology to be commercialized. Wording differs even within the same article. The headline said TSMC effectively denied the development rumor, but the summary said TSMC did not directly deny it. What can currently be confirmed, therefore, is The Information's report and TSMC's foundry-focus stance; there is no indication that 3D DRAM production has been decided.",
+          "3D DRAM, as Digital Today explained, is DRAM whose memory cells are stacked in multiple layers to increase capacity.",
+          "On the 6th of the same week, Newsis reported that after the tech-stock selloff on the US market, Asian semiconductor and tech stocks fell across the board, with Samsung Electronics, SK hynix and Japan's SoftBank dropping sharply and TSMC falling to its daily limit down during trading. In its headline, Newsis wrote that the decline narrowed after the chip selloff.",
+          "Glossary: A foundry is a business that manufactures semiconductors designed by other companies under contract. HBM (high-bandwidth memory) refers to memory for AI chips that stacks DRAM in multiple layers to speed up data processing."
+        ]
+      }
     },
     {
       "id": "h20261108-c217d3ff70d9",
@@ -182,7 +215,22 @@
           "title": "예진, 자체 개발 8B LLM 기반 ‘젤리법령 도우미’ 서비스 무료 공개",
           "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=712597"
         }
-      ]
+      ],
+      "en": {
+        "title": "Yejin Develops In-House Korean-Specialized 8B Foundation Model",
+        "points": [
+          "Yejin develops Korean-specialized 8B v3 foundation model",
+          "Trained from scratch without overseas model weights",
+          "Runs on a single 24GB-class GPU; applied to legal assistant"
+        ],
+        "body": [
+          "Korean AI company Yejin (CEO Ko Jong-hyun) has developed Yejin 8B v3, a foundation model with 8 billion parameters specialized for Korean. AI Times reported that Yejin announced this on the 6th, and AI Newspaper (인공지능신문) reported the same on the 6th. AI Times described the model as a foundation model with 8 billion parameters, while AI Newspaper called it an 8B-class model.",
+          "A point both outlets stressed is that no weights from overseas open models were used. AI Times explained that it is a from-scratch model for which the company handled the whole process itself, from tokenizer design to pretraining. AI Newspaper wrote that it is a model trained from the beginning in-house, without using the weights of overseas open models.",
+          "Details on scale and operating environment appeared in the AI Newspaper report. According to AI Newspaper, Yejin 8B v3 was trained on about 138.4 billion tokens and is designed to run on a single 24GB-class graphics processing unit (GPU). AI Newspaper also highlighted the 138.4 billion tokens of training and single-GPU operation in its headline.",
+          "The model is already in use in a service. Digital Today reported on the 4th that Yejin released for free the Jelly Law Assistant service, based on its in-house Yejin 8B v3. The service finds relevant statute provisions from everyday natural-language questions. That report came two days before the reports on the model's development announcement.",
+          "Glossary: A foundation model is a base model pretrained on large-scale data that can be adapted for many uses. Parameters are the values a model adjusts during training and are commonly used as a measure of model size."
+        ]
+      }
     },
     {
       "id": "h20261108-f2f9f9291588",
@@ -265,7 +313,24 @@
           "title": "美 선거로 AI 규제 논란… 코스피, 반등 여부 주목 [주간증시전망]",
           "link": "https://it.chosun.com/news/articleView.html?idxno=3000000000445"
         }
-      ]
+      ],
+      "en": {
+        "title": "AI Regulation Worries After US Midterms Push KOSPI Below 5,000 Intraday",
+        "points": [
+          "KOSPI plunges on AI regulation worries after US midterms",
+          "Fell below 5,000 intraday on the 6th, closing at 5,059.69",
+          "Weekly outlook on the 8th: US inflation data and CoreWeave earnings in focus"
+        ],
+        "body": [
+          "Worries about AI regulation after the US midterm elections spread and shook the KOSPI sharply. It weakened on the 5th on fears of tighter regulation of AI data centers, and on the 6th it fell below the 5,000 level intraday.",
+          "According to Chosun Biz, the KOSPI opened 1.8% lower on the 5th. Chosun Biz reported that although the Democrats' takeover of Congress in the previous day's US midterms removed election uncertainty and was a positive for the New York market, investor sentiment in Korea's market was dampened by fears of tighter AI data center regulation and the effects of foreign net selling. IT Chosun reported that as of 9:40 a.m. on the 5th, the KOSPI was trading at 5,489.20, down 3.42% from the previous close of 5,683.80. EBN wrote in its headline that the KOSPI plunged more than 5% the same day and foreigners sold 3.4 trillion won, and explained that large-cap chip stocks such as Samsung Electronics and SK hynix fell together and dragged the index down.",
+          "The decline was bigger on the 6th. Chosun Biz reported that the KOSPI plunged more than 8% right after the open to as low as 4,911 before closing down 6.02% at 5,059.69, barely holding the 5,000 level. The outlet wrote that this was the first time the KOSPI dropped below 5,000 intraday in nine months, since Feb. 6. Digital Today also reported that the KOSPI closed on the 6th at 5,059.69, down 6.02% from the previous session. iNews24 reported that the KOSPI fell into panic as a circuit breaker was triggered at the open.",
+          "The outlets described the cause differently. Chosun Biz wrote that the shockwave of the US-led selloff in AI tech stocks hit the Korean market, while iNews24 explained that as fears of tighter AI industry regulation spread after the US midterms, selling spread across the market, centered on chip stocks. Newsis reported that on the 6th in Asian markets, Samsung Electronics, SK hynix and Japan's SoftBank fell sharply and Taiwan's TSMC dropped to its daily limit down during trading. On the New York market the same day, it reported that after the previous day's plunge, bargain buying lifted the Nasdaq by more than 1%, but rising Treasury yields on stronger-than-expected jobs data limited the gain.",
+          "Brokerage analysis also appeared. Digital Today reported that analysts at brokerages say the recent plunge was an excessive move that priced in a structural collapse of the AI industry in advance, and its headline also carried the view that more is needed to confirm a bottom.",
+          "In weekly market outlooks reported on the 8th, EBN said that with the KOSPI having retreated to the 5,000 level last week amid the fallout from the Blue Wave, US inflation data and earnings from AI infrastructure company CoreWeave are scheduled. IT Chosun said the domestic market is expected to remain volatile due to AI regulation worries and the burden of foreign flows, but cited the price appeal of heavily sold chip stocks and the possibility of stable interest rates as US-Iran war risk eases as factors that could support the downside.",
+          "Glossary: A circuit breaker is a system that temporarily halts trading when stock prices plunge, to cool an overheated market."
+        ]
+      }
     },
     {
       "id": "h20261108-ca91656d89ba",
@@ -317,7 +382,23 @@
           "title": "엑스와이지, 40억원 규모 오픈소스 휴머노이드 개발 참여…보행·조작 AI 학습 데이터 구축",
           "link": "https://www.venturesquare.net/1126081"
         }
-      ]
+      ],
+      "en": {
+        "title": "XYZ and Dayton Sign MOU on DEUX Humanoid Cooperation at Robot World",
+        "points": [
+          "XYZ and Dayton sign MOU on supplying DEUX",
+          "Agreement signed on the 5th at Robot World 2026",
+          "XYZ demonstrates robot barista and joins a national project"
+        ],
+        "body": [
+          "AI robotics company XYZ and Dayton, a company specializing in AI data centers (AI DC) and physical AI, signed a memorandum of understanding (MOU) on the supply of the semi-humanoid robot DEUX and on robot AI technology cooperation. According to Robot Newspaper, the agreement was made on the 5th at Robot World 2026, held at KINTEX in Goyang, Gyeonggi Province.",
+          "The two outlets' wording differs slightly. Robot Newspaper described it as an MOU for the supply of DEUX and robot AI technology cooperation, while VentureSquare wrote that it is a business agreement for the supply of DEUX and technology cooperation. In its headline, VentureSquare stressed that it links robot AI education and research, and explained that it combines XYZ's robot development and operation technology with Dayton's AI video and data analysis capabilities.",
+          "VentureSquare reported in a separate article that XYZ demonstrated DEUX's multimodal interaction technology at the same event. DEUX combines gestures, facial expressions and sound with voice conversation to produce responses suited to the conversational context, and is said to be designed to use 10,000 expressive elements.",
+          "XYZ also showed a robot barista. According to VentureSquare, XYZ demonstrated the beverage-making and service operation technology of Barisbrew Max, its next-generation robot barista. The product is notable for achieving a production capacity of 250 cups per hour through an order clustering system.",
+          "News of XYZ joining a national project was also reported. VentureSquare said XYZ is taking part in a project to develop an open-source-based affordable humanoid platform with a total budget of 4 billion won. In this national R&D project led by Robotis, XYZ, Kwangwoon University and Pohang University of Science and Technology take part as joint R&D institutions.",
+          "Glossary: Physical AI refers to AI that moves and performs tasks through physical devices in the real world, such as robots or self-driving cars. Reinforcement learning is a machine learning method in which a system learns on its own, through trial and error, the actions that raise rewards."
+        ]
+      }
     },
     {
       "id": "b20261108",
@@ -418,7 +499,23 @@
           "link": "https://it.chosun.com/news/articleView.html?idxno=3000000000445"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "Nov. 8 AI Briefing: Jensen Huang Report and TSMC 3D DRAM, ChatGPT Reaches 18 Million Users",
+        "points": [
+          "Jensen Huang report and Madison Huang's canceled Korea trip",
+          "TSMC states foundry focus after 3D DRAM report",
+          "ChatGPT tops 18 million app users in Korea for the first time"
+        ],
+        "body": [
+          "News continued about Nvidia CEO Jensen Huang, citing the FT. AI Times and iNews24 reported, citing the FT, that US intelligence reportedly concluded that Huang had a romantic relationship with a female businessperson suspected of being a Chinese spy. Huang's eldest daughter, senior director Madison Huang, canceled her schedule a day before her Korea visit. IT Chosun wrote that the officially known reason is family circumstances but attention is focused on the background given the timing of the allegations, and EBN reported that major meetings planned with the government and Korean companies fell through.",
+          "AI Times reported on the 8th that, in response to The Information's report that TSMC is considering producing 3D DRAM at Nvidia's request, TSMC said it will focus on its existing foundry business. The same article wrote that it did not directly deny the development rumor. Digital Today reported that on the 6th (US time), The Information said TSMC had begun reviewing 3D DRAM production plans at Nvidia's request.",
+          "The route of Nvidia's AI chips also drew attention. AI Times, citing Bloomberg, reported that Nvidia is stepping up location tracking of advanced AI chips sold in Southeast Asia and making it mandatory for cloud providers to join a chip tracking system as part of efforts to block smuggling. Chosun Biz wrote that about 600,000 Nvidia AI chips are reportedly piled up in Hong Kong, unable to enter mainland China. The explanation is that although the US government allowed the exports, the Chinese government has not approved large-scale imports.",
+          "According to AI Times, Google has secured $548 million (about 740 billion won) worth of Qualcomm shares. Google acquired the stock when Qualcomm bought an AI chip software company in which Google had previously invested. AI Times said it is drawing attention as it comes when Qualcomm is expanding its smartphone-centered business into AI data centers.",
+          "ChatGPT's mobile app users in Korea topped 18 million for the first time. Kukmin Ilbo, citing IGAWorks' Mobile Index, reported that last month ChatGPT's app had 18,762,276 monthly active users, followed by Claude with 2.1 million. IT Chosun wrote that this is a scale used by more than one in three people in Korea's population.",
+          "The weekly market outlook published on the 8th named AI regulation worries as a variable. EBN reported that US inflation data and CoreWeave's earnings are scheduled, and IT Chosun reported that volatility is expected to continue due to AI regulation worries and the burden of foreign flows."
+        ]
+      }
     },
     {
       "id": "h20261107-9e492b676a07",
