@@ -140,7 +140,24 @@
           "link": "https://www.ddaily.co.kr/page/view/2026110909372040810"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "Nov. 9 AI Briefing: Nvidia Board Opens Independent Probe, LG Opens EXAONE 2.5 for Free",
+        "points": [
+          "Nvidia board launches independent probe tied to Jensen Huang",
+          "LG AI Research opens K-EXAONE 2.5 API for free",
+          "Partnerships announced one after another at Nvidia AI Day Seoul"
+        ],
+        "body": [
+          "Nvidia's board launched an independent investigation on the 8th (local time) into allegations that CEO Jensen Huang was targeted by a foreign intelligence agency. Chosun Biz reported that the board is investigating through an independent committee. AI Newspaper (인공지능신문) reported that Huang publicly admitted to an affair and apologized to his family, employees and shareholders. The allegations reportedly stem from his relationship with a person suspected of ties to Chinese intelligence.",
+          "LG AI Research said on the 9th at Nvidia AI Day Seoul 2026, held at COEX in Seoul, that it will open the API of its homegrown AI model K-EXAONE 2.5 for free. Chosun Biz and iNews24, among others, put in their headlines that performance improved 70% in eight weeks, while Digital Today specified the basis of comparison as a 70% improvement over 2.0. EBN reported that the company plans to speed up technology development toward completing a frontier-class AI model in January next year.",
+          "Kakao Mobility said it will work with Nvidia to advance Level 4 autonomous driving technology. Digital Today wrote that Nvidia's computing, sensing and safety technologies will be added to Kakao Mobility's autonomous driving software and integrated into Kia PBVs, while Digital Daily reported that Kia PBVs were chosen as the first target for the Level 4 system.",
+          "Megazone Cloud was selected as a Select-tier partner in the OpenAI Partner Network. IT Chosun reported that the company plans to strengthen its AX business for enterprises by linking its own AI platform with OpenAI products such as ChatGPT Enterprise and Codex.",
+          "Flitto signed a memorandum of understanding with the Korean Publishers Association to build a supply system and a trading market for publishing data used in AI training. IT Chosun reported that the plan is to refine and process publishing data, on the premise of copyright holders' consent, to create a legal data trading market.",
+          "In security, ESTsecurity said it will join Project Canopy, a public-interest security alliance for AI-based vulnerability discovery and response, as a Defending Partner. ITCEN PNS also said it will strengthen its AI-based vulnerability diagnosis and proactive threat response capabilities. IT Chosun reported that AI is being applied from vulnerability discovery to risk analysis, attack blocking, real-time detection and automated response.",
+          "Deepbrain AI released AI Studio 5.0, which adds a video agent that automates video production through conversation. Tanium said it is working with Nvidia to extend enterprise-grade endpoint management to local AI infrastructure. A research team in Nexon's AI division applied analytics office won the best paper award at the international AI conference ICTAI 2026, and according to Digital Daily the study analyzed about 19.37 million game user reviews."
+        ]
+      }
     },
     {
       "id": "h20261109-2bb862f2ca58",
@@ -221,7 +238,22 @@
           "title": "엔비디아, 9~10일 서울서 'AI 데이' 개최…삼성·SK·LG 참여",
           "link": "https://www.inews24.com/view/2021436"
         }
-      ]
+      ],
+      "en": {
+        "title": "LG AI Research Announces Free Access to K-EXAONE 2.5 API",
+        "points": [
+          "Anyone can use the K-EXAONE 2.5 API for free",
+          "Performance up 70% in eight weeks, with outlets wording it differently",
+          "Goal is to complete a frontier-class model in January next year"
+        ],
+        "body": [
+          "LG AI Research said on the 9th at Nvidia AI Day Seoul 2026, held at COEX in Seoul, that it will open the API of its homegrown AI foundation model K-EXAONE 2.5 for anyone to use free of charge. Seven outlets reported the news: Chosun Biz, Digital Today, AI Newspaper (인공지능신문), iNews24, Digital Daily, Techworld News and EBN. The Chosun Biz summary described the model as a homegrown AI foundation model with improved performance, the so-called \"dokpamo.\"",
+          "The reports word the performance gain a little differently. Chosun Biz, iNews24 and Techworld News wrote in their headlines that performance rose 70% in eight weeks. AI Newspaper (인공지능신문) wrote that overall performance was raised by more than 70% in eight weeks, and EBN also said it improved by more than 70%. In its headline, Digital Today also gave the basis of comparison: a 70% performance gain over K-EXAONE 2.0. That basis is not confirmed in the other outlets' summaries.",
+          "The reports also cover the purpose of the release and what comes next. Digital Daily reported that LG AI Research raised performance by upgrading the training technology of its existing model and will begin real-world validation with developers and companies. EBN wrote that it plans to speed up technology development toward completing a frontier-class AI model in January next year while expanding real-world validation. AI Newspaper (인공지능신문) pointed to agentic AI, in which AI plans on its own and uses external tools to carry out tasks, and its summary also names China's DeepSeek and GLM.",
+          "In recent developments, LG AI Research also made news on the 4th. According to AI Times and Techworld News, LG AI Research won the National Intellectual Property Commission Chair's Award in the copyright technology awards at the 2026 International Copyright Technology Conference, hosted by the Ministry of Culture, Sports and Tourism, for EXAONE Nexus, an AI compliance agent that automatically analyzes copyright, licensing and privacy risks in AI training data. iNews24 reported on the 2nd that Nvidia AI Day Seoul, where this announcement was made, runs from the 9th to the 10th at COEX, with Samsung Electronics, SK hynix, LG Electronics and others taking part.",
+          "Glossary: A foundation model is a general-purpose AI model pretrained on vast amounts of data that can be adapted for many uses. An API is an interface that lets programs exchange functions and data with one another."
+        ]
+      }
     },
     {
       "id": "h20261109-eeb0d5b71298",
@@ -284,7 +316,22 @@
           "title": "국회·출판계 “AI 시대, 텍스트 경쟁력 강화”…출판콘텐츠 세액공제 도입 촉구",
           "link": "https://www.kyosu.net/news/articleView.html?idxno=211943"
         }
-      ]
+      ],
+      "en": {
+        "title": "Flitto and Korean Publishers Association to Cooperate on Publishing Data for AI Training",
+        "points": [
+          "Flitto and the association sign MOU on a publishing data supply system",
+          "Data trading market to be built on copyright holders' consent",
+          "National Assembly discusses a tax credit for publishing content"
+        ],
+        "body": [
+          "AI data company Flitto signed a memorandum of understanding (MOU) with the Korean Publishers Association to build a supply system and a trading market for publishing data used in AI training. Five outlets reported it on the 9th: VentureSquare, IT Chosun, Digital Daily, iNews24 and Datanet.",
+          "VentureSquare's report spells out the division of roles. Flitto provides technology for data refining, processing, structuring and quality verification, while the association handles consultations with publishers and serves as the channel for supplying data. Datanet described the deal as combining the association's capacity to supply publishing data with Flitto's refining and processing technology, calling it technical cooperation to supply high-quality publishing knowledge data for national AI use and to build a market for it.",
+          "The reports also reflect the approach to copyright. IT Chosun reported that the plan is to refine and process publishing data, on the premise of copyright holders' consent, to create a legal data trading market. VentureSquare also stated in its headline that the deal is premised on copyright holders' consent. IT Chosun and Datanet wrote that Flitto's chief executive is Lee Jung-su.",
+          "Recent developments continue. Bloter ran an interview with Flitto CEO Lee Jung-su on the 5th. Lee said he thinks building AI without understanding data is a contradiction in itself, and that Flitto is expanding into a solutions business based on its capabilities from handling data for more than a decade. According to Professors' Newspaper (교수신문), a National Assembly forum was held on the 2nd at the National Assembly Members' Office Building to discuss introducing a tax credit for publishing content, in order to raise the competitiveness of the publishing industry in the AI era and build a base for producing quality text.",
+          "Glossary: Data for AI training refers to materials such as text and images that AI models use to learn language and knowledge. A memorandum of understanding (MOU) is an agreement that sets out the direction and roles of cooperation in writing before a formal contract."
+        ]
+      }
     },
     {
       "id": "h20261109-83612274e911",
@@ -347,7 +394,22 @@
           "title": "택시 넘어 로봇까지…카카오모빌리티, '피지컬 AI' 시장서 존재감 키운다",
           "link": "https://www.techm.kr/news/articleView.html?idxno=157031"
         }
-      ]
+      ],
+      "en": {
+        "title": "Kakao Mobility and Nvidia to Cooperate on Level 4 Autonomous Driving",
+        "points": [
+          "Kakao Mobility announces Level 4 partnership with Nvidia",
+          "Kia PBV cited as first target",
+          "Physical AI moves continue, including an agreement with the Army"
+        ],
+        "body": [
+          "Kakao Mobility said on the 9th that it will work with Nvidia to advance Level 4 autonomous driving technology. iNews24 reported that the company aims to lay, step by step, a technical standards base for commercializing large-scale driverless autonomous driving through this cooperation. Digital Today wrote that the two companies will sign a memorandum of understanding (MOU) that day. Four outlets covered the news the same day: iNews24, Digital Today, Digital Daily and TechM.",
+          "The reports word the target and the method differently. Digital Today reported that Nvidia's computing, sensing and safety technologies will be added to Kakao Mobility's proprietary autonomous driving software and integrated into Kia PBVs. Digital Daily wrote that Kia purpose-built vehicles (PBVs) were chosen as the first target for the Level 4 system, and described the plan as connecting Nvidia's computing, sensor and safety technologies to the company's in-house driving AI to realize vehicles for actual service.",
+          "TechM reported that Kakao Mobility, which has continued autonomous driving demonstrations in downtown Gangnam, aims to strengthen its physical AI competitiveness by combining Nvidia's high-performance AI computing and safety technologies.",
+          "Kakao Mobility made other moves recently as well. According to Logistics Newspaper (물류신문) and TheElec, Kakao Mobility signed an agreement on the 3rd at Army Headquarters in Gyeryong, South Chungcheong Province, with the Army on cooperation in advanced science and technology, including integrated control technology for manned-unmanned combat systems. TheElec reported that it will develop AI technology to control drones, robots and unmanned ground vehicles in an integrated way, and apply the dispatch and route optimization technology it built in taxi and logistics services to the military field. In a report on the 6th, TechM wrote that the core is technology that connects robots from different manufacturers into one system and manages dispatch and task execution with AI, and that the company has already secured results in raising robot operating efficiency at a hotel.",
+          "Glossary: Level 4 autonomous driving is the stage in which the system handles driving entirely, without driver intervention, within set operating conditions. Physical AI refers to AI that operates through real-world devices such as robots and self-driving cars."
+        ]
+      }
     },
     {
       "id": "h20261109-5f9a84a96d60",
@@ -415,7 +477,21 @@
           "title": "메가존클라우드, KAIST와 피지컬 AI 산업 표준화 협력…로봇 통합 플랫폼 사업화 추진",
           "link": "https://www.venturesquare.net/1125287"
         }
-      ]
+      ],
+      "en": {
+        "title": "Megazone Cloud Selected as OpenAI Select Partner",
+        "points": [
+          "Megazone Cloud gets Select tier in OpenAI Partner Network",
+          "Strengthening AX business based on ChatGPT Enterprise and Codex",
+          "Affiliate earns Google Cloud's top-tier certification"
+        ],
+        "body": [
+          "Megazone Cloud said on the 9th that it was selected as a Select-tier partner in the OpenAI Partner Network. IT Chosun, Datanet, iNews24 and Digital Today reported it the same day. IT Chosun wrote that, as an official OpenAI partner, the company will expand support for AI adoption and operations at Korean companies, while Digital Today said it joins as a partner of the same tier.",
+          "Its business direction is focused on AX (AI transformation). IT Chosun reported that Megazone Cloud plans to strengthen its AX business for enterprises by linking its own AI platform with OpenAI products such as ChatGPT Enterprise and Codex. iNews24 wrote that it will support corporate AI adoption, citing ChatGPT Enterprise, Codex and the OpenAI API. Digital Today introduced an AI starter package that includes diagnosis, usage planning and employee training. IT Chosun and Datanet wrote that its chief executive is Yeom Dong-hoon.",
+          "There was other recent news from the Megazone Cloud group. According to Datanet, Megazone Soft, an affiliate of Megazone Cloud, obtained Google Cloud's top-tier partner certification, the Advanced Competency, in two areas at once on the 5th: Gemini Enterprise and AI. IT Chosun reported that, building on this, it will expand its AX business supporting everything from AI agent adoption to construction and operation. TechM reported that on the 3rd Megazone Cloud signed an agreement with KAIST's Manufacturing Physical AI Research Institute on applying and standardizing physical AI in industry, and VentureSquare reported that KAIST's robot orchestration platform KAIROS 37 will be applied at industrial sites.",
+          "Glossary: AX means AI transformation, introducing AI into a company's work and services to change how it operates."
+        ]
+      }
     },
     {
       "id": "h20261109-11acf1774e74",
@@ -484,7 +560,22 @@
           "title": "미토스 등장 반년, 프론티어 AI의 보안 능력은 얼마나 발전했나",
           "link": "https://byline.network/2026/11/6-474"
         }
-      ]
+      ],
+      "en": {
+        "title": "ESTsecurity Joins AI Security Alliance Project Canopy",
+        "points": [
+          "ESTsecurity joins Project Canopy as a Defending Partner",
+          "Connecting AI-found vulnerability information to defense technology",
+          "Competition in AI vulnerability detection continues, including GPT-6 Cyber"
+        ],
+        "body": [
+          "ESTsecurity said on the 9th that it will join Project Canopy, a public-interest security alliance for AI-based vulnerability discovery and response, as a Defending Partner. Datanet, iNews24, Boannews and AI Newspaper (인공지능신문) reported the news the same day. According to iNews24, Project Canopy is a public-interest AI security alliance run by Project Plasma, an incorporated association.",
+          "The outlets describe the purpose of the participation a little differently. Boannews wrote that a private security company and a public-interest AI security alliance joined hands to turn software vulnerability information automatically identified by AI into a real-world endpoint defense system. AI Newspaper (인공지능신문) reported that the core is building a proactive defense system that combines AI-based vulnerability analysis technology with security companies' threat intelligence to identify new security threats early and analyze how likely they are to be exploited in real attacks. Datanet wrote that ESTsecurity's chief executive is Jung Sang-won.",
+          "The trend of AI finding vulnerabilities has moved quickly over the past few days. Techworld News reported that on the 6th OpenAI unveiled GPT-6 Cyber, a cybersecurity-focused model that supports software vulnerability detection, verification and security patch development. IT Chosun reported that in an evaluation of whether vulnerabilities can be exploited, this model recorded a 48.5% success rate, compared with 32.1% for the previous model, GPT-5.6 Cyber. Boannews reported that OpenAI said its cybersecurity-focused model, which is about to be released, found and verified Linux kernel flaws and produced 948 working privilege escalation exploits along with patches. Unlike the other outlets, which wrote that the model was unveiled, this outlet described it as a model about to be released.",
+          "Byline Network looked back on the 6th at how, when Anthropic unveiled Claude Mythos Preview last April, the security industry was surprised that AI had found software vulnerabilities and even created working attack code.",
+          "Glossary: A vulnerability is a security flaw in software or a system. An endpoint is an individual device connected to a network, such as a PC or server."
+        ]
+      }
     },
     {
       "id": "s20261109-bf7df6e26765",
@@ -541,7 +632,22 @@
         }
       ],
       "published": "2026-11-09T02:21:28.308Z",
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "Deepbrain AI Releases AI Studio 5.0, Which Makes Videos Through Conversation",
+        "points": [
+          "Automates video from planning to editing through conversation alone",
+          "Strengthens workplace uses of AI avatars",
+          "Previously built an AI coaching training system for Samsung Fire & Marine"
+        ],
+        "body": [
+          "Deepbrain AI released AI Studio 5.0 on the 9th, combining video production automation with conversational AI avatar features. VentureSquare, Digital Daily and AI Newspaper (인공지능신문) reported it the same day.",
+          "The key is the video agent. According to VentureSquare, the video agent proposes a video outline based on the user's conversation or uploaded documents and automates the script, images, voice and editing. Digital Daily explained that it introduced a video agent that automates the whole video production process and strengthened the workplace uses of AI avatars. AI Newspaper (인공지능신문) wrote that when users describe the video they want in conversation or provide a document, the AI handles everything from planning and scriptwriting to video composition and editing.",
+          "On uses, AI Newspaper (인공지능신문) assessed that the product is evolving into an integrated platform that even handles sales training, hiring interviews and education work. VentureSquare introduced its AI role-play and interview features.",
+          "As a recent example, Techworld News and AI Times reported on the 2nd that Deepbrain AI built an AI human-based practical coaching training system to strengthen the consultation skills of Samsung Fire & Marine Insurance agents. The system adds AI role-play and speech-learning features to AI Advisor, the sales support system Samsung Fire introduced on Oct. 26. AI Newspaper (인공지능신문) reported that agents can practice consultations with virtual customers created by AI and improve their weak points by analyzing the results of the conversations.",
+          "Glossary: An AI human is a virtual person whose appearance and voice are created with AI. Role-play is a training method in which participants take on assigned roles to practice situations close to real ones."
+        ]
+      }
     },
     {
       "id": "s20261109-e5ec3c8812a9",
@@ -634,7 +740,22 @@
           "link": "https://www.ddaily.co.kr/page/view/2026110608462997431"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "Nvidia Board Opens Independent Probe Into Foreign Intelligence Allegations Involving CEO Jensen Huang",
+        "points": [
+          "Nvidia board launches independent probe on the 8th",
+          "Huang admits to affair and apologizes publicly",
+          "U.S. Congress earlier demanded a closed briefing"
+        ],
+        "body": [
+          "Nvidia's board launched an independent investigation on the 8th (local time) into allegations that CEO Jensen Huang was targeted by a foreign intelligence agency. Chosun Biz reported that the board issued an official statement saying it will investigate through an independent committee, and Digital Daily reported that outside directors will be assembled to establish the facts. Digital Today, citing The Wall Street Journal (WSJ), reported the same, and also mentioned that the person under suspicion is a senior official at the Singapore company Megaspeed International. Ten outlets covered the news, including Digital Today, Industry News and TechM.",
+          "Huang's response was also reported. AI Newspaper (인공지능신문) reported that Huang publicly admitted to an affair and apologized to his family, employees and shareholders. Digital Daily wrote that Huang sent an official letter to employees, and Industry News reported that he admitted to being unfaithful to his wife, apologized, and said he would cooperate with the investigation into the national security allegations. The allegations stem from his relationship with a person suspected of ties to Chinese intelligence, and the outlets are reporting them as allegations.",
+          "Views on the fallout differ by outlet. Digital Today's headline said opinion in the U.S. political and business establishment is split between those who say Huang should be protected and those who say he should be held accountable. Kukmin Ilbo's headline said the Trump AI alliance is wobbling. TechM said attention is focused on the impact on the AI market, and added that Nvidia AI Day Seoul will go ahead as scheduled.",
+          "On the earlier course of events, Digital Daily reported that on the 5th (local time) the chairs of key U.S. congressional committees formally demanded that Huang appear at a closed briefing, and AI Times wrote in a report on the 6th that Republican House members requested a closed congressional briefing. The two outlets described who made the demand differently. Also, Madison Huang, the CEO's elder daughter and a senior director, canceled her visit to Korea for this AI Day Seoul at the last minute.",
+          "Glossary: An independent investigation is a procedure in which directors or outside committee members with no interest in the subject of the probe neutrally establish the facts."
+        ]
+      }
     },
     {
       "id": "s20261109-a37d2d2dcd8a",
@@ -685,7 +806,22 @@
         }
       ],
       "published": "2026-11-09T02:01:50.000Z",
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "ITCEN PNS Strengthens AI-Based Vulnerability Diagnosis and Proactive Response",
+        "points": [
+          "AI applied from vulnerability discovery to automated response",
+          "Rise in AI-abusing attacks behind the proactive response",
+          "Pushing to strengthen full-cycle security response"
+        ],
+        "body": [
+          "ITCEN PNS (CEO Park Won-kyu), a security company of the ITCEN Group, said on the 9th that it will strengthen its AI-based vulnerability diagnosis and proactive threat response capabilities. IT Chosun, Digital Daily, Techworld News and Digital Today reported it the same day.",
+          "The outlets word the scope of application a little differently. IT Chosun wrote that the plan is to apply AI technology across security, from vulnerability discovery to risk analysis, attack blocking, real-time detection and automated response. Digital Today reported that the company is strengthening its full-cycle security response capabilities, running from vulnerability discovery to risk analysis, proactive defense, real-time detection and automated response.",
+          "Background is also given. Digital Daily reported, in essence, that as the automation of AI-abusing cyberattacks sharply shortens the time attacks take, proactive response beyond after-the-fact response is needed. Techworld News said that as AI-powered cyberattacks spread and vulnerabilities keep being found, proactive security systems have grown more important, and that ITCEN PNS is moving to expand its next-generation security business.",
+          "In recent developments, Byline Network reported on the 6th that the ITCEN Group unveiled Agent GO 2026, a platform that manages everything from AI agent construction to operation and security in an integrated way. The report says it uses the standalone security platform Agent GO Guard to counter shadow AI and data leak risks, and uses its in-house AI assistant Seni 3.0 within the group.",
+          "Glossary: A vulnerability is a security flaw in software or a system. Vulnerability diagnosis is the work of finding in advance whether such flaws exist and checking them."
+        ]
+      }
     },
     {
       "id": "h20261108-bab878a8f2b1",
