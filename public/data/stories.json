@@ -127,7 +127,24 @@
           "link": "https://www.techm.kr/news/articleView.html?idxno=156850"
         }
       ],
-      "author": "Haley Yun"
+      "author": "Haley Yun",
+      "en": {
+        "title": "Nvidia Moves to Invest in Korean AI Startups Including Upstage and Motif",
+        "points": [
+          "Nvidia announces plan to invest in Korean AI startups",
+          "Nvidia to join Upstage's Series C second round and Motif's bridge round",
+          "Real World unveils DexBench and confirms the investment"
+        ],
+        "body": [
+          "Nvidia said on the 9th that it will move to invest in Korean AI startups. At COEX in Seoul that day, Nvidia held the \"AI Startup Partnership Forum\" with the Ministry of Science and ICT and disclosed its investment plan. IT Chosun reported that the plan widens the scope of investment from AI chip interconnect technology to large language models (LLMs) and robotics.",
+          "Outlets differed on how many companies would receive investment. AI Times and THE ELEC named three, Real World, Upstage and Motif Technologies, while Chosun Biz, IT Chosun, Korea NGO News and Techworld News reported four. Korea NGO News wrote that Nvidia had formally announced an investment in Point2 Technology and would pursue additional investment in the other three. Chosun Biz spelled the company's name differently. AI Times reported that about 20 Korean AI startups attended the forum.",
+          "Upstage said Nvidia is set to join its ongoing Series C second round as an investor. Once completed, Upstage will have secured global tech companies as investors, following Amazon and AMD, and now Nvidia. Digital Daily reported that the size of the investment and the completion date were not disclosed, and the AI Times bulletin board wrote that the amount is undisclosed.",
+          "Motif Technologies said it has completed a bridge investment to develop its next-generation LLM, \"Motif 4,\" and has begun development. Existing investors took part in this round, and Nvidia's investment is scheduled. AI Times described it as a bridge round following the 24 billion won Series B in May. The company aims to release the follow-up model in the first quarter of next year, and Digital Daily reported a goal of reaching the top five global AI models in the first quarter of next year. Headline wording differed. EBN wrote \"Nvidia investment secured,\" while VentureSquare and Techworld News wrote that Nvidia is set to take part.",
+          "At the same event, Real World unveiled \"DexBench,\" a benchmark that evaluates the precise hand manipulation performance of humanoids. It is built on Nvidia Isaac Lab-Arena, and according to VentureSquare it implements 15 tasks across four industries: retail, logistics, assembly, and hotel food and beverage. Techworld News reported that Real World officially confirmed Nvidia's investment plan, and Digital Today reported that it plans to use the funds to refine its robotics foundation model and expand industrial deployment.",
+          "Recent developments: On Nov. 6, Tech M reported that Naver had completed a strategic equity investment of $1 billion (about 1.3412 trillion won) from Nvidia, making Nvidia Naver's third-largest shareholder. On Nov. 3, Upstage said it had loaded its own LLM, \"Solar Pro 4,\" onto the government-wide AI common infrastructure and launched the official service.",
+          "Glossary: A bridge round is financing raised in a relatively small amount between main funding rounds. A foundation model is an AI model trained on large-scale data that can be used for many purposes."
+        ]
+      }
     },
     {
       "id": "h20261110-f0188a76330e",
@@ -210,7 +227,24 @@
           "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=713177"
         }
       ],
-      "author": "Kevin Wong"
+      "author": "Kevin Wong",
+      "en": {
+        "title": "Report Filed That About 100 Korean Corporate Accounts on Anthropic's Claude Were Leaked",
+        "points": [
+          "Report filed on leak of about 100 Korean enterprise Claude accounts",
+          "External security firm reportedly gained unauthorized access to internal systems",
+          "Personal Information Protection Commission reviewing how the incident occurred"
+        ],
+        "body": [
+          "A report has been filed with the Personal Information Protection Commission that personal information from about 100 Korean corporate accounts on Anthropic's enterprise AI service \"Claude\" was leaked. THE ELEC and Digital Daily, citing the commission, reported that Anthropic on the 31st of last month reported the leak of about 100 Korean corporate accounts using \"Claude Enterprise.\"",
+          "The cause was reported as unauthorized access by an external security firm. Chosun Biz wrote that the account information is presumed to have been exposed when an external security firm exploited a vulnerability in third-party software to gain unauthorized access to Anthropic's internal systems, and EBN reported that exposure through the same route was raised as a possibility. IT Chosun reported that account information may have been leaked through the security firm's unauthorized access to internal systems.",
+          "Outlets described the leaked items differently. Digital Daily reported that names, email addresses and account identifiers may have been exposed. In an exclusive report, iNews24 wrote that contact and account information such as the names and email addresses of Korean corporate customers was reportedly included. THE ELEC reported that information on companies and developers using Anthropic's services had been leaked in succession. IT Chosun reported that the commission has received the report and is reviewing how the incident occurred.",
+          "The date of the commission statement that outlets cited differs. IT Chosun and Digital Daily wrote \"according to the commission on the 9th,\" while Chosun Biz wrote \"according to the commission on the 10th.\"",
+          "Around the same time, Anthropic on the 9th (local time) unveiled new models, \"Claude Fable 5.2\" and \"Claude Mythos 5.2.\" Digital Daily reported that the two models share the same base model, and AI Times reported that Anthropic cut API prices by 20% alongside the Fable 5.2 launch. In its coverage of the model release, Techworld News noted that the report of a leak of Korean corporate Claude account information has raised questions about customer data management.",
+          "Recent developments: At the third \"Everyone's Forum\" held on Nov. 1, about 90% of citizen participants said the personal data system needs to change in the AI era, the commission said on the 5th, and it plans to prepare an innovation plan within the year, Digital Today reported.",
+          "Glossary: A vulnerability is a flaw in the design or implementation of software that an attacker can exploit."
+        ]
+      }
     },
     {
       "id": "h20261110-13575cb863e5",
@@ -280,7 +314,23 @@
           "link": "https://www.veritas-a.com/news/articleView.html?idxno=634886"
         }
       ],
-      "author": "Ethan Chen"
+      "author": "Ethan Chen",
+      "en": {
+        "title": "Education Ministry Catches 4 Cases of Cheating With AI Smart Glasses in Middle and High School Exams",
+        "points": [
+          "4 cases of smart glasses cheating caught in middle and high school internal exams",
+          "Education Ministry to tighten exam management ahead of finals",
+          "Korea Road Traffic Authority also adds radar detectors at driving test sites"
+        ],
+        "body": [
+          "A total of four cases of cheating with smart glasses equipped with AI features have been caught in internal exams at middle and high schools nationwide this year. According to Korea NGO News, the Ministry of Education will tighten exam management at schools ahead of second-semester finals to prevent cheating with smart glasses.",
+          "Kyosu News reported that the ministry announced this result as the outcome of a full survey of smart glasses cheating in internal exams. Cases described include a student fiddling with the glasses frame throughout the exam, a student swapping regular glasses for smart glasses mid-exam, and a suspicious green light reflected in the glasses.",
+          "Kukmin Ilbo reported that during the second-semester midterms this year, students tipped off a high school in Jeju that smart glasses cheating was likely, and the school and exam proctors closely watched the named student during the exam.",
+          "Efforts to counter exam cheating are also spreading beyond schools. According to Kukmin Ilbo, the Korea Road Traffic Authority will introduce radar detectors at all driver's license test sites nationwide and step up exam supervision.",
+          "Recent developments: Ahead of the CSAT on the 19th, Chosun Biz reported on Nov. 2 that the Ministry of Education will hold advance training for dedicated staff the day before the exam. Betanews reported that the Busan Metropolitan Office of Education will place dedicated staff to identify AI smart glasses at every exam site, and Industry News reported that the measures apply to all 64 CSAT sites in the Busan area. Veritas Alpha wrote that cases of wearing smart glasses were caught in succession in this year's university essay exams.",
+          "Glossary: Smart glasses are wearable devices in the form of eyeglasses and, depending on the product, have a camera, microphone, speaker and AI features."
+        ]
+      }
     },
     {
       "id": "b20261110",
@@ -417,7 +467,23 @@
           "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=713808"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "Nov. 10 AI Briefing: Class Action Against Jensen Huang and Nvidia's Korea Partnerships",
+        "points": [
+          "Allegations against Nvidia CEO spread to a lawsuit and a board investigation",
+          "Nvidia continues to announce partnerships with Korean companies and startups",
+          "Report of Anthropic account leak overlaps with new model launch"
+        ],
+        "body": [
+          "Nvidia shareholders filed a class action against Nvidia and CEO Jensen Huang on the 9th (local time) in federal court in San Jose, California. Newsis reported that the suit alleges shareholders were misled by concealing Huang's relationship with a woman suspected of being a Chinese spy. The reported loss in market value differs by outlet. Chosun Biz wrote in its headline that 280 trillion won had evaporated, while IT Chosun wrote 261 trillion won in its headline, and IT Chosun also reported that about 550 trillion won vanished intraday. E-Focus reported that Nvidia's board announced an investigation into Huang on the 8th (local time) and that the U.S. House requested a closed-door briefing on the 18th.",
+          "Nvidia held \"Nvidia AI Day Seoul 2026\" in Seoul on the 9th and announced a series of partnerships with Korean companies. Robot Newspaper reported that it is expanding Korea's physical AI ecosystem with Samsung Electronics, LG Electronics, Kakao Mobility and others. Techworld News reported that it held the AI Startup Partnership Forum with the Ministry of Science and ICT and will deepen cooperation with four startups. AI Times reported that Nvidia, SK Telecom and Rebellions signed an MOU on NVLink Fusion cooperation.",
+          "A report has been filed that personal information from about 100 Korean corporate accounts on Anthropic's enterprise Claude was leaked. Chosun Biz reported that an external security firm is presumed to have exploited a vulnerability in third-party software to gain unauthorized access to internal systems, and Digital Daily reported that names, email addresses and account identifiers may have been exposed. Around the same time, Anthropic unveiled Claude Fable 5.2 and Mythos 5.2, and AI Times reported that it cut API prices by 20% alongside the Fable 5.2 launch.",
+          "News of Korean AI companies winning CES 2027 Innovation Awards continued. Industry News reported that DEEPX won an Innovation Award in the artificial intelligence category for its AI chip \"DX-M2,\" built on Samsung Electronics' 2-nanometer process. VentureSquare reported that Gore Robotics won an award for the second straight year after CES 2026, and that NeoWiz was selected in the construction and industrial technology category for its 3D digital twin platform \"NeoTwin.\" EBN reported that Samsung SDI and LG Energy Solution also won Innovation Awards.",
+          "Red Hat said on the 10th that it has released OpenShift 5. Digital Daily reported that it includes an AI agent that helps operate clusters, letting administrators ask in natural language for an analysis of the cause of a failure. Boan News described it as a platform that combines responses to quantum computing security threats with zero trust security.",
+          "Samsung and Hyundai Motor Group held an executive exchange event at Samsung Electronics' Seocheon training center on the 9th and explored stronger cooperation on future mobility and physical AI. Chosun Biz reported that 177 executives from the two companies gathered, and Digital Today reported that they agreed to develop the relationship between the two groups into a \"one team\" to take the lead in future mobility."
+        ]
+      }
     },
     {
       "id": "h20261110-9e7574d90af3",
@@ -512,7 +578,24 @@
           "link": "https://www.thelec.kr/news/articleView.html?idxno=64861"
         }
       ],
-      "author": "Chloe Park"
+      "author": "Chloe Park",
+      "en": {
+        "title": "SK Telecom, Nvidia and Rebellions to Cooperate on AI Infrastructure Combining GPUs and Domestic NPUs",
+        "points": [
+          "SK Telecom, Nvidia and Rebellions sign NVLink Fusion agreement",
+          "Rebellions' R200 NPU to be connected to Nvidia's platform",
+          "Performance to be demonstrated at SK Telecom's AI data center"
+        ],
+        "body": [
+          "SK Telecom is working with Nvidia and Rebellions to develop AI infrastructure that combines graphics processing units (GPUs) and domestic neural processing units (NPUs). On the 9th, at \"Nvidia AI Day Seoul 2026\" held at COEX in Seoul, the three companies signed a memorandum of understanding (MOU) to develop an integrated GPU and NPU system for building Korean sovereign AI infrastructure.",
+          "According to Datanet, the three companies will use Nvidia's NVLink Fusion technology to connect Rebellions' NPU under development, \"Rebel R200,\" to Nvidia's platform. VentureSquare reported that the approach combines the R200 with Nvidia's NVLink Fusion and MGX platform to build a rack-scale AI inference system, and stated a 2028 deployment target in its headline. AI Newspaper (인공지능신문) explained that the plan is to split AI computation into stages and distribute them across different chips to improve data center processing performance and power efficiency.",
+          "Tech M outlined the division of roles. Nvidia provides the technology to connect Rebellions' NPU to its AI infrastructure, and SK Telecom verifies performance in its data center. Blotter and THE ELEC also reported that the effort covers the performance and demonstration of a system that bundles Nvidia GPUs and Rebellions NPUs in the AI data center SK Telecom is building.",
+          "Remarks at the event also had a different focus depending on the outlet. Rebellions CEO Park Sung-hyun said, in remarks relayed by Chosun Biz, \"What we ultimately want is to make Korea a token-exporting country.\" iNews24 reported that SK Telecom stated a goal of producing AI tokens at among the lowest costs in the world by building gigawatt-class AI data centers in Korea. EBN reported that SK Telecom Chief Technology Officer Jung Suk-geun said that while securing AI models, GPUs and memory used to be what mattered, the center of gravity and bottleneck of the industry are now shifting to data center clusters.",
+          "Readings of the strategy also split. In its headline, Sisa Journal e noted that Rebellions is dropping its \"obsession with 100% localization\" and using Nvidia's ecosystem, and explained that this is a choice to reduce the time and capital burden of building chip interconnect technology and rack-scale systems on its own. Digital Daily reported that the underlying judgment is that securing control over core technology and data matters more than localizing all chips and infrastructure.",
+          "Recent developments: On Nov. 4, THE ELEC reported that Hyosung Goodsprings, a pump specialist in the Hyosung group, will supply high-efficiency cooling pumps to SK Telecom's Ulsan AI data center. The product cuts power consumption by adjusting the circulation of coolant that cools heat generated by servers, and the company has secured a 100-megawatt (MW) supply volume for the Ulsan data center.",
+          "Glossary: A neural processing unit (NPU) is a chip designed for artificial neural network computation. A graphics processing unit (GPU) was originally built for graphics calculations but is widely used for AI training and inference because it excels at parallel computation."
+        ]
+      }
     },
     {
       "id": "h20261110-54334693111d",
@@ -619,7 +702,24 @@
           "link": "https://www.inews24.com/view/2024330"
         }
       ],
-      "author": "Ashley Yang"
+      "author": "Ashley Yang",
+      "en": {
+        "title": "Korean AI Companies Win CES 2027 Innovation Awards in Quick Succession",
+        "points": [
+          "DEEPX wins in AI category with Samsung 2-nanometer AI chip",
+          "Gore Robotics' ND-1 wins robotics award for second straight year",
+          "Awards continue for AI companies in safety, logistics, content and more"
+        ],
+        "body": [
+          "Korean AI companies announced wins at the \"CES 2027 Innovation Awards\" in quick succession on the 9th and 10th. The winners span AI chips, smart glasses, disaster and industrial safety, construction robots, logistics and content. A Vacatio article wrote that the awards are organized by the Consumer Technology Association (CTA).",
+          "In chips and devices, DEEPX and Sapiens were among the winners. According to Industry News, DEEPX, an ultra-low-power AI chip company, won an Innovation Award in the artificial intelligence category for its next-generation generative AI chip \"DX-M2,\" built on Samsung Electronics' 2-nanometer process, and EBN wrote that the process is SF2P. Sapiens won in two categories with its AI smart glasses \"Viora.\" Digital Daily reported that Viora is a standalone pair of glasses in which AI responds directly on the device without going through a smartphone or the cloud, with a launch targeted for the first half of 2027.",
+          "In safety, Intellivix won Innovation Awards for two of the three products it entered, using AI technology that responds to climate disasters such as tunnel flooding and wildfires. Anotherreal, an industrial safety vision AI company, launched \"iSAFE Care,\" a preventive safety management platform based on AI risk scoring, and the product won an Innovation Award in the construction and industrial technology category, Techworld News reported.",
+          "Robotics and construction also featured. Gore Robotics' AI autonomous transport platform \"ND-1\" won in the robotics category. Datanet described ND-1 as an on-device physical AI mobile robot that automates the transport of heavy materials at construction sites, and VentureSquare reported that it is the second straight year after CES 2026 and the fifth award overall by the company's count. NeoWiz was selected in the construction and industrial technology category for \"NeoTwin,\" a digital twin platform that reconstructs 2D footage captured by drones and robots into precise 3D space. Electric Times wrote that the company, two years and seven months old, is the first among domestic and international competitors in 3D digital twins to win an Innovation Award. According to Robot Newspaper, hotel operations AI startup Vacatio won a robotics Innovation Award for a product that coordinates service robots from multiple manufacturers to work together in one hotel.",
+          "In logistics and content, Colosseum Corporation won in the supply chain and logistics category for \"Colosseum Vault,\" a physical AI-based logistics automation comparison consulting platform. Aria Studio won for interactive film technology that lets audiences converse with characters in a movie in real time and take part in how the story unfolds. The plot stays intact, but the characters' lines and actions change according to audience reactions.",
+          "Awards news also came from the energy sector. According to iNews24, Samsung SDI extended its streak to three consecutive years of wins in the enterprise tech category with its uninterruptible power supply (UPS) battery for AI data centers, \"SDI U8A3-UPS.\" EBN reported that LG Energy Solution also won an Innovation Award for software that quickly and precisely analyzes the condition of used batteries.",
+          "Glossary: A digital twin is a model that replicates a real space or object identically in a virtual space. On-device AI is an approach that processes AI computation directly inside a device without going through a cloud server."
+        ]
+      }
     },
     {
       "id": "b20261109",
