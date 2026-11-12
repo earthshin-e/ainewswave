@@ -53,7 +53,22 @@
           "link": "https://www.inews24.com/view/2024408"
         }
       ],
-      "author": "Haley Yun"
+      "author": "Haley Yun",
+      "en": {
+        "title": "Kakao to Release Ryan's First AI Short Animation Made With OpenAI on the 11th",
+        "points": [
+          "Kakao releases AI short featuring Ryan, made with OpenAI",
+          "About five-minute animation based on the webtoon of the same name",
+          "AI image generation combined with the crew's manual work"
+        ],
+        "body": [
+          "Kakao will release \"Still, Ryan,\" the first AI short animation of its character Ryan, made through a technology collaboration with OpenAI, on the 11th. Kakao announced this on the 10th, and Gametalk, Digital Daily, EBN, Digital Today and iNews24 reported the same content.",
+          "The work is an animation of about five minutes based on the webtoon of the same title. Digital Today reported that it uses the Kakao Friends character Ryan and will be released online on the 11th. EBN and Digital Today said director Han Ji-won of the Netflix animation \"A Star Needed\" took part in the production.",
+          "Outlets describe the production method in slightly different terms. Gametalk wrote that AI technology was added to the creator's planning and direction, and Digital Daily said its distinguishing feature is AI image generation combined with the crew's manual work. Digital Daily also explained that the work turns an existing webtoon into video to mark the 10th anniversary of Ryan's debut. iNews24 and EBN summarized it as completed through a technology collaboration between Kakao and OpenAI.",
+          "Gametalk mentioned CEO Chung Shin-ah as Kakao's chief executive and introduced the work as Ryan's first AI short animation. The summaries of the reports obtained do not say specifically what technology OpenAI provided or to what extent.",
+          "Glossary: Image generation AI is artificial intelligence technology that creates pictures or images based on a written description."
+        ]
+      }
     },
     {
       "id": "h20261111-83ae684ea8c7",
@@ -128,7 +143,22 @@
           "link": "https://www.datanet.co.kr/news/articleView.html?idxno=215705"
         }
       ],
-      "author": "Chloe Park"
+      "author": "Chloe Park",
+      "en": {
+        "title": "Nota Optimizes Moonshot AI's Kimi K3.1 Pro to Run on Eight B200 GPUs",
+        "points": [
+          "Nota announces optimization of Moonshot AI's Kimi K3.1 Pro",
+          "Model runs on eight B200 GPUs instead of eight B300s",
+          "Company claims GPU purchase costs cut by up to 20%"
+        ],
+        "body": [
+          "Nota, an AI inference optimization company, said on the 10th that it optimized Chinese company Moonshot AI's large model Kimi K3.1 Pro so that a model that required eight Nvidia B300 GPUs can also run on eight B200 GPUs. Tech M, Techworld News, Hellot, Chosun Biz, Datanet and EBN reported the same announcement.",
+          "Chosun Biz, Tech M and Techworld News described the model as having 2.8 trillion parameters. Techworld News said it uses a mixture-of-experts (MoE) design. Chosun Biz, Datanet, EBN and Tech M reported that the optimization cut upfront GPU purchase costs by up to about 20%. The explanation is that the same model can now run on the B200, which costs relatively less.",
+          "Hellot put a different figure in its headline: cloud GPU rental fees fall by up to 22%. The 20% purchase-cost figure and the 22% rental figure refer to different items, so they should be read together. Hellot's summary appears to say the figure is based on Nota's own estimate, but the text is cut off, so the basis for the calculation cannot be confirmed.",
+          "Nota also released optimization results the day before, on the 9th. According to Techworld News, The Elec and Datanet, Nota presented inference optimization results for a heterogeneous computing environment that uses a GPU and NPU together, based on the AMD Ryzen AI Max+ 395, at the \"AMD Advancing AI World Tour Seoul 2026.\" Techworld News and The Elec reported that response time fell by up to 52%. That makes two days in a row of optimization results on both Nvidia GPUs and AMD chips.",
+          "Glossary: Mixture of experts (MoE) is a structure that places several expert neural networks inside a model and uses only some of them depending on the input. Inference is the stage in which a trained AI model takes an input and produces an answer."
+        ]
+      }
     },
     {
       "id": "h20261111-9a7c516329ab",
@@ -179,7 +209,22 @@
           "link": "https://www.ddaily.co.kr/page/view/2026111009280688734"
         }
       ],
-      "author": "Ethan Chen"
+      "author": "Ethan Chen",
+      "en": {
+        "title": "Crowdworks and Enhans Join Ministry's Manufacturing Tacit Knowledge AI Model Project as Partners",
+        "points": [
+          "Crowdworks and Enhans join ministry project",
+          "Turning skilled workers' tacit knowledge into AI training data",
+          "This year's manufacturing tacit knowledge AI budget is 48 billion won"
+        ],
+        "body": [
+          "Crowdworks will take part, together with agentic AI company Enhans, as an official partner in the Ministry of Trade, Industry and Energy's \"2026 Manufacturing Tacit Knowledge-Based AI Model Development Project.\" Crowdworks announced this on the 10th, and AI Times, The Elec, Techworld News, Industry News and Digital Daily reported it.",
+          "The project aims to turn the experience and know-how of skilled manufacturing workers into training data that AI can use. The Elec and Industry News said it will turn a vast amount of unstructured field data that holds the experience and intuition of master manufacturing craftsmen, or tacit knowledge, into high-quality training sets. Techworld News said it structures unstructured knowledge data from manufacturing sites.",
+          "AI Times mentioned the ministry's budget for next year for AI solution development using manufacturing tacit knowledge, which was 48 billion won this year, but the summary is cut off, so next year's figure cannot be confirmed. Digital Daily put the construction of unstructured data sets for the petrochemical industry in its headline and said the two companies formed a partnership in manufacturing AX. AI Times summarized the participation as the two companies joining hands to take part in a government manufacturing AX project.",
+          "Each outlet stressed a different point. Techworld News focused on data structuring, Digital Daily on the petrochemical data set, and AI Times on the size of the government budget. The detailed project period and the division of roles between the two companies do not appear in the summaries obtained.",
+          "Glossary: Tacit knowledge is knowledge that is hard to put into words or writing and has become ingrained through experience. AX, or AI transformation, refers to companies adopting AI to change how they work and do business."
+        ]
+      }
     },
     {
       "id": "h20261111-81cfa2df8207",
@@ -242,7 +287,22 @@
           "link": "https://www.inews24.com/view/2024379"
         }
       ],
-      "author": "Ashley Yang"
+      "author": "Ashley Yang",
+      "en": {
+        "title": "Fasoo AI Applies U.S. CMVP-Certified Cryptographic Module to Wrapsody eCo",
+        "points": [
+          "Fasoo AI applies CMVP cryptographic module to Wrapsody eCo",
+          "Supports security requirements of Korean defense firms entering North America",
+          "Adds U.S.-certified module after KCMVP"
+        ],
+        "body": [
+          "Fasoo AI will apply a cryptographic module certified under the U.S. Cryptographic Module Validation Program (CMVP) to Wrapsody eCo, its supply chain data security collaboration platform. Fasoo AI announced this on the 10th, and The Elec, Bloter, Tech M, Boannews, Digital Daily, Techworld News and iNews24 reported it.",
+          "The Elec explained what CMVP is: a cryptographic module validation program run by the U.S. National Institute of Standards and Technology (NIST) and the Canadian Centre for Cyber Security (CSE). The Elec said Wrapsody eCo applied a U.S.-certified cryptographic module following the National Intelligence Service's Korea Cryptographic Module Validation Program (KCMVP), and iNews24 described it as certification under the U.S. and Canadian validation program. Bloter called it a cryptographic module validated in North America.",
+          "The target users are Korean defense companies seeking to enter the North American market. Bloter reported that the move helps these companies meet the security standards required when they share important data with overseas partners, and Digital Daily wrote that it supports meeting essential security requirements for defense firms aiming to expand in North America. Boannews described CMVP in its headline as a must-have condition for entering the U.S.",
+          "Wrapsody eCo is a collaboration platform that handles how companies exchange documents with outside partners. Tech M explained that the platform strengthens supply chain data security while making collaboration more convenient, and protects files exchanged during collaboration. Boannews mentioned CEO Cho Kyu-gon as Fasoo AI's chief executive.",
+          "Glossary: A cryptographic module is software or hardware that implements cryptographic algorithms and performs data encryption and decryption."
+        ]
+      }
     },
     {
       "id": "h20261111-f470360c4953",
@@ -299,7 +359,22 @@
           "link": "https://byline.network/2026/11/6-474"
         }
       ],
-      "author": "Kevin Wong"
+      "author": "Kevin Wong",
+      "en": {
+        "title": "Cisco Adopts Anthropic's Claude Mythos in AI Defense",
+        "points": [
+          "Cisco adopts Claude Mythos in AI Defense",
+          "Strengthens security validation and attack simulation for AI agents",
+          "Also unveils new Splunk and Cisco IQ features"
+        ],
+        "body": [
+          "Cisco will adopt Anthropic's \"Claude Mythos\" in \"Cisco AI Defense\" to strengthen security validation of AI applications and agents. According to Boannews, Cisco announced this on the 10th, and Datanet and Betanews reported that it came from the annual event \"Cisco Live APJC\" in Melbourne, Australia.",
+          "VentureSquare wrote that Cisco unveiled new features for AI Defense, Splunk agent observability and Cisco IQ together. VentureSquare explained that Mythos, which goes into AI Defense, performs multi-step attack simulations and repeated security tests against authorized systems. Betanews summarized it as a way to strengthen AI-based red team testing.",
+          "The way Mythos is described differs by outlet. Digital Daily introduced it as a model skilled at detecting high-risk vulnerabilities, while Datanet and Boannews said security staff can use its advanced adversarial reasoning to check AI systems. The summaries are cut off, so further specific functions cannot be confirmed.",
+          "Recent reports show Mythos has drawn attention in security. In a Nov. 6 article, Byline Network said that when Anthropic unveiled Claude Mythos Preview last April, the security industry was surprised that AI could find software vulnerabilities and even build working attack code. The same article said that six months later, OpenAI, Anthropic, Google and others are racing to release frontier models with better vulnerability discovery and attack validation abilities.",
+          "Glossary: A red team is a team, or an approach, that attacks a system from the standpoint of a real attacker to find security weaknesses. Observability is the ability to look into a system's internal state through logs, metrics and similar data."
+        ]
+      }
     },
     {
       "id": "b20261111",
@@ -479,7 +554,24 @@
           "link": "https://it.chosun.com/news/articleView.html?idxno=3000000000560"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "Nov. 11 AI Briefing: Nvidia Market Cap Plunge and OpenAI's $10 Billion Quarterly Revenue",
+        "points": [
+          "Nvidia loses large market value over two days amid executive allegations",
+          "OpenAI third-quarter revenue tops $10 billion for the first time",
+          "Privacy commission opens formal investigation into Anthropic leak"
+        ],
+        "body": [
+          "Nvidia's share price fell for a second straight day amid allegations of Chinese espionage involvement surrounding CEO Jensen Huang. AI Times reported that about $430 billion (about 627 trillion won) in market capitalization vanished over two days, handing the No. 2 spot in global market capitalization to Microsoft, while EBN wrote that about 537 trillion won ($400 billion) evaporated, so the converted amounts differ. IT Chosun reported that on the 10th Nvidia closed down 5.47% at $168.89 on the New York stock market, fell nearly 10% over two days, and retained an outside law firm to investigate. Chosun Biz, citing The New York Times, reported that Nvidia is said to have appointed a Korean American lawyer and former U.S. federal prosecutor to lead an independent investigation.",
+          "There was also new reporting on the same allegations. Chosun Biz reported that Reuters, citing The Information, said on the 10th (U.S. time) that Alice Huang, who is suspected of Chinese espionage, used her relationship with CEO Jensen Huang to smuggle about 10 trillion won worth of U.S.-made AI chips into China. Digital Daily put 240,000 units in its headline over the smuggling allegation and wrote that indirect supply through China, Singapore, Malaysia and other places was mentioned. iNews24 described the same content as circumstances of supply.",
+          "OpenAI had two pieces of news, on revenue and on a product. According to Digital Daily and IT Chosun, third-quarter revenue topped $10 billion for the first time, up about 50% from the previous quarter and about three times from a year earlier. IT Chosun said the figure was reported by Bloomberg citing sources. The converted won amount differs: Digital Daily gave about 13.5 trillion won and IT Chosun about 13.381 trillion won. The same day, OpenAI launched \"Business in ChatGPT\" in beta, which lets companies directly manage the company and product information shown in ChatGPT. Chosun Biz reported that companies in ChatGPT service regions, including Korea, that meet the eligibility requirements were mentioned as targets, and Digital Daily wrote that it introduced \"Business Hub,\" a company information management tool, and \"Business Agent,\" a customer response feature.",
+          "The Personal Information Protection Commission began a formal investigation on the 10th into a leak of Korean company information from Anthropic's Claude enterprise service. According to Korea NGO News, the commission finished a preliminary review of the leak report submitted by Anthropic and started a formal investigation. Chosun Biz had earlier reported that a report had been filed saying about 100 Korean corporate accounts may have been exposed.",
+          "AI cloud company CoreWeave's third-quarter revenue rose 168%, beating market expectations, and it also raised its full-year outlook, Newsis reported. Digital Daily pointed out that its backlog reaches $132.5 billion (about 180 trillion won), but net interest expense exceeds four times operating profit and the net loss grew. IT Chosun reported that its New York stock market close on the 10th was $48.73 and that it rose 3% in after-hours trading.",
+          "Google DeepMind unveiled \"Gemini Robotics 2.5,\" an AI model for robots, on the 10th (local time). Robot Newspaper reported that the dexterity and task reliability of humanoid robots improved greatly, and Techworld News wrote that Google unveiled this model together with expanding the availability of \"Gemini 4 Carbon\" worldwide.",
+          "AMD released its sixth-generation EPYC server CPU based on the Zen 6 architecture. AI Newspaper (인공지능신문) reported that AMD touted up to 3.7 times the performance of Nvidia's Vera in certain general-purpose compute evaluations, and IT Chosun wrote that it touted a configuration of up to 256 cores and up to twice the throughput of competing products."
+        ]
+      }
     },
     {
       "id": "s20261111-84146b241353",
@@ -536,7 +628,22 @@
           "link": "https://byline.network/2026/11/10-724"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "Google DeepMind Unveils Robot AI Gemini Robotics 2.5",
+        "points": [
+          "Google DeepMind unveils Gemini Robotics 2.5",
+          "Improves humanoid object manipulation and task reliability",
+          "Gemini 4 Carbon availability also expanded worldwide"
+        ],
+        "body": [
+          "Google DeepMind unveiled \"Gemini Robotics 2.5,\" an AI model for robots with improved task performance and precision, on the 10th (local time). Robot Newspaper, AI Newspaper (인공지능신문) and Techworld News reported it.",
+          "Robot Newspaper introduced the model as a vision, language and action (VLA) model for robots, and said in its headline that the dexterity and task reliability of humanoid robots improved greatly. AI Newspaper (인공지능신문) wrote that the physical AI model improves humanoids' precise object manipulation and task reliability at industrial sites, and said in its headline that it achieved a 96% task success rate on a Mercedes-Benz production line. The 96% figure appears only in AI Newspaper's headline, and the measurement conditions cannot be confirmed from the summary.",
+          "Each outlet focused on something different. Robot Newspaper centered on improved task performance and precision, and AI Newspaper on task reliability at industrial sites. Techworld News reported that Google unveiled Robotics 2.5 the same day it expanded the availability of its next-generation frontier model \"Gemini 4 Carbon\" to developers, businesses, researchers and general users worldwide.",
+          "Recent developments: Google also bolstered its AI chips. In a Nov. 9 article, Chosun Biz said in its headline that Google additionally unveiled two eighth-generation TPUs with stronger security and inference performance, the first with confidential computing and with doubled bandwidth. Datanet summarized this as an expansion of the eighth-generation TPU lineup, and Byline Network said in its headline that it emphasized resolving memory bottlenecks.",
+          "Glossary: Physical AI is AI for machines that move in the real world, such as robots. A vision, language and action model understands camera images and speech and produces robot movements."
+        ]
+      }
     },
     {
       "id": "s20261111-90f0a14dd8da",
@@ -599,7 +706,22 @@
           "link": "http://www.snmnews.com/news/articleView.html?idxno=576906"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "Hyundai Steel Holds AX Results Sharing Event, Reveals 198 Manufacturing and Business AI Cases",
+        "points": [
+          "Hyundai Steel holds 2026 AX results sharing event",
+          "198 manufacturing and business AI innovation cases identified",
+          "Five best practices selected, including raw material blending and sales strategy"
+        ],
+        "body": [
+          "Hyundai Steel shared its AI transformation (AX) results with employees. The company said on the 11th that it recently held the \"2026 AX Results Sharing Event\" at the Dangjin Steelworks research center, and AI Newspaper (인공지능신문), Digital Daily, EBN and Steel & Metal News reported the same content.",
+          "AI Newspaper (인공지능신문) reported that Hyundai Steel identified 198 manufacturing and business innovation cases, in which AI optimizes raw material blending and logistics operations and is applied to sales strategy planning and material supply automation. Digital Daily wrote that the company is improving work efficiency from steel production to sales and purchasing and strengthening data-based decision-making, and said in its headline that five AX best practices were selected.",
+          "Steel & Metal News explained that the purpose of the event is to share the AX results employees pursued over the year and to identify and spread best practices. It said 58 manufacturing cases were submitted to the AX results contest that began in August this year, but the number of business cases cannot be confirmed because the summary is cut off. It also cannot be determined from the summary alone whether the 198 cases are in the same category as the contest submissions.",
+          "Recent developments: Hyundai Steel launched \"Steel-X,\" its in-house generative AI platform, on the 4th. AI Times reported that the platform turns internal documents and data into assets and provides integrated search, analysis and various AI services, and Digital Daily wrote that it was built with Hyundai AutoEver to make use of scattered internal knowledge. Steel & Metal News said employees can build AI agents themselves and use them at work.",
+          "Glossary: AX means AI transformation, in which companies adopt AI to change how they work and do business. Generative AI refers to AI that creates new outputs such as text and images."
+        ]
+      }
     },
     {
       "id": "s20261111-064d9d93fe2c",
@@ -656,7 +778,22 @@
           "link": "https://www.epnc.co.kr/news/articleView.html?idxno=409445"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "AMD Launches Sixth-Generation EPYC Server CPU Based on Zen 6",
+        "points": [
+          "AMD launches sixth-generation EPYC based on Zen 6",
+          "Up to 256 cores, aimed at agentic AI",
+          "Claims up to 3.7 times the performance of Nvidia's Vera"
+        ],
+        "body": [
+          "AMD launched its sixth-generation EPYC server processor with the new Zen 6 architecture and moved to target the AI data center and enterprise computing markets. AI Newspaper (인공지능신문) reported that AMD launched it on the 10th (U.S. local time), and Datanet introduced the product as the sixth-generation EPYC SP7 server processor.",
+          "Hellot summarized that the CPU supports a range of workloads, from running AI agents to cloud services and high-performance computing (HPC). IT Chosun reported that the product, codenamed \"Venice,\" touts a configuration of up to 256 cores, up to twice the throughput of competing products and 2.8 times the power efficiency for AI agent processing.",
+          "The basis of the performance comparisons differs by outlet. AI Newspaper (인공지능신문) wrote that AMD claimed up to 3.7 times the performance of Nvidia's server CPU \"Vera\" in certain general-purpose compute evaluations. The 2x and 2.8x figures reported by IT Chosun are against competing products, and whether the comparison targets and evaluation items are the same cannot be determined from the summaries alone. Datanet went on to report on major server suppliers, but its summary is cut off.",
+          "Recent developments: AMD is continuing cooperation in Korea. Hellot reported in a Nov. 6 article that AMD's flagship AI event \"Advancing AI\" was held in Korea for the first time. The Ministry of Science and ICT and AMD reviewed tasks on heterogeneous AI infrastructure, the establishment of an AMD AI research center and talent development at a memorandum of understanding steering committee meeting. Techworld News reported on the 9th that Nota presented inference optimization results using AMD GPUs and NPUs together at the event.",
+          "Glossary: A server CPU is the central processing unit in a data center server that handles overall computation and task distribution, and a core is the unit inside a CPU that processes computations."
+        ]
+      }
     },
     {
       "id": "s20261111-262450a7c0b1",
@@ -725,7 +862,22 @@
           "link": "https://www.inews24.com/view/2023499"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "Lunit to Supply AI Imaging Analysis Solutions to Saudi National Guard Health Affairs",
+        "points": [
+          "Lunit to supply AI solutions to Saudi MNGHA",
+          "Chest X-ray and mammography analysis solutions",
+          "Saudi Telecom subsidiary to handle system integration"
+        ],
+        "body": [
+          "Medical AI company Lunit will supply its chest X-ray analysis solution \"Lunit INSIGHT CXR\" and its mammography analysis solution \"Lunit INSIGHT MMG\" to Saudi Arabia's Ministry of National Guard Health Affairs (MNGHA). iNews24, Hellot, Techworld News and VentureSquare reported the news.",
+          "System integration will be handled by \"Solutions by stc,\" the ICT subsidiary of Saudi Arabia's largest telecom company, stc Group. Techworld News and VentureSquare both reported this arrangement. VentureSquare interpreted in its headline that the supply leads to expansion in the Middle East public healthcare market, while other outlets focused on the fact of the supply.",
+          "The size and term of the supply contract do not appear in the summaries obtained. The outlets' summaries are also cut off, so what follows cannot be confirmed.",
+          "Recent developments: Lunit said on the 6th that it completed development of \"LearningUnit 2.0,\" a healthcare-specialized foundation model. According to Hellot, it is the result of completing the Ministry of Science and ICT's \"AI-specialized foundation model\" project, a lightweight model with 30 billion parameters (5 billion active). Dailypharm said the model supports medical care and hospital administration work and that Lunit was selected as the project's lead organization last October, and iNews24 wrote that Lunit and SK Biopharmaceuticals, which took part in the same project, revealed the results of about 10 months of development and demonstration. Techworld News reported that Lunit also presented joint research results on AI biomarkers at the Society for Immunotherapy of Cancer (SITC 2026) the same day.",
+          "Glossary: A foundation model is a general-purpose AI model trained on large amounts of data so that it can be adapted to many uses."
+        ]
+      }
     },
     {
       "id": "s20261111-1c22f79e656d",
@@ -794,7 +946,22 @@
           "link": "https://www.epnc.co.kr/news/articleView.html?idxno=409349"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "AWS Commits $100 Million in Technology Support Over Five Years to Close Health Gaps",
+        "points": [
+          "AWS launches Health Impact Initiative",
+          "$100 million in AI and cloud support over five years",
+          "Nonprofits, governments, research institutions and companies can apply"
+        ],
+        "body": [
+          "Amazon Web Services (AWS) will provide $100 million in technology over the next five years to improve access to care in medically underserved areas and expand research on women's and children's health. According to Chosun Biz, Datanet and Techworld News, AWS announced the \"AWS Health Impact Initiative\" (HII) on the 10th.",
+          "The support targets organizations building solutions for medically underserved groups. AI Times and Chosun Biz reported that nonprofits, governments, research institutions and companies can apply. Datanet explained that it is a program supporting AI, agentic services and cloud infrastructure, and VentureSquare introduced expanding access to healthcare services, women's and children's health research and improving access to healthy food as the program's pillars.",
+          "AI Newspaper (인공지능신문) introduced the program as a global program worth $100 million (about 130 billion won) and reported that it applies generative AI and agentic AI to medical diagnosis, clinical work, disease research and food assistance. Unlike other outlets that wrote AWS as the actor, this outlet wrote Amazon. VentureSquare said in its headline that a Korean healthcare AI startup also achieved results, but the summary is cut off, so the specifics cannot be confirmed.",
+          "Recent developments: AWS also released new products recently in AI agents and security. According to Techworld News, AWS formally launched \"AWS Continuum\" on the 5th, which uses AI to detect code vulnerabilities, confirm whether they can actually be exploited and propose fixes. AI Times reported in a Nov. 8 article that AWS released \"Kiro Bot,\" which coordinates the work of multiple AI agents and automatically performs repetitive development tasks.",
+          "Glossary: Agentic AI is AI that plans and carries out multiple tasks on its own toward a goal without a person giving instructions at each step."
+        ]
+      }
     },
     {
       "id": "h20261110-6da68392855f",
