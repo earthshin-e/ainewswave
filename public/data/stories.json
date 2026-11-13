@@ -163,7 +163,24 @@
           "link": "https://www.newsis.com/view/NISX20261110_0003861753"
         }
       ],
-      "author": "Kevin Wong"
+      "author": "Kevin Wong",
+      "en": {
+        "title": "Nvidia Board Reportedly Preparing to Remove Jensen Huang, After-Hours Shares Plunge 8%",
+        "points": [
+          "WSJ: Nvidia board preparing to remove CEO Huang",
+          "Board meeting as early as the 11th; after-hours shares fall 8%",
+          "NYT reports additional allegation involving an in-house executive"
+        ],
+        "body": [
+          "The Wall Street Journal (WSJ) reported on the 11th (U.S. time), citing people familiar with the matter, that Nvidia's board is preparing to remove co-founder and CEO Jensen Huang. According to Newsis and The Elec, the board is expected to meet as early as that day to decide Huang's fate. After the report, Nvidia shares fell more than 8% in after-hours trading, IT Chosun said, and AI Times also reported an 8% after-hours drop.",
+          "The matter began with Huang's acknowledgment of a relationship with a woman suspected of ties to Chinese intelligence. The Elec said the report on preparations to remove Huang came three days after he admitted the affair, and AI Times explained that the board, which had expressed confidence in Huang three days earlier, has now reached the point of discussing his future. Korea NGO News said the controversy has grown into a company-level investigation, shaking Huang's grip on management.",
+          "Additional allegations were reported alongside the WSJ story. Chosun Biz said The New York Times (NYT) reported that Huang also had a relationship with a female in-house executive, and iNews24 said that, citing five people who worked at Nvidia, the NYT reported he had an affair with an in-house executive who reports directly to him. Digital Daily also wrote that a claim to the same effect was raised additionally on the 11th. These are allegations the NYT reported based on statements from people familiar with the matter.",
+          "Developments up to now continued as well. Nvidia had already launched an independent investigation, and Newsis said shareholders filed a class-action lawsuit against Nvidia and Huang on the 9th (U.S. time) in federal court in San Jose, California. The suit centers on allegations that he misled shareholders by concealing his relationship with a woman suspected of being a Chinese spy. Chosun Biz said Nvidia is known to have appointed a Korean-American lawyer and former federal prosecutor to lead the independent investigation, and Industry News reported that U.S. President Donald Trump said the Federal Bureau of Investigation (FBI) is looking into the relationship.",
+          "Analysis of the market impact also appeared. EBN said that as of the 10th, Nvidia's market capitalization had shrunk by about 537 trillion won ($400 billion) in two days. Newsis cited concerns that removing Huang could cut the company's value by as much as 30% and said the board is in a dilemma. Newsis and EBN also covered the 33-year one-man management structure and the absence of a successor. Meanwhile, Digital Today said Nvidia GPU prices are falling again in Huaqiangbei in Shenzhen, China, and local merchants say there is no major supply disruption.",
+          "These reports are all by Korean outlets citing foreign media such as the WSJ and NYT, and none includes news that Huang's removal has been confirmed. Once the meeting's outcome is known, the board's official position and the succession picture will be the next issues.",
+          "Glossary: After-hours trading is stock trading that takes place after regular trading hours end. A class-action lawsuit is a suit in which many people claiming the same harm sue together through a representative plaintiff."
+        ]
+      }
     },
     {
       "id": "h20261112-ccc7570524c7",
@@ -274,7 +291,22 @@
           "link": "https://it.chosun.com/news/articleView.html?idxno=3000000000553"
         }
       ],
-      "author": "Haley Yun"
+      "author": "Haley Yun",
+      "en": {
+        "title": "Naver Q3 Operating Profit Down 21%, Discloses 2 Trillion Won Supply Deal With U.S. AI Company",
+        "points": [
+          "Q3 revenue 3.4724 trillion won, operating profit 451.3 billion won",
+          "2 trillion won-scale computing supply deal with a U.S. AI company",
+          "Targets launching a personal AI agent app within the year"
+        ],
+        "body": [
+          "Naver announced its third-quarter results on the 12th. According to EBN, consolidated revenue was 3.4724 trillion won and operating profit was 451.3 billion won. Revenue rose 10.7% from a year earlier as commerce, fintech and global consumer-to-consumer (C2C) businesses grew. Operating profit, however, fell on expanded AI investment. Techworld News said operating profit dropped 20.9% even as the company posted record revenue. Digital Daily explained that advertising, commerce, finance and global C2C businesses drove top-line growth, but higher AI infrastructure and marketing costs cut operating profit by more than 20%.",
+          "In the AI factory business, a computing service supply contract worth about 2 trillion won was disclosed. IT Chosun described the counterparty as a U.S. AI company, and Techworld News as a U.S. AI inference company. CEO Choi Soo-yeon said on the conference call that the data center capacity secured and contracted so far exceeds the target volume through 2028 (iNews24). EBN said the company has finished securing customers for initial capacity in early 2027 and will begin commercial service in the first half of next year, with revenue arriving gradually. TechM said Naver is in talks on additional supply contracts with multiple global companies, including major AI model developers.",
+          "On the services side, a personal AI agent app is central. Choi said the company is preparing a new personal AI agent app that performs actual tasks on behalf of users, with a target of launching within the year (iNews24). iNews24 said it will connect with existing services such as shopping and places, while TechM said the direction is to link information search and recommendations to actions such as purchases and reservations, and to tie advertising to actual transaction results rather than simple clicks. Digital Daily described the app as a service that directly carries out everyday tasks such as shopping and reservations.",
+          "Reports on Naver's AI infrastructure have continued over the past two weeks. TechM said that on the 6th Naver completed a $1 billion (about 1.3412 trillion won) strategic equity investment from Nvidia, making Nvidia its third-largest shareholder. On the 9th, iNews24 reported that Naver Cloud is taking part in developing Nvidia's open AI model Nemotron and using Nvidia technology in its own HyperCLOVA X model, while Digital Daily said training throughput improved by 50.2% from before. IT Chosun pointed out that Naver and Kakao are expanding their agent businesses, but there is no clear reason for users to choose either company's AI.",
+          "Glossary: A conference call is a briefing in which a company explains its business situation and answers questions from investors and analysts by phone or online after announcing earnings. An AI agent is an artificial intelligence that understands a user's goal and plans and carries out multistep tasks on its own."
+        ]
+      }
     },
     {
       "id": "h20261112-4c0739fa86fc",
@@ -344,7 +376,23 @@
           "link": "https://www.aitimes.com/news/articleView.html?idxno=217243"
         }
       ],
-      "author": "Chloe Park"
+      "author": "Chloe Park",
+      "en": {
+        "title": "Google Launches Gemini 4 Carbon, Available via Ultra Plan and Paid API",
+        "points": [
+          "Google officially launches Gemini 4 Carbon",
+          "Available through the Ultra plan and a paid API",
+          "AI Times: priced at one-fourth of Fable 5.2"
+        ],
+        "body": [
+          "Google officially launched its top-tier AI model Gemini 4 Carbon on the 10th (U.S. time). Byline Network said this came two weeks after a limited release to authorized cybersecurity experts, and Digital Daily also wrote that access was widened two weeks after it was limited to security experts. AI Newspaper (인공지능신문) introduced it as a new frontier model specialized in solving complex problems across multiple steps and performing long-running tasks.",
+          "Reports differ in what they emphasize about the terms of use. Techworld News said availability has expanded to developers, companies, researchers and general users worldwide. Digital Daily explained that the targets are users of the 119,000 won per month Ultra plan, with the free and Pro plans excluded, that it will be applied in phases to the Gemini app and Google Search's AI Mode, and that a paid API opens to developers. In other words, one account says it has opened to general users while another says it is limited to the Ultra plan.",
+          "Descriptions of its use are similar. AI Newspaper said it strengthens agentic AI capabilities that repeat reasoning and verification in professional work such as software development, cybersecurity and scientific research. GeekNews summarized it as aimed at tasks that need deep reasoning and long verification, such as complex multistep coding and debugging and open-ended scientific research.",
+          "AI Times gave the most coverage to pricing. AI Times said that although Google recently ceded the top spot in AI performance rankings to Anthropic's new model, it is moving to capture the developer and enterprise market by offering an API price about one-fourth that of Claude Fable 5.2. GeekNews wrote that the API price at launch is the same as Argon's.",
+          "Reports on competing models followed. TechM said Anthropic unveiled Claude Fable 5.2 and Mythos 5.2 on the 10th, up to 30% faster than the previous 5.1 and with improved coding, reasoning and image understanding. AI Times reported that on the 9th (U.S. time) Anthropic succeeded in using Claude to design three electronic devices and build prototypes that all worked without circuit fixes.",
+          "Glossary: A frontier model is an expression for the most advanced AI model with the highest performance at a given point in time. An API is an access specification that lets developers call another service's features from their own programs."
+        ]
+      }
     },
     {
       "id": "h20261112-658c2a96433a",
@@ -413,7 +461,22 @@
           "link": "https://www.ddaily.co.kr/page/view/2026111115312843411"
         }
       ],
-      "author": "Ethan Chen"
+      "author": "Ethan Chen",
+      "en": {
+        "title": "Korea Rises 8 Places to 10th in IMD Digital AI Competitiveness; Talent and Governance Remain Challenges",
+        "points": [
+          "Korea ranks 10th of 70 countries in digital AI competitiveness",
+          "Technology infrastructure and efficiency each rank 3rd",
+          "Telecom investment 50th, digital talent acquisition 59th"
+        ],
+        "body": [
+          "The Ministry of Science and ICT said on the 11th that Korea ranked 10th among 70 countries in the 2026 World Digital Artificial Intelligence Competitiveness evaluation released by Switzerland's International Institute for Management Development (IMD). The rank is up eight places from last year. Hellot said Korea ranked 4th among 32 countries with populations of 20 million or more.",
+          "By category, technology infrastructure and efficiency each ranked 3rd. AI Times explained that these two categories reflect many of the AI-related indicators. Kukmin Ilbo and Digital Today said all five evaluation categories rose in rank. Chosun Biz, on the other hand, noted that governance and talent development remained in the 20s.",
+          "Detailed indicators reveal challenges. Digital Daily said telecom investment as a share of GDP ranked 50th, 5G subscription share 23rd and digital talent acquisition 59th, and that infrastructure investment and talent competitiveness are the challenges.",
+          "Reports on the government's AI industry promotion measures also continued. VentureSquare said the Ministry of SMEs and Startups announced the \"AI Startup Beyond Unicorn Nurturing Strategy,\" which aims to foster 20 AI unicorns and one decacorn by 2030 and, if companies are connected through to the final stage, provide more than 10 billion won per company in R&D and commercialization funding. Digital Daily explained that the goal is to raise the number of domestic AI unicorns from six this year to 20 and produce one AI decacorn valued at 10 trillion won or more, with support extending to government and public-sector purchases of products.",
+          "Glossary: A unicorn is an unlisted startup valued at $1 billion or more, and a decacorn is an unlisted startup valued at $10 billion or more."
+        ]
+      }
     },
     {
       "id": "h20261112-ade94621aea7",
@@ -488,7 +551,22 @@
           "link": "https://www.thelec.kr/news/articleView.html?idxno=65259"
         }
       ],
-      "author": "Ashley Yang"
+      "author": "Ashley Yang",
+      "en": {
+        "title": "POSCO and GS Group Sign MOU to Cooperate on AI Data Center Business",
+        "points": [
+          "POSCO and GS sign MOU on AI data center cooperation",
+          "Steel materials and tailored solutions from the early design stage",
+          "Plan to expand into North America and Asia after domestic track record"
+        ],
+        "body": [
+          "POSCO and GS Group signed a memorandum of understanding (MOU) on the 11th at GS Tower in Gangnam District, Seoul, to cooperate on the artificial intelligence data center (AIDC) business. EBN and Digital Daily reported the same venue and date. Industry News explained that the plan is to combine POSCO's specialty steel materials technology with GS Group's infrastructure construction capabilities to make a large domestic project a success and use it as a springboard to jointly enter global markets.",
+          "The core of the cooperation is participation from the early design stage. Techworld News said POSCO will take part from the very start of an AIDC and expand its business into an \"AIDC total solution company\" that provides specialized materials and tailored solutions. Bloter explained that the range of steel supplied will broaden from building structural materials to power and cooling equipment. Steel & Metal News (철강금속신문) named PosMAC, an ultra-corrosion-resistant alloy-coated steel sheet, along with electromagnetic shielding materials and high-efficiency electrical steel, as the supplied materials.",
+          "GS Group's role and overseas expansion plans were also reported. iNews24 said the plan combines steel materials with GS Group's power, construction and cooling technologies and, after securing a business track record in Korea, jointly pursues overseas projects in North America and Asia. Digital Daily assessed that the interests of POSCO, which seeks new sources of steel demand, and GS Group, which is expanding its AIDC business, aligned.",
+          "There are also recent developments. Bloter said that on the 9th GS Holdings is negotiating to secure the first customer contract for its Donghae, Gangwon Province AIDC project between the end of this year and early next year. The headline put the project at 15 trillion won, and the outlet noted that in large data center projects, customer contracts are directly tied to financing. The Elec said POSCO Group held the 38th POSCO Group Tech Forum in Gwangyang, South Jeolla Province, for two days from the 10th, sharing technology development results in steel and strategic resources and its AI transformation (AX) strategy.",
+          "Glossary: An AIDC is a data center equipped with power and cooling facilities to house the large-scale servers used for AI computation. An MOU is an agreement confirming an intention to cooperate in writing, often used at a stage before a concrete contract."
+        ]
+      }
     },
     {
       "id": "b20261112",
@@ -663,7 +741,25 @@
           "link": "https://www.epnc.co.kr/news/articleView.html?idxno=409627"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "Nov. 12 AI Briefing: Nvidia Board Discusses Removing CEO, and Naver's AI Investment",
+        "points": [
+          "Reports that Nvidia's board is discussing removing CEO Huang",
+          "Naver's AI investment cuts operating profit; 2 trillion won contract",
+          "Easing AI investment worries lift New York stocks"
+        ],
+        "body": [
+          "The Wall Street Journal (WSJ) reported on the 11th (U.S. time) that Nvidia's board is preparing to remove CEO Jensen Huang. According to AI Times, the board is known to have gone into a meeting to decide whether to remove him, and IT Chosun said shares fell more than 8% in after-hours trading. Chosun Biz said The New York Times reported that he also had a relationship with a female in-house executive.",
+          "Naver announced its third-quarter results on the 12th. According to EBN, consolidated revenue rose 10.7% to 3.4724 trillion won but operating profit was 451.3 billion won, and Techworld News said operating profit fell 20.9%. IT Chosun said Naver signed a computing service supply contract worth about 2 trillion won with a U.S. AI company, and iNews24 said CEO Choi Soo-yeon said the company is preparing to launch a personal AI agent app within the year.",
+          "New York stocks closed higher on the 11th (U.S. time). Digital Daily said the Nasdaq Composite rose 1.6% and the Philadelphia Semiconductor Index rose 5.7%. IT Chosun and Korea NGO News said strong results from AI cloud company CoreWeave eased worries about AI investment.",
+          "SK Group is holding a CEO seminar from the 12th to the 14th at the SKMS Research Institute in Icheon, Gyeonggi Province, chaired by Chairman Chey Tae-won. Chosun Biz said this year's keyword is AI, as it was last year, and Kukmin Ilbo said the seminar is expected to discuss ways to maximize AI business synergy by combining affiliates' strengths in semiconductors, data centers and energy.",
+          "LG CNS said on the 12th that it held the \"2026 Robotics & Physical AI Forum\" at the Future Robotics Lab at its headquarters in Magok, Seoul. EBN said more than 100 people took part, including faculty from the University of Toronto, Sogang University, Chung-Ang University and Korea University, graduate students and LG CNS employees.",
+          "Security company Athon said on the 12th that it will officially launch \"AI AgentSign,\" a solution for authenticating AI agents and verifying signatures. Chosun Biz said it grants authority delegated by customers to AI agents by recording it in a certificate, and Datanet said it verifies authority for each transaction and targets the financial-sector authentication market.",
+          "Saltlux said on the 12th that it will carry out the \"AI-based intelligent records information search solution development and demonstration project,\" overseen by the Ministry of Science and ICT and the National IT Industry Promotion Agency. AI Newspaper (인공지능신문) said it is a system that searches National Archives records with natural-language questions and analyzes the context and relationships among records, and Digital Today said on-site demonstration will take place this month.",
+          "Infosys (인포시즈) said on the 12th that it has begun joint research with Professor Kim Gun-hee's lab in Seoul National University's Department of Computer Science and Engineering on AI technology for recognizing whole industrial drawings. Digital Daily said they will develop a foundation model that analyzes the detailed equipment and overall connection structure of complex design drawings at once and converts them into graph data."
+        ]
+      }
     },
     {
       "id": "s20261112-2bad5cf9ad98",
@@ -725,7 +821,21 @@
           "link": "https://www.venturesquare.net/1126826"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "SK Chairman Chey Tae-won Chairs CEO Seminar Starting the 12th, Reviewing Next Year's AI Strategy",
+        "points": [
+          "SK Group holds three-day CEO seminar from the 12th",
+          "Discussing AI business strategy and ways to make investment more efficient",
+          "Reviewing links among semiconductors, data centers and energy"
+        ],
+        "body": [
+          "SK Group is holding a CEO seminar from the 12th to the 14th at the SKMS Research Institute in Icheon, Gyeonggi Province, chaired by Chairman Chey Tae-won. Chosun Biz said the event is held every November and that this year's keyword is artificial intelligence (AI), as it was last year. Bloter and Kukmin Ilbo put attendance at about 50 CEOs.",
+          "The topics of discussion are emphasized differently by each outlet. IT Chosun said the seminar is expected to review next year's AI business strategy and the results of portfolio restructuring, and to examine ways to link semiconductors, AI data centers and energy businesses and the direction of business restructuring at each affiliate. Kukmin Ilbo said the focus appears to be on maximizing AI business synergy by combining affiliates' strengths in semiconductors, data centers and energy, and on firming up an AI-centered growth strategy. Bloter said the seminar will discuss AI business strategy and ways to make investment more efficient and firm up a group-level cooperation framework linking energy and power infrastructure, and its headline expressed that AI investment now has to deliver results.",
+          "Reports on AI cooperation among SK affiliates have also continued recently. AI Times said that on the 9th Nvidia, SK Telecom and Rebellions signed a memorandum of understanding (MOU) on NVLink Fusion cooperation at the Nvidia AI Day event held at COEX in Seoul, and will build a converged AI computing system linking domestic neural processing units (NPUs) with Nvidia GPUs. VentureSquare said Rebellions' next-generation NPU R200 will be combined with Nvidia NVLink Fusion and the MGX platform to build a rack-scale AI inference system, targeting adoption in 2028.",
+          "Glossary: Business portfolio restructuring means adjusting the mix of businesses a company holds to decide again which to grow and which to scale back. An NPU is a semiconductor designed specifically for artificial neural network computation."
+        ]
+      }
     },
     {
       "id": "s20261112-449cfd45bbe5",
@@ -794,7 +904,22 @@
           "link": "https://www.ddaily.co.kr/page/view/2026111106234358005"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "New York Stocks Close Higher as CoreWeave's Strong Results Ease AI Investment Worries",
+        "points": [
+          "Nasdaq up 1.6%, semiconductor index up 5.7%",
+          "CoreWeave's strong results revive AI investor sentiment",
+          "CoreWeave Q3 revenue up 168% from a year earlier"
+        ],
+        "body": [
+          "New York stocks rose across the board on the 11th (U.S. time). Digital Daily said the Nasdaq Composite rose 1.6% and the Philadelphia Semiconductor Index rose 5.7%. IT Chosun explained that strong results from AI cloud company CoreWeave eased worries about AI investment, drawing buying centered on tech stocks.",
+          "Korea NGO News, citing the Associated Press, said stocks rebounded on CoreWeave's solid results and optimistic revenue outlook. As worries over AI industry growth and data center investment demand eased, buying spread to AI infrastructure companies including CoreWeave and to semiconductor stocks. Chosun Biz said the three major indexes opened higher early in the session and then turned mixed, with the Nasdaq up 1.3% at that point. The final gain was tallied at 1.6% for the Nasdaq (IT Chosun, Digital Daily).",
+          "Digital Daily covered CoreWeave's results in detail. CoreWeave announced on the 10th (U.S. time) that Q3 revenue was $3.661 billion (about 4.9 trillion won), up 168% from $1.365 billion a year earlier and above market expectations. The same outlet's roundup noted that the backlog reached $132.5 billion (about 180 trillion won), but net interest expense exceeded four times operating profit, widening the net loss.",
+          "Risk factors were also reported. Newsis said U.S. financial markets, already wary of an AI investment bubble, faced another headwind in stubbornly persistent inflation, and that with prices coming in above market forecasts, the possibility of a further interest rate hike by the Federal Reserve is being raised. Digital Daily said that on the 10th Anthropic set its IPO price range at $70 to $78 per share ahead of its Nasdaq listing and said in an amended registration statement filed with the U.S. Securities and Exchange Commission (SEC) that it is offering 825 million shares of common stock.",
+          "Glossary: The Philadelphia Semiconductor Index is an index made up of the share prices of major semiconductor companies listed on U.S. stock markets. Backlog refers to volume for which contracts have been signed but revenue has not yet been recognized."
+        ]
+      }
     },
     {
       "id": "s20261112-488a070a994b",
@@ -851,7 +976,22 @@
           "link": "https://www.aitimes.com/news/articleView.html?idxno=217057"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "KT Provides AI Email Security to KAIST, Strengthening Email Security for All Members",
+        "points": [
+          "KT provides AI email security service to KAIST",
+          "Covers all members: students, researchers and faculty and staff",
+          "AI detects and blocks ransomware and phishing emails"
+        ],
+        "body": [
+          "KT (CEO Park Yoon-young) said on the 11th that it is providing its \"AI Mail Security\" service to the Korea Advanced Institute of Science and Technology (KAIST). AI Times, Digital Daily, iNews24, Techworld News and Korea NGO News reported the same content. The service will be used to strengthen the email security system for all KAIST members, including students, researchers and faculty and staff.",
+          "AI Times explained that KT AI Mail Security is a cloud security service that uses AI to detect and block email-based cyber threats such as ransomware and phishing emails. Digital Daily said KAIST adopted the AI security solution KT developed in-house after technical verification. iNews24 summarized that the service blocks phishing and ransomware.",
+          "The outlets' focus differs slightly. Techworld News pointed out that KT aims to use this deal to expand its AI security business to universities and research institutions. Korea NGO News ran an explanation to the effect that it is important for all members, not just those in a specific field, to receive a higher level of security protection, and its headline used wording saying KT would take responsibility for KAIST's email security.",
+          "There are also recent developments. AI Times said that on the 5th KT signed an agreement with Seoul National University to establish a convergence security contract department to train AI convergence security experts. The agreement follows up on a memorandum of understanding on training talent in AI information security and industry-academia research cooperation that the two institutions exchanged in May.",
+          "Glossary: Ransomware is malicious software that encrypts files and then demands payment for recovery. Phishing is a scam that uses messages disguised as coming from a trusted sender to steal personal or account information."
+        ]
+      }
     },
     {
       "id": "h20261111-6bccdd5c2bc1",
