@@ -132,7 +132,23 @@
           "link": "https://www.inews24.com/view/2025706"
         }
       ],
-      "author": "Kevin Wong"
+      "author": "Kevin Wong",
+      "en": {
+        "title": "Jensen Huang Resigns as Nvidia CEO and Director; CFO Kress Named Interim CEO",
+        "points": [
+          "Jensen Huang resigns as Nvidia CEO and director, effective immediately",
+          "CFO Colette Kress to serve as interim CEO until a successor is named",
+          "New board chair Harvey Jones begins search for permanent successor"
+        ],
+        "body": [
+          "Nvidia officially announced on the 12th (local time) that co-founder Jensen Huang has resigned, effective immediately, as president, chief executive officer and a member of the board. Chosun Biz and Digital Today reported the news as an official announcement from Nvidia, while GeekNews reported that the board accepted the resignation the day before the announcement and that it takes effect immediately. Huang co-founded the company in 1993 and led Nvidia for 33 years.",
+          "Until a permanent successor is named, Colette Kress, executive vice president and chief financial officer (CFO), will serve as interim CEO. GeekNews reported that Kress has led finance since 2013 and holds the CFO post concurrently. AI Times described her as someone who has handled finance and business strategy for 13 years, and Newsis reported that she has overseen finance for more than a decade and is regarded as having led the strategy of funding AI customers. Harvey Jones will serve as the new board chair. AI Times wrote that Jones, who has been on the board since the company's early days, was named its first chair. According to E-Focus, Jones said he expects company operations, customer commitments and the product roadmap to continue without interruption. Digital Daily reported that Nvidia has begun the process of selecting a permanent successor from internal and external candidates.",
+          "Outlets differ in how they describe the background to the resignation. Chosun Biz reported that Huang stepped down four days after acknowledging an extramarital relationship with a woman suspected of being a Chinese spy. Digital Daily wrote that it was the aftermath of rumors of an affair with a woman suspected of being a Chinese spy, and IT Chosun reported that he left after controversy over his private life and national security suspicions. Byline Network reported that the resignation came a day after the board discussed dismissing him, following reports that he had an affair with a Chinese national businessman suspected of ties to Chinese intelligence and a relationship with a female executive who reported directly to him. These reasons are as reported by each outlet.",
+          "Similar reports had continued for nearly two weeks before the resignation. According to IT Chosun, The Wall Street Journal (WSJ) reported on the 11th (local time) that the board was preparing to dismiss Huang and could hold a meeting as early as that day. Digital Today reported, citing CNBC, that on the 9th (local time) Nvidia's board launched an independent investigation into the national security concerns raised in the reports. Newsis reported that Nvidia stopped disclosing Singapore-related revenue right after halting transactions with Megaspeed International, which is suspected of being a channel for diverting chips to China. AI Times reported that Republicans in the U.S. are pushing to issue a congressional subpoena for Huang and plan to demand compulsory attendance if he does not respond to a request for a voluntary closed-door briefing.",
+          "The semiconductor industry also reacted. In a report on the 12th, when his possible dismissal was being discussed, iNews24 reported that the domestic semiconductor industry sees limited impact on existing high-bandwidth memory (HBM) supply.",
+          "Glossary: HBM (high-bandwidth memory) is memory that stacks multiple DRAM chips vertically to widen the data transfer path, and it is mainly used in AI accelerators."
+        ]
+      }
     },
     {
       "id": "h20261113-8917f8a3c743",
@@ -212,7 +228,21 @@
           "link": "https://www.epnc.co.kr/news/articleView.html?idxno=409445"
         }
       ],
-      "author": "Chloe Park"
+      "author": "Chloe Park",
+      "en": {
+        "title": "Nota Wins Follow-On Contract to Optimize HyperAccel's Bertha LPU, Second Straight Year",
+        "points": [
+          "Nota signs follow-on LLM optimization contract with HyperAccel",
+          "Second order, following the first contract in September 2025",
+          "Targets HyperAccel's Bertha LPU, built for LLM inference"
+        ],
+        "body": [
+          "Nota said on the 12th that it has signed a follow-on contract with AI chip startup HyperAccel to supply large language model (LLM) optimization technology. Techworld News, AI Times, Hellot, Datanet and EBN reported the same news. This is the second order, following the first contract in September last year.",
+          "Nota will supply model and computation optimization technology for the major LLMs to be run on Bertha, an LPU built exclusively for LLM inference and developed by HyperAccel. AI Times described this as the supply of \"model and computation optimization technology,\" and Techworld News reported that the contract covers optimization technology for the major LLMs to be used on the LPU. Hellot introduced Nota as an AI inference efficiency company, reported that the two will continue their cooperation for a second consecutive year, and highlighted expanded Bertha LPU model support in its headline. Datanet assessed that the contract widens Nota's track record of repeat orders in AI chip optimization. Outlets rendered LLM differently, as three variant Korean terms for \"large language model.\"",
+          "Other reports about the two companies also followed recently. According to IT Chosun, HyperAccel received the Korea Information Technology Industry Promotion Agency (NIPA) Chairman's Award on the 10th at the 2026 Korea AI Awards, held at the Korea Press Center in Jung-gu, Seoul, in recognition of its chip technology specialized for LLM inference. The same day, Nota said it optimized Moonshot AI's ultra-large model Kimi K3.1 Pro. The model has 2.8 trillion parameters, and the optimization lets a model that required eight Nvidia B300 GPUs also run on eight B200 GPUs. Chosun Biz, Tech M, Datanet and EBN reported that this cut initial GPU purchase costs by up to about 20%, while Hellot reported that, by its own estimate, cloud GPU rental costs fall by up to 22%. Techworld News reported that on the 9th Nota unveiled optimization technology that raises inference performance and energy efficiency in environments using AMD GPUs and NPUs together, and that response time was cut by up to 52%.",
+          "Glossary: Inference is the stage in which an AI model that has finished training produces answers to actual questions or inputs. LPU is a chip described in the articles as an LLM processing unit, and the name is used for the product HyperAccel promotes as built exclusively for LLM inference."
+        ]
+      }
     },
     {
       "id": "h20261113-5571d51337c5",
@@ -287,7 +317,22 @@
           "link": "https://www.bloter.net/news/articleView.html?idxno=678002"
         }
       ],
-      "author": "Ethan Chen"
+      "author": "Ethan Chen",
+      "en": {
+        "title": "National AI Strategy Committee Launches Cyber Resilience Task Force, Plans Strategy by Q1 Next Year",
+        "points": [
+          "National AI Strategy Committee launches national cyber resilience task force",
+          "Aims to counter AI-based cyberattacks and keep core services running",
+          "Plans to draw up strategy by the first quarter of 2027"
+        ],
+        "body": [
+          "The National AI Strategy Committee launched a national cyber resilience task force (TF) on the 12th. The Elec, Techworld News, iNews24 and Digital Daily reported the news. According to Techworld News, the TF is an organization meant to counter AI-based cyber threats and ensure the continuity of key national functions and essential services.",
+          "Outlets stress somewhat different points about the background to the launch. The Elec reported that it is a measure to supplement defense-focused security policy as AI advances make cyberattacks more sophisticated. iNews24 reported that it is a government-wide dedicated body focused not only on blocking cyberattacks in advance but on keeping core services running and recovering quickly even when a breach occurs. Techworld News explained that the TF is a follow-up to the third plenary meeting of the National AI Strategy Committee held on the 6th.",
+          "Some of the schedule was also disclosed. According to The Elec, the committee plans to draw up a national cyber resilience strategy by the first quarter of 2027. Digital Daily's headline previewed the announcement of a roadmap in the first quarter of next year.",
+          "The committee also kept up other activities that week. According to Hellot and Digital Daily, the National AI Strategy Committee and the Ministry of Science and ICT held a citizens' forum on AI issues on the 12th at the Institute of Technology at Hanyang University in Seoul. The topic was AI technology and disinformation, and about 100 citizen panelists took part. Earlier, on the 11th, the Ministry of SMEs and Startups, together with the National AI Strategy Committee, announced a strategy to nurture AI startups as \"beyond unicorns.\" Hellot reported that the goal is to grow 20 AI startups valued at 1 trillion won each by 2030, while AI Times reported that the plan is to grow 20 AI unicorns valued at 1 trillion won or more and one decacorn valued at 10 trillion won or more. On the 6th, Blotter reported that, as the committee enters its second year, it is setting legislative guidelines and reorganizing governance to curb a proliferation of 477 AI-related bills.",
+          "Glossary: Cyber resilience is the ability to maintain core functions or recover quickly even when an incident such as a cyberattack occurs. A task force (TF) is a dedicated team formed temporarily for a specific assignment."
+        ]
+      }
     },
     {
       "id": "h20261113-5655d4e372ea",
@@ -369,7 +414,23 @@
           "link": "https://biz.chosun.com/policy/policy_sub/2026/11/13/BPLNCZ4T5ZC4ZHS4GQDNBHUTDQ"
         }
       ],
-      "author": "Haley Yun"
+      "author": "Haley Yun",
+      "en": {
+        "title": "Google and Samsung Unveil Gemini-Based Intelligent Eyewear, From 650,000 Won in Korea",
+        "points": [
+          "Google unveils AI glasses with Samsung, Gentle Monster and Warby Parker",
+          "Pre-orders open in Korea and the U.S., from 650,000 won in Korea",
+          "Features include translation, navigation and meeting summaries"
+        ],
+        "body": [
+          "Google said on the 13th that it has unveiled a Gemini-based intelligent eyewear lineup built in collaboration with Samsung Electronics, Gentle Monster and Warby Parker, and opened pre-orders in Korea and the U.S. Datanet and Digital Today reported the same news. Chosun Biz and Korea NGO News reported that Samsung Electronics showed the full lineup of the product in New York on the 12th (local time).",
+          "Based on domestic reports, the price and release timing are as follows. Chosun Biz reported that the domestic price is 650,000 to 700,000 won, while iNews24 and Digital Daily reported prices starting at 650,000 won. Korea NGO News said in its headline that the product launches in Korea on Dec. 10. Digital Daily reported that on the 13th Gentle Monster said it will launch 16 new models weighing about 41 grams and combining Gemini features simultaneously in Korea and the U.S. in December. AI Newspaper (인공지능신문) wrote in its headline that Samsung Electronics unveiled 30 AI glasses models with Google, so the product count differs by outlet.",
+          "The features center on seeing and asking about the surroundings. Korea NGO News and iNews24 reported features such as questions about nearby objects, translation, navigation and meeting summaries. Techworld News explained that the glasses analyze objects and the surroundings in the wearer's field of view in real time, and AI Newspaper (인공지능신문) reported that the user has the camera recognize objects in front of them and asks questions by voice, and the AI provides information. Digital Today described it as a product that combines Gemini's real-time AI features with everyday eyeglass frames.",
+          "Chosun Biz offered a market interpretation. It reported that Samsung Electronics has moved in earnest into the AI glasses market that Meta pioneered with its Ray-Ban and Oakley brands. AI Newspaper (인공지능신문) reported that it is an attempt by Samsung Electronics to extend the AI experience beyond the smartphone screen.",
+          "In Korea at the same time, controversy over cheating involving AI glasses is growing. According to iNews24 and Chosun Biz, suspicions were raised that this year's top scorer in the certified tax accountant exam wore AI smart glasses, and the Korean Association of Tax Accountants called on the 12th for a fact-finding investigation. Chosun Biz reported that in an explanatory press release on the 13th, the Prime Minister's Office said it will respond with zero tolerance to cheating using AI smart glasses and similar devices in the College Scholastic Ability Test on the 19th.",
+          "Glossary: Wearable devices are electronic devices worn on the body, such as glasses or watches."
+        ]
+      }
     },
     {
       "id": "h20261113-ae36c2f691ea",
@@ -462,7 +523,22 @@
           "link": "https://www.epnc.co.kr/news/articleView.html?idxno=409741"
         }
       ],
-      "author": "Ashley Yang"
+      "author": "Ashley Yang",
+      "en": {
+        "title": "Intel Korea Signs MOU With Seoul AI Hub and Launches K-AI Full-Stack Alliance",
+        "points": [
+          "Intel Korea signs startup-support MOU with Seoul AI Hub",
+          "Intel Korea forms K-AI alliance with 23 domestic companies",
+          "Intel AI Summit Seoul also brings partnerships with DeepX and Panmnesia"
+        ],
+        "body": [
+          "Intel Korea announced a series of cooperation plans for the domestic AI ecosystem on the 12th at the 2026 Intel AI Summit Seoul, held at COEX in Samseong-dong, Seoul. According to Digital Today, about 1,000 domestic and overseas partners and industry officials attended, and 52 companies took part. At the event, Intel announced a memorandum of understanding (MOU) with Seoul AI Hub and the launch of the K-AI Full-Stack Alliance.",
+          "The agreement with Seoul AI Hub aims to support AI startups. Game Talk reported that it is the first cooperation to bring Intel's global startup program to Korea. IT Chosun reported that it will connect Intel's technology and global network to domestic startups and that the two sides are also pursuing plans to introduce Intel's Asia-Pacific and Japan (APJ) startup development program in Korea in 2027. Digital Daily reported that it supports AI companies' solution development and technology validation, and Datanet named Seoul AI Hub director Byun Woo-seok and Intel Korea CEO Bae Tae-won and described it as a cooperation framework linking stronger technological competitiveness and global growth.",
+          "The K-AI Full-Stack Alliance is a cooperative body in which domestic companies take part together. AI Newspaper (인공지능신문) reported that Intel Korea has begun building an ecosystem spanning sovereign AI and physical AI with 23 domestic companies. The structure links hardware such as chips and servers to AI models, software and industry-specific solutions. VentureSquare introduced the same body as an open ecosystem with 23 companies and institutions taking part. Medical Times (의학신문) and VentureSquare reported that Selvas AI and its affiliate Mediana have also joined the alliance to expand their enterprise AI and medical AI businesses.",
+          "Individual partnerships were announced the same day. According to Techworld News, DeepX signed an MOU with Intel Korea on AI chip technology cooperation and also concluded a separate three-way agreement that includes domestic server specialist KTNF. Digital Daily reported that Panmnesia will link Intel Xeon processors with its own CXL switch to move toward commercializing CXL-based memory expansion technology. Techworld News reported that at the summit Intel Korea presented a case of non-face-to-face identity verification based on AI video calls with Mesacure Company and NH NongHyup Bank.",
+          "Glossary: Sovereign AI refers to a country or company operating AI independently with its own data and infrastructure. Physical AI refers to AI that moves in the physical world, such as robots or autonomous vehicles."
+        ]
+      }
     },
     {
       "id": "b20261113",
@@ -673,7 +749,25 @@
           "link": "https://www.ddaily.co.kr/page/view/2026111309562371855"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "Nov. 13 AI Briefing: Nvidia Steadies After Jensen Huang's Exit, Google and Samsung Unveil AI Glasses",
+        "points": [
+          "Nvidia's Jensen Huang resigns; Kress takes over as interim CEO",
+          "Samsung Electronics and Google unveil Gemini AI glasses",
+          "Government vows zero tolerance for AI glasses cheating on the CSAT"
+        ],
+        "body": [
+          "Nvidia announced on the 12th (local time) that co-founder Jensen Huang resigned, effective immediately, as president, CEO and director. CFO Colette Kress will serve as interim CEO until a permanent successor is named, and Harvey Jones will be the new board chair. IT Chosun reported that he left after controversy over his private life and national security suspicions.",
+          "After the resignation, Nvidia moved to steady the organization. According to iNews24, interim CEO Kress told employees that this is an extremely difficult time and called an all-hands meeting for the 18th. Chosun Biz reported that early in New York trading Nvidia opened about 13% lower than the previous close, at around $150, while Digital Daily reported that Nvidia fell 4.4% that day. According to Digital Today, President Trump named Tim Cook as a possible successor.",
+          "Google unveiled Gemini-based intelligent eyewear built with Samsung Electronics, Gentle Monster and Warby Parker, and opened pre-orders in Korea and the U.S. Chosun Biz reported the domestic price at 650,000 to 700,000 won, and Digital Daily reported prices starting at 650,000 won. Korea NGO News reported a Dec. 10 domestic release, and features such as translation, navigation and meeting summaries were introduced.",
+          "Concern about cheating involving AI smart glasses has also grown. The Korean Association of Tax Accountants called for a fact-finding investigation into suspicions that the top scorer in the tax accountant exam used AI glasses. According to Chosun Biz, the Prime Minister's Office said on the 13th that it will respond with zero tolerance to cheating using AI smart glasses and similar devices in the CSAT on the 19th, and Korea NGO News reported that dedicated staff will be deployed at each exam site.",
+          "Intel Korea held the 2026 Intel AI Summit Seoul at COEX in Seoul on the 12th. It signed an agreement with Seoul AI Hub to support AI startups and, according to AI Newspaper (인공지능신문), launched the K-AI Full-Stack Alliance with 23 domestic companies. Digital Today reported that about 1,000 people attended the event.",
+          "The National AI Strategy Committee launched a national cyber resilience task force on the 12th. It is an organization meant to counter AI-based cyber threats and ensure the continuity of core services, and according to The Elec, the committee plans to draw up a strengthening strategy by the first quarter of 2027.",
+          "Hancom said its AI revenue on a standalone basis in the third quarter was 14.8 billion won, or 30.7% of total revenue. That is more than double the 13.7% in the first half, and according to AI Times, the company is speeding up its global business centered on its agentic OS and Nomadian.",
+          "Elice Group built Nvidia B300 GPU infrastructure under the Ministry of Science and ICT's advanced GPU support program and began a beta service. IT Chosun reported that it uses warm-water and outside-air cooling and plans to begin a full service within the year."
+        ]
+      }
     },
     {
       "id": "s20261113-9e1836b64a5c",
@@ -748,7 +842,22 @@
           "link": "https://www.kmib.co.kr/article/20261113500261"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "Tax Accountants Association Calls for Probe Into Top Scorer's AI Glasses Suspicion; Government Vows Zero Tolerance on CSAT",
+        "points": [
+          "Tax accountants association calls for probe into top scorer's AI glasses suspicion",
+          "Suspicion grew over a single wrong answer out of 160 questions on first-round exam",
+          "Government vows zero tolerance for AI smart glasses cheating on the CSAT"
+        ],
+        "body": [
+          "After suspicion arose that this year's top scorer in the certified tax accountant exam used AI smart glasses, the Korean Association of Tax Accountants issued a statement on the 12th calling on the relevant authorities to conduct a thorough fact-finding investigation. iNews24, Chosun Biz and Kukmin Ilbo reported the news. According to Chosun Biz, the association stressed the fairness of the tax accountant exam in its statement.",
+          "Digital Daily reported what was cited as grounds for the suspicion. According to the outlet, suspicion of cheating grew when it became known that the top scorer got only one question wrong out of 160 on the first-round exam. iNews24 reported that the condition of the runner-up's marked-up textbooks in the same exam was posted online and drew attention. These are suspicions raised in online communities and media reports, and there have been no reports yet that cheating was confirmed.",
+          "The controversy spread across exams more broadly. According to iNews24, after some netizens raised the possibility that this year's perfect scorer on the Law School Admission Test (LEET) used a smart device, the scorer said they would solve the Korean language section of the 2027 CSAT live in a real-time broadcast.",
+          "The government set out its level of response ahead of the CSAT. Chosun Biz reported that in an explanatory press release on the 13th, the Prime Minister's Office said it will respond with zero tolerance to cheating using AI smart glasses and similar devices in the CSAT on the 19th. Korea NGO News reported that the principle is to be willing to file complaints and request investigations, and that dedicated staff will be deployed at each exam site. Kukmin Ilbo reported that on the 11th the Seoul Metropolitan Office of Education held training for headquarters staff in charge of smart glasses at the CSAT, where a company representative demonstrated smart glasses. Digital Daily reported that smart glasses will be banned from CSAT exam sites this year.",
+          "Glossary: Smart glasses are eyeglass-type wearable devices equipped with a camera, microphone, and display or speaker that show information or relay it by voice."
+        ]
+      }
     },
     {
       "id": "s20261113-7e6abf663454",
@@ -841,7 +950,22 @@
           "link": "https://it.chosun.com/news/articleView.html?idxno=3000000000839"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "Nvidia Interim CEO Calls All-Hands for the 18th as Huang's Exit Sends Shares Sharply Lower",
+        "points": [
+          "Interim CEO Kress tells staff it is an extremely difficult time",
+          "All-hands called for the 18th, the day after Q3 earnings",
+          "Shares plunge on resignation news; Trump recommends Tim Cook as successor"
+        ],
+        "body": [
+          "Organizational recovery began after Nvidia CEO Jensen Huang's resignation. Interim CEO Colette Kress sent an email to employees on the 12th (local time) saying she recognizes that this is an extremely difficult time. Newsis cited CNN, and iNews24 cited an internal email released by IT outlet The Verge. According to iNews24, Kress called an all-hands meeting for the 18th, the day after Nvidia's third-quarter earnings announcement. EBN reported that Kress urged confidence in the company's future and will share the future management direction at the meeting.",
+          "The figures on the stock move differ depending on when they were reported. Chosun Biz reported that early in New York trading Nvidia opened about 13% below the previous close, at around $150, and that its market capitalization fell below $4 trillion for the first time since July 2025. Kukmin Ilbo also reported a 13% plunge at the open. Digital Daily, by contrast, reported that Nvidia fell 4.4% that day as the three major New York indexes fell together, adding that AI cloud companies such as CoreWeave and Nebius also plunged. The Scoop reported that New York stocks closed lower amid the shock of Nvidia's CEO resignation and fears of interest rate hikes, with the U.S. Treasury yield topping 5% and the dollar rising to its highest level in 19 months.",
+          "Politicians also commented on a successor. According to Newsis, AI Times and Digital Today, U.S. President Trump recommended Tim Cook as Huang's successor in a Truth Social post on the 12th. Newsis described Tim Cook as chairman of Apple's board, while AI Times described him as a former Apple CEO. AI Times reported that Nvidia is searching for a permanent successor with an outside specialist firm and that semiconductor industry figures such as Ian Buck and Rene Haas are also being mentioned as candidates.",
+          "Earlier, IT Chosun reported that the WSJ had reported on the 11th (local time) that the board was preparing to dismiss CEO Huang.",
+          "Glossary: Market capitalization is the number of shares outstanding multiplied by the share price, and indicates the size of a company as valued by the market."
+        ]
+      }
     },
     {
       "id": "s20261113-287a2a7ac3d5",
@@ -922,7 +1046,22 @@
           "link": "https://www.venturesquare.net/1127150"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "Korean AI Firms Win CES 2027 Innovation Awards in Quick Succession: Medicherry, Vueron, AlgoCare, Cranberry",
+        "points": [
+          "Medicherry, Vueron, AlgoCare and Cranberry win CES 2027 Innovation Awards",
+          "AI for medical education, autonomous driving, emotional health and sound analysis",
+          "CES 2027 runs Jan. 6 to 9 next year"
+        ],
+        "body": [
+          "Korean AI companies have been announcing wins of CES 2027 Innovation Awards one after another. According to Medical Times (의학신문), Medicherry (CEO Cho Dae-hyung), a company supported by the Korea University Guro Hospital Open Lab operation program, won an Innovation Award for MyMerci, its AI medical education platform. Datanet reported that Vueron Technology (CEO Kim Jae-kwang) said on the 12th that it won an Innovation Award in the vehicle technology and advanced mobility category for X Prospector, its autonomous driving perception AI platform.",
+          "VentureSquare reported that AlgoCare won Innovation Awards in two categories for AlgoMind, its AI-based emotional and cognitive health management solution, bringing its cumulative total to eight awards. The technology is designed to analyze facial expressions, voice and touch patterns while a user operates a supplement dispenser, to detect signs of change in emotional and cognitive function. Cranberry (CEO Lee Eun-hye) won an Innovation Award in the AI category for Sobric, its integrated AI sound analysis solution. Boan News reported that its distinguishing feature is combining sound analysis technology with existing video-centered safety monitoring to detect even hazards in camera blind spots. The Elec reported that Cranberry will take part in CES 2027, to be held Jan. 6 to 9 next year in Las Vegas.",
+          "Techworld News explained that the CES Innovation Awards are given by the Consumer Technology Association (CTA) before CES opens, after a comprehensive evaluation of technology, design and innovation.",
+          "Recent trend: Earlier reports also carried similar award news. According to VentureSquare, SoulArt won a Best of Innovation award in the XR and spatial computing category for its markerless full-body motion tracker, which tracks whole-body movement without extra equipment using spatial recognition technology and on-device AI. Hellot reported that Wizcore won a Best of Innovation award for its AI-applied traditional wooden architecture design technology, cutting manual work that took 420 days to seven days. VentureSquare reported that DeepX's generative AI chip DX-M2 was selected as an Innovation Award honoree in the artificial intelligence category and is being developed with the goal of running LLM and VLM inference at about 5W on Samsung Foundry's 2-nanometer process. VentureSquare reported that Panmnesia won Innovation Awards in two categories for PanSwitch.",
+          "Glossary: On-device AI is a method of processing AI computation directly inside a device without going through a server or the cloud."
+        ]
+      }
     },
     {
       "id": "h20261112-e940acf9568d",
