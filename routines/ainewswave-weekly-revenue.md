@@ -23,7 +23,7 @@ ainewswave(https://ainewswave.com) 주간 수익 기록 작업입니다. 매주 
 5. routine_days 컬렉션의 오늘 날짜 문서(doc_id "YYYY-MM-DD")가 있으면 update 로 items.a06 = {done: true, at: "HH:MM", by: "Claude", note: 한 줄 결과}를 넣고, 없으면 {date, items: {a06: ...}} 로 set 합니다.
 
 3단계: 저장소 기록
-1. 맥의 저장소 ~/Dropbox/수익화프로젝트/claude_ainewswave 에서 git pull 후 WORKLOG.md 의 "## 기록 (최신이 위)" 바로 아래에 "- YYYY-MM-DD: 주간 수익 기록(애드센스 상태, 이번 달 N원, 체크리스트 변경 K개)." 한 줄을 넣고 커밋, 푸시합니다. 커밋 메시지 끝에 "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>" 를 붙입니다.
+1. 맥의 저장소 /Users/hazelyu/Library/CloudStorage/Dropbox/수익화프로젝트/ainewswave 에서 git pull 후 WORKLOG.md 의 "## 기록 (최신이 위)" 바로 아래에 "- YYYY-MM-DD: 주간 수익 기록(애드센스 상태, 이번 달 N원, 체크리스트 변경 K개)." 한 줄을 넣고 커밋, 푸시합니다. 커밋 메시지 끝에는 그 세션 안내에 나온 Co-Authored-By 줄을 붙입니다. git 명령이 멈추거나 오류가 나면(드롭박스 동기화로 .git 이 깨진 적이 있음) 커밋하지 말고 보고합니다.
 
 하지 않는 것: 메일, 슬랙 발송, 애드센스 설정 변경, 재검토 요청, 결제 정보 입력, 대시보드 페이지 재게시.
 마지막에 애드센스 상태, 이번 달 수익, 체크리스트 변경 내용을 두세 줄로 보고합니다.
