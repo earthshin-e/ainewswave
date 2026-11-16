@@ -16,7 +16,7 @@
 - 11/16 Search Console 색인 60, 미색인 650(발견됨 미색인 650). 색인 요청 예약 작업 첫 실행 6건, 한도 도달.
 - 수집 예약 실행: 11/4까지 하루 약 23회(이미 1시간 간격 수준), 11/5부터 하루 3-5회로 급감. 실패나 취소 없이 GitHub 쪽에서 schedule 이벤트를 건너뜀(공개 저장소라 분 사용량 문제 아님). 사이트는 매일 18시 push 실행으로 발행돼 돌아가지만 30분 수집은 사실상 멈춤. 11/15 cron 을 "7,37 * * * *" 로 바꿔 푸시(1ba0e96), 효과 확인 중.
 - 이전 지표: Search Console 색인 17, 미색인 149(화면 갱신 10/23 기준), 기간 노출 80(10/30). GA4 30일 사용자 70(10/28).
-- 애드센스: 10/24 Auto ads 켜짐, 노출 0. 11/15 22:59 기준 Getting ready(검토 중), ads.txt 표시는 아직 Not found(애드센스 쪽 갱신 지연).
+- 애드센스: 10/24 Auto ads 켜짐, 노출 0. 11/16 21:30 기준 Getting ready(검토 중), ads.txt Authorized.
 - 맥 저장소 위치는 예전 기록에 ~/teamspot/ainewswave 로 적혀 있으나, 정본 기준 작업 폴더는 드롭박스 /수익화프로젝트/ainewswave, 원본은 GitHub. 맥 실제 위치 확인 필요.
 - 대시보드: https://claude.ai/artifact/GAzH12BwLPuTNVkbXyWpHr (10/17 갱신).
 
@@ -44,6 +44,7 @@
 - 2026-10-16: 맥, 폰 어디서든 이어서 작업하도록 GitHub(earthshin-e/ainewswave)와 구글 드라이브(hazel@teamspot.biz/ainewswave)로 관리하기로 함.
 
 ## 기록 (최신이 위)
+- 2026-11-16 21:30 밀린 작업 점검: (1) 수집 cron 효과: 11/15 23:56 이후 schedule 실행이 11/16 06:13 UTC(15:13 KST)까지 하루 2회뿐이라 변경 후 효과 없음으로 보임(11/16 schedule 1회, 11/15 밤 2회). 외부 스케줄러 2안 결정 필요. (2) 애드센스 ainewswave.com 은 Getting ready 그대로, ads.txt 상태가 Not found 에서 Authorized 로 바뀜(21:30 확인). (3) 지표 기록: SC 7일(11/8-14) 클릭 2, 노출 79, 평균 순위 16.3. GA4 30일 사용자 59, 조회 106. (4) 11/16 색인 요청은 예약 작업 6건에서 한도라 추가 요청 안 함.
 - 2026-11-16 19:40 색인 요청 6건(예약 작업 ainewswave-index-daily 첫 실행, 맥 크롬, Search Console hazelyuu@gmail.com): b20261116, h20261116-48606f2b4542, cba836238d31, fc2935467815, b49e4cbef67f, 377f4ad07377. 7번째 s20261116-6a53bdc252a6 에서 Quota Exceeded 가 떠 중단(기록 안 함). 남은 순서: s20261116 2건, 키워드 LG 와 엔비디아, 11/15 남은 기사 4건. 색인 현황 색인 60, 미색인 650(발견됨 미색인 650, 크롤링됨 미색인 0). 통계/색인요청_로그.csv 합계 62건.
 - 2026-11-16 00:15 예약 작업 다시 등록(사용자 지시): 이 맥 예약 목록에 ainewswave 작업이 없었음. ainewswave-index-daily(매일 19:40)와 ainewswave-weekly-revenue(일요일 22:30)를 만들고, routines/ 지시문 2개의 옛 폴더 이름 claude_ainewswave 를 ainewswave 로 고침. 색인 지시문 배경 수치도 11/15 기준(색인 48, 미색인 632)으로 바꿈. 두 작업은 자동 모드로 저장됨.
 - 2026-11-16 00:10 애드센스: ainewswave.com Getting ready 그대로(마지막 갱신 11/15 22:59), ads.txt 표시 Not found 지만 실제 파일은 200 정상.
