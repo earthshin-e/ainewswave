@@ -47,7 +47,22 @@
           "link": "https://www.epnc.co.kr/news/articleView.html?idxno=409901"
         }
       ],
-      "author": "Chloe Park"
+      "author": "Chloe Park",
+      "en": {
+        "title": "AWS Launches \"Kiro Bots,\" AI Agents That Handle the Development Process",
+        "points": [
+          "AWS launches long-running AI agents, Kiro bots",
+          "Cover work from issue management to code review and release preparation",
+          "Distinguished from one-off, query-style coding tools"
+        ],
+        "body": [
+          "Amazon Web Services (AWS) has released \"Kiro bots,\" long-running AI agents for its AI development workspace \"Kiro Crew.\" Datanet and iNews24 reported that AWS announced it on the 17th.",
+          "According to VentureSquare, Kiro bots handle tasks for each stage of the development process, such as issue management, build checks, code review and release preparation, and run multiple work sessions themselves. Datanet described Kiro bots as AI agents that continuously take charge of a specific area of the software development process.",
+          "iNews24 reported that Kiro bots take on a specific role, unlike coding tools that answer one-off queries. Techworld News summarized that they handle multiple tasks in parallel and manage progress, so developers can focus on key decisions and reviewing results.",
+          "Outlets word the release slightly differently. VentureSquare and Datanet wrote \"official launch,\" while iNews24 said it is \"offered\" and Techworld News said it was \"unveiled.\"",
+          "Glossary: An AI agent is an AI program that judges for itself and uses tools to carry out tasks toward a given goal. Code review is the process in which someone else examines written code to find errors and improvements."
+        ]
+      }
     },
     {
       "id": "h20261117-3c9222ffdab6",
@@ -62,7 +77,7 @@
       "body": [
         "삼성전자가 학교 방문형 AI 교육 프로그램 '갤럭시 AI 클래스'에 헤드셋 형태의 '갤럭시 XR'을 활용한 체험 과정을 추가했다. 삼성전자 뉴스룸(회사 발표)은 이를 교실 속 AI 경험을 확대하는 조치로 소개했고, 여러 매체가 17일 이 내용을 전했다.",
         "갤럭시 AI 클래스는 전문, 보조 강사가 학교를 찾아가 초등학교 고학년과 중학생에게 갤럭시 기기로 AI를 가르치는 프로그램이다. 삼성전자 뉴스룸과 IT조선에 따르면 2025년 1월에 시작했다.",
-        "디일렉은 삼성전자가 16일부터 선택 과목인 여행 수업에 갤럭시 XR 체험을 도입한다고 17일 밝혔다고 전했고, 대상은 여행 과목을 신청한 중학교 2~3학년 학급이라고 설명했다. 디지털데일리와 테크월드뉴스도 16일부터 체험 과정을 추가했다고 썼다. 반면 EBN은 17일 도입한다고 표현해, 시작일을 쓴 매체와 발표일을 쓴 매체가 갈린다.",
+        "디일렉은 삼성전자가 16일부터 선택 과목인 여행 수업에 갤럭시 XR 체험을 도입한다고 17일 밝혔다고 전했고, 대상은 여행 과목을 신청한 중학교 2~3학년 학급이라고 설명했다. 디지털데일리와 테크월드뉴스도 16일부터 체험 과정을 추가했다고 썼다.",
         "인공지능신문은 학생들이 AI와 대화하면서 가상 공간을 탐색하고 눈앞의 사물을 검색하는 등 멀티모달 AI를 직접 경험하도록 교육 방식을 넓힌 것이라고 전했다. 이 매체는 제목에서 '20만 명 AI 교육'을 언급했고, 기존 스마트폰 중심의 AI 학습을 몰입형 체험 교육으로 확대하는 것이라고 설명했다. IT조선은 교실에서 '3D 여행'을 체험하는 수업이라는 점을 제목에 담았다.",
         "용어 풀이: XR(확장현실)은 가상현실(VR), 증강현실(AR) 등 현실과 가상을 결합하는 기술을 아우르는 말이다. 멀티모달 AI는 글, 이미지, 음성처럼 서로 다른 형태의 정보를 함께 이해하고 처리하는 AI를 뜻한다."
       ],
@@ -116,7 +131,22 @@
           "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1731909"
         }
       ],
-      "author": "Haley Yun"
+      "author": "Haley Yun",
+      "en": {
+        "title": "Samsung Electronics Adds \"Galaxy XR\" Experience Course to Galaxy AI Class",
+        "points": [
+          "Samsung brings Galaxy XR to Galaxy AI Class",
+          "XR experience lessons run in the elective travel course",
+          "Expands smartphone-centered AI education into immersive experience"
+        ],
+        "body": [
+          "Samsung Electronics has added an experience course using the headset-type \"Galaxy XR\" to \"Galaxy AI Class,\" its school-visit AI education program. Samsung Newsroom (a company announcement) presented it as a step to expand AI experiences in the classroom, and several outlets reported it on the 17th.",
+          "Galaxy AI Class is a program in which specialist and assistant instructors visit schools to teach upper elementary and middle school students about AI using Galaxy devices. According to Samsung Newsroom and IT Chosun, it began in January 2025.",
+          "THE ELEC reported that Samsung said on the 17th it will introduce the Galaxy XR experience from the 16th in the elective travel course, and explained that the targets are classes of second- and third-year middle school students who signed up for the travel subject. Digital Daily and Techworld News also wrote that the experience course was added from the 16th.",
+          "AI Newspaper (인공지능신문) reported that the education method was widened so students can directly experience multimodal AI, such as exploring virtual spaces while talking with AI and searching for objects in front of them. The outlet mentioned \"AI education for 200,000 people\" in its headline and explained that it expands smartphone-centered AI learning into immersive experience-based education. IT Chosun put in its headline that it is a class where students experience a \"3D trip\" in the classroom.",
+          "Glossary: XR (extended reality) is a term covering technologies that combine the real and virtual, such as virtual reality (VR) and augmented reality (AR). Multimodal AI is AI that understands and processes different forms of information together, such as text, images and speech."
+        ]
+      }
     },
     {
       "id": "h20261117-3a1c91e5b1eb",
@@ -126,12 +156,12 @@
       "points": [
         "정부, 수능 AI 부정행위 대국민 담화 발표",
         "전자기기 반입과 시험장 점검 대폭 강화",
-        "응시 제한 최대 10년 입법 추진, 실효성 논란"
+        "응시 제한 최대 10년 추진, 실효성 논란"
       ],
       "body": [
         "정부가 19일 치러지는 2027학년도 대학수학능력시험을 앞두고 AI와 스마트기기를 이용한 부정행위 대책을 내놨다. 테크월드뉴스는 전자기기 반입과 시험장 점검을 대폭 강화하고 스마트안경과 초소형 카메라까지 집중 점검한다고 전했다. 교수신문은 한성숙 국무총리가 수능 부정행위 근절 대국민 담화를 발표했다고 보도했다.",
         "아이뉴스24는 17일 오후 서울정부청사에서 열린 담화 발표 자리에 한성숙 국무총리, 배경훈 부총리 겸 과학기술정보통신부 장관, 김종철 경찰청장 직무대행, 최은옥 교육부 차관이 질의응답 자리에 참석했다고 전했다. 교수신문에 따르면 정부는 부정행위자의 수능 응시자격 제한 기간을 현행 1년에서 최대 10년으로 늘리는 방안을 추진한다.",
-        "정치권에서도 같은 방향의 발언이 나왔다. 국민일보와 조선비즈는 김민석 더불어민주당 대표가 17일 AI 부정행위 적발 시 응시 제한을 최대 10년으로 늘리는 입법을 추진하겠다고 밝혔다고 전했다. 조선비즈는 김 대표가 당 유튜브 프로그램에서 긴급 입법화를 재차 언급했다고 썼다. 다만 한국NGO신문은 16일 보도에서 세무사 시험 등 각종 국가시험 사례를 들며 응시 제한을 현행 5년에서 최대 10년으로 확대하는 방안을 검토한다고 전했다. 수능의 1년과 숫자가 다르고, 어느 시험의 기간인지는 요약만으로는 확인되지 않는다.",
+        "정치권에서도 같은 방향의 발언이 나왔다. 국민일보와 조선비즈는 김민석 더불어민주당 대표가 17일 AI 부정행위 적발 시 응시 제한을 최대 10년으로 늘리는 입법을 추진하겠다고 밝혔다고 전했다. 조선비즈는 김 대표가 당 유튜브 프로그램에서 긴급 입법화를 재차 언급했다고 썼다. 다만 한국NGO신문은 16일 보도에서 세무사 시험 등 각종 국가시험 사례를 들며 응시 제한을 현행 5년에서 최대 10년으로 확대하는 방안을 검토한다고 전했다. 이 보도가 전한 현행 기간 5년은 수능 응시 제한 기간으로 전해진 1년과 다르다.",
         "시험장 안팎의 대응도 나왔다. IT조선은 공공 와이파이 차단과 안경, 시계 전수점검, 옷깃, 소매, 단추 확인 등을 추진한다고 전하며 실효성에 의문이 제기된다고 썼고, 제목에서 '5G는 그대로, 탐지기는 내년에'라고 짚었다. 조선비즈는 AI 부정행위가 의심되면 정부가 글로벌 빅테크 기업에 협조를 요청해 사후 조사에 나선다고 전했다.",
         "온라인 정보 유통에도 손을 댄다. 아이뉴스24는 방송미디어통신위원회 관계자의 말을 인용해, 구체적인 부정행위 방법이나 장비 구매처를 안내하는 게시물을 긴급심의로 삭제하는 방안을 전했다. 인더스트리뉴스는 정상적인 용도로도 쓰이는 기기의 판매를 일괄 금지하기보다 게시물의 내용과 위법성을 따져 판단하는 방식이라고 설명했다.",
         "용어 풀이: 스마트안경은 안경 모양 기기에 카메라와 통신 기능 등을 넣은 웨어러블 기기를 말한다."
@@ -204,7 +234,23 @@
           "link": "https://www.inews24.com/view/2027277"
         }
       ],
-      "author": "Ethan Chen"
+      "author": "Ethan Chen",
+      "en": {
+        "title": "Government Announces Anti-AI-Cheating Measures Two Days Before CSAT, Pursues Exam Ban of Up to 10 Years",
+        "points": [
+          "Government issues national address on AI cheating at the CSAT",
+          "Sharply tightens electronic device rules and exam-site checks",
+          "Exam ban of up to 10 years pursued, effectiveness questioned"
+        ],
+        "body": [
+          "Ahead of the 2027 College Scholastic Ability Test (CSAT) on the 19th, the government has announced measures against cheating with AI and smart devices. Techworld News reported that it will sharply tighten the carrying in of electronic devices and exam-site checks, with intensive checks even for smart glasses and miniature cameras. Professors' Newspaper (교수신문) reported that Prime Minister Han Seong-sook delivered a national address on eradicating CSAT cheating.",
+          "iNews24 reported that Prime Minister Han Seong-sook, Deputy Prime Minister and Minister of Science and ICT Bae Kyung-hoon, Acting National Police Agency Commissioner Kim Jong-chul and Vice Education Minister Choi Eun-ok took part in the question-and-answer session at the address, held on the afternoon of the 17th at the Government Complex Seoul. According to Professors' Newspaper, the government is pursuing a plan to extend the period during which cheaters are barred from taking the CSAT from the current one year to up to 10 years.",
+          "Remarks in the same direction came from politics. Kukmin Ilbo and Chosun Biz reported that Democratic Party leader Kim Min-seok said on the 17th that he would push legislation to extend the exam ban to up to 10 years when AI cheating is caught. Chosun Biz wrote that Kim again mentioned urgent legislation on the party's YouTube program. However, the Korea NGO Times reported on the 16th, citing cases in various national exams including the tax accountant exam, that the party is considering extending the ban from the current five years to up to 10 years. The current period of five years in that report differs from the one year reported as the CSAT ban period.",
+          "Responses in and around exam sites were also announced. IT Chosun reported that the government plans to block public Wi-Fi, check all glasses and watches, and inspect collars, sleeves and buttons, and wrote that doubts have been raised about their effectiveness, noting in its headline \"5G stays as is, detectors next year.\" Chosun Biz reported that if AI cheating is suspected, the government will ask global big tech companies to cooperate in a follow-up investigation.",
+          "The government is also moving on how information circulates online. Citing an official at the Korea Media and Communications Commission, iNews24 reported a plan to delete, through emergency deliberation, posts that explain specific cheating methods or where to buy equipment. Industry News explained that, rather than banning the sale of devices that also have normal uses across the board, the approach weighs the content and illegality of each post.",
+          "Glossary: Smart glasses are wearable devices in which a camera, communication functions and more are built into a glasses-shaped device."
+        ]
+      }
     },
     {
       "id": "h20261117-680f79bb3637",
@@ -286,7 +332,23 @@
           "link": "https://www.inews24.com/view/2026094"
         }
       ],
-      "author": "Ashley Yang"
+      "author": "Ashley Yang",
+      "en": {
+        "title": "Upstage Signs Sovereign AI Strategic Partnership With Canada's Cohere",
+        "points": [
+          "Upstage and Canada's Cohere form strategic partnership",
+          "Solar to be built into Cohere's agentic platform North",
+          "Joint sovereign AI development and push into Asia-Pacific enterprise market"
+        ],
+        "body": [
+          "Upstage has signed a strategic partnership with Canadian AI company Cohere to develop sovereign AI models and expand enterprise AI business. Upstage announced it on the 17th, and nine outlets reported the same news.",
+          "According to Techworld News, IT Chosun, Digital Today and EBN, the two companies held a signing ceremony at Upstage's office in Gangnam-gu, Seoul. Digital Today reported that Upstage CEO Kim Sung-hoon and Aidan Gomez, Cohere's co-founder and CEO, attended.",
+          "At the center of the cooperation is Cohere's agentic AI platform \"North.\" VentureSquare and TechM reported that Upstage's \"Solar Pro,\" \"Solar Mini\" and document-processing AI \"Document Parse\" will be combined with North. IT Chosun wrote that Upstage's own LLM Solar will be combined with Cohere's enterprise AI agent platform, and that the two will pursue joint model development and global business expansion. AI Newspaper (인공지능신문) put in its headline the combination of a Korean-specialized AI model and an agentic AI platform.",
+          "Outlets stress different aspects of the market scope. AI Times reported that the companies will target not only Korea but also the Asia-Pacific enterprise AI market, and introduced Cohere as a sovereign AI company specializing in regulated industries and the government sector. Datanet and EBN highlighted realizing global sovereign AI and targeting the enterprise AI market.",
+          "Recent developments: On the 13th, iNews24 reported that KT registered its own AI model \"Mi:dm K 3.0 Pro\" on the global AI model distribution platform OpenRouter, and that after Upstage, a Korean model entering the global AI distribution network is widening overseas expansion.",
+          "Glossary: Sovereign AI is the concept of a country or company running AI with its own data, infrastructure and models without depending on outside parties. Agentic AI refers to AI that, given a goal, makes its own plan and carries out multi-step tasks."
+        ]
+      }
     },
     {
       "id": "h20261117-99705ced4367",
@@ -380,7 +442,23 @@
           "link": "https://www.aitimes.com/news/articleView.html?idxno=217442"
         }
       ],
-      "author": "Kevin Wong"
+      "author": "Kevin Wong",
+      "en": {
+        "title": "Nvidia Shock Drags Down New York, Tokyo and Seoul Stocks Together",
+        "points": [
+          "New York stocks fall on the 16th, Nasdaq drops 2.5%",
+          "Nvidia down 4%, weakness spreads across AI big tech",
+          "Tokyo and Seoul stocks also fall together, led by chips"
+        ],
+        "body": [
+          "The fallout from former Nvidia CEO Jensen Huang's resignation spread across chip and AI-related stocks, shaking Asian and U.S. markets together on the 16th. The Korea NGO Times reported that major New York indexes all fell on the 16th (local time), and that the Nasdaq dropped 2.5% as selling concentrated on chip and tech stocks including Nvidia. The S&P 500 fell for a third straight session.",
+          "Kukmin Ilbo reported that the Dow Jones Industrial Average fell 739.38 points (1.41%) and Nvidia dropped 4.12%. AI Newspaper (인공지능신문) reported that, with Nvidia down more than 4%, selling spread to major big tech firms including Alphabet, Amazon and Tesla. Weakness was also visible early in the session. Chosun Biz wrote that the three major indexes opened lower amid a plunge in chip stocks, and Newsis reported in a breaking news item that the Nasdaq opened down 1.13%.",
+          "Declines also appeared in Tokyo the same day. Newsis reported that the Nikkei 225 fell back below the 60,000 mark and closed lower on the Tokyo market on the 16th. In Seoul, Digital Daily reported that the KOSPI barely held at the 5,100 level and foreign investors sold more than 1.3 trillion won of shares. Sisa Journal e wrote that the KOSPI plunged 3.59% the same day and foreign investors sold 1.7 trillion won. The two outlets' figures for foreign net selling differ.",
+          "Reports on the return rumors continued. EBN and iNews24 reported that CNBC, citing sources, said Nvidia's board is not considering Huang's return. Another iNews24 article reported that Korea's chip industry is watching closely after reports that Huang was discussing a return four days after stepping down, and that Samsung Electronics and SK hynix said their HBM cooperation is \"going ahead as planned.\" The time from his resignation to the return discussions differs from AI Times, which wrote \"three days.\"",
+          "Sisa Journal e cited uncertainty over Nvidia's management and a DRAM lawsuit as factors in the KOSPI plunge, and wrote that the market is watching Nvidia's earnings on the 18th.",
+          "Glossary: HBM (high-bandwidth memory) is memory that stacks DRAM in layers to raise data transfer speed and is used together with AI chips."
+        ]
+      }
     },
     {
       "id": "b20261117",
@@ -548,7 +626,24 @@
           "link": "https://www.hellot.net/news/article.html?no=116380"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "Nov. 17 AI Briefing: CSAT AI Cheating Measures, Nvidia-Driven Market Shock",
+        "points": [
+          "Government announces AI cheating measures two days before CSAT",
+          "Huang resignation drags Korean, U.S. and Japanese stocks down together",
+          "Korean companies line up sovereign AI and AI service partnerships"
+        ],
+        "body": [
+          "The government has announced measures against AI cheating two days before the CSAT. Prime Minister Han Seong-sook delivered a national address, and Techworld News reported that electronic device carry-in and exam-site checks will be tightened, including for smart glasses and miniature cameras. Professors' Newspaper (교수신문) reported that the government is pursuing a plan to extend the exam ban period from the current one year to up to 10 years.",
+          "The Nvidia shock rattled the markets. The Korea NGO Times reported that the Nasdaq fell 2.5% on the 16th (local time) and the S&P 500 fell for a third straight session. Sisa Journal e wrote that the KOSPI plunged 3.59% the same day, and Newsis reported that the Nikkei 225 fell below the 60,000 mark.",
+          "Upstage has signed a sovereign AI partnership with Canada's Cohere. The deal combines Upstage's \"Solar\" with Cohere's agentic AI platform \"North,\" and AI Times reported that it aims at the Asia-Pacific enterprise market.",
+          "Samsung Electronics added a \"Galaxy XR\" experience course to \"Galaxy AI Class,\" its school-visit AI education program. Samsung Newsroom (a company announcement) explained that it is a step to expand AI experiences in the classroom. According to THE ELEC, it applies from the 16th to the elective travel course.",
+          "AWS said on the 17th that it released \"Kiro bots,\" long-running AI agents for its AI development workspace \"Kiro Crew.\" VentureSquare reported that they handle issue management, build checks, code review and release preparation.",
+          "Dell Technologies said it will strengthen data management and infrastructure operations for its Nvidia-based AI factory. Betanews reported that the announcement supports large-scale data preparation, infrastructure management and adoption of validated solutions.",
+          "CJ Logistics unveiled \"TESIV,\" a brand for its AX management innovation solutions, and AIVEX said it will apply physical AI to a CJ CheilJedang frozen food line as the lead organization in the Ministry of Trade, Industry and Resources' AI Factory support program. VentureSquare reported that the total project budget for the AIVEX project is 5.24 billion won."
+        ]
+      }
     },
     {
       "id": "h20261116-48606f2b4542",
