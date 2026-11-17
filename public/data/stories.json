@@ -690,7 +690,23 @@
           "link": "https://biz.chosun.com/policy/politics/assembly/2026/11/15/BZJSTV3WF5EQLPPF6ZKSYK524M"
         }
       ],
-      "author": "Ethan Chen"
+      "author": "Ethan Chen",
+      "en": {
+        "title": "Government Forms Task Force After AI Cheating on Tax Accountant Exam, Launches Interagency Team Ahead of CSAT",
+        "points": [
+          "Presidential office orders full review of AI cheating in national qualification exams",
+          "Government to form joint task force and draw up comprehensive measures this year",
+          "Interagency emergency response team starts work ahead of the college entrance exam"
+        ],
+        "body": [
+          "The government has begun reviewing national exams across the board after the top scorer on the tax accountant exam was found to have cheated with AI. On the 15th, the presidential office held an \"emergency meeting on preventing the spread of AI-assisted cheating,\" chaired by Policy Chief Ha Jun-kyung, and said it would investigate every national qualification exam for suspected AI cheating. According to Chosun Biz and Digital Daily, the meeting was held four days before the 2027 College Scholastic Ability Test (CSAT). The Korea NGO Times reported that Presidential Chief of Staff Lim Kwang-hyun said at a briefing the same day that the office takes the matter very seriously.",
+          "Measures for the CSAT are laid out in more detail by Media Today, which relayed the presidential office's announcement. The office said it had intensively reviewed the exam-site supervision system, including setting up a procedure to check all test takers for AI devices, assigning staff at each site to judge AI devices, and strengthening training for test takers and proctors. Digital Daily reported that test takers' AI devices will be checked before the exam, and Kukmin Ilbo ran the presidential office's position that it will mobilize thermal imaging cameras and other tools in its headline.",
+          "Outlets differ in what they stress about follow-up measures for the qualification exams. Chosun Biz reported that the government will look into similar cases across all national qualification exams held this year, form a joint task force (TF) to review exam management, and release comprehensive measures against cheating within the year. Electric Times said sanctions are being pursued against the examinee, including invalidating the exam result, revoking the pass and barring the person from retaking for five years, and wrote that every national qualification exam held in 2026 will be investigated. Another Electric Times article reported that the Human Resources Development Service of Korea filed a complaint against the examinee on charges of obstructing business.",
+          "The response went a step further on the 16th. According to the Korea NGO Times, Prime Minister Han Seong-sook said at an interministerial meeting on preventing cheating with smart devices at the Government Complex Seoul that an interagency emergency response team for the CSAT will be activated. Digital Daily reported that the meeting decided to overhaul exam-site supervision, consider developing and rolling out AI-based cheating detection technology, and tighten follow-up investigations and sanctions. Industry News wrote that the response system will be strengthened from exam-site management and supervision to investigating irregularities after the exam. Newsis reported that Jang Jung-jin, spokesperson for the Ministry of Economy and Finance, said at a regular briefing that day that a \"joint task force of related agencies (TF)\" had been formed and that work on measures to prevent a recurrence had begun.",
+          "Looking at recent developments, the controversy grew before the government responded. Kukmin Ilbo reported on the 13th the allegation that the top scorer used AI glasses, along with the fact that four proctors did not notice any unusual behavior. IT Chosun reported that as cheating with AI glasses continues, blocking wireless communication at exam sites is emerging as an option. On the 15th, Kukmin Ilbo pointed out in its headline that the device was not the AI glasses originally suspected, and Chosun Biz reported that the National Assembly's Education Committee would hold a plenary session on the 16th to receive a briefing on current issues from officials including Education Minister Choi Kyo-jin.",
+          "Glossary: A full investigation (jeonsu josa) examines every subject in the target group without exception, unlike a sample survey that checks only some. A task force (TF) is a temporary organization that brings together people from several agencies or departments to solve a specific problem."
+        ]
+      }
     },
     {
       "id": "h20261116-cba836238d31",
@@ -764,7 +780,21 @@
           "link": "https://www.veritas-a.com/news/articleView.html?idxno=636547"
         }
       ],
-      "author": "Ashley Yang"
+      "author": "Ashley Yang",
+      "en": {
+        "title": "Megazone Cloud and Korea Maritime & Ocean University Sign Maritime AX Agreement",
+        "points": [
+          "Megazone Cloud signs maritime AX agreement with Korea Maritime & Ocean University",
+          "Plan to jointly develop AI curriculum and train talent",
+          "Physical AI port R&D and demonstration center under consideration"
+        ],
+        "body": [
+          "Megazone Cloud has signed a memorandum of understanding (MOU) with Korea Maritime & Ocean University to cooperate on AI transformation (AX) in the maritime sector. Megazone Cloud announced the deal on the 16th. According to iNews24, the two sides agreed to cooperate on maritime AX research and development (R&D), training of job-ready talent, and joint planning of large government and local government projects. Datanet reported that Megazone Cloud CEO Yeom Dong-hoon and university President Ryu Dong-geun said the two institutions will pursue R&D and specialist training for AI transformation in the maritime industry.",
+          "Outlets describe the cooperation somewhat differently. Digital Daily reported that the two institutions will jointly develop AI courses for undergraduate and graduate students and consider building a demonstration center to test AI technology using maritime and port data. VentureSquare said they will jointly develop a program to train maritime specialists centered on generative AI, data analysis and cloud technology and pursue research on next-generation port technology based on physical AI. Techworld News put the cooperation on specialist training, physical AI R&D and demonstration infrastructure in its headline and first sentence.",
+          "Looking at recent developments, Megazone Cloud had made a series of announcements in the enterprise AI market before this agreement. VentureSquare reported on the 9th that Megazone Cloud was named a Select-tier partner in OpenAI's partner network and will support enterprise AI adoption using ChatGPT Enterprise, Codex and the OpenAI API, and pursue joint sales and technical cooperation. IT Chosun reported on the 10th that Megazone Cloud was named the grand prize winner in the AI platform category of the 2026 Korea AI Awards, with its cooperation with more than 200 partners in Korea and abroad cited. In maritime AI, Betanews and Veritas Alpha reported on the 11th on the sea demonstration of the \"AI Captain\" autonomous vessel at Mokpo National Maritime University.",
+          "Glossary: AX means AI transformation, applying AI across the way companies and institutions work to change it. Physical AI refers to AI built into physical devices such as robots or autonomous equipment that makes decisions and moves in the real world."
+        ]
+      }
     },
     {
       "id": "h20261116-fc2935467815",
@@ -833,7 +863,22 @@
           "link": "https://byline.network/2026/11/12_naver_212"
         }
       ],
-      "author": "Haley Yun"
+      "author": "Haley Yun",
+      "en": {
+        "title": "Naver Pilots \"AI Cafe Agent\" That Answers From Cafe Posts and Comments",
+        "points": [
+          "Naver tests AI Cafe Agent in three cafes",
+          "Summarizes posts and comments and shows the source text",
+          "Access limited by public settings and member level"
+        ],
+        "body": [
+          "Naver has begun a closed beta test of \"AI Cafe Agent,\" in which AI finds and answers from posts and comments accumulated in its Cafe communities. According to EBN, Naver said on the 16th that it began the test on the 9th. The pilot runs in three cafes: \"Nailldong\" for Japan travel, \"Tesla Korea\" for electric vehicles and \"Chicment\" for luxury goods. iNews24 introduced the service with the sample question \"How much battery does car camping use in winter?\"",
+          "Outlets' descriptions of how the service builds answers largely agree. IT Chosun said the service finds the experiences and information members have accumulated in cafe posts and comments, summarizes content that fits the question and shows the source text it was based on. iNews24 also wrote that the AI answers user questions and links to related original posts. AI Newspaper (인공지능신문) described it as providing AI answers drawing on real user experience and member opinions that are hard to find in general search.",
+          "The scope of information disclosure was reported as a core condition of the service. IT Chosun said it limits the range of information used in answers by reflecting viewing permissions based on post visibility settings and member level. AI Newspaper (인공지능신문) also reported that the service maintains access rights by member level in each cafe, and wrote in its headline that answers also differ by member level. Techworld News summarized that Naver is introducing an AI agent in Cafe while opening a business-to-business (B2B) mall in shopping, widening how the platform is used.",
+          "Looking at recent developments, Naver has already made its AI agent strategy public. iNews24 reported that at the third-quarter earnings conference call on the 12th, CEO Choi Soo-yeon said the company is preparing a personal AI agent app that performs actual tasks on users' behalf, aiming for a release within the year. Digital Daily reported that the app is a service that goes beyond information search and answers to directly carry out everyday tasks such as shopping and reservations. Byline Network wrote on the 12th that Naver is staking its year-end on three bets: data centers, AI agents and logistics.",
+          "Glossary: An AI agent is AI software designed to go beyond answering questions to find the information it needs and carry out tasks. A closed beta is a stage in which a service is tested by opening it only to some participants."
+        ]
+      }
     },
     {
       "id": "h20261116-b49e4cbef67f",
@@ -908,7 +953,22 @@
           "link": "https://www.sisajournal-e.com/news/articleView.html?idxno=425005"
         }
       ],
-      "author": "Kevin Wong"
+      "author": "Kevin Wong",
+      "en": {
+        "title": "LG Electronics and Korea Institute for Robot Industry Advancement to Pursue Humanoid Safety Pilot Certification and Quality Evaluation System",
+        "points": [
+          "LG Electronics and Korea Institute for Robot Industry Advancement sign quality agreement",
+          "Build safety and quality evaluation system for humanoids",
+          "Pursue domestic safety pilot certification for LG CLOiD"
+        ],
+        "body": [
+          "LG Electronics will work with the Korea Institute for Robot Industry Advancement (KIRIA) to set standards for evaluating the safety and quality of humanoid robots. According to IT Chosun and THE ELEC, the two sides signed a memorandum of understanding (MOU) on \"mutual cooperation to improve humanoid robot quality competitiveness\" on the 13th at LG Twin Towers in Yeongdeungpo-gu, Seoul, and LG Electronics announced it on the 16th. The Korea NGO Times reported that LG Electronics (CEO Ryu Jae-cheol) and the institute will work to strengthen humanoid robot quality competitiveness.",
+          "Outlets focus on different aspects of the agreement's direction. THE ELEC reported that LG Electronics will pursue a domestic safety pilot certification for its humanoid under development, \"LG CLOiD,\" and wrote that it will verify safety and reliability from the development stage to prepare for commercialization. AI Newspaper (인공지능신문) explained that, given that humanoids work in the same space as people, the strategy is to secure safety and reliability from the early stage of development and strengthen the quality competitiveness needed to enter global markets. The same outlet also mentioned in its headline a safety and usability evaluation system and participation in developing international standards.",
+          "Digital Daily reported that LG Electronics is developing a bipedal robot in cooperation with Nvidia, targeting a reveal in the first quarter of next year, and that safety standards are being reflected from the early stage of product development. Techworld News described the agreement as strengthening physical AI competitiveness and building a humanoid quality verification system, and Industry News said it is a move to speed up securing safety and quality competitiveness in robotics, a core future business.",
+          "Looking at recent developments, Sisa Journal e reported on the 13th that LG Electronics was confirmed to be running demonstrations with Nvidia's next-generation robot AI chip \"Jetson Thor\" in LG CLOiD. The outlet noted in its headline that the possibility of adopting a domestic chip remains.",
+          "Glossary: A humanoid robot is a robot built to resemble the human body, with two eyes, two arms and two legs, and to reproduce human-like form and movement. Physical AI refers to AI built into physical devices such as robots that makes decisions and moves in the real world."
+        ]
+      }
     },
     {
       "id": "h20261116-377f4ad07377",
@@ -1020,7 +1080,23 @@
           "link": "http://www.snmnews.com/news/articleView.html?idxno=577458"
         }
       ],
-      "author": "Chloe Park"
+      "author": "Chloe Park",
+      "en": {
+        "title": "FT Reports Jensen Huang Discussing Return as Nvidia CEO Four Days After Resigning",
+        "points": [
+          "FT reports former CEO Huang is discussing a return with associates",
+          "Musk and investors urge board to consider his return",
+          "Treasury secretary calls for bringing in an outside CEO"
+        ],
+        "body": [
+          "Reports have emerged that former Nvidia CEO Jensen Huang is discussing a possible return just days after resigning. Newsis, Chosun Biz and iNews24 reported that the UK's Financial Times (FT) said so on the 15th (local time), citing multiple sources. Chosun Biz and the Korea NGO Times wrote that it came four days after Huang stepped down, while AI Times described it as days after his resignation. Kukmin Ilbo put the discussions with Silicon Valley associates in its headline as a \"war room.\"",
+          "Moves to back his return were reported along two lines. AI Times said leading Silicon Valley executives plan to mount an organized lobbying effort for his return and secure support from the White House. Newsis reported that prominent figures including Tesla CEO Elon Musk are urging his return and pressuring Nvidia's board. Industry News said some shareholders have also begun trying to persuade the board, but an independent investigation into the allegations that led to his resignation is under way.",
+          "Investors' demands came earlier. AI Times said two investment firms holding more than $2 billion in Nvidia shares urged the board not to rush to name a successor and to consider the possibility of Huang's return. iNews24 reported that two major investors sent the board a letter demanding his return, and that about 60,000 shareholders and more than 5,000 employees joined an online petition. The outlet added that Musk also joined the petition.",
+          "Opposing voices and governance issues were also reported. Digital Today, citing The Wall Street Journal (WSJ), said U.S. Treasury Secretary Scott Bessent on the 15th urged Nvidia's board to bring in the next CEO from outside. Chosun Biz said Nvidia announced on the 12th that Huang had immediately stepped down as CEO and director and named Harvey Jones, a former Synopsys CEO, as the new board chair, noting that it was the first time in the company's 33 years that it had named a board chair. Digital Daily described Huang as having stepped down under pressure from the board.",
+          "Follow-on effects are also being discussed in the market. In a weekly New York stock market outlook, Newsis said attention is on Nvidia's first earnings release since Huang's resignation. Steel & Metal News reported that, as his resignation raises uncertainty over AI investment, market attention is turning to demand for copper and aluminum from expanding data centers and power infrastructure.",
+          "Glossary: A board chair leads board meetings and oversees management. Governance is the system that sets how a company oversees its management and makes important decisions."
+        ]
+      }
     },
     {
       "id": "b20261116",
@@ -1140,7 +1216,24 @@
           "link": "https://www.epnc.co.kr/news/articleView.html?idxno=409790"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "Nov. 16 AI Briefing: Government Response to AI Cheating, Jensen Huang Return Talks",
+        "points": [
+          "AI cheating becomes a whole-of-government issue",
+          "CEO return rumors ahead of Nvidia earnings",
+          "Telecoms compete on data center power and token costs"
+        ],
+        "body": [
+          "The government has moved to respond across the CSAT and national qualification exams following the AI cheating case on the tax accountant exam. According to the Korea NGO Times, Prime Minister Han Seong-sook said at an interministerial meeting on the 16th that an interagency emergency response team for the CSAT will be activated. Newsis reported that a spokesperson for the Ministry of Economy and Finance announced the formation of a joint task force (TF) of related agencies, and the Korea NGO Times reported that police have secured electronic devices including a miniature camera and plan to summon the person involved soon.",
+          "Nvidia is about to report earnings for the first time without former CEO Jensen Huang. Kukmin Ilbo reported that Nvidia will announce results on the 17th (local time) for the first time in Huang's absence, and Chosun Biz, citing the FT, reported that Huang is discussing a return with associates. IT Chosun reported that as of 1:30 p.m. on the 16th, Samsung Electronics was trading at 198,900 won, down 3.45% from the previous session, as selling concentrated on weakness in U.S. chip stocks and wariness ahead of the earnings release.",
+          "SK Telecom and Hyosung Heavy Industries signed a strategic partnership MOU on the 16th at SKT Tower in Seoul to build AI data centers. THE ELEC reported that Hyosung Heavy Industries will supply ultra-high-voltage power equipment to SKT's AI data center and cooperate on developing next-generation power technology such as 800-volt (V) DC distribution and solid-state transformers (SST). Techworld News explained that the cooperation ranges from supplying 345kV substation equipment to demonstrating 800V DC distribution.",
+          "Nine countries including the United States, South Korea and Japan signed a joint declaration to protect the AI supply chain, AI Times reported. The declaration says the countries will jointly select the areas needing protection among those the AI industry relies on, such as semiconductors, critical minerals and energy, and reduce dependence on China in the supply chain. iNews24 reported that the FT reported the conclusion of the agreement on the 15th (local time).",
+          "Naver said on the 16th that it began a closed beta of \"AI Cafe Agent\" on the 9th in three cafes covering Japan travel, electric vehicles and luxury goods. IT Chosun reported that the service summarizes what it finds in posts and comments, shows the source text and reflects viewing permissions based on visibility settings and member level.",
+          "LG Electronics said on the 16th that it signed an MOU on the 13th with the Korea Institute for Robot Industry Advancement to improve humanoid robot quality competitiveness. THE ELEC reported that it will pursue a domestic safety pilot certification for LG CLOiD.",
+          "LG Uplus will launch an AI token optimization business for enterprises next year. iNews24 reported that it confirmed cutting token usage by more than 90% in some internal demonstrations, and Techworld News explained that, following SK Telecom and KT, LG Uplus is also targeting the B2B market with token optimization technology."
+        ]
+      }
     },
     {
       "id": "s20261116-6a53bdc252a6",
@@ -1196,7 +1289,21 @@
           "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=715679"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "Qualcomm Holds \"In Your Life 2026\" in Seoul, Outlines Direction for Agentic AI",
+        "points": [
+          "Qualcomm hosts event in Seoul for partners and fans",
+          "AI expands from mobile to cars and robotics",
+          "Understands user intent to suggest and carry out tasks"
+        ],
+        "body": [
+          "Qualcomm Technologies held \"Qualcomm In Your Life 2026\" on the 16th at SJ Kunsthalle in Gangnam-gu, Seoul, and presented its technology direction for the era of agentic AI. TechM reported that the event was aimed at domestic partners and Snapdragon Insiders, and Techworld News reported that it targeted partners, creators and Snapdragon Insiders in Korea.",
+          "Outlets' wording on the areas of application differs somewhat. Industry News said Qualcomm presented a direction of widening AI beyond mobile and PCs to cars, smart homes and robotics. Digital Daily reported that it introduced to domestic partners and the community a technology blueprint and platform portfolio for agentic AI expanding across extended reality, cars and robotics. Industry News described agentic AI as AI that goes beyond answering user requests to grasp the situation and intent, then suggest and carry out the necessary tasks.",
+          "Looking at recent developments, Qualcomm's AI chip strategy is also continuing in PCs and new operating systems. THE ELEC reported on the 11th that Cora Systems, a Silicon Valley startup developing a new AI-centered operating system with Qualcomm, plans to release its PC OS first next year and then expand to smartphones. Digital Today, citing Engadget, reported criticism that Intel, AMD and Qualcomm are competing on NPU performance but that a shortage of software to use them limits the benefit users actually feel.",
+          "Glossary: Agentic AI refers to AI that goes beyond answering questions to grasp goals and plan and carry out the necessary tasks on its own. An NPU is a neural processing unit designed to handle AI computation."
+        ]
+      }
     },
     {
       "id": "s20261116-56c29aca3ef0",
@@ -1271,7 +1378,22 @@
           "link": "https://www.ddaily.co.kr/page/view/2026111016213203187"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "LG Uplus to Enter Enterprise AI Token Optimization Business Next Year",
+        "points": [
+          "LG Uplus to enter B2B AI token business next year",
+          "Reveals demonstration cutting token usage by more than 90%",
+          "Extends Ixi-O and AICC operating experience to enterprises"
+        ],
+        "body": [
+          "LG Uplus will enter an \"AI token optimization\" business next year to lower AI operating costs for enterprise customers. According to EBN and Kukmin Ilbo, the company held an \"AI Token Optimization Study\" on the 12th and presented its token cost-cutting technology, research results and business direction. AI Times reported that LG Uplus announced the plan on the 15th. EBN explained that a token is the unit in which AI reads and writes text.",
+          "Outlets word the savings differently. Kukmin Ilbo reported that it is a technology that cut costs by up to more than 90% across the whole process, from choosing the AI model to computation and chip use. iNews24 wrote that it confirmed cutting token usage by more than 90% in some internal demonstrations. One describes costs, the other token usage.",
+          "AI Times reported that LG Uplus will target the enterprise market by adding know-how from serving the government-led \"AI for Everyone\" model to the strengths it built in its own AI call agent \"Ixi-O,\" its AI contact center (AICC) and in-house AI transformation (AX). Digital Daily reported that Chief Technology Officer Lee Sang-yeop said at the study on the 12th, in essence, that the axis of competition in the AI market has shifted from building bigger models to completing the business results customers want economically. Bloter noted that as AI agents handle more complex work, tokens surge during inference, making operating cost efficiency a competitive edge.",
+          "Looking at recent developments, competition among telecoms in token businesses is continuing. Digital Daily reported that at the third-quarter earnings conference call on the 10th, Park Sang-won, head of KT's AX business division, laid out a vision to expand its own GPU investment, strengthen AI token production capacity and, over the long term, become a hub for token production and distribution in Korea. Techworld News summarized that, following SK Telecom and KT, LG Uplus is also targeting the B2B market with token optimization technology, and that technology differentiation is the key to competition.",
+          "Glossary: A token is the smallest unit an AI model uses when processing text. Inference is the process in which an already trained AI model takes input and produces an answer."
+        ]
+      }
     },
     {
       "id": "h20261115-ff9950a13a34",
