@@ -241,7 +241,7 @@
       }
       window.scrollTo({ top: 0 }); document.title = (st || a).title + ' | AI 뉴스웨이브';
     }
-    else { document.title = 'AI 뉴스웨이브'; window.scrollTo({ top: listScroll }); }
+    else { document.title = 'AI 뉴스웨이브 | 국내 AI 뉴스 30분마다 모아 보기'; window.scrollTo({ top: listScroll }); }
   }
   window.addEventListener('hashchange', route);
   // GA4: 원문 보기 클릭을 매체별로 셉니다.
