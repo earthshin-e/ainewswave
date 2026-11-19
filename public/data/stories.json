@@ -156,7 +156,23 @@
           "link": "https://biz.chosun.com/it-science/ict/2026/11/16/DU5QDVYN6RD27B5VS4BIXN6CAM"
         }
       ],
-      "author": "Haley Yun"
+      "author": "Haley Yun",
+      "en": {
+        "title": "Jensen Huang Says He Is Willing to Return, but Nvidia Board Says It Has \"No Plan to Reappoint\" Him",
+        "points": [
+          "Former CEO Huang says he would return if the board wants him",
+          "Board says it has no plan to reappoint him and is seeking a successor",
+          "Third-quarter revenue of $115.8 billion, but uncertainty remains"
+        ],
+        "body": [
+          "Former Nvidia CEO Jensen Huang issued his first public statement since resigning on the 17th, local time, saying he would return as CEO if the board wanted him to. The same day, Nvidia's board drew a line, saying it had no plan to reappoint him, and began the process of finding the next CEO. Chosun Biz reported that Huang's statement of willingness to return came six days after his resignation. According to Chosun Biz, citing CNBC, the statement was issued in writing, and Huang apologized for his personal misconduct and said he would cooperate with the board's investigation. AI Newspaper (인공지능신문) reported along similar lines, saying Huang accepted responsibility for personal misconduct and would cooperate with the board's independent investigation.",
+          "The board's answer came within hours. Newsis, citing The Wall Street Journal (WSJ) and others, reported that board Chair Harvey Jones said on an investor conference call held after the earnings release on the 17th that the board had no intention of bringing Huang back. iNews24 wrote that the board dismissed Huang's willingness to return within hours of his announcement. Chosun Biz reported that the board would hire an outside firm to search for the next chief, and Industry News (인더스트리뉴스) said Chief Financial Officer Colette Kress is serving concurrently as interim CEO. AI Times said Nvidia had begun the process of appointing a successor.",
+          "Outlets differ in how they describe the background to his resignation. Chosun Biz wrote that he left in disgrace over a scandal involving an affair and ties to Chinese espionage, while another article by the same outlet described it as a private-life controversy, including an inappropriate relationship with a company employee. EBN described it only as a private-life scandal. News that the board was not considering a return had come out a day earlier, on the 16th. Digital Daily and Digital Today reported that, according to CNBC citing sources, the board was focused on its investigation of Huang and was not discussing a return. AI Times wrote that U.S. President Donald Trump publicly backed a return that day and that employees, investors and key figures in Silicon Valley were also calling for it. Newsis reported, citing the WSJ on the 17th, that a senior Nvidia employee warned the board that key talent hard to replace could leave if Huang did not return.",
+          "Nvidia also released its first earnings since Huang's resignation. Digital Today, citing The Guardian, reported third-quarter revenue of $115.84 billion and earnings per share of $2.68, while TheElec reported fiscal 2027 third-quarter revenue of $115.8 billion and operating profit of $77.52 billion. According to The Scoop, interim CEO Kress said at the earnings briefing that she expects fiscal 2028 revenue to grow about 75% from the previous year, and she also gave a fourth-quarter revenue outlook above market expectations. AI Times noted that quarterly revenue more than doubled for solid results, but uncertainty from the halt in exports to China and the change in management has emerged as a new challenge.",
+          "Speculation about Nvidia's investment direction has continued since Huang's resignation. Newsis, citing a WSJ report on the 15th (local time), said an outlook had emerged that Nvidia would cut the investment and financial support it has provided to the AI industry. Chosun Biz described the same trend as a warning sign of a funding cliff for the AI ecosystem. IT Chosun reported the view that cuts in support could take hold in earnest under interim CEO Kress.",
+          "Glossary: A conference call is a briefing that a company holds by phone or online for investors and brokerage analysts after announcing its earnings."
+        ]
+      }
     },
     {
       "id": "h20261118-df2f6180de02",
@@ -224,7 +240,21 @@
           "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1732052"
         }
       ],
-      "author": "Ashley Yang"
+      "author": "Ashley Yang",
+      "en": {
+        "title": "CJ OliveNetworks to Build AI Factory at Yuhan Corp. Subsidiary Wisemedi's Jincheon Plant",
+        "points": [
+          "AI factory to be built at Wisemedi's second Jincheon plant",
+          "AI vision inspection and predictive equipment maintenance to be applied",
+          "Part of Ministry of SMEs and Startups' win-win AX flagship model program"
+        ],
+        "body": [
+          "CJ OliveNetworks will build an AI factory at the second Jincheon plant of Wisemedi, an IV solution specialist and subsidiary of Yuhan Corp. The company disclosed this on the 18th. According to Chosun Biz and EBN, the project is part of the win-win AX flagship model support program, which is overseen by the Ministry of SMEs and Startups and led by CJ OliveNetworks. iNews24 and EBN described it as an AI factory specialized for pharmaceutical manufacturing.",
+          "Outlets summarized the scope of the build slightly differently. Techworld News reported that it combines AI vision inspection, predictive equipment maintenance, and production and quality data management. IT Chosun wrote that AI-based quality inspection and predictive equipment maintenance will be introduced and the production and quality data management system will be upgraded. Digital Daily added that a data management system conforming to good manufacturing practice (GMP) for drug manufacturing and quality control will be built. Digital Daily assessed that CJ OliveNetworks has entered the pharmaceutical manufacturing AX market on the strength of its AI factory experience, and IT Chosun reported that it is expanding its AX business in pharmaceutical manufacturing.",
+          "According to TechM and Chosun Biz, Wisemedi is an IV solution specialist that developed and localized Korea's first three-chamber-bag nutritional IV solution. TechM noted that Wisemedi is a Yuhan Corp. subsidiary and described the project as building an AI factory under the AX flagship model.",
+          "Glossary: AX is short for AI transformation, meaning applying AI to change how a company operates and produces. Predictive maintenance is a method of analyzing equipment data to determine in advance when servicing is needed before a breakdown occurs."
+        ]
+      }
     },
     {
       "id": "h20261118-7d0a2f23278f",
@@ -292,7 +322,21 @@
           "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=716245"
         }
       ],
-      "author": "Kevin Wong"
+      "author": "Kevin Wong",
+      "en": {
+        "title": "KT Begins Pilot of AI Robot for Pediatric Patient Care With Seoul National University Hospital",
+        "points": [
+          "KT and Seoul National University Hospital pilot AI robot at medical site",
+          "Focus on pediatric patient care and support for medical staff work",
+          "To be tested in non-clinical areas, not medical procedures"
+        ],
+        "body": [
+          "KT is joining forces with Seoul National University Hospital to pilot AI robots at a medical site. KT disclosed this on the 18th. The pilot focuses on caring for pediatric patients and supporting the work of medical staff. Digital Daily described it as an attempt to bring physical AI, which interacts with people and performs tasks in physical environments, into medical settings.",
+          "The scope is non-clinical. iNews24 reported it as a non-clinical service scenario that can offer practical help to pediatric patients, and Chosun Biz likewise reported that the pilot centers on non-clinical areas. According to Betanews and Korea NGO Times (한국NGO신문), the scenarios include waiting time before and after treatment, conversation and play at the stages before and after treatment, followed by items covering the examination and treatment process. Chosun Biz wrote that the AI robot talks with pediatric patients or provides play during waiting time before and after treatment.",
+          "Outlets emphasize different points about the validation goals. IT Chosun reported that the aim is to verify whether the AI robot can help pediatric patients with hospital life and reduce repetitive work for medical staff. Digital Today reported that the plan is to verify the usefulness of physical AI in a real medical environment and develop a patient-centered service model. Betanews said in its headline that it would verify improvements to the pediatric patient experience. Korea NGO Times and Betanews named Park Yoon-young as KT's chief executive and Baek Nam-jong as the hospital's director.",
+          "Glossary: Physical AI refers to AI that is installed in physical devices such as robots and performs tasks by moving directly in the real world."
+        ]
+      }
     },
     {
       "id": "h20261118-79926dffe9cc",
@@ -410,7 +454,23 @@
           "link": "https://biz.chosun.com/it-science/ict/2026/11/16/DU5QDVYN6RD27B5VS4BIXN6CAM"
         }
       ],
-      "author": "Chloe Park"
+      "author": "Chloe Park",
+      "en": {
+        "title": "Nvidia and Samsung Electro-Mechanics Expand Cooperation From Package Substrates to MLCCs",
+        "points": [
+          "Nvidia expands supply chain cooperation with Samsung Electro-Mechanics and others",
+          "MLCC cooperation to follow package substrates",
+          "Additional funding support under review"
+        ],
+        "body": [
+          "Nvidia and Samsung Electro-Mechanics are widening their cooperation to meet rising demand for AI infrastructure. According to IT Chosun and Digital Today, Samsung Electro-Mechanics said on the 18th that it is strengthening cooperation to support expanded production of Nvidia's accelerated computing platforms. TheElec reported that Samsung Electro-Mechanics is widening its cooperation with Nvidia from semiconductor package substrates to multilayer ceramic capacitors (MLCCs). Samsung Electro-Mechanics is pursuing cooperation with Nvidia on high-reliability MLCCs.",
+          "Nvidia also announced expanded cooperation with supply chain partners the same day. According to AI Times and Hellot, Nvidia will expand production capacity across substrates, advanced packaging, wafers and contract manufacturing with partners including Samsung Electro-Mechanics, Amkor Technology, Foxconn, Kinsus, SPIL and TSMC. Hellot reported that the plan aims to scale up mass production of current and next-generation accelerated computing platforms.",
+          "Outlets describe the funding support and the nature of the deal differently. TheElec wrote that Nvidia had agreed to fund the expansion of dedicated package substrate plants at Samsung Electro-Mechanics' Sejong and Busan sites and would also consider additional funding. iNews24 described it as reviewing additional funding support and EBN as considering additional investment, while TechM reported that Nvidia will bear part of Samsung Electro-Mechanics' expansion investment. Chosun Biz wrote that a package substrate supply contract had been signed, and IT Chosun explained that the move follows a strategic partnership for supplying semiconductor package substrates signed in October. An iNews24 breaking news item reported that Nvidia had signed a new package substrate contract with Samsung Electro-Mechanics.",
+          "On the supplied products, Digital Today described advanced package substrates for computing and high-speed networking products, while iNews24 wrote that they are package substrates for next-generation graphics processing units (GPUs). Market reaction followed. According to iNews24, as of 9:26 a.m. on the 18th, Samsung Electro-Mechanics traded at 798,000 won, up 44,000 won (5.84%) from the previous trading day.",
+          "Speculation about Nvidia's spending had also surfaced earlier. Newsis, citing a WSJ report, said an outlook had emerged that Nvidia would cut the investment and financial support it has provided to the AI industry, and Chosun Biz covered the same trend under a headline about Nvidia tightening its purse strings.",
+          "Glossary: A package substrate is a board on which a semiconductor chip is mounted and electrically connected to the mainboard. An MLCC is a small component that stores and releases electricity to stabilize current, and it is widely used in electronic devices."
+        ]
+      }
     },
     {
       "id": "h20261118-f4daf0851f81",
@@ -466,7 +526,21 @@
           "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=716208"
         }
       ],
-      "author": "Ethan Chen"
+      "author": "Ethan Chen",
+      "en": {
+        "title": "U.S. Also Restricts Use of AI Chips Through Overseas Data Centers; China Warns of \"Retaliation\"",
+        "points": [
+          "U.S. blocks use of AI chips through third-country data centers",
+          "China's Commerce Ministry warns of retaliation if rules are enforced",
+          "Chip tensions rise ahead of U.S.-China summit"
+        ],
+        "body": [
+          "The U.S. government announced new export controls aimed at preventing Chinese companies from indirectly using Nvidia's advanced AI chips through overseas data centers. According to Hellot, the measure goes a step beyond earlier rules that limited direct chip exports to China, targeting even remote computing services through third-country data centers. AI Times described it as a move to regulate even the practice of renting high-performance chips from U.S. companies such as Nvidia through overseas data centers.",
+          "China pushed back immediately. According to AI Times, China's Commerce Ministry strongly opposed the new U.S. rules in an official announcement on the 17th (local time) and warned of retaliation if they are enforced. EBN, citing a Bloomberg report on the 18th, said the ministry had warned the day before of retaliation against the new U.S. AI chip rules and that tensions between the two countries over chips were rising again ahead of the U.S.-China summit. The two outlets described the rules as a remote access restriction and as an additional rule limiting Chinese companies' access to advanced AI chips, respectively.",
+          "Recent reports had already treated use through third-country data centers as an issue. Digital Daily reported on the 16th that, after Nvidia CEO Jensen Huang's departure, the RASA bill was gaining momentum in the U.S. The bill is likely to be merged with the year-end National Defense Authorization Act (NDAA), and mandatory know-your-customer (KYC) checks are cited as a challenge. The same report noted that as China's rental of GPUs in third countries is blocked, attention is turning to HBM supply and a reshuffling of bases. AI Times reported the same day that Huang had expanded a network of Southeast Asian data centers and local cloud partners to keep Chinese customers despite U.S. export curbs. Digital Today wrote on the 17th that it is emerging one after another that Southeast Asian data centers were used as a detour for Chinese access to Nvidia GPUs.",
+          "Glossary: Remote GPU use means renting GPUs over the internet from a data center instead of buying them. The National Defense Authorization Act (NDAA) is the law through which the U.S. Congress sets the defense budget and related policy each year."
+        ]
+      }
     },
     {
       "id": "b20261118",
@@ -665,7 +739,25 @@
           "link": "https://www.inews24.com/view/2027546"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "Nov. 18 AI Briefing: Jensen Huang Return Dispute, Nvidia Earnings and a Stock Market Rebound",
+        "points": [
+          "Nvidia earnings and SEC probe overlap amid dispute over Huang's return",
+          "China warns of retaliation as U.S. tightens AI chip rules",
+          "AI cheating investigations and countermeasures continue ahead of the college entrance exam"
+        ],
+        "body": [
+          "Former Nvidia CEO Jensen Huang issued a statement on the 17th, local time, saying he would return if the board wanted him, but the board said it had no plan to reappoint him and began selecting the next CEO. Chosun Biz and Newsis reported this. The same day, Nvidia's third-quarter revenue of $115.84 billion beat market expectations, Digital Today reported, citing The Guardian.",
+          "The U.S. Securities and Exchange Commission (SEC) is investigating whether Nvidia's disclosures misled investors, the WSJ reported on the 17th (local time). IT Chosun said Huang's external relationships and disclosures about Nvidia's chip sales in Asia are being cited, and AI Times wrote that the SEC is known to have opened a civil investigation.",
+          "After the U.S. announced new export controls that also block Chinese companies from using Nvidia chips through overseas data centers, China's Commerce Ministry warned of retaliation on the 17th (local time). Hellot, AI Times and EBN reported this, and EBN wrote that chip tensions flared again ahead of the U.S.-China summit.",
+          "On the 18th, the KOSPI rebounded for the first time in five trading sessions on the back of Nvidia's earnings, closing up 98.96 points (1.99%) at 5,067.44. Chosun Biz and Digital Today reported this. Digital Daily reported that volatility was high, with the index topping 5,100 early in the session and at one point sliding to the 4,900 level before institutional buying came in.",
+          "OpenAI unveiled GPT-6.2 Astra and GPT-6.2 Sol on the 17th (local time). Digital Daily reported that Astra is for complex professional work and AI research and Sol is for efficient everyday work, and IT Chosun reported that API prices were cut by up to 20%.",
+          "Samsung Electro-Mechanics is widening its cooperation with Nvidia from package substrates to MLCCs. TheElec reported that Nvidia had agreed to fund the expansion of dedicated package substrate plants at Samsung Electro-Mechanics' Sejong and Busan sites and would also consider additional funding. According to iNews24, Samsung Electro-Mechanics shares were up 5.84% as of 9:26 a.m. on the 18th.",
+          "Police on the 18th searched the residence of an examinee who took top place on the tax accountant exam through AI-assisted cheating, Chosun Biz reported. A day before the college entrance exam, police chief nominee Kim Jong-cheol said, in effect, that police would track down not only the cheater but also accomplices and helpers if cheating occurs, iNews24 reported. Chosun Biz reported on the 17th that a high school senior had asked the Constitutional Court to suspend the effect of the exam date.",
+          "KT said on the 18th that it is launching a pilot of AI robots with Seoul National University Hospital to care for pediatric patients and support medical staff work. Chosun Biz reported that the pilot centers on non-clinical areas, and Digital Daily described it as an attempt to bring physical AI into medical settings."
+        ]
+      }
     },
     {
       "id": "s20261118-51b8c6f40f40",
@@ -734,7 +826,22 @@
           "link": "https://it.chosun.com/news/articleView.html?idxno=3000000000886"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "AI SPERA Launches 'AITEM,' Combining Threat Analysis and Penetration Testing",
+        "points": [
+          "AI SPERA launches AITEM threat exposure management platform",
+          "Combines AI agents and penetration testing with attack surface management",
+          "Aims to automate security staff's repetitive work"
+        ],
+        "body": [
+          "AI SPERA, a cyber threat intelligence company, is releasing Criminal IP AITEM, an AI-based threat exposure management platform. VentureSquare and Digital Today reported the official launch date as the 19th, while Byline Network and Digital Daily wrote that a launch press conference was held on the 18th at the JW Marriott in Dongdaemun, Seoul.",
+          "According to VentureSquare, AITEM combines AI agents, vulnerability impact analysis and AI penetration testing with existing attack surface management solutions to automate repetitive security operations work. Boannews explained that Criminal IP now includes continuous threat exposure management (CTEM) and penetration testing in addition to attack surface management (ASM).",
+          "At the press conference, AI SPERA CEO Kang Byung-tak said that often the problem is not failing to patch but spending time because they cannot find where a server is, Byline Network reported. Chosun Biz reported that even when companies find vulnerabilities, it takes a lot of time to find the person in charge or confirm whether the risk is real, and that the goal is to automate repetitive work so security staff can focus on important threats.",
+          "Boannews and IT Chosun reported that AI SPERA also said on the 12th of this month that it would release Criminal IP TI Feed, an app that lets Criminal IP's threat intelligence be used in Splunk.",
+          "Glossary: Attack surface management (ASM) is a way for companies to find and manage assets that can be attacked, such as externally exposed servers and websites. Penetration testing is an inspection that attacks a system like a real attacker to find security weaknesses."
+        ]
+      }
     },
     {
       "id": "s20261118-c6297993a259",
@@ -790,7 +897,21 @@
           "link": "https://www.thelec.kr/news/articleView.html?idxno=65504"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "AMD Completes Acquisition of AI Inference Chip Company Taalas",
+        "points": [
+          "AMD completes acquisition of AI inference chip company Taalas",
+          "Deal valued at about $2.9 billion, or 3.8 trillion won",
+          "Acquisition of World Labs completed earlier"
+        ],
+        "body": [
+          "AMD has completed its acquisition of Taalas, a company that designs chips dedicated to AI inference. According to Digital Daily and iNews24, AMD announced the completion on the 17th (local time).",
+          "iNews24 described Taalas as a Canadian AI chip design company and reported the deal at about $2.9 billion, or 3.8 trillion won. The explanation is that AMD aims to strengthen its push into the inference market by securing dedicated-chip technology that runs specific AI models quickly with little power. Digital Daily reported that AMD will integrate Taalas' technology into its graphics processing units and rack-scale solutions to broaden its full-stack inference roadmap. Datanet said Taalas has technology and engineering expertise designed to deliver high performance and efficiency for increasingly specialized AI workloads.",
+          "AMD had also completed the World Labs acquisition earlier. TheElec reported that AMD announced the completion of the World Labs acquisition on the 16th (local time), writing that Fei-Fei Li, World Labs' former CEO and a Stanford University professor, will serve as an AMD executive vice president (EVP), while its headline said AMD brought her on as chief scientist. AI Newspaper (인공지능신문) reported that AMD secures AI technology that renders and simulates the real world in three-dimensional space and will use it to develop next-generation AI chips, software and computing systems, and Datanet reported that it secured a world-class model development team.",
+          "Glossary: Inference is the stage at which a trained AI model produces answers to actual questions or inputs. A world model refers to a model in which AI imitates the space and movement of the real world."
+        ]
+      }
     },
     {
       "id": "s20261118-ca36ea9b7166",
@@ -852,7 +973,21 @@
           "link": "https://www.newsis.com/view/NISX20261118_0003872350"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "U.S. SEC Reportedly Opens Probe Into Adequacy of Nvidia's Disclosures",
+        "points": [
+          "SEC investigating whether Nvidia's disclosures misled investors",
+          "Probe reported to have begun after Huang's resignation",
+          "Cites WSJ report of the 17th (local time)"
+        ],
+        "body": [
+          "The U.S. Securities and Exchange Commission (SEC) is investigating whether Nvidia's disclosures misled investors, The Wall Street Journal (WSJ) reported on the 17th (local time). IT Chosun and Newsis cited the WSJ report, and Kukmin Ilbo introduced what Bloomberg relayed citing the WSJ.",
+          "AI Times reported that the SEC is known to have opened a civil investigation into Nvidia, which has fallen into a management crisis after former CEO Jensen Huang's resignation, and that the main focus is whether information the company provided to investors was misleading. IT Chosun wrote that Huang's external relationships and disclosures about Nvidia's chip sales in Asia are being cited, and Newsis described allegations about MegaSpeed in its headline as the focus of the probe. On the background to his resignation, Newsis wrote of allegations of an affair and involvement in espionage, and IT Chosun of an extramarital relationship scandal.",
+          "Nvidia announced third-quarter earnings the same day the probe reports emerged. TheElec reported GAAP revenue of $115.8 billion, and Newsis reported that board Chair Harvey Jones said on an investor conference call that the board has no intention of bringing Huang back.",
+          "Glossary: Disclosure is a system in which a listed company informs investors of management information that could affect its share price. The U.S. Securities and Exchange Commission (SEC) is the federal agency that oversees U.S. securities markets."
+        ]
+      }
     },
     {
       "id": "s20261118-e258d1193380",
@@ -902,7 +1037,21 @@
           "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=715486"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "OpenAI Unveils GPT-6.2 Astra and Sol",
+        "points": [
+          "OpenAI unveils GPT-6.2 Astra and Sol",
+          "Astra for professional work, Sol for everyday work",
+          "API prices reportedly cut by up to 20%"
+        ],
+        "body": [
+          "OpenAI unveiled new AI models GPT-6.2 Astra and GPT-6.2 Sol on the 17th (local time). Digital Daily reported that Astra is tailored to complex professional work and AI research and Sol to efficient everyday work. AI Newspaper (인공지능신문) introduced the two as next-generation frontier models with strengthened ability to perform complex professional tasks and better cost efficiency, covering areas such as coding and computer use.",
+          "Outlets emphasize different points on cost. IT Chosun reported that the models reduce token use for complex tasks and improve cost efficiency, and said in its headline that API prices were cut by up to 20%. Digital Daily said the models are characterized by lower per-task costs for a high-performance model and a stronger ability for AI to help develop AI. Digital Today reported that they focus on improving task accuracy and token efficiency to handle complex work at lower cost, and said in its headline that the two models are applied to ChatGPT Work and Codex.",
+          "OpenAI also launched ChatGPT Wallet on the 13th of this month, a payment feature that lets its AI agent dot buy items on a user's behalf. Digital Today reported this, citing a CNBC report.",
+          "Glossary: A token is the basic unit in which a language model processes text. An API is a way for developers to call an AI model from their own programs."
+        ]
+      }
     },
     {
       "id": "h20261117-57ff8b13f226",
