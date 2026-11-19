@@ -240,10 +240,10 @@ for (const [k, list] of kwSorted) {
   const l = [...list].sort((x, y) => new Date(y.published) - new Date(x.published));
   const first = dayKey(l[l.length - 1].published), last = dayKey(l[0].published);
   const html = listPage({
-    title: `${k} AI 뉴스 정리`,
-    desc: `${k} 관련 AI 소식을 여러 매체 보도에서 확인된 사실만 모아 정리한 글 ${l.length}건입니다. ${first}부터 ${last}까지.`,
+    title: `${k} AI 뉴스 총정리, 최신 ${l.length}건 한눈에`,
+    desc: `${k} 관련 AI 뉴스를 매일 업데이트합니다. 최신 글: ${l[0].title.slice(0, 48)}. 여러 매체 보도에서 확인된 사실만 모은 정리 기사 ${l.length}건, ${last}까지.`,
     canon: `kw/${encodeURI(kwFile(k))}`,
-    main: `  <h1>${esc(k)} AI 뉴스 정리</h1>
+    main: `  <h1>${esc(k)} AI 뉴스 총정리</h1>
   <p>${esc(k)} 관련 소식을 여러 매체 보도에서 확인된 사실만 모아 새로 쓴 정리 기사 ${l.length}건입니다(${first}부터 ${last}까지). 글마다 근거가 된 언론사 기사를 밝힙니다.</p>
   <ul class="cards">${l.map((x) => `<li><a href="../${esc(x.id)}.html">${esc(x.title)}</a>${x.points && x.points[0] ? `<br><span class="sum">${esc(x.points.join(', '))}</span>` : ''}<br><span class="meta">${x.type === 'briefing' ? 'AI 브리핑 | ' : x.author ? `글 <a href="../author/${authorFile(x.author)}">${esc(x.author)}</a> | ` : ''}${kstDate(x.published)} | ${x.sources.length}개 매체</span></li>`).join('')}</ul>
   <h2>다른 키워드</h2>
