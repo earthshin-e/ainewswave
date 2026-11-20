@@ -634,7 +634,23 @@
           "title": "LG이노텍, 2027년 임원인사 단행…반도체 기판·피지컬 AI 인재 전진 배치",
           "link": "https://www.epnc.co.kr/news/articleView.html?idxno=410036"
         }
-      ]
+      ],
+      "en": {
+        "title": "LG Group's 2027 Executive Reshuffle Puts AI and Robotics Talent Up Front",
+        "points": [
+          "LG Group affiliates announce 2027 executive appointments",
+          "AI data center cooling and robotics talent promoted",
+          "Most major affiliate CEOs stay in place"
+        ],
+        "body": [
+          "LG Group held board meetings at its affiliates on Nov. 19 and carried out its regular 2027 executive appointments. Industry News reported that the reshuffle covers 132 people in total, including 89 newly appointed executives, and EBN wrote in its headline that 132 executives were promoted. Both outlets noted that the group put weight on future battlegrounds such as artificial intelligence (AI) and research and development (R&D). EBN reported that most CEOs of major affiliates kept their posts, preserving management stability. AI Times summarized that major LG affiliates strengthened AI-related units, with LG Electronics creating a dedicated AI data center cooling business unit and promoting robotics talent to executive posts.",
+          "LG Electronics announced its 2027 executive appointments and an organizational overhaul together after board approval. According to iNews24, total promotions come to 44, up 11 from last year. Digital Daily and Industry News reported that Baek Seung-tae, head of the HS Business Division, and Lee Sang-woo, head of the Management Strategy Division at LG Corp., were promoted to president. iNews24 introduced Lee as the new head of the MS Business Division, so the title is rendered differently. Digital Daily wrote that the company keeps its existing four-division structure while reorganizing overseas regional heads to report directly to the CEO, and Industry News explained that new organizations will be created for AI data center cooling and for in-vehicle computing. AI Newspaper (인공지능신문) reported that the company appointed R&D staff in robot foundation models (RFM) and humanoids as new executives, and IT Chosun reported that the strategy aims to speed up business execution by merging organizations and cutting decision-making layers.",
+          "LG Uplus held a board meeting that morning and appointed 11 executives, including 2 promotions to senior managing director and 9 new managing directors. Chosun Biz and Digital Today reported that the appointments focus on expanding the AI business and strengthening the core telecom business, and Industry News explained that the company promoted key personnel in business-to-business (B2B) AI and telecom networks.",
+          "LG CNS named 14 executives in total: 1 promotion to executive vice president, 2 promotions to senior managing director, 9 new managing directors, 1 transfer from an affiliate and 1 external hire. According to Chosun Biz, Senior Managing Director Bae Min, who has led the financial and public sectors, was promoted to executive vice president, and 5 new managing directors were appointed in AI transformation (AX) alone. AI Newspaper (인공지능신문) reported that the company placed relevant experts in its core management to strengthen agentic AI, smart factory and enterprise AX businesses, and also brought in an outside AI research expert.",
+          "LG Innotek appointed 9 executives in total, including 1 promotion to executive vice president, 1 promotion to senior managing director and 7 new managing directors. Chosun Biz reported that Jo Ji-tae, head of the Package Solution Business Division, was promoted to executive vice president, and that 4 of the 7 new managing directors were picked from R&D, placing leaders in semiconductor substrates and physical AI technology up front.",
+          "Glossary: A foundation model is a general-purpose AI model pretrained on large amounts of data so it can be adapted to many tasks. AX is short for AI transformation, which refers to introducing AI into a company's work and business methods to change them."
+        ]
+      }
     },
     {
       "id": "h20261119-6e75657e5a26",
@@ -794,7 +810,23 @@
           "title": "구글 딥마인드 전략 수장도 앤트로픽 합류… AI 인재 이탈 잇따라",
           "link": "https://biz.chosun.com/it-science/ict/2026/11/17/EK2BIJFEMFG43NDYBHYPOAQ4CM"
         }
-      ]
+      ],
+      "en": {
+        "title": "Anthropic Prices IPO at $83, Joining Nasdaq in Largest Listing Ever",
+        "points": [
+          "Offer price of $83, above the target range",
+          "Offering of about 108 trillion won, valuation of about $1.5 trillion",
+          "Early investors such as SK Telecom see paper gains in focus"
+        ],
+        "body": [
+          "Anthropic, the developer of the AI chatbot Claude, set its initial public offering (IPO) price at $83 per share. According to Korean media reports citing The Wall Street Journal (WSJ) and Bloomberg on Nov. 18 (local time), the price is above the previously indicated range of $70 to $78. IT Chosun reported that it is 6.4% above the top of the range, and The Elec wrote that it is $5 above the top. The offering size also grew. IT Chosun reported that the company had originally planned to sell 825 million shares, and AI Newspaper (인공지능신문) reported that the share count was expanded to 980 million in total, for an offering of about $81.34 billion (about 108 trillion won). According to eFocus and Digital Today, the ticker is ANT, and trading is scheduled to begin on the Nasdaq on Nov. 19.",
+          "Outlets differ in how they describe the amount raised and the valuation. Newsis and The Elec reported 108 trillion won, and The Elec wrote that this is the size of the public offering alone. EBN, citing Bloomberg, reported that total funding including private investment exceeds $94 billion, and in another article described it as an IPO worth 125 trillion won. AI Times reported the valuation at about $1.5 trillion (about 1,997 trillion won), while Newsis wrote that market capitalization is 2,000 trillion won. On the record claim, The Elec said it breaks SpaceX's record, while Kukmin Ilbo reported that it appears set to surpass it. Citing CNBC, Digital Daily reported that subscription demand before the price was set neared $500 billion.",
+          "The listing's effect showed up first among early investors. Citing Bloomberg, EBN reported that $75 million invested by some venture capital firms could swell to $11 billion. In Korea, Tech M reported that the value of funds SK Telecom invested three years ago has grown about 16-fold, and wrote that its stake is valued at $3.2 billion (in the 4 trillion won range). Bloter reported that the book value of the stake exceeds 3.5 trillion won and that projections say it could reach up to 7 trillion won after listing, and EBN also wrote that a 7 trillion won projection has emerged. Newsis reported that the 7 co-founders are expected to join the ranks of billionaires. Digital Today reported that SoftBank Chairman Masayoshi Son admitted that not investing in Anthropic was his mistake.",
+          "Several variables were reported before the listing. Citing Bloomberg on Nov. 13, AI Times reported that institutional investors in mainland China and Hong Kong would find it hard to be allocated shares, and Kukmin Ilbo also reported that the IPO underwriters were said to have excluded Chinese and Hong Kong institutional investors. According to AI Times, Anthropic CEO Dario Amodei said the main reasons for pursuing the IPO are securing funds needed for massive compute investment and hedging financial risk. Citing the Nikkei, Newsis reported on Nov. 19 that Anthropic is raising about $2.979 billion (about 470 billion yen) in Japan. In the domestic stock market, the KOSPI fell below the 5,000 level for the first time in nine months, and Digital Daily wrote that a possible global reallocation of funds ahead of Anthropic's IPO is cited as a background for the selling.",
+          "Reports on the same topic also continued over the past 14 days. Digital Today reported on Nov. 16 that OpenAI CEO Sam Altman showed confidence in fundraising and future listing plans ahead of rival Anthropic's IPO. Citing The Information, Chosun Biz reported on Nov. 17 that Jasjit Sekhon, chief strategy officer at Google DeepMind, has moved to Anthropic.",
+          "Glossary: An IPO (initial public offering) is the process by which a company sells its shares to the general public for the first time and lists on a stock exchange. The offer price is the price at which these newly issued shares are sold to investors."
+        ]
+      }
     },
     {
       "id": "h20261119-9b6ae76094f5",
@@ -864,7 +896,23 @@
           "title": "포티넷코리아, 24일 ‘AI 사이버보안 서밋 2026’ 개최… AI 보안 전략 공유",
           "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=716458"
         }
-      ]
+      ],
+      "en": {
+        "title": "Palo Alto Networks to Acquire AI Startup Applied Compute for $4.5 Billion",
+        "points": [
+          "Acquiring Applied Compute for $4.5 billion",
+          "Expanding beyond security to support enterprise AI adoption",
+          "First-quarter revenue up 39%, full-year outlook raised"
+        ],
+        "body": [
+          "U.S. cybersecurity company Palo Alto Networks will acquire artificial intelligence (AI) startup Applied Compute for $4.5 billion. This comes from Korean media reports citing The Wall Street Journal (WSJ) and SiliconANGLE on Nov. 18 (local time). Converted amounts differ by outlet: IT Chosun wrote about 6.6 trillion won and Digital Daily about 6 trillion won. According to Digital Today and Digital Daily, the purchase price will be paid entirely in stock. Digital Daily reported that Palo Alto Networks' shares rose 9.9% after the acquisition was announced.",
+          "The way outlets describe the target company also varies slightly. Digital Today introduced it as an AI model training and inference startup, and EBN called it an AI model platform company. IT Chosun and Digital Today reported that Applied Compute was founded by researchers who came from OpenAI, and Digital Today added that it was established in 2025.",
+          "On the background to the deal, EBN analyzed that, as AI rapidly makes cyber threats more sophisticated, the move aims to expand the business beyond security solutions into a platform company that supports enterprises' AI adoption itself. IT Chosun also explained it as a move to extend beyond the existing cybersecurity business into the enterprise AI market, and Digital Daily put the phrase \"beyond security\" and a new area in its headline.",
+          "According to Tech M, Palo Alto Networks also released its results for the first quarter of fiscal 2027 (August to October) on Nov. 18 (local time). Revenue grew 39% from a year earlier, and it raised its full-year outlook. The outlet reported that results beat market expectations on growing demand for AI security and the effect of acquisitions. The acquisition agreement was also signed around the same time.",
+          "Other news on AI and security has also continued recently. Security News reported that Theori said on Nov. 19 that its autonomous AI security platform \"Xint\" found, in 90 minutes, a critical vulnerability that had existed for 11 years in nginx, a widely used web server software engine. Digital Daily reported that Theori discovered 5 high-risk vulnerabilities in nginx that allow remote code execution (RCE) without authentication. According to Digital Today, Fortinet Korea will hold the \"AI Cybersecurity Summit 2026\" in Seoul on Nov. 24 and share its AI security strategy.",
+          "Glossary: An all-stock acquisition is one in which the purchase price is paid with the acquiring company's shares instead of cash. Remote code execution (RCE) is a type of vulnerability that lets an attacker run programs on another computer from afar."
+        ]
+      }
     },
     {
       "id": "h20261119-91fe93aaf181",
@@ -994,7 +1042,23 @@
           "title": "AI 커닝 시대 중국이 설계하는 시험의 신뢰 [박지민의 중국과 미래]",
           "link": "https://it.chosun.com/news/articleView.html?idxno=3000000001373"
         }
-      ]
+      ],
+      "en": {
+        "title": "AI Cheating Prevention in Full Force on College Exam Day One as Government Orders Last Year's Test Papers Kept",
+        "points": [
+          "22 smartphones caught on exam day one, no advanced devices",
+          "Order to keep last year's exam papers, investigation seen widening",
+          "People Power Party demands education minister's resignation and president's position"
+        ],
+        "body": [
+          "The 2027 College Scholastic Ability Test was held on Nov. 19 at 1,312 test sites nationwide. According to Chosun Biz, more than 550,000 people took the test, which was held amid concerns over cheating using artificial intelligence (AI). Citing an Education Ministry announcement, iNews24 reported that 22 smartphones were caught in 9 cities and provinces that day, but no cheating using advanced devices such as AI smart glasses or ultra-small cameras had been reported so far. A report that an online comment said someone would take the test wearing AI glasses at a test site in Yangsan, South Gyeongsang Province, was received by the Ulsan Metropolitan Police Agency at around 8:45 a.m. Chosun Biz reported that police began checking but had found nothing unusual so far.",
+          "The government stepped up measures before the test. Chosun Biz reported that it moved to tighten security, including checking every pair of glasses and deploying additional proctors, and iNews24 published photos of proctors with metal detectors, glasses checks and button stickers at test sites. On Nov. 17, President Lee Jae-myung chaired an emergency CSAT inspection meeting by video from Manila, the Philippines, where he was attending the ASEAN summit. Kukmin Ilbo reported that the president said he regards AI-assisted CSAT cheating as a serious crime and will respond sternly with zero tolerance, and Korea NGO Times reported that the policy is to trace cases to the end and hold those caught accountable without exception. Around the same time, a test taker filed a constitutional complaint demanding the test be postponed, and according to Korea NGO Times, also filed an administrative lawsuit at the Seoul Administrative Court on Nov. 18.",
+          "The scope of the investigation may widen to last year's test. In an exclusive report, Kukmin Ilbo said it was confirmed that the Education Ministry ordered city and provincial education offices to keep the 2026 CSAT test papers, and that the government investigation into suspected AI cheating cases is expected to extend to last year's test. Chosun Biz reported that Prime Minister Han Seong-sook issued an urgent order on Nov. 19 not to discard last year's CSAT test papers but to keep them. The two outlets named the ministry and the prime minister, respectively, as the source of the order. Kukmin Ilbo also reported that People Power Party lawmaker Jeong Seong-guk requested the preservation of past CSAT test papers and answer sheets. Chosun Biz explained that if AI-assisted cheating is actually confirmed, university admission could be revoked. IT Chosun noted that after a tax accountant exam cheater came forward, suspicions spread toward high scorers on other exams, but the truth of individual allegations must be settled by evidence.",
+          "Political assessments differed. According to Chosun Biz, on Nov. 19 the People Power Party said allegations of AI-assisted cheating on the CSAT were emerging one after another, and demanded the resignation of Education Minister Choi Gyo-jin and a statement from President Lee Jae-myung, holding the government responsible. This differs from the Education Ministry's statement that no cheating using advanced devices had been reported.",
+          "Responses that began earlier also continue. According to Electric Times, the Ministry of Employment and Labor launched a task force on Nov. 19 to conduct a comprehensive review of national qualification systems and draw up measures, and Chosun Biz reported that the Korean Association of Tax Accountants said it would block AI use during training for trainee tax accountants. Chosun Biz reported that law firm YK is accepting applications to join a class action against the Human Resources Development Service of Korea on behalf of tax accountant exam takers. Veritas Alpha reported that essay and interview tests at the top 15 universities follow right after the CSAT, making measures against AI cheating a challenge.",
+          "Glossary: Smart glasses are eyeglass-style devices with built-in camera, speaker and communication functions, and depending on the product they can be connected to an AI assistant."
+        ]
+      }
     },
     {
       "id": "h20261119-5c7b01e53bd1",
@@ -1075,7 +1139,22 @@
           "title": "노타, 인텔 K-AI 풀스택 얼라이언스 참여...AI 최적화 협력 강화",
           "link": "https://www.thelec.kr/news/articleView.html?idxno=65446"
         }
-      ]
+      ],
+      "en": {
+        "title": "Nota Unveils Full-Stack Optimization That Cuts AI Agent Task Time by Up to 47%",
+        "points": [
+          "Full-stack optimization extends to AI agents",
+          "Task time cut by up to 47%, output tokens by up to 60%",
+          "Supply to financial sector and Intel alliance participation follow"
+        ],
+        "body": [
+          "Nota (CEO Chae Myung-soo), an AI inference efficiency company, unveiled \"full-stack optimization\" technology that adds control of AI agents' workflows to AI model compression and GPU kernel optimization. The date of the announcement differs by outlet: Techworld News wrote Nov. 18, while AI Times, Digital Daily, Hellot and HelloDD wrote Nov. 19.",
+          "The performance figures are the company's own. According to AI Times, Nota said that on the same AI model and GPU environment, it cut task time by up to 47% and output tokens by up to 60% compared with the default configuration of the coding agent Cline. Datanet and Hellot also reported that the comparison was made against Cline's default configuration. In its headline, Digital Daily wrote that agent task time was cut by 47%, without the word \"up to.\"",
+          "On how the technology works, Techworld News explained that while an AI agent handles a single task it repeats model calls, tool use and result verification, and that Nota's technology covers the reasoning, verification and tool calls in this process. HelloDD reported that it is a technology that lowers task time and computing load by reducing the reasoning and verification steps an agent repeats unnecessarily. Digital Daily noted that in the age of AI agents, optimization technology that cuts task time on the same equipment is becoming more advanced.",
+          "Related news about Nota has continued over the past 10 days. According to The Elec, Nota said on Nov. 14 that it would join Intel Korea's \"K-AI Full-Stack Alliance.\" The alliance is an open AI collaboration body aimed at designing and supplying domestic servers equipped with Intel chips, with 23 member companies working together. AI Times and Datanet reported that on Nov. 16 Nota supplied financial-sector-specific large language models (LLMs) and servers to financial IT company Dubet for an on-premises AI coding agent business. Tech M reported on Nov. 17 that Nota raised the processing efficiency of the AI model it supplied for financial-sector coding agents by up to 95%, a result of optimizing software so the same GPU can handle more requests.",
+          "Glossary: A token is the basic unit in which an AI language model processes text. On-premises refers to a company installing and running a system on its own servers rather than in the cloud."
+        ]
+      }
     },
     {
       "id": "b20261119",
@@ -1225,7 +1304,24 @@
           "link": "https://www.kmib.co.kr/article/20261119501664"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "Nov. 19 AI Briefing: Anthropic IPO, AI Cheating on the CSAT, Nvidia Steadies",
+        "points": [
+          "Anthropic prices IPO, largest ever",
+          "AI cheating measures and widening investigation on CSAT day one",
+          "AI infrastructure spending outlook and Nvidia steadies"
+        ],
+        "body": [
+          "Anthropic set its initial public offering (IPO) price at $83 per share. AI Times reported that the price is above the target range and the valuation is about $1.5 trillion, and Newsis reported the amount raised at about 108 trillion won. According to eFocus, Anthropic is scheduled to list on the Nasdaq and begin trading on Nov. 19.",
+          "On Nov. 19, when the College Scholastic Ability Test was held, the Education Ministry said that 22 smartphones were caught in 9 cities and provinces but no cheating using advanced devices such as AI smart glasses had been reported, iNews24 reported. Kukmin Ilbo reported that the ministry ordered city and provincial education offices to keep last year's test papers, and Chosun Biz reported that the prime minister gave the same order. According to Chosun Biz, the People Power Party demanded the education minister's resignation and a statement from the president.",
+          "Nvidia held its first all-hands meeting since former CEO Jensen Huang's resignation. Newsis reported that interim CEO Colette Kress said pay raises and stock compensation would be brought forward. Kukmin Ilbo reported that Nvidia posted record revenue for the 14th straight quarter, and IT Chosun reported that its shares traded at $150.96, down 2.89%, on the New York stock market on Nov. 18.",
+          "LG Group carried out its regular 2027 executive appointments on Nov. 19. Industry News reported that they cover 132 people in total, and AI Times reported that LG Electronics created a dedicated AI data center cooling business unit and promoted robotics talent to executive posts. EBN reported that most CEOs of major affiliates kept their posts.",
+          "Gartner projected that global AI infrastructure spending in 2027 will reach $2.4 trillion, up 53% from this year. According to Chosun Biz and Datanet, this is a forecast in a Gartner report, and infrastructure accounts for 59% of total AI spending.",
+          "Cybersecurity company Palo Alto Networks will acquire AI startup Applied Compute for $4.5 billion. Digital Today reported that the purchase price is entirely in stock, and Tech M reported that quarterly revenue announced around the same time grew 39% from a year earlier.",
+          "The Trump administration in the United States is considering a measure that would require U.S. companies to disclose their use of Chinese AI models. Citing Reuters, AI Times reported that the idea is to reduce reliance through the reputational burden of disclosure rather than banning use outright, and Chosun Biz explained that Chinese AI is spreading among U.S. companies with low prices and competitive performance."
+        ]
+      }
     },
     {
       "id": "s20261119-ba396c57b34a",
@@ -1306,7 +1402,22 @@
           "title": "'AI거품론'이 거품이었나··· 엔비디아·AMD 반도체 공급망 ‘풀가동’",
           "link": "https://www.sisajournal-e.com/news/articleView.html?idxno=425149"
         }
-      ]
+      ],
+      "en": {
+        "title": "Gartner Forecasts 2027 AI Infrastructure Spending at $2.4 Trillion, Up 53%",
+        "points": [
+          "2027 AI infrastructure spending forecast at $2.4 trillion",
+          "Up 53% from a year earlier, 59% of total AI spending",
+          "AI-optimized servers about 40% of infrastructure spending"
+        ],
+        "body": [
+          "Market research firm Gartner forecast that global AI infrastructure spending in 2027 will reach $2.4 trillion. According to Chosun Biz, that is a 53% increase from this year, or about 3,192 trillion won, and it is contained in Gartner's report \"Global AI Spending Forecast, 2025-2030,\" published on Nov. 19. Datanet and AI Times reported that infrastructure spending will account for 59% of total AI spending.",
+          "According to AI Times, AI-optimized servers make up the largest share of AI infrastructure spending, at about 40%. Datanet reported that as demand for computing for AI inference and training grows, infrastructure investment centered on servers is expected to expand rapidly. In its headline, AI Times said \"memflation\" is accelerating the spending increase, and Platum reported that rising memory prices also push up server spending.",
+          "Outlets differ in the basis and notation for the same report. EBN reported that, on the basis of total AI spending rather than infrastructure, next year's spending rises 47.5% from this year, and wrote 5,320 trillion won in its headline. For the won conversion of infrastructure spending, AI Times wrote about 3,200 trillion won and Chosun Biz wrote 3,192 trillion won.",
+          "Demand outlooks have also continued in the semiconductor industry recently. iNews24 reported on Nov. 19 that Micron has already sold 75% of next year's memory output and forecast that supply shortages will deepen through 2028 as AI demand grows. Sisa Journal e reported that chip designers such as Nvidia and AMD have projected continued high growth next year, and plan to strengthen cooperation with key supply chain partners in memory, advanced packaging and high-layer-count substrates to secure volumes in advance.",
+          "Glossary: AI training is the process of building an AI model with large amounts of data, and inference is the process in which a trained model produces results for an input."
+        ]
+      }
     },
     {
       "id": "s20261120-2b773421c5e2",
@@ -1461,7 +1572,22 @@
           "title": "젠슨 황 없는 엔비디아⋯ 14분기 연속 매출 신기록",
           "link": "https://www.kmib.co.kr/article/20261118502323"
         }
-      ]
+      ],
+      "en": {
+        "title": "Nvidia Interim CEO Says Pay Raises and Stock Compensation Will Be Brought Forward at First All-Hands",
+        "points": [
+          "At first all-hands since Huang's exit, stresses keeping business strategy",
+          "Pay raises and stock compensation moved up by several months",
+          "Rules out former CEO Huang's return"
+        ],
+        "body": [
+          "Nvidia held its first all-hands meeting since former chief executive officer (CEO) Jensen Huang's resignation. Citing the Financial Times (FT) and others, Newsis reported that interim CEO Colette Kress said at the meeting on Nov. 18 that pay raises and stock compensation would be implemented earlier. IT Chosun reported that employees showed the greatest interest in compensation, and that the new leadership said it would bring forward the schedule for salary increases and additional stock compensation by several months.",
+          "There were also reports on strategy and a possible return. Citing The New York Times (NYT), iNews24 reported that interim CEO Kress said the company will keep its business strategy. Citing Bloomberg, AI Times reported that while some employees are calling for former CEO Huang's return, management reaffirmed a policy that he will not return. Chosun Biz reported that the meeting was an occasion to formally bid farewell to the Huang era and rally internal unity among 47,300 employees. Kukmin Ilbo separately reported that an analysis of posts by Nvidia employees on Blind found that more than half wanted former CEO Huang to return.",
+          "There is also an interpretation of investment standards. Kukmin Ilbo said interim CEO Kress will continue supporting the ecosystem but signaled strict standards for future investment, and noted that Nvidia's role as the \"central bank of AI\" could change.",
+          "The meeting was held right after the third-quarter earnings announcement. Kukmin Ilbo reported that Nvidia posted record revenue for the 14th straight quarter and that its next-quarter revenue forecast also beat market expectations. However, IT Chosun reported that Nvidia shares traded at $150.96, down 2.89%, on the New York stock market on Nov. 18, so uncertainty over the company's direction continued despite record quarterly revenue.",
+          "Glossary: Stock compensation is a form of pay in which employees are given company shares or the right to receive them after a set period."
+        ]
+      }
     },
     {
       "id": "s20261119-28a83961c0ab",
@@ -1542,7 +1668,22 @@
           "title": "반도체 공장에 휴머노이드 투입…글로벌파운드리스, 2027년 '아틀라스' 시험",
           "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=716257"
         }
-      ]
+      ],
+      "en": {
+        "title": "HD Hyundai Robotics Begins Supplying Korea's First 1-Ton Ultra-Large Industrial Robot",
+        "points": [
+          "First sales ceremony for 1-ton robot HDT1000-33",
+          "Korea's first in-house development, deployed in engine production line",
+          "Targeting heavy-load automation market"
+        ],
+        "body": [
+          "HD Hyundai Robotics held a ceremony marking the first sale of its in-house developed 1-ton ultra-large articulated robot \"HDT1000-33\" on Nov. 18 at the Korea R&D headquarters in Ansan, Gyeonggi Province. Electric Times, Industry News and iNews24 introduced the robot as Korea's first in-house developed 1-ton ultra-large industrial robot, and reported that the supply marks a full-scale entry into the heavy-load manufacturing process automation market. EBN called the event a ceremony for the sale of the initial batch.",
+          "According to The Elec, the HDT1000-33 can lift or move objects weighing up to 1 ton. Digital Daily reported that the idea is to switch work that has been hard to automate, such as moving large, heavy parts and loading them into processing equipment, over to robots to raise production efficiency and work safety, and said in its headline that the robot is deployed in an engine production line. iNews24 also mentioned a 1-ton engine in its headline.",
+          "Electric Times described this first commercial supply as opening the door to localization of the heavy-load manufacturing automation market. Chosun Biz reported in its headline that the company said it intends to develop new markets.",
+          "News of robots being introduced at industrial sites also continued around the same time. Kukmin Ilbo, IT Chosun and Digital Today reported that Boston Dynamics, part of Hyundai Motor Group, said on Nov. 17 (local time) that it is expanding cooperation with U.S. semiconductor foundry GlobalFoundries and will test the humanoid robot \"Atlas\" in a production process. Digital Today wrote that the trial deployment is set for early 2027, and Kukmin Ilbo reported that GlobalFoundries also plans to expand deployment of the quadruped robot \"Spot\" to factories worldwide. The company names were spelled differently by outlet, with Boston Dynamics rendered in two Korean spellings and GlobalFoundries in two Korean spellings.",
+          "Glossary: An articulated robot is an industrial robot that moves with multiple joints, like a human arm."
+        ]
+      }
     },
     {
       "id": "s20261119-46b3f341d671",
@@ -1592,7 +1733,21 @@
           "title": "현대카드, JP모간과 'AI 에이전트' 실증…환전·송금 지형 바꿀까",
           "link": "https://www.bloter.net/news/articleView.html?idxno=678963"
         }
-      ]
+      ],
+      "en": {
+        "title": "Hyundai Card Completes Technical Validation of Financial Transactions Between AI Agents With JPMorgan",
+        "points": [
+          "AI agents run mock currency exchange and remittance with each other",
+          "Proof of concept completed with JPMorgan's Kinexys",
+          "Transactions beyond authority are blocked automatically"
+        ],
+        "body": [
+          "Hyundai Card said on Nov. 18 that it completed a proof of concept (PoC) of AI-agent-based financial transactions with Kinexys, JPMorgan's dedicated blockchain business unit. According to Chosun Biz, the PoC was run as a mock transaction in which each institution's AI agent exchanged funds without direct human involvement. EBN reported that it was a validation in which AI agents of different institutions communicate with each other. The company name was written differently: the Digital Today and Chosun Biz headlines used one Korean spelling of JPMorgan, while Bloter and EBN used another.",
+          "Digital Today reported that JPMorgan and Hyundai Card succeeded in a technical validation in which AI agents communicate with each other and automatically handle foreign exchange transactions and remittances. The explanation is that they confirmed the potential of a next-generation financial system in which AI carries out everything from fund management to payment without humans stepping in at every stage of a transaction. The same outlet, which covered the SFF2026 event in Singapore, reported that a technology in which AI agents compare exchange rates and handle currency exchange and remittance with each other was demonstrated, and that transactions outside preset authority are blocked automatically. The headline of that article carried the two companies' statement that the key is control and trust.",
+          "Outlets differ in how they evaluate the result. Chosun Biz wrote that the validation succeeded, and Bloter wrote that it proved the commercial viability of AI-agent-based financial transactions. Bloter reported that there is an assessment that it moved a step closer to building next-generation infrastructure in which AI from different institutions communicates autonomously and manages funds, beyond simple work assistance.",
+          "Glossary: A PoC (proof of concept) is a small-scale test to confirm in advance whether a new technology is actually feasible. An AI agent is an AI program that handles tasks toward a goal without a person instructing it at every step."
+        ]
+      }
     },
     {
       "id": "h20261118-0b3afb1f0a09",
@@ -2440,7 +2595,22 @@
           "title": "인핸스, MS 이그나이트서 AI 운영비 최적화 사례 발표…북미 시장 확대",
           "link": "https://www.venturesquare.net/1129226"
         }
-      ]
+      ],
+      "en": {
+        "title": "Microsoft Ignite 2026 Presents Copilot as the Operating System for Work",
+        "points": [
+          "Copilot presented as the operating system for work",
+          "Frontier Ecosystem links agents and infrastructure",
+          "Security features including threat-blocking agent Perception unveiled"
+        ],
+        "body": [
+          "Microsoft (MS) held its annual conference \"Microsoft Ignite 2026\" in San Francisco on Nov. 17 (local time) and presented Copilot as a new operating system (OS) for work. Chosun Biz reported that Copilot is a concept that spans all work, and Byline Network reported that Satya Nadella defined the company's generative AI tool Copilot as a new OS in his keynote. Inven reported that Nadella stressed human-centered intelligence and trust. Nadella's title was written as CEO by Chosun Biz and Digital Daily, and as chairman by Byline Network.",
+          "Outlets stress different points in the product lineup. According to Digital Daily, users can use Word, Excel and PowerPoint inside the Copilot app and hand a team's repetitive tasks to AI agents. Platum described people and AI agents splitting the same project in one workspace, with administrators weighing the costs that went into agents and their results on a single screen. Inven reported that the Copilot Workspace and Autopilot, among others, will be introduced, and VentureSquare explained that Microsoft IQ and new AI models strengthen companies' ability to use data.",
+          "Techworld News and Datanet reported that MS unveiled at the event its \"Frontier Ecosystem\" strategy spanning Copilot, AI agents, models, security and cloud infrastructure. Chosun Biz said in its headline that coding and security AI models were also unveiled, and Security News reported that new technologies and products combining AI transformation and security visibility, including the threat-blocking agent \"Perception,\" were introduced.",
+          "There were also reports just before the event. Citing The Information on Nov. 16, Digital Today reported that MS will add to its Azure cloud at Ignite a system that lowers the cost of running AI agents, and explained that it will show new features in Copilot and Azure that can keep rivals' products such as Anthropic's in check. According to VentureSquare, Enhans will present a case study on optimizing AI token costs at an Ignite breakout session on Nov. 18.",
+          "Glossary: An AI agent is an AI program that handles tasks by using tools toward a goal without a person instructing it at every step. A token is the basic unit in which an AI language model processes text."
+        ]
+      }
     },
     {
       "id": "s20261118-51b8c6f40f40",
