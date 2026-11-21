@@ -84,7 +84,23 @@
           "title": "DLSS 5, 7개월 만에 성능 '10배'…엔비디아, 워썬더·호그와트에 적용",
           "link": "https://www.betanews.net/article/view/beta202611160052"
         }
-      ]
+      ],
+      "en": {
+        "title": "Nvidia Launches RTX Spark Compact Desktop, Asus Releases ProArt GR1X",
+        "points": [
+          "Nvidia launches RTX Spark compact desktop",
+          "Asus, Dell and MSI sell products",
+          "Asus ProArt GR1X pre-orders begin in Korea"
+        ],
+        "body": [
+          "Nvidia released the 'RTX Spark,' a compact desktop that runs AI agents locally, and in Korea Asus launched the 'ProArt GR1X' mini PC based on it on the 20th. Several outlets reported that Nvidia's product launched globally on the 19th and that pre-orders for the Asus product began in Korea from the 19th.",
+          "According to AI Times, Nvidia introduced the RTX Spark as a compact desktop that can run local AI agents 24 hours a day, and Asus, Dell, MSI and others are showing products. Digital Today reported that Nvidia sells the RTX Spark through Asus, Dell and MSI, and that a single unit can handle running local AI agents, image and video generation and model fine-tuning. It was also stressed that supported models can be used locally without sending code or files outside.",
+          "AI Newspaper (인공지능신문) gave the most specific account of performance. The outlet explained that the RTX Spark has up to 1 petaflop of AI computing performance and 128GB of unified memory, and can run large AI models and autonomous AI agents on a personal PC without relying on a separate GPU server or the cloud. Tech M covered the price. Tech M reported that Nvidia released a compact desktop priced close to 6 million won, following an AI laptop priced near 10 million won. However, Tech M gave the launch date as the 18th, which differs from other outlets that wrote the 19th.",
+          "For the Asus product, Datanet introduced it as providing computing performance of up to 1 petaflop with a Blackwell RTX GPU. Inven reported that the product, equipped with an Nvidia Grace CPU and a Blackwell RTX GPU, will first offer a 64GB model and plans to add a 128GB model. Beta News and Techworld News wrote that the ProArt GR1X is an agentic AI mini PC in Asus's agent computer lineup aimed at professional creators, developers and gamers. Intec & Company, Asus's official importer, said it will officially launch it in Korea and take pre-orders on Coupang.",
+          "There is also a recent trend. Beta News reported that on the 16th Nvidia applied DLSS 5 3D-guided neural rendering to 'War Thunder' and 'Hogwarts Legacy,' and also released new Game Ready drivers for GeForce RTX and RTX Spark.",
+          "Glossary: A petaflop is a unit of performance equal to processing about 1,000 trillion (10 to the 15th power) floating-point operations per second. Local AI refers to running an AI model directly on the user's device rather than on a cloud server."
+        ]
+      }
     },
     {
       "id": "h20261120-9429fd05955e",
@@ -147,7 +163,22 @@
           "title": "\"금융상품도 AI에 물어보세요\"…미래에셋증권, AWS 손잡고 1만3000건 정보 통합",
           "link": "https://www.techm.kr/news/articleView.html?idxno=157621"
         }
-      ]
+      ],
+      "en": {
+        "title": "Mirae Asset Securities Runs Financial Product Knowledge Search Built on AWS Generative AI",
+        "points": [
+          "Mirae Asset Securities runs AWS-based AI search",
+          "Unified search of scattered financial products, disclosures and research",
+          "Applied to employees first, customer service expansion next year"
+        ],
+        "body": [
+          "Mirae Asset Securities is formally running a financial product knowledge search service built on Amazon Web Services (AWS) generative AI technology. According to Industry News and Digital Today, Mirae Asset Securities said on the 20th that it is operating the service. The service name was written differently by outlets, as 'product knowledge AI search' and 'financial product knowledge AI search.'",
+          "Techworld News reported that Mirae Asset Securities is applying the service, which lets users search financial products, disclosures and research information at once, to employee work and will expand it to a customer-facing service starting next year. Tech M also wrote that it is currently operated for employees.",
+          "The core of the service is finding scattered information in one place. Korea NGO News and Industry News reported that users can search financial product information, company information, disclosures and research materials that had been split across multiple systems. Datanet wrote that the search scope includes financial product information such as ETFs, funds, bonds and stocks, and Tech M said in its headline that 13,000 items of information were integrated.",
+          "Digital Daily covered the answer method in detail. The outlet reported that when a user asks a question, the AI finds the needed information and answers and also provides the source of the answer, and that it was designed not to make up unverified information, improving accuracy.",
+          "Glossary: Generative AI refers to AI that creates new outputs such as text based on the data it has learned. Hallucination refers to the phenomenon in which AI plausibly makes up content that is not true."
+        ]
+      }
     },
     {
       "id": "h20261120-d1810f8b9486",
@@ -216,7 +247,22 @@
           "title": "하이퍼엑셀, 엔비디아 GPU 대비 추론 효율 3.5배 제시…SC26서 AI 반도체 서버 공개",
           "link": "https://www.venturesquare.net/1128746"
         }
-      ]
+      ],
+      "en": {
+        "title": "Moreh Unveils Self-Improving Inference Framework TIDE at SC26",
+        "points": [
+          "Moreh unveils inference framework TIDE",
+          "Raises LLM inference throughput by up to 1.66 times",
+          "Nvidia and AMD GPU mix improves by 1.22 times"
+        ],
+        "body": [
+          "Moreh, an AI infrastructure solutions company, unveiled 'TIDE,' a self-improving inference framework that boosts large language model (LLM) inference performance, at 'Supercomputing 2026 (SC26)' in Chicago. According to AI Times and Digital Today, Moreh announced this on the 20th. Tech M and Digital Daily said in their headlines that the technology raises throughput by up to 1.66 times.",
+          "TIDE stands for 'Temporal Incremental Draft Engine.' Datanet wrote that the framework was first announced at SC26. It works by continuously training an auxiliary model using data generated during actual inference. VentureSquare explained that it uses internal data generated during an LLM's actual inference.",
+          "Digital Daily gave more specific figures. According to the outlet, system throughput improved 1.22 times when Nvidia and AMD GPUs were combined, and the system trains the auxiliary model on real inference data and automatically optimizes load. Both Tech M and Digital Daily described the 1.66 times figure as a maximum.",
+          "Reports on inference efficiency also continued over the past 14 days. Nota unveiled full-stack optimization technology on the 18th that, in addition to model lightweighting and GPU kernel optimization, covers AI agents' reasoning, verification and tool-calling, and it was reported that work time fell by up to 47%. VentureSquare reported that HyperAccel unveiled an AI inference server with eight LPUs at SC26 on the 16th and presented 3.5 times the inference efficiency of Nvidia GPUs.",
+          "Glossary: Inference is the process in which a trained AI model takes a user's input and produces a result. Throughput is the amount of work a system handles in a given period."
+        ]
+      }
     },
     {
       "id": "h20261120-e1bd4ab0541c",
@@ -298,7 +344,23 @@
           "title": "파손된 휴대전화·삭제된 AI 기록… ‘커닝’ 입증 어떻게 할까",
           "link": "https://biz.chosun.com/topics/law_firm/2026/11/20/5M4M456MWZEJRJZ2OWBXUZ7JDY"
         }
-      ]
+      ],
+      "en": {
+        "title": "President Lee Jae-myung Orders Overhaul of National Exam System in Response to AI Cheating",
+        "points": [
+          "President signals full overhaul of national exams",
+          "Orders comprehensive plan beyond CSAT, covering qualification exams and hiring",
+          "Education Ministry tallies 111 electronic device cheating cases on CSAT"
+        ],
+        "body": [
+          "President Lee Jae-myung said on the 20th that he will completely overhaul the national exam system in response to exam cheating that abuses AI. According to iNews24, Lee said at a senior secretaries meeting at the Blue House that afternoon, 'We must quickly overhaul the national exam system from A to Z to suit the changed environment.'",
+          "Outlets summarized the thrust of his remarks differently. Kukmin Ilbo reported that Lee said it seems hard to effectively stop cheating that abuses advanced AI equipment with conventional methods. Digital Daily wrote that he signaled he would work to improve the national exam system overall amid growing concern that AI-abusing cheating could lead to a collapse of trust in the community. Media Today said in its headline that Lee defined AI-abusing cheating as a serious crime and called for exemplary punishment.",
+          "Chosun Biz reported that Lee ordered a comprehensive plan to ensure fairness in various exams and evaluations, including not only the CSAT but also national qualification exams and private-sector hiring.",
+          "Follow-up reports came the same day. According to Digital Daily, Prime Minister Han Seong-sook said on the 20th that authorities will analyze Wi-Fi and Bluetooth signals recorded at exam sites on exam day to find cheating that was not caught on the spot. Chosun Biz reported that on the 20th the Education Ministry, together with the Korean Council for University Education, reviewed measures against smart device cheating at 46 universities holding their own exams such as essay tests. Veritas Alpha reported that the Education Ministry said 111 electronic device-related cheating cases were caught on the 20th, up 13 from the 98 tallied through the fourth period the day before.",
+          "Qualification exams are also under review. Digital Daily reported that the Ministry of Employment and Labor and the Human Resources Development Service of Korea held an emergency meeting on the 15th and decided to check all national qualification exams held this year for AI cheating. Chosun Biz reported that police launched a compulsory investigation related to the top scorer on the tax accountant exam.",
+          "Glossary: The senior secretaries meeting is a meeting in which the president discusses major issues with senior secretaries and others. 'Ilbeokgyegye' (exemplary punishment) means punishing one person severely to warn others."
+        ]
+      }
     },
     {
       "id": "h20261120-e25e6cad9a7c",
@@ -354,7 +416,21 @@
           "title": "유락, 오만 찍고 걸프 간다...AI 포렌식 강화",
           "link": "https://www.thelec.kr/news/articleView.html?idxno=65721"
         }
-      ]
+      ],
+      "en": {
+        "title": "Yurak Joins CYSEC Oman 2026 and Unveils AI Digital Forensics",
+        "points": [
+          "Yurak joins cybersecurity event in Oman",
+          "Unveils DFAS series of AI digital forensics",
+          "Targets Middle East market from Oman base"
+        ],
+        "body": [
+          "Yurak, a digital forensics company, took part in a cybersecurity conference in Oman and showed its AI digital forensics solutions. According to Boan News and Tech M, among others, Yurak said on the 20th that it took part in 'CYSEC OMAN 2026,' held on the 19th in Muscat, Oman.",
+          "At the event it presented its AI digital forensics solution series 'DFAS.' The Elec reported that the three products in the series include 'DFAS Edge,' an on-device AI multimodal forensics solution, and a generative AI usage audit solution. Datanet wrote in its headline that the company unveiled on-device AI forensics.",
+          "Outlets emphasized different points about the business strategy. Tech M reported that Yurak plans to target the Middle East market from an Oman base and expand its AI digital forensics business in cooperation with local government agencies. Techworld News wrote that, building on its experience working with local government agencies, the company plans to expand its existing digital forensics business into AI-based data analysis, security and auditing. The Elec said in its headline that the company is moving on to the Gulf region after Oman.",
+          "Glossary: Digital forensics is a technique for collecting and analyzing data left on digital devices such as computers and mobile phones for use as evidence. On-device AI is an approach in which AI runs directly inside a device rather than in the cloud."
+        ]
+      }
     },
     {
       "id": "b20261120",
@@ -442,7 +518,22 @@
           "link": "https://www.aitimes.com/news/articleView.html?idxno=217599"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "Nov. 20 AI Briefing: Fallout From Anthropic's Listing and the Response to AI Cheating",
+        "points": [
+          "AI-related stocks weaken after Anthropic's listing",
+          "AI cheating drives an overhaul of national exams",
+          "Controversy spreads over U.S. AI chip rules for China"
+        ],
+        "body": [
+          "The market was shaken after Anthropic's listing. According to Industry News, Anthropic closed its first day of trading on the Nasdaq on the 19th (local time) at $97.17, up 17% from its $83 offering price, with an offering of $81.3 billion. But Digital Daily reported that the New York stock market fell sharply the same day, led by AI chip and data center stocks. Newsis reported that the Nikkei 225 fell 5.06% on the 20th to close at 56,436.65.",
+          "Responding to AI cheating has become a government-level task. According to iNews24, President Lee Jae-myung said on the 20th that the national exam system must be completely overhauled. Chosun Biz reported that he ordered a comprehensive plan to ensure fairness not only in the CSAT but also in national qualification exams and private-sector hiring.",
+          "Reports on U.S. AI chip rules for China overlapped. According to AI Times, Moonshot AI canceled a $150 million deal to lease Nvidia chips through an Indonesian data center. The same outlet reported that the U.S. Commerce Department approved exports of about 880,000 Nvidia and AMD AI chips to Chinese companies, with more than 30% going to firms tied to the Chinese military. IT Chosun reported that California is investigating suspicions that Nvidia's advanced chips and confidential information leaked to China.",
+          "Nvidia also launched a small AI desktop. AI Times reported that Nvidia released the 'RTX Spark,' which runs local AI agents, globally on the 19th, and that pre-orders for the Asus product began in Korea.",
+          "Korean corporate news continued. According to Techworld News, Mirae Asset Securities is applying an AWS-based generative AI search service to employee work and will expand it to customers starting next year. AI Times reported that Moreh unveiled TIDE at SC26, which raises LLM inference throughput by up to 1.66 times."
+        ]
+      }
     },
     {
       "id": "s20261120-155fd24a1711",
@@ -516,7 +607,21 @@
           "link": "https://www.datanet.co.kr/news/articleView.html?idxno=300196"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "Wisenut Obtains AI Product and Service Certification for Five AI Agent Solutions",
+        "points": [
+          "Wisenut obtains certification for five AI agent solutions",
+          "Strengthens response to public procurement market",
+          "Q3 AI agent revenue up 114.8%"
+        ],
+        "body": [
+          "Wisenut obtained the 'AI Product and Service Certificate' for five AI agent solutions. Datanet and Digital Daily reported that Wisenut announced this on the 19th.",
+          "The certified products include the multi-agent integrated platform 'Wise Agent Sphere,' the AI agent building tool 'Wise Agent Labs' and the agent-specialized large language model 'Wise LLOA.' Outlets linked the certification to the public market. Digital Daily wrote that the company plans to expand supply to the public market and broaden its procurement product lineup, and iNews24 said in its headline that it widens its channels for entering public procurement. IT Chosun reported that adoption by public institutions is expected to become easier and trust in the private market could also rise.",
+          "Recent developments continue. Wisenut said on the 16th that it recorded consolidated third-quarter revenue of 9.47 billion won and operating profit of 1.63 billion won. AI agent revenue was 5.03 billion won, up 114.8% from a year earlier. However, the share was written differently by outlet. VentureSquare said it was 53.1% of total revenue and Techworld News said the share was 53%, while Digital Daily wrote that the share was 26.6%.",
+          "Glossary: An AI agent refers to AI that takes a user's goal, plans work steps on its own and uses multiple tools to carry out tasks."
+        ]
+      }
     },
     {
       "id": "h20261119-a82b5922ce48",
@@ -1497,7 +1602,21 @@
           "link": "https://www.thelec.kr/news/articleView.html?idxno=65608"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "DNotitia Shows VDPU AI Data Search Chip Running in Real Time for the First Time at SC26",
+        "points": [
+          "DNotitia first shows VDPU ASIC running in real time",
+          "Demonstrated at SC26 in Chicago, U.S.",
+          "Technology verified beyond FPGA to ASIC"
+        ],
+        "body": [
+          "DNotitia showed for the first time the real-time operation of its AI data search chip 'VDPU (Vector Data Processing Unit)' based on an application-specific integrated circuit (ASIC) at 'Supercomputing 2026 (SC26)' in Chicago. Digital Daily and EBN, among others, reported that DNotitia announced this on the 19th.",
+          "Digital Daily wrote that the event ran from the 17th to the 19th (local time), and Hellot said the venue was McCormick Place in Chicago. Techworld News explained that as AI data search technology expands from software-centered to dedicated-chip-based, DNotitia showed for the first time the real-time operation of an ASIC-based chip dedicated to vector search. The same outlet said in its headline that the company verified the technology beyond FPGA to ASIC. DNotitia was described as a company promoting long-term memory AI and integrated chip solutions.",
+          "Other Korean companies also made announcements at the same event. Digital Today reported that SemiFive unveiled on the 17th a 3D-IC technology that implements AI chips without HBM. VentureSquare reported that HyperAccel is unveiling on the 16th an AI inference server with eight LPUs, and The Elec reported that CocoLink unveiled a server that connects multiple accelerators without Nvidia's NVLink.",
+          "Glossary: An ASIC is an application-specific integrated circuit designed for a particular use. An FPGA is a chip whose circuit configuration can be changed by programming even after manufacturing."
+        ]
+      }
     },
     {
       "id": "s20261119-9164e3d2f48e",
