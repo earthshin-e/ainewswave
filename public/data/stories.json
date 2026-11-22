@@ -680,7 +680,23 @@
           "title": "여수, AI 데이터센터 유치 공식화…가뭄 겪은 산단, 전력·용수 부담은",
           "link": "https://www.aitimes.com/news/articleView.html?idxno=217583"
         }
-      ]
+      ],
+      "en": {
+        "title": "Government Moves to Exempt Non-Capital-Region AI Data Centers of 50MW or Less From Power Grid Impact Review",
+        "points": [
+          "Plan to exempt AI data centers of 50MW or less outside the capital region from review",
+          "Streamlined review for special zones, priority review for large projects",
+          "Leased facilities also eligible for support under the special act"
+        ],
+        "body": [
+          "The government is revising the power grid impact assessment system to speed up construction of AI data centers (AIDCs). The Ministry of Science and ICT and the Ministry of Climate, Energy and Environment unveiled a customized assessment improvement plan for AIDCs on the 20th, and are pushing to exempt AI data centers with contract power of 50MW or less outside the capital region from the assessment.",
+          "AI Times reported that the government plans to introduce a streamlined assessment for AIDC special zones and priority review for mega projects and projects eligible for one-stop permitting. AI Newspaper (인공지능신문) wrote that facilities in the special zones will face only a technical stability assessment of the power grid, while Jeongi Shinmun (전기신문) reported that non-technical assessments will be waived for projects in the zones. All three outlets agree that the assessment burden in the zones will be reduced, though their wording differs slightly.",
+          "According to Chosun Biz, the government has drawn up a plan to include leased facilities among those eligible for support under the AI Data Center Special Act, which takes effect next March. Operators that rent out space for customers to install and run AI equipment, while providing power, communications and cooling facilities, can also receive support if they meet facility requirements. Digital Today reported that the government set the exemption threshold for the power grid impact assessment at contract power of 50MW or less, and that it will specify the criteria for recognizing AI data centers and simplify the permitting process.",
+          "According to Hellot, the Ministry of Science and ICT will give 40 days of advance notice, from Nov. 20 to Dec. 30, of the draft enforcement decree and enforcement rules for the special act on promoting the AI data center industry. AI Times reported that the recognition criteria for AIDCs to receive benefits and support under the special act have been released, and that facilities must meet standards for the power capacity and efficiency of AI accelerators (GPUs, NPUs and others).",
+          "Regional moves on AI data centers are also continuing. AI Times reported that Yeosu, South Jeolla-Gwangju, has formally announced its bid to attract an AI data center. Yeosu has had industrial water supply restricted by drought in the past, and the report pointed out that a new data center could require additional power and water on top of existing industrial demand.",
+          "Glossary: A power grid impact assessment is a government review of whether the regional power grid can handle the added demand when a facility that uses large amounts of electricity is built. Contract power is the maximum power a customer agrees with the utility to use."
+        ]
+      }
     },
     {
       "id": "h20261121-800d87bf9a58",
@@ -731,7 +747,22 @@
           "title": "Harvard 연구진, AI 코딩 에이전트가 병목을 코드 리뷰로 옮겼음을 확인",
           "link": "https://news.hada.io/topic?id=37405"
         }
-      ]
+      ],
+      "en": {
+        "title": "Basic International Unveils AI Coding Automation Solution for Enterprise SI",
+        "points": [
+          "Basic International unveils AI SyncOps Studio",
+          "AI agent solution based on spec-driven development",
+          "Aims to automate SI build-out and maintenance work"
+        ],
+        "body": [
+          "Basic International's AI Center has unveiled AI SyncOps Studio, a solution for AI agent-based spec-driven development (SDD). Digital Today reported that the company announced it on the 20th.",
+          "According to TheElec, the product follows AI SyncOps, an AI agent-based coding automation tool. Digital Today described it as an upgraded version of the SDD solution.",
+          "The outlets emphasize different points. Datanet described it as an enterprise-grade solution that goes beyond one-off code generation to automate the entire process of building and maintaining large-scale enterprise systems (SI), as vibe coding with generative AI becomes a development trend. AI Newspaper (인공지능신문) reported that it is a multi-AI-agent-based development solution that goes beyond vibe coding, which generates code from natural-language commands, to automate SI and maintenance work as a whole. Digital Today's headline said it automates key stages of SI projects, and TheElec wrote that it automates even complex enterprise SI and maintenance with AI.",
+          "Recent reports on AI coding tools have also continued. According to GeekNews, Harvard researchers analyzed work data from 655 companies and 720,542 workers and found that after adopting AI coding agents, code output rose 44.0%, but the increase in work actually deployed was much smaller. The headline summarized this as the bottleneck shifting to code review.",
+          "Glossary: Vibe coding refers to a development approach in which a person describes the desired feature in natural language and AI writes the code. System integration (SI) refers to the business of designing and building the information systems a company needs."
+        ]
+      }
     },
     {
       "id": "h20261121-b0c32cf9d80e",
@@ -781,7 +812,21 @@
           "title": "한난, 에머슨과 손잡고 집단에너지설비 AI 전환 추진",
           "link": "https://www.electimes.com/news/articleView.html?idxno=375032"
         }
-      ]
+      ],
+      "en": {
+        "title": "Emerson and Korea District Heating Corp. Sign Agreement to Apply AI to District Energy Facilities",
+        "points": [
+          "Emerson and Korea District Heating Corp. sign AI operations MOU",
+          "Combining the Ovation automation platform with AX capabilities",
+          "Aims to optimize operations of cogeneration and district heating facilities"
+        ],
+        "body": [
+          "Emerson, a global automation company, has signed a memorandum of understanding (MOU) with Korea District Heating Corp. (KDHC) to innovate district energy facility operations and expand the use of AI. According to Jeongi Shinmun (전기신문), KDHC signed the MOU with Emerson on the 18th for AI transformation (AX) of district energy facilities.",
+          "Datanet reported that Emerson Korea (CEO Jung Jae-sung) signed the agreement with KDHC, explaining that it combines KDHC's AX capabilities with Emerson's Ovation automation platform and intelligence portfolio. Techworld News introduced the agreement along similar lines. VentureSquare reported that the two companies will use the Ovation automation platform and the Ovation Intelligence portfolio to pursue operator decision support and other goals.",
+          "The outlets focus on slightly different points. Hellot's headline put forward industrial AI demonstration and upgrading district energy operations, while VentureSquare said the companies will apply industrial AI to cogeneration and district heating to pursue a demonstration of operational optimization. Jeongi Shinmun said they will work to make district energy facility operations more efficient.",
+          "Glossary: District energy is a method of gathering heat and electricity produced at cogeneration plants and other facilities and supplying them to multiple consumers. Cogeneration is a power generation method that produces electricity and reuses the leftover heat for heating and other uses. AX (AI transformation) refers to a company or institution applying AI across its operations to change the way it works."
+        ]
+      }
     },
     {
       "id": "h20261121-6c4255bb8ad6",
@@ -857,7 +902,23 @@
           "title": "앤트로픽, 상장 이틀째 8.5% 급락...공모가까지 근접",
           "link": "https://www.aitimes.com/news/articleView.html?idxno=217639"
         }
-      ]
+      ],
+      "en": {
+        "title": "Anthropic Mathematician Claims Proof of Riemann Hypothesis With Claude",
+        "points": [
+          "Anthropic mathematician claims Riemann hypothesis proof using Claude",
+          "17.4 million lines of proof code released, verification begins",
+          "Researcher says even he does not fully understand the proof"
+        ],
+        "body": [
+          "A mathematician at Anthropic has claimed to have proved the Riemann hypothesis with the help of the company's AI model Claude. AI Times reported that the mathematician said the proof was found together with Claude and that the mathematical community has begun verification. Chosun Biz wrote that if it passes final verification, it could be a historic discovery in the history of mathematics.",
+          "Chosun Biz reported that the material released is 17.4 million lines of mathematical proof code. iNews24 reported that the researcher himself said he does not fully understand the proof process. According to Chosun Biz, the Riemann hypothesis holds that even the irregularly appearing prime numbers follow a certain mathematical pattern, and it is one of the seven major problems selected by the mathematical community.",
+          "The length of time it remained unsolved is stated differently by outlet. One Chosun Biz article wrote about 160 years, while another Chosun Biz article, AI Times and iNews24 gave 167 years.",
+          "GeekNews introduced the mathematician as Levent Alpöge and reported that he announced he had discovered, together with Claude, proofs of the Riemann hypothesis and the generalized Riemann hypothesis (GRH). He expects it to apply to the extended Riemann hypothesis as well, but added that this part is still only an outlook. According to another GeekNews post, the result is 17.4 million lines of Lean code, and Scott Aaronson said he is not certain the proof is valid but has not yet seen a case where an AI result with Lean certification was retracted.",
+          "Anthropic recently listed on the Nasdaq. Chosun Biz reported that Anthropic, the maker of Claude, debuted on the market on the 19th (local time) up 17% from its offering price on its first day of trading, and AI Times reported that on the 20th (local time), on its second day, the stock plunged 8.5% to close to the offering price.",
+          "Glossary: The Riemann hypothesis is an unsolved problem in mathematics concerning the distribution of prime numbers, a conjecture about the locations of the zeros of the Riemann zeta function. Lean is a proof-assistant programming language in which mathematical proofs are written so that a computer can verify them step by step."
+        ]
+      }
     },
     {
       "id": "h20261121-accf3ef0ede0",
@@ -902,7 +963,22 @@
           "title": "인도 휴민랩스, 피지컬 AI 학습 데이터 사업에 4700만달러 투자 유치",
           "link": "https://www.irobotnews.com/news/articleView.html?idxno=49673"
         }
-      ]
+      ],
+      "en": {
+        "title": "Rockwell Automation to Acquire Austrian AMR Maker AGILOX",
+        "points": [
+          "Rockwell signs agreement to acquire Austrian AMR maker AGILOX",
+          "Target company has AI and swarm networking technology",
+          "Aims to strengthen physical AI and autonomous logistics business"
+        ],
+        "body": [
+          "U.S.-based Rockwell Automation has signed a definitive agreement to acquire AGILOX, an Austrian maker of autonomous mobile robots (AMRs). Robot Newspaper reported that Robotics247 reported the news on the 18th (local time), and Techworld News reported that Rockwell Automation announced the signing of the final acquisition agreement on the 20th.",
+          "AGILOX makes AMRs based on its own AI and swarm networking technology. Hellot explained that AGILOX makes high-performance AMRs.",
+          "The wording on the purpose of the acquisition differs somewhat by outlet. Hellot's headline put forward strengthening its physical AI strategy, and Techworld News reported that the company is moving to strengthen its autonomous logistics and physical AI business.",
+          "Investment aimed at physical AI also continued. Robot Newspaper reported that India's Humyn Labs raised an initial investment of $47 million (about 62.7 billion won) and is moving to expand its physical AI training data business. Humyn Labs is a company specializing in AI and robot training data, and Robot Newspaper said U.S. tech outlet SiliconANGLE reported the news on the 18th.",
+          "Glossary: An autonomous mobile robot (AMR) is a robot that perceives its surroundings and finds its own path without guide lines on the floor. Swarm networking refers to technology that connects multiple robots so they communicate with each other and move together."
+        ]
+      }
     },
     {
       "id": "b20261121",
@@ -1002,7 +1078,22 @@
           "link": "https://www.ddaily.co.kr/page/view/2026112107290071015"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "Nov. 21 AI Briefing: Anthropic Plunges on Second Day of Trading, Data Center Policy Continues",
+        "points": [
+          "Anthropic plunges on second trading day, Nasdaq also falls",
+          "Easing of AI data center power rules and site visits continue",
+          "Verification begins on Anthropic researcher's Riemann hypothesis claim"
+        ],
+        "body": [
+          "Anthropic's stock plunged on its second day of trading. AI Times reported that Anthropic shares fell 8.5% from the previous day on the Nasdaq on the 20th (local time), to near the offering price. Chosun Biz reported that the New York market was mixed in early trading and that Anthropic fell nearly 10% for a second day. Kukmin Ilbo and EBN reported that the Nasdaq Composite fell 5.28% and Nvidia dropped 14% on the 20th (local time), and EBN wrote that concerns over the profitability and cost burden of AI investment were behind the moves.",
+          "An Anthropic mathematician has claimed to have proved the Riemann hypothesis with the help of Claude. According to Chosun Biz, 17.4 million lines of mathematical proof code were released, and AI Times reported that the mathematical community has begun verification. iNews24 reported that the researcher himself said he does not fully understand the proof process.",
+          "The government is pushing to exempt AI data centers outside the capital region with contract power of 50MW or less from the power grid impact assessment. Chosun Biz reported that a plan has been drawn up to include leased facilities among those eligible for support under the AI Data Center Special Act, which takes effect next March.",
+          "President Lee Jae-myung visited the construction site of the SK AI data center in Ulsan on the 21st. EBN reported that the president checked the project's progress and the conditions for securing power and workers, and iNews24 reported that he stressed that speed is critical as the world competes. iNews24 reported that it was pointed out at the event that there is a shortage of workers needed to build semiconductor plants and data centers.",
+          "AI Times reported that U.S. President Donald Trump said he would impose heavy taxes on U.S. companies that build data centers overseas. Digital Daily reported that President Trump warned that taxes or restrictions could be imposed and did not offer specifics such as the tax rate or implementation schedule."
+        ]
+      }
     },
     {
       "id": "s20261121-415120388b1e",
@@ -1058,7 +1149,21 @@
           "link": "https://www.venturesquare.net/1129613"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "SelectStar and Korean Publishers Association Partner on Publishing Data for AI Training",
+        "points": [
+          "SelectStar and the association sign MOU on publishing data for AI training",
+          "Building a data supply system that protects rights holders",
+          "Includes exchange of refinement and quality verification technology"
+        ],
+        "body": [
+          "SelectStar, an AI data company, has signed a memorandum of understanding (MOU) with the Korean Publishers Association for the lawful supply of publishing data for AI training and technical cooperation. Digital Today reported that the company announced it on the 20th. Techworld News gave the date of the agreement as the 4th.",
+          "According to VentureSquare, the association will handle consultations with publishers and the data supply channel, while SelectStar will handle data refinement and processing using OCR and document structure analysis technology. AI Times and Digital Today cited the cooperation items as refinement, processing and structuring of publishing data and technology exchange on quality verification, building a supply system for AI training data, and finding buyers for publishing data and promoting transactions. Techworld News pointed out that protecting copyright is becoming more important when using AI training data.",
+          "Similar moves to build a framework for AI use of publishing content are happening elsewhere. According to Digital Today, book licensing platform Mentat said on the 18th that more than 100 publishers have signed licensing agreements and that it has secured more than 40,000 officially licensed titles. The company said this came 14 months after its first contract in September 2025. VentureSquare reported that about 83% of all the books are in academic and professional fields.",
+          "Glossary: OCR is technology that converts text in images or scanned documents into text a computer can read. Training data refers to material such as text and images that an AI model uses to learn patterns."
+        ]
+      }
     },
     {
       "id": "h20261120-2305083174f4",
@@ -1652,7 +1757,22 @@
           "link": "https://www.venturesquare.net/1129456"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "Neurofusion Ranks First on AI Forecasting Benchmark ForecastBench",
+        "points": [
+          "Neurofusion tops overall ForecastBench ranking",
+          "Ahead of models from Google DeepMind, OpenAI and others",
+          "Result from financial AI research team"
+        ],
+        "body": [
+          "Neurofusion, a Korean financial AI company, said on the 20th that it posted top-tier results on ForecastBench, a global AI forecasting benchmark. According to Datanet, Neurofusion's financial AI research team, whose company runs the AI investment analysis platform Valley AI, took first place on the overall leaderboard.",
+          "The wording on the ranking differs by outlet. AI Times wrote that it tied for first place, ahead of major AI companies such as Google DeepMind, OpenAI and Anthropic, while Datanet and Techworld News reported first place on the overall leaderboard. Hellot said it ranked first among 550 listed models, writing that it followed first place on a preliminary leaderboard that evaluates only the dataset category last September by taking first in the overall ranking as well. Chosun Biz reported that its overall Brier index was 69.4 as of the 17th.",
+          "Platum described the benchmark as an evaluation that scores the probabilities AI gives to questions whose outcomes are not yet known, such as stock prices, interest rates and election results, by comparing them with actual outcomes. AI Times introduced it as an evaluation that predicts the likelihood of economic and financial indicators and major international events.",
+          "Research on evaluating financial AI also continued. VentureSquare reported that a paper on K-BankEval, a finance-specialized LLM evaluation benchmark jointly developed by SelectStar and Shinhan Bank, was accepted at an ICAIF 2026 workshop. The evaluation areas include financial knowledge, retrieval-augmented generation, financial reasoning, answer safety and AI agent task planning.",
+          "Glossary: A benchmark is an evaluation system that compares the performance of different AI models using the same problems and criteria. An LLM (large language model) is an AI model that learns from vast amounts of text to understand and generate sentences."
+        ]
+      }
     },
     {
       "id": "s20261121-f29253e2ff73",
@@ -1708,7 +1828,21 @@
           "link": "https://www.aitimes.kr/news/articleView.html?idxno=42777"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "ITCEN CLOIT Expands Pharma and Bio AX With AgentGo",
+        "points": [
+          "ITCEN CLOIT expands pharma and bio AX business",
+          "AgentGo, an enterprise AI agent management platform",
+          "Targets industries with high security and regulatory requirements"
+        ],
+        "body": [
+          "ITCEN CLOIT is expanding its AI transformation (AX) business in the pharmaceutical and bio industries with AgentGo, its enterprise AI agent management platform. Digital Today reported that the company announced it on the 20th.",
+          "Techworld News reported that it will connect existing business systems with AI for the pharmaceutical and bio industries, which have high security and regulatory requirements, and Datanet explained that it connects pharmaceutical and bio companies' existing business systems with AI agents. Digital Daily reported that it targets industries where AI adoption has stayed at the pilot stage because of security and regulatory burdens, and that the company has secured a case of application at a Korean pharmaceutical company.",
+          "Cases of AI agent adoption at companies also appeared elsewhere. According to Newsis, the Korea Real Estate Board built an AI agent platform and is expanding it across the organization, and said on the 17th that it has introduced 10 AI agents linking internal data with large language models (LLMs). AI Newspaper (인공지능신문) reported that Microsoft unveiled MAI Code 2, an agentic AI coding model it developed itself, and expanded the features of its enterprise management platform, on which more than 50 million AI agents are registered.",
+          "Glossary: AX (AI transformation) refers to a company or institution applying AI across its operations to change the way it works. An AI agent is an AI program that judges and carries out multi-step tasks on its own to achieve a goal set by the user."
+        ]
+      }
     },
     {
       "id": "s20261121-9ba0f8b5d747",
@@ -1758,7 +1892,21 @@
           "link": "https://www.aitimes.kr/news/articleView.html?idxno=42802"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "AMD Adds XDNA 2 NPU Support to Unsloth Desktop",
+        "points": [
+          "AMD adds NPU support to Unsloth Desktop",
+          "Runs local AI models on XDNA 2-based NPUs",
+          "Supports local inference for more than 100 AI agent apps"
+        ],
+        "body": [
+          "AMD has teamed up with AI software company Unsloth to show technology that runs large AI models on the neural processing unit (NPU) of a PC. According to TheElec, AMD said on the 19th (local time) that it added support for NPUs based on its XDNA 2 architecture to Unsloth Desktop, Unsloth's AI execution software.",
+          "Datanet reported that Unsloth Desktop is the world's first to support the AMD XDNA 2 NPU, explaining that developers can run supported AI models directly in a local environment on AMD-based systems with dedicated NPU acceleration. AI Newspaper (인공지능신문) reported that it lets more than 100 AI agent applications and workflows use local AI inference on the NPU built into the PC, and pointed out that it does not depend on cloud servers. TheElec's report does not include the \"world's first\" wording.",
+          "Recent reports on NPUs and local AI also continued. Digital Today, citing an Engadget report, said it was pointed out that NPUs are becoming standard on mid-range and higher laptops but software that uses them is still lacking, so the effect users feel is limited. AI Newspaper (인공지능신문) reported that Nvidia launched the RTX Spark, a compact desktop with up to 1 petaflop of AI compute performance and 128GB of unified memory.",
+          "Glossary: An NPU (neural processing unit) is a semiconductor designed to handle AI computation quickly and power-efficiently. Local AI inference is a method of running an AI model directly on the user's device to get results, without going through a cloud server."
+        ]
+      }
     },
     {
       "id": "s20261121-e0daea06681a",
@@ -1808,7 +1956,21 @@
           "link": "http://www.docdocdoc.co.kr/news/articleView.html?idxno=3044652"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "Hallym University Sacred Heart Hospital Tests Hospital-Specific Humanoid Robot",
+        "points": [
+          "Hallym University Sacred Heart Hospital tests humanoid robot at early stage",
+          "Prototype under joint development with Blue Robin",
+          "Checks movement and item delivery in ward-like setting"
+        ],
+        "body": [
+          "Hallym University Sacred Heart Hospital ran a basic operation test of an early prototype of a hospital-specific humanoid robot, being developed jointly with robotics company Blue Robin, at the Hallym Simulation Center of Hallym University Medical Center. Cheongnyeon Uisa (청년의사) reported that the hospital announced it on the 20th.",
+          "AI Newspaper (인공지능신문) reported that the robot is being developed to reduce medical staff's repetitive tasks and burden of moving around, and that it was tested in an environment similar to an actual ward. It said functions such as moving through narrow corridors, delivering patient gowns and medical supplies, and transporting medical equipment were checked. Robot Newspaper described the test in its headline as a hospital adaptation test.",
+          "Attempts to bring AI robots into hospitals are happening elsewhere too. According to Chosun Biz, KT said on the 18th that it will begin a demonstration project with Seoul National University Hospital to apply AI robots in medical settings. The focus is on non-clinical areas such as caring for child patients and supporting medical staff, and the AI robot talks with child patients or provides play during waiting time before and after treatment. In a separate article, Cheongnyeon Uisa reported that Samsung Medical Center developed AI technology that grasps not only the movements of surgical tools and medical staff but also the stages and overall flow of a surgery.",
+          "Glossary: A humanoid robot is a robot modeled on the human body. A prototype is an early trial product made to test functions before full-scale production."
+        ]
+      }
     },
     {
       "id": "s20261120-155fd24a1711",
