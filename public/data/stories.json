@@ -5,6 +5,596 @@
   ],
   "stories": [
     {
+      "id": "h20261122-6fa2fd6ce8aa",
+      "title": "최태원 SK 회장, 도쿄포럼서 한일 AI 인재 공동 육성 제안",
+      "category": "기업",
+      "published": "2026-11-22T09:08:43.970Z",
+      "points": [
+        "최태원 회장, 한일 AI 인재 공동 육성 제안",
+        "도쿄포럼 2026, 20일과 21일 도쿄대 개최",
+        "교육체계 재설계와 인턴십 연계 강조"
+      ],
+      "body": [
+        "최태원 SK그룹 회장 겸 최종현학술원 이사장이 일본 도쿄대에서 열린 '도쿄포럼 2026'에서 한국과 일본의 기업, 대학이 인공지능(AI) 인재를 함께 키우자고 제안했다. 조선비즈에 따르면 최 회장은 21일 도쿄 분쿄구 도쿄대 야스다 강당에서 열린 '비즈니스 리더 세션'에서 한일 기업과 대학이 AI 인재를 양성하는 플랫폼을 구축하자고 했다.",
+        "데이터넷과 디지털데일리는 이 포럼을 최종현학술원과 도쿄대가 20일부터 21일까지 이틀간 연 행사라고 전했다. 테크M은 이 행사에서 AI가 인류, 지식, 문명에 가져올 변화를 논의했다고 전했다. 국민일보 사진 설명에는 비즈니스리더 세션 참석자로 후지이 테루오 도쿄대 총장, 사와다 준 NTT그룹 회장, 스기무라 미키 소피아대 총장의 이름이 적혀 있다.",
+        "매체들이 공통으로 전한 최 회장의 주장은 AI를 일상적인 환경으로 받아들이는 'AI 네이티브 사회'에 맞춰 교육을 새롭게 설계해야 한다는 것이다. IT조선과 데이터넷, 디지털데일리, 인공지능신문, EBN이 이 내용을 담았다. 게임톡은 AI 인재 교육부터 채용까지 연계하는 공동 플랫폼 구축 제안이라고 정리했고, 인공지능신문은 양국의 인턴십과 일자리를 연계하는 구상이 포함됐다고 전했다.",
+        "디일렉은 최 회장이 지난 6월 한일 협력 플랫폼 '빅텐트'를 제안하고 최근 이 플랫폼을 출범시킨 데 이어 양국 협력을 다시 강조했다고 전했다.",
+        "최근 흐름: 최 회장은 앞서 12일부터 14일까지 경기도 이천 SKMS연구소에서 열린 '2026 CEO 세미나'에서도 AI를 주제로 발언했다. 인더스트리뉴스는 최 회장이 반도체, 인프라, 에너지 사업을 AI 모델과 서비스로 연결하는 'AI 플라이휠'을 구축하고 모든 계열사가 새로운 역할을 찾도록 주문했다고 전했다. 국민일보는 최 회장이 모든 계열사가 'AI 컴퍼니'로 거듭나야 한다고 말했다고 전했다.",
+        "용어 풀이: 플라이휠은 원래 회전 관성으로 에너지를 저장하는 기계 부품을 뜻하며, 경영에서는 한 부분의 성장이 다른 부분의 성장을 이끌어 선순환이 이어지는 구조를 가리키는 비유로 쓰인다."
+      ],
+      "sources": [
+        {
+          "id": "ecdb19a5e495",
+          "name": "조선비즈",
+          "title": "최태원 회장 “韓日 기업·대학, AI 인재 양성 플랫폼 구축하자\"",
+          "link": "https://biz.chosun.com/stock/finance/2026/11/21/ZJYPV4KSE5B3JB74FS7YDO7IQU"
+        },
+        {
+          "id": "5a25cbdad4f2",
+          "name": "국민일보",
+          "title": "최태원 “한·일, ‘AI 네이티브’ 사회 필요한 인재 공동 육성해야”",
+          "link": "https://www.kmib.co.kr/article/20261122500643"
+        },
+        {
+          "id": "7aeb7b1d074e",
+          "name": "테크M",
+          "title": "최태원 SK 회장 \"한일 AI 인재 공동 육성 모색\"",
+          "link": "https://www.techm.kr/news/articleView.html?idxno=157680"
+        },
+        {
+          "id": "b6d9082c1b04",
+          "name": "디일렉",
+          "title": "최태원, 한일 '빅텐트' 출범 이어 AI 인재 공동 육성 제안",
+          "link": "https://www.thelec.kr/news/articleView.html?idxno=65742"
+        },
+        {
+          "id": "0a7d6aa33b29",
+          "name": "데이터넷",
+          "title": "최태원 SK 회장 “한일 대학·기업이 함께 AI 시대 인재 키워야”",
+          "link": "https://www.datanet.co.kr/news/articleView.html?idxno=300424"
+        },
+        {
+          "id": "615ecaecfcfd",
+          "name": "아이뉴스24",
+          "title": "최태원 \"한일 기업·대학 함께 AI 인재 키우자…교육 체계 바꿔야\"",
+          "link": "https://www.inews24.com/view/2028944"
+        },
+        {
+          "id": "ed52dddbf627",
+          "name": "디지털데일리",
+          "title": "최태원 SK그룹 회장, 도쿄포럼 2026서 한일 AI 인재 공동 육성 제안",
+          "link": "https://www.ddaily.co.kr/page/view/2026112209184668255"
+        },
+        {
+          "id": "fbab139bedca",
+          "name": "인공지능신문",
+          "title": "최태원 회장, “AI 네이티브 대학, 설계부터 바꿔야”...韓日 기업·대학 공동 AI 인재 육성 제안",
+          "link": "https://www.aitimes.kr/news/articleView.html?idxno=42838"
+        },
+        {
+          "id": "6fa2fd6ce8aa",
+          "name": "IT조선",
+          "title": "최태원 회장 “韓日 기업·대학 함께 AI 인재 육성하자”",
+          "link": "https://it.chosun.com/news/articleView.html?idxno=3000000001560"
+        },
+        {
+          "id": "5e71e6e2b87a",
+          "name": "게임톡",
+          "title": "최태원 SK회장, \"한일 기업·대학 AI인재 공동플랫폼 만들자\"",
+          "link": "https://www.gametoc.co.kr/news/articleView.html?idxno=113308"
+        },
+        {
+          "id": "b82ede00f6c5",
+          "name": "EBN",
+          "title": "최태원 회장 \"AI 시대엔 대학도 달라져야\"…한일 공동 인재 육성 제안",
+          "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1732565"
+        },
+        {
+          "id": "34325966bfa0",
+          "name": "인더스트리뉴스",
+          "title": "최태원, SK 계열사에 AI 사업 확대 주문…반도체·에너지서 서비스까지",
+          "link": "https://www.industrynews.co.kr/news/articleView.html?idxno=89548"
+        },
+        {
+          "id": "97361cb9bb15",
+          "name": "국민일보",
+          "title": "최태원 “모든 계열사가 ‘AI 컴퍼니’로 거듭나야”",
+          "link": "https://www.kmib.co.kr/article/20261115501323"
+        }
+      ],
+      "author": "Ashley Yang"
+    },
+    {
+      "id": "h20261122-539175b6a151",
+      "title": "LG유플러스 2027년 조직개편, AI 인프라와 플랫폼 중심 재편",
+      "category": "기업",
+      "published": "2026-11-22T09:08:43.970Z",
+      "points": [
+        "LG유플러스, 2027년 조직개편 단행",
+        "기업사업을 AI 인프라와 플랫폼 중심 재편",
+        "분산된 AI 연구개발 기능 통합"
+      ],
+      "body": [
+        "LG유플러스가 AI 사업의 본격적인 성과 창출과 통신 본업의 경쟁력 강화를 목표로 2027년 조직개편을 단행했다. AI타임스는 회사가 22일 이 내용을 밝혔다고 전했다. 디지털데일리와 데이터넷은 급변하는 AI 시장 환경에 민첩하게 대응하고 핵심 사업의 실행력을 높이기 위해 사업과 기술 전반의 조직 체계를 재정비했다고 설명했다.",
+        "개편의 중심은 기업간거래(B2B) 사업이다. EBN, 테크월드뉴스, 디지털투데이는 B2B 사업을 AI 인프라와 플랫폼 중심으로 재편하고 분산된 AI 연구개발 기능을 통합한다고 전했다. 테크M은 회사가 \"이번 조직개편의 핵심은 'AI 사업 실행력 강화'와 '기술 역량 결집'\"이라고 밝혔다고 전했다. EBN은 여기에 유사하거나 중복되는 조직도 정비한다고 덧붙였다.",
+        "디일렉은 AI 데이터센터와 유무선 통신망 사업은 AI인프라사업부가, AI 컨택센터와 에이전트 사업은 AI플랫폼사업부가 맡는다고 전했다. 디일렉은 제목에서 김홍근 부사장이 이를 총괄한다고 밝혔다.",
+        "매체별로 강조한 표현에는 차이가 있다. 조선비즈는 AI 사업의 수익화를 위해 조직을 전면 재정비한다고 썼고, 기술 개발부터 서비스 상용화까지 이어지는 실행 체계를 구축한다고 전했다. 블로터는 취임 3년 차를 맞는 홍범식 대표가 임원 인사와 조직개편에 나섰다고 전했다. 디지털데일리는 단독 보도에서 LG유플러스가 정부가 추진 중인 대국민 AI 서비스 '모두의AI'를 위한 전담 태스크포스(TF)를 꾸리고 기존 AI 사업, 기술 조직도 재편한다고 전했다.",
+        "최근 흐름: 디지털데일리에 따르면 LG유플러스는 19일 이사회를 열고 전무 승진 2명, 상무 신규 선임 9명 등 총 11명의 2027년 임원 인사를 확정했다. 조선비즈는 같은 19일 금융감독원 전자공시시스템에 따르면 LG유플러스가 경기 파주 AI 데이터센터 확장에 7890억원을 추가 투입하며, 2028년까지 총 200MW급 인프라를 구축하려 한다고 전했다.",
+        "용어 풀이: AI 데이터센터는 인공지능 모델의 학습과 추론에 쓰이는 대규모 연산 장비를 모아 운영하는 데이터센터를 가리킨다."
+      ],
+      "sources": [
+        {
+          "id": "b20e17535727",
+          "name": "AI타임스",
+          "title": "LGU+ 조직개편...\"AI 사업 성과 창출 가속\"",
+          "link": "https://www.aitimes.com/news/articleView.html?idxno=217651"
+        },
+        {
+          "id": "9db7615ce39d",
+          "name": "테크M",
+          "title": "LG유플러스, 2027년 조직개편...AI 성과 창출 '초점'",
+          "link": "https://www.techm.kr/news/articleView.html?idxno=157679"
+        },
+        {
+          "id": "43158bb66b5b",
+          "name": "디일렉",
+          "title": "LG U+, AI 인프라·플랫폼 중심 재편…김홍근 부사장 총괄",
+          "link": "https://www.thelec.kr/news/articleView.html?idxno=65743"
+        },
+        {
+          "id": "2368328e545f",
+          "name": "EBN",
+          "title": "LG유플러스, 2027년 조직개편 단행…AI 사업 실행력 강화",
+          "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1732575"
+        },
+        {
+          "id": "59f29c30fa2d",
+          "name": "테크월드뉴스",
+          "title": "LG유플러스, AI 사업 성과 확대 중심 조직개편 단행",
+          "link": "https://www.epnc.co.kr/news/articleView.html?idxno=410116"
+        },
+        {
+          "id": "d4a91999f7f1",
+          "name": "디지털데일리",
+          "title": "LGU+, AI 사업 중심으로 조직 재편…인프라·플랫폼 이원화",
+          "link": "https://www.ddaily.co.kr/page/view/2026112209113890785"
+        },
+        {
+          "id": "3f3bf978d036",
+          "name": "조선비즈",
+          "title": "LG유플러스, 2027년 조직개편…AI 사업·기술 조직 전면 재정비",
+          "link": "https://biz.chosun.com/it-science/ict/2026/11/22/6XQDGB5FEZE4FOKFL6V3HBQVDE"
+        },
+        {
+          "id": "fceeda74b9e7",
+          "name": "디지털투데이",
+          "title": "LG유플러스, AI 인프라·플랫폼 중심 조직개편…사업 실행력 강화",
+          "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=717173"
+        },
+        {
+          "id": "539175b6a151",
+          "name": "IT조선",
+          "title": "LG유플러스, AI 사업 조직 재편…수익화 속도",
+          "link": "https://it.chosun.com/news/articleView.html?idxno=3000000001548"
+        },
+        {
+          "id": "92bdacfc3c95",
+          "name": "데이터넷",
+          "title": "LG유플러스, 조직개편 단행 ··· AI 사업 성과 창출·통신 본업 경쟁력 강화",
+          "link": "https://www.datanet.co.kr/news/articleView.html?idxno=300414"
+        },
+        {
+          "id": "fc6b4dad2464",
+          "name": "디지털데일리",
+          "title": "[단독] LGU+, '모두의AI' 전담 TF 꾸린다…기존 조직 AI 중심 재배치",
+          "link": "https://www.ddaily.co.kr/page/view/2026112209002494618"
+        },
+        {
+          "id": "fccd862092a5",
+          "name": "블로터",
+          "title": "취임 3년 차 홍범식號 LGU +, AI 실행력' 강화 조직·인사 재편",
+          "link": "https://www.bloter.net/news/articleView.html?idxno=679313"
+        },
+        {
+          "id": "f0254c984c39",
+          "name": "디지털데일리",
+          "title": "LGU+ 임원 인사 키워드는 'AI·통신'…11명 승진·선임",
+          "link": "https://www.ddaily.co.kr/page/view/2026111916300789355"
+        },
+        {
+          "id": "e52c07d26baf",
+          "name": "조선비즈",
+          "title": "LG유플러스, 파주 AI 데이터센터에 7890억원 추가 투자",
+          "link": "https://biz.chosun.com/it-science/ict/2026/11/19/C5VOBIJ33RF6JFWNM7YWLHBBMQ"
+        }
+      ],
+      "author": "Haley Yun"
+    },
+    {
+      "id": "h20261122-cd69290aeb5d",
+      "title": "WSJ 앨리스 황은 대외적 얼굴, 칩 밀수 주도자는 따로 있다",
+      "category": "반도체",
+      "published": "2026-11-22T09:08:43.970Z",
+      "points": [
+        "WSJ, 앨리스 황은 메가스피드의 대외적 얼굴",
+        "실제 밀수 사업 주도자는 따로 있다고 보도",
+        "캘리포니아주와 SEC, 엔비디아 조사 착수"
+      ],
+      "body": [
+        "월스트리트저널(WSJ)이 21일(현지 시각) 젠슨 황 엔비디아 전 최고경영자(CEO)의 불륜 상대로 알려진 앨리스 황이 중국에 칩을 공급한 것으로 알려진 싱가포르 기업 메가스피드의 대외적인 얼굴에 불과했고, 실제 밀수 사업을 주도한 배후 인물은 따로 있었다고 보도했다. 조선비즈가 이 보도를 전하며 제목에서 그 인물을 50대 중국인이라고 밝혔다. IT조선은 같은 내용을 외신 보도로 전했다.",
+        "AI타임스는 22일 앨리스 황 의혹을 추적하는 과정에서 미국 수출 통제를 받는 중국 서버업체, 온라인 게임업체, 싱가포르 클라우드 기업, 캄보디아 범죄 조직 관련 인물까지 이어지는 거래망이 확인됐다고 전했다.",
+        "메가스피드의 입장은 앞서 나왔다. AI타임스에 따르면 메가스피드는 16일 앨리스 황이 지난해 8월 퇴사했으며 현재 어떤 직책도 맡고 있지 않다고 밝혔다. 엔비디아 AI 칩이 중국으로 우회 공급됐다는 의혹도 부인하고 외부 법률 전문가를 선임했다고 전했다.",
+        "이후 추가 보도가 이어졌다. 디지털투데이는 17일(현지시간) 디인포메이션이 소식통 3명을 인용해 엔비디아 영업팀이 2022년 미국 수출 규제 시행 몇 달 전 알리바바를 앨리스 황에게 소개했다고 보도했다고 전했다. 뉴시스는 이를 2022년 초 두 차례 만남을 주선했다는 내용으로 전했다. AI타임스는 WSJ를 인용해 앨리스 황의 남편이 중국 정부의 지원을 받아 90억달러(약 13조원)가 넘는 데이터센터 개발 사업을 추진했다고 전했다.",
+        "당국 조사도 시작됐다. 뉴시스는 WSJ를 인용해 미국 증권거래위원회(SEC)가 엔비디아의 공시 위반 여부를 조사하기 시작했다고 전했다. IT조선은 19일(현지시각) AFP통신과 블룸버그통신 보도를 인용해 캘리포니아주 법무부가 엔비디아에 대한 조사에 착수했다고 전했다. AI타임스도 같은 조사를 전하며 조사 대상에 중국으로 첨단 AI 칩이나 기밀 정보가 전달됐는지와 엔비디아가 관련 위험을 투자자에게 제대로 알렸는지가 포함된다고 전했고, IT조선은 이 논란이 증권법 위반 여부를 따지는 조사로 번졌다고 전했다.",
+        "용어 풀이: 수출 통제는 특정 첨단 기술이나 제품을 다른 나라로 내보내는 것을 정부가 허가제 등으로 제한하는 제도를 말한다."
+      ],
+      "sources": [
+        {
+          "id": "cd69290aeb5d",
+          "name": "조선비즈",
+          "title": "앨리스 황은 ‘얼굴마담’?… “엔비디아 칩 中 밀수 주도자는 50대 중국인”",
+          "link": "https://biz.chosun.com/international/international_general/2026/11/22/VABGRNJYNBDMVNBZ7UAJGDMYOA"
+        },
+        {
+          "id": "72de865c18fe",
+          "name": "IT조선",
+          "title": "“앨리스 황은 얼굴마담… 中 반도체 밀수 주도자는 따로”",
+          "link": "https://it.chosun.com/news/articleView.html?idxno=3000000001573"
+        },
+        {
+          "id": "b3033a965d59",
+          "name": "AI타임스",
+          "title": "앨리스 황 칩 거래망 추적하니…중국 게임업체·캄보디아 범죄 조직 등장",
+          "link": "https://www.aitimes.com/news/articleView.html?idxno=217658"
+        },
+        {
+          "id": "5e92e9d55800",
+          "name": "AI타임스",
+          "title": "메가스피드 \"앨리스 황 지난해 퇴사\"…중국 AI 칩 우회 공급 의혹도 부인",
+          "link": "https://www.aitimes.com/news/articleView.html?idxno=217436"
+        },
+        {
+          "id": "c66c5e52d6d3",
+          "name": "디지털투데이",
+          "title": "엔비디아, 美 수출 규제 직전 앨리스 황에 알리바바 소개",
+          "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=716490"
+        },
+        {
+          "id": "bddaa54176fd",
+          "name": "뉴시스",
+          "title": "\"엔비디아, 2022년 알리바바와 앨리스 황 연결\"…수출통제 우회 도왔나",
+          "link": "https://www.newsis.com/view/NISX20261118_0003873618"
+        },
+        {
+          "id": "e087bf38943a",
+          "name": "AI타임스",
+          "title": "WSJ \"앨리스 황 남편, 중국 정부 지원받아 13조 데이터센터 사업 추진\"",
+          "link": "https://www.aitimes.com/news/articleView.html?idxno=217500"
+        },
+        {
+          "id": "8f60f113ce80",
+          "name": "조선비즈",
+          "title": "아내는 엔비디아 칩 확보·남편은 데이터센터 건설… 앨리스 황 부부 ‘투트랙 공작’",
+          "link": "https://biz.chosun.com/international/international_general/2026/11/17/AGNUA3DYZVADHJW4G4QCDODIVM"
+        },
+        {
+          "id": "5d03b00fe813",
+          "name": "뉴시스",
+          "title": "美 SEC, 엔비디아 공시 위반 여부 조사…메가스피드 의혹 정조준",
+          "link": "https://www.newsis.com/view/NISX20261118_0003872583"
+        },
+        {
+          "id": "236489035563",
+          "name": "AI타임스",
+          "title": "캘리포니아주, 엔비디아에 소환장...중국 기밀 유출·투자자 기만 조사",
+          "link": "https://www.aitimes.com/news/articleView.html?idxno=217637"
+        },
+        {
+          "id": "433650f02da0",
+          "name": "IT조선",
+          "title": "美 캘리포니아, 엔비디아 조사 착수… 첨단칩 中 유출 수사",
+          "link": "https://it.chosun.com/news/articleView.html?idxno=3000000001540"
+        }
+      ],
+      "author": "Kevin Wong"
+    },
+    {
+      "id": "h20261122-f629e4fb7e7e",
+      "title": "러트닉 美 상무장관, 엔비디아 칩 중국 유출 논란 속 책임론",
+      "category": "정책",
+      "published": "2026-11-22T09:08:43.970Z",
+      "points": [
+        "WSJ, 러트닉 상무장관 잇단 경질 위기에도 건재",
+        "코튼 상원 의원, 칩 밀반출 경고 무시 비판",
+        "엔비디아 사태 책임을 상무부에 묻는 목소리"
+      ],
+      "body": [
+        "하워드 러트닉 미국 상무장관을 둘러싼 책임론이 엔비디아 칩 중국 유출 논란과 함께 번지고 있다. 조선비즈는 21일(현지 시각) WSJ가 러트닉 장관이 잇단 경질 위기에도 건재를 과시하고 있다고 보도했다고 전했다. 이 매체에 따르면 러트닉 장관은 이달 초 도널드 트럼프 대통령이 수지 와일스 백악관 비서실장의 사임을 발표한 직후 측근들에게 '나는 어디에도 가지 않을 것'이라는 취지로 말했다.",
+        "디지털투데이는 20일(현지시간) WSJ 보도를 인용해 공화당 소속 톰 코튼 미국 상원 정보위원장이 러트닉 장관이 미국 AI 칩의 중국 밀반출 경고를 여러 차례 무시했다고 비판했다고 전했다. 디지털투데이는 의회 안에서 엔비디아 사태의 책임을 상무부에 묻는 목소리가 커지는 모양새라고 썼다.",
+        "두 매체는 같은 장관을 다루지만 초점이 다르다. 조선비즈는 장관의 거취와 정치적 입지에, 디지털투데이는 칩 밀반출 경고를 둘러싼 책임 공방에 무게를 뒀다. 보도 기준 시점도 조선비즈는 21일, 디지털투데이는 20일 WSJ 보도다.",
+        "최근 흐름: 뉴시스는 WSJ의 17일(현지 시간) 보도를 인용해 미국 증권거래위원회(SEC)가 불륜 및 스파이 연루 의혹으로 젠슨 황 전 CEO가 사임한 엔비디아에 대해 조사에 착수했다고 전했다. AI타임스는 미국 캘리포니아주 법무부가 엔비디아가 투자자에게 관련 위험을 제대로 알렸는지 등을 조사하기로 했다고 전했다.",
+        "용어 풀이: 미국 상원 정보위원회는 미국 정보기관의 활동을 감독하는 상원 상임위원회다."
+      ],
+      "sources": [
+        {
+          "id": "f629e4fb7e7e",
+          "name": "조선비즈",
+          "title": "“러트닉 美 상무장관, ‘엔비디아 스캔들’에도 건재 과시”",
+          "link": "https://biz.chosun.com/international/international_general/2026/11/22/E5DEEOZJ4NAC5E6PEMKTDIUN4Y"
+        },
+        {
+          "id": "f449e3cff9d9",
+          "name": "디지털투데이",
+          "title": "엔비디아 칩 中 유출 논란, 러트닉 상무장관 책임론 확산",
+          "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=717224"
+        },
+        {
+          "id": "5d03b00fe813",
+          "name": "뉴시스",
+          "title": "美 SEC, 엔비디아 공시 위반 여부 조사…메가스피드 의혹 정조준",
+          "link": "https://www.newsis.com/view/NISX20261118_0003872583"
+        },
+        {
+          "id": "236489035563",
+          "name": "AI타임스",
+          "title": "캘리포니아주, 엔비디아에 소환장...중국 기밀 유출·투자자 기만 조사",
+          "link": "https://www.aitimes.com/news/articleView.html?idxno=217637"
+        },
+        {
+          "id": "433650f02da0",
+          "name": "IT조선",
+          "title": "美 캘리포니아, 엔비디아 조사 착수… 첨단칩 中 유출 수사",
+          "link": "https://it.chosun.com/news/articleView.html?idxno=3000000001540"
+        }
+      ],
+      "author": "Ethan Chen"
+    },
+    {
+      "id": "h20261122-710d12a96f70",
+      "title": "AI 부정행위 우려가 바꾼 논술시험장, 앞치마 입고 응시",
+      "category": "일반",
+      "published": "2026-11-22T09:08:43.970Z",
+      "points": [
+        "대학 논술시험장에 일회용 앞치마 등장",
+        "교육부, 46개 대학에 부정행위 대응 점검",
+        "국가시험 감독 예산 약 182억원 증액"
+      ],
+      "body": [
+        "대학 논술시험장에 흰색 일회용 앞치마를 입은 수험생이 등장했다. 한국NGO신문은 인공지능(AI)을 활용한 시험 부정행위 우려가 커지면서 대학 입시 현장까지 달라지고 있다고 전했다. 국민일보는 21일 서울 동대문구 경희대학교에서 2027학년도 논술시험을 보는 수험생이 AI 활용 부정행위를 막기 위해 배부된 앞치마를 입고 있는 사진을 실었다. 이 사진은 경희대학교가 제공했다.",
+        "국민일보에 따르면 지난 19일 2027학년도 수능은 끝났지만 대학별 논술고사는 주말부터 본격적으로 시작된다. 한국NGO신문은 이 같은 풍경이 21일부터 22일까지 주요 대학에서 나타났다고 전했다. 한국NGO신문의 다른 기사 제목에는 머리를 묶고 귀마개를 금지하는 조치도 언급됐다.",
+        "정부 대응도 이어지고 있다. 조선비즈에 따르면 교육부는 20일 한국대학교육협의회와 함께 논술고사 등 대학별고사를 실시하는 46개 대학의 스마트기기 활용 부정행위 대응방안을 점검했다. 교육부는 대학에 수능에서 활용한 대응방안과 주요 적발 사례, 방식을 공유했고, 조선비즈는 제목에서 대학에 부정행위 제재 강화를 주문했다고 전했다.",
+        "국민일보는 20일 이재명 대통령이 수석보좌관회의에서 AI를 악용한 부정행위를 근절하기 위해 국가시험 제도를 전면 개편하라고 지시했다고 전했다. 이미 치러진 시험의 부정행위도 철저히 조사하라는 내용도 포함됐다.",
+        "최근 흐름: 한국NGO신문과 조선비즈는 22일 최교진 교육부 장관이 수능 AI 부정행위 대책이 시험 직전까지 잦은 변경으로 혼선을 빚은 데 책임을 지겠다며 사의를 표명했다고 전했다. 조선비즈는 지난해 9월 취임 이후 14개월 만이라고 전했다. 뉴시스는 국가자격시험에서 AI와 스마트안경 등을 활용한 부정행위 논란이 커지자 국회가 내년도 관련 예산을 약 182억원 증액했지만, 새로 도입할 전파탐지기의 구체적인 검사 방식과 대상은 정해지지 않았다고 전했다.",
+        "용어 풀이: 스마트안경은 카메라나 화면, 통신 기능을 갖춘 안경 형태의 기기를 가리킨다."
+      ],
+      "sources": [
+        {
+          "id": "710d12a96f70",
+          "name": "한국NGO신문",
+          "title": "앞치마 입고 논술시험…AI 부정행위가 바꾼 대학 입시 풍경",
+          "link": "https://www.ngonews.kr/news/articleView.html?idxno=243825"
+        },
+        {
+          "id": "f634f3d3a0b3",
+          "name": "국민일보",
+          "title": "대학 논술장도 ‘AI 부정행위 초긴장’⋯“앞치마 입고 시험”",
+          "link": "https://www.kmib.co.kr/article/20261121500116"
+        },
+        {
+          "id": "1ac658f374da",
+          "name": "한국NGO신문",
+          "title": "\"앞치마 입고, 머리 묶고, 귀마개 금지\"...AI 부정행위가 바꾼 대학 논술시험장",
+          "link": "https://www.ngonews.kr/news/articleView.html?idxno=243835"
+        },
+        {
+          "id": "7242f2549309",
+          "name": "조선비즈",
+          "title": "대학 논술고사도 ‘AI 커닝’ 우려…교육부, 대학에 부정행위 제재 강화 주문",
+          "link": "https://biz.chosun.com/topics/topics_social/2026/11/20/6B2TPET5ENGETM2YIRPNKZU5FA"
+        },
+        {
+          "id": "fda533ec2e1c",
+          "name": "국민일보",
+          "title": "李 “AI 부정행위 일벌백계⋯ 국가시험 전면 개편”",
+          "link": "https://www.kmib.co.kr/article/20261120500597"
+        },
+        {
+          "id": "788d9b42b8a5",
+          "name": "뉴시스",
+          "title": "국가시험 AI 커닝 대비 182억 증액..실효성 확보는 미지수",
+          "link": "https://www.newsis.com/view/NISX20261120_0003876818"
+        },
+        {
+          "id": "11d3545c4efd",
+          "name": "한국NGO신문",
+          "title": "최교진 교육부 장관 사의 표명…“수능 AI 부정행위 혼선 책임 통감”",
+          "link": "https://www.ngonews.kr/news/articleView.html?idxno=243826"
+        },
+        {
+          "id": "96bf2cbb9d6b",
+          "name": "조선비즈",
+          "title": "“나이가 있어서” “이렇게까지 한다고”… AI 커닝 안일하게 보던 교육장관의 퇴장",
+          "link": "https://biz.chosun.com/topics/topics_social/2026/11/22/6MA536Q5GFHD3FQO5QCWTMD4AM"
+        }
+      ],
+      "author": "Chloe Park"
+    },
+    {
+      "id": "b20261122",
+      "type": "briefing",
+      "title": "11월 22일 AI 브리핑: 한일 AI 인재 협력과 엔비디아 사태, 시험 부정행위 후폭풍",
+      "category": "일반",
+      "published": "2026-11-22T09:08:43.970Z",
+      "points": [
+        "SK 최태원 회장 한일 AI 인재 공동 육성 제안",
+        "엔비디아 사태와 앤트로픽 상장 후 주가 변동",
+        "AI 부정행위 논란에 교육부 장관 사의"
+      ],
+      "body": [
+        "최태원 SK그룹 회장이 일본 도쿄대에서 열린 '도쿄포럼 2026'에서 한국과 일본의 기업, 대학이 AI 인재를 함께 키우자고 제안했다. 조선비즈는 21일 비즈니스 리더 세션에서 한일 기업과 대학이 AI 인재를 양성하는 플랫폼을 구축하자고 했다고 전했고, 게임톡은 교육부터 채용까지 연계하는 공동 플랫폼이라고 전했다.",
+        "LG유플러스가 22일 AI 사업의 성과 창출과 통신 본업 경쟁력 강화를 내세워 2027년 조직개편을 밝혔다. EBN은 B2B 사업을 AI 인프라와 플랫폼 중심으로 재편하고 분산된 AI 연구개발 기능을 통합한다고 전했다. 디일렉은 AI데이터센터와 통신망은 AI인프라사업부가, AI 컨택센터와 에이전트는 AI플랫폼사업부가 맡는다고 전했다.",
+        "앤트로픽 소속 수학자 레벤트 알푀게가 AI 모델 클로드와 함께 리만 가설 증명을 찾았다고 주장했다. 플래텀에 따르면 이 주장은 20일(현지시간) 공개돼 검증이 진행되고 있다. IT조선은 가디언을 인용해 일부 수학 증명 검증 단체가 결과가 정확하다는 입장을 냈다고 전했고, 국민일보는 수학계에 기대와 신중론이 교차한다고 전했다.",
+        "AI 부정행위 우려가 시험 현장을 바꾸고 있다. 국민일보는 21일 경희대 논술시험에서 수험생이 부정행위를 막기 위해 배부된 앞치마를 입었다고 전했다. 한국NGO신문과 조선비즈는 22일 최교진 교육부 장관이 수능 AI 부정행위 대책의 혼선에 책임을 지겠다며 사의를 표명했다고 전했다.",
+        "엔비디아 칩 중국 유출 논란이 이어지고 있다. 조선비즈는 21일(현지 시각) WSJ가 앨리스 황이 메가스피드의 대외적인 얼굴에 불과했고 실제 밀수 사업을 주도한 인물은 따로 있다고 보도했다고 전했다. 디지털투데이는 20일(현지시간) 톰 코튼 상원 정보위원장이 러트닉 상무장관이 칩 밀반출 경고를 여러 차례 무시했다고 비판했다고 전했다.",
+        "조선비즈에 따르면 앤트로픽은 사상 최대 규모의 기업공개(IPO)를 마친 뒤 상장 이틀 만에 주가가 크게 흔들렸다. WSJ는 21일(현지 시각) 월가에서 그 원인을 두고 공방이 이어지고 있다고 보도했다. 조선비즈는 서학개미가 상장 첫날 앤트로픽 주식을 2000억원 이상 사들였다고 전했다.",
+        "AI타임스에 따르면 오픈AI의 에이전트가 인간에게 2~4시간 걸리는 AI 연구 작업을 스스로 완료하는 비율이 7개월 만에 23%에서 46%로 높아졌다. 연구자들은 AI 덕분에 생산성이 크게 높아졌다고 평가했지만, 새로운 연구 아이디어를 구상하고 중요한 결정을 내리는 역할은 여전히 인간이 담당한다고 전했다.",
+        "IT조선은 22일 영국 파이낸셜타임스(FT)를 인용해 아마존이 이스라엘 AI 스타트업 데카르트(Decart)를 약 75억달러(약 10조1000억원)에 인수하기 위한 막바지 협상을 진행하고 있다고 전했다."
+      ],
+      "sources": [
+        {
+          "id": "ecdb19a5e495",
+          "name": "조선비즈",
+          "title": "최태원 회장 “韓日 기업·대학, AI 인재 양성 플랫폼 구축하자\"",
+          "link": "https://biz.chosun.com/stock/finance/2026/11/21/ZJYPV4KSE5B3JB74FS7YDO7IQU"
+        },
+        {
+          "id": "7aeb7b1d074e",
+          "name": "테크M",
+          "title": "최태원 SK 회장 \"한일 AI 인재 공동 육성 모색\"",
+          "link": "https://www.techm.kr/news/articleView.html?idxno=157680"
+        },
+        {
+          "id": "0a7d6aa33b29",
+          "name": "데이터넷",
+          "title": "최태원 SK 회장 “한일 대학·기업이 함께 AI 시대 인재 키워야”",
+          "link": "https://www.datanet.co.kr/news/articleView.html?idxno=300424"
+        },
+        {
+          "id": "5e71e6e2b87a",
+          "name": "게임톡",
+          "title": "최태원 SK회장, \"한일 기업·대학 AI인재 공동플랫폼 만들자\"",
+          "link": "https://www.gametoc.co.kr/news/articleView.html?idxno=113308"
+        },
+        {
+          "id": "b20e17535727",
+          "name": "AI타임스",
+          "title": "LGU+ 조직개편...\"AI 사업 성과 창출 가속\"",
+          "link": "https://www.aitimes.com/news/articleView.html?idxno=217651"
+        },
+        {
+          "id": "9db7615ce39d",
+          "name": "테크M",
+          "title": "LG유플러스, 2027년 조직개편...AI 성과 창출 '초점'",
+          "link": "https://www.techm.kr/news/articleView.html?idxno=157679"
+        },
+        {
+          "id": "43158bb66b5b",
+          "name": "디일렉",
+          "title": "LG U+, AI 인프라·플랫폼 중심 재편…김홍근 부사장 총괄",
+          "link": "https://www.thelec.kr/news/articleView.html?idxno=65743"
+        },
+        {
+          "id": "2368328e545f",
+          "name": "EBN",
+          "title": "LG유플러스, 2027년 조직개편 단행…AI 사업 실행력 강화",
+          "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1732575"
+        },
+        {
+          "id": "3ff14838dc96",
+          "name": "국민일보",
+          "title": "167년 수학 난제 ‘리만 가설’ AI가 풀었나⋯세계 수학계 기대와 신중론 교차",
+          "link": "https://www.kmib.co.kr/article/20261122500860"
+        },
+        {
+          "id": "c014937709b3",
+          "name": "IT조선",
+          "title": "AI, 167년 수학 난제 푸나… 검증 단체 “‘리만 가설’ 증명 정확”",
+          "link": "https://it.chosun.com/news/articleView.html?idxno=3000000001564"
+        },
+        {
+          "id": "970be22ebbe6",
+          "name": "디지털데일리",
+          "title": "수학 난제 \"리만 가설, AI가 증명 했다\"…앤트로픽 수학자 \"클로드와 가설 증명\"",
+          "link": "https://www.ddaily.co.kr/page/view/2026112207274822105"
+        },
+        {
+          "id": "e18dc14b43e6",
+          "name": "플래텀",
+          "title": "167년 묵은 수학 난제 ‘리만 가설’, 수학자와 AI가 내놓은 증명의 의미",
+          "link": "https://platum.kr/archives/299187"
+        },
+        {
+          "id": "710d12a96f70",
+          "name": "한국NGO신문",
+          "title": "앞치마 입고 논술시험…AI 부정행위가 바꾼 대학 입시 풍경",
+          "link": "https://www.ngonews.kr/news/articleView.html?idxno=243825"
+        },
+        {
+          "id": "f634f3d3a0b3",
+          "name": "국민일보",
+          "title": "대학 논술장도 ‘AI 부정행위 초긴장’⋯“앞치마 입고 시험”",
+          "link": "https://www.kmib.co.kr/article/20261121500116"
+        },
+        {
+          "id": "11d3545c4efd",
+          "name": "한국NGO신문",
+          "title": "최교진 교육부 장관 사의 표명…“수능 AI 부정행위 혼선 책임 통감”",
+          "link": "https://www.ngonews.kr/news/articleView.html?idxno=243826"
+        },
+        {
+          "id": "96bf2cbb9d6b",
+          "name": "조선비즈",
+          "title": "“나이가 있어서” “이렇게까지 한다고”… AI 커닝 안일하게 보던 교육장관의 퇴장",
+          "link": "https://biz.chosun.com/topics/topics_social/2026/11/22/6MA536Q5GFHD3FQO5QCWTMD4AM"
+        },
+        {
+          "id": "cd69290aeb5d",
+          "name": "조선비즈",
+          "title": "앨리스 황은 ‘얼굴마담’?… “엔비디아 칩 中 밀수 주도자는 50대 중국인”",
+          "link": "https://biz.chosun.com/international/international_general/2026/11/22/VABGRNJYNBDMVNBZ7UAJGDMYOA"
+        },
+        {
+          "id": "72de865c18fe",
+          "name": "IT조선",
+          "title": "“앨리스 황은 얼굴마담… 中 반도체 밀수 주도자는 따로”",
+          "link": "https://it.chosun.com/news/articleView.html?idxno=3000000001573"
+        },
+        {
+          "id": "b3033a965d59",
+          "name": "AI타임스",
+          "title": "앨리스 황 칩 거래망 추적하니…중국 게임업체·캄보디아 범죄 조직 등장",
+          "link": "https://www.aitimes.com/news/articleView.html?idxno=217658"
+        },
+        {
+          "id": "f629e4fb7e7e",
+          "name": "조선비즈",
+          "title": "“러트닉 美 상무장관, ‘엔비디아 스캔들’에도 건재 과시”",
+          "link": "https://biz.chosun.com/international/international_general/2026/11/22/E5DEEOZJ4NAC5E6PEMKTDIUN4Y"
+        },
+        {
+          "id": "f449e3cff9d9",
+          "name": "디지털투데이",
+          "title": "엔비디아 칩 中 유출 논란, 러트닉 상무장관 책임론 확산",
+          "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=717224"
+        },
+        {
+          "id": "4eb8a15c9142",
+          "name": "조선비즈",
+          "title": "상장 이틀 차 앤트로픽 급락에…‘공모 배분 탓’, ‘직원 매도허용 때문’ 월가 공방",
+          "link": "https://biz.chosun.com/stock/stock_general/2026/11/22/WPUPRI3SDVAY5PJJ5OZFCIYHGM"
+        },
+        {
+          "id": "c905384dfe56",
+          "name": "조선비즈",
+          "title": "서학개미, 앤트로픽 상장 첫날 2200억 매수…스페이스X 때보다 ‘뚝’",
+          "link": "https://biz.chosun.com/stock/stock_general/2026/11/22/IIFWUSVEEBAUZCMH5MFMAEQCHE"
+        },
+        {
+          "id": "c45524e59474",
+          "name": "AI타임스",
+          "title": "오픈AI \"AI가 연구 작업 절반 스스로 완료\"…7개월 만에 성공률 2배",
+          "link": "https://www.aitimes.com/news/articleView.html?idxno=217657"
+        },
+        {
+          "id": "cce18784ca0a",
+          "name": "IT조선",
+          "title": "아마존, 이스라엘 AI 스타트업 75억달러 인수 임박",
+          "link": "https://it.chosun.com/news/articleView.html?idxno=3000000001570"
+        }
+      ],
+      "auto": true
+    },
+    {
       "id": "h20261121-12ec02740cb6",
       "author": "Ethan Chen",
       "title": "AI 데이터센터 전력평가, 비수도권 50MW 이하 면제 추진",
