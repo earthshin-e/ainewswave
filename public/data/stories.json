@@ -102,7 +102,23 @@
           "link": "https://www.kmib.co.kr/article/20261115501323"
         }
       ],
-      "author": "Ashley Yang"
+      "author": "Ashley Yang",
+      "en": {
+        "title": "SK Chairman Chey Tae-won Proposes Joint Korea-Japan AI Talent Development at Tokyo Forum",
+        "points": [
+          "Chairman Chey proposes joint Korea-Japan AI talent development",
+          "Tokyo Forum 2026 held at the University of Tokyo on the 20th and 21st",
+          "Stresses redesigning education and linking internships"
+        ],
+        "body": [
+          "SK Group Chairman and Chey Chong-hyun Foundation Chairman Chey Tae-won proposed that companies and universities in Korea and Japan jointly train AI talent at Tokyo Forum 2026, held at the University of Tokyo in Japan. According to Chosun Biz, Chey said at the Business Leaders Session at Yasuda Auditorium of the University of Tokyo in Tokyo's Bunkyo Ward on the 21st that Korean and Japanese companies and universities should build a platform to train AI talent.",
+          "Datanet and Digital Daily reported that the forum was a two-day event held by the Chey Chong-hyun Foundation and the University of Tokyo from the 20th to the 21st. Tech M reported that the event discussed the changes AI will bring to humanity, knowledge and civilization. A photo caption from Kukmin Ilbo lists University of Tokyo President Teruo Fujii, NTT Group Chairman Jun Sawada and Sophia University President Miki Sugimura as attendees of the Business Leaders Session.",
+          "The argument Chey made, as outlets commonly reported, is that education should be redesigned for an \"AI-native society\" that accepts AI as an everyday environment. IT Chosun, Datanet, Digital Daily and AI Newspaper (인공지능신문) included this. Game Talk summarized it as a proposal to build a joint platform linking AI talent education through hiring, and AI Newspaper reported that the idea includes linking internships and jobs in the two countries.",
+          "TheElec reported that Chey stressed cooperation between the two countries again after proposing the Korea-Japan cooperation platform \"Big Tent\" last June and recently launching it.",
+          "Recent developments: Chey also spoke on AI at the 2026 CEO Seminar held on the 14th at the SKMS Research Institute in Icheon, Gyeonggi Province, where he gave the keynote. Industry News reported that Chey called for building an \"AI flywheel\" that connects semiconductor, infrastructure and energy businesses to AI models and services, and ordered every affiliate to find a new role. Kukmin Ilbo reported that Chey said every affiliate must become an \"AI company.\"",
+          "Glossary: A flywheel is originally a machine part that stores energy through rotational inertia. In business it is used as a metaphor for a structure in which growth in one part drives growth in others, sustaining a virtuous cycle."
+        ]
+      }
     },
     {
       "id": "h20261122-539175b6a151",
@@ -208,7 +224,23 @@
           "link": "https://biz.chosun.com/it-science/ict/2026/11/19/C5VOBIJ33RF6JFWNM7YWLHBBMQ"
         }
       ],
-      "author": "Haley Yun"
+      "author": "Haley Yun",
+      "en": {
+        "title": "LG Uplus 2027 Reorganization Refocuses on AI Infrastructure and Platforms",
+        "points": [
+          "LG Uplus carries out 2027 reorganization",
+          "Enterprise business restructured around AI infrastructure and platforms",
+          "Scattered AI R&D functions consolidated"
+        ],
+        "body": [
+          "LG Uplus carried out its 2027 reorganization with the goals of achieving real results in its AI business and strengthening the competitiveness of its core telecom business. AI Times reported that the company announced it on the 22nd. Digital Daily and Datanet explained that the company reorganized its business and technology structure to respond nimbly to a fast-changing AI market and to improve execution in its core businesses.",
+          "The center of the overhaul is the business-to-business (B2B) business. EBN, Techworld News and Digital Today reported that the B2B business will be restructured around AI infrastructure and platforms, and scattered AI R&D functions will be consolidated. Tech M reported that the company said, \"The key to this reorganization is 'strengthening AI business execution' and 'pooling technology capabilities.'\" EBN added that similar or overlapping organizations will also be streamlined.",
+          "TheElec reported that the AI Infrastructure Division will handle the AI data center and wired and wireless network businesses, while the AI Platform Division will handle the AI contact center and agent businesses. TheElec said in its headline that Executive Vice President Kim Hong-geun will oversee them.",
+          "The outlets emphasized different wording. Chosun Biz wrote that the company is overhauling its organization to monetize its AI business and is building an execution system that runs from technology development to commercialization of services. Bloter reported that CEO Hong Bum-shik, entering his third year in office, moved ahead with executive appointments and the reorganization. In an exclusive, Digital Daily reported that LG Uplus is forming a dedicated task force (TF) for \"Everyone's AI,\" the nationwide AI service the government is promoting, and is also reorganizing its existing AI business and technology organizations.",
+          "Recent developments: According to Digital Daily, LG Uplus held a board meeting on the 19th and finalized its 2027 executive appointments for 11 people in total, including two promotions to senior managing director and nine new managing directors. Chosun Biz reported that, according to the Financial Supervisory Service's electronic disclosure system on the same 19th, LG Uplus will invest an additional 789 billion won in expanding its AI data center in Paju, Gyeonggi Province, and aims to build 200MW-class infrastructure in total by 2028.",
+          "Glossary: An AI data center is a data center that houses and operates the large-scale computing equipment used to train and run AI models."
+        ]
+      }
     },
     {
       "id": "h20261122-cd69290aeb5d",
@@ -296,7 +328,23 @@
           "link": "https://it.chosun.com/news/articleView.html?idxno=3000000001540"
         }
       ],
-      "author": "Kevin Wong"
+      "author": "Kevin Wong",
+      "en": {
+        "title": "WSJ: Alice Huang Was the Public Face, Someone Else Led the Chip Smuggling",
+        "points": [
+          "WSJ: Alice Huang was the public face of Megaspeed",
+          "Reports the actual smuggling operation was led by someone else",
+          "California and the SEC open investigations into Nvidia"
+        ],
+        "body": [
+          "The Wall Street Journal (WSJ) reported on the 21st (local time) that Alice Huang, known as the affair partner of former Nvidia CEO Jensen Huang, was merely the public face of Megaspeed, the Singapore company reported to have supplied chips to China, and that the person behind the actual smuggling operation was someone else. Chosun Biz carried the report and said in its headline that the person is a Chinese man in his 50s. IT Chosun relayed the same content as a foreign press report.",
+          "AI Times reported on the 22nd that, in tracing the allegations about Alice Huang, a web of transactions was identified that extends to a Chinese server maker subject to U.S. export controls, an online game company, a Singapore cloud company, and people linked to a Cambodian criminal organization.",
+          "Megaspeed's position came earlier. According to AI Times, Megaspeed said on the 16th that Alice Huang left the company last August and currently holds no position. It also denied allegations that Nvidia AI chips were diverted to China and said it had retained outside legal counsel.",
+          "Further reports followed. Digital Today reported that The Information, citing three sources, reported on the 17th (local time) that Nvidia's sales team introduced Alibaba to Alice Huang several months before U.S. export controls took effect in 2022. Newsis reported this as arranging two meetings in early 2022. AI Times, citing the WSJ, reported that Alice Huang's husband pursued a data center development project worth more than $9 billion (about 13 trillion won) with Chinese government backing.",
+          "Official investigations have also begun. Newsis, citing the WSJ, reported that the U.S. Securities and Exchange Commission (SEC) has begun investigating whether Nvidia violated disclosure rules. IT Chosun, citing AFP and Bloomberg reports on the 19th (local time), reported that the California Department of Justice has opened an investigation into Nvidia. AI Times also reported the same investigation, saying it covers whether advanced AI chips or confidential information were passed to China and whether Nvidia properly informed investors of the related risks, and IT Chosun reported that the controversy has grown into an investigation over possible securities law violations.",
+          "Glossary: Export controls are a system in which a government restricts, through licensing or similar means, the export of certain advanced technologies or products to other countries."
+        ]
+      }
     },
     {
       "id": "h20261122-f629e4fb7e7e",
@@ -347,7 +395,22 @@
           "link": "https://it.chosun.com/news/articleView.html?idxno=3000000001540"
         }
       ],
-      "author": "Ethan Chen"
+      "author": "Ethan Chen",
+      "en": {
+        "title": "Commerce Secretary Lutnick Faces Blame Amid Nvidia Chip Leak to China Controversy",
+        "points": [
+          "WSJ: Commerce Secretary Lutnick shows he is secure despite repeated threats of dismissal",
+          "Sen. Cotton criticizes him for ignoring warnings of chip smuggling",
+          "Calls grow to hold the Commerce Department responsible for the Nvidia affair"
+        ],
+        "body": [
+          "Blame for U.S. Commerce Secretary Howard Lutnick is spreading alongside the controversy over Nvidia chips leaking to China. Chosun Biz reported that the WSJ reported on the 21st (local time) that Lutnick is showing he remains secure despite repeated threats of dismissal. According to the outlet, Lutnick told aides, in effect, \"I'm not going anywhere,\" right after President Donald Trump announced earlier this month the resignation of White House Chief of Staff Susie Wiles.",
+          "Digital Today, citing a WSJ report on the 20th (local time), reported that Sen. Tom Cotton, the Republican chairman of the Senate Intelligence Committee, criticized Lutnick for repeatedly ignoring warnings about smuggling of U.S. AI chips to China. Digital Today wrote that calls to hold the Commerce Department responsible for the Nvidia affair appear to be growing within Congress.",
+          "The two outlets cover the same secretary but with different focus. Chosun Biz focused on the secretary's standing and political position, while Digital Today focused on the blame game over the warnings about chip smuggling. The WSJ report they rely on is also dated differently: the 21st for Chosun Biz and the 20th for Digital Today.",
+          "Recent developments: Newsis, citing a WSJ report on the 17th (local time), reported that the U.S. Securities and Exchange Commission (SEC) has begun investigating Nvidia, whose former CEO Jensen Huang resigned over allegations of an affair and espionage ties. AI Times reported that the California Department of Justice will investigate, among other things, whether Nvidia properly informed investors of the related risks.",
+          "Glossary: The U.S. Senate Intelligence Committee is a standing Senate committee that oversees the activities of U.S. intelligence agencies."
+        ]
+      }
     },
     {
       "id": "h20261122-710d12a96f70",
@@ -417,7 +480,23 @@
           "link": "https://biz.chosun.com/topics/topics_social/2026/11/22/6MA536Q5GFHD3FQO5QCWTMD4AM"
         }
       ],
-      "author": "Chloe Park"
+      "author": "Chloe Park",
+      "en": {
+        "title": "AI Cheating Concerns Change the Essay Exam Hall: Test-Takers Wear Aprons",
+        "points": [
+          "Disposable aprons appear in university essay exam halls",
+          "Ministry of Education checks cheating countermeasures at 46 universities",
+          "National exam monitoring budget raised by about 18.2 billion won"
+        ],
+        "body": [
+          "A test-taker wearing a white disposable apron appeared in a university essay exam hall. Korea NGO Times reported that growing concern about exam cheating using artificial intelligence (AI) is changing even university admissions sites. Kukmin Ilbo ran a photo of a test-taker taking the 2027 admissions essay exam at Kyung Hee University in Seoul's Dongdaemun District on the 21st wearing an apron handed out to prevent cheating with AI. The photo was provided by Kyung Hee University.",
+          "According to Kukmin Ilbo, the 2027 College Scholastic Ability Test ended on the 19th, but university essay exams begin in earnest this weekend. Korea NGO Times reported that this scene appeared at major universities from the 21st to the 22nd. The headline of another Korea NGO Times article also mentioned measures such as tying up hair and banning earplugs.",
+          "The government response is also continuing. According to Chosun Biz, the Ministry of Education, together with the Korean Council for University Education, on the 20th reviewed countermeasures against cheating with smart devices at 46 universities holding university-specific exams such as essay exams. The ministry shared with universities the countermeasures used in the college entrance exam and major detected cases and methods, and Chosun Biz said in its headline that the ministry urged universities to strengthen sanctions for cheating.",
+          "Kukmin Ilbo reported that on the 20th President Lee Jae-myung, at a meeting of senior secretaries, ordered a complete overhaul of the national exam system to root out cheating that abuses AI. It also included an order to thoroughly investigate cheating in exams that have already been held.",
+          "Recent developments: Korea NGO Times and Chosun Biz reported on the 22nd that Education Minister Choi Kyo-jin offered to resign, saying he takes responsibility for the confusion caused by frequent changes, right up to exam day, in the measures against AI cheating on the college entrance exam. Chosun Biz reported it came 14 months after he took office last September. Newsis reported that after controversy grew over cheating using AI and smart glasses in national qualification exams, the National Assembly raised next year's related budget by about 18.2 billion won, but the specific inspection method and targets for the radio wave detectors to be newly introduced have not been set.",
+          "Glossary: Smart glasses are eyeglass-shaped devices equipped with a camera, a display or communication functions."
+        ]
+      }
     },
     {
       "id": "b20261122",
@@ -592,7 +671,25 @@
           "link": "https://it.chosun.com/news/articleView.html?idxno=3000000001570"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "Nov. 22 AI Briefing: Korea-Japan AI Talent Cooperation, the Nvidia Affair, Fallout From Exam Cheating",
+        "points": [
+          "SK's Chey Tae-won proposes joint Korea-Japan AI talent development",
+          "Nvidia affair and stock moves after Anthropic's listing",
+          "Education minister resigns amid AI cheating controversy"
+        ],
+        "body": [
+          "SK Group Chairman Chey Tae-won proposed that companies and universities in Korea and Japan jointly train AI talent at Tokyo Forum 2026, held at the University of Tokyo in Japan. Chosun Biz reported that at the Business Leaders Session on the 21st he said Korean and Japanese companies and universities should build a platform to train AI talent, and Game Talk reported it as a joint platform linking education through hiring.",
+          "LG Uplus announced its 2027 reorganization on the 22nd, citing achieving results in its AI business and strengthening its core telecom business. EBN reported that the B2B business will be restructured around AI infrastructure and platforms and scattered AI R&D functions will be consolidated. TheElec reported that the AI Infrastructure Division will handle AI data centers and communications networks, while the AI Platform Division will handle the AI contact center and agents.",
+          "Levent Alpöge, a mathematician at Anthropic, claimed to have found a proof of the Riemann hypothesis together with the AI model Claude. According to Platum, the claim was made public on the 20th (local time) and verification is under way. IT Chosun, citing The Guardian, reported that some mathematical proof verification organizations said the result is correct, and Kukmin Ilbo reported that the mathematical community is mixing hope with caution.",
+          "Concern about AI cheating is changing exam sites. Kukmin Ilbo reported that on the 21st a test-taker at a Kyung Hee University essay exam wore an apron handed out to prevent cheating. Korea NGO Times and Chosun Biz reported on the 22nd that Education Minister Choi Kyo-jin offered to resign, saying he takes responsibility for the confusion over measures against AI cheating on the college entrance exam.",
+          "The controversy over Nvidia chips leaking to China continues. Chosun Biz reported that the WSJ reported on the 21st (local time) that Alice Huang was merely the public face of Megaspeed and that someone else led the actual smuggling operation. Digital Today reported that on the 20th (local time) Sen. Tom Cotton, chairman of the Senate Intelligence Committee, criticized Commerce Secretary Lutnick for repeatedly ignoring warnings about chip smuggling.",
+          "According to Chosun Biz, Anthropic's stock swung sharply two days after it completed what was its largest-ever initial public offering (IPO). The WSJ reported on the 21st (local time) that a dispute continues on Wall Street over the cause. Chosun Biz reported that Korean retail investors in overseas stocks bought more than 200 billion won of Anthropic shares on its first day of trading.",
+          "According to AI Times, the share of AI research tasks that take humans two to four hours that OpenAI's agent completes on its own rose from 23% to 46% in seven months. Researchers said AI has greatly boosted productivity, but reported that humans still play the role of coming up with new research ideas and making important decisions.",
+          "IT Chosun, citing the Financial Times (FT) of the U.K. on the 22nd, reported that Amazon is in the final stages of negotiations to acquire Israeli AI startup Decart for about $7.5 billion (about 10.1 trillion won)."
+        ]
+      }
     },
     {
       "id": "h20261121-12ec02740cb6",
