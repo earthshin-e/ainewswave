@@ -127,8 +127,68 @@
       const outlets = new Set(members.map((m) => m.sourceId)).size;
       if (outlets >= 2) groups.push({ lead: a, outlets, members });
     }
-    groups.sort((p, q) => q.outlets - p.outlets || new Date(q.lead.published) - new Date(p.lead.published));
-    return groups.slice(0, 5);
+    const merged = mergeGroups(groups).map((g) => ({ ...g, story: storyFor(g) }));
+    // 같은 정리 기사로 이어지는 묶음이 둘 이상이면 한 칸으로 합칩니다.
+    const byStory = new Map();
+    const out = [];
+    for (const g of merged.sort((p, q) => q.outlets - p.outlets)) {
+      const dup = g.story && byStory.get(g.story.id);
+      // 같은 정리 기사를 가리켜도 핵심어가 2개 이상 겹칠 때만 합칩니다(정리 기사가 서로 다른 소식을 함께 다룬 경우 방지).
+      if (dup && [...g.core].filter((t) => dup.core.has(t)).length >= 2) { absorb(dup, g); continue; }
+      if (g.story && !byStory.has(g.story.id)) byStory.set(g.story.id, g);
+      out.push(g);
+    }
+    out.sort((p, q) => q.outlets - p.outlets || new Date(q.lead.published) - new Date(p.lead.published));
+    return out.slice(0, 5);
+  }
+
+  // 제목 유사도로 갈라진 같은 사건 묶음을 한 번 더 합칩니다. 오탐을 피하려고 보수적으로 잡습니다:
+  // 묶음마다 제목에 자주 나오는 핵심어(고유명사, 숫자)를 뽑고, 큰 묶음을 기준으로 핵심어가 4개 이상,
+  // 작은 쪽 핵심어의 60% 이상 겹칠 때만 합칩니다. 합친 묶음끼리 다시 사슬로 잇지는 않습니다.
+  const STOP = new Set('ai 인공지능 협약 협력 발표 추진 개최 확대 강화 구축 도입 출시 공개 속보 종합 단독 지원 사업 기업 정부 국내 글로벌 신규 최초 본격 나선 위해 통해 대한 관련 시작 선보여 선보인 체결 진행 이어 올해 내년 오늘 대표 회장 ceo 업계 시장 기술 서비스 플랫폼 솔루션 개발 활용 적용'.split(' '));
+  const JOSA = /(으로|에서|에게|까지|부터|이다|은|는|이|가|을|를|의|에|도|와|과|로|만)$/;
+  function tokens(t) {
+    const out = new Set();
+    for (let w of t.replace(/\[[^\]]*\]/g, ' ').split(/[^0-9A-Za-z가-힣]+/)) {
+      if (!w) continue;
+      w = w.toLowerCase();
+      if (w.length >= 3 && /[가-힣]/.test(w) && JOSA.test(w)) w = w.replace(JOSA, '');
+      if (w.length < 2 || STOP.has(w)) continue;
+      out.add(w);
+    }
+    return out;
+  }
+  function coreOf(g) {
+    const c = new Map();
+    for (const m of g.members) for (const t of tokens(m.title)) c.set(t, (c.get(t) || 0) + 1);
+    const need = Math.max(2, Math.ceil(g.members.length * 0.4));
+    return new Set([...c].filter(([, n]) => n >= need).map(([t]) => t));
+  }
+  function absorb(into, g) {
+    const ids = new Set(into.members.map((m) => m.id));
+    for (const m of g.members) if (!ids.has(m.id)) into.members.push(m);
+    into.outlets = new Set(into.members.map((m) => m.sourceId)).size;
+  }
+  function mergeGroups(groups) {
+    const gs = groups.map((g) => ({ ...g, members: g.members.slice(), core: coreOf(g) })).sort((p, q) => q.outlets - p.outlets);
+    const anchors = [];
+    for (const g of gs) {
+      const hit = anchors.find((a) => {
+        let n = 0;
+        for (const t of g.core) if (a.core.has(t)) n++;
+        return n >= 4 && n / Math.min(a.core.size, g.core.size) >= 0.6;
+      });
+      if (hit) absorb(hit, g); else anchors.push(g);
+    }
+    return anchors;
+  }
+  // 묶음을 대표할 정리 기사: 묶음 기사가 가장 많이 속한 정리 기사(최소 2건). 없으면 대표 기사 제목을 씁니다.
+  function storyFor(g) {
+    const c = new Map();
+    for (const m of g.members) { const st = state.storyOf.get(m.id); if (st) c.set(st, (c.get(st) || 0) + 1); }
+    let best = null, n = 0;
+    for (const [st, k] of c) if (k > n) { best = st; n = k; }
+    return best && n >= 2 ? best : null;
   }
 
   // 오늘의 AI 브리핑: 가장 최근 브리핑 하나를 전광판 위에 한 줄로 걸어 둡니다.
@@ -154,7 +214,7 @@
     box.hidden = !top.length;
     if (!top.length) return;
     box.innerHTML = `<h2>지금 많이 보도되는 소식 <span>최근 48시간, 보도한 매체 수 기준</span></h2><ol>${top.map((t, i) => {
-      const st = t.members.map((m) => state.storyOf.get(m.id)).find(Boolean);
+      const st = t.story;
       const href = st ? `#s/${st.id}` : `#a/${t.lead.id}`;
       return `<li data-cat="${esc(st ? st.category : t.lead.category)}"><a href="${esc(href)}"><b class="rk">${i + 1}</b><span class="tag">${esc(st ? st.category : t.lead.category)}</span><span class="ht">${esc(st ? st.title : t.lead.title)}</span><span class="hn">매체 ${t.outlets}곳</span></a></li>`;
     }).join('')}</ol>`;
