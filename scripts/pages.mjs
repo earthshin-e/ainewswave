@@ -102,6 +102,7 @@ ${digestOf.has(st.id) ? '<meta name="robots" content="noindex,follow">\n' : ''}$
     <details class="srcs"${st.sources.length <= 3 ? ' open' : ''}><summary>출처 ${st.sources.length}곳${st.sources.length <= 3 ? '' : ' 펼치기'}</summary><ul>${st.sources.map((x) => `<li><strong>${esc(x.name)}</strong> <a href="${esc(x.link)}" rel="noopener nofollow" target="_blank">${esc(x.title)}</a></li>`).join('')}</ul></details>
     <p class="meta">이 글은 위 매체들의 보도에서 확인된 사실을 AI 뉴스웨이브가 새로 정리한 것입니다. 자세한 내용은 각 언론사 원문을 확인하세요.</p>
   </article>
+  <p class="share"><button type="button" class="sharebtn" data-t="${esc(st.title)}">공유하기</button><a href="/recap/feed.xml">RSS로 구독</a></p>
   ${(storyKw.get(st.id) || []).filter((k) => kwStories.has(k)).length ? `<h2>관련 키워드</h2>
   <p class="topics">${storyKw.get(st.id).filter((k) => kwStories.has(k)).map((k) => `<a href="kw/${encodeURI(kwFile(k))}">${esc(k)} ${kwStories.get(k).length}</a>`).join('')}</p>` : ''}
   ${others.length ? `<h2>같은 주제 정리 기사</h2>
@@ -110,6 +111,7 @@ ${digestOf.has(st.id) ? '<meta name="robots" content="noindex,follow">\n' : ''}$
   <ul>${nav.next ? `<li>다음 글: <a href="${esc(nav.next.id)}.html">${esc(nav.next.title)}</a></li>` : ''}${nav.prev ? `<li>이전 글: <a href="${esc(nav.prev.id)}.html">${esc(nav.prev.title)}</a></li>` : ''}</ul>` : ''}
   <p><a href="./">정리 기사 전체 보기</a> | <a href="../">AI 뉴스웨이브에서 최신 AI 뉴스 보기</a></p>
 </main>
+<script>document.querySelectorAll('.sharebtn').forEach(function(b){b.addEventListener('click',function(){var u=location.href.split('#')[0],t=b.getAttribute('data-t');if(navigator.share){navigator.share({title:t,url:u}).catch(function(){})}else if(navigator.clipboard){navigator.clipboard.writeText(u).then(function(){b.textContent='링크를 복사했어요'},function(){prompt('링크를 복사하세요',u)})}else{prompt('링크를 복사하세요',u)}})})</script>
 <footer class="wrap foot"><a href="../">홈</a><a href="./">정리 기사</a><a href="../about.html">소개</a><a href="../privacy.html">개인정보처리방침</a><a href="../contact.html">문의</a><a href="#feedback" data-feedback>의견 보내기</a><a href="/en/" hreflang="en">English</a></footer>
 </body>
 </html>
