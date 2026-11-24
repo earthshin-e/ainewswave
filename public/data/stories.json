@@ -5,6 +5,956 @@
   ],
   "stories": [
     {
+      "id": "b20261124",
+      "type": "briefing",
+      "title": "11월 24일 AI 브리핑: 젠슨 황 엔비디아 복귀에 증시 급반등",
+      "category": "일반",
+      "published": "2026-11-24T09:25:00.000Z",
+      "points": [
+        "엔비디아 CEO 복귀에 AI 관련주 급반등",
+        "삼성전자와 삼성SDS 등 임원 인사에서 AI 인재 부각",
+        "한화에어로 10조원 국방 AI 데이터센터 발표"
+      ],
+      "body": [
+        "젠슨 황이 사임 11일 만에 엔비디아 CEO로 복귀했다. 뉴시스는 엔비디아 이사회가 23일(현지시간) 만장일치로 결정했다고 전했다. IT조선에 따르면 엔비디아는 23일 뉴욕증시에서 31.48% 오른 165.05달러에 마감했고, EBN은 24일 코스피가 6.32% 오른 5006.03에 마감해 5000선을 회복했다고 전했다.",
+        "삼성전자가 2027년 정기 임원인사에서 131명을 승진시켰다. 조선비즈는 지난해보다 30명 줄었지만 반도체 부문 승진자는 늘렸다고 전했다. 아이뉴스24는 휴머노이드 개발 주역들이 승진하고 38세 AI 전문가가 최연소 상무로 발탁됐다고 전했다.",
+        "한화에어로스페이스가 경남 창원에 국방 AI 데이터센터를 짓는다. 조선비즈는 1단계에 10조원을 투자해 2028년 7월부터 일부 시설을 가동한다고 전했다. 같은 24일 디지털데일리는 한화에어로스페이스가 사족보행 로봇 기업 라이온로보틱스 투자를 철회했다고 전했고, 블로터는 기업가치와 투자 조건 이견이 이유라고 전했다.",
+        "아마존이 이스라엘계 AI 스타트업 데카르트를 약 75억달러에 인수하는 협상이 막바지라고 FT가 보도했다. 디지털데일리와 조선비즈가 이를 전했는데, 거래 성사 시점은 이번 주 초와 다음 주 초로 표현이 갈렸다. AI타임스는 자체 AI 칩 경쟁력을 높이고 엔비디아 의존도를 낮추려는 전략이라고 설명했다.",
+        "LG유플러스가 데이터독의 AI를 익시오 운영에 적용한다. 조선비즈는 24일 LG유플러스가 데이터독과 손잡고 익시오의 품질과 안정성을 강화한다고 전했고, 디지털데일리는 3개월 적용 결과 장애 대응 시간이 85% 줄었다고 전했다.",
+        "SOOP이 자체 AI 기술로 검색 기능을 강화한다. 조선비즈는 VOD 장면 검색, 최근 활동 AI 요약, AI VOD 챕터 3가지를 도입한다고 전했다. 베타뉴스는 기존 제목과 태그 중심 검색에서 영상 속 장면과 스트리머 주요 활동까지 확인할 수 있다고 전했다.",
+        "삼성SDS는 24일자로 부사장 4명, 상무 6명 등 10명을 승진시켰다. 디지털투데이는 AX, 클라우드 및 솔루션 기반 서비스, 디지털 물류 분야 인재를 발탁했고 여성 리더도 3명 포함됐다고 전했다.",
+        "한컴은 공공기관용 한글의 기본 저장 형식을 HWP에서 HWPX로 바꾸고 전환 전 과정을 지원한다. 조선비즈는 기존 HWP 문서를 일괄 변환하는 전용 프로그램도 공급한다고 전했다."
+      ],
+      "sources": [
+        {
+          "id": "bfe6dd9ef447",
+          "name": "뉴시스",
+          "title": "젠슨 황 엔비디아 CEO 즉시 복귀…이사회 만장일치 결정",
+          "link": "https://www.newsis.com/view/NISX20261123_0003880064"
+        },
+        {
+          "id": "47d66a94a0d9",
+          "name": "IT조선",
+          "title": "엔비디아, 젠슨 황 복귀에 31% 급등… 시총 1조달러 증가",
+          "link": "https://it.chosun.com/news/articleView.html?idxno=3000000001671"
+        },
+        {
+          "id": "7fe03cb85be6",
+          "name": "EBN",
+          "title": "코스피, 젠슨 황 복귀에 6.32% 급등…5000선 회복 성공",
+          "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1732850"
+        },
+        {
+          "id": "e9c89f648af3",
+          "name": "디지털데일리",
+          "title": "“젠슨 황 복귀” 엔비디아 31% 폭등…코스피 6.32% 급등해 5000선 탈환",
+          "link": "https://www.ddaily.co.kr/page/view/2026112416301704270"
+        },
+        {
+          "id": "967cacb9bbee",
+          "name": "조선비즈",
+          "title": "삼성전자, 임원 131명 승진… HBM·AI·로봇 기술 인재 발탁",
+          "link": "https://biz.chosun.com/it-science/ict/2026/11/24/H4FLN22LI5HFJF6AVD5RO2A4WI"
+        },
+        {
+          "id": "ee2c6753aa8c",
+          "name": "아이뉴스24",
+          "title": "삼성전자 임원 승진 19% 감소…HBM·로봇·AI 인재 전진 배치",
+          "link": "https://www.inews24.com/view/2029547"
+        },
+        {
+          "id": "c73c3c1fab81",
+          "name": "아이뉴스24",
+          "title": "삼성전자 DX 인사 키워드는 '체질전환'…로봇·AI 인재 전진 배치",
+          "link": "https://www.inews24.com/view/2029640"
+        },
+        {
+          "id": "8d545ceedc43",
+          "name": "조선비즈",
+          "title": "한화, 10조 규모 국방 AI 데이터센터 짓는다… 2028년 첫 가동",
+          "link": "https://biz.chosun.com/industry/company/2026/11/24/3266ZKZCRBH2XCCPKA34PHKX6I"
+        },
+        {
+          "id": "a30d47c2ecda",
+          "name": "인더스트리뉴스",
+          "title": "한화에어로, 창원에 10조원 투입해 ‘국방 AI 데이터센터’ 짓는다",
+          "link": "https://www.industrynews.co.kr/news/articleView.html?idxno=90153"
+        },
+        {
+          "id": "9bfca5d6d0f7",
+          "name": "디지털데일리",
+          "title": "한화에어로, 라이온로보틱스 투자 철회…기업가치 이견",
+          "link": "https://www.ddaily.co.kr/page/view/2026112417192064149"
+        },
+        {
+          "id": "95f5439bbd00",
+          "name": "블로터",
+          "title": "한화에어로, 라이온로보틱스 투자 철회 '기업가치·투자조건' 이견",
+          "link": "https://www.bloter.net/news/articleView.html?idxno=679574"
+        },
+        {
+          "id": "554a0d19966c",
+          "name": "디지털데일리",
+          "title": "아마존, AI 스타트업 데카르트 10조원에 인수 막바지…엔비디아 견제 포석",
+          "link": "https://www.ddaily.co.kr/page/view/2026112308010620996"
+        },
+        {
+          "id": "69df38829dc8",
+          "name": "조선비즈",
+          "title": "“아마존, AI 스타트업 데카르트 10조원에 인수 임박”",
+          "link": "https://biz.chosun.com/it-science/ict/2026/11/23/ETXR3BECXZC5TNTB45NBDGBJEQ"
+        },
+        {
+          "id": "49d4c9fdb34d",
+          "name": "AI타임스",
+          "title": "아마존, 데카르트의 'AI 최적화' 기술 10조원에 인수…창업자도 영입",
+          "link": "https://www.aitimes.com/news/articleView.html?idxno=217732"
+        },
+        {
+          "id": "450eb93cd79a",
+          "name": "디지털투데이",
+          "title": "LG유플러스, 데이터독 AI 도입…익시오 장애 대응 시간 85% 단축",
+          "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=717585"
+        },
+        {
+          "id": "f060853eecd4",
+          "name": "조선비즈",
+          "title": "LG유플러스, 데이터독과 손잡고 익시오 품질·안정성 강화",
+          "link": "https://biz.chosun.com/it-science/ict/2026/11/24/QWMEWQK6FVAD3HXZ3RVLMB6SLQ"
+        },
+        {
+          "id": "c2e367ea7db3",
+          "name": "디지털데일리",
+          "title": "AI 서비스 점검도 AI가로…LG유플러스, 데이터독 AI 활용해 익시오 품질 개선",
+          "link": "https://www.ddaily.co.kr/page/view/2026112409560509719"
+        },
+        {
+          "id": "6ea8394c2d59",
+          "name": "조선비즈",
+          "title": "SOOP, AI 검색 강화… 다시보기 속 원하는 장면 찾아서 본다",
+          "link": "https://biz.chosun.com/it-science/ict/2026/11/24/NBEUZBMMAZFZ5PW3LDVWJBQYZQ"
+        },
+        {
+          "id": "38e1093138f6",
+          "name": "베타뉴스",
+          "title": "SOOP, 자체 기술 활용한 AI 검색 도입",
+          "link": "https://www.betanews.net/article/view/beta202611240140"
+        },
+        {
+          "id": "66b87ee8731f",
+          "name": "테크월드뉴스",
+          "title": "삼성SDS, 2027년 정기 임원 인사…부사장 4명·상무 6명 승진",
+          "link": "https://www.epnc.co.kr/news/articleView.html?idxno=410222"
+        },
+        {
+          "id": "ee6cce94a0ef",
+          "name": "디지털투데이",
+          "title": "삼성SDS, 정기 임원 인사...여성 리더 3명 발탁",
+          "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=717661"
+        },
+        {
+          "id": "5484a99101fb",
+          "name": "조선비즈",
+          "title": "한컴, 공공 문서 HWPX 전환 지원…‘AI 행정’ 기반 구축",
+          "link": "https://biz.chosun.com/it-science/ict/2026/11/24/PWEVP7F3GJGRTHPYIFXX2Q5U2Y"
+        },
+        {
+          "id": "fc2fe9c7350d",
+          "name": "EBN",
+          "title": "한컴, 공공 문서 HWPX로 전환…\"AI 행정 기반 마련\"",
+          "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1732762"
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "h20261124-9fc82571f805",
+      "title": "SOOP, 자체 AI로 다시보기 장면 검색 등 3가지 기능 도입",
+      "category": "생성형AI",
+      "published": "2026-11-24T09:20:00.000Z",
+      "points": [
+        "VOD 장면 검색 등 AI 기능 3종 도입",
+        "검색 범위를 영상 내용과 활동 요약까지 확대",
+        "자체 AI 기술 활용, 24일 발표"
+      ],
+      "body": [
+        "SOOP이 자체 인공지능(AI) 기술을 활용해 플랫폼 안의 콘텐츠 검색 기능을 강화한다. 아이뉴스24에 따르면 SOOP은 24일 이 같은 내용을 밝혔다. 각자대표는 최영우, 이민원이다.",
+        "도입하는 기능은 세 가지다. 조선비즈와 인벤은 다시보기(VOD) 장면 검색, 최근 활동 AI 요약, AI VOD 챕터를 꼽았다. 베타뉴스는 이 기능들이 자체 기술을 활용한다고 전했다.",
+        "검색 방식의 변화는 이렇게 설명됐다. 인벤과 베타뉴스에 따르면 기존에는 영상 제목이나 태그 중심의 검색이었지만, 앞으로는 VOD 속 특정 장면과 핵심 구간을 검색해 바로 시청할 수 있다. 이용자는 스트리머의 주요 활동도 간편하게 확인할 수 있다. EBN은 방송의 주요 구간을 요약해 콘텐츠 탐색 편의성을 높인다고 전했다.",
+        "매체별 제목에는 강조점의 차이가 있었다. 아이뉴스24는 다시보기 속 원하는 장면까지 찾는다는 점을, 조선비즈는 AI 검색 강화를, 베타뉴스는 자체 기술 활용을 앞세웠다.",
+        "용어 풀이: VOD는 방송이나 영상을 원하는 시간에 다시 볼 수 있게 한 서비스다. 챕터는 긴 영상을 주제나 구간별로 나눠 표시한 목록을 뜻한다."
+      ],
+      "sources": [
+        {
+          "id": "9fc82571f805",
+          "name": "인벤",
+          "title": "SOOP, 다시보기 장면 찾는 AI 검색 도입",
+          "link": "https://www.inven.co.kr/webzine/news/?news=323773"
+        },
+        {
+          "id": "6ea8394c2d59",
+          "name": "조선비즈",
+          "title": "SOOP, AI 검색 강화… 다시보기 속 원하는 장면 찾아서 본다",
+          "link": "https://biz.chosun.com/it-science/ict/2026/11/24/NBEUZBMMAZFZ5PW3LDVWJBQYZQ"
+        },
+        {
+          "id": "a6a165d4a45b",
+          "name": "EBN",
+          "title": "“그 장면 어디였지?”…SOOP, AI로 다시보기 속 장면 ‘쏙쏙’",
+          "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1732860"
+        },
+        {
+          "id": "38e1093138f6",
+          "name": "베타뉴스",
+          "title": "SOOP, 자체 기술 활용한 AI 검색 도입",
+          "link": "https://www.betanews.net/article/view/beta202611240140"
+        },
+        {
+          "id": "4b432bff7372",
+          "name": "아이뉴스24",
+          "title": "SOOP, AI 검색 도입… 다시보기 속 원하는 장면까지 찾아",
+          "link": "https://www.inews24.com/view/2029791"
+        }
+      ],
+      "author": "Chloe Park"
+    },
+    {
+      "id": "h20261124-450eb93cd79a",
+      "title": "LG유플러스, 데이터독 AI로 익시오 장애 대응 시간 85% 단축",
+      "category": "기업",
+      "published": "2026-11-24T09:20:00.000Z",
+      "points": [
+        "데이터독 비츠 AI를 익시오 운영에 적용",
+        "3개월 적용 뒤 장애 대응 시간 85% 단축",
+        "IPTV 420만대 AI 선제조치도 18일 적용"
+      ],
+      "body": [
+        "LG유플러스가 글로벌 소프트웨어 기업 데이터독과 손잡고 AI 통화 에이전트 서비스 익시오(ixi-O)의 서비스 품질과 안정성을 높인다. 조선비즈는 LG유플러스가 24일 이 같은 내용을 밝혔다고 전했다. 보안뉴스에 따르면 LG유플러스는 데이터독의 AI 기능인 비츠 AI(Bits AI)를 익시오 운영에 적용해 고객 불편과 장애에 신속하게 대응한다.",
+        "성과 수치도 나왔다. 디지털데일리는 비츠 AI를 3개월간 적용한 결과 장애 대응 시간이 85% 줄었다고 전했고, 디지털투데이도 제목에서 장애 대응 시간 85% 단축을 전했다.",
+        "협력 방식을 설명하는 쪽은 매체마다 달랐다. 디일렉은 데이터독이 자사의 디자인 파트너 프로그램에 LG유플러스가 참여해 익시오의 품질과 안정성을 높이고 있다고 밝혔다고 전했다. 데이터독의 소개도 매체별로 다르다. 조선비즈는 미국 뉴욕에 본사를 둔 나스닥 상장사인 글로벌 소프트웨어 기업이라고, 보안뉴스는 글로벌 옵저버빌리티 플랫폼 기업이라고, 디일렉은 AI 기반 옵저버빌리티와 보안 플랫폼 기업이라고 소개했다.",
+        "LG유플러스의 최근 AI 관련 소식도 이어지고 있다. 18일 LG유플러스는 IPTV 셋톱박스 420만대에 AI 선제조치 시스템 확대 적용을 마쳤다고 밝혔다. 디지털투데이는 이 시스템이 IPTV 단말과 홈 네트워크에서 나오는 품질 데이터를 분석해 화면 끊김이나 화질 저하 같은 이상 징후를 사전에 탐지한다고 전했고, 베타뉴스는 고객이 장애를 인지하기 전에 이상 징후를 찾아 해결하는 사전 예방형 품질관리라고 설명했다. 테크월드뉴스는 인터넷 무선공유기에도 순차 적용을 추진한다고 전했다. 19일에는 전무 2명 승진, 상무 9명 신규 선임을 담은 임원 인사가 나왔다(IT조선). 테크월드뉴스와 디지털투데이는 이 인사가 AI 사업 확대와 통신 본업 경쟁력 강화에 초점을 맞췄다고 전했다.",
+        "용어 풀이: 옵저버빌리티는 시스템이 남기는 로그와 지표 같은 데이터를 모아 서비스 내부 상태와 장애 원인을 파악하는 능력을 말한다. AI 에이전트는 사용자를 대신해 일련의 작업을 수행하는 AI 서비스를 뜻한다."
+      ],
+      "sources": [
+        {
+          "id": "450eb93cd79a",
+          "name": "디지털투데이",
+          "title": "LG유플러스, 데이터독 AI 도입…익시오 장애 대응 시간 85% 단축",
+          "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=717585"
+        },
+        {
+          "id": "11fe487620d0",
+          "name": "디일렉",
+          "title": "LG U+ 익시오, 데이터독 AI 기술로 품질 강화",
+          "link": "https://www.thelec.kr/news/articleView.html?idxno=65868"
+        },
+        {
+          "id": "c2e367ea7db3",
+          "name": "디지털데일리",
+          "title": "AI 서비스 점검도 AI가로…LG유플러스, 데이터독 AI 활용해 익시오 품질 개선",
+          "link": "https://www.ddaily.co.kr/page/view/2026112409560509719"
+        },
+        {
+          "id": "22c58577e118",
+          "name": "보안뉴스",
+          "title": "LG유플러스, 데이터독과 손잡고 ‘익시오’ 장애 대응·품질 고도화",
+          "link": "https://www.boannews.com/news/articleView.html?idxno=147479"
+        },
+        {
+          "id": "f060853eecd4",
+          "name": "조선비즈",
+          "title": "LG유플러스, 데이터독과 손잡고 익시오 품질·안정성 강화",
+          "link": "https://biz.chosun.com/it-science/ict/2026/11/24/QWMEWQK6FVAD3HXZ3RVLMB6SLQ"
+        },
+        {
+          "id": "6ae7ed6b98b2",
+          "name": "디지털투데이",
+          "title": "LG유플러스, IPTV 420만대 AI 품질관리 체계 구축…장애 자동 조치 지원",
+          "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=716221"
+        },
+        {
+          "id": "fe264a8622f2",
+          "name": "베타뉴스",
+          "title": "LG유플러스, AI 기반 품질관리 IPTV 420만대에 적용",
+          "link": "https://www.betanews.net/article/view/beta202611180071"
+        },
+        {
+          "id": "aeb9c8edcec9",
+          "name": "테크월드뉴스",
+          "title": "LG유플러스, AI로 IPTV 품질관리 '사전예방'…인터넷 무선공유기 순차 적용 추진",
+          "link": "https://www.epnc.co.kr/news/articleView.html?idxno=409936"
+        },
+        {
+          "id": "a325e308bcdd",
+          "name": "IT조선",
+          "title": "LG유플러스, 임원 11명 승진·선임…AI·통신 경쟁력 강화",
+          "link": "https://it.chosun.com/news/articleView.html?idxno=3000000001428"
+        },
+        {
+          "id": "9e0f1a3a7676",
+          "name": "테크월드뉴스",
+          "title": "LG유플러스, 2027년 임원 인사 단행…AI 사업·통신 경쟁력 강화 집중",
+          "link": "https://www.epnc.co.kr/news/articleView.html?idxno=410035"
+        },
+        {
+          "id": "574d11e99992",
+          "name": "디지털투데이",
+          "title": "LG유플러스, 2027년 임원 인사 단행…AI·네트워크 전문가 중용",
+          "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=716788"
+        }
+      ],
+      "author": "Haley Yun"
+    },
+    {
+      "id": "h20261124-c8702a06ec4b",
+      "title": "LG CNS, 고교생 AI 교육 1300명 참여…내년 피지컬 AI 과정 신설",
+      "category": "기업",
+      "published": "2026-11-24T09:20:00.000Z",
+      "points": [
+        "올해 고교생 약 1300명 참여, 역대 최대",
+        "대상은 안전 보행 경로 서비스 귀가 ON",
+        "내년 피지컬 AI 교육과정 신설 계획"
+      ],
+      "body": [
+        "LG CNS는 지난 20일 서울 마곡 LG사이언스파크 본사에서 고등학생 대상 AI 교육 프로그램 AI지니어스 아카데미의 챌린지데이를 열고 우수 프로젝트를 시상했다고 23일 밝혔다. 디지털데일리는 이 프로그램을 진로 설계형 AI 사회공헌 프로그램으로 소개했고, 조선비즈는 LG CNS가 고등학생을 대상으로 운영하는 AI 교육 사회공헌 프로그램이라고 설명했다.",
+        "참여 규모는 대부분의 매체가 역대 최대로 전했다. 테크월드뉴스는 올해 약 1300명이 참여해 2021년 프로그램 시작 이후 가장 많았다고 전했다. EBN은 LG CNS가 내년에는 피지컬 AI 교육과정도 새롭게 도입할 계획이라고 전했다.",
+        "우수작도 소개됐다. AI타임스는 대상을 안전 정보 기반 보행 경로 추천 서비스 귀가 ON이 받았다고 전했다. 디일렉은 고등학생들이 AI를 활용해 안전한 귀갓길을 안내하고 어르신의 재활과 장애인의 이동을 돕는 서비스를 개발했다고 전했다. AI타임스는 같은 행사에서 AI 지팡이와 노인용 로봇 등이 소개됐다고 제목에서 밝혔다.",
+        "LG CNS의 최근 소식도 이어졌다. 19일 LG CNS는 이사회를 열어 2027년 정기 임원인사를 단행했다. 디지털투데이는 부사장 승진 1명, 전무 승진 2명, 상무 신규 선임 9명에 계열사 전입 1명, 외부 영입 1명이 포함됐다고 전했다. 같은 인사를 두고 디지털투데이와 EBN은 제목에서 12명 승진, 아이뉴스24는 14명 인사로 표기했는데, 이 차이는 계열사 전입과 외부 영입의 포함 여부에서 나온 것으로 보인다. EBN은 AX와 글로벌 사업 경쟁력 강화를 이끌 인재를 중용했다고 전했다.",
+        "용어 풀이: 피지컬 AI는 로봇이나 기계처럼 실제 물리 환경에서 주변을 인식하고 움직이는 AI를 말한다. AX는 기업의 업무와 사업 전반에 AI를 도입해 바꾸는 AI 전환을 뜻한다."
+      ],
+      "sources": [
+        {
+          "id": "c8702a06ec4b",
+          "name": "디지털투데이",
+          "title": "LG CNS, 고교생 AI 교육 성과 발표…올해 1300명 참여",
+          "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=717282"
+        },
+        {
+          "id": "f16c2ddd4f52",
+          "name": "IT조선",
+          "title": "LG CNS, 고교생 AI 우수작 시상…‘귀가 ON’ 대상",
+          "link": "https://it.chosun.com/news/articleView.html?idxno=3000000001625"
+        },
+        {
+          "id": "a8f50fb275c9",
+          "name": "테크월드뉴스",
+          "title": "LG CNS, 고교생 AI 교육에 1300명 참여…내년 ‘피지컬 AI’ 과정 신설",
+          "link": "https://www.epnc.co.kr/news/articleView.html?idxno=410138"
+        },
+        {
+          "id": "b026ee5b0e6c",
+          "name": "조선비즈",
+          "title": "LG CNS, 고교생 AI 인재 육성…AI 지니어스 아카데미 개최",
+          "link": "https://biz.chosun.com/it-science/ict/2026/11/23/2BY2O32YYRF5ZKSZ2474G2QKJA"
+        },
+        {
+          "id": "5e81a3047d7c",
+          "name": "디지털데일리",
+          "title": "어르신·장애인 돕는 AI 개발…LG CNS, '지니어스 아카데미' 개최",
+          "link": "https://www.ddaily.co.kr/page/view/2026112307121264730"
+        },
+        {
+          "id": "c01791f92845",
+          "name": "디일렉",
+          "title": "LG CNS가 키운 고교생 AI 인재들…안심 귀가 서비스 개발",
+          "link": "https://www.thelec.kr/news/articleView.html?idxno=65750"
+        },
+        {
+          "id": "6a162b40890b",
+          "name": "EBN",
+          "title": "LG CNS, 미래 AI 인재 키운다…올해 고교생 1300명 참여",
+          "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1732617"
+        },
+        {
+          "id": "6c3d8df18f2f",
+          "name": "AI타임스",
+          "title": "[게시판] AI 지팡이·노인용 로봇 등...LG CNS, 고교생 대상 AI 경연 등 단신",
+          "link": "https://www.aitimes.com/news/articleView.html?idxno=217695"
+        },
+        {
+          "id": "52e5c2d9c0b8",
+          "name": "디지털투데이",
+          "title": "LG CNS, AX 중심 임원인사 단행…배민 부사장 등 12명 승진",
+          "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=716816"
+        },
+        {
+          "id": "108983acdda3",
+          "name": "아이뉴스24",
+          "title": "LG CNS, AX·글로벌 금융 인재 전진배치⋯2027년 임원 14명 인사",
+          "link": "https://www.inews24.com/view/2028350"
+        },
+        {
+          "id": "538f27675a01",
+          "name": "EBN",
+          "title": "LG CNS, 임원 12명 승진…AX·글로벌 사업 경쟁력 강화",
+          "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1732368"
+        }
+      ],
+      "author": "Ashley Yang"
+    },
+    {
+      "id": "h20261124-bfe6dd9ef447",
+      "title": "엔비디아 이사회, 젠슨 황 사임 11일 만에 CEO 복귀 결정",
+      "category": "기업",
+      "published": "2026-11-24T09:20:00.000Z",
+      "points": [
+        "이사회 만장일치로 사임 11일 만에 복귀",
+        "트럼프 개입 정황은 매체별 보도가 엇갈림",
+        "국가안보와 수출통제 위원회 신설 등 정비"
+      ],
+      "body": [
+        "엔비디아 이사회가 23일(현지시간) 젠슨 황을 사장 겸 최고경영자(CEO), 이사회 이사로 즉시 복귀시킨다고 발표했다. 뉴시스와 인벤은 이사회가 황 CEO와 여러 차례 논의한 뒤 만장일치로 결정했다고 전했다. 플래텀은 지난 12일 사임 발표 이후 11일 만의 복귀라고 전했다.",
+        "사임 배경을 설명하는 표현은 매체마다 다르다. 더스쿠프는 사생활 논란과 중국 정보기관 연루 의혹으로 물러났던 황 CEO가 복귀했다고 적었고, IT조선은 중국 스파이 연루 의혹 등이 불거지며 사임한 지 11일 만이라고 전했다. 디지털투데이는 외도 논란으로 사임했다고 적었다. 이는 모두 국내 매체 보도에서 전해진 표현이다.",
+        "이사회의 판단 근거도 보도되고 있다. EBN은 이사회가 복귀에 따른 국가안보상 위험이 없다고 판단해 만장일치로 결정했다고 전했다. 디지털데일리는 이사회가 미국 정부 고위급 의견 청취와 내부 논의를 거쳐 황을 복귀시키고, 국가안보와 수출통제 위원회 신설 등 거버넌스 통제 체계를 정비한다고 전했다. 조선비즈는 블룸버그통신이 소식통을 인용해 이사회가 고위 경영진과 사전 협의 없이 복귀를 결정한 것으로 알려졌다고 보도했다고 전했다.",
+        "도널드 트럼프 미국 대통령의 개입 정황은 매체별로 전하는 내용이 서로 다르다. 조선비즈에 따르면 트럼프 대통령은 소셜미디어 트루스소셜에서 이사회의 결정을 옳고 적절한 결정이라고 평가했다. 인더스트리뉴스는 세마포와 악시오스 보도를 인용해 트럼프 대통령이 이사회 회의에 전화로 참여해 복귀를 요구했다고 전했다. 디지털투데이는 월스트리트저널 보도를 인용해 트럼프 대통령이 JD 밴스 부통령에게 이사회 설득을 요청했다고 전했다. 한국NGO신문은 CNBC 등을 인용해 트럼프 대통령이 자신이 이사회를 설득했다고 주장했다고 전했고, 뉴시스는 트럼프 대통령이 이사회와 직간접으로 소통했다고 밝혔다고 전했다.",
+        "복귀 결정이 급반전이라는 점도 여러 매체가 짚었다. 시사저널e는 이사회가 황 CEO를 복귀시킬 계획이 없다고 공식 발표한 지 6일 만이라고 전했고, 디지털투데이는 이사회가 며칠 전 복귀 가능성을 배제했던 결정을 뒤집은 것이라고 전했다. AI타임스는 황의 복귀를 요구해 온 투자자와 AI 업계의 요구가 받아들여졌다고 설명했다. 디일렉은 제목에서 미국 정치권의 반발이 확산되고 있다고 전했다.",
+        "최근 14일 사이의 흐름은 이렇다. 17일 황은 사임 5일 만에 첫 성명을 내고 이사회가 요청하면 복귀할 의향이 있다고 밝혔다(국민일보). 블로터는 같은 날 이사회가 당시 복귀를 검토하지 않고 있으며 후임 선임을 추진한다고 전했다. 18일 AI타임스는 미국 증권거래위원회(SEC)가 엔비디아에 대한 민사 조사에 착수한 것으로 알려졌다고 전했고, 투자자에게 제공한 정보가 오해를 불러일으켰는지가 주요 조사 대상에 포함됐다고 보도했다.",
+        "복귀 당일 분위기도 전해졌다. 아이뉴스24는 황이 하루빨리 일터로 돌아가고 싶다고 밝혔다고 전했고, AI타임스는 수백 명의 직원이 본사에 모여 환호했으며 일론 머스크 테슬라 CEO와 샘 알트먼 오픈AI CEO 등도 환영의 뜻을 밝혔다고 전했다.",
+        "용어 풀이: 수출통제는 첨단 기술이나 제품이 해외로 나가는 것을 정부가 제한하는 제도다. 거버넌스는 기업의 의사결정과 견제 방식을 정하는 지배구조를 뜻한다."
+      ],
+      "sources": [
+        {
+          "id": "bfe6dd9ef447",
+          "name": "뉴시스",
+          "title": "젠슨 황 엔비디아 CEO 즉시 복귀…이사회 만장일치 결정",
+          "link": "https://www.newsis.com/view/NISX20261123_0003880064"
+        },
+        {
+          "id": "e088dac4c103",
+          "name": "조선비즈",
+          "title": "젠슨 황, 엔비디아 CEO 복귀…이사회 만장일치 결정",
+          "link": "https://biz.chosun.com/it-science/ict/2026/11/23/SEDZBG4JVZDTPOME2IWGCTDBTU"
+        },
+        {
+          "id": "447adc021d1d",
+          "name": "IT조선",
+          "title": "젠슨 황, 엔비디아 CEO 복귀…이사회 “국가안보 위험 없어”",
+          "link": "https://it.chosun.com/news/articleView.html?idxno=3000000001670"
+        },
+        {
+          "id": "4e5a34005c83",
+          "name": "플래텀",
+          "title": "젠슨 황, 엔비디아 CEO로 복귀…”국가안보 위험 없다” 이사회 만장일치 결정",
+          "link": "https://platum.kr/archives/299293"
+        },
+        {
+          "id": "3cc74d331f2d",
+          "name": "조선비즈",
+          "title": "트럼프 “젠슨 황 엔비디아 CEO 복귀, 올바른 결정”",
+          "link": "https://biz.chosun.com/international/international_general/2026/11/23/7VJLEC2YNND7RCC5EX7VC3ERJ4"
+        },
+        {
+          "id": "628efa3d894e",
+          "name": "더스쿠프",
+          "title": "젠슨 황 전격 복귀, 엔비디아 주가 급등…트럼프 직접 움직였다",
+          "link": "https://www.thescoop.co.kr/news/articleView.html?idxno=312409"
+        },
+        {
+          "id": "17d288870ca4",
+          "name": "디지털투데이",
+          "title": "젠슨 황 엔비디아 복귀, 트럼프·밴스가 직접 움직였다",
+          "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=717568"
+        },
+        {
+          "id": "46aaffe37d58",
+          "name": "AI타임스",
+          "title": "젠슨 황, 사임 11일 만에 엔비디아 CEO 복귀…트럼프 직접 개입",
+          "link": "https://www.aitimes.com/news/articleView.html?idxno=217707"
+        },
+        {
+          "id": "054ae985ba07",
+          "name": "한국NGO신문",
+          "title": "젠슨 황, 11일 만에 엔비디아 CEO 복귀…트럼프 “내가 이사회 설득”",
+          "link": "https://www.ngonews.kr/news/articleView.html?idxno=243970"
+        },
+        {
+          "id": "5c9604e05321",
+          "name": "디일렉",
+          "title": "젠슨 황, 사임 11일 만에 엔비디아 CEO 복귀…美 정치권 반발 확산",
+          "link": "https://www.thelec.kr/news/articleView.html?idxno=65796"
+        },
+        {
+          "id": "d85c9846d437",
+          "name": "시사저널e",
+          "title": "젠슨 황, 사임 11일 만에 엔비디아 CEO 복귀",
+          "link": "https://www.sisajournal-e.com/news/articleView.html?idxno=425261"
+        },
+        {
+          "id": "8eaf221252e5",
+          "name": "AI타임스",
+          "title": "황 복귀에 엔비디아 직원들 환호…머스크·알트먼도 환영",
+          "link": "https://www.aitimes.com/news/articleView.html?idxno=217711"
+        },
+        {
+          "id": "27db6758909b",
+          "name": "아이뉴스24",
+          "title": "젠슨 황, 엔비디아 복귀 소감은 \"하루빨리 일터로\"",
+          "link": "https://www.inews24.com/view/2029502"
+        },
+        {
+          "id": "2db8d2754169",
+          "name": "뉴시스",
+          "title": "트럼프 \"젠슨 황 복귀, 엔비디아 이사회와 직간접 소통\"(종합)",
+          "link": "https://www.newsis.com/view/NISX20261124_0003880084"
+        },
+        {
+          "id": "bd77d9833dd5",
+          "name": "조선비즈",
+          "title": "“엔비디아 이사회, 경영진 상의없이 젠슨 황 복귀 결정”",
+          "link": "https://biz.chosun.com/international/international_general/2026/11/24/2CDYJKRTERFPZEISYMKVNOHBYY"
+        },
+        {
+          "id": "d6a80fb1984b",
+          "name": "인더스트리뉴스",
+          "title": "젠슨 황 복귀 막전막후…“트럼프, 엔비디아 이사회에 전화해 복귀 요구”",
+          "link": "https://www.industrynews.co.kr/news/articleView.html?idxno=90155"
+        },
+        {
+          "id": "4836c0f05045",
+          "name": "EBN",
+          "title": "[젠슨 황 리스크] 엔비디아 CEO, 사임 11일 만에 경영 복귀",
+          "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1732734"
+        },
+        {
+          "id": "d3d4d6190a1b",
+          "name": "디지털데일리",
+          "title": "젠슨 황 사장 겸 CEO 전격 복귀…엔비디아 이사회, 이사직 복귀 의결",
+          "link": "https://www.ddaily.co.kr/page/view/2026112323193605035"
+        },
+        {
+          "id": "83903e5f9cd9",
+          "name": "디지털투데이",
+          "title": "\"황의 귀환\" 젠슨 황 엔비디아 CEO 전격 복귀…주가 27% 급등",
+          "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=717563"
+        },
+        {
+          "id": "f9e90dbb64e7",
+          "name": "인벤",
+          "title": "젠슨 황, 엔비디아 CEO로 복귀...이사회 만장일치로 결정",
+          "link": "https://www.inven.co.kr/webzine/news/?news=323735"
+        },
+        {
+          "id": "c3e24701c318",
+          "name": "국민일보",
+          "title": "젠슨 황 “이사회 요청시 엔비디아 복귀”⋯ 사임 5일만에 성명",
+          "link": "https://www.kmib.co.kr/article/20261118500051"
+        },
+        {
+          "id": "7546dcedfe02",
+          "name": "블로터",
+          "title": "젠슨 황, 엔비디아 CEO 복귀 의사 표명…이사회는 후임 선임 추진",
+          "link": "https://www.bloter.net/news/articleView.html?idxno=678939"
+        },
+        {
+          "id": "ca36ea9b7166",
+          "name": "AI타임스",
+          "title": "미 SEC, 젠슨 황 사임 후 엔비디아 조사…투자자 공시 위반 여부 확인",
+          "link": "https://www.aitimes.com/news/articleView.html?idxno=217522"
+        }
+      ],
+      "author": "Ethan Chen"
+    },
+    {
+      "id": "h20261124-47d66a94a0d9",
+      "title": "젠슨 황 복귀에 엔비디아 31% 급등, 코스피는 5000선 회복",
+      "category": "반도체",
+      "published": "2026-11-24T09:20:00.000Z",
+      "points": [
+        "엔비디아 31% 급등, 나스닥 6%대 상승",
+        "코스피 6.32% 올라 5000선 회복",
+        "삼성전자와 SK하이닉스 등 반도체주 강세"
+      ],
+      "body": [
+        "젠슨 황 엔비디아 최고경영자(CEO)의 복귀 소식이 23일(현지시간) 뉴욕증시와 24일 국내 증시를 끌어올렸다. IT조선에 따르면 엔비디아는 23일 뉴욕증시에서 전 거래일보다 31.48% 오른 165.05달러에 거래를 마쳤다. AI타임스는 이 상승으로 시가총액이 약 9500억달러(약 1275조원) 늘었다고 전했고, IT조선은 제목에서 시총 증가액을 1조달러로 적어 두 매체의 집계 표현이 다르다.",
+        "장중 흐름도 매체마다 시점이 달랐다. 조선비즈는 장 초반 엔비디아가 28.98% 급등했고 나스닥 종합지수가 6% 넘게 올랐다고 전했다. 국민일보는 장중 나스닥이 7%대 오르고 있다고 전했다가, 마감 뒤 기사에서는 나스닥이 6.5% 올라 뉴욕증시 3대 지수가 일제히 급등 마감했다고 정리했다. 디지털데일리와 AI타임스는 지난주 AI 투자 불안으로 급락했던 반도체와 데이터센터 관련주가 함께 반등했다고 설명했다.",
+        "국내 증시는 24일 급등했다. EBN은 한국거래소 자료를 인용해 코스피가 장 마감 기준 전 거래일보다 297.49포인트(6.32%) 오른 5006.03에 마감하며 5000선을 회복했다고 전했다. IT조선은 오전 9시 15분 기준 코스피가 5.8% 올라 장중 5000선을 돌파했다고 전했다. 디지털투데이와 디지털데일리는 코스피와 코스닥 양 시장에서 매수 사이드카가 발동됐다고 전했고, 디지털데일리는 외국인과 기관이 반도체 대형주를 집중 매수했다고 덧붙였다. 디지털데일리는 전날 매도 사이드카가 발동됐던 유가증권시장에서 하루 만에 매수 사이드카가 나왔다고도 짚었다.",
+        "종목별 수치는 시점에 따라 다르다. 조선비즈는 개장 전 넥스트레이드 프리마켓에서 SK하이닉스가 오전 8시 7분 기준 전 거래일 종가 108만5000원보다 13만2000원(12.17%) 오른 121만7000원에 거래되고 삼성전자도 9%대 올랐다고 전했다. 아이뉴스24는 장 초반 삼성전자와 SK하이닉스가 7% 급등했다고 전했다. 조선비즈는 두산도 오전 9시 16분 기준 16.82%(9만1000원) 오른 63만2000원에 거래됐다고 전했다. 뉴시스는 대만 증시도 24일 8.99% 폭등해 4만선을 회복했다고 전했다.",
+        "최근 흐름도 짚을 만하다. 17일 엔비디아는 젠슨 황 전 CEO 사임 이후 처음 분기 실적을 내놓았다. 디지털투데이는 가디언을 인용해 3분기 매출이 1158억4000만달러, 주당순이익이 2.68달러였다고 전했고, 뉴시스는 시장 예상치를 크게 웃도는 실적이라고 보도했다. 20일에는 IT조선이 앤트로픽 상장에 따른 AI 관련주 간 자금 이동과 AMD의 대중국 수출통제 관련 의혹 등이 겹쳐 코스피가 4% 넘게 하락하며 4900선이 무너졌다고 전했고, 한국NGO신문은 코스피와 코스닥에 매도 사이드카가 발동됐다고 전했다.",
+        "용어 풀이: 사이드카는 선물시장 가격이 급변할 때 프로그램 매매 호가의 효력을 일정 시간 멈춰 현물시장 충격을 줄이는 시장 안정 장치다. 프리마켓은 정규 거래 시간이 시작되기 전에 열리는 거래 시간대를 말한다."
+      ],
+      "sources": [
+        {
+          "id": "47d66a94a0d9",
+          "name": "IT조선",
+          "title": "엔비디아, 젠슨 황 복귀에 31% 급등… 시총 1조달러 증가",
+          "link": "https://it.chosun.com/news/articleView.html?idxno=3000000001671"
+        },
+        {
+          "id": "d998e9f2a7f8",
+          "name": "AI타임스",
+          "title": "젠슨 황 복귀에 엔비디아 주가 31% 급등…AI 관련주 동반 반등",
+          "link": "https://www.aitimes.com/news/articleView.html?idxno=217709"
+        },
+        {
+          "id": "9a25206589f5",
+          "name": "조선비즈",
+          "title": "젠슨 황 엔비디아 복귀 소식…뉴욕증시 급등 출발",
+          "link": "https://biz.chosun.com/international/international_economy/2026/11/23/QDPQKCITTFHT3IQENKC4BEO2KU"
+        },
+        {
+          "id": "571d63903606",
+          "name": "국민일보",
+          "title": "‘젠슨황 복귀’ 엔비디아 장중 30%대 폭등⋯ 나스닥은 7%대↑",
+          "link": "https://www.kmib.co.kr/article/20261124500033"
+        },
+        {
+          "id": "d3e35e877b5c",
+          "name": "국민일보",
+          "title": "‘젠슨황 복귀’에 엔비디아 주가 31.5% 폭등⋯ 나스닥 6.5%↑",
+          "link": "https://www.kmib.co.kr/article/20261124500043"
+        },
+        {
+          "id": "ba00877ddcec",
+          "name": "디지털데일리",
+          "title": "젠슨 황 복귀에 美 증시 급등…나스닥 6.5%·엔비디아 31% 상승",
+          "link": "https://www.ddaily.co.kr/page/view/2026112406280606438"
+        },
+        {
+          "id": "cfccc59ab18f",
+          "name": "IT조선",
+          "title": "[개장] 코스피, 젠슨 황 복귀에 6% 급등… 장중 5000선 돌파",
+          "link": "https://it.chosun.com/news/articleView.html?idxno=3000000001683"
+        },
+        {
+          "id": "688f03719202",
+          "name": "디지털데일리",
+          "title": "“젠슨 황 돌아오자 매수 사이드카”…코스피 5.8% 폭등, 5000선 회복 시도",
+          "link": "https://www.ddaily.co.kr/page/view/2026112409233754375"
+        },
+        {
+          "id": "7fe03cb85be6",
+          "name": "EBN",
+          "title": "코스피, 젠슨 황 복귀에 6.32% 급등…5000선 회복 성공",
+          "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1732850"
+        },
+        {
+          "id": "ddbd0ac2598f",
+          "name": "디지털투데이",
+          "title": "젠슨 황 복귀에 코스피 6.32% 급등...5000선 회복",
+          "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=717803"
+        },
+        {
+          "id": "e9c89f648af3",
+          "name": "디지털데일리",
+          "title": "“젠슨 황 복귀” 엔비디아 31% 폭등…코스피 6.32% 급등해 5000선 탈환",
+          "link": "https://www.ddaily.co.kr/page/view/2026112416301704270"
+        },
+        {
+          "id": "be7e8ea4e6ed",
+          "name": "조선비즈",
+          "title": "젠슨 황 엔비디아 복귀에… 프리마켓서 SK하이닉스 12%·삼성전자 9%대 급등",
+          "link": "https://biz.chosun.com/stock/stock_general/2026/11/24/MFRSGAWVRBAOPCRT667JTIZ7UU"
+        },
+        {
+          "id": "5ea8cd6389c3",
+          "name": "아이뉴스24",
+          "title": "[특징주] '삼전닉스' 7% 급등⋯젠슨 황 엔비디아 '복귀 효과'",
+          "link": "https://www.inews24.com/view/2029540"
+        },
+        {
+          "id": "779456568a62",
+          "name": "조선비즈",
+          "title": "[특징주] 두산, 젠슨황 엔비디아 복귀 소식에…16% 급등",
+          "link": "https://biz.chosun.com/stock/stock_general/2026/11/24/KPNBBJ644BC33AY5BKGUE7RMLY"
+        },
+        {
+          "id": "bf3a966391a9",
+          "name": "뉴시스",
+          "title": "[올댓차이나] 대만 증시, 젠슨 황 엔비디아 복귀에 8.99% 폭등",
+          "link": "https://www.newsis.com/view/NISX20261124_0003881382"
+        },
+        {
+          "id": "500fd1199fae",
+          "name": "뉴시스",
+          "title": "엔비디아, 매출 155조원 '예상치 상회'…젠슨 황 사임 후 첫 실적발표",
+          "link": "https://www.newsis.com/view/NISX20261118_0003872329"
+        },
+        {
+          "id": "f2f1ebcd72c9",
+          "name": "디지털투데이",
+          "title": "엔비디아, 젠슨 황 사임 후 첫 실적 발표 ...매출 1158억달러로 두 배 성장",
+          "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=716210"
+        },
+        {
+          "id": "d5325ced73c7",
+          "name": "IT조선",
+          "title": "[개장] 美 AI 우려에 코스피 4% 급락… 4900선 붕괴",
+          "link": "https://it.chosun.com/news/articleView.html?idxno=3000000001493"
+        },
+        {
+          "id": "872c51229fe0",
+          "name": "한국NGO신문",
+          "title": "美 AI·반도체주 급락에 국내 증시 직격탄…코스피·코스닥 매도 사이드카",
+          "link": "https://www.ngonews.kr/news/articleView.html?idxno=243749"
+        }
+      ],
+      "author": "Kevin Wong"
+    },
+    {
+      "id": "s20261124-66b87ee8731f",
+      "title": "삼성SDS, 2027년 임원 인사 10명 승진…AX와 클라우드 인재 발탁",
+      "category": "기업",
+      "published": "2026-11-24T08:15:00.000Z",
+      "points": [
+        "부사장 4명, 상무 6명 등 10명 승진",
+        "여성 리더 3명 발탁",
+        "AX, 클라우드, 디지털 물류 인재 전진 배치"
+      ],
+      "body": [
+        "삼성SDS가 24일자로 부사장 4명, 상무 6명 등 10명을 승진시키는 2027년 정기 임원 인사를 실시했다. 디지털투데이와 테크월드뉴스가 같은 규모로 전했다.",
+        "발탁 분야는 AI 전환 중심이다. 디지털투데이는 여성 리더 3명을 비롯해 기업용 AI 트랜스포메이션(AX), 클라우드 및 솔루션 기반 서비스, 디지털 물류 분야 인재를 발탁했다고 전했다. 인공지능신문은 기업의 AX 수요 확대에 대응해 AI 서비스, 클라우드 인프라, 솔루션, 디지털 물류 분야의 사업과 기술 인재를 전진 배치했다고 전했고, EBN은 AI 전환을 이끌 차세대 리더를 발탁했다고 전했다.",
+        "AI타임스는 전체 승진 규모는 지난해와 같지만 부사장 승진자를 지난해의 두 배로 늘렸다고 전했다. EBN은 속보 제목에서 AI 전환과 클라우드 핵심 인재 발탁을 내세웠다. 인공지능신문은 제목에서 AX와 AI 인프라 사업 확대를 위한 세대교체라고 표현했다.",
+        "앞선 소식도 있다. 블로터는 19일 삼성SDS가 2027년 로봇 통합 운영 플랫폼 출시를 앞두고 AI 모델을 직접 개발하기보다 모델 학습에 필요한 데이터 기술 확보에 나섰다고 전했다. 이 매체는 시각, 언어, 행동을 연결하는 AI 모델의 학습데이터 합성을 새로운 연구과제로 추가했다고 설명했다. 블로터는 20일 이준희 대표이사 사장이 정기인사에서 유임됐다며 제목에서 AI와 클라우드 드라이브를 잇는다고 전했다.",
+        "용어 풀이: AX는 기업의 업무와 사업 전반에 AI를 도입해 바꾸는 AI 전환을 뜻한다. 클라우드는 서버와 저장공간 같은 컴퓨팅 자원을 인터넷으로 빌려 쓰는 방식이다."
+      ],
+      "sources": [
+        {
+          "id": "66b87ee8731f",
+          "name": "테크월드뉴스",
+          "title": "삼성SDS, 2027년 정기 임원 인사…부사장 4명·상무 6명 승진",
+          "link": "https://www.epnc.co.kr/news/articleView.html?idxno=410222"
+        },
+        {
+          "id": "24a3f358b665",
+          "name": "AI타임스",
+          "title": "삼성SDS, 임원 인사 AX 진용 재편…부사장 4명·상무 6명 승진",
+          "link": "https://www.aitimes.com/news/articleView.html?idxno=217750"
+        },
+        {
+          "id": "bbe68237e037",
+          "name": "인공지능신문",
+          "title": "삼성SDS, 2027년 임원 인사 10명 승진…AX·AI 인프라 사업 확대 위한 세대교체",
+          "link": "https://www.aitimes.kr/news/articleView.html?idxno=42865"
+        },
+        {
+          "id": "ee6cce94a0ef",
+          "name": "디지털투데이",
+          "title": "삼성SDS, 정기 임원 인사...여성 리더 3명 발탁",
+          "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=717661"
+        },
+        {
+          "id": "2580ec53f6bc",
+          "name": "EBN",
+          "title": "삼성SDS, AI 전환 이끌 차세대 리더 발탁…임원 10명 승진",
+          "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1732777"
+        },
+        {
+          "id": "6399961458fc",
+          "name": "EBN",
+          "title": "[속보] 삼성SDS, 임원 10명 승진…AI 전환·클라우드 핵심 인재 발탁",
+          "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1732775"
+        },
+        {
+          "id": "889c6a0366a9",
+          "name": "블로터",
+          "title": "로봇 플랫폼 출시 앞둔 삼성SDS, AI 학습에 집중하는 이유",
+          "link": "https://www.bloter.net/news/articleView.html?idxno=679085"
+        },
+        {
+          "id": "935ea82d6813",
+          "name": "블로터",
+          "title": "[어바웃 C] 삼성SDS 이준희 유임…'AI·클라우드' 드라이브 잇는다",
+          "link": "https://www.bloter.net/news/articleView.html?idxno=679224"
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "s20261124-8d545ceedc43",
+      "title": "한화에어로, 창원에 10조원 규모 국방 AI 데이터센터 건립",
+      "category": "기업",
+      "published": "2026-11-24T07:35:00.000Z",
+      "points": [
+        "경남 창원에 국방 AI 데이터센터 건립",
+        "1단계 10조원 투자, 2028년 7월 일부 가동",
+        "장기적으로 180MW 규모까지 확대 계획"
+      ],
+      "body": [
+        "한화에어로스페이스가 경남 창원에 국방 인공지능(AI) 데이터센터를 짓는다. 조선비즈에 따르면 한화에어로스페이스는 24일 창원 AI 데이터센터 건설 계획을 밝혔고, 1단계에 10조원을 투자해 2028년 7월부터 일부 시설을 가동한다. 장기적으로는 180MW(메가와트) 규모까지 확대한다는 계획이다.",
+        "매체마다 강조한 점이 달랐다. 인더스트리뉴스는 1단계로만 10조원을 투입하는 초대형 국방 AI 데이터센터라며, 하드웨어 중심이던 K-방산 경쟁력을 AI 기반 통합 체계로 확장한다고 전했다. EBN은 국가 안보 핵심 인프라를 민간 주도로 신속히 구축해 미래 전장 환경에 선제 대응한다는 방침이라고 전했고, 군의 첨단화 전환에 속도를 낸다고 설명했다.",
+        "같은 날 한화에어로스페이스는 사족보행 로봇 기업 라이온로보틱스에 대한 투자를 진행하지 않기로 했다고 밝혔다. 디지털데일리와 블로터는 기업가치와 투자금액 등 조건에서 이견을 좁히지 못했다고 전했고, 인더스트리뉴스는 밸류에이션과 조건이 맞지 않았다고 전했다. 블로터는 지상과 항공 무인체계 사업은 기존 계획대로 추진한다고 덧붙였다.",
+        "정부 쪽 움직임도 같은 날 있었다. 디지털투데이와 테크월드뉴스에 따르면 하정우 국가인공지능전략위원회 상근 부위원장이 24일 경남 창원의 한화에어로스페이스, 현대위아, 국방과학연구소 5기술연구원을 방문해 AI 기술 개발과 도입 현황을 점검했다. 테크월드뉴스는 AI 무기체계와 제조 AX, AI 인프라 구축 현황을 점검했다고 전했고, 디지털투데이는 제목에서 AX 지원 방안을 모색했다고 밝혔다.",
+        "용어 풀이: MW는 전력 용량을 나타내는 단위로, 1MW는 1000kW다. 데이터센터의 규모는 서버 대수 대신 이처럼 사용할 수 있는 전력 용량으로 표현하는 경우가 많다."
+      ],
+      "sources": [
+        {
+          "id": "8d545ceedc43",
+          "name": "조선비즈",
+          "title": "한화, 10조 규모 국방 AI 데이터센터 짓는다… 2028년 첫 가동",
+          "link": "https://biz.chosun.com/industry/company/2026/11/24/3266ZKZCRBH2XCCPKA34PHKX6I"
+        },
+        {
+          "id": "ab7b8e452823",
+          "name": "EBN",
+          "title": "한화, 창원에 '국방 AI 데이터센터' 짓는다…1단계 10조 투입",
+          "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1732849"
+        },
+        {
+          "id": "a30d47c2ecda",
+          "name": "인더스트리뉴스",
+          "title": "한화에어로, 창원에 10조원 투입해 ‘국방 AI 데이터센터’ 짓는다",
+          "link": "https://www.industrynews.co.kr/news/articleView.html?idxno=90153"
+        },
+        {
+          "id": "9bfca5d6d0f7",
+          "name": "디지털데일리",
+          "title": "한화에어로, 라이온로보틱스 투자 철회…기업가치 이견",
+          "link": "https://www.ddaily.co.kr/page/view/2026112417192064149"
+        },
+        {
+          "id": "6a717d935d31",
+          "name": "조선비즈",
+          "title": "한화에어로 “사족보행 로봇 기업 라이온로보틱스 투자 철회”",
+          "link": "https://biz.chosun.com/industry/company/2026/11/24/VTCALPAAFBGBNH3RIZKK267IDE"
+        },
+        {
+          "id": "95f5439bbd00",
+          "name": "블로터",
+          "title": "한화에어로, 라이온로보틱스 투자 철회 '기업가치·투자조건' 이견",
+          "link": "https://www.bloter.net/news/articleView.html?idxno=679574"
+        },
+        {
+          "id": "877539799f32",
+          "name": "인더스트리뉴스",
+          "title": "한화에어로스페이스, 라이온로보틱스 투자 최종 철회…“밸류에이션·조건 불일치”",
+          "link": "https://www.industrynews.co.kr/news/articleView.html?idxno=90151"
+        },
+        {
+          "id": "70fab513349e",
+          "name": "테크월드뉴스",
+          "title": "국가AI전략위, 창원 방산 현장 점검…AI 무기체계·제조 AX 지원 모색",
+          "link": "https://www.epnc.co.kr/news/articleView.html?idxno=410244"
+        },
+        {
+          "id": "e7d1c9933998",
+          "name": "디지털투데이",
+          "title": "국가AI전략위, 창원 방산 현장 방문…AX 지원 방안 모색",
+          "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=717821"
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "s20261124-49d4c9fdb34d",
+      "title": "아마존, 이스라엘 AI 스타트업 데카르트 75억달러 인수 추진",
+      "category": "기업",
+      "published": "2026-11-24T06:59:00.000Z",
+      "points": [
+        "FT 보도, 약 75억달러(약 10조원) 규모",
+        "성사 시점은 이번 주 초와 다음 주 초로 엇갈림",
+        "자체 AI 칩 경쟁력 강화와 엔비디아 의존도 완화"
+      ],
+      "body": [
+        "아마존이 이스라엘계 AI 스타트업 데카르트(Decart)를 약 75억달러(약 10조원)에 인수하는 협상이 막바지에 들어섰다. 디지털데일리와 조선비즈는 파이낸셜타임스(FT)가 22일(현지시간) 소식통을 인용해 이같이 보도했다고 전했다. 조선비즈는 금액을 약 10조1030억원으로 환산했다.",
+        "거래 성사 시점은 두 매체가 다르게 전했다. 디지털데일리는 소식통들이 이르면 이번 주 초 거래가 성사될 수 있다고 했다고 전했고, 조선비즈는 FT가 이르면 다음 주 초 성사될 수 있다고 밝혔다고 전했다. IT조선은 22일 아마존이 인수 방안을 추진하고 있다고 전했다.",
+        "AI타임스는 24일 아마존이 데카르트의 핵심 기술과 인력을 확보하는 데 75억달러를 투입하기로 했고 창업자도 영입한다고 전했다. 다른 매체가 협상 막바지로 전한 것과 달리 이 매체는 투입이 결정된 것처럼 표현했다. AI타임스는 다양한 AI 칩에서 모델을 효율적으로 실행하는 소프트웨어를 확보해 아마존 자체 AI 칩의 경쟁력을 높이고 엔비디아 의존도를 낮추려는 전략이라고 설명했다. 디지털데일리는 제목에서 엔비디아 견제 포석이라고 표현했다.",
+        "아마존 관련 최근 보도도 있다. 조선비즈는 18일 제프 베이조스 아마존 창업자가 엔비디아의 차기 CEO는 내부에서 찾아야 하고 외부 영입은 최후 수단이라고 조언했다고 전했다. 베타뉴스는 19일 앤트로픽 상장으로 드러난 빅테크 투자망을 다루며 챗GPT와 클로드가 싸우는데 아마존은 양쪽 주주라고 제목에서 짚었다.",
+        "용어 풀이: AI 칩은 AI 연산을 빠르게 처리하도록 설계된 반도체다. 소프트웨어가 여러 종류의 칩에서 같은 AI 모델을 효율적으로 돌릴 수 있게 하면 특정 칩 공급사에 덜 의존할 수 있다."
+      ],
+      "sources": [
+        {
+          "id": "554a0d19966c",
+          "name": "디지털데일리",
+          "title": "아마존, AI 스타트업 데카르트 10조원에 인수 막바지…엔비디아 견제 포석",
+          "link": "https://www.ddaily.co.kr/page/view/2026112308010620996"
+        },
+        {
+          "id": "69df38829dc8",
+          "name": "조선비즈",
+          "title": "“아마존, AI 스타트업 데카르트 10조원에 인수 임박”",
+          "link": "https://biz.chosun.com/it-science/ict/2026/11/23/ETXR3BECXZC5TNTB45NBDGBJEQ"
+        },
+        {
+          "id": "49d4c9fdb34d",
+          "name": "AI타임스",
+          "title": "아마존, 데카르트의 'AI 최적화' 기술 10조원에 인수…창업자도 영입",
+          "link": "https://www.aitimes.com/news/articleView.html?idxno=217732"
+        },
+        {
+          "id": "cce18784ca0a",
+          "name": "IT조선",
+          "title": "아마존, 이스라엘 AI 스타트업 75억달러 인수 임박",
+          "link": "https://it.chosun.com/news/articleView.html?idxno=3000000001570"
+        },
+        {
+          "id": "15da576cab3b",
+          "name": "조선비즈",
+          "title": "아마존 창업자 베이조스 “엔비디아 차기 CEO, 내부에서 찾아야… 외부 영입은 최후 수단”",
+          "link": "https://biz.chosun.com/it-science/ict/2026/11/18/PYSAGY64ZFHN5DCIJGZKO5K6HI"
+        },
+        {
+          "id": "0641654e10e6",
+          "name": "베타뉴스",
+          "title": "챗GPT와 클로드가 싸우는데 아마존은 양쪽 주주…AI 전쟁의 진짜 승자는?",
+          "link": "https://www.betanews.net/article/view/beta202611190079"
+        }
+      ],
+      "auto": true
+    },
+    {
+      "id": "s20261124-967cacb9bbee",
+      "title": "삼성전자, 임원 131명 승진…HBM과 로봇 인재 중용",
+      "category": "기업",
+      "published": "2026-11-24T01:59:00.000Z",
+      "points": [
+        "임원 131명 승진, 지난해보다 30명 감소",
+        "HBM과 파운드리 등 반도체 인재 발탁",
+        "휴머노이드 개발진 승진, 38세 AI 전문가 상무"
+      ],
+      "body": [
+        "삼성전자가 2027년 정기 임원인사에서 131명을 승진시켰다. 조선비즈와 아이뉴스24는 승진 규모가 지난해보다 30명 줄었다고 전했고, 아이뉴스24는 제목에서 승진이 19% 감소했다고 밝혔다.",
+        "반도체 부문의 비중은 커졌다. 조선비즈에 따르면 전체 승진 규모는 줄었지만 역대 최대 실적을 낸 반도체 부문에서는 승진자를 늘렸고, 고대역폭메모리(HBM)와 차세대 D램 개발에 기여한 기술 인재를 중용했다. 인더스트리뉴스는 AI 메모리 시장을 주도한 반도체 핵심 인재와 함께 로봇, 파운드리 분야의 기술 리더를 대거 발탁했다고 전했다.",
+        "인더스트리뉴스는 제목에서 HBM4, 로봇, 파운드리 인재를 전진 배치했다고 밝혔다. 아이뉴스24는 DX 부문 인사를 별도로 다루며 키워드를 체질전환으로 꼽았다. 이 매체는 로봇과 AI 분야 핵심 인재가 전진 배치됐고, 휴머노이드 개발을 이끈 인물들이 나란히 승진했으며, 38세 AI 전문가가 최연소 상무로 발탁됐다고 전했다.",
+        "최근 흐름도 이어진다. EBN은 20일 삼성전자가 정기 사장단 인사에서 황상준 부사장을 신임 메모리사업부장 사장으로 승진 선임해 HBM 경쟁력을 강화한다고 전했고, 아이뉴스24는 메모리 개발을 맡아 온 황 사장에게 사업 전체를 맡겼다고 전했다. 로봇신문은 19일 대만 디지타임즈를 인용해 삼성전자가 내년 1월 열리는 CES 2027에서 휴머노이드 로봇 2종을 공개할 것이라는 해외 보도가 나왔다고 전했다.",
+        "용어 풀이: HBM은 여러 개의 D램 칩을 수직으로 쌓아 데이터 처리 속도를 높인 고대역폭 메모리로, AI 가속기에 널리 쓰인다. 파운드리는 다른 회사가 설계한 반도체를 위탁받아 생산하는 사업을 말한다."
+      ],
+      "sources": [
+        {
+          "id": "967cacb9bbee",
+          "name": "조선비즈",
+          "title": "삼성전자, 임원 131명 승진… HBM·AI·로봇 기술 인재 발탁",
+          "link": "https://biz.chosun.com/it-science/ict/2026/11/24/H4FLN22LI5HFJF6AVD5RO2A4WI"
+        },
+        {
+          "id": "aeed12c33254",
+          "name": "인더스트리뉴스",
+          "title": "\"'HBM4·로봇·파운드리' 인재 전진 배치\" 삼성전자, 정기임원 인사 단행… 총 131명 승진",
+          "link": "https://www.industrynews.co.kr/news/articleView.html?idxno=90092"
+        },
+        {
+          "id": "ee2c6753aa8c",
+          "name": "아이뉴스24",
+          "title": "삼성전자 임원 승진 19% 감소…HBM·로봇·AI 인재 전진 배치",
+          "link": "https://www.inews24.com/view/2029547"
+        },
+        {
+          "id": "c73c3c1fab81",
+          "name": "아이뉴스24",
+          "title": "삼성전자 DX 인사 키워드는 '체질전환'…로봇·AI 인재 전진 배치",
+          "link": "https://www.inews24.com/view/2029640"
+        },
+        {
+          "id": "b7bc7549b24d",
+          "name": "EBN",
+          "title": "삼성전자, 황상준 신임 메모리사업부장 선임…\"HBM 경쟁력 강화\"",
+          "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1732446"
+        },
+        {
+          "id": "8389a4027058",
+          "name": "아이뉴스24",
+          "title": "삼성전자, 내년 HBM '초격차' 진용 구축…기술리더 전진 배치[종합]",
+          "link": "https://www.inews24.com/view/2028780"
+        },
+        {
+          "id": "aefd6f78b2fc",
+          "name": "로봇신문",
+          "title": "\"삼성전자, CES 2027서 휴머노이드 로봇 2종 공개\"…로봇 손 기술 주목",
+          "link": "https://www.irobotnews.com/news/articleView.html?idxno=49687"
+        }
+      ],
+      "auto": true
+    },
+    {
       "id": "h20261123-b3f220edac81",
       "title": "LG전자, 싱가포르에 AI홈 체험공간 열고 동남아 공략",
       "category": "기업",
