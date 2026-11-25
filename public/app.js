@@ -212,12 +212,29 @@
     const box = $('#hot');
     const top = state.q || state.saved ? [] : hot(list);
     box.hidden = !top.length;
+    dedupeRecaps(top);
     if (!top.length) return;
     box.innerHTML = `<h2>지금 많이 보도되는 소식 <span>최근 48시간, 보도한 매체 수 기준</span></h2><ol>${top.map((t, i) => {
       const st = t.story;
       const href = st ? `#s/${st.id}` : `#a/${t.lead.id}`;
       return `<li data-cat="${esc(st ? st.category : t.lead.category)}"><a href="${esc(href)}"><b class="rk">${i + 1}</b><span class="tag">${esc(st ? st.category : t.lead.category)}</span><span class="ht">${esc(st ? st.title : t.lead.title)}</span><span class="hn">매체 ${t.outlets}곳</span></a></li>`;
     }).join('')}</ol>`;
+  }
+
+  // 첫 화면에서 같은 소식이 순위표와 정리 기사 목록에 겹쳐 나오지 않도록, 순위표에 오른 정리 기사는 아래 목록에서 숨깁니다.
+  // 전부 겹치는 경우에는 목록이 비지 않게 그대로 둡니다.
+  function dedupeRecaps(top) {
+    const ol = document.querySelector('#recaps ol');
+    if (!ol) return;
+    const used = new Set(top.filter((t) => t.story).map((t) => t.story.id));
+    const items = [...ol.children];
+    const dup = items.map((li) => {
+      const a = li.querySelector('a');
+      const m = a && /([^/]+)\.html$/.exec(a.getAttribute('href') || '');
+      return !!(m && used.has(m[1]));
+    });
+    const keep = dup.filter((x) => !x).length;
+    items.forEach((li, i) => { li.hidden = keep > 0 && dup[i]; });
   }
 
   function related(a) {
