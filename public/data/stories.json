@@ -729,7 +729,25 @@
           "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1732762"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "Nov. 24 AI Briefing: Jensen Huang's Return to Nvidia Sparks Sharp Market Rebound",
+        "points": [
+          "Nvidia CEO's return lifts AI-related stocks sharply",
+          "AI talent stands out in executive reshuffles at Samsung Electronics and Samsung SDS",
+          "Hanwha Aerospace announces 10 trillion won defense AI data center"
+        ],
+        "body": [
+          "Jensen Huang returned as Nvidia CEO 11 days after resigning. Newsis reported that Nvidia's board decided unanimously on the 23rd (local time). According to IT Chosun, Nvidia closed up 31.48% at $165.05 on the New York market on the 23rd, and EBN reported that the KOSPI closed up 6.32% at 5006.03 on the 24th, regaining the 5,000 mark.",
+          "Samsung Electronics promoted 131 executives in its 2027 regular executive reshuffle. Chosun Biz reported the number was 30 fewer than last year but that promotions in the semiconductor division increased. iNews24 reported that key figures behind humanoid development were promoted and a 38-year-old AI expert was picked as the youngest senior vice president.",
+          "Hanwha Aerospace will build a defense AI data center in Changwon, South Gyeongsang Province. Chosun Biz reported that it will invest 10 trillion won in the first phase and begin operating some facilities in July 2028. On the same 24th, Digital Daily reported that Hanwha Aerospace withdrew its investment in quadruped robot company Lion Robotics, and Bloter reported the reason was a disagreement over corporate value and investment terms.",
+          "The Financial Times reported that Amazon is in the final stage of negotiations to acquire Israeli-linked AI startup Decart for about $7.5 billion. Digital Daily and Chosun Biz carried the report, but they differed on when the deal could close, saying early this week and early next week respectively. AI Times explained that it is a strategy to strengthen the competitiveness of Amazon's own AI chips and reduce its dependence on Nvidia.",
+          "LG Uplus will apply Datadog's AI to the operation of ixi-O. Chosun Biz reported on the 24th that LG Uplus is teaming up with Datadog to strengthen ixi-O's quality and stability, and Digital Daily reported that after three months of use, incident response time fell by 85%.",
+          "SOOP will strengthen its search function with its own AI technology. Chosun Biz reported that it will introduce three features: VOD scene search, an AI summary of recent activity, and AI VOD chapters. Betanews reported that beyond the existing search centered on titles and tags, users can check scenes within videos and streamers' main activities.",
+          "Samsung SDS promoted 10 people effective the 24th, including four executive vice presidents and six senior vice presidents. Digital Today reported that it picked talent in AX, cloud and solution-based services, and digital logistics, and that three women leaders were included.",
+          "Hancom is changing the default save format of Hangul for public institutions from HWP to HWPX and will support the entire transition process. Chosun Biz reported that it will also supply a dedicated program that converts existing HWP documents in bulk."
+        ]
+      }
     },
     {
       "id": "h20261124-9fc82571f805",
@@ -780,7 +798,22 @@
           "link": "https://www.inews24.com/view/2029791"
         }
       ],
-      "author": "Chloe Park"
+      "author": "Chloe Park",
+      "en": {
+        "title": "SOOP Introduces Three Features Including VOD Scene Search With Its Own AI",
+        "points": [
+          "Three AI features introduced, including VOD scene search",
+          "Search scope expands to video content and activity summaries",
+          "Uses in-house AI technology, announced on the 24th"
+        ],
+        "body": [
+          "SOOP is strengthening content search within its platform using its own artificial intelligence (AI) technology. According to iNews24, SOOP announced this on the 24th. Its co-CEOs are Choi Young-woo and Lee Min-won.",
+          "Three features are being introduced. Chosun Biz and Inven cited video-on-demand (VOD) scene search, an AI summary of recent activity, and AI VOD chapters. Betanews reported that these features use the company's own technology.",
+          "The change in how search works was described as follows. According to Inven and Betanews, search used to center on video titles and tags, but going forward users can search for specific scenes and key segments in a VOD and watch them right away. Users can also easily check streamers' main activities. EBN reported that it summarizes the main segments of a broadcast to make content easier to browse.",
+          "The outlets' headlines emphasized different points. iNews24 led with finding the desired scene within a replay, Chosun Biz with stronger AI search, and Betanews with the use of in-house technology.",
+          "Glossary: VOD is a service that lets people watch a broadcast or video again at a time of their choosing. A chapter is a list that divides a long video into sections by topic or segment."
+        ]
+      }
     },
     {
       "id": "h20261124-450eb93cd79a",
@@ -867,7 +900,22 @@
           "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=716788"
         }
       ],
-      "author": "Haley Yun"
+      "author": "Haley Yun",
+      "en": {
+        "title": "LG Uplus Cuts ixi-O Incident Response Time 85% With Datadog AI",
+        "points": [
+          "Datadog's Bits AI applied to ixi-O operations",
+          "Incident response time down 85% after three months",
+          "AI proactive action for 4.2 million IPTV units also applied on the 18th"
+        ],
+        "body": [
+          "LG Uplus is teaming up with global software company Datadog to improve the service quality and stability of its AI call agent service ixi-O. Chosun Biz reported that LG Uplus announced this on the 24th. According to Boannews, LG Uplus is applying Datadog's AI feature Bits AI to ixi-O operations to respond quickly to customer inconvenience and incidents.",
+          "Performance figures were also released. Digital Daily reported that three months of using Bits AI cut incident response time by 85%, and Digital Today also reported the 85% reduction in its headline.",
+          "Outlets described the partnership differently. TheElec reported that Datadog said LG Uplus is taking part in its design partner program to improve ixi-O's quality and stability. Datadog was also introduced differently by each outlet. Chosun Biz described it as a Nasdaq-listed global software company headquartered in New York, Boannews as a global observability platform company, and TheElec as an AI-based observability and security platform company.",
+          "Other recent LG Uplus AI news continues. On the 18th, LG Uplus said it had finished expanding its AI proactive action system to 4.2 million IPTV set-top boxes. Digital Today reported that the system analyzes quality data from IPTV devices and the home network to detect early signs of problems such as screen freezing or degraded picture quality, and Betanews described it as preventive quality management that finds and fixes warning signs before customers notice an outage. Techworld News reported that it plans to apply the system to internet wireless routers in turn. On the 19th, an executive reshuffle was announced with two promotions to senior executive vice president and nine new senior vice presidents (IT Chosun). Techworld News and Digital Today reported that the reshuffle focused on expanding the AI business and strengthening the core telecom business.",
+          "Glossary: Observability is the ability to collect data such as logs and metrics that a system produces to understand its internal state and the causes of incidents. An AI agent is an AI service that performs a series of tasks on a user's behalf."
+        ]
+      }
     },
     {
       "id": "h20261124-c8702a06ec4b",
@@ -954,7 +1002,22 @@
           "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1732368"
         }
       ],
-      "author": "Ashley Yang"
+      "author": "Ashley Yang",
+      "en": {
+        "title": "LG CNS Draws 1,300 High Schoolers to AI Education, Adds Physical AI Course Next Year",
+        "points": [
+          "About 1,300 high school students took part this year, a record",
+          "Grand prize went to safe walking route service Gwiga ON",
+          "Physical AI course planned for next year"
+        ],
+        "body": [
+          "LG CNS said on the 23rd that it held the Challenge Day of AI Genius Academy, its AI education program for high school students, at its headquarters at LG Science Park in Magok, Seoul, on the 20th and awarded outstanding projects. Digital Daily introduced the program as a career-design AI social contribution program, and Chosun Biz described it as an AI education social contribution program LG CNS runs for high school students.",
+          "Most outlets reported participation as a record. Techworld News reported that about 1,300 students took part this year, the most since the program began in 2021. EBN reported that LG CNS plans to newly introduce a physical AI course next year.",
+          "Outstanding entries were also introduced. AI Times reported that the grand prize went to Gwiga ON, a walking route recommendation service based on safety information. TheElec reported that high school students used AI to develop services that guide safe walks home and help elderly rehabilitation and mobility for people with disabilities. AI Times said in its headline that an AI cane and a robot for the elderly were also introduced at the event.",
+          "Other LG CNS news followed. On the 19th, LG CNS held a board meeting and carried out its 2027 regular executive reshuffle. Digital Today reported that it included one promotion to executive vice president, two to senior executive vice president, nine new senior vice presidents, one transfer from an affiliate, and one external hire. For the same reshuffle, Digital Today and EBN wrote 12 promotions in their headlines, while iNews24 wrote 14 personnel moves; the difference appears to come from whether the affiliate transfer and external hire are included. EBN reported that it gave key roles to people who will lead AX and global business competitiveness.",
+          "Glossary: Physical AI is AI that perceives its surroundings and moves in a real physical environment, like a robot or machine. AX means AI transformation, introducing AI across a company's work and business."
+        ]
+      }
     },
     {
       "id": "h20261124-bfe6dd9ef447",
@@ -1116,7 +1179,25 @@
           "link": "https://www.aitimes.com/news/articleView.html?idxno=217522"
         }
       ],
-      "author": "Ethan Chen"
+      "author": "Ethan Chen",
+      "en": {
+        "title": "Nvidia Board Decides to Bring Back Jensen Huang as CEO 11 Days After Resignation",
+        "points": [
+          "Board reinstates him unanimously 11 days after he resigned",
+          "Reports differ on signs of Trump's involvement",
+          "Governance steps include a new national security and export control committee"
+        ],
+        "body": [
+          "Nvidia's board announced on the 23rd (local time) that it is immediately reinstating Jensen Huang as president, chief executive officer (CEO) and board director. Newsis and Inven reported that the board decided unanimously after several discussions with Huang. Platum reported that it was his return 11 days after the resignation announcement on the 12th.",
+          "Outlets describe the background to the resignation in different terms. The Scoop wrote that Huang, who had stepped down over a private-life controversy and suspicions of ties to Chinese intelligence, has returned, and IT Chosun reported it was 11 days after he resigned amid suspicions of involvement with Chinese spies. Digital Today wrote that he resigned over an extramarital affair controversy. All of these are expressions carried in Korean media reports.",
+          "The board's grounds for its decision are also being reported. EBN reported that the board decided unanimously after judging there was no national security risk from his return. Digital Daily reported that the board reinstated Huang after hearing from senior U.S. government officials and internal discussions, and is putting in place governance controls including a new national security and export control committee. Chosun Biz reported that Bloomberg, citing sources, said the board is understood to have decided on the return without prior consultation with senior management.",
+          "Reports differ on signs of U.S. President Donald Trump's involvement. According to Chosun Biz, Trump called the board's decision right and appropriate on his social media platform Truth Social. Industry News, citing Semafor and Axios, reported that Trump joined a board meeting by phone and demanded the return. Digital Today, citing The Wall Street Journal, reported that Trump asked Vice President JD Vance to persuade the board. Korea NGO News (한국NGO신문), citing CNBC and others, reported that Trump claimed he persuaded the board, and Newsis reported that Trump said he communicated with the board directly and indirectly.",
+          "Several outlets also pointed out the sudden reversal. Sisa Journal-e reported that it came six days after the board officially announced it had no plan to reinstate Huang, and Digital Today reported that it reversed a decision that had ruled out his return just days earlier. AI Times explained that demands from investors and the AI industry who had called for Huang's return were accepted. TheElec said in its headline that backlash from U.S. political circles is spreading.",
+          "The developments of the past 14 days are as follows. On the 17th, Huang issued his first statement five days after resigning and said he is willing to return if the board asks (Kukmin Ilbo). Bloter reported the same day that the board was not considering a return at that time and was pushing to pick a successor. On the 18th, AI Times reported that the U.S. Securities and Exchange Commission (SEC) is understood to have begun a civil investigation of Nvidia, and that whether information given to investors was misleading is among the main targets.",
+          "The mood on the day of his return was also reported. iNews24 reported that Huang said he wants to get back to work as soon as possible, and AI Times reported that hundreds of employees gathered at headquarters and cheered, and that Tesla CEO Elon Musk and OpenAI CEO Sam Altman, among others, welcomed the move.",
+          "Glossary: Export control is a system in which a government restricts the flow of advanced technology or products abroad. Governance means the corporate structure that sets how a company makes decisions and provides checks and balances."
+        ]
+      }
     },
     {
       "id": "h20261124-47d66a94a0d9",
@@ -1252,7 +1333,23 @@
           "link": "https://www.ngonews.kr/news/articleView.html?idxno=243749"
         }
       ],
-      "author": "Kevin Wong"
+      "author": "Kevin Wong",
+      "en": {
+        "title": "Nvidia Surges 31% on Jensen Huang's Return, KOSPI Regains 5,000",
+        "points": [
+          "Nvidia up 31%, Nasdaq up in the 6% range",
+          "KOSPI rises 6.32% to regain 5,000",
+          "Chip stocks including Samsung Electronics and SK hynix are strong"
+        ],
+        "body": [
+          "News of Nvidia CEO Jensen Huang's return lifted the New York market on the 23rd (local time) and the Korean market on the 24th. According to IT Chosun, Nvidia closed up 31.48% from the previous session at $165.05 on the New York market on the 23rd. AI Times reported that the gain added about $950 billion (about 1,275 trillion won) in market capitalization, while IT Chosun put the increase at $1 trillion in its headline, so the two outlets' tallies are worded differently.",
+          "The timing of intraday moves also differed by outlet. Chosun Biz reported that early in the session Nvidia soared 28.98% and the Nasdaq Composite rose more than 6%. Kukmin Ilbo reported that the Nasdaq was up in the 7% range intraday, but in its post-close article it summarized that the Nasdaq rose 6.5% and all three major New York indexes closed sharply higher. Digital Daily and AI Times explained that semiconductor and data center stocks that plunged last week on AI investment worries rebounded together.",
+          "The Korean market surged on the 24th. Citing Korea Exchange data, EBN reported that the KOSPI closed up 297.49 points (6.32%) from the previous session at 5006.03, regaining the 5,000 mark. IT Chosun reported that as of 9:15 a.m. the KOSPI was up 5.8% and broke through 5,000 intraday. Digital Today and Digital Daily reported that buy-side sidecars were triggered in both the KOSPI and KOSDAQ markets, and Digital Daily added that foreigners and institutions bought large semiconductor stocks heavily. Digital Daily also noted that a buy-side sidecar came just one day after a sell-side sidecar was triggered on the main market.",
+          "Figures for individual stocks differ by time. Chosun Biz reported that in the Nextrade pre-market before the open, as of 8:07 a.m., SK hynix traded at 1,217,000 won, up 132,000 won (12.17%) from the previous close of 1,085,000 won, and Samsung Electronics was up in the 9% range. iNews24 reported that Samsung Electronics and SK hynix soared 7% early in the session. Chosun Biz reported that Doosan traded at 632,000 won, up 16.82% (91,000 won) as of 9:16 a.m. Newsis reported that Taiwan's market also jumped 8.99% on the 24th to regain 40,000.",
+          "The recent trend is also worth noting. On the 17th, Nvidia reported its first quarterly results since former CEO Jensen Huang's resignation. Digital Today, citing The Guardian, reported third-quarter revenue of $115.84 billion and earnings per share of $2.68, and Newsis reported results well above market expectations. On the 20th, IT Chosun reported that the KOSPI fell more than 4% and broke below 4,900 as fund flows among AI-related stocks after Anthropic's listing and suspicions over AMD's China export controls overlapped, and Korea NGO News (한국NGO신문) reported that sell-side sidecars were triggered in the KOSPI and KOSDAQ.",
+          "Glossary: A sidecar is a market stabilization device that halts the effect of program trading orders for a set time when futures prices swing sharply, to reduce the shock to the spot market. A pre-market is a trading session held before regular trading hours begin."
+        ]
+      }
     },
     {
       "id": "s20261124-66b87ee8731f",
@@ -1321,7 +1418,22 @@
           "link": "https://www.bloter.net/news/articleView.html?idxno=679224"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "Samsung SDS Promotes 10 Executives in 2027 Reshuffle, Picks AX and Cloud Talent",
+        "points": [
+          "10 promoted, including four executive vice presidents and six senior vice presidents",
+          "Three women leaders picked",
+          "AX, cloud and digital logistics talent moved to the front"
+        ],
+        "body": [
+          "Samsung SDS carried out its 2027 regular executive reshuffle, promoting 10 people effective the 24th, including four executive vice presidents and six senior vice presidents. Digital Today and Techworld News reported the same size.",
+          "The picks center on AI transformation. Digital Today reported that it picked talent in enterprise AI transformation (AX), cloud and solution-based services, and digital logistics, including three women leaders. AI Newspaper (인공지능신문) reported that, in response to growing corporate demand for AX, it moved business and technology talent in AI services, cloud infrastructure, solutions, and digital logistics to the front, and EBN reported that it picked next-generation leaders to lead AI transformation.",
+          "AI Times reported that the total number of promotions is the same as last year but the number of executive vice president promotions doubled from last year. EBN put AI transformation and the selection of key cloud talent in its breaking-news headline. AI Newspaper (인공지능신문) described it in its headline as a generational change to expand the AX and AI infrastructure business.",
+          "There was earlier news as well. Bloter reported on the 19th that, ahead of the 2027 launch of its robot integrated operations platform, Samsung SDS is securing data technology needed for model training rather than developing AI models itself. The outlet explained that it added synthesizing training data for AI models that connect vision, language and action as a new research task. Bloter reported on the 20th that CEO and President Lee Jun-hee was retained in the regular reshuffle, saying in its headline that it links AI and cloud drives.",
+          "Glossary: AX means AI transformation, introducing AI across a company's work and business. Cloud is a way of renting computing resources such as servers and storage over the internet."
+        ]
+      }
     },
     {
       "id": "s20261124-8d545ceedc43",
@@ -1396,7 +1508,22 @@
           "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=717821"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "Hanwha Aerospace to Build 10 Trillion Won Defense AI Data Center in Changwon",
+        "points": [
+          "Defense AI data center to be built in Changwon, South Gyeongsang",
+          "10 trillion won in first phase, partial operation in July 2028",
+          "Plan to expand to 180MW in the long term"
+        ],
+        "body": [
+          "Hanwha Aerospace will build a defense artificial intelligence (AI) data center in Changwon, South Gyeongsang Province. According to Chosun Biz, Hanwha Aerospace announced its plan to build the Changwon AI data center on the 24th, investing 10 trillion won in the first phase and starting to operate some facilities in July 2028. It plans to expand to 180MW (megawatts) in the long term.",
+          "Outlets emphasized different points. Industry News called it a super-large defense AI data center investing 10 trillion won in the first phase alone, and reported that it extends K-defense competitiveness, once centered on hardware, into an AI-based integrated system. EBN reported that the policy is to quickly build core national security infrastructure under private leadership and respond ahead of time to future battlefield conditions, and explained that it speeds up the military's shift to advanced technology.",
+          "The same day, Hanwha Aerospace said it decided not to invest in quadruped robot company Lion Robotics. Digital Daily and Bloter reported that the two sides failed to narrow differences on terms such as corporate value and investment amount, and Industry News reported that the valuation and terms did not match. Bloter added that its ground and aerial unmanned systems business will proceed as planned.",
+          "There was also government activity the same day. According to Digital Today and Techworld News, Ha Jung-woo, standing vice chair of the National AI Strategy Committee, visited Hanwha Aerospace, Hyundai Wia and the Agency for Defense Development's 5th Technology Research Institute in Changwon, South Gyeongsang, on the 24th to check the status of AI technology development and adoption. Techworld News reported that he checked the status of AI weapon systems, manufacturing AX, and AI infrastructure, and Digital Today said in its headline that he sought ways to support AX.",
+          "Glossary: MW is a unit of power capacity, and 1MW is 1,000kW. A data center's size is often expressed in usable power capacity like this rather than by the number of servers."
+        ]
+      }
     },
     {
       "id": "s20261124-49d4c9fdb34d",
@@ -1453,7 +1580,22 @@
           "link": "https://www.betanews.net/article/view/beta202611190079"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "Amazon Moves to Acquire Israeli AI Startup Decart for $7.5 Billion",
+        "points": [
+          "Reported by FT, about $7.5 billion (about 10 trillion won)",
+          "Reports differ on timing: early this week or early next week",
+          "Strengthens its own AI chips and eases dependence on Nvidia"
+        ],
+        "body": [
+          "Negotiations for Amazon to acquire Israeli-linked AI startup Decart for about $7.5 billion (about 10 trillion won) have entered the final stage. Digital Daily and Chosun Biz reported that the Financial Times (FT), citing sources, said so on the 22nd (local time). Chosun Biz converted the amount to about 10.103 trillion won.",
+          "The two outlets reported the timing of the deal differently. Digital Daily reported that sources said the deal could close as early as this week, while Chosun Biz reported that the FT said it could close as early as next week. IT Chosun reported on the 22nd that Amazon is pursuing an acquisition plan.",
+          "On the 24th, AI Times reported that Amazon decided to put $7.5 billion into securing Decart's core technology and talent and will also bring in the founder. Unlike other outlets that described the talks as in the final stage, this outlet worded it as if the investment had been decided. AI Times explained that it is a strategy to secure software that runs models efficiently on various AI chips, raising the competitiveness of Amazon's own AI chips and lowering its dependence on Nvidia. Digital Daily described it in its headline as a move to keep Nvidia in check.",
+          "There are also recent reports about Amazon. Chosun Biz reported on the 18th that Amazon founder Jeff Bezos advised that Nvidia's next CEO should be found internally and that an outside hire should be a last resort. On the 19th, Betanews covered the big tech investment web revealed by Anthropic's listing, noting in its headline that while ChatGPT and Claude fight, Amazon is a shareholder in both.",
+          "Glossary: An AI chip is a semiconductor designed to process AI computation quickly. If software lets the same AI model run efficiently on many types of chips, a company can depend less on a specific chip supplier."
+        ]
+      }
     },
     {
       "id": "s20261124-967cacb9bbee",
@@ -1516,7 +1658,22 @@
           "link": "https://www.irobotnews.com/news/articleView.html?idxno=49687"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "Samsung Electronics Promotes 131 Executives, Favors HBM and Robotics Talent",
+        "points": [
+          "131 executives promoted, 30 fewer than last year",
+          "Semiconductor talent in HBM and foundry picked",
+          "Humanoid development team promoted, 38-year-old AI expert made senior vice president"
+        ],
+        "body": [
+          "Samsung Electronics promoted 131 executives in its 2027 regular executive reshuffle. Chosun Biz and iNews24 reported that the number of promotions was 30 fewer than last year, and iNews24 said in its headline that promotions fell 19%.",
+          "The semiconductor division's share grew. According to Chosun Biz, total promotions fell but the semiconductor division, which posted record results, saw more promotions, and technical talent who contributed to high bandwidth memory (HBM) and next-generation DRAM development was given key roles. Industry News reported that it picked many technology leaders in robotics and foundry along with core semiconductor talent who led the AI memory market.",
+          "Industry News said in its headline that it moved HBM4, robotics and foundry talent to the front. iNews24 covered the DX division reshuffle separately and cited transformation as its keyword. The outlet reported that key talent in robotics and AI was moved to the front, the people who led humanoid development were promoted together, and a 38-year-old AI expert was picked as the youngest senior vice president.",
+          "Recent developments continue. EBN reported on the 20th that Samsung Electronics promoted Vice President Hwang Sang-joon to president as the new head of the Memory Business in its regular reshuffle of top executives to strengthen HBM competitiveness, and iNews24 reported that Hwang, who had been in charge of memory development, was given charge of the entire business. Robot Newspaper (로봇신문) reported on the 19th, citing Taiwan's DigiTimes, that overseas reports said Samsung Electronics will unveil two humanoid robots at CES 2027 in January next year.",
+          "Glossary: HBM is high bandwidth memory that stacks multiple DRAM chips vertically to speed up data processing and is widely used in AI accelerators. Foundry is the business of manufacturing semiconductors designed by other companies on commission."
+        ]
+      }
     },
     {
       "id": "h20261123-b3f220edac81",
