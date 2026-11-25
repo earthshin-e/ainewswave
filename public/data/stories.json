@@ -84,7 +84,23 @@
           "title": "쓰리뷰, 코오롱베니트 AI 얼라이언스 합류… 국내 최대 규모 AI 사업 협력체",
           "link": "https://www.industrynews.co.kr/news/articleView.html?idxno=89827"
         }
-      ]
+      ],
+      "en": {
+        "title": "Kolon Benit Ramps Up Domestic Supply of Cohesity's AI Assistant Gaia",
+        "points": [
+          "Supplying Gaia, which searches backup data with AI",
+          "Adoption cases introduced at Cohesity's roadshow",
+          "Pilot environment used to expand into the financial sector"
+        ],
+        "body": [
+          "Kolon Benit is ramping up domestic supply of Gaia, Cohesity's AI-based data assistant. Digital Today and Datanet reported that Kolon Benit, the Kolon Group's AX specialist, is using the product to target Korean companies' demand for putting data to use. iNews24 described it as a product that helps companies search and analyze their stored backup and archive data with generative AI.",
+          "The trigger was Catalyst on Tour, a nationwide roadshow Cohesity held in Busan, Gwangju, Daejeon and Seoul from the 3rd to the 17th of this month. According to Techworld News and Chosun Biz, Kolon Benit took part in the event and presented Gaia's adoption and operation cases. TheElec wrote that Kolon Benit also shared its own proof-of-concept results. On the timing of the announcement, Chosun Biz's summary says Kolon Benit announced it on the 18th, while iNews24 reported it on the 25th, so outlets differ.",
+          "AI Newspaper (인공지능신문) explained the technical setup. The outlet reported that Gaia combines retrieval-augmented generation (RAG) and a large language model (LLM) to answer users' natural-language questions. What it answers questions about is the company's backup data. In its headline, Techworld News described this as waking up \"sleeping backup data.\"",
+          "Digital Daily separately reported how supply will expand. Kolon Benit will use a pilot environment, where it adopted Gaia itself and verified Korean-language document search and per-document access control, as customer demo infrastructure and widen supply to the financial sector and others. The outlet introduced the product as on-premises AI search.",
+          "Kolon Benit's recent partnership moves also continued. According to Digital Today, Sseuribyu (쓰리뷰), a manufacturing AX specialist, said on the 19th that it is joining the Kolon Benit AI Alliance led by Kolon Benit. Sseuribyu plans to expand business opportunities by linking with Kolon Benit's industrial customer network in manufacturing, finance, construction and retail. Industry News described the agreement as a strategic memorandum of understanding (MOU).",
+          "Glossary: Retrieval-augmented generation (RAG) is a method in which, when a question comes in, relevant documents are found first and a generative AI builds its answer from what was found. Backup data is data copied and stored separately in preparation for failures."
+        ]
+      }
     },
     {
       "id": "h20261125-6c63b959cf59",
@@ -153,7 +169,22 @@
           "title": "AI 공격보다 느린 패치…오픈AI·시스코의 해법 ‘시루도’ [보안 아웃룩]",
           "link": "https://it.chosun.com/news/articleView.html?idxno=3000000001771"
         }
-      ]
+      ],
+      "en": {
+        "title": "OpenAI and Cisco Release Shirudo, Which Protects Linux Before Patches",
+        "points": [
+          "OpenAI and Cisco release open-source Shirudo",
+          "AI blocks exploitation of vulnerabilities before patches",
+          "Delays in applying patches cited as the background"
+        ],
+        "body": [
+          "OpenAI and Cisco have released Shirudo, an open-source tool that protects Linux systems before security patches are available. According to Boannews, it was released on the 23rd (local time). Digital Today, citing SiliconANGLE, introduced the project the two companies released the same day as the Secure Infrastructure Project, so outlets wrote the name differently.",
+          "AI Times reported that the two companies jointly developed Linux security technology that blocks cyberattacks with AI agents. It is designed so that AI generates and verifies temporary defensive code that blocks exploitation of vulnerabilities, protecting systems without service interruption until the official patch is applied. TheElec wrote that Shirudo means \"shield\" in Japanese, and reported that an AI agent writes defensive code to fit the vulnerability and even tests on its own whether operations continue without interruption.",
+          "Outlets emphasized different points about how it is applied. Boannews wrote that it aims for a structure in which an AI agent analyzes a vulnerability, builds a custom shield, and applies it without stopping the service once an operator approves. Datanet explained that Shirudo is an open-source runtime that uses eBPF, a Linux kernel technology, to monitor suspicious behavior in running systems and apply security policies that block exploitation of vulnerabilities. Digital Daily and AI Newspaper (인공지능신문) pointed out that it protects running systems without stopping the service or restarting the system.",
+          "IT Chosun laid out the background to the release. The outlet reported that as AI advances, vulnerabilities in software are being found and exploit code built faster, while it still takes days to weeks for companies to verify security patches and apply them to production systems. The outlet explained that Shirudo is an attempt to narrow this gap.",
+          "Glossary: eBPF is a technology that safely runs small programs inside the Linux kernel so that system behavior can be observed and controlled. Open source means software whose source code is made public so anyone can inspect and use it."
+        ]
+      }
     },
     {
       "id": "h20261125-dc121993d66e",
@@ -209,7 +240,21 @@
           "title": "포스코DX, 직원이 만든 공장 제어기 분석 플랫폼 사업화 추진",
           "link": "https://www.thelec.kr/news/articleView.html?idxno=65883"
         }
-      ]
+      ],
+      "en": {
+        "title": "POSCO DX's AX Hackathon Season 2 Grand Prize Goes to PLC Reverse-Engineering Automation Platform",
+        "points": [
+          "AX Hackathon Season 2 drew 154 people on 68 teams",
+          "Grand prize went to a PLC reverse-engineering automation platform",
+          "Winning entry to be developed further for sales to outside customers"
+        ],
+        "body": [
+          "POSCO DX held AX Hackathon Season 2 at its Pangyo office in Seongnam, Gyeonggi Province, on the 24th and picked the team that built a PLC reverse-engineering automation platform for controlling industrial equipment as the grand prize winner. iNews24 reported this, and Industry News and Chosun Biz reported that 154 employees on 68 teams took part in the event. POSCO DX announced this on the 25th.",
+          "Outlets described the purpose of the event slightly differently. Chosun Biz wrote that the aim is to raise employees' ability to use AI and find new business opportunities. Digital Daily introduced it as an AX (AI transformation) hackathon to find ideas for work automation and productivity gains. Digital Daily also wrote that among the Season 1 entries earlier this year was a system resource management agent.",
+          "How the winning entry will be used was also reported. TheElec reported that a factory controller analysis platform developed by POSCO DX employees won the grand prize at an in-house AI contest, and that the company plans to develop the winning entry further, apply it on site, and then pursue sales to outside customers. Techworld News reported that after applying an AI agent developed at an in-house hackathon to actual work, the company will also pursue sales to outside customers. Chosun Biz also stated in its headline that it will pursue commercialization of outstanding AI technology.",
+          "Glossary: A PLC (programmable logic controller) is an industrial computer that controls the operation of factory equipment. A hackathon is an event in which teams build ideas into prototypes within a set time."
+        ]
+      }
     },
     {
       "id": "h20261125-9ddd5d46eadb",
@@ -266,7 +311,22 @@
           "title": "핀다, 춘천에 'AI 네이티브 뱅크' 거점⋯내년 초 핀다뱅크 출범 추진",
           "link": "https://www.inews24.com/view/2030275"
         }
-      ]
+      ],
+      "en": {
+        "title": "Finda to Move Savings Bank Headquarters to Chuncheon and Pursue 'AI-Native Bank'",
+        "points": [
+          "Finda moves savings bank headquarters from Gyeongju to Chuncheon",
+          "Plans to launch AI-based Finda Bank early next year",
+          "AI agents to handle repetitive tasks and data analysis"
+        ],
+        "body": [
+          "Fintech company Finda will move the headquarters of Daewon Savings Bank, which it acquired, from Gyeongju, North Gyeongsang Province, to Chuncheon, Gangwon Province, and build an AI-centered banking model there. Finda announced this on the 25th. According to VentureSquare, Daewon Savings Bank will change its name to Finda Savings Bank.",
+          "Chosun Biz and Digital Daily reported that the headquarters move will be finalized after a shareholders' meeting next month. Chosun Biz wrote that Finda acquired the savings bank on the 21st of last month as the first Korean fintech company to do so, and Digital Daily also mentioned that it was the first fintech company.",
+          "Several outlets reported on the AI transformation plan. VentureSquare wrote that in early 2027 it plans to launch Finda Bank, an \"AI Native Bank\" that redesigns major banking tasks such as consultation, screening and credit management around AI. Digital Today reported that it will launch the AI-based financial service Finda Bank in early next year and apply AI across savings bank operations including consultation, loan screening and credit management. Industry News explained that it will redesign its organization and work systems around AI.",
+          "iNews24 reported that it is a structure in which AI agents handle repetitive tasks and data analysis.",
+          "Glossary: An AI agent is an AI program that decides its own steps and uses tools to carry out work to achieve a given goal. Credit (여신) refers to a financial institution's business of lending money to customers."
+        ]
+      }
     },
     {
       "id": "h20261125-6ea76eb78d16",
@@ -353,7 +413,22 @@
           "title": "삼성SDS, 2027년 정기 임원 인사…부사장 4명·상무 6명 승진",
           "link": "https://www.betanews.net/article/view/beta202611240147"
         }
-      ]
+      ],
+      "en": {
+        "title": "Samsung SDS and KT Show Public-Sector AX Technology at Government Innovation Expo",
+        "points": [
+          "Government Innovation Expo at KINTEX from the 25th to the 27th",
+          "Samsung SDS presents AI full stack and cases with 18 ministries",
+          "KT also takes part with public-sector AX technology"
+        ],
+        "body": [
+          "Samsung SDS and KT are showing AI transformation (AX) technology for the public sector at the 2026 Korea Government Innovation Expo. The expo runs from the 25th to the 27th at KINTEX Exhibition Hall 1 in Goyang, Gyeonggi Province. Digital Today and iNews24 reported that the Ministry of the Interior and Safety hosts it, and Chosun Biz wrote that the theme is \"Innovation for All, a Reliable Future, Happy Citizens.\"",
+          "Techworld News reported that Samsung SDS is presenting its AI full-stack capabilities that support public institutions' AX, from cloud infrastructure to AI platforms and business solutions. iNews24 reported that it presented three stages of public-sector AI running from infrastructure to platform to business solutions, and also put its cases of collaboration with 18 ministries in the headline. EBN introduced the same content as a case of supplying AI collaboration solutions to 18 central ministries.",
+          "KT is taking part under the theme \"KT AX Connecting Public Work and the Field.\" Digital Daily and Digital Today reported that KT said on the 25th that it is showing AX technology and services that help public institutions innovate their work.",
+          "There is also recent news about Samsung SDS. EBN and Digital Today reported that Samsung SDS said on the 25th that it received a Presidential Commendation, the highest honor, in the AI category of the National Quality Innovation Award at the 52nd National Quality Management Competition. The award is hosted by the Korean Agency for Technology and Standards under the Ministry of Trade, Industry and Resources and organized by the Korean Standards Association. Betanews reported that Samsung SDS carried out its 2027 regular executive reshuffle effective Nov. 24, with 10 promotions including four executive vice presidents and six senior vice presidents.",
+          "Glossary: AX is short for AI transformation, meaning introducing AI across work and services to change how work is done. Full stack refers to a setup in which one company provides multiple layers together, from infrastructure to software to services."
+        ]
+      }
     },
     {
       "id": "b20261125",
@@ -491,7 +566,24 @@
           "link": "https://www.hellot.net/news/article.html?no=116602"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "Nov. 25 AI Briefing: Anthropic Falls Below IPO Price, AI Shield Before Patches Released",
+        "points": [
+          "Valuation concerns stand out right after an AI company's listing",
+          "AI agents spread to security and banking work",
+          "Public-sector and corporate AX events and partnerships follow one after another"
+        ],
+        "body": [
+          "Anthropic's stock fell below its IPO price of $83 four trading days after its Nasdaq listing. According to AI Times, it closed below the IPO price on the 24th (local time), and its market capitalization, which was $2 trillion right after listing, fell to $1.5 trillion intraday. IT Chosun cited controversy over overvaluation, intensifying competition from open-weight models, and concerns over infrastructure investment costs.",
+          "OpenAI and Cisco released Shirudo, an open-source tool that protects Linux systems before security patches are available. Boannews reported that it was released on the 23rd (local time) and aims for a structure in which a defense an AI agent builds after analyzing a vulnerability is applied without stopping the service once an operator approves it.",
+          "Finda said on the 25th that it will move the headquarters of Daewon Savings Bank from Gyeongju, North Gyeongsang Province, to Chuncheon, Gangwon Province, and plans to launch the AI-based Finda Bank early next year. VentureSquare reported that it will redesign major tasks such as consultation, screening and credit management around AI.",
+          "Samsung SDS and KT are taking part in the Government Innovation Expo at KINTEX from the 25th to the 27th and showing public-sector AX technology. Techworld News reported that Samsung SDS is presenting its AI full-stack capabilities.",
+          "Kolon Benit is ramping up domestic supply of Cohesity's AI data assistant Gaia. iNews24 explained that it is a product that helps companies search and analyze backup and archive data with generative AI. At AX Hackathon Season 2, held on the 24th, POSCO DX picked a PLC reverse-engineering automation platform for the grand prize, and TheElec reported that it will pursue sales to outside customers.",
+          "Google signed an official 2027 KBO League partnership with the KBO on the 25th. IT Chosun reported that Google takes part as the official search partner and will introduce Google Search and Gemini through broadcast screens and the KBO's official YouTube and Instagram.",
+          "Cloudera announced Digital Sovereignty, which helps companies keep control of their data, AI models and infrastructure. Techworld News reported that AI can be run without moving data, even in air-gapped environments separated from external networks."
+        ]
+      }
     },
     {
       "id": "s20261125-9666bb381593",
@@ -565,7 +657,21 @@
           "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1732939"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "Anthropic Falls Below IPO Price Four Trading Days After Listing",
+        "points": [
+          "Anthropic's stock falls below IPO price after four trading days",
+          "Market cap falls from $2 trillion to $1.5 trillion intraday",
+          "Overvaluation worries and open-weight competition weigh"
+        ],
+        "body": [
+          "Shares of AI company Anthropic fell below the IPO price of $83 four trading days after its Nasdaq listing. AI Times reported that it closed below the IPO price on the 24th (local time), and Kukmin Ilbo and Newsis reported that this came after the largest initial public offering (IPO) on record.",
+          "According to AI Times, the market capitalization, which reached $2 trillion right after listing, fell to $1.5 trillion (about 2,020 trillion won) intraday. It cited huge infrastructure investment costs and competition from cheap open-weight models as burdens. IT Chosun also pointed to the rapid cooling of investment enthusiasm and controversy over overvaluation, intensifying competition from open-weight models, and concerns over infrastructure investment costs. Newsis reported that there is analysis that, amid worries about an AI investment bubble, the excessive IPO price and size of fundraising instead became a burden.",
+          "On recent developments, Newsis reported that in pre-market trading on the 24th the stock stood at $82.74, below the IPO price of $83 set when it went public on the 19th. Tech M reported that the stock fell 8.5% right after listing. Citing CNBC, Newsis reported that Anthropic's offering alone was more than double the total offerings of all venture capital-backed companies listed on U.S. markets over the previous four years. Citing Reuters, AI Times reported that Anthropic asked investment bank staff taking part in the IPO to limit work with competitors such as OpenAI for six months, drawing complaints on Wall Street. EBN reported that NH-Amundi Asset Management added Anthropic to the HANARO US Agentic AI TOP2+ ETF at a weight of 23.74%.",
+          "Glossary: The IPO price is the price at which investors buy shares when a company first offers them to the market. An open-weight model is an AI model whose trained weights are made public so anyone can download and use it."
+        ]
+      }
     },
     {
       "id": "b20261124",
