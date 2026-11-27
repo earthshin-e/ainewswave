@@ -103,7 +103,24 @@
           "title": "유비소프트 AI 자회사 설립...'지능형 NPC' 개발 경쟁 가속",
           "link": "https://www.techm.kr/news/articleView.html?idxno=157712"
         }
-      ]
+      ],
+      "en": {
+        "title": "Krafton unveils its in-house LLM Raon-1 mini, activating only 4 billion of 30 billion parameters",
+        "points": [
+          "Krafton officially releases Raon-1 mini, an in-house 30B-class LLM",
+          "Mixture-of-experts design activates 4 billion of 30 billion parameters",
+          "Commercial use allowed; larger and voice models planned next"
+        ],
+        "body": [
+          "Krafton released the official version of its in-house large language model (LLM) Raon-1 mini on the 25th. Several outlets, including The Elec, IT Chosun, Chosun Biz, Digital Today and Kukmin Ilbo, reported the news the same day. The Elec, Gametoc, VentureSquare, Chosun Biz and Kukmin Ilbo all wrote that Krafton handled the entire process, from model design to training, on its own.",
+          "The model uses a mixture-of-experts (MoE) design that activates only about 4 billion of its roughly 30 billion (30B) parameters when generating an answer. Gametoc, IT Chosun and Kukmin Ilbo gave these figures in their summaries. VentureSquare said the model also combines Krafton's own linear attention technology to optimize inference cost and response speed. Chosun Biz said in its headline that performance was raised and inference cost lowered.",
+          "Outlets described the performance differently. Gametoc said in its headline that the model outperformed MoE models of the same class, while Industry News wrote in its headline that it beat six comparable overseas models. Inven reported that it scored 64.9 on the MultiChallenge benchmark, higher than comparable models. However, the outlets' summaries do not make clear which models it was compared with or under what conditions.",
+          "Improvements over the preview version were also reported. Platum said that after releasing the preview version, Krafton improved reasoning and performance on complex tasks and added a feature that lets users choose how deeply the model thinks depending on the task. Inven described the same feature as a six-level choice of response mode and added that reasoning and agent performance had improved.",
+          "On usage terms, IT Chosun said companies and developers can download the model and use it in their products or services. Platum wrote in its headline that it is released free for commercial use, and Industry News described it as fully open source, part of a strategy to expand Krafton's influence in the AI ecosystem. Inven mentioned the Apache 2.0 license. Digital Daily reported that Krafton plans to expand its lineup with a large language model and a real-time two-way voice model.",
+          "AI moves in the game industry have continued recently as well. According to VentureSquare, \"Mimesis,\" an AI cooperative horror game from Krafton subsidiary ReluGames, won an excellence award at the 2026 Korea Game Awards on the 19th. The game features an AI monster that imitates the player's appearance, voice and actions. On the 23rd, TechM reported Ubisoft's launch of a generative AI subsidiary called \"Mother Brain,\" and wrote that as competition to develop intelligent NPCs accelerates, Nexon, NCSoft, Krafton and Wemade are mentioned among Korean game companies.",
+          "Glossary: Mixture of experts (MoE) is a model architecture that selects and computes with only some of its many expert neural networks for each input. Parameters are values a model adjusts during training and are commonly used as a measure of model size."
+        ]
+      }
     },
     {
       "id": "h20261126-957da8d08e9f",
@@ -204,7 +221,24 @@
           "title": "커지는 국방 AI 예산… 통신·플랫폼 기업, 전담 TF 꾸리고 軍과 협력 강화",
           "link": "https://biz.chosun.com/it-science/ict/2026/11/25/OUQXWLVLHFESTCCI367F5JWZYM"
         }
-      ]
+      ],
+      "en": {
+        "title": "Naver Cloud, KHNP and KEPCO KDN team up on nuclear AX, with field staff building AI agents themselves",
+        "points": [
+          "Naver Cloud, KHNP and KEPCO KDN sign a nuclear AX agreement",
+          "Framework lets field staff develop AI agents directly",
+          "Builds on Naver Cloud's 2024 generative AI platform for KHNP"
+        ],
+        "body": [
+          "Naver Cloud signed a memorandum of understanding (MOU) on technology cooperation with Korea Hydro & Nuclear Power (KHNP) and KEPCO KDN for AI transformation (AX) in the nuclear sector. According to AI Newspaper (인공지능신문) and EBN, the agreement was signed on the 24th at KHNP's headquarters in Gyeongju, and Naver Cloud announced it on the 25th. The Elec wrote that it was signed on the 25th, so the date differs by outlet. Betanews, which covered the KEPCO KDN side, reported in its article dated the 24th that the agreement was signed at KHNP headquarters on the 24th.",
+          "Betanews reported that KEPCO KDN CEO Park Sang-hyung, KHNP CEO Kim Hoe-cheon and Naver Cloud CEO Kim Yu-won attended the signing ceremony. As summarized by AI Newspaper (인공지능신문) and Digital Today, the three companies will jointly pursue nuclear operations innovation strategies and the discovery and support of AI agent-based AX projects. The Elec explained that they will identify tasks within KHNP's nuclear operations to which AI agents can be applied.",
+          "The key point is that field staff build the agents themselves. AI Times and Techworld News said they will create a field-centered AX framework in which staff develop and use AI agents directly. iNews24 wrote that development tools and a demonstration environment will be provided so that field staff plan and develop AI agents themselves. Chosun Biz said in its headline that technology and training will be provided so KHNP employees can build AI agents themselves.",
+          "Outlets also reported how the roles are divided. Chosun Biz said the partnership combines Naver Cloud's AI technology, KHNP's nuclear expertise and data, and KEPCO KDN's information system operations capabilities, and The Elec likewise wrote that KHNP contributes expertise and data while KEPCO KDN contributes information system operating experience. VentureSquare reported that the effort to drive AI agent-centered operations innovation builds on Naver Cloud's 2024 work building KHNP's generative AI platform on HyperCLOVA X.",
+          "Reports citing KEPCO KDN's announcement had a slightly different focus. Datanet said the agreement lays the groundwork for accelerating DX in KHNP's core businesses and stabilizing maintenance, and builds a strategic partnership. Betanews wrote that the parties will pursue joint technology development and demonstrations for AX in the nuclear industry.",
+          "Demand for task-specific AI is spreading to other sectors as well. On the 25th, TechM reported demand for developing and validating task-specific AI services across industries including nuclear power, steel and finance. Also that day, Chosun Biz reported that telecom and IT companies are setting up dedicated teams to win defense AX contracts, and that KT and Naver Cloud have formed defense AX task forces (TFs).",
+          "Glossary: AX is short for AI Transformation, meaning a company or institution adopting AI across its operations and business to change how it works. An AI agent is an AI program that plans and carries out multi-step tasks on its own to achieve a goal set by the user."
+        ]
+      }
     },
     {
       "id": "h20261126-211ee64bd02e",
@@ -305,7 +339,24 @@
           "title": "일론 머스크, 스페이스X 자체 AI 개발에 회의론…\"경쟁 안 되니 컴퓨트 팔자\"",
           "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=718355"
         }
-      ]
+      ],
+      "en": {
+        "title": "U.S. FCC approves up to 1 million SpaceX satellites for space AI data centers",
+        "points": [
+          "FCC approves SpaceX's satellite network for space data centers",
+          "Up to 1 million satellites, a first approval in the U.S.",
+          "Seen as an answer to ground power and land constraints"
+        ],
+        "body": [
+          "The U.S. Federal Communications Commission (FCC) approved SpaceX's plan to build a satellite constellation for space AI data centers. IT Chosun and Digital Today said in their headlines that it was a conditional approval, AI Times said it authorized placing up to 1 million satellites in Earth orbit, and Chosun Biz said it received U.S. government approval. The approval came on the 25th (U.S. time), and Digital Today reported it citing major foreign media.",
+          "The approved scale is up to 1 million satellites. IT Chosun explained that SpaceX's plan is to use these satellites to build data centers that process AI computing in space. IT Chosun, AI Times and Digital Today wrote that this is the first time the FCC has authorized a satellite network for space data centers in the U.S. Chosun Biz described it as the large-scale satellite network plan clearing the first hurdle with regulators.",
+          "On the background, TechM reported that, as power consumption and land constraints for AI data centers worsen, the move is seen as an attempt to overcome the limits of AI infrastructure by using space. AI Times assessed that the idea of extending AI infrastructure into space has cleared a major regulatory barrier. The Maeil Business Newspaper print-edition headline relayed by Hello DD contains an expression asking which part of the industry objected with the words \"Is space only for SpaceX?\"",
+          "The market reacted in early trading on the 26th. Chosun Biz reported that as of 9:38 a.m. on the 26th, Mirae Asset Venture Investment rose 28.04% (4,330 won) from the previous trading day to 19,770 won on the KOSDAQ market. The article said stocks related to space data centers surged on the approval.",
+          "Reports about space data centers had continued before this approval. Chosun Biz, IT Chosun and Newsis reported on the 20th that creditors who took part in SpaceX's financing reportedly tried to block the removal into space of AI chips pledged as loan collateral. Newsis said the financing totaled 43 billion dollars. On the 21st, AI Times treated this as an attempt to restrict the shipment of GPUs and wrote that finance had become a variable in securing the economics of space data centers. Also on the 20th, IT Chosun and AI Times reported that Google chose Blue Origin's New Glenn as the launch vehicle for its space AI data center satellites and plans to launch several satellites carrying its own AI chips in the first quarter of 2029.",
+          "There were also reports on SpaceX's AI strategy. On the 26th, Digital Today reported that CEO Elon Musk reportedly questioned the competitiveness of SpaceX's own AI development and judged that renting out computing resources to outside companies would be more profitable.",
+          "Glossary: The FCC is the U.S. communications regulator and handles licensing of communications businesses, including satellites. A GPU is a chip that processes many calculations at once and is widely used for training and running AI models."
+        ]
+      }
     },
     {
       "id": "h20261126-d828543e6a91",
@@ -393,7 +444,23 @@
           "title": "AI 안경 3파전 예고…AI 뒤처진 애플은 '음질' 승부",
           "link": "https://it.chosun.com/news/articleView.html?idxno=3000000001337"
         }
-      ]
+      ],
+      "en": {
+        "title": "KFTC begins review of Apple iPhone 16 \"AI feature ads\"; Apple says it \"disagrees with the conclusion\"",
+        "points": [
+          "KFTC reviews Apple over iPhone 16 AI feature ads",
+          "Related sales about 3.4 trillion won; fine of up to 53.6 billion won",
+          "Apple says it does not agree with the review report's conclusion"
+        ],
+        "body": [
+          "The Korea Fair Trade Commission (KFTC) has begun sanction proceedings against Apple over the AI feature advertising for the iPhone 16 series. Newsis reported that the KFTC started the proceedings on suspicion that Apple advertised some AI features as if all would be provided, even though whether and when they would be offered was uncertain. Korea NGO Times reported that the case goes before the KFTC's plenary hearing, with Apple's U.S. headquarters and Apple Korea as targets and a violation of the Fair Labeling and Advertising Act as the charge.",
+          "Outlets described the allegation slightly differently. iNews24 wrote that Apple is accused of advertising its AI feature Apple Intelligence while hiding the fact that it might not be delivered on time. TechM described it as omitting important information about whether and when some features would be offered. IT Chosun reported that the KFTC's secretariat judged that Apple deceived consumers by advertising as if the features would be offered on schedule without disclosing that the release of some AI features was uncertain.",
+          "The level of sanction was given as related sales and a cap on the fine. Newsis reported that related sales calculated by the case examiner are about 3.4 trillion won and that the fine could be up to 53.6 billion won, and Kukmin Ilbo also said in its headline that the fine could be up to 53.6 billion won. Kukmin Ilbo explained that the KFTC has put Apple's smartphone advertising before its plenary hearing after Samsung Electronics. IT Chosun reported that the secretariat proposed a corrective order and a fine.",
+          "Apple's position was one of pushback. Newsis and TechM reported that Apple said it does not agree with the conclusion of the review report and will state its position in upcoming deliberations. IT Chosun wrote that Apple objected to the corrective order and fine proposed by the secretariat. The outcome of the review has not yet been announced.",
+          "Recent reports on Apple's AI strategy also continued. Citing Bloomberg, AI Times and Digital Today reported on the 19th that Apple is developing a general-purpose AI agent that handles tasks more complex than the existing \"Siri AI\" autonomously. The system reportedly operates multiple apps and websites and even writes and debugs code. On the 21st, IT Chosun, covering competition in the AI glasses market, reported that Apple is trying to differentiate on sound quality and design while upgrades to its AI assistant Siri are delayed.",
+          "Glossary: The Fair Labeling and Advertising Act prohibits labeling and advertising that can deceive or mislead consumers. Related sales are the sales of goods or services connected to a violation and serve as the basis for calculating fines."
+        ]
+      }
     },
     {
       "id": "h20261126-c0704aa4c53a",
@@ -444,7 +511,22 @@
           "title": "\"AI 가짜 의사 잡는다\"…국민건강증진법 개정안 발의",
           "link": "http://www.docdocdoc.co.kr/news/articleView.html?idxno=3044913"
         }
-      ]
+      ],
+      "en": {
+        "title": "MFDS bans AI fake doctor and professor endorsement ads from the 27th; violators face business suspension",
+        "points": [
+          "Ads with AI-generated fake experts recommending products banned",
+          "Takes effect on the 27th; violators face administrative penalties such as business suspension",
+          "A bill to regulate AI impersonation of experts also introduced in the National Assembly"
+        ],
+        "body": [
+          "The Ministry of Food and Drug Safety (MFDS) will ban ads in which AI-generated fake experts recommend products starting on the 27th. According to AI Times, ads in which AI-created virtual doctors or professors recommend foods, drugs, cosmetics and other products are banned, and violators face administrative penalties such as business suspension or suspension of advertising and sales operations. Daily Pharm and Hit News reported that the MFDS announced this on the 26th.",
+          "The MFDS revised the enforcement rules of related laws to block ads that mislead consumers into thinking fake experts made with AI technology are endorsing or recommending products. Daily Pharm and AI Newspaper (인공지능신문) reported the details. AI Newspaper (인공지능신문) explained that the measure aims to protect consumers from unfair advertising that abuses AI technology, and Daily Pharm wrote that the system takes full effect on November 27.",
+          "Outlets listed the scope of application differently. AI Times gave foods, drugs and cosmetics as examples, while Hit News reported that ads misleading consumers into thinking foods, drugs, quasi-drugs, cosmetics or medical devices are being recommended are banned. AI Newspaper (인공지능신문) described the banned conduct as advertising that guarantees or recommends a product's efficacy and safety. In their headlines, Daily Pharm mentioned fake doctors and pharmacists, and Hit News mentioned fake doctors.",
+          "There was also movement in the National Assembly. According to Young Doctor News (청년의사), Rep. Park Yong-gab of the Democratic Party of Korea on the 25th introduced an amendment to the National Health Promotion Act that would regulate videos impersonating experts using AI and make health information monitoring more effective. The bill seeks to regulate videos that use AI to impersonate healthcare professionals such as doctors and spread false health information.",
+          "Glossary: Enforcement rules are regulations that set the details needed to actually apply what a law and its enforcement decree provide. An administrative penalty is a sanction, such as business suspension, that an administrative agency imposes on a business that broke the law."
+        ]
+      }
     },
     {
       "id": "b20261126",
@@ -582,7 +664,24 @@
           "link": "https://www.aitimes.kr/news/articleView.html?idxno=42906"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "Nov. 26 AI Briefing: Space data center approval and Apple AI ad review",
+        "points": [
+          "U.S. approves up to 1 million satellites for space AI data centers",
+          "KFTC begins review of Apple iPhone 16 AI ads",
+          "AI model release and control debate; ad rules take effect"
+        ],
+        "body": [
+          "SpaceX's plan for space AI data centers has cleared its first regulatory hurdle. According to IT Chosun and AI Times, the U.S. Federal Communications Commission (FCC) on the 25th (U.S. time) authorized placing up to 1 million satellites for space data centers, the first approval of such a satellite network in the U.S. IT Chosun called it a conditional approval. TechM interpreted the move as coming as power consumption and land constraints for AI data centers worsen.",
+          "The Korea Fair Trade Commission is reviewing Apple's iPhone 16 AI feature advertising. Newsis said the allegation is that Apple advertised some AI features as if all would be provided even though whether and when they would be offered was uncertain, and that related sales calculated by the case examiner are about 3.4 trillion won with a fine of up to 53.6 billion won. TechM reported that Apple does not agree with the conclusion of the review report and will state its position in the review.",
+          "Krafton released the official version of its in-house LLM Raon-1 mini on the 25th. IT Chosun reported that it is designed to use only about 4 billion of its roughly 30 billion parameters when generating an answer and that companies and developers can download and use it. Inven wrote that it scored 64.9 on the MultiChallenge benchmark. Digital Daily reported that Krafton plans to expand its lineup with a large language model and a real-time two-way voice model.",
+          "Ads featuring AI-generated fake experts are banned from the 27th. AI Times reported that ads in which AI-created virtual doctors or professors recommend foods, drugs, cosmetics and other products are banned, and violators face administrative penalties such as business suspension. Daily Pharm reported that the MFDS announced this on the 26th.",
+          "Anthropic CEO Dario Amodei pushed back on claims that humans should hand control over to AI. Chosun Biz reported that he posted on X to the effect that humanity's free will must not be handed over to AI systems, while AI Newspaper (인공지능신문) wrote that he stressed increasingly advanced AI must be controlled through legitimate democratic procedures. AI Times reported that his position is that human governance and the automation of individual tasks are separate matters.",
+          "Enhans was appointed a private AI advisory company to the Defense Intelligence Agency. Hello T reported that Enhans will provide advice across AI, including data standardization and specialized technical support, through the end of 2027. Jiran Soft said on the 26th that it has linked an AI filter to its web filter and server filter to find even personal information inside images, and iNews24 explained that it reads text in images using optical character recognition (OCR).",
+          "The Ministry of SMEs and Startups held a media day for \"COMEUP 2026\" on the 26th. AI Newspaper (인공지능신문) reported that COMEUP, Korea's largest global startup event, will introduce an AI-based business matching system and be held on its largest scale ever. Digital Daily said in its headline that 463 companies from 55 countries will gather."
+        ]
+      }
     },
     {
       "id": "s20261126-feb8566f368e",
@@ -657,7 +756,22 @@
           "link": "https://www.ngonews.kr/news/articleView.html?idxno=244072"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "Enhans appointed private AI adviser to Defense Intelligence Agency, advising through end of 2027",
+        "points": [
+          "Enhans appointed private AI advisory company to the Defense Intelligence Agency",
+          "Advice on data standardization and technology through end of 2027",
+          "Competition for defense AI contracts and legislative debate continue"
+        ],
+        "body": [
+          "Enterprise agentic AI company Enhans has been appointed a private AI advisory company to the Defense Intelligence Agency. Hello T and Digital Daily reported that Enhans announced this on the 26th. According to Hello T, Enhans will advise the Defense Intelligence Agency across AI, including data standardization and specialized technical support, through the end of 2027. AI Times described the same period as through the end of next year.",
+          "AI Times and Hello T reported the background. The Defense Intelligence Agency is building a cooperation framework with private AI companies to strengthen military intelligence analysis and advance defense AI. Digital Daily reported that Enhans will support military intelligence analysis and greater efficiency in defense operations based on AI technology it has accumulated in private industry. Techworld News summarized that it supports data standardization and the application of AI technology.",
+          "VentureSquare headlined the news as extending enterprise task automation technology into defense, and reported that an AI operations support system and the review of construction cost work at the Armed Forces Financial Management Corps had previously been mentioned.",
+          "Recent trends in defense AI are active. On the 25th, Chosun Biz reported that telecom and IT companies are setting up dedicated teams to win defense AX contracts, with KT and Naver Cloud forming defense AX task forces (TFs) and SK Telecom forming an enterprise TF. According to Chosun Biz, Hanwha Aerospace said on the 24th that it will build a defense AI data center in Changwon, South Gyeongsang Province, investing 10 trillion won in the first phase, with some facilities to begin operating in July 2028. The same day, The Elec reported that KT signed an MOU to support research on the Army's next-generation command and control system. On the 25th, Korea NGO Times reported that People's Solidarity for Participatory Democracy voiced concern that defense AI legislation is being rushed.",
+          "Glossary: Agentic AI is AI that plans for itself and carries out multi-step tasks to achieve a given goal. Data standardization is unifying data in different formats under the same rules so it is easier to use."
+        ]
+      }
     },
     {
       "id": "s20261126-52deff06343d",
@@ -726,7 +840,22 @@
           "link": "https://www.boannews.com/news/articleView.html?idxno=147530"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "Jiran Soft links AI Filter to its web and server filters, detecting personal data even inside images",
+        "points": [
+          "AI Filter linked to web filter and server filter",
+          "Detects personal data in scanned documents and ID photos",
+          "Uses OCR to read text in images for inspection"
+        ],
+        "body": [
+          "Jiran Soft has linked its AI-based personal data detection engine \"AI Filter\" to its privacy protection solutions \"Web Filter\" and \"Server Filter.\" Techworld News, Digital Today, iNews24 and Datanet reported that Jiran Soft announced this on the 26th. IT Chosun explained that the coverage of personal data protection for web posts and documents stored on servers has been extended to images.",
+          "The key is finding personal data inside images, which was hard to catch with text inspection. Digital Today, IT Chosun and Datanet gave examples of files where text is stored as an image, such as scanned contracts or photos of ID cards taken with a mobile phone. iNews24 reported that AI Filter reads text in images using optical character recognition (OCR) technology.",
+          "The wording differs. Techworld News said it was linked, while iNews24 wrote that it has been linked and is being offered. Digital Today, citing the company, said it supports finding and masking personal data inside images. Datanet wrote that it offers a setup that finds and masks it.",
+          "Recent news on personal data and AI also continued. On the 23rd, Digital Today and Digital Daily reported that the Personal Information Protection Commission is giving advance notice, until Jan. 4, 2027, of an amendment to the enforcement decree of the Personal Information Protection Act containing detailed criteria for a special provision on processing personal data for AI development. On the 25th, Boan News reported that Intbridge added an MCP server inspection feature to its personal data detection solution \"Pyro.\"",
+          "Glossary: Optical character recognition (OCR) is technology that converts text in an image into character data a computer can process."
+        ]
+      }
     },
     {
       "id": "s20261126-cd112e34f5da",
@@ -796,7 +925,23 @@
           "link": "https://www.kmib.co.kr/article/20261119501957"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "Anthropic CEO Amodei: \"Humans must not hand free will over to AI,\" rebutting control controversy",
+        "points": [
+          "Amodei rebuts claim that human control should be handed to AI",
+          "Stresses AI must be controlled through democratic procedures",
+          "Says human governance and task automation are separate"
+        ],
+        "body": [
+          "Anthropic CEO Dario Amodei directly rebutted claims that humans should hand decision-making authority to AI. Chosun Biz reported that Amodei posted on the social network X on the 26th (Korean time), rebutting claims from some quarters. Digital Today reported the same news as of the 25th (U.S. time).",
+          "The core of the rebuttal is that human control must not be handed to AI. AI Newspaper (인공지능신문) reported that Amodei said he strongly opposes handing human free will and governing authority to AI, and stressed that increasingly advanced AI must be controlled through legitimate democratic procedures. AI Times wrote that Amodei's position is that human governance and the automation of individual tasks are separate issues.",
+          "The background of the reports differed by outlet. AI Times reported that Amodei strongly objected to reports that he supports handing human decision-making authority to superintelligence, and mentioned Axios. Chosun Biz described it as rebutting claims from some quarters that he holds such a view. AI Times added that while stressing human control, he also criticized other AI company chiefs who are in practice competing to automate work.",
+          "Digital Today reported that as competition in technology development among global AI companies intensifies, debate over human control and AI autonomy is also heating up.",
+          "Anthropic has also drawn attention recently for its public listing. Chosun Biz reported that Anthropic rose 17% from its offering price on its first day of trading on Nasdaq on the 19th (U.S. time). Industry News reported that the offering price was 83 dollars, the closing price was 97.17 dollars and the offering size was 81.3 billion dollars. The company's valuation differs by outlet: AI Times put it at 2 trillion dollars on the first day of listing, while Kukmin Ilbo put it at about 1.5 trillion dollars.",
+          "Glossary: Superintelligence is a hypothetical AI that surpasses human intelligence in almost every field."
+        ]
+      }
     },
     {
       "id": "s20261126-fd742cb8773c",
@@ -853,7 +998,22 @@
           "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1733024"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "Samsung Electronics Service holds 31st technical competition, also evaluating AI skills",
+        "points": [
+          "Samsung Electronics Service holds technical competition on the 25th and 26th",
+          "Five repair events and five service and safety innovation events",
+          "Strengthening engineer skills as AI appliances spread"
+        ],
+        "body": [
+          "Samsung Electronics Service held its 31st \"Service Technology Competition and Safety Innovation Contest\" at the Samsung Electronics CS Academy in Suwon, Gyeonggi Province. Techworld News, Digital Daily and Chosun Biz reported that the contest runs from the 25th to the 26th, and Digital Today wrote that Samsung Electronics Service announced this on the 26th. Digital Today relayed the company's explanation that the aim is to build engineers' technical skills and find innovation cases that contribute to customer-satisfying service.",
+          "Chosun Biz noted that Samsung Electronics Service introduced a service technology competition in 1986, a first in the industry. It reported that this year there are five repair competition events and five events for presenting service and safety innovation cases.",
+          "The spread of AI was cited as the background to this year's contest. Digital Daily reported that it aims to strengthen engineers' technical skills and safety management in response to changes in the service environment from the spread of AI technology. EBN explained that the intent is to build comprehensive product inspection skills and a safe service environment suited to a world where AI appliances spread and products are more connected. iNews24 also reported that it strengthens engineers' technical expertise and safety capabilities in response to changes in the service environment from the spread of AI.",
+          "Several outlets' headlines emphasized the evaluation of AI use skills. Digital Today, Chosun Biz and Digital Daily said in their headlines that the contest also evaluates AI skills. The outlets' summaries do not make clear which events or methods the evaluation will use.",
+          "Glossary: AI appliances are home appliances with built-in artificial intelligence that connect with other devices or operate to suit the user's situation."
+        ]
+      }
     },
     {
       "id": "s20261126-3243f0049184",
@@ -922,7 +1082,22 @@
           "link": "https://www.thelec.kr/news/articleView.html?idxno=65924"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "LH unveils AI patrol robot and modular house at Smart Construction Safety AI Expo",
+        "points": [
+          "LH takes part in smart construction expo at KINTEX, 25th to 27th",
+          "Quadruped robot and AI detect hazards at construction sites",
+          "AI-equipped 46 sq. m modular house unveiled"
+        ],
+        "body": [
+          "Korea Land and Housing Corporation (LH) is showcasing AI- and robot-based smart construction technology at the \"2026 Smart Construction Safety AI EXPO,\" held at KINTEX in Goyang, Gyeonggi Province, from the 25th to the 27th. LH said on the 25th that it is taking part as a co-organizer. Chosun Biz reported that the event, hosted by the Ministry of Land, Infrastructure and Transport, is co-organized by seven public institutions including LH.",
+          "The focus of the exhibition is safety management at construction sites. According to Betanews, technology was unveiled in which AI analyzes the level of risk at a construction site and a quadruped robot detects hazards. Industry News, reporting on a quadruped robot demonstration, wrote that LH is setting up an experiential exhibition of about 400 sq. m.",
+          "In housing, an AI-equipped modular house was shown. Betanews introduced a modular house that automatically controls the living environment according to residents' daily patterns and detects falls. Industry News stated in its headline that it is a 46 sq. m modular house.",
+          "There was also news around the event. Chosun Biz and Newsis reported that the ministry is holding the expo, now in its seventh year, under the theme \"A Safer and Smarter Future of Construction Opened by AI and Robots.\" The Elec reported that Intellivix demonstrated its quadruped autonomous patrol robot \"Argos\" at the expo on the 25th, and that Ha Jung-woo, vice chair of the National AI Strategy Committee, and Land Minister Hong Ji-seon visited the demonstration site.",
+          "Glossary: A modular house is a house whose main structures are built in advance in a factory and then assembled on site. A quadruped robot is a robot that walks on four legs."
+        ]
+      }
     },
     {
       "id": "h20261125-738bd106f3df",
