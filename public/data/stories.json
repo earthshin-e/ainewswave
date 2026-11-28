@@ -66,7 +66,23 @@
           "title": "[현장] 과기부 \"5G 단독모드 상용화, 6G·AI 시대 든든한 디딤돌\"",
           "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1733149"
         }
-      ]
+      ],
+      "en": {
+        "title": "LG Uplus and Hyundai-Kia Robotics Lab trial 5G standalone mode on delivery robots",
+        "points": [
+          "LG Uplus completes 5G SA trial on robots in operation",
+          "Verified with Hyundai-Kia Robotics Lab ahead of commercial launch this year",
+          "Robot communication quality confirmed in a real operating environment"
+        ],
+        "body": [
+          "LG Uplus, together with Hyundai-Kia Robotics Lab, has completed a technology trial applying 5G standalone (SA) mode to robots in actual operation. LG Uplus announced the news on Nov. 27. AI Times, Datanet, Techworld News, Digital Daily, iNews24 and Chosun Biz reported the same story, and Datanet, Techworld News, Digital Daily and iNews24 described the trial as a physical AI trial in their headlines.",
+          "Outlets word the subject of the trial slightly differently. Techworld News and iNews24 reported that 5G SA was applied to Hyundai-Kia's delivery robots, while AI Times, Datanet and Digital Daily wrote that the robots were in actual operation. Chosun Biz described them as in-house delivery robots. Techworld News and iNews24 reported that the trial was conducted on delivery robots operating at Hyundai-Kia's Yangjae headquarters on Nov. 19.",
+          "On the purpose, Datanet and Digital Daily reported that LG Uplus verified communication quality in an environment that needs stable connectivity, such as robots, ahead of this year's commercial launch of 5G SA. Chosun Biz explained that a technology that divides network resources was verified in a real operating environment so that in-house delivery robots can reliably exchange move and stop commands even while transmitting camera video and sensor data.",
+          "AI Times noted that 5G SA communicates using only 5G base stations and a 5G core network, unlike non-standalone (NSA) mode, which runs alongside an LTE network.",
+          "There are also recent developments around 5G SA. EBN reported that at a public-private event on the nationwide commercialization of 5G SA and communications service innovation, held on Nov. 26 at the international conference hall of the Korea Chamber of Commerce and Industry in Seoul, the government said that commercializing 5G SA is a stepping stone toward the 6G and AI era.",
+          "Glossary: 5G standalone (SA) mode is a method of communicating using only 5G base stations and a 5G core network. Physical AI refers to AI operating in real-world environments through physical devices such as robots."
+        ]
+      }
     },
     {
       "id": "h20261127-6f65a7830ca3",
@@ -117,7 +133,22 @@
           "title": "ETRI, 자율 연구 AI '유라' 개발…日·싱가포르 기술 앞서",
           "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=718254"
         }
-      ]
+      ],
+      "en": {
+        "title": "ETRI develops AI agent 'YouRA' that carries out research from topic selection to paper writing on its own",
+        "points": [
+          "ETRI develops autonomous research AI that even writes papers",
+          "Analyzes causes of failure to revise hypotheses and records verification process",
+          "Outperforms Japanese and Singaporean autonomous research AI in comparative evaluation"
+        ],
+        "body": [
+          "The Electronics and Telecommunications Research Institute (ETRI) has developed an autonomous research AI agent that performs research topic selection, hypothesis formation, experiments and verification, and paper writing on its own. According to Digital Today, ETRI named the agent 'YouRA' and announced its development on Nov. 26. AI Times, Hello DD, Chosun Biz and AI Newspaper (인공지능신문) reported the same story.",
+          "The way it handles failure was cited as a distinguishing feature. AI Times reported that when an experiment fails, the agent analyzes the cause and revises its hypothesis or research direction, and it records the research process and verification evidence to raise the reliability of its papers. AI Newspaper (인공지능신문) also explained that it systematically records not only successful experimental results but also the causes of failures and the verification process. AI Newspaper (인공지능신문) said in its headline that ETRI and UST researchers released 'YouRA' as open source.",
+          "Outlets describe the performance comparison differently. Chosun Biz reported that it came out ahead in the paper-completion evaluation in a comparison with autonomous research AI developed by Japan's Sakana AI and the National University of Singapore (NUS). Hello DD reported that it scored higher than representative autonomous research AI from Japan and Singapore in an international public benchmark evaluation. Digital Today summarized this in its headline as outpacing Japanese and Singaporean technology.",
+          "The names used for it also differed. Hello DD and AI Newspaper (인공지능신문) used the term 'AI scientist' in their headlines, while Chosun Biz and Digital Today wrote 'autonomous research AI.'",
+          "Glossary: An AI agent is AI that plans its own steps and uses tools to carry out tasks to achieve a given goal. A benchmark is a public evaluation used to compare the performance of different AIs against the same standard."
+        ]
+      }
     },
     {
       "id": "h20261127-1985a5bc2312",
@@ -162,7 +193,22 @@
           "title": "클로봇, 美 MIT 연구진과 제조 '피지컬 AI' 공동개발 착수… 글로벌 로봇 기술 패권에 도전",
           "link": "https://www.irobotnews.com/news/articleView.html?idxno=49838"
         }
-      ]
+      ],
+      "en": {
+        "title": "Clobot begins joint development of physical AI for manufacturing sites with MIT",
+        "points": [
+          "Clobot starts joint development of manufacturing physical AI with MIT",
+          "Technology for robots to judge exceptions on their own and recover",
+          "International joint project under the GITCC program of the Ministry of Trade, Industry and Energy and KIAT"
+        ],
+        "body": [
+          "Clobot, a robot software company, has signed an agreement with the Massachusetts Institute of Technology (MIT) in the United States and begun full-scale joint development of physical AI technology for manufacturing sites. According to Robot Newspaper, Clobot (CEO Kim Chang-gu) announced the news on Nov. 27. Techworld News, Datanet and EBN reported the same story.",
+          "The research is an international joint R&D project under the Global Industrial Technology Cooperation Center (GITCC) program run by the Ministry of Trade, Industry and Energy and the Korea Institute for Advancement of Technology (KIAT). Datanet and Robot Newspaper reported that MIT is the overseas joint research institution for the project.",
+          "Outlets described the development differently. Techworld News reported that the project will develop technology that lets robots judge for themselves and safely recover from unstructured exceptions that arise during production, going beyond standardized automated processes. EBN described it as AI technology that responds on its own to unexpected situations at manufacturing sites.",
+          "Some outlets also gave the scale and significance. EBN introduced the joint development in its headline as worth 11.7 billion won. The headlines of the other three outlets do not mention the scale. Robot Newspaper wrote in its headline that the company is challenging for global robot technology supremacy.",
+          "Glossary: Physical AI refers to AI operating in real-world environments through physical devices such as robots."
+        ]
+      }
     },
     {
       "id": "h20261127-8715b6cf0240",
@@ -226,7 +272,23 @@
           "title": "아이티센피엔에스, AI 모델·에이전트로 보안 사업 확대",
           "link": "https://it.chosun.com/news/articleView.html?idxno=3000000001658"
         }
-      ]
+      ],
+      "en": {
+        "title": "ITCEN PNS and CyberOne expand AI integrated security business for mid-sized and small companies",
+        "points": [
+          "ITCEN PNS and CyberOne expand AI integrated security",
+          "Based on Palo Alto Networks technology, from deployment to monitoring",
+          "Targets mid-sized and small companies struggling to secure security staff"
+        ],
+        "body": [
+          "ITCEN PNS has teamed up with security firm CyberOne to expand its AI-based integrated security service business for mid-sized and small companies. According to Datanet, ITCEN PNS (CEO Park Won-kyu) and CyberOne (CEO Yuk Dong-hyun) announced the news on Nov. 27. Digital Today, Techworld News and Chosun Biz reported the same story.",
+          "Digital Today reported that the two companies will pursue a joint business covering everything from building security infrastructure to operations and monitoring, based on security technology from global security company Palo Alto Networks. Chosun Biz explained that ITCEN PNS is an official distributor of Palo Alto Networks and also introduced an AI-based next-generation firewall (NGFW) and an extended threat detection and response solution.",
+          "Techworld News was specific about the target customers. It reported that the plan is to win new customers, focusing on companies that struggle to secure and operate security specialists.",
+          "Outlets word the relationship differently. Digital Today wrote that the companies formed a partnership with CyberOne, while Datanet and Techworld News said they will cooperate. Digital Today called the mid-sized and small company market SMB in its headline.",
+          "ITCEN PNS has recently announced a series of AI security initiatives. Digital Today and Datanet reported that the company said on Nov. 23 that it is strengthening its integrated AI security business, which protects the entire AI operating environment, including AI models, applications, data and AI agents. IT Chosun reported that the strategy goes beyond existing AI-based threat detection and response to strengthen an integrated security framework that verifies vulnerabilities in AI systems themselves and protects data and access rights.",
+          "Glossary: A next-generation firewall (NGFW) is a firewall that adds features such as application identification and threat detection to conventional firewall functions."
+        ]
+      }
     },
     {
       "id": "h20261127-946bd36d0f74",
@@ -295,7 +357,22 @@
           "title": "래블업, 美 인사이트와 계약 체결…미국 엔터프라이즈 AI 인프라 시장 본격 공략",
           "link": "https://www.hellot.net/news/article.html?no=116492"
         }
-      ]
+      ],
+      "en": {
+        "title": "Lablup launches 'AI:GO 2.0' to run AI agents on a PC without the cloud",
+        "points": [
+          "Lablup releases local AI desktop app AI:GO 2.0",
+          "Runs language, vision, image and voice models in one app",
+          "Runs agents on a personal PC without relying on the cloud"
+        ],
+        "body": [
+          "Lablup (CEO Jeong-kyu Shin), an AI infrastructure software company, has released AI:GO 2.0, a local AI desktop app that runs AI models and agents directly on a personal PC without relying on an external cloud. Hello T and Techworld News reported that Lablup announced the news on Nov. 27, and AI Newspaper (인공지능신문) wrote that it was released on Nov. 27. AI Times, IT Chosun and Platum also covered the story.",
+          "AI Times, AI Newspaper (인공지능신문) and Techworld News explained that the app runs local language, vision, image and voice AI models in a single app.",
+          "IT Chosun introduced it as a way to easily run open-weight AI models on a personal PC and use them for work. The explanation is that users can download AI models published on Hugging Face and elsewhere to fit their PC's specifications and run them, and can do agent tasks such as file editing and data analysis without relying on an external cloud. Platum wrote in its headline that if you hand over a PC folder, the AI edits the files directly, and reported that models and agents run inside the personal PC without uploading files to the cloud.",
+          "Lablup has also recently announced news from its U.S. business. AI Times reported that Lablup USA, the company's U.S. subsidiary, said on Nov. 23 that it signed a business partnership with Insight Enterprises, a local enterprise solutions specialist. Hello T introduced the same news in its headline as the signing of a contract and a push into the U.S. enterprise AI infrastructure market.",
+          "Glossary: Local AI is a method of running AI models directly on the user's own device rather than on cloud servers. An open-weight model is an AI model whose trained weights are published so anyone can download and run it."
+        ]
+      }
     },
     {
       "id": "b20261127",
@@ -531,7 +608,26 @@
           "link": "https://www.ddaily.co.kr/page/view/2026112712135653207"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "Nov. 27 AI Briefing: Robot communication trial and Nvidia halts shipments to Southeast Asia",
+        "points": [
+          "Robot communication trial, training data standard and the spread of physical AI",
+          "Report says Nvidia halts AI server shipments to four Southeast Asian countries",
+          "Huawei to reveal HBM design, while AX expands in Korea"
+        ],
+        "body": [
+          "LG Uplus said on Nov. 27 that it has completed a technology trial applying 5G standalone (SA) mode to robots in actual operation with Hyundai-Kia Robotics Lab. Datanet and Digital Daily reported that it verified communication quality in an environment that needs stable connectivity ahead of this year's commercial launch of 5G SA.",
+          "Clobot has signed an agreement with MIT in the United States and begun joint development of physical AI for manufacturing sites. Techworld News reported that the project will develop technology that lets robots judge for themselves and safely recover from unstructured exceptions that arise during production, and EBN introduced it in its headline as worth 11.7 billion won.",
+          "The Korean Agency for Technology and Standards under the Ministry of Trade, Industry and Energy will put out a draft Korean Industrial Standard (KS) for a 'dataset for robot manipulation learning' for public notice for 60 days starting Nov. 27 and collect industry opinions. AI Times reported that in overseas research the average task success rate was 41% for an AI model trained on individual data and 63% for a model trained on data from multiple robot types together.",
+          "Nvidia has halted shipments of AI servers to four Southeast Asian countries in line with tighter U.S. export controls on China. Digital Today reported that Nvidia asked its manufacturing partners to halt shipments, and AI Times reported that it has also begun restricting GPU supply to cloud companies that lease computing resources to Chinese firms.",
+          "According to Bloomberg, Huawei researchers have developed an HBM design with twice the data pin density of chips mass-produced by Samsung Electronics and SK hynix. The research is scheduled to be presented as a paper at a conference in San Francisco in February next year, and AI Times reported that it has not been confirmed whether an actual chip has been built or its performance verified.",
+          "Lablup has released AI:GO 2.0, a local AI desktop app that runs AI models and agents directly on a personal PC without the cloud. According to AI Times and Techworld News, the app runs language, vision, image and voice models in a single app.",
+          "ETRI has developed 'YouRA,' an autonomous research AI agent that performs everything from research topic selection to hypothesis formation, experiments and paper writing on its own. Chosun Biz reported that it came out ahead in the paper-completion evaluation in a comparison with autonomous research AI developed by Japan's Sakana AI and the National University of Singapore.",
+          "Konan Technology will open the Gyeongnam Manufacturing AX Technology Center in Changwon, South Gyeongsang Province, to support the AI transformation of defense, shipbuilding and manufacturing companies. A plaque-unveiling ceremony is scheduled for Dec. 10 at the AI Innovation Headquarters of Gyeongnam Technopark, and Digital Daily reported that it will turn skilled workers' know-how into data for use in quality control and equipment inspection.",
+          "Hyundai E&C won innovation awards in three categories, complexes, housing and BIM (building information modeling), and railways, at the 2026 Smart Construction Challenge hosted by the Ministry of Land, Infrastructure and Transport on Nov. 25. EBN reported that the company is advancing its quality control, design automation and facility safety management systems at construction sites with AI and digital technology."
+        ]
+      }
     },
     {
       "id": "s20261127-288423804d9c",
@@ -606,7 +702,22 @@
           "link": "https://www.newsis.com/view/NISX20261124_0003880862"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "Nvidia halts AI server shipments to four Southeast Asian countries",
+        "points": [
+          "Halts shipments to four Southeast Asian countries in line with tighter U.S. export controls",
+          "Aimed at blocking indirect access by Chinese firms",
+          "Also restricts supply to cloud companies that lease GPUs"
+        ],
+        "body": [
+          "Nvidia has halted shipments of AI servers to four Southeast Asian countries in line with tighter U.S. export controls on China. Digital Today reported that the Financial Times (FT) reported the news on Nov. 26 (local time). AI Times, Newsis, Chosun Biz, Digital Daily and IT Chosun also covered the story.",
+          "Outlets word it differently. AI Times, Newsis and Digital Daily wrote that Nvidia halted shipments. Digital Today reported that Nvidia asked its manufacturing partners to halt shipments, while Chosun Biz wrote that it is reported to have instructed manufacturing partners to stop shipping. Chosun Biz named the target countries as Malaysia, Singapore, Thailand and Indonesia.",
+          "Digital Daily mentioned server manufacturing partners such as Dell and Supermicro as targets. AI Times reported that Nvidia has also begun restricting GPU supply to cloud companies that lease computing resources to Chinese firms, and that a blow is expected to China's AI model development and the Southeast Asian data center industry. IT Chosun reported that Nvidia chip resellers have notified neocloud companies with Chinese firms as customers that they will stop supplying GPUs.",
+          "Similar reports have followed recently. AI Times reported on Nov. 20 that it was revealed that the U.S. Department of Commerce approved exports of about 880,000 AI chips from Nvidia and AMD to Chinese firms, and Newsis reported on Nov. 24 that the U.S. government put seven Southeast Asian companies, including Singapore data center company Megaspeed, on its export restriction list. Digital Daily reported that Nvidia had been supplying cutting-edge AI chips to U.S.-based partners controlled by Chinese capital, and that signs were detected that these chips were being diverted to China via Southeast Asia.",
+          "Glossary: A GPU (graphics processing unit) is a semiconductor that processes large volumes of calculations simultaneously and is widely used for AI training and inference. Neocloud is a term used for new cloud companies that specialize in renting out GPU computing resources."
+        ]
+      }
     },
     {
       "id": "s20261127-e86ce11782bc",
@@ -675,7 +786,22 @@
           "link": "https://www.aitimes.kr/news/articleView.html?idxno=42833"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "Ministry of Trade, Industry and Energy moves to set national standard for robot learning data",
+        "points": [
+          "Korean Agency for Technology and Standards gives notice of draft KS for robot learning data",
+          "Industry opinions collected for 60 days from Nov. 27",
+          "Aims to allow data sharing and reuse across different robot types"
+        ],
+        "body": [
+          "The Korean Agency for Technology and Standards under the Ministry of Trade, Industry and Energy is moving to establish a Korean Industrial Standard (KS) to promote the sharing and use of learning data for AI robots such as humanoids. According to Newsis, Hello T and Beta News, the agency will put out a draft KS for a 'dataset for robot manipulation learning' for public notice for 60 days starting Nov. 27 and collect industry opinions. Newsis and EBN reported in their headlines that the standard would be established in the first half of next year.",
+          "Outlets described the purpose slightly differently. Electric Times reported that it is to unify the different data structures and attributes of each robot and thereby promote data sharing and reuse among companies. EBN reported that the idea is to standardize the data structures and storage methods that differ from robot to robot and raise the efficiency of technology development among companies. AI Newspaper (인공지능신문) reported that the aim is to secure interoperability of robot learning data that companies and research institutions have built individually.",
+          "AI Times explained that it is a standard that enables learning data from AI robots of different manufacturers and models to be shared and reused. The outlet reported that in overseas research the average task success rate was 41% for an AI model trained on individual data and 63% for a model trained on data from multiple robot types together.",
+          "There have also been recent moves around robot learning data. AI Newspaper (인공지능신문) reported on Nov. 21 that Humin Labs, a physical AI startup that converts human work experience into robot learning data, raised a Series A round of $47 million (about 63.3 billion won) led by venture capital firm Accel and will build global robot demonstration infrastructure including in Korea.",
+          "Glossary: A Korean Industrial Standard (KS) is a national standard set to unify the specifications and quality of industrial products and services. Interoperability is the ability of different systems to exchange data and work together."
+        ]
+      }
     },
     {
       "id": "s20261127-afda51d2dd12",
@@ -738,7 +864,22 @@
           "link": "https://www.sisajournal-e.com/news/articleView.html?idxno=425302"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "Huawei to reveal next-generation HBM design with twice the data pin density",
+        "points": [
+          "Huawei researchers develop HBM design with twice the data pin density",
+          "Paper to be presented at a conference next February",
+          "Whether an actual chip was built and its performance verified is unconfirmed"
+        ],
+        "body": [
+          "Bloomberg reported on Nov. 26 (local time) that China's Huawei plans to unveil a design that challenges the high-bandwidth memory (HBM) market led by Samsung Electronics and SK hynix. According to Digital Today, Huawei researchers developed an HBM design with twice the data pin density of chips that Samsung Electronics and SK hynix currently mass-produce. EBN reported that the Huawei researchers will present a research paper on the work at a conference in San Francisco, U.S., in February next year.",
+          "Outlets described the basis of comparison differently. AI Times reported that the design has twice as many data input and output pins as HBM4, the latest product from Korean companies, while Chosun Biz and EBN wrote that it is twice that of existing mass-produced products. AI Times added that it has not been confirmed whether an actual chip has been built or its performance verified.",
+          "Background explanations also appeared. Bloter explained that China is trying to produce key AI chip components itself after U.S. sanctions cut off their supply inside China, and Chosun Biz reported that China's attempt at technological self-reliance is gathering pace in the HBM market led by Samsung Electronics, SK hynix and U.S.-based Micron.",
+          "A related report came out first on Nov. 25. The Elec reported that while Samsung Electronics and SK hynix are set to present research results on seventh-generation HBM (HBM4E) and a next-generation DRAM structure using vertical gates, respectively, at the International Solid-State Circuits Conference (ISSCC) in February next year, Huawei and ChangXin Memory Technologies (CXMT) will also present papers in the same field in the same session. Sisa Journal-e reported that Huawei is understood to have begun developing customer-specific HBM using hybrid bonding advanced packaging technology.",
+          "Glossary: HBM (high-bandwidth memory) is memory that stacks DRAM in multiple layers to widen data transfer bandwidth, and it is widely used in AI accelerators. Hybrid bonding is a packaging technology that stacks chips by joining them directly, without bumps."
+        ]
+      }
     },
     {
       "id": "s20261127-696f9654b2bf",
@@ -808,7 +949,23 @@
           "link": "https://www.aitimes.com/news/articleView.html?idxno=217776"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "Naver Cloud brings image generation model to government-wide AI common platform",
+        "points": [
+          "Image generation model applied to government-wide AI common platform",
+          "Public officials can create policy promotional materials on the administrative network",
+          "Naver Works used by 52 institutions including 25 central ministries"
+        ],
+        "body": [
+          "Naver Cloud is bringing an image generation model to the government-wide AI common platform and upgrading its public-sector AI services. According to Techworld News and Digital Today, Naver Cloud announced the news on Nov. 26. Digital Today also reported the schedule of the '2026 Korea Government Innovation Expo,' held through Nov. 27 at KINTEX in Goyang, Gyeonggi Province.",
+          "According to AI Times, the image generation model was newly applied to CLOVA Studio for GOV, an AI development tool. VentureSquare explained that public officials can create policy promotional content such as posters and card news on the administrative network, and Digital Daily reported that support features were expanded so that policy promotional materials can be produced and AI services suited to each agency's work can be developed.",
+          "Techworld News reported that features for document writing, work automation and AI agent development were also strengthened. Tech M reported that 90 percent of requests received from administrative sites are being reflected in feature improvements, and that dedicated staff are also supporting the settling in of AI agent development at the sites.",
+          "Outlets described the scale of use differently. AI Times mentioned 'On AI,' the government-wide intelligent work management platform used by 52 public institutions including central ministries, while VentureSquare reported that Naver Works is used by a total of 52 institutions including 25 central ministries.",
+          "Recent developments have continued as well. Sisa Journal-e reported on Nov. 25 that Naver Cloud will grow Naver Works, which it introduced to about 25 central ministries, into the foundation for AI agents that handle administrative work, and wrote that whether it can extend the adoption of the collaboration tool into real use of AI assistants suited to each agency's work appears to be the key to success. AI Times reported that Naver Cloud said on Nov. 25 that it signed a memorandum of understanding (MOU) with Korea Hydro & Nuclear Power and KEPCO KDN on AI technology cooperation. Building a field-centered AX framework in which practitioners directly develop and use AI agents was introduced as part of the agreement.",
+          "Glossary: An AI agent is AI that decides and carries out work steps on its own to achieve a given goal. AX means AI transformation, the trend of introducing AI across work and industry to change the way people work."
+        ]
+      }
     },
     {
       "id": "s20261127-45c18e56408f",
@@ -865,7 +1022,22 @@
           "link": "http://www.hellodd.com/news/articleView.html?idxno=113953"
         }
       ],
-      "auto": true
+      "auto": true,
+      "en": {
+        "title": "KT Cloud to pursue Ansan AI data center project with Keppel",
+        "points": [
+          "KT Cloud joins Keppel's Ansan AI data center as a partner",
+          "Ansan 1 and Ansan 2 combine into a 110MW cluster",
+          "KT Group is pursuing its 1GW AIDC roadmap in stages"
+        ],
+        "body": [
+          "KT Cloud is joining an AI data center (AIDC) project in Ansan, Gyeonggi Province, as a partner. According to Chosun Biz, KT Cloud said on Nov. 26 that it will take part as a partner in the 60MW Ansan AI data center being developed by Singapore global asset manager Keppel. Chosun Biz reported that Keppel officially announced the project in June as its first project entering the Korean market.",
+          "Outlets describe the scale differently. Chosun Biz wrote in its headline about supplying a 60MW Ansan data center, while The Elec reported that the 50MW Ansan 1 AIDC currently under construction and the new 60MW facility will together form a 110MW AIDC cluster. Korea NGO News also wrote of a total of 110MW linked with Ansan 1. AI Newspaper (인공지능신문) wrote in its body text that the company is pursuing a supply base for the 60MW Ansan 2 AIDC, and also mentioned a 110MW campus in its headline.",
+          "Korea NGO News reported that KT Group is firming up development of key sites such as Gunsan and Cheongna and is pursuing the Ansan 2 AIDC project following the groundbreaking of the Ansan 1 AIDC, carrying out its 1GW AIDC roadmap in stages. AI Newspaper (인공지능신문) named the KT Cloud CEO as Kim Bong-gyun and introduced the project as Keppel's first data center development project in Korea.",
+          "Policy moves on AIDCs have continued as well. Hello T reported that the Ministry of Science and ICT will give 40 days' advance notice of draft enforcement decrees and rules under the special act on promoting the AI data center industry, from Nov. 20 to Dec. 30. Hello DD reported that support standards for regional AIDCs are being firmed up, including a plan to exempt AIDCs newly built or expanded outside the Seoul metropolitan area from power grid impact assessment up to 50MW of contracted power.",
+          "Glossary: AIDC refers to an AI data center used to train and run inference on AI models. MW (megawatt) is a unit of power capacity and is often used to describe the size of a data center."
+        ]
+      }
     },
     {
       "id": "h20261126-27cff07ac8ba",
